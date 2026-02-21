@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Word temp files
+~$*.docx
+
+# Outputs that can be regenerated (optional)
+reports/*.json
+reports/*.txt

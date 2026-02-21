@@ -1,2 +1,20 @@
-# Auto detect text files and perform LF normalization
+# Normalize text files automatically
 * text=auto
+
+# Explicit text types
+*.py text
+*.md text
+*.html text
+*.css text
+*.json text
+*.yml text
+*.yaml text
+*.txt text
+
+# Keep binary files untouched
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
+*.docx binary
