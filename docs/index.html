@@ -8,6 +8,17 @@
 </head>
 <body>
   <div class="container">
+	<div id="doc-controls">
+	  <div class="row">
+		<strong>View:</strong>
+		<label><input type="checkbox" id="show-h2" checked> H2</label>
+		<label><input type="checkbox" id="show-h3" checked> H3</label>
+		<label><input type="checkbox" id="show-h4" checked> H4</label>
+
+		<button id="expand-all" type="button">Expand all</button>
+		<button id="collapse-all" type="button">Collapse all</button>
+	  </div>
+	</div> 
     <div class="header">
       <h1>AI Legal Services Web Application</h1>
       <div class="meta">Generated from DOCX → HTML (deterministic conversion). Headings, lists, and tables preserved.</div>
@@ -269,75 +280,125 @@
       </div>
     `;
 
-    // Insert at top of container if present; otherwise at top of body
-    const container = document.querySelector('.container') || document.body;
-    container.insertBefore(bar, container.firstChild);
+		// Insert at top of container if present; otherwise at top of body
+		const container = document.querySelector('.container') || document.body;
+		container.insertBefore(bar, container.firstChild);
 
-    const showH2 = document.getElementById('show-h2');
-    const showH3 = document.getElementById('show-h3');
-    const showH4 = document.getElementById('show-h4');
+		const showH2 = document.getElementById('show-h2');
+		const showH3 = document.getElementById('show-h3');
+		const showH4 = document.getElementById('show-h4');
 
-    function applyVisibility() {
-      const h2 = showH2.checked;
-      const h3 = showH3.checked;
-      const h4 = showH4.checked;
+		function applyVisibility() {
+		  const h2 = showH2.checked;
+		  const h3 = showH3.checked;
+		  const h4 = showH4.checked;
 
-      // Show/hide the headings themselves
-      document.querySelectorAll('h2').forEach(el => el.classList.toggle('hx-hidden', !h2));
-      document.querySelectorAll('h3').forEach(el => el.classList.toggle('hx-hidden', !h3));
-      document.querySelectorAll('h4').forEach(el => el.classList.toggle('hx-hidden', !h4));
+		  // Show/hide the headings themselves
+		  document.querySelectorAll('h2').forEach(el => el.classList.toggle('hx-hidden', !h2));
+		  document.querySelectorAll('h3').forEach(el => el.classList.toggle('hx-hidden', !h3));
+		  document.querySelectorAll('h4').forEach(el => el.classList.toggle('hx-hidden', !h4));
 
-      // Also hide the content wrappers that immediately follow hidden headings
-      document.querySelectorAll('h2,h3,h4').forEach(h => {
-        const content = h.nextElementSibling;
-        if (content && content.classList && content.classList.contains('hx-section-content')) {
-          const hide = h.classList.contains('hx-hidden');
-          content.classList.toggle('hx-hidden', hide);
-        }
-      });
-    }
+		  // Also hide the content wrappers that immediately follow hidden headings
+		  document.querySelectorAll('h2,h3,h4').forEach(h => {
+			const content = h.nextElementSibling;
+			if (content && content.classList && content.classList.contains('hx-section-content')) {
+			  const hide = h.classList.contains('hx-hidden');
+			  content.classList.toggle('hx-hidden', hide);
+			}
+		  });
+		}
 
-    document.getElementById('expand-all').addEventListener('click', function () {
-      document.querySelectorAll('h2,h3,h4').forEach(h => {
-        const c = h.nextElementSibling;
-        if (c && c.classList && c.classList.contains('hx-section-content')) {
-          setCollapsed(h, c, false);
-        }
-      });
-    });
+		document.getElementById('expand-all').addEventListener('click', function () {
+		  document.querySelectorAll('h2,h3,h4').forEach(h => {
+			const c = h.nextElementSibling;
+			if (c && c.classList && c.classList.contains('hx-section-content')) {
+			  setCollapsed(h, c, false);
+			}
+		  });
+		});
 
-    document.getElementById('collapse-all').addEventListener('click', function () {
-      document.querySelectorAll('h2,h3,h4').forEach(h => {
-        const c = h.nextElementSibling;
-        if (c && c.classList && c.classList.contains('hx-section-content')) {
-          setCollapsed(h, c, true);
-        }
-      });
-    });
+		document.getElementById('collapse-all').addEventListener('click', function () {
+		  document.querySelectorAll('h2,h3,h4').forEach(h => {
+			const c = h.nextElementSibling;
+			if (c && c.classList && c.classList.contains('hx-section-content')) {
+			  setCollapsed(h, c, true);
+			}
+		  });
+		});
 
-    showH2.addEventListener('change', applyVisibility);
-    showH3.addEventListener('change', applyVisibility);
-    showH4.addEventListener('change', applyVisibility);
+		showH2.addEventListener('change', applyVisibility);
+		showH3.addEventListener('change', applyVisibility);
+		showH4.addEventListener('change', applyVisibility);
 
-    applyVisibility();
-  }
+		applyVisibility();
+	  }
 
-  document.addEventListener('DOMContentLoaded', function () {
-    // Make H2/H3/H4 collapsible (default: H2 open, H3+H4 collapsed)
-    document.querySelectorAll('h2').forEach(h => makeToggle(h, false));
-    document.querySelectorAll('h3').forEach(h => makeToggle(h, true));
-    document.querySelectorAll('h4').forEach(h => makeToggle(h, true));
+	  document.addEventListener('DOMContentLoaded', function () {
+		// Make H2/H3/H4 collapsible (default: H2 open, H3+H4 collapsed)
+		document.querySelectorAll('h2').forEach(h => makeToggle(h, false));
+		document.querySelectorAll('h3').forEach(h => makeToggle(h, true));
+		document.querySelectorAll('h4').forEach(h => makeToggle(h, true));
 
-    addControls();
+		addControls();
 
-    // Debug line (optional)
-    console.log("Collapsible/controls enabled:",
-      "H2", document.querySelectorAll('h2').length,
-      "H3", document.querySelectorAll('h3').length,
-      "H4", document.querySelectorAll('h4').length
-    );
-  });
-})();
+		// Debug line (optional)
+		console.log("Collapsible/controls enabled:",
+		  "H2", document.querySelectorAll('h2').length,
+		  "H3", document.querySelectorAll('h3').length,
+		  "H4", document.querySelectorAll('h4').length
+		);
+	  });
+	})();
+	function addControls() {
+	  const bar = document.getElementById('doc-controls');
+	  if (!bar) return; // bar is now static in HTML
+
+	  const showH2 = document.getElementById('show-h2');
+	  const showH3 = document.getElementById('show-h3');
+	  const showH4 = document.getElementById('show-h4');
+
+	  function applyVisibility() {
+		const h2 = showH2.checked;
+		const h3 = showH3.checked;
+		const h4 = showH4.checked;
+
+		document.querySelectorAll('h2').forEach(el => el.classList.toggle('hx-hidden', !h2));
+		document.querySelectorAll('h3').forEach(el => el.classList.toggle('hx-hidden', !h3));
+		document.querySelectorAll('h4').forEach(el => el.classList.toggle('hx-hidden', !h4));
+
+		document.querySelectorAll('h2,h3,h4').forEach(h => {
+		  const content = h.nextElementSibling;
+		  if (content && content.classList && content.classList.contains('hx-section-content')) {
+			const hide = h.classList.contains('hx-hidden');
+			content.classList.toggle('hx-hidden', hide);
+		  }
+		});
+	  }
+
+	  document.getElementById('expand-all').addEventListener('click', function () {
+		document.querySelectorAll('h2,h3,h4').forEach(h => {
+		  const c = h.nextElementSibling;
+		  if (c && c.classList && c.classList.contains('hx-section-content')) {
+			setCollapsed(h, c, false);
+		  }
+		});
+	  });
+
+	  document.getElementById('collapse-all').addEventListener('click', function () {
+		document.querySelectorAll('h2,h3,h4').forEach(h => {
+		  const c = h.nextElementSibling;
+		  if (c && c.classList && c.classList.contains('hx-section-content')) {
+			setCollapsed(h, c, true);
+		  }
+		});
+	  });
+
+	  showH2.addEventListener('change', applyVisibility);
+	  showH3.addEventListener('change', applyVisibility);
+	  showH4.addEventListener('change', applyVisibility);
+
+	  applyVisibility();
+	}
 </script>
   </body>
 </html>
