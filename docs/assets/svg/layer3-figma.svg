@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="800" viewBox="0 0 1400 800">
+  <rect width="1400" height="800" fill="#ffffff"/>
+  <rect x="60" y="80" width="1280" height="640" fill="none" stroke="#111111" stroke-width="4"/>
+  <text x="100" y="160" font-family="Arial" font-size="48" fill="#111111">3 Layers — Figma Simplified Map</text>
+  <text x="100" y="240" font-family="Arial" font-size="28" fill="#111111">Placeholder (Rev01). Replace with final SVG export from Figma.</text>
+  <text x="100" y="310" font-family="Arial" font-size="22" fill="#111111">Path: docs/assets/svg/layer3-figma.svg</text>
+</svg>
