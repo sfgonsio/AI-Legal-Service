@@ -11,3 +11,13 @@ venv/
 # Outputs that can be regenerated (optional)
 reports/*.json
 reports/*.txt
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Node / VitePress
+node_modules/
+docs/.vitepress/cache/
+docs/.vitepress/dist/
+.DS_Store
