@@ -12,12 +12,12 @@ venv/
 reports/*.json
 reports/*.txt
 
-# OS junk
-.DS_Store
-Thumbs.db
-
-# Node / VitePress
+# Node
 node_modules/
+
+# VitePress build artifacts
 docs/.vitepress/cache/
 docs/.vitepress/dist/
+
+# OS junk
 .DS_Store
