@@ -7,6 +7,11 @@ contract:
     - "Only files enumerated in this manifest are authoritative for v1."
     - "Any duplicate/alternate copies are non-authoritative and must be removed or replaced with stub pointers."
     - "All case data is case-scoped; cross-case access is prohibited unless explicitly mediated and audited."
+    
+  harness:
+    contract: "./harness/harness_contract.md"
+    sample_tool_request: "./harness/sample_payloads/tool_request.json"
+    run_harness_script: "./harness/run_harness.py"
 
   governance:
     owners:

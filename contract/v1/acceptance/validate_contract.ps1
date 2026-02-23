@@ -42,6 +42,9 @@ Require-File $gateway
 Require-File $ddl
 Require-File $mapdoc
 Require-File $orch
+Require-File ".\contract\v1\harness\harness_contract.md"
+Require-File ".\contract\v1\harness\sample_payloads\tool_request.json"
+Require-File ".\contract\v1\harness\run_harness.py"
 Ok "Required SSOT files exist and are non-empty"
 
 # -------------------------
@@ -56,10 +59,10 @@ Ok "Exactly one contract_manifest.yaml"
 $gwText = Get-Content $gateway -Raw
 
 # Conservative, codepage-safe detection:
-# - 'â' catches common UTF-8→CP1252 corruption sequences (â€ â€™ â€œ â€� â€” â€“ â€¢ â†’ etc.)
-# - '�' catches Unicode replacement character
-if ($gwText.Contains("â") -or $gwText.Contains("�")) {
-  Fail "tool_gateway_contract.md appears encoding-corrupted (found 'â' or '�')."
+# - 'â' catches common UTF-8→CP1252 corruption sequences (â€ â€™ â€œ â€  â€” â€“ â€¢ â†’ etc.)
+# - ' ' catches Unicode replacement character
+if ($gwText.Contains("â") -or $gwText.Contains(" ")) {
+  Fail "tool_gateway_contract.md appears encoding-corrupted (found 'â' or ' ')."
 }
 
 Ok "Tool gateway contract encoding looks clean"

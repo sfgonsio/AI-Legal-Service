@@ -26,3 +26,5 @@ docs/.vitepress/dist/
 commit command.txt
 contract/v1/schemas/commit command.txt
 
+contract/v1/harness/outputs/*.json
+

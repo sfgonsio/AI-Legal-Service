@@ -1,0 +1,16 @@
+{
+  "agent_role": "INTERVIEW_AGENT",
+  "run_kind": "interview_capture",
+  "lane_id": "TOOL_INTERVIEW_CAPTURE",
+  "tool_name": "dictation.start",
+  "scope": {
+    "case_id": "CASE_DEMO_001",
+    "client_session_id": "SESSION_DEMO_001"
+  },
+  "arguments": {
+    "mic": "default",
+    "format": "wav"
+  },
+  "timeout_ms": 30000,
+  "idempotency_key": "demo-001"
+}
