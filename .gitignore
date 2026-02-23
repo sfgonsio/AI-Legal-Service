@@ -21,3 +21,8 @@ docs/.vitepress/dist/
 
 # OS junk
 .DS_Store
+
+# Local notes
+commit command.txt
+contract/v1/schemas/commit command.txt
+
