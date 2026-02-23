@@ -1,0 +1,80 @@
+@'
+version: v1
+contract_version: v1
+last_updated: 2026-02-22
+
+lanes:
+
+  - lane_id: TOOL_INTERVIEW_CAPTURE
+    purpose: "Capture client narrative via dictation/transcription and structured interview prompts."
+    allowed_callers:
+      roles: [INTERVIEW_AGENT]
+    allowed_actions:
+      tools:
+        - dictation.start
+        - dictation.stop
+        - transcription.run
+        - transcription.status
+        - interview.prompt.next
+    scope:
+      requires: [case_id, client_session_id, run_id]
+      prohibits: [cross_case_lookup, external_export]
+    audit:
+      required: true
+      level: full
+
+  - lane_id: WRITE_INTAKE_ARTIFACTS
+    purpose: "Persist intake artifacts into case storage."
+    allowed_callers:
+      roles: [INTERVIEW_AGENT, INTAKE_AGENT]
+    allowed_actions:
+      writes:
+        - table: transcripts
+          mode: append
+        - table: interview_notes
+          mode: append
+        - table: entities
+          mode: upsert
+    scope:
+      requires: [case_id, run_id]
+      prohibits: [shared_knowledge_write]
+    audit:
+      required: true
+      level: full
+
+  - lane_id: WRITE_MAPPING_OUTPUTS
+    purpose: "Persist COA mapping outputs for a case."
+    allowed_callers:
+      roles: [MAPPING_AGENT]
+    allowed_actions:
+      writes:
+        - table: facts
+          mode: append
+        - table: evidence_map
+          mode: append
+        - table: coa_map
+          mode: append
+    scope:
+      requires: [case_id, run_id, coa_version]
+      prohibits: [shared_knowledge_write]
+    audit:
+      required: true
+      level: full
+
+  - lane_id: PROMOTE_SHARED_KNOWLEDGE
+    purpose: "Promote sanitized insights into shared knowledge plane."
+    allowed_callers:
+      roles: [GOVERNANCE_AGENT, ATTORNEY_ADMIN]
+    allowed_actions:
+      writes:
+        - table: shared_playbooks
+          mode: append
+        - table: shared_heuristics
+          mode: append
+    scope:
+      requires: [promotion_ticket_id, run_id]
+      prohibits: [raw_case_text, client_identity, privileged_notes]
+    audit:
+      required: true
+      level: full
+'@ | Set-Content -Encoding UTF8 .\contract\v1\policy\lanes.yaml
