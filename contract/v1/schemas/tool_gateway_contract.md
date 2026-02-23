@@ -247,4 +247,23 @@ Future versions MAY add:
 
 ------------------------------------------------------------
 
+ADAPTER IMPLEMENTATION REQUIREMENT (v1)
+
+Each registered tool MUST be implemented behind an adapter that supports:
+
+- validate(arguments, scope) -> allow|deny with error_code
+- execute(arguments, scope) -> output or error_code
+- normalize(arguments) -> deterministic arguments_hash input
+- classify_error(exception) -> standardized error_code, retryable flag
+
+Standard error codes:
+- TOOL_NOT_IMPLEMENTED
+- TOOL_DENIED
+- TOOL_INVALID_ARGUMENTS
+- TOOL_TIMEOUT
+- TOOL_DEPENDENCY_DOWN
+- TOOL_INTERNAL_ERROR
+
+
+
 END OF CONTRACT
