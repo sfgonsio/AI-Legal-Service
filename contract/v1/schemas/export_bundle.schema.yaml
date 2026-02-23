@@ -1,0 +1,301 @@
+version: v1
+contract_version: v1
+schema_id: export_bundle
+schema_version: 1.0.0
+last_updated: 2026-02-22
+title: "Export Bundle Schema"
+description: >
+  Canonical schema for export bundles (legal delivery artifacts). An export bundle is a manifest
+  that enumerates included artifacts and associated integrity/provenance metadata (hashes, versions,
+  approvals, audit references). Bundles must be reproducible and verifiable without embedding
+  privileged raw content in the manifest.
+
+notes:
+  artifact_ref_binding: "All artifacts[] entries MUST conform to contract/v1/schemas/artifact_ref.schema.yaml (SSOT)."
+
+type: object
+additionalProperties: false
+
+required:
+  - bundle_id
+  - bundle_kind
+  - contract_version
+  - policy_versions
+  - status
+  - created_at_utc
+  - created_by
+  - contents
+
+properties:
+
+  # --- Identity / Classification ---
+  bundle_id:
+    type: string
+    description: "Globally unique bundle id (UUID/ULID recommended)."
+    minLength: 8
+    maxLength: 120
+
+  bundle_kind:
+    type: string
+    description: "Export bundle classification."
+    enum:
+      - discovery_production
+      - internal_review
+      - attorney_client_delivery
+      - court_filing_support
+      - expert_review
+      - backup_archive
+      - other
+
+  bundle_name:
+    type: [string, "null"]
+    description: "Human-readable label for the bundle."
+    maxLength: 200
+
+  bundle_description:
+    type: [string, "null"]
+    description: "Optional description (avoid privileged strategy text)."
+    maxLength: 1000
+
+  # --- Scope ---
+  case_id:
+    type: [string, "null"]
+    description: "Case identifier (required for case-scoped exports)."
+    minLength: 4
+    maxLength: 120
+
+  matter_id:
+    type: [string, "null"]
+    description: "Optional firm/matter identifier when distinct from case_id."
+    minLength: 4
+    maxLength: 120
+
+  scope:
+    type: string
+    description: "Scope of the bundle."
+    enum: [case, shared, system]
+
+  export_reason:
+    type: [string, "null"]
+    description: "Reason/purpose for export (e.g., discovery_response, internal_review)."
+    maxLength: 200
+
+  # --- Authority / Approvals ---
+  created_by:
+    type: object
+    additionalProperties: false
+    required: [actor_type, actor_id]
+    properties:
+      actor_type:
+        type: string
+        enum: [human, system, agent]
+      actor_id:
+        type: string
+        minLength: 3
+        maxLength: 120
+      role_id:
+        type: [string, "null"]
+        description: "Role id from roles policy."
+        maxLength: 80
+      lane_id:
+        type: [string, "null"]
+        description: "Lane id used for the export action."
+        maxLength: 120
+
+  approvals:
+    type: [array, "null"]
+    description: "Optional approval chain for the bundle (recommended for case exports)."
+    items:
+      type: object
+      additionalProperties: false
+      required: [approved_by, approved_at_utc, approval_type]
+      properties:
+        approval_type:
+          type: string
+          enum: [attorney_admin, delegated_admin, compliance, court_order]
+        approved_by:
+          type: string
+          description: "Human approver id."
+          minLength: 3
+          maxLength: 120
+        approved_at_utc:
+          type: string
+          format: date-time
+        notes:
+          type: [string, "null"]
+          maxLength: 500
+
+  # --- Contract + Policy version pins ---
+  contract_version:
+    type: string
+    enum: [v1]
+
+  policy_versions:
+    type: object
+    additionalProperties: false
+    required: [lanes, roles]
+    properties:
+      lanes:
+        type: string
+        minLength: 6
+      roles:
+        type: string
+        minLength: 6
+
+  taxonomy_versions:
+    type: [object, "null"]
+    additionalProperties: false
+    properties:
+      coa:
+        type: [string, "null"]
+        minLength: 6
+      tags:
+        type: [string, "null"]
+        minLength: 6
+      entities:
+        type: [string, "null"]
+        minLength: 6
+
+  # --- Timing / Status ---
+  created_at_utc:
+    type: string
+    format: date-time
+
+  status:
+    type: string
+    enum: [created, assembling, completed, failed, cancelled, denied]
+
+  completed_at_utc:
+    type: [string, "null"]
+    format: date-time
+
+  # --- Contents ---
+  contents:
+    type: object
+    additionalProperties: false
+    required: [artifacts]
+    properties:
+      artifacts:
+        type: array
+        description: "Artifact references included in the bundle (artifact_ref schema)."
+        minItems: 1
+        items:
+          type: object
+          additionalProperties: true
+
+      included_tables:
+        type: [array, "null"]
+        description: "Optional list of logical tables/views included as exports."
+        items:
+          type: object
+          additionalProperties: false
+          required: [name, format]
+          properties:
+            name:
+              type: string
+              maxLength: 120
+            format:
+              type: string
+              enum: [csv, json, parquet, pdf, other]
+            row_count:
+              type: [integer, "null"]
+              minimum: 0
+            hash_sha256:
+              type: [string, "null"]
+              pattern: "^[a-fA-F0-9]{64}$"
+
+      filters:
+        type: [object, "null"]
+        description: "Optional selection filters used to assemble the bundle."
+        additionalProperties: false
+        properties:
+          date_from_utc:
+            type: [string, "null"]
+            format: date-time
+          date_to_utc:
+            type: [string, "null"]
+            format: date-time
+          tags:
+            type: [array, "null"]
+            items:
+              type: string
+              maxLength: 60
+          artifact_kinds:
+            type: [array, "null"]
+            items:
+              type: string
+              maxLength: 80
+
+  # --- Integrity / Packaging ---
+  integrity:
+    type: [object, "null"]
+    description: "Bundle integrity hashes."
+    additionalProperties: false
+    properties:
+      manifest_hash_sha256:
+        type: [string, "null"]
+        description: "Hash of normalized manifest content."
+        pattern: "^[a-fA-F0-9]{64}$"
+      package_hash_sha256:
+        type: [string, "null"]
+        description: "Hash of the packaged export (zip/tar) if applicable."
+        pattern: "^[a-fA-F0-9]{64}$"
+      package_locator:
+        type: [string, "null"]
+        description: "Opaque locator to the packaged export artifact."
+        maxLength: 600
+
+  signatures:
+    type: [array, "null"]
+    description: "Optional signatures for non-repudiation."
+    items:
+      type: object
+      additionalProperties: false
+      required: [signature_type, signed_at_utc]
+      properties:
+        signature_type:
+          type: string
+          enum: [human_attestation, system_signing, notarization]
+        signed_by:
+          type: [string, "null"]
+          maxLength: 120
+        signed_at_utc:
+          type: string
+          format: date-time
+        signature_ref:
+          type: [string, "null"]
+          description: "Reference to signature artifact (do not embed secret material)."
+          maxLength: 300
+
+  # --- Audit correlation ---
+  audit:
+    type: [object, "null"]
+    additionalProperties: false
+    properties:
+      audit_event_ids:
+        type: [array, "null"]
+        items:
+          type: string
+          minLength: 6
+      run_ids:
+        type: [array, "null"]
+        items:
+          type: string
+          minLength: 8
+
+  # --- Redaction / Disclosure flags ---
+  redaction:
+    type: [object, "null"]
+    additionalProperties: false
+    properties:
+      redaction_applied:
+        type: [boolean, "null"]
+      redaction_profile_id:
+        type: [string, "null"]
+        maxLength: 120
+      contains_privileged:
+        type: [boolean, "null"]
+      notes:
+        type: [string, "null"]
+        maxLength: 500
+'@ | Set-Content -Encoding UTF8 .\contract\v1\schemas\export_bundle.schema.yaml
