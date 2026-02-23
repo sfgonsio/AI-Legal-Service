@@ -264,6 +264,24 @@ Standard error codes:
 - TOOL_DEPENDENCY_DOWN
 - TOOL_INTERNAL_ERROR
 
+------------------------------------------------------------
+
+DIAGNOSTIC BLOCK REQUIREMENT
+
+Any failure, denial, or timeout response MUST include a diagnostic object with:
+
+error_code
+category
+message
+likely_cause
+suggested_fix
+retryable
+severity
+
+This block MUST be structured and deterministic.
+
+Implementations MUST NOT return unstructured error text.
+
 
 
 END OF CONTRACT
