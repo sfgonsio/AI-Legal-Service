@@ -1,4 +1,4 @@
--- contract/v1/data/postgres_ddl.sql
+﻿-- contract/v1/data/postgres_ddl.sql
 -- Contract v1: Minimal physical schema aligned to:
 -- - run_record.schema.yaml
 -- - audit_event.schema.yaml
@@ -295,6 +295,43 @@ END $$;
 CREATE INDEX IF NOT EXISTS idx_transcripts_case_created ON transcripts (case_id, created_at_utc DESC);
 CREATE INDEX IF NOT EXISTS idx_transcripts_run          ON transcripts (run_id);
 
+-- --------------------------------------------------------------------
+-- Interview Notes (Case Plane)
+-- Aligns to WRITE_INTAKE_ARTIFACTS lane: interview_notes append
+-- --------------------------------------------------------------------
+CREATE TABLE IF NOT EXISTS interview_notes (
+  note_id                  TEXT PRIMARY KEY,
+  case_id                  TEXT NOT NULL,
+  run_id                   TEXT NOT NULL,
+  session_id               TEXT NULL,
+
+  note_kind                TEXT NULL,          -- e.g., "summary", "key_facts", "followups"
+  note_text_bounded        TEXT NULL,          -- short bounded note for quick viewing
+  note_artifact_id         TEXT NULL,          -- optional: store full note text as an artifact
+
+  created_at_utc           TIMESTAMPTZ NOT NULL
+);
+
+DO $$
+BEGIN
+  IF NOT EXISTS (SELECT 1 FROM pg_constraint WHERE conname = 'interview_notes_run_fk') THEN
+    ALTER TABLE interview_notes
+      ADD CONSTRAINT interview_notes_run_fk
+      FOREIGN KEY (run_id) REFERENCES runs(run_id)
+      DEFERRABLE INITIALLY DEFERRED;
+  END IF;
+
+  IF NOT EXISTS (SELECT 1 FROM pg_constraint WHERE conname = 'interview_notes_artifact_fk') THEN
+    ALTER TABLE interview_notes
+      ADD CONSTRAINT interview_notes_artifact_fk
+      FOREIGN KEY (note_artifact_id) REFERENCES artifacts(artifact_id)
+      DEFERRABLE INITIALLY DEFERRED;
+  END IF;
+END $$;
+
+CREATE INDEX IF NOT EXISTS idx_interview_notes_case_created ON interview_notes (case_id, created_at_utc DESC);
+CREATE INDEX IF NOT EXISTS idx_interview_notes_run          ON interview_notes (run_id);
+
 CREATE TABLE IF NOT EXISTS entities (
   entity_id                 TEXT PRIMARY KEY,
   case_id                   TEXT NOT NULL,
@@ -403,6 +440,102 @@ BEGIN
 END $$;
 
 CREATE INDEX IF NOT EXISTS idx_coa_map_case_version_created ON coa_map (case_id, coa_version, created_at_utc DESC);
+
+-- --------------------------------------------------------------------
+-- 5B) SHARED PLANE TABLES (Governed write via PROMOTE_SHARED_KNOWLEDGE)
+-- --------------------------------------------------------------------
+
+CREATE TABLE IF NOT EXISTS shared_playbooks (
+  playbook_id               TEXT PRIMARY KEY,
+  created_by_run_id         TEXT NOT NULL,
+  promotion_ticket_id       TEXT NOT NULL,
+  title_bounded             TEXT NULL,
+  summary_bounded           TEXT NULL,
+  content_artifact_id       TEXT NULL,
+  created_at_utc            TIMESTAMPTZ NOT NULL
+);
+
+DO $
+BEGIN
+  IF NOT EXISTS (SELECT 1 FROM pg_constraint WHERE conname = 'shared_playbooks_run_fk') THEN
+    ALTER TABLE shared_playbooks
+      ADD CONSTRAINT shared_playbooks_run_fk
+      FOREIGN KEY (created_by_run_id) REFERENCES runs(run_id)
+      DEFERRABLE INITIALLY DEFERRED;
+  END IF;
+
+  IF NOT EXISTS (SELECT 1 FROM pg_constraint WHERE conname = 'shared_playbooks_artifact_fk') THEN
+    ALTER TABLE shared_playbooks
+      ADD CONSTRAINT shared_playbooks_artifact_fk
+      FOREIGN KEY (content_artifact_id) REFERENCES artifacts(artifact_id)
+      DEFERRABLE INITIALLY DEFERRED;
+  END IF;
+END $;
+
+CREATE INDEX IF NOT EXISTS idx_shared_playbooks_created ON shared_playbooks (created_at_utc DESC);
+
+CREATE TABLE IF NOT EXISTS shared_heuristics (
+  heuristic_id              TEXT PRIMARY KEY,
+  created_by_run_id         TEXT NOT NULL,
+  promotion_ticket_id       TEXT NOT NULL,
+  name_bounded              TEXT NULL,
+  description_bounded       TEXT NULL,
+  content_artifact_id       TEXT NULL,
+  created_at_utc            TIMESTAMPTZ NOT NULL
+);
+
+DO $
+BEGIN
+  IF NOT EXISTS (SELECT 1 FROM pg_constraint WHERE conname = 'shared_heuristics_run_fk') THEN
+    ALTER TABLE shared_heuristics
+      ADD CONSTRAINT shared_heuristics_run_fk
+      FOREIGN KEY (created_by_run_id) REFERENCES runs(run_id)
+      DEFERRABLE INITIALLY DEFERRED;
+  END IF;
+
+  IF NOT EXISTS (SELECT 1 FROM pg_constraint WHERE conname = 'shared_heuristics_artifact_fk') THEN
+    ALTER TABLE shared_heuristics
+      ADD CONSTRAINT shared_heuristics_artifact_fk
+      FOREIGN KEY (content_artifact_id) REFERENCES artifacts(artifact_id)
+      DEFERRABLE INITIALLY DEFERRED;
+  END IF;
+END $;
+
+CREATE INDEX IF NOT EXISTS idx_shared_heuristics_created ON shared_heuristics (created_at_utc DESC);
+
+-- --------------------------------------------------------------------
+-- 5C) OVERRIDE EVENTS (Break-glass actions audited + timeboxed)
+-- --------------------------------------------------------------------
+
+CREATE TABLE IF NOT EXISTS override_events (
+  override_event_id         TEXT PRIMARY KEY,
+  override_ticket_id        TEXT NOT NULL,
+  run_id                    TEXT NOT NULL,
+
+  actor_id                  TEXT NULL,
+  role_id                   TEXT NULL,
+
+  action_bounded            TEXT NOT NULL,       -- enable|disable|rerun.force|taxonomy.unlock|run.state.override
+  reason_bounded            TEXT NOT NULL,
+
+  before_json               JSONB NOT NULL DEFAULT '{}'::jsonb,
+  after_json                JSONB NOT NULL DEFAULT '{}'::jsonb,
+
+  created_at_utc            TIMESTAMPTZ NOT NULL
+);
+
+DO $
+BEGIN
+  IF NOT EXISTS (SELECT 1 FROM pg_constraint WHERE conname = 'override_events_run_fk') THEN
+    ALTER TABLE override_events
+      ADD CONSTRAINT override_events_run_fk
+      FOREIGN KEY (run_id) REFERENCES runs(run_id)
+      DEFERRABLE INITIALLY DEFERRED;
+  END IF;
+END $;
+
+CREATE INDEX IF NOT EXISTS idx_override_events_run_created ON override_events (run_id, created_at_utc DESC);
+CREATE INDEX IF NOT EXISTS idx_override_events_ticket      ON override_events (override_ticket_id);
 
 -- --------------------------------------------------------------------
 -- 6) OPTIONAL: Policy & Taxonomy snapshots (replay support)
