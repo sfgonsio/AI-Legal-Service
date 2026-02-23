@@ -3,6 +3,9 @@ contract_version: v1
 schema_id: run_record
 schema_version: 1.0.0
 last_updated: 2026-02-22
+notes:
+  artifact_ref_binding: "All artifact_refs in inputs/outputs MUST conform to contract/v1/schemas/artifact_ref.schema.yaml (SSOT)."
+
 title: "Run Record Schema"
 description: >
   Canonical schema for recording a single execution run within the AI Legal Service platform.
@@ -312,3 +315,5 @@ properties:
     type: [string, "null"]
     description: "Optional notes (avoid privileged content)."
     maxLength: 1000
+
+
