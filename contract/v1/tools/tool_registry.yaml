@@ -5,9 +5,9 @@ last_updated: 2026-02-23
 tools:
 
   - tool_name: dictation.start
-    status: placeholder
-    implementation_status: not_implemented
     description: "Begin audio capture for a client interview session."
+    enabled: false
+    implementation_status: not_implemented
     idempotent: false
     timeout_default_ms: 30000
     allowed_lanes: [TOOL_INTERVIEW_CAPTURE]
@@ -16,9 +16,9 @@ tools:
     write_targets: []
 
   - tool_name: dictation.stop
-    status: placeholder
-    implementation_status: not_implemented
     description: "Stop audio capture for a client interview session."
+    enabled: false
+    implementation_status: not_implemented
     idempotent: true
     timeout_default_ms: 30000
     allowed_lanes: [TOOL_INTERVIEW_CAPTURE]
@@ -27,9 +27,9 @@ tools:
     write_targets: []
 
   - tool_name: transcription.run
-    status: placeholder
-    implementation_status: not_implemented
     description: "Submit captured audio for transcription and return a job handle."
+    enabled: false
+    implementation_status: not_implemented
     idempotent: true
     timeout_default_ms: 60000
     allowed_lanes: [TOOL_INTERVIEW_CAPTURE]
@@ -39,9 +39,9 @@ tools:
     returns_job_handle: true
 
   - tool_name: transcription.status
-    status: placeholder
-    implementation_status: not_implemented
     description: "Poll transcription job status and retrieve results when ready."
+    enabled: false
+    implementation_status: not_implemented
     idempotent: true
     timeout_default_ms: 30000
     allowed_lanes: [TOOL_INTERVIEW_CAPTURE]
@@ -51,12 +51,154 @@ tools:
     consumes_job_handle: true
 
   - tool_name: interview.prompt.next
-    status: placeholder
-    implementation_status: not_implemented
     description: "Return next governed prompt for structured interviewing."
+    enabled: false
+    implementation_status: not_implemented
     idempotent: true
     timeout_default_ms: 10000
     allowed_lanes: [TOOL_INTERVIEW_CAPTURE]
     required_scope_keys: [case_id, client_session_id, run_id]
     prohibited_flags: [cross_case_lookup, external_export]
     write_targets: []
+
+  # ------------------------------------------------------------
+  # EXPORT_CASE_DATA lane tools
+  # ------------------------------------------------------------
+
+  - tool_name: export_bundle.create
+    description: "Create an export bundle draft for a case run (manifest and planned contents)."
+    enabled: false
+    implementation_status: not_implemented
+    idempotent: true
+    timeout_default_ms: 60000
+    allowed_lanes: [EXPORT_CASE_DATA]
+    required_scope_keys: [case_id, run_id, export_reason]
+    prohibited_flags: [raw_external_destination, unaudited_delivery]
+    write_targets:
+      - table: export_bundles
+        mode: append
+      - table: audit_ledger
+        mode: append
+
+  - tool_name: export_bundle.validate
+    description: "Validate an export bundle contents and integrity metadata prior to signoff."
+    enabled: false
+    implementation_status: not_implemented
+    idempotent: true
+    timeout_default_ms: 60000
+    allowed_lanes: [EXPORT_CASE_DATA]
+    required_scope_keys: [case_id, run_id, export_reason, bundle_id]
+    prohibited_flags: [raw_external_destination, unaudited_delivery]
+    write_targets:
+      - table: audit_ledger
+        mode: append
+
+  - tool_name: export_bundle.signoff
+    description: "Record attorney signoff and finalize bundle integrity hashes/signatures."
+    enabled: false
+    implementation_status: not_implemented
+    idempotent: false
+    timeout_default_ms: 60000
+    allowed_lanes: [EXPORT_CASE_DATA]
+    required_scope_keys: [case_id, run_id, export_reason, bundle_id]
+    prohibited_flags: [raw_external_destination, unaudited_delivery]
+    write_targets:
+      - table: export_bundles
+        mode: append
+      - table: audit_ledger
+        mode: append
+
+  - tool_name: export_bundle.download
+    description: "Provide the finalized export package locator for authorized retrieval."
+    enabled: false
+    implementation_status: not_implemented
+    idempotent: true
+    timeout_default_ms: 30000
+    allowed_lanes: [EXPORT_CASE_DATA]
+    required_scope_keys: [case_id, run_id, export_reason, bundle_id]
+    prohibited_flags: [raw_external_destination, unaudited_delivery]
+    write_targets:
+      - table: audit_ledger
+        mode: append
+
+  # ------------------------------------------------------------
+  # SYSTEM_OVERRIDE lane tools (Break-glass)
+  # ------------------------------------------------------------
+
+  - tool_name: override.enable
+    description: "Enable break-glass override mode for a specific run using an override ticket."
+    enabled: false
+    implementation_status: not_implemented
+    idempotent: true
+    timeout_default_ms: 15000
+    allowed_lanes: [SYSTEM_OVERRIDE]
+    required_scope_keys: [override_ticket_id, run_id, override_reason]
+    prohibited_flags: [silent_changes, bypass_audit]
+    write_targets:
+      - table: override_events
+        mode: append
+      - table: audit_ledger
+        mode: append
+
+  - tool_name: override.disable
+    description: "Disable break-glass override mode for a specific run."
+    enabled: false
+    implementation_status: not_implemented
+    idempotent: true
+    timeout_default_ms: 15000
+    allowed_lanes: [SYSTEM_OVERRIDE]
+    required_scope_keys: [override_ticket_id, run_id, override_reason]
+    prohibited_flags: [silent_changes, bypass_audit]
+    write_targets:
+      - table: override_events
+        mode: append
+      - table: audit_ledger
+        mode: append
+
+  - tool_name: rerun.force
+    description: "Force a rerun mode selection when normal workflow cannot proceed (break-glass)."
+    enabled: false
+    implementation_status: not_implemented
+    idempotent: false
+    timeout_default_ms: 15000
+    allowed_lanes: [SYSTEM_OVERRIDE]
+    required_scope_keys: [override_ticket_id, run_id, override_reason, rerun_mode]
+    prohibited_flags: [silent_changes, bypass_audit]
+    write_targets:
+      - table: override_events
+        mode: append
+      - table: audit_ledger
+        mode: append
+
+  - tool_name: taxonomy.unlock
+    description: "Unlock taxonomy for the case/run (break-glass) to allow correction under attorney authority."
+    enabled: false
+    implementation_status: not_implemented
+    idempotent: false
+    timeout_default_ms: 15000
+    allowed_lanes: [SYSTEM_OVERRIDE]
+    required_scope_keys: [override_ticket_id, run_id, override_reason]
+    prohibited_flags: [silent_changes, bypass_audit]
+    write_targets:
+      - table: override_events
+        mode: append
+      - table: audit_ledger
+        mode: append
+
+  - tool_name: run.state.override
+    description: "Override run state (break-glass) with before/after captured in override_events."
+    enabled: false
+    implementation_status: not_implemented
+    idempotent: false
+    timeout_default_ms: 15000
+    allowed_lanes: [SYSTEM_OVERRIDE]
+    required_scope_keys: [override_ticket_id, run_id, override_reason, new_status]
+    prohibited_flags: [silent_changes, bypass_audit]
+    write_targets:
+      - table: override_events
+        mode: append
+      - table: audit_ledger
+        mode: append
+        
+        # Adds a trailing newline safely
+(Get-Content .\contract\v1\tools\tool_registry.yaml -Raw) + "`r`n" | Set-Content -Encoding UTF8 .\contract\v1\tools\tool_registry.yaml

@@ -5,6 +5,12 @@ last_updated: 2026-02-22
 
 roles:
 
+  - role_id: SYSTEM
+    description: "Internal platform services."
+    class: system
+    privileges:
+      lanes: []
+
   - role_id: INTERVIEW_AGENT
     description: "Conducts client interviews and captures narrative input."
     class: agent

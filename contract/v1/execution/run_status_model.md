@@ -120,4 +120,19 @@ System MUST:
 
 ------------------------------------------------------------
 
+FAILURE DIAGNOSTIC REQUIREMENT
+
+Any run entering a terminal failure state:
+
+failed
+denied
+timeout
+
+MUST include a diagnostic object as defined in:
+
+contract/v1/tools/tool_gateway_contract.md
+
+Implementations MUST NOT generate failure states without diagnostic metadata.
+
+
 END OF SPEC

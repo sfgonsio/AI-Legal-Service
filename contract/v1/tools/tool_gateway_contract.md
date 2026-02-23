@@ -1,8 +1,8 @@
-# contract/v1/tools/tool_gateway_contract.md
+﻿# contract/v1/tools/tool_gateway_contract.md
 # Tool Gateway Contract (Contract v1)
 
 Purpose:
-Define deterministic rules governing all agent → tool execution across the AI Legal Service platform. This file is authoritative for tool invocation permissions, validation, auditing, and enforcement.
+Define deterministic rules governing all agent -> tool execution across the AI Legal Service platform. This file is authoritative for tool invocation permissions, validation, auditing, and enforcement.
 
 ------------------------------------------------------------
 
@@ -58,7 +58,7 @@ EXECUTION PIPELINE (MANDATORY ORDER)
 12. emit audit event: tool_executed | tool_failed | tool_denied | tool_timeout
 13. return response
 
-If any step fails → execution MUST abort.
+If any step fails -> execution MUST abort.
 
 ------------------------------------------------------------
 

@@ -1,6 +1,6 @@
 version: v1
 contract_version: v1
-last_updated: 2026-02-22
+last_updated: 2026-02-23
 
 lanes:
 
@@ -90,7 +90,7 @@ lanes:
       writes:
         - table: export_bundles
           mode: append
-        - table: audit_events
+        - table: audit_ledger
           mode: append
     scope:
       requires: [case_id, run_id, export_reason]
@@ -113,7 +113,7 @@ lanes:
       writes:
         - table: override_events
           mode: append
-        - table: audit_events
+        - table: audit_ledger
           mode: append
     scope:
       requires: [override_ticket_id, run_id, override_reason]
