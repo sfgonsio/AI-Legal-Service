@@ -1,0 +1,86 @@
+contract:
+  name: "AI Legal Service Contract"
+  version: "v1"
+  status: "authoritative"
+  ssot_rules:
+    - "Contract v1 text supersedes all visuals."
+    - "Only files enumerated in this manifest are authoritative for v1."
+    - "Any duplicate/alternate copies are non-authoritative and must be removed or replaced with stub pointers."
+    - "All case data is case-scoped; cross-case access is prohibited unless explicitly mediated and audited."
+
+  governance:
+    owners:
+      - role: "SystemOwner"
+        description: "Maintains the contract, schemas, and enforcement rules."
+      - role: "Attorney"
+        description: "Owns case decisions, approvals, and case-instance taxonomies."
+    references:
+      roles: "./policy/roles.yaml"
+      lanes: "./policy/lanes.yaml"
+      policy_versioning: "./policy/policy_versioning.md"
+      taxonomy_versioning: "./taxonomies/taxonomy_versioning.md"
+
+  authoritative_files:
+    architecture:
+      - "./architecture/section7-layered-architecture.md"
+    orchestration:
+      - "./orchestration/orchestrator_contract.md"
+    execution:
+      - "./execution/run_lifecycle.md"
+      - "./execution/run_status_model.md"
+    tools:
+      - "./tools/tool_registry.yaml"
+      - "./tools/tool_gateway_contract.md"
+    schemas:
+      - "./schemas/run_record.schema.yaml"
+      - "./schemas/audit_event.schema.yaml"
+      - "./schemas/artifact_ref.schema.yaml"
+      - "./schemas/export_bundle.schema.yaml"
+    data:
+      - "./data/postgres_ddl.sql"
+      - "./data/postgres_seed.sql"
+      - "./data/data_model_mappings.md"
+    agent_contracts:
+      - "./agents/agent_interface_contract.md"
+    taxonomies:
+      coa:
+        - "./taxonomies/coa/base_coa_v1.yaml"
+      entities:
+        - "./taxonomies/entities/entity_schema_v1.yaml"
+      tags:
+        - "./taxonomies/tags/tag_schema_v1.yaml"
+
+  invariants:
+    - id: "INV-CASE-ISOLATION"
+      statement: "All runs, artifacts, and events must be bound to a Case_UID; cross-case joins require explicit mediation and audit logging."
+    - id: "INV-AUDITABILITY"
+      statement: "All tool calls and material transformations must emit audit_event records."
+    - id: "INV-DETERMINISM"
+      statement: "Given identical inputs + taxonomy versions + tool registry + model settings, the run must be reproducible within defined tolerances."
+    - id: "INV-GOVERNED-CHANGES"
+      statement: "Taxonomy and policy changes require version bumps and traceable approvals per policy_versioning.md and taxonomy_versioning.md."
+    - id: "INV-TOOL-MEDIATION"
+      statement: "Agents cannot call external tools directly; all tool access must be mediated via the tool gateway contract."
+
+  semantic_validation:
+    acceptance_checklist: "./acceptance/semantic_validation_checklist.md"
+    required_outcomes:
+      - "No duplicate authoritative documents (SSOT enforced)."
+      - "Orchestrator references all required schemas and lifecycle artifacts."
+      - "Roles/lanes align to tool permissions and taxonomy write boundaries."
+      - "Taxonomy stubs exist and are versioned; case-instance overlay defined."
+
+integrity:
+  file_hashes:
+    enabled: false
+    algorithm: "sha256"
+    hashes: {}
+
+semantic_debt:
+  - id: "DEBT-SYSTEM-LANES"
+    title: "Define SYSTEM platform-only lanes"
+    owner: "SystemOwner"
+    trigger: "Execution wiring / runtime orchestration implementation"
+    exit_criteria:
+      - "SYSTEM has explicit platform lanes only (audit, run transitions, scheduler)."
+      - "SYSTEM is not allowed to write case-content tables (facts, transcripts, entities) except via explicitly approved, audited utilities."
