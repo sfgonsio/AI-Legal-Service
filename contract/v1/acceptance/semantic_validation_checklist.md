@@ -37,5 +37,11 @@ This checklist defines "done" for Semantic Contract Validation.
 - [ ] postgres_ddl.sql supports run_record + audit_event + artifact_ref + export_bundle persistence.
 - [ ] data_model_mappings.md ties schemas to DB tables/columns without ambiguity.
 
+## Deferred Items (Tracked)
+- [ ] Define SYSTEM lanes for platform-only behaviors (audit logging, run state transitions, schedulers) once execution wiring begins.
+  - Owner: SystemOwner
+  - Trigger: Implement tool gateway + orchestrator runtime
+  - Exit: SYSTEM role has only platform lanes; never content-authority lanes
+
 ## Outcome
 Semantic Contract Validation is complete when all items are checked and a commit is made that includes only contract/v1 changes.

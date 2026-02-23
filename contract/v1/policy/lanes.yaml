@@ -1,4 +1,3 @@
-@'
 version: v1
 contract_version: v1
 last_updated: 2026-02-22
@@ -72,9 +71,53 @@ lanes:
         - table: shared_heuristics
           mode: append
     scope:
-      requires: [promotion_ticket_id, run_id]
+      requires: [promotion_ticket_id, run_id, attorney_signoff]
       prohibits: [raw_case_text, client_identity, privileged_notes]
     audit:
       required: true
       level: full
-'@ | Set-Content -Encoding UTF8 .\contract\v1\policy\lanes.yaml
+
+  - lane_id: EXPORT_CASE_DATA
+    purpose: "Create governed, auditable export bundles for a case (e.g., for attorney delivery, filing prep, discovery outputs)."
+    allowed_callers:
+      roles: [ATTORNEY_ADMIN]
+    allowed_actions:
+      tools:
+        - export_bundle.create
+        - export_bundle.validate
+        - export_bundle.signoff
+        - export_bundle.download
+      writes:
+        - table: export_bundles
+          mode: append
+        - table: audit_events
+          mode: append
+    scope:
+      requires: [case_id, run_id, export_reason]
+      prohibits: [raw_external_destination, unaudited_delivery]
+    audit:
+      required: true
+      level: full
+
+  - lane_id: SYSTEM_OVERRIDE
+    purpose: "Break-glass override for emergency actions (timeboxed, fully audited, requires explicit reason and ticket)."
+    allowed_callers:
+      roles: [ATTORNEY_ADMIN]
+    allowed_actions:
+      tools:
+        - override.enable
+        - override.disable
+        - rerun.force
+        - taxonomy.unlock
+        - run.state.override
+      writes:
+        - table: override_events
+          mode: append
+        - table: audit_events
+          mode: append
+    scope:
+      requires: [override_ticket_id, run_id, override_reason]
+      prohibits: [silent_changes, bypass_audit]
+    audit:
+      required: true
+      level: full
