@@ -1,0 +1,110 @@
+﻿version: v1
+contract_version: v1
+schema_id: artifact_ref
+schema_version: 1.0.0
+last_updated: 2026-02-22
+title: "Artifact Reference Schema"
+description: >
+  Canonical reference to an artifact stored by the platform (case-scoped or shared).
+  Used across Run Records, Audit Events, Evidence records, and Export bundles.
+  This schema is intentionally reference-based (id + hashes + locator) to support determinism
+  and avoid embedding privileged content.
+
+type: object
+additionalProperties: false
+
+required:
+  - artifact_id
+  - artifact_kind
+  - hash_sha256
+
+properties:
+
+  artifact_id:
+    type: string
+    description: "Unique identifier for the artifact within the platform."
+    minLength: 3
+    maxLength: 120
+
+  artifact_kind:
+    type: string
+    description: "Classification of artifact (e.g., upload_pdf, transcript, extracted_entities, coa_map, audit_bundle)."
+    minLength: 2
+    maxLength: 80
+
+  case_id:
+    type: [string, "null"]
+    description: "Case identifier if the artifact is case-scoped; null only for shared/system artifacts."
+    minLength: 4
+    maxLength: 120
+
+  scope:
+    type: [string, "null"]
+    description: "Artifact scope."
+    enum: [case, shared, system, null]
+
+  storage_locator:
+    type: [string, "null"]
+    description: "Opaque storage reference (path, URI, object key). Do not embed secrets."
+    maxLength: 600
+
+  content_type:
+    type: [string, "null"]
+    description: "Optional MIME type (e.g., application/pdf, text/plain, application/json)."
+    maxLength: 120
+
+  byte_size:
+    type: [integer, "null"]
+    description: "Optional size of artifact in bytes."
+    minimum: 0
+
+  created_at_utc:
+    type: [string, "null"]
+    format: date-time
+    description: "UTC timestamp when artifact was created."
+
+  hash_sha256:
+    type: string
+    description: "SHA-256 of the artifact bytes (hex)."
+    pattern: "^[a-fA-F0-9]{64}$"
+
+  hash_source:
+    type: [string, "null"]
+    description: "How the hash was computed."
+    enum: [bytes, normalized_text, normalized_json, null]
+
+  lineage:
+    type: [object, "null"]
+    description: "Optional lineage linkages for derived artifacts."
+    additionalProperties: false
+    properties:
+      derived_from:
+        type: [array, "null"]
+        items:
+          type: string
+          minLength: 3
+          maxLength: 120
+      transformation:
+        type: [string, "null"]
+        description: "Short descriptor of transformation (e.g., ocr_v1, chunking_v2, mapping_pass_1)."
+        maxLength: 120
+      run_id:
+        type: [string, "null"]
+        description: "Run ID that produced this artifact."
+        minLength: 8
+        maxLength: 120
+
+  confidentiality:
+    type: [object, "null"]
+    description: "Optional classification flags (do not treat as policy enforcement)."
+    additionalProperties: false
+    properties:
+      contains_pii:
+        type: [boolean, "null"]
+      contains_phi:
+        type: [boolean, "null"]
+      contains_privileged:
+        type: [boolean, "null"]
+      notes:
+        type: [string, "null"]
+        maxLength: 300
