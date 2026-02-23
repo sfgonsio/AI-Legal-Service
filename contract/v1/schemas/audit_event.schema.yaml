@@ -1,0 +1,244 @@
+@'
+version: v1
+contract_version: v1
+schema_id: audit_event
+schema_version: 1.0.0
+last_updated: 2026-02-22
+title: "Audit Event Schema"
+description: >
+  Canonical schema for append-only audit ledger events. The audit ledger is the authoritative
+  record of privileged actions across the platform (tool calls, writes, promotions, exports,
+  policy changes, and overrides). Events must be immutable once written.
+
+type: object
+additionalProperties: false
+
+required:
+  - event_id
+  - timestamp_utc
+  - action_type
+  - outcome
+  - actor
+  - contract_version
+  - policy_versions
+
+properties:
+
+  # --- Identity / Timing ---
+  event_id:
+    type: string
+    description: "Globally unique event id (UUID/ULID recommended)."
+    minLength: 8
+    maxLength: 120
+
+  timestamp_utc:
+    type: string
+    format: date-time
+    description: "UTC timestamp when the event was emitted."
+
+  sequence:
+    type: [integer, "null"]
+    description: "Optional monotonically increasing sequence number (ledger-assigned)."
+    minimum: 0
+
+  # --- Correlation / Scope ---
+  case_id:
+    type: [string, "null"]
+    description: "Case identifier for case-scoped events; null only for global/system events."
+    minLength: 4
+    maxLength: 120
+
+  run_id:
+    type: [string, "null"]
+    description: "Run identifier that this event is associated with (if applicable)."
+    minLength: 8
+    maxLength: 120
+
+  parent_run_id:
+    type: [string, "null"]
+    description: "Optional parent run id (supports run trees)."
+    minLength: 8
+    maxLength: 120
+
+  correlation_id:
+    type: [string, "null"]
+    description: "Optional correlation id for grouping related events (e.g., a single request spanning components)."
+    maxLength: 120
+
+  lane_id:
+    type: [string, "null"]
+    description: "Lane identifier used for the privileged action (if applicable)."
+    maxLength: 120
+
+  role_id:
+    type: [string, "null"]
+    description: "Role identifier from roles policy (if applicable)."
+    maxLength: 80
+
+  # --- Action / Outcome ---
+  action_type:
+    type: string
+    description: "Audit event action type."
+    enum:
+      - tool_call
+      - db_write
+      - db_read
+      - policy_change
+      - promotion
+      - export
+      - override
+      - authz_decision
+      - system
+
+  outcome:
+    type: string
+    description: "Allow/deny and success/failure outcome."
+    enum: [allow, deny, success, failure]
+
+  outcome_reason:
+    type: [string, "null"]
+    description: "Short explanation (e.g., policy_denied, schema_invalid, tool_timeout)."
+    maxLength: 200
+
+  severity:
+    type: [string, "null"]
+    description: "Optional severity classification."
+    enum: [info, warn, error, critical, null]
+
+  # --- Actor (who initiated/owns the action) ---
+  actor:
+    type: object
+    additionalProperties: false
+    required: [actor_type, actor_id]
+    properties:
+      actor_type:
+        type: string
+        enum: [agent, human, system]
+      actor_id:
+        type: string
+        minLength: 3
+        maxLength: 120
+      agent_name:
+        type: [string, "null"]
+        description: "Optional agent name (human readable)."
+        maxLength: 120
+      user_display:
+        type: [string, "null"]
+        description: "Optional user display name for human actors."
+        maxLength: 120
+
+  # --- Contract & Policy Version Pins (Determinism) ---
+  contract_version:
+    type: string
+    enum: [v1]
+
+  policy_versions:
+    type: object
+    additionalProperties: false
+    required: [lanes, roles]
+    properties:
+      lanes:
+        type: string
+        minLength: 6
+      roles:
+        type: string
+        minLength: 6
+
+  taxonomy_versions:
+    type: [object, "null"]
+    additionalProperties: false
+    properties:
+      coa:
+        type: [string, "null"]
+        minLength: 6
+      tags:
+        type: [string, "null"]
+        minLength: 6
+      entities:
+        type: [string, "null"]
+        minLength: 6
+
+  # --- Target (what was acted upon) ---
+  target:
+    type: [object, "null"]
+    description: "Describes the target of the action (tool, table, artifact, policy file, export bundle)."
+    additionalProperties: false
+    properties:
+      target_type:
+        type: string
+        enum: [tool, table, artifact, policy, export_bundle, system, null]
+      name:
+        type: [string, "null"]
+        description: "Tool name, table name, policy id, etc."
+        maxLength: 200
+      operation:
+        type: [string, "null"]
+        description: "Operation performed (e.g., transcription.run, insert, append, upsert)."
+        maxLength: 200
+      artifact_ref:
+        type: [object, "null"]
+        description: "Optional artifact reference for artifact targets."
+        additionalProperties: true
+
+  # --- Inputs/Outputs as references (do not embed privileged raw text) ---
+  input_artifacts:
+    type: [array, "null"]
+    description: "Artifacts consumed by the action."
+    items:
+      type: object
+      additionalProperties: true
+
+  output_artifacts:
+    type: [array, "null"]
+    description: "Artifacts produced by the action."
+    items:
+      type: object
+      additionalProperties: true
+
+  # --- Hashes / Evidence-grade integrity ---
+  request_hash_sha256:
+    type: [string, "null"]
+    description: "Hash of normalized request payload (when applicable)."
+    pattern: "^[a-fA-F0-9]{64}$"
+
+  response_hash_sha256:
+    type: [string, "null"]
+    description: "Hash of normalized response payload (when applicable)."
+    pattern: "^[a-fA-F0-9]{64}$"
+
+  # --- Authorization decision details (for allow/deny clarity) ---
+  authz:
+    type: [object, "null"]
+    additionalProperties: false
+    properties:
+      decision:
+        type: [string, "null"]
+        enum: [allow, deny, null]
+      policy_ref:
+        type: [string, "null"]
+        description: "Reference to policy artifact (file path + version hash)."
+        maxLength: 300
+      rule_id:
+        type: [string, "null"]
+        description: "Optional rule identifier within policy."
+        maxLength: 120
+
+  # --- Error details (when failure/deny) ---
+  error:
+    type: [object, "null"]
+    additionalProperties: false
+    properties:
+      error_code:
+        type: [string, "null"]
+        maxLength: 80
+      message:
+        type: [string, "null"]
+        maxLength: 2000
+      retryable:
+        type: [boolean, "null"]
+
+  # --- Notes (bounded, avoid privileged content) ---
+  notes:
+    type: [string, "null"]
+    maxLength: 1000
+'@ | Set-Content -Encoding UTF8 .\contract\v1\schemas\audit_event.schema.yaml
