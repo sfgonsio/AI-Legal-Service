@@ -1,22 +1,48 @@
-﻿# Section 7 — Layered Architecture
+﻿# Section 7 — Layered Architecture (Authoritative Wrapper)
 
-This page summarizes the **authoritative Contract v1** architecture.
+**Purpose:** Governance wrapper that binds visuals to the Contract v1 source of truth.
 
-**SSOT source:** `contract/v1/architecture/section7-layered-architecture.md`
+**Contract Version:** v1 (locked)
 
-## Visuals
-> These diagrams are authoritative references and should align with the SSOT.
+**SSOT source (authoritative):** `contract/v1/architecture/section7-layered-architecture.md`
+
+If any conflict exists between this page, diagrams, or other docs:
+**the Contract v1 SSOT source governs.**
+
+---
+
+## Drift Control (Non-Negotiable)
+
+These visuals MUST NOT introduce or imply:
+- new layers or services
+- new data paths or persistence zones
+- new authority flows or trust boundaries
+- new tool access patterns
+- new logging/audit semantics
+
+If drift is detected:
+1) update Contract v1 SSOT first  
+2) regenerate visuals to match SSOT  
+3) re-render any derived docs last
+
+---
+
+## Visual References
 
 ### Section 7 (Authoritative)
-<img src="/AI-Legal-Service/legacy/assets/svg/section7-authoritative.svg" alt="Section 7 Authoritative" />
+<img src="../../legacy/assets/svg/section7-authoritative.svg" alt="Section 7 Authoritative" />
 
 ### Layer 3 (Figma)
-<img src="/AI-Legal-Service/legacy/assets/svg/layer3-figma.svg" alt="Layer 3 Figma" />
+<img src="../../legacy/assets/svg/layer3-figma.svg" alt="Layer 3 Figma" />
 
 ### Bridge Mapping
-<img src="/AI-Legal-Service/legacy/assets/svg/bridge-mapping.svg" alt="Bridge Mapping" />
+<img src="../../legacy/assets/svg/bridge-mapping.svg" alt="Bridge Mapping" />
+
+---
 
 ## Next
-- Ensure the SSOT Section 7 text is finalized in the contract.
-- Add schemas and tool interface contracts under `contract/v1/schemas/`.
-- Add governance/taxonomy artifacts under `contract/v1/taxonomies/`.
+- Finalize `contract/v1/architecture/section7-layered-architecture.md` (authoritative text)
+- Add schemas and tool interface contracts under `contract/v1/schemas/`
+- Add governance/taxonomy artifacts under `contract/v1/taxonomies/`
+
+
