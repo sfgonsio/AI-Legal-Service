@@ -1,0 +1,314 @@
+﻿version: v1
+contract_version: v1
+schema_id: run_record
+schema_version: 1.0.0
+last_updated: 2026-02-22
+title: "Run Record Schema"
+description: >
+  Canonical schema for recording a single execution run within the AI Legal Service platform.
+  A run may represent an orchestrator workflow, an agent execution, a tool-gateway mediated call batch,
+  or a governed promotion/export action. Run Records are designed for determinism, audit correlation,
+  and legal-grade provenance.
+
+type: object
+additionalProperties: false
+
+required:
+  - run_id
+  - run_kind
+  - contract_version
+  - policy_versions
+  - status
+  - created_at_utc
+
+properties:
+
+  # --- Identity ---
+  run_id:
+    type: string
+    description: "Globally unique ID for this run (UUID/ULID recommended)."
+    minLength: 8
+
+  parent_run_id:
+    type: [string, "null"]
+    description: "Optional parent run id (used for orchestrator -> agent run trees)."
+    minLength: 8
+
+  root_run_id:
+    type: [string, "null"]
+    description: "Optional root run id for an orchestration tree; may equal run_id for top-level runs."
+    minLength: 8
+
+  run_kind:
+    type: string
+    description: "Run classification."
+    enum:
+      - orchestrator
+      - agent
+      - tool_gateway
+      - write_broker
+      - policy_change
+      - promotion
+      - export
+      - override
+      - system
+
+  run_name:
+    type: [string, "null"]
+    description: "Human-readable label (e.g., 'Interview Capture', 'COA Mapping Pass 1')."
+    maxLength: 200
+
+  # --- Scope ---
+  case_id:
+    type: [string, "null"]
+    description: "Case identifier for case-scoped runs; null only for global/system runs."
+    minLength: 4
+
+  client_session_id:
+    type: [string, "null"]
+    description: "Client interview session identifier (if applicable)."
+    minLength: 4
+
+  matter_id:
+    type: [string, "null"]
+    description: "Optional firm/matter identifier when distinct from case_id."
+    minLength: 4
+
+  workflow_state:
+    type: [string, "null"]
+    description: >
+      Optional workflow state marker (e.g., intake_complete, evidence_ingested, mapping_in_progress).
+      If used, orchestrator should be the authority managing transitions.
+    maxLength: 120
+
+  # --- Actor / Authority ---
+  actor:
+    type: object
+    additionalProperties: false
+    required: [actor_type, actor_id]
+    properties:
+      actor_type:
+        type: string
+        enum: [agent, human, system]
+        description: "Type of actor that initiated or owns the run."
+      actor_id:
+        type: string
+        description: "ID of the actor (agent_id, user_id, or system service id)."
+        minLength: 3
+      role_id:
+        type: [string, "null"]
+        description: "Role identifier from contract policy (roles.yaml)."
+        maxLength: 80
+      lane_id:
+        type: [string, "null"]
+        description: >
+          Lane identifier used for privileged actions. For orchestrator runs, lane_id may be null.
+          For agent/tool_gateway/write_broker runs that execute privileged actions, lane_id should be set.
+        maxLength: 120
+
+  # --- Contract + Policy versions ---
+  contract_version:
+    type: string
+    description: "Contract version controlling architecture, schemas, and governance."
+    enum: [v1]
+
+  policy_versions:
+    type: object
+    additionalProperties: false
+    required: [lanes, roles]
+    properties:
+      lanes:
+        type: string
+        description: "Version identifier for lanes policy (commit hash/semver/policy hash)."
+        minLength: 6
+      roles:
+        type: string
+        description: "Version identifier for roles policy (commit hash/semver/policy hash)."
+        minLength: 6
+
+  taxonomy_versions:
+    type: [object, "null"]
+    description: "Optional versions for controlled vocabularies (COA, tags, entity dictionaries)."
+    additionalProperties: false
+    properties:
+      coa:
+        type: [string, "null"]
+        minLength: 6
+      tags:
+        type: [string, "null"]
+        minLength: 6
+      entities:
+        type: [string, "null"]
+        minLength: 6
+
+  tool_versions:
+    type: [object, "null"]
+    description: "Optional tool version pins to support determinism."
+    additionalProperties: true
+
+  # --- Timing ---
+  created_at_utc:
+    type: string
+    format: date-time
+    description: "UTC timestamp when run record was created."
+
+  started_at_utc:
+    type: [string, "null"]
+    format: date-time
+    description: "UTC timestamp when execution started."
+
+  completed_at_utc:
+    type: [string, "null"]
+    format: date-time
+    description: "UTC timestamp when execution completed."
+
+  duration_ms:
+    type: [integer, "null"]
+    description: "Elapsed execution time in milliseconds."
+    minimum: 0
+
+  # --- Status / Outcomes ---
+  status:
+    type: string
+    enum: [created, running, completed, failed, cancelled, denied]
+    description: "Run lifecycle status."
+
+  outcome:
+    type: [string, "null"]
+    description: "Short outcome descriptor (e.g., 'success', 'tool_timeout', 'policy_denied')."
+    maxLength: 200
+
+  error:
+    type: [object, "null"]
+    description: "Error details for failed/denied runs."
+    additionalProperties: false
+    properties:
+      error_code:
+        type: string
+        maxLength: 80
+      message:
+        type: string
+        maxLength: 2000
+      stack_ref:
+        type: [string, "null"]
+        description: "Reference to stack trace artifact (not embedded)."
+        maxLength: 200
+      retryable:
+        type: [boolean, "null"]
+
+  # --- Determinism: Inputs/Outputs ---
+  inputs:
+    type: [object, "null"]
+    description: >
+      Structured input references and hashes. Do not embed privileged raw text; reference artifacts by id/key.
+    additionalProperties: false
+    properties:
+      artifact_refs:
+        type: [array, "null"]
+        items:
+          type: object
+          additionalProperties: false
+          required: [artifact_id, artifact_kind, hash_sha256]
+          properties:
+            artifact_id:
+              type: string
+              minLength: 3
+            artifact_kind:
+              type: string
+              maxLength: 80
+            storage_locator:
+              type: [string, "null"]
+              maxLength: 500
+            hash_sha256:
+              type: string
+              pattern: "^[a-fA-F0-9]{64}$"
+      parameters_hash_sha256:
+        type: [string, "null"]
+        description: "Hash of normalized run parameters (prompts/config), if applicable."
+        pattern: "^[a-fA-F0-9]{64}$"
+
+  outputs:
+    type: [object, "null"]
+    description: "Structured output references and hashes."
+    additionalProperties: false
+    properties:
+      artifact_refs:
+        type: [array, "null"]
+        items:
+          type: object
+          additionalProperties: false
+          required: [artifact_id, artifact_kind, hash_sha256]
+          properties:
+            artifact_id:
+              type: string
+              minLength: 3
+            artifact_kind:
+              type: string
+              maxLength: 80
+            storage_locator:
+              type: [string, "null"]
+              maxLength: 500
+            hash_sha256:
+              type: string
+              pattern: "^[a-fA-F0-9]{64}$"
+
+  nondeterminism:
+    type: [object, "null"]
+    description: "Explicit declaration of nondeterministic operations, if any."
+    additionalProperties: false
+    properties:
+      is_nondeterministic:
+        type: boolean
+      reasons:
+        type: [array, "null"]
+        items:
+          type: string
+          maxLength: 200
+      replay_strategy:
+        type: [string, "null"]
+        enum: [record_and_replay, best_effort, not_replayable, null]
+
+  # --- Audit Correlation ---
+  audit:
+    type: [object, "null"]
+    description: "Pointers to authoritative audit ledger events for this run."
+    additionalProperties: false
+    properties:
+      audit_event_ids:
+        type: [array, "null"]
+        items:
+          type: string
+          minLength: 6
+      audit_bundle_ref:
+        type: [string, "null"]
+        description: "Optional reference to an audit bundle artifact."
+        maxLength: 300
+
+  # --- Privacy / Safety classification ---
+  data_classification:
+    type: [object, "null"]
+    description: "Optional classification of sensitivity handled by this run."
+    additionalProperties: false
+    properties:
+      contains_pii:
+        type: [boolean, "null"]
+      contains_phi:
+        type: [boolean, "null"]
+      contains_privileged:
+        type: [boolean, "null"]
+      notes:
+        type: [string, "null"]
+        maxLength: 500
+
+  # --- Freeform metadata (bounded) ---
+  tags:
+    type: [array, "null"]
+    description: "Optional tags for analysis and reporting."
+    items:
+      type: string
+      maxLength: 60
+
+  notes:
+    type: [string, "null"]
+    description: "Optional notes (avoid privileged content)."
+    maxLength: 1000
