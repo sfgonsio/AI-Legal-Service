@@ -1,0 +1,50 @@
+﻿name: Contract v1 Validation
+
+on:
+  pull_request:
+    branches: [ main ]
+  push:
+    branches: [ main ]
+
+jobs:
+  validate-contract:
+    name: Validate Contract v1
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set Execution Policy (Process Scope)
+        shell: powershell
+        run: Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process -Force
+
+      - name: Verify Contract Structure
+        shell: powershell
+        run: |
+          Write-Host "Verifying required contract structure..."
+
+          $requiredPaths = @(
+            "./contract/v1",
+            "./contract/v1/contract_manifest.yaml",
+            "./contract/v1/validate_contract.ps1",
+            "./contract/v1/acceptance"
+          )
+
+          foreach ($path in $requiredPaths) {
+              if (-Not (Test-Path $path)) {
+                  Write-Error "Required path missing: $path"
+                  exit 1
+              }
+          }
+
+          Write-Host "Contract structure verified."
+
+      - name: Run Contract Validator
+        shell: powershell
+        run: |
+          if (-Not (Test-Path "./contract/v1/validate_contract.ps1")) {
+              Write-Error "contract/v1/validate_contract.ps1 not found."
+              exit 1
+          }
+          ./contract/v1/validate_contract.ps1
