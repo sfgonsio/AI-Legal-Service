@@ -1,15 +1,21 @@
-@'
+﻿@'
 version: v1
 contract_version: v1
-last_updated: 2026-02-22
+last_updated: 2026-02-23
 
 roles:
-
   - role_id: SYSTEM
-    description: "Internal platform services."
+    description: "Internal platform services (scheduler, audit writer, run state transitions)."
     class: system
     privileges:
       lanes: []
+
+  - role_id: GOVERNANCE_AGENT
+    description: "Manages policy enforcement and knowledge promotion workflows."
+    class: system
+    privileges:
+      lanes:
+        - PROMOTE_SHARED_KNOWLEDGE
 
   - role_id: INTERVIEW_AGENT
     description: "Conducts client interviews and captures narrative input."
@@ -33,13 +39,6 @@ roles:
       lanes:
         - WRITE_MAPPING_OUTPUTS
 
-  - role_id: GOVERNANCE_AGENT
-    description: "Manages policy enforcement and knowledge promotion workflows."
-    class: system
-    privileges:
-      lanes:
-        - PROMOTE_SHARED_KNOWLEDGE
-
   - role_id: ATTORNEY_ADMIN
     description: "Human authority with approval and override powers."
     class: human
@@ -48,13 +47,4 @@ roles:
         - PROMOTE_SHARED_KNOWLEDGE
         - EXPORT_CASE_DATA
         - SYSTEM_OVERRIDE
-
-  - role_id: SYSTEM
-    description: "Internal platform services."
-    class: system
-    privileges:
-      lanes:
-        - TOOL_INTERVIEW_CAPTURE
-        - WRITE_INTAKE_ARTIFACTS
-        - WRITE_MAPPING_OUTPUTS
 '@ | Set-Content -Encoding UTF8 .\contract\v1\policy\roles.yaml

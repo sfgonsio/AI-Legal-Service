@@ -1,4 +1,4 @@
-contract:
+﻿contract:
   name: "AI Legal Service Contract"
   version: "v1"
   status: "authoritative"
@@ -74,18 +74,26 @@ contract:
       - "Orchestrator references all required schemas and lifecycle artifacts."
       - "Roles/lanes align to tool permissions and taxonomy write boundaries."
       - "Taxonomy stubs exist and are versioned; case-instance overlay defined."
-
 integrity:
   file_hashes:
-    enabled: false
+    enabled: true
     algorithm: "sha256"
-    hashes: {}
+    hashes:
+      "./agents/agent_interface_contract.md": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      "./architecture/section7-layered-architecture.md": "54cf030480e8aa3dac75b75a968204bc5ef97633cc068b591be57fc18aa18685"
+      "./data/data_model_mappings.md": "89698a88d1358e7a5a9015dc147d6d0b1c3f25fc70960337cc82c503c9b1ab01"
+      "./data/postgres_ddl.sql": "816ec94992c5e56b92a3997149d56e09d1414813b5a40398f53099a27dffc333"
+      "./data/postgres_seed.sql": "da88cb89538b2cf8a501fad0f57b18479ace8f04d229cddd3d3011f557c1edda"
+      "./execution/run_lifecycle.md": "4321997d64ee504b7c999bba3db195d6202f9a3dbb0efb92d9c1f793e70bafa0"
+      "./execution/run_status_model.md": "93aeecba8c6f74b46dd877743f47067246440d52cdf202dbbd953e14543795b3"
+      "./orchestration/orchestrator_contract.md": "1e08dfbee0b31a807ceb1ef2d35b0ab99f8e4249d84f9358d8298a5ceaa4f536"
+      "./schemas/artifact_ref.schema.yaml": "11e8ab7ab406de6a85420ecd9066e5bf6aca49ffb9ce9fc12d0972a963501fec"
+      "./schemas/audit_event.schema.yaml": "0e5e66a29d8a9f86f8c2e96adf396ec0b46021edf8fe7424a17af1c91925a334"
+      "./schemas/export_bundle.schema.yaml": "8d6befdd95b847943ef2aae71e9b9f97d5b1a375c97beae20ffb50b76886615c"
+      "./schemas/run_record.schema.yaml": "670d9ca8733263193ddccfbecdf145e4476739d7e35122d329a7126aa87b3394"
+      "./taxonomies/coa/base_coa_v1.yaml": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      "./taxonomies/entities/entity_schema_v1.yaml": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      "./taxonomies/tags/tag_schema_v1.yaml": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      "./tools/tool_gateway_contract.md": "8b47ca97a7e1ea5f0d16b9705d1748f0fbc324dc10dedc6eaed0cf55f85c63cf"
+      "./tools/tool_registry.yaml": "d42c1ba40ecde605260b9ec387d472f072e222e012ed48f8074c61239e08fd67"
 
-semantic_debt:
-  - id: "DEBT-SYSTEM-LANES"
-    title: "Define SYSTEM platform-only lanes"
-    owner: "SystemOwner"
-    trigger: "Execution wiring / runtime orchestration implementation"
-    exit_criteria:
-      - "SYSTEM has explicit platform lanes only (audit, run transitions, scheduler)."
-      - "SYSTEM is not allowed to write case-content tables (facts, transcripts, entities) except via explicitly approved, audited utilities."
