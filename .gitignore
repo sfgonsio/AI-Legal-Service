@@ -28,3 +28,6 @@ contract/v1/schemas/commit command.txt
 
 contract/v1/harness/outputs/*.json
 
+contract/v1/golden/out/
+contract/v1/golden/_legacy_archive/
+

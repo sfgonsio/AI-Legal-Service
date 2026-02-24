@@ -1,0 +1,9 @@
+{
+  "case_id": "CASE-0001",
+  "caption": "Mills v. Polley",
+  "jurisdiction": "CA",
+  "parties": [
+    { "role": "plaintiff", "name": "Mills" },
+    { "role": "defendant", "name": "Polley" }
+  ]
+}

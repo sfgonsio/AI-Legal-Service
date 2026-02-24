@@ -1,0 +1,10 @@
+{
+  "tool_calls": [
+    {
+      "capability": "evidence.export.bundle",
+      "request_id": "REQ-0001",
+      "params": { "format": "json", "scope": "case", "case_id": "CASE-0001" },
+      "result": { "status": "ok" }
+    }
+  ]
+}
