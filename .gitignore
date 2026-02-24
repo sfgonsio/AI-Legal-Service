@@ -25,9 +25,9 @@ docs/.vitepress/dist/
 # Local notes
 commit command.txt
 contract/v1/schemas/commit command.txt
-
 contract/v1/harness/outputs/*.json
-
 contract/v1/golden/out/
 contract/v1/golden/_legacy_archive/
-
+contract/v1/agents/_template_agent_contract.md
+contract/v1/agents/AI Legal Service.docx
+contract/v1/agents/_template_agent_contract.md
