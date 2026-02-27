@@ -80,7 +80,7 @@ integrity:
     algorithm: "sha256"
     hashes:
       "./agents/agent_interface_contract.md": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      "./architecture/section7-layered-architecture.md": "54cf030480e8aa3dac75b75a968204bc5ef97633cc068b591be57fc18aa18685"
+      "./architecture/section7-layered-architecture.md": "2c5a9d4f85b5593abc2993e41613e80d83dcd9cd0b0f03dd4f418e4a7bef602e"
       "./data/data_model_mappings.md": "89698a88d1358e7a5a9015dc147d6d0b1c3f25fc70960337cc82c503c9b1ab01"
       "./data/postgres_ddl.sql": "816ec94992c5e56b92a3997149d56e09d1414813b5a40398f53099a27dffc333"
       "./data/postgres_seed.sql": "da88cb89538b2cf8a501fad0f57b18479ace8f04d229cddd3d3011f557c1edda"

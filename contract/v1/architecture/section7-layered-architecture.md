@@ -34,7 +34,7 @@ The platform enforces authority through choke points:
 - **Write Broker (Persistence Service)**: all persistence writes MUST be mediated, validated, scoped, and audited
 - **Audit Ledger**: append-only, authoritative log of all privileged actions
 
-No agent may bypass the choke points.
+No agent or program may bypass the choke points.
 
 ---
 
@@ -44,7 +44,7 @@ No agent may bypass the choke points.
 2. **Shared Learning Without Leakage:** The system may improve over time only via governed promotion into shared knowledge, with explicit controls preventing client-identifying or privileged content leakage.
 3. **Determinism:** Runs must be reproducible given the same inputs, versions, and policies, within defined tolerances.
 4. **Auditability:** All privileged actions are logged with sufficient provenance to reconstruct what happened, when, by whom, and under which contract version.
-5. **Least Privilege:** Agents only receive the minimum lane access needed for their role.
+5. **Least Privilege:** Execution units (agents/programs) only receive the minimum lane access needed for their role.
 6. **Drift Control:** Derived diagrams/docs must not introduce new services, flows, persistence zones, or authority semantics.
 
 ---
@@ -57,15 +57,16 @@ No agent may bypass the choke points.
 - Does not directly access storage or tools except via governed backend APIs
 
 ### Layer B — Orchestration & Workflow Control
-- Schedules and sequences agent runs
+- Schedules and sequences agent/program runs
 - Establishes `case_id`, `run_id`, `workflow_state`
 - Enforces state transitions (if implemented)
 - Requests tool calls and writes only through choke points
 
-### Layer C — Agent Execution Layer
-- Agents perform bounded tasks (Interview, Intake, Mapping, Governance)
-- Agents MUST declare a `lane_id` for privileged actions
-- Agents cannot directly access persistence or tools outside choke points
+### Layer C — Execution Layer (Agents & Programs)
+- Execution units perform bounded work under governance (Interview, Intake, Mapping, Processing, Fact Normalization, Tagging, Composite, COA Evaluation, etc.)
+- Execution units MUST declare a `lane_id` for privileged actions
+- Execution units cannot directly access persistence or tools outside choke points
+- **Agents** may operate in Reasoning Mode as defined by their contract; **Programs** are deterministic-only as defined by their contract
 
 ### Layer D — Tool Gateway (Choke Point)
 - Mediates all tool invocations (dictation, transcription, parsing, OCR, etc.)
@@ -294,4 +295,3 @@ If drift or change is required:
 2. Update contract policy (roles/lanes) second (if needed)
 3. Regenerate visuals and derived docs last
 4. Commit changes with clear messages referencing contract version impact
-
