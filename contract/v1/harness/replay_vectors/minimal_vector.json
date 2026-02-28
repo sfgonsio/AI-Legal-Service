@@ -1,0 +1,10 @@
+@'
+{
+  "vector_version": "1",
+  "vector_id": "minimal_vector",
+  "description": "Stage 13 minimal replay vector placeholder (SSOT presence only; no runtime replay logic yet).",
+  "contract_version": "v1",
+  "request_path": "harness/sample_payloads/tool_request.json",
+  "notes": ""
+}
+'@ | Set-Content -Path .\contract\v1\harness\replay_vectors\minimal_vector.json -Encoding utf8 -NoNewline

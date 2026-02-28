@@ -26,7 +26,7 @@ function Get-Sha256($path) {
 # -------------------------
 # Paths (ALWAYS Root-relative)
 # -------------------------
-$contractRoot = Join-Path $Root "contract/v1"
+$contractRoot = Resolve-Path (Join-Path $PSScriptRoot "..")
 
 $manifest = Join-Path $contractRoot "contract_manifest.yaml"
 $roles    = Join-Path $contractRoot "policy/roles.yaml"
@@ -60,9 +60,18 @@ Ok "Required SSOT files exist and are non-empty"
 # -------------------------
 # 2) Exactly one manifest in /contract tree
 # -------------------------
-$manifests = Get-ChildItem (Join-Path $Root "contract") -Filter "contract_manifest.yaml" -Recurse -ErrorAction SilentlyContinue
-if ($null -eq $manifests) { Fail "No contract_manifest.yaml found under /contract" }
-if ($manifests.Count -ne 1) { Fail "Expected exactly 1 contract_manifest.yaml, found $($manifests.Count)" }
+$manifests = @(
+    Get-ChildItem -Path $contractRoot -Recurse -Filter "contract_manifest.yaml" -File -ErrorAction SilentlyContinue
+)
+
+if ($manifests.Count -eq 0) {
+    Fail "No contract_manifest.yaml found under /contract"
+}
+
+if ($manifests.Count -ne 1) {
+    Fail "Expected exactly 1 contract_manifest.yaml, found $($manifests.Count)"
+}
+
 Ok "Exactly one contract_manifest.yaml"
 
 # -------------------------
@@ -227,8 +236,8 @@ if ($manText -match '(?m)^\s*enabled:\s*true\s*$') {
 # Existing validation checks above here...
 
 # --- Stage 12: Determinism & fingerprint enforcement (string checks) ---
-	$fpYaml = Join-Path $PSScriptRoot "orchestration\run_identity_fingerprints.yaml"
-	$fpMd   = Join-Path $PSScriptRoot "orchestration\determinism_integrity_contract.md"
+	$fpYaml = Join-Path $contractRoot "orchestration\run_identity_fingerprints.yaml"
+	$fpMd   = Join-Path $contractRoot "orchestration\determinism_integrity_contract.md"
 
 	if (-not (Test-Path $fpYaml)) { Fail "Missing required determinism SSOT: $fpYaml" }
 	if (-not (Test-Path $fpMd))   { Fail "Missing required determinism contract: $fpMd" }

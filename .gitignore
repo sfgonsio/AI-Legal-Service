@@ -34,3 +34,5 @@ contract/v1/agents/_template_agent_contract.md
 contract/v1/agents/INTERVIEW_AGENT.md
 contract/v1/agents/MAPPING_AGENT.md
 contract/v1/agents/Progarm_COMPOSITE_ENGINE.md
+# --- Contract v1 hygiene ---
+.pytest_cache/
