@@ -1,4 +1,4 @@
-version: v1
+﻿version: v1
 contract_version: v1
 schema_id: export_bundle
 schema_version: 1.0.0
@@ -298,4 +298,3 @@ properties:
       notes:
         type: [string, "null"]
         maxLength: 500
-'@ | Set-Content -Encoding UTF8 .\contract\v1\schemas\export_bundle.schema.yaml

@@ -1,5 +1,4 @@
-@'
-version: v1
+﻿version: v1
 authoritative: true
 scope: orchestration
 
@@ -100,4 +99,3 @@ determinism_guarantee:
   enforcement:
     - harness_replay_required: true
     - mixed_run_rejection_required: true
-'@ | Set-Content -Encoding UTF8 ".\contract\v1\orchestration\run_identity_fingerprints.yaml"

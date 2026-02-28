@@ -1,6 +1,5 @@
-@'
-# determinism_integrity_contract
-(Authoritative Determinism & Run Integrity Contract — v1)
+﻿# determinism_integrity_contract
+(Authoritative Determinism & Run Integrity Contract â€” v1)
 
 ---
 
@@ -22,7 +21,7 @@ This contract is **authoritative** for orchestration, Write Broker metadata, and
 ## 2. Definitions
 
 **inputs_fingerprint**  
-A SHA-256 fingerprint computed from the *set of uploads* (stable under ordering), including each upload’s raw_sha256 and identifying metadata.
+A SHA-256 fingerprint computed from the *set of uploads* (stable under ordering), including each uploadâ€™s raw_sha256 and identifying metadata.
 
 **run_fingerprint**  
 A SHA-256 fingerprint computed from:
@@ -97,4 +96,3 @@ This contract is enforced by:
 - audit ledger controls
 
 ---
-'@ | Set-Content -Encoding UTF8 ".\contract\v1\orchestration\determinism_integrity_contract.md"

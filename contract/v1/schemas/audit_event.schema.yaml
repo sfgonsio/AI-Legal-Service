@@ -3,6 +3,7 @@ contract_version: v1
 schema_id: audit_event
 schema_version: 1.0.0
 last_updated: 2026-02-22
+
 notes:
   artifact_ref_binding: "Any artifact_ref, input_artifacts[], and output_artifacts[] MUST conform to contract/v1/schemas/artifact_ref.schema.yaml (SSOT)."
 
@@ -243,5 +244,6 @@ properties:
   notes:
     type: [string, "null"]
     maxLength: 1000
-'@ | Set-Content -Encoding UTF8 .\contract\v1\schemas\audit_event.schema.yaml
+
+
 

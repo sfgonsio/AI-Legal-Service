@@ -1,4 +1,3 @@
-@'
 {
   "vector_version": "1",
   "vector_id": "minimal_vector",
@@ -7,4 +6,3 @@
   "request_path": "harness/sample_payloads/tool_request.json",
   "notes": ""
 }
-'@ | Set-Content -Path .\contract\v1\harness\replay_vectors\minimal_vector.json -Encoding utf8 -NoNewline

@@ -1,5 +1,4 @@
-@'
-# Replay Vector Spec (Contract v1)
+﻿# Replay Vector Spec (Contract v1)
 
 Purpose:
 Replay vectors are minimal, versioned fixtures that allow the harness to re-run a deterministic workflow input and later verify outputs.
@@ -32,4 +31,3 @@ Guidance:
 - request_path MUST be relative to contract/v1/
 - Replay vectors are SSOT artifacts and must be listed in contract_manifest.yaml
 - Future stages may add expected outputs, fingerprints, and golden comparisons, but Stage 13 stops at presence + documentation + enforcement.
-'@ | Set-Content -Path .\contract\v1\harness\replay_vectors\REPLAY_VECTOR_SPEC.md -Encoding utf8 -NoNewline

@@ -1,5 +1,4 @@
-@'
-# contract/v1/harness/harness_contract.md
+﻿# contract/v1/harness/harness_contract.md
 # Gate 5 (Option B): Deterministic Run + Audit JSON Harness (Contract v1)
 
 AUTHORITATIVE STATUS
@@ -77,4 +76,3 @@ Acceptance Criteria
   - policy_versions_lanes, policy_versions_roles
   - request_hash_sha256, response_hash_sha256 where applicable
 - When tool is disabled, denial reason is deterministic and structured
-'@ | Set-Content -Encoding UTF8 .\contract\v1\harness\harness_contract.md

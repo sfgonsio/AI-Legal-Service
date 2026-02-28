@@ -1,5 +1,4 @@
-﻿@'
-version: v1
+﻿version: v1
 contract_version: v1
 last_updated: 2026-02-23
 
@@ -47,4 +46,3 @@ roles:
         - PROMOTE_SHARED_KNOWLEDGE
         - EXPORT_CASE_DATA
         - SYSTEM_OVERRIDE
-'@ | Set-Content -Encoding UTF8 .\contract\v1\policy\roles.yaml

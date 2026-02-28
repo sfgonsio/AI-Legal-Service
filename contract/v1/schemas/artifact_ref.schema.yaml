@@ -108,4 +108,5 @@ properties:
       notes:
         type: [string, "null"]
         maxLength: 300
-'@ | Set-Content -Encoding UTF8 .\contract\v1\schemas\artifact_ref.schema.yaml
+
+
