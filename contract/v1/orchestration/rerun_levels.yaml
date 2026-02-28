@@ -1,0 +1,57 @@
+version: v1
+authoritative: true
+
+rerun_levels:
+  R0:
+    name: STORE_ONLY
+    requires_attorney_approval: false
+    executes: []
+    audit_event: UPLOAD_STORED_PENDING_REVIEW
+    invalidates: []
+    notes: "Raw uploads stored only. No canonical artifacts generated."
+  R1:
+    name: PROCESSING_ONLY
+    requires_attorney_approval: false
+    executes: [program_PROCESSING]
+    audit_event: RERUN_R1_PROCESSING_COMPLETE
+    invalidates: [DOCUMENTS, CHUNKS]
+  R2:
+    name: FACT_NORMALIZATION
+    requires_attorney_approval: false
+    executes: [program_PROCESSING, program_FACT_NORMALIZATION]
+    audit_event: RERUN_R2_FACTS_COMPLETE
+    invalidates: [EVIDENCE_FACTS]
+  R3:
+    name: TAGGING
+    requires_attorney_approval: false
+    executes: [program_PROCESSING, program_FACT_NORMALIZATION, program_TAGGING]
+    audit_event: RERUN_R3_TAGGING_COMPLETE
+    invalidates: [TAG_ASSIGNMENTS]
+  R4:
+    name: COMPOSITE_ENGINE
+    requires_attorney_approval: false
+    executes: [program_PROCESSING, program_FACT_NORMALIZATION, program_TAGGING, program_COMPOSITE_ENGINE]
+    audit_event: RERUN_R4_COMPOSITE_COMPLETE
+    invalidates: [EVENT_CANDIDATES]
+  R5:
+    name: MAPPING_REFRESH
+    requires_attorney_approval: true
+    executes: [program_PROCESSING, program_FACT_NORMALIZATION, program_TAGGING, program_COMPOSITE_ENGINE, agent_MAPPING]
+    audit_event: RERUN_R5_MAPPING_COMPLETE
+    invalidates: [MAPPINGS]
+  R6:
+    name: COA_ENGINE_REFRESH
+    requires_attorney_approval: true
+    executes: [program_PROCESSING, program_FACT_NORMALIZATION, program_TAGGING, program_COMPOSITE_ENGINE, agent_MAPPING, program_COA_ENGINE]
+    audit_event: RERUN_R6_COA_COMPLETE
+    invalidates: [COA_COVERAGE]
+  R7:
+    name: DOWNSTREAM_PROPOSALS
+    requires_attorney_approval: true
+    executes: [program_PROCESSING, program_FACT_NORMALIZATION, program_TAGGING, program_COMPOSITE_ENGINE, agent_MAPPING, program_COA_ENGINE, agent_COA_REASONER]
+    audit_event: RERUN_R7_REASONER_COMPLETE
+    invalidates: [ADVISORY_MEMOS, DISCOVERY_PLANS, DEPOSITION_PROPOSALS]
+
+rules:
+  cumulative_only: true
+  no_skipping_intermediate_layers: true

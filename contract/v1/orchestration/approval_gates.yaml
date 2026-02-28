@@ -1,0 +1,17 @@
+version: v1
+authoritative: true
+
+approval_required_for_rerun_levels: [R5, R6, R7]
+approval_optional_for_rerun_levels: [R2, R3, R4]
+approval_not_required_for_rerun_levels: [R0, R1]
+
+required_audit_events:
+  approve: ATTORNEY_APPROVED_RERUN
+  decline: ATTORNEY_DECLINED_RERUN
+
+legal_artifact_impact_gate:
+  required_for_impacts:
+    - FILED_PLEADINGS
+    - DISCOVERY_RESPONSES
+    - PRODUCED_REPORTS
+  required_ack_event: ATTORNEY_ACKNOWLEDGED_LEGAL_ARTIFACT_IMPACT

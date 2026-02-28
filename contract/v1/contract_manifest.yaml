@@ -101,3 +101,9 @@ integrity:
 - path: contract/v1/acceptance/build_integrity_checklist.md
   sha256: f562ef20627cd5e2a9a05b43e0e8f97c1e02c274bec7db215404dfe83a2906f1
 
+
+# Stage 11 Orchestration SSOT (appended - relocate if needed)
+- ./orchestration/rerun_levels.yaml
+- ./orchestration/state_machine.yaml
+- ./orchestration/approval_gates.yaml
+- ./orchestration/invalidation_graph.yaml
