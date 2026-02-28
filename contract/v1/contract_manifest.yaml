@@ -87,34 +87,13 @@ integrity:
       "./execution/run_lifecycle.md": "4321997d64ee504b7c999bba3db195d6202f9a3dbb0efb92d9c1f793e70bafa0"
       "./execution/run_status_model.md": "93aeecba8c6f74b46dd877743f47067246440d52cdf202dbbd953e14543795b3"
       "./orchestration/orchestrator_contract.md": "1e08dfbee0b31a807ceb1ef2d35b0ab99f8e4249d84f9358d8298a5ceaa4f536"
-      "./schemas/artifact_ref.schema.yaml": "11e8ab7ab406de6a85420ecd9066e5bf6aca49ffb9ce9fc12d0972a963501fec"
-      "./schemas/audit_event.schema.yaml": "0e5e66a29d8a9f86f8c2e96adf396ec0b46021edf8fe7424a17af1c91925a334"
-      "./schemas/export_bundle.schema.yaml": "8d6befdd95b847943ef2aae71e9b9f97d5b1a375c97beae20ffb50b76886615c"
+      "./schemas/artifact_ref.schema.yaml": "bcd4c3781c50b78b79f94d8d300b96ebbbb54a6cef5ae9f9338d739c597004cb"
+      "./schemas/audit_event.schema.yaml": "3316daf1d67f410fe9f5808ff6b429854e202b3fe3bf93b523ffd9e4240007ca"
+      "./schemas/export_bundle.schema.yaml": "171a06f46b29fc93184c27aed083cf43cb5230c5e4de102b376e501f6fcdabc7"
       "./schemas/run_record.schema.yaml": "670d9ca8733263193ddccfbecdf145e4476739d7e35122d329a7126aa87b3394"
       "./taxonomies/coa/base_coa_v1.yaml": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       "./taxonomies/entities/entity_schema_v1.yaml": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       "./taxonomies/tags/tag_schema_v1.yaml": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       "./tools/tool_gateway_contract.md": "8b47ca97a7e1ea5f0d16b9705d1748f0fbc324dc10dedc6eaed0cf55f85c63cf"
       "./tools/tool_registry.yaml": "d42c1ba40ecde605260b9ec387d472f072e222e012ed48f8074c61239e08fd67"
-      "./agents/agent_COA_REASONER.md": "60855c247b835a56bfadef34774cecc9af6589c4da144c0824977307084011cb"
 
-- path: contract/v1/acceptance/build_integrity_checklist.md
-  sha256: f562ef20627cd5e2a9a05b43e0e8f97c1e02c274bec7db215404dfe83a2906f1
-
-
-# Stage 11 — Orchestration SSOT
-# How does execution flow?
-- ./orchestration/rerun_levels.yaml
-- ./orchestration/state_machine.yaml
-- ./orchestration/approval_gates.yaml
-- ./orchestration/invalidation_graph.yaml
-
-# Stage 12 — Determinism Integrity SSOT
-# How is determinism guaranteed?
-- ./orchestration/run_identity_fingerprints.yaml
-- ./orchestration/determinism_integrity_contract.md
-
-# Stage 13 — Replay Harness Enforcement SSOT
-# How is determinism verifiably replayable?
-- ./harness/replay_vectors/REPLAY_VECTOR_SPEC.md
-- ./harness/replay_vectors/minimal_vector.json
