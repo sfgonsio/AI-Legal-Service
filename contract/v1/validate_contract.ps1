@@ -224,6 +224,36 @@ if ($manText -match '(?m)^\s*enabled:\s*true\s*$') {
 } else {
   Ok "Manifest hash enforcement is disabled (integrity.file_hashes.enabled != true)"
 }
+# Existing validation checks above here...
 
+# --- Stage 12: Determinism & fingerprint enforcement (string checks) ---
+	$fpYaml = Join-Path $PSScriptRoot "orchestration\run_identity_fingerprints.yaml"
+	$fpMd   = Join-Path $PSScriptRoot "orchestration\determinism_integrity_contract.md"
+
+	if (-not (Test-Path $fpYaml)) { Fail "Missing required determinism SSOT: $fpYaml" }
+	if (-not (Test-Path $fpMd))   { Fail "Missing required determinism contract: $fpMd" }
+
+	$fpText = Get-Content -Raw $fpYaml
+	$requiredAnchors = @(
+	  "inputs_fingerprint:",
+	  "run_fingerprint:",
+	  "artifact_metadata_requirements:",
+	  "required_on_all_canonical_artifacts:",
+	  "no_mixed_run_answers:",
+	  "algorithm: sha256"
+	)
+
+	foreach ($a in $requiredAnchors) {
+	  if ($fpText -notmatch [regex]::Escape($a)) {
+		Fail "Determinism SSOT missing anchor: $a"
+	  }
+	}
+
+Write-Host "OK: Determinism fingerprint SSOT present and well-formed (anchor checks)"
+# --- end Stage 12 ---
+
+
+Write-Host "ALL CHECKS PASSED ✅"
+exit 0
 Write-Host "`nALL CHECKS PASSED ✅" -ForegroundColor Cyan
 exit 0

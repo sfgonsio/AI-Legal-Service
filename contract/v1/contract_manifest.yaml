@@ -107,3 +107,6 @@ integrity:
 - ./orchestration/state_machine.yaml
 - ./orchestration/approval_gates.yaml
 - ./orchestration/invalidation_graph.yaml
+- ./orchestration/run_identity_fingerprints.yaml
+- ./orchestration/determinism_integrity_contract.md
+

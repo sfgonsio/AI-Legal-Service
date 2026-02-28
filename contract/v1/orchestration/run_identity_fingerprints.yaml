@@ -1,0 +1,103 @@
+@'
+version: v1
+authoritative: true
+scope: orchestration
+
+# This SSOT defines deterministic identity and fingerprint requirements for Contract v1 runs.
+# It is enforced by validation and MUST be implemented by orchestrator + Write Broker.
+
+hash:
+  algorithm: sha256
+  encoding: hex_lower
+  canonicalization:
+    json:
+      standard: RFC8785_like
+      rules:
+        - objects: sort_keys_lexicographically
+        - arrays: preserve_order_when_semantically_ordered_else_sort
+        - numbers: no_trailing_zeros
+        - strings: utf8
+        - whitespace: none
+
+run_identity:
+  required_fields:
+    - run_id
+    - case_id
+    - contract_version
+    - timestamp_utc
+    - parser_ruleset_version
+    - normalization_ruleset_version
+    - tagging_ruleset_version
+    - composite_ruleset_version
+    - coa_ruleset_version
+    - policy_version
+
+fingerprints:
+  # Fingerprint over the *set* of inputs (uploads), stable under ordering.
+  inputs_fingerprint:
+    name: inputs_fingerprint
+    computed_from:
+      upload_items:
+        # Items MUST be sorted by upload_id (or stable raw_sha256 if upload_id not available yet).
+        sort_by: [upload_id, raw_sha256]
+        include_fields:
+          - upload_id
+          - raw_sha256
+          - byte_length
+          - original_filename
+          - received_timestamp_utc
+    output_semantics:
+      same_inputs_same_fingerprint: true
+
+  # Fingerprint over the full run configuration (inputs + versions + policy).
+  run_fingerprint:
+    name: run_fingerprint
+    computed_from:
+      include_fields:
+        - case_id
+        - contract_version
+        - inputs_fingerprint
+        - parser_ruleset_version
+        - normalization_ruleset_version
+        - tagging_ruleset_version
+        - composite_ruleset_version
+        - coa_ruleset_version
+        - policy_version
+        - rerun_level
+    output_semantics:
+      identical_inputs_versions_policy_same_rerun_level => identical_run_fingerprint: true
+
+artifact_metadata_requirements:
+  # Every canonical artifact produced by a governed program/agent MUST carry this metadata.
+  required_on_all_canonical_artifacts:
+    - case_id
+    - run_id
+    - run_fingerprint
+    - inputs_fingerprint
+    - produced_timestamp_utc
+    - contract_version
+    - ruleset_versions:
+        - parser_ruleset_version
+        - normalization_ruleset_version
+        - tagging_ruleset_version
+        - composite_ruleset_version
+        - coa_ruleset_version
+        - policy_version
+    - supersedes_run_id: optional
+
+query_safety:
+  active_query_rule:
+    latest_run_only: true
+    no_mixed_run_answers: true
+    historical_run_requires_explicit_selection: true
+  enforcement_notes:
+    - "Any response that merges artifacts with differing run_id OR differing run_fingerprint is forbidden."
+
+determinism_guarantee:
+  statement: >
+    Given identical uploads (inputs_fingerprint), identical ruleset versions, identical policy_version,
+    identical contract_version, and identical rerun_level, the pipeline MUST produce identical canonical artifacts.
+  enforcement:
+    - harness_replay_required: true
+    - mixed_run_rejection_required: true
+'@ | Set-Content -Encoding UTF8 ".\contract\v1\orchestration\run_identity_fingerprints.yaml"
