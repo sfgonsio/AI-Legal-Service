@@ -1,0 +1,16 @@
+{
+  "fingerprints": {
+    "acceptance/validate_contract.ps1": "287f03114d9d7065572eb288b06bcc37a5d9b0e3a14a8ebf687a5f4423b66362",
+    "contract/v1/harness/replay_vectors/minimal_vector.json": "2b0897e8f92b92c33135f28021a3b698acef8d6b96b9b0b5bd90fcffc7641eca",
+    "contract_manifest.yaml": "b17232752acab74b02a934f277130e4679bfb86c72a15781aa2d25e9f56c00dd",
+    "tools/tool_registry.yaml": "d42c1ba40ecde605260b9ec387d472f072e222e012ed48f8074c61239e08fd67"
+  },
+  "missing_artifacts": [
+    "acceptance/build_integrity_checklist",
+    "lanes.yaml",
+    "roles/roles.yaml",
+    "schemas/ddl.sql"
+  ],
+  "schema_version": "replay_equivalence_v1",
+  "vector_id": "minimal_vector"
+}
