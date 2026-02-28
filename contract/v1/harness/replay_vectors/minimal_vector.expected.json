@@ -1,8 +1,8 @@
 {
   "fingerprints": {
-    "acceptance/validate_contract.ps1": "287f03114d9d7065572eb288b06bcc37a5d9b0e3a14a8ebf687a5f4423b66362",
+    "acceptance/validate_contract.ps1": "abc742a0940e17162461ee53666f4c77fd4e75071003fd229d1ed3b6b1a4a8ce",
     "contract/v1/harness/replay_vectors/minimal_vector.json": "2b0897e8f92b92c33135f28021a3b698acef8d6b96b9b0b5bd90fcffc7641eca",
-    "contract_manifest.yaml": "b17232752acab74b02a934f277130e4679bfb86c72a15781aa2d25e9f56c00dd",
+    "contract_manifest.yaml": "6221afb83a96538f27c12115b35d4aa50256815d35052a9fadd1c4d62b38b2f4",
     "tools/tool_registry.yaml": "d42c1ba40ecde605260b9ec387d472f072e222e012ed48f8074c61239e08fd67"
   },
   "missing_artifacts": [

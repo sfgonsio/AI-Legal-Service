@@ -261,8 +261,22 @@ if ($manText -match '(?m)^\s*enabled:\s*true\s*$') {
 Write-Host "OK: Determinism fingerprint SSOT present and well-formed (anchor checks)"
 # --- end Stage 12 ---
 
+# --- Stage 14: Deterministic Replay Equivalence (executably verifiable) ---
+Write-Host "Running Stage 14 replay equivalence verification..." -ForegroundColor Cyan
 
-Write-Host "ALL CHECKS PASSED ✅"
-exit 0
+$contractRoot = Join-Path $PSScriptRoot ".." | Resolve-Path
+$contractRoot = $contractRoot.Path
+
+$replayRunner = Join-Path $contractRoot "harness\run_replay.py"
+$replayVectors = Join-Path $contractRoot "harness\replay_vectors"
+
+if (!(Test-Path $replayRunner)) { throw "Missing replay runner: $replayRunner" }
+if (!(Test-Path $replayVectors)) { throw "Missing replay vectors dir: $replayVectors" }
+
+python $replayRunner --contract_root $contractRoot --vectors_dir $replayVectors
+if ($LASTEXITCODE -ne 0) { throw "Stage 14 replay equivalence failed." }
+
+Write-Host "OK: Stage 14 replay equivalence passed (canonical outputs match)" -ForegroundColor Green
+
 Write-Host "`nALL CHECKS PASSED ✅" -ForegroundColor Cyan
 exit 0
