@@ -96,7 +96,7 @@ integrity:
       "./taxonomies/tags/tag_schema_v1.yaml": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       "./tools/tool_gateway_contract.md": "8b47ca97a7e1ea5f0d16b9705d1748f0fbc324dc10dedc6eaed0cf55f85c63cf"
       "./tools/tool_registry.yaml": "d42c1ba40ecde605260b9ec387d472f072e222e012ed48f8074c61239e08fd67"
-
+      "./agents/agent_COA_REASONER.md": "60855c247b835a56bfadef34774cecc9af6589c4da144c0824977307084011cb"
 
 - path: contract/v1/acceptance/build_integrity_checklist.md
   sha256: f562ef20627cd5e2a9a05b43e0e8f97c1e02c274bec7db215404dfe83a2906f1
