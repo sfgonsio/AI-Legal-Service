@@ -116,3 +116,7 @@ integrity:
       "./schemas/interview/risk_flag_register.schema.json": "5d1d91b0ee78c629ae0bbfe0c6b01b6bd78a96255d9ef7cfce73c6c96a27551c"
       "./schemas/overlays/interview_overlay_pack.schema.json": "a31d45ef1c5062362aeda976483776a1e96610834c4ad671701b82c5486964f7"
       "./overlays/interview/firm_default_v1.yaml": "843720e25c2ed800a0306a8677710800ec89651e20fa34078d6748b4f1f8b6e5"
+      "./overlays/interview/employment_wrongful_term_pack_v2.yaml": "22b0d9c23b34137631030a86206decb8adead7504cae6de321c4c4706997352a"
+      "./overlays/interview/attorney_smith_style_v3.yaml": "f5ff23242c045db371b17ce0c225fcfd4dcb85b46ab5fe4cf57652c3de7ed831"
+      "./overlays/interview/matter_critical_gaps_pack_v1.yaml": "55fe28157e27fdf58acd1e8bee2670acf7d68fb2df0d69a5514a7cb0bf245158"
+not following.  can i gie oyu

@@ -45,6 +45,8 @@ $harnessContract = Join-Path $contractRoot "harness/harness_contract.md"
 $sampleToolReq   = Join-Path $contractRoot "harness/sample_payloads/tool_request.json"
 $runHarnessPy    = Join-Path $contractRoot "harness/run_harness.py"
 
+$caseConfig      = Join-Path $contractRoot "config\case_config.yaml"
+
 # -------------------------
 # 1) Required files
 # -------------------------
@@ -59,12 +61,13 @@ Require-File $orch
 Require-File $harnessContract
 Require-File $sampleToolReq
 Require-File $runHarnessPy
+Require-File $caseConfig
 Ok "Required SSOT files exist and are non-empty"
 
 # -------------------------
 # 2) Single manifest enforcement
 # -------------------------
-$manifests = Get-ChildItem -Path $contractRoot -Recurse -Filter "contract_manifest.yaml" -File
+$manifests = @(Get-ChildItem -Path $contractRoot -Recurse -Filter "contract_manifest.yaml" -File)
 
 if ($manifests.Count -eq 0) { Fail "No contract_manifest.yaml found under /contract" }
 if ($manifests.Count -ne 1) { Fail "Expected exactly 1 contract_manifest.yaml, found $($manifests.Count)" }
@@ -89,6 +92,7 @@ $rolesText = Get-Content $roles -Raw
 $regText   = Get-Content $registry -Raw
 $ddlText   = Get-Content $ddl -Raw
 $manText   = Get-Content $manifest -Raw
+$cfgText   = Get-Content $caseConfig -Raw
 
 # -------------------------
 # 5) Manifest path enforcement
@@ -158,6 +162,8 @@ Ok "DDL contains all required tables"
 $toolRegex = [regex]'(?m)^\s*-\s*(?<t>[a-z0-9_]+\.[a-z0-9_.]+)\s*$'
 $laneTools = @($toolRegex.Matches($lanesText) | ForEach-Object { $_.Groups["t"].Value.Trim() } | Sort-Object -Unique)
 
+if ($laneTools.Length -eq 0) { Fail "No tools detected in lanes.yaml." }
+
 foreach ($t in $laneTools) {
   if ($regText -notmatch ("(?m)^\s*-\s*tool_name:\s*" + [regex]::Escape($t) + "\s*$")) {
     Fail "Tool in lanes.yaml not found in registry: $t"
@@ -172,9 +178,8 @@ $laneRoleRegex = [regex]'roles:\s*\[(?<list>[^\]]+)\]'
 $laneRoles = @()
 
 foreach ($m in $laneRoleRegex.Matches($lanesText)) {
-  $laneRoles += ($m.Groups["list"].Value -split ",") | ForEach-Object { $_.Trim() }
+  $laneRoles += ($m.Groups["list"].Value -split ",") | ForEach-Object { $_.Trim() } | Where-Object { $_ -ne "" }
 }
-
 $laneRoles = @($laneRoles | Sort-Object -Unique)
 
 foreach ($r in $laneRoles) {
@@ -216,7 +221,7 @@ else {
 }
 
 # -------------------------
-# Stage 13.5 Overlay Structural Validation
+# Stage 13.5 Overlay Structural Validation (manifest-driven)
 # -------------------------
 Write-Host "Stage 13.5 overlay pack structural validation..." -ForegroundColor Cyan
 
@@ -266,6 +271,84 @@ else {
 
   Ok "Stage 13.5 overlay pack structural validation passed"
 }
+
+# -------------------------
+# Stage 13.6 Config Binding Enforcement (case_config.yaml ↔ manifest ↔ overlays ↔ schemas)
+# -------------------------
+Write-Host "Stage 13.6 config binding enforcement..." -ForegroundColor Cyan
+
+# 13.6A: case_config must contain interview + overlays blocks
+if ($cfgText -notmatch '(?m)^\s*interview:\s*$') {
+  Fail "case_config.yaml missing required top-level block: interview:"
+}
+if ($cfgText -notmatch '(?m)^\s*overlays:\s*$') {
+  Fail "case_config.yaml missing required block under interview: overlays:"
+}
+
+# 13.6B: Extract overlay_ids from case_config.yaml under interview.overlays
+# Matches lines like: - overlay_id: firm_default_v1
+$cfgOverlayIdRegex = [regex]'(?m)^\s*-\s*overlay_id:\s*(?<id>[A-Za-z0-9_\-\.]+)\s*$'
+$cfgOverlayIds = @($cfgOverlayIdRegex.Matches($cfgText) | ForEach-Object { $_.Groups["id"].Value.Trim() } | Where-Object { $_ -ne "" })
+
+if ($cfgOverlayIds.Length -eq 0) {
+  Fail "case_config.yaml interview.overlays contains no overlay_id entries"
+}
+
+# No duplicates
+$dupes = @($cfgOverlayIds | Group-Object | Where-Object { $_.Count -gt 1 } | ForEach-Object { $_.Name })
+if ($dupes.Length -gt 0) {
+  Fail "case_config.yaml contains duplicate overlay_id(s): $($dupes -join ', ')"
+}
+
+# 13.6C: Ensure each overlay_id maps to an overlay file and is listed in manifest
+foreach ($oid in $cfgOverlayIds) {
+
+  $expectedRel = "overlays/interview/$oid.yaml"
+  $expectedAbs = Join-Path $contractRoot $expectedRel
+
+  if (-not (Test-Path $expectedAbs)) {
+    Fail "case_config.yaml references overlay_id '$oid' but expected overlay file is missing: ./$( $expectedRel )"
+  }
+
+  # Must be referenced in manifest as authoritative inventory
+  $needle = '"./' + [regex]::Escape($expectedRel) + '"'
+  if ($manText -notmatch $needle) {
+    Fail "Overlay file for overlay_id '$oid' exists but is not listed in contract_manifest.yaml authoritative_files (missing: ./$expectedRel)"
+  }
+
+  # Overlay file must contain matching overlay_id:
+  $ovText = Get-Content -Raw $expectedAbs
+  $ovIdMatch = [regex]::Match($ovText, '(?m)^\s*overlay_id:\s*(?<id>[A-Za-z0-9_\-\.]+)\s*$')
+  if (-not $ovIdMatch.Success) {
+    Fail "Overlay file ./$expectedRel missing overlay_id: header"
+  }
+  $ovId = $ovIdMatch.Groups["id"].Value.Trim()
+  if ($ovId -ne $oid) {
+    Fail "Overlay file ./$expectedRel overlay_id mismatch: case_config=$oid, file=$ovId"
+  }
+
+  # Must include enabled: true/false for that overlay entry in case_config (string check somewhere)
+  # We don't parse YAML; we simply require at least one enabled: line exists in config.
+  if ($cfgText -notmatch '(?m)^\s*enabled:\s*(true|false)\s*$') {
+    Fail "case_config.yaml missing required enabled: true|false entries under interview.overlays"
+  }
+}
+
+# 13.6D: Ensure required schemas are in manifest inventory (prevents silent schema drift)
+$requiredSchemaRefs = @(
+  "./schemas/interview/case_strategy_mode.schema.json",
+  "./schemas/interview/element_completeness_matrix.schema.json",
+  "./schemas/interview/risk_flag_register.schema.json",
+  "./schemas/overlays/interview_overlay_pack.schema.json"
+)
+
+foreach ($sr in $requiredSchemaRefs) {
+  if ($manText -notmatch [regex]::Escape('"' + $sr + '"')) {
+    Fail "contract_manifest.yaml missing required schema reference: $sr"
+  }
+}
+
+Ok "Stage 13.6 config binding enforcement passed"
 
 # -------------------------
 # Stage 14 Replay (opt-in)

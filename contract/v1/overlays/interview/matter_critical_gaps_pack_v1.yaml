@@ -1,0 +1,20 @@
+overlay_id: matter_critical_gaps_pack_v1
+overlay_type: interview_overlay_pack
+version: v1
+status: active
+
+metadata:
+  name: "Matter Critical Gaps Pack"
+  description: "Matter-level overlay pack. Stub scaffold; populate with matter-specific missing facts/evidence gap questions."
+  owner: "Matter"
+  jurisdiction: ["CA"]
+  practice_area: []
+  created_utc: "2026-03-01T00:00:00Z"
+
+triggers: []
+
+question_additions: []
+
+mappings: []
+
+priority_rules: []

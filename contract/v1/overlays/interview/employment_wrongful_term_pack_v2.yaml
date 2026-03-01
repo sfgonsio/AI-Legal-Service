@@ -1,0 +1,20 @@
+overlay_id: employment_wrongful_term_pack_v2
+overlay_type: interview_overlay_pack
+version: v2
+status: active
+
+metadata:
+  name: "Employment Wrongful Termination Pack"
+  description: "Practice-group overlay pack. Stub scaffold; populate with jurisdiction/practice rules and question additions."
+  owner: "PracticeGroup"
+  jurisdiction: ["CA"]
+  practice_area: ["Employment"]
+  created_utc: "2026-03-01T00:00:00Z"
+
+triggers: []
+
+question_additions: []
+
+mappings: []
+
+priority_rules: []
