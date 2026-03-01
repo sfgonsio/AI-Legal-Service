@@ -36,3 +36,6 @@ contract/v1/agents/MAPPING_AGENT.md
 contract/v1/agents/Progarm_COMPOSITE_ENGINE.md
 # --- Contract v1 hygiene ---
 .pytest_cache/
+
+# V1 Huaman Readable Presentation
+contract\v1\presentation\_figma_presentation_script_introduction.md

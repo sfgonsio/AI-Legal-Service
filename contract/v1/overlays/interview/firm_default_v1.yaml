@@ -1,0 +1,214 @@
+overlay_id: firm_default_v1
+overlay_type: interview_overlay_pack
+version: "1.0.0"
+status: active
+
+metadata:
+  name: "Firm Default Interview Overlay Pack"
+  description: >
+    Firm-wide default overlay pack that adds baseline diligence questions,
+    evidence prompts, and red-flag probes across domains and postures.
+  owner:
+    firm_id: "FIRM_UNSET"
+    practice_group_id: null
+    attorney_id: null
+  authored_by: "FIRM_ADMIN_UNSET"
+  created_utc: "2026-03-01T00:00:00Z"
+  updated_utc: "2026-03-01T00:00:00Z"
+  tags:
+    - "baseline"
+    - "intake"
+    - "evidence"
+    - "risk_flags"
+  governance:
+    requires_attorney_gate_for_replace: true
+    allowed_actions:
+      - ADD
+      - PRIORITIZE
+      - DISABLE
+      - REPLACE
+    notes: >
+      REPLACE actions should be rare and require explicit attorney approval
+      and audit logging.
+
+triggers:
+  # When this overlay should apply.
+  # You can keep it broad at firm level, then narrow other packs by practice/posture.
+  apply_when:
+    any:
+      - field: case_strategy_mode.domain
+        op: in
+        value: ["civil", "criminal", "administrative", "regulatory", "unknown"]
+  exclude_when:
+    any: []  # optional exclusions
+  confidence_thresholds:
+    # Optional guardrails for when COA/charge confidence is too low
+    min_strategy_confidence: 0.25
+    min_claim_or_charge_confidence: 0.25
+
+question_additions:
+  # Each entry is an "overlay unit" the engine can apply deterministically.
+  # Use action to control behavior.
+  - q_id: Q_FIRM_BASELINE_001
+    action: ADD
+    priority: 50  # higher runs earlier; engine sorts desc
+    stage: narrative_intake  # narrative_intake | element_intake | wrapup
+    question: "Before we go deeper, what outcome are you hoping for (money, stopping conduct, clearing name, avoiding charges, other)?"
+    ask_style: open
+    capture:
+      fact_type: "client_objective"
+      required: false
+    applies_to:
+      domain: ["civil", "criminal", "administrative", "regulatory", "unknown"]
+      posture: ["civil_plaintiff", "civil_defendant", "criminal_defendant", "criminal_prosecution", "unknown"]
+      coa_or_charge_ids: ["*"]
+      element_ids: ["*"]
+
+  - q_id: Q_FIRM_BASELINE_002
+    action: ADD
+    priority: 55
+    stage: narrative_intake
+    question: "Who are the key people and organizations involved, and how do you know each of them?"
+    ask_style: open
+    capture:
+      fact_type: "party_relationships"
+      required: true
+    applies_to:
+      domain: ["civil", "criminal"]
+      posture: ["*"]
+      coa_or_charge_ids: ["*"]
+      element_ids: ["*"]
+
+  - q_id: Q_FIRM_EVIDENCE_001
+    action: ADD
+    priority: 70
+    stage: element_intake
+    question: "For the most important parts of your story, what evidence do you have (texts, emails, contracts, photos/video, bank records, witnesses)?"
+    ask_style: guided_list
+    capture:
+      fact_type: "evidence_inventory"
+      required: true
+    applies_to:
+      domain: ["civil", "criminal"]
+      posture: ["*"]
+      coa_or_charge_ids: ["*"]
+      element_ids: ["*"]
+
+  - q_id: Q_FIRM_AUTH_001
+    action: ADD
+    priority: 65
+    stage: element_intake
+    question: "For screenshots or messages, can you access the original source (phone/email account/app) and export the full thread with dates?"
+    ask_style: yes_no_then_probe
+    capture:
+      fact_type: "authentication_path"
+      required: false
+    emits_risk_flags:
+      - when:
+          field: answer.yes_no
+          op: equals
+          value: "no"
+        risk:
+          risk_type: AUTHENTICATION
+          severity: MEDIUM
+          description: "Digital artifact may require stronger authentication; originals/exports not currently available."
+          mitigation_suggestion: "Request original exports, full message threads, device/source access, and metadata where possible."
+    applies_to:
+      domain: ["civil", "criminal"]
+      posture: ["*"]
+      coa_or_charge_ids: ["*"]
+      element_ids: ["*"]
+
+  - q_id: Q_FIRM_HEARSAY_001
+    action: ADD
+    priority: 60
+    stage: element_intake
+    question: "Which facts did you personally see/hear versus what someone else told you?"
+    ask_style: contrast
+    capture:
+      fact_type: "personal_knowledge_vs_hearsay"
+      required: false
+    emits_risk_flags:
+      - when:
+          field: answer.contains_third_party_statements
+          op: equals
+          value: true
+        risk:
+          risk_type: HEARSAY
+          severity: MEDIUM
+          description: "Some facts may be based on second-hand statements."
+          mitigation_suggestion: "Identify direct witnesses, original documents, or admissions from a party opponent where available."
+    applies_to:
+      domain: ["civil", "criminal"]
+      posture: ["*"]
+      coa_or_charge_ids: ["*"]
+      element_ids: ["*"]
+
+mappings:
+  # Map overlay questions to specific frameworks, COAs/charges, and/or elements.
+  # This is where you add targeted legal-structure prompts once CACI/CALCRIM templates exist.
+  # Keep firm_default broad; practice packs do the deep targeting.
+  framework_defaults:
+    civil: "CACI"
+    criminal: "CALCRIM"
+    administrative: "CUSTOM"
+    regulatory: "CUSTOM"
+
+  element_linking_rules:
+    # Example: if a COA is breach of contract and element is "contract existed",
+    # prioritize asking for a copy and who signed it.
+    - match:
+        domain: "civil"
+        framework: "CACI"
+        coa_or_charge_ids: ["BREACH_OF_CONTRACT"]  # placeholder ID from your COA taxonomy
+        element_ids: ["CONTRACT_EXISTS"]
+      apply:
+        add_questions:
+          - q_id: Q_FIRM_CONTRACT_001
+            action: ADD
+            priority: 90
+            stage: element_intake
+            question: "Do you have the contract (signed copy, email agreement, or text confirming terms)? If not, what proves the agreement existed?"
+            ask_style: guided_list
+            capture:
+              fact_type: "contract_existence_support"
+              required: true
+
+    - match:
+        domain: "criminal"
+        framework: "CALCRIM"
+        coa_or_charge_ids: ["*"]
+        element_ids: ["*"]
+      apply:
+        add_questions:
+          - q_id: Q_FIRM_CRIM_PROC_001
+            action: ADD
+            priority: 85
+            stage: narrative_intake
+            question: "Were you searched, questioned, or asked to consent to anything? Describe exactly what happened and what you were told."
+            ask_style: open
+            capture:
+              fact_type: "search_questioning_context"
+              required: false
+
+priority_rules:
+  # Deterministic ordering + conflict resolution across multiple packs (firm + practice + attorney + matter).
+  sorting:
+    primary: "priority_desc"
+    secondary: "stage_order"
+    tertiary: "q_id_asc"
+
+  stage_order:
+    - narrative_intake
+    - element_intake
+    - wrapup
+
+  conflict_resolution:
+    # If two packs add the same q_id, highest scope wins: matter > attorney > practice_group > firm
+    scope_precedence: ["matter", "attorney", "practice_group", "firm", "global"]
+
+    # If two different q_ids target same element, keep both unless explicitly DISABLEd.
+    default: "keep_all"
+
+    # REPLACE requires attorney approval recorded at Attorney Gate.
+    replace_requires_attorney_gate: true

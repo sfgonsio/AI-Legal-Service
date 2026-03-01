@@ -1,0 +1,231 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://antigravity.dev/contract/v1/schemas/overlays/interview_overlay_pack.schema.json",
+  "title": "Interview Overlay Pack",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "overlay_id",
+    "overlay_type",
+    "version",
+    "status",
+    "metadata",
+    "triggers",
+    "question_additions",
+    "mappings",
+    "priority_rules"
+  ],
+  "properties": {
+    "overlay_id": { "type": "string", "minLength": 1 },
+    "overlay_type": { "type": "string", "const": "interview_overlay_pack" },
+    "version": { "type": "string", "minLength": 1 },
+    "status": { "type": "string", "enum": ["active", "deprecated", "disabled"] },
+
+    "metadata": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "description", "owner", "authored_by", "created_utc", "updated_utc", "tags", "governance"],
+      "properties": {
+        "name": { "type": "string", "minLength": 1 },
+        "description": { "type": "string", "minLength": 1 },
+        "owner": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["firm_id", "practice_group_id", "attorney_id"],
+          "properties": {
+            "firm_id": { "type": "string", "minLength": 1 },
+            "practice_group_id": { "type": ["string", "null"] },
+            "attorney_id": { "type": ["string", "null"] }
+          }
+        },
+        "authored_by": { "type": "string", "minLength": 1 },
+        "created_utc": { "type": "string", "minLength": 10 },
+        "updated_utc": { "type": "string", "minLength": 10 },
+        "tags": { "type": "array", "items": { "type": "string" } },
+        "governance": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["requires_attorney_gate_for_replace", "allowed_actions", "notes"],
+          "properties": {
+            "requires_attorney_gate_for_replace": { "type": "boolean" },
+            "allowed_actions": {
+              "type": "array",
+              "minItems": 1,
+              "items": { "type": "string", "enum": ["ADD", "PRIORITIZE", "DISABLE", "REPLACE"] }
+            },
+            "notes": { "type": "string" }
+          }
+        }
+      }
+    },
+
+    "triggers": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["apply_when", "exclude_when", "confidence_thresholds"],
+      "properties": {
+        "apply_when": { "type": "object" },
+        "exclude_when": { "type": "object" },
+        "confidence_thresholds": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["min_strategy_confidence", "min_claim_or_charge_confidence"],
+          "properties": {
+            "min_strategy_confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+            "min_claim_or_charge_confidence": { "type": "number", "minimum": 0, "maximum": 1 }
+          }
+        }
+      }
+    },
+
+    "question_additions": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/question_unit" }
+    },
+
+    "mappings": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["framework_defaults", "element_linking_rules"],
+      "properties": {
+        "framework_defaults": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["civil", "criminal", "administrative", "regulatory"],
+          "properties": {
+            "civil": { "type": "string" },
+            "criminal": { "type": "string" },
+            "administrative": { "type": "string" },
+            "regulatory": { "type": "string" }
+          }
+        },
+        "element_linking_rules": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["match", "apply"],
+            "properties": {
+              "match": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["domain", "framework", "coa_or_charge_ids", "element_ids"],
+                "properties": {
+                  "domain": { "type": "string" },
+                  "framework": { "type": "string" },
+                  "coa_or_charge_ids": { "type": "array", "items": { "type": "string" } },
+                  "element_ids": { "type": "array", "items": { "type": "string" } }
+                }
+              },
+              "apply": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["add_questions"],
+                "properties": {
+                  "add_questions": {
+                    "type": "array",
+                    "items": { "$ref": "#/$defs/question_unit" }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+
+    "priority_rules": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["sorting", "stage_order", "conflict_resolution"],
+      "properties": {
+        "sorting": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["primary", "secondary", "tertiary"],
+          "properties": {
+            "primary": { "type": "string" },
+            "secondary": { "type": "string" },
+            "tertiary": { "type": "string" }
+          }
+        },
+        "stage_order": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "enum": ["narrative_intake", "element_intake", "wrapup"] }
+        },
+        "conflict_resolution": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["scope_precedence", "default", "replace_requires_attorney_gate"],
+          "properties": {
+            "scope_precedence": {
+              "type": "array",
+              "items": { "type": "string", "enum": ["matter", "attorney", "practice_group", "firm", "global"] }
+            },
+            "default": { "type": "string", "enum": ["keep_all", "highest_scope_wins"] },
+            "replace_requires_attorney_gate": { "type": "boolean" }
+          }
+        }
+      }
+    }
+  },
+
+  "$defs": {
+    "question_unit": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["q_id", "action", "priority", "stage", "question", "ask_style", "capture", "applies_to"],
+      "properties": {
+        "q_id": { "type": "string", "minLength": 1 },
+        "action": { "type": "string", "enum": ["ADD", "PRIORITIZE", "DISABLE", "REPLACE"] },
+        "priority": { "type": "integer" },
+        "stage": { "type": "string", "enum": ["narrative_intake", "element_intake", "wrapup"] },
+        "question": { "type": "string", "minLength": 1 },
+        "ask_style": { "type": "string" },
+        "capture": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["fact_type", "required"],
+          "properties": {
+            "fact_type": { "type": "string", "minLength": 1 },
+            "required": { "type": "boolean" }
+          }
+        },
+        "applies_to": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["domain", "posture", "coa_or_charge_ids", "element_ids"],
+          "properties": {
+            "domain": { "type": "array", "items": { "type": "string" } },
+            "posture": { "type": "array", "items": { "type": "string" } },
+            "coa_or_charge_ids": { "type": "array", "items": { "type": "string" } },
+            "element_ids": { "type": "array", "items": { "type": "string" } }
+          }
+        },
+        "emits_risk_flags": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["when", "risk"],
+            "properties": {
+              "when": { "type": "object" },
+              "risk": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["risk_type", "severity", "description", "mitigation_suggestion"],
+                "properties": {
+                  "risk_type": { "type": "string" },
+                  "severity": { "type": "string" },
+                  "description": { "type": "string" },
+                  "mitigation_suggestion": { "type": "string" }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

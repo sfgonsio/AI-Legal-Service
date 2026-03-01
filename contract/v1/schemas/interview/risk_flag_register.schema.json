@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://antigravity.dev/contract/v1/schemas/interview/risk_flag_register.schema.json",
+  "title": "Risk Flag Register",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["matter_id", "risk_flags"],
+  "properties": {
+    "matter_id": { "type": "string", "minLength": 1 },
+    "risk_flags": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["risk_id", "risk_type", "severity", "description", "related_fact_ids", "related_evidence_ids", "mitigation_suggestion"],
+        "properties": {
+          "risk_id": { "type": "string", "minLength": 1 },
+          "risk_type": {
+            "type": "string",
+            "enum": ["HEARSAY", "AUTHENTICATION", "RELEVANCE", "PRIVILEGE", "FOUNDATION", "OTHER"]
+          },
+          "severity": { "type": "string", "enum": ["LOW", "MEDIUM", "HIGH"] },
+          "description": { "type": "string", "minLength": 1 },
+          "related_fact_ids": { "type": "array", "items": { "type": "string" } },
+          "related_evidence_ids": { "type": "array", "items": { "type": "string" } },
+          "mitigation_suggestion": { "type": "string" }
+        }
+      }
+    }
+  }
+}

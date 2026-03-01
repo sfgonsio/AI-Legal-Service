@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://antigravity.dev/contract/v1/schemas/interview/element_completeness_matrix.schema.json",
+  "title": "Element Completeness Matrix",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["matter_id", "strategy_mode", "matrices"],
+  "properties": {
+    "matter_id": { "type": "string", "minLength": 1 },
+    "strategy_mode": { "$ref": "case_strategy_mode.schema.json" },
+    "matrices": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["framework", "claim_or_charge_id", "claim_or_charge_name", "confidence", "elements"],
+        "properties": {
+          "framework": {
+            "type": "string",
+            "enum": ["CACI", "CALCRIM", "CUSTOM", "UNKNOWN"]
+          },
+          "claim_or_charge_id": { "type": "string", "minLength": 1 },
+          "claim_or_charge_name": { "type": "string", "minLength": 1 },
+          "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+          "elements": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["element_id", "element_name", "status", "fact_ids", "evidence_ids", "risk_ids", "followups"],
+              "properties": {
+                "element_id": { "type": "string", "minLength": 1 },
+                "element_name": { "type": "string", "minLength": 1 },
+                "status": {
+                  "type": "string",
+                  "enum": ["SUPPORTED", "PARTIAL", "MISSING", "CONTRADICTED", "UNKNOWN"]
+                },
+                "fact_ids": { "type": "array", "items": { "type": "string" } },
+                "evidence_ids": { "type": "array", "items": { "type": "string" } },
+                "risk_ids": { "type": "array", "items": { "type": "string" } },
+                "followups": { "type": "array", "items": { "type": "string" } }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

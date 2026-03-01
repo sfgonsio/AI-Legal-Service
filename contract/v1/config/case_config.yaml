@@ -1,0 +1,14 @@
+interview:
+  overlays:
+    - overlay_id: firm_default_v1
+      scope: firm
+      enabled: true
+    - overlay_id: employment_wrongful_term_pack_v2
+      scope: practice_group
+      enabled: true
+    - overlay_id: attorney_smith_style_v3
+      scope: attorney
+      enabled: true
+    - overlay_id: matter_critical_gaps_pack_v1
+      scope: matter
+      enabled: true

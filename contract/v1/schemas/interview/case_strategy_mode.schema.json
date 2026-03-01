@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://antigravity.dev/contract/v1/schemas/interview/case_strategy_mode.schema.json",
+  "title": "Case Strategy Mode",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["domain", "posture", "burden", "objective", "confidence", "rationale_short"],
+  "properties": {
+    "domain": {
+      "type": "string",
+      "enum": ["civil", "criminal", "administrative", "regulatory", "unknown"]
+    },
+    "posture": {
+      "type": "string",
+      "enum": [
+        "civil_plaintiff",
+        "civil_defendant",
+        "criminal_defendant",
+        "criminal_prosecution",
+        "administrative_petitioner",
+        "administrative_respondent",
+        "regulatory_subject",
+        "unknown"
+      ]
+    },
+    "burden": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["standard", "bearing_party"],
+      "properties": {
+        "standard": {
+          "type": "string",
+          "enum": ["preponderance", "clear_and_convincing", "beyond_reasonable_doubt", "mixed", "unknown"]
+        },
+        "bearing_party": {
+          "type": "string",
+          "enum": ["client", "opposing_party", "state", "mixed", "unknown"]
+        }
+      }
+    },
+    "objective": {
+      "type": "string",
+      "enum": [
+        "prove_elements",
+        "attack_elements",
+        "raise_affirmative_defenses",
+        "seek_dismissal",
+        "suppress_evidence",
+        "negotiate_resolution",
+        "mitigate_exposure",
+        "establish_compliance",
+        "unknown"
+      ]
+    },
+    "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+    "rationale_short": { "type": "string", "minLength": 1 }
+  }
+}

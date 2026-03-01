@@ -7,7 +7,7 @@
     - "Only files enumerated in this manifest are authoritative for v1."
     - "Any duplicate/alternate copies are non-authoritative and must be removed or replaced with stub pointers."
     - "All case data is case-scoped; cross-case access is prohibited unless explicitly mediated and audited."
-    
+
   harness:
     contract: "./harness/harness_contract.md"
     sample_tool_request: "./harness/sample_payloads/tool_request.json"
@@ -36,17 +36,31 @@
     tools:
       - "./tools/tool_registry.yaml"
       - "./tools/tool_gateway_contract.md"
+
     schemas:
       - "./schemas/run_record.schema.yaml"
       - "./schemas/audit_event.schema.yaml"
       - "./schemas/artifact_ref.schema.yaml"
       - "./schemas/export_bundle.schema.yaml"
+      # Interview Agent (new)
+      - "./schemas/interview/case_strategy_mode.schema.json"
+      - "./schemas/interview/element_completeness_matrix.schema.json"
+      - "./schemas/interview/risk_flag_register.schema.json"
+      # Overlay Packs (new)
+      - "./schemas/overlays/interview_overlay_pack.schema.json"
+
+    overlays:
+      interview:
+        - "./overlays/interview/firm_default_v1.yaml"
+
     data:
       - "./data/postgres_ddl.sql"
       - "./data/postgres_seed.sql"
       - "./data/data_model_mappings.md"
+
     agent_contracts:
       - "./agents/agent_interface_contract.md"
+
     taxonomies:
       coa:
         - "./taxonomies/coa/base_coa_v1.yaml"
@@ -74,6 +88,7 @@
       - "Orchestrator references all required schemas and lifecycle artifacts."
       - "Roles/lanes align to tool permissions and taxonomy write boundaries."
       - "Taxonomy stubs exist and are versioned; case-instance overlay defined."
+
 integrity:
   file_hashes:
     enabled: true
@@ -96,4 +111,8 @@ integrity:
       "./taxonomies/tags/tag_schema_v1.yaml": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       "./tools/tool_gateway_contract.md": "8b47ca97a7e1ea5f0d16b9705d1748f0fbc324dc10dedc6eaed0cf55f85c63cf"
       "./tools/tool_registry.yaml": "d42c1ba40ecde605260b9ec387d472f072e222e012ed48f8074c61239e08fd67"
-
+      "./schemas/interview/case_strategy_mode.schema.json": "50d8022ca369637f4bf6600da86f5f3fb993527994d8719d0083b321c4eeb927"
+      "./schemas/interview/element_completeness_matrix.schema.json": "971676365b5bf0949c5f54e1bd36b4b7ecec09c0965fcaa447cd79dbee855d50"
+      "./schemas/interview/risk_flag_register.schema.json": "5d1d91b0ee78c629ae0bbfe0c6b01b6bd78a96255d9ef7cfce73c6c96a27551c"
+      "./schemas/overlays/interview_overlay_pack.schema.json": "a31d45ef1c5062362aeda976483776a1e96610834c4ad671701b82c5486964f7"
+      "./overlays/interview/firm_default_v1.yaml": "843720e25c2ed800a0306a8677710800ec89651e20fa34078d6748b4f1f8b6e5"

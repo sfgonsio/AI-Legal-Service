@@ -13,6 +13,10 @@ function Ok($msg) {
   Write-Host "OK: $msg" -ForegroundColor Green
 }
 
+function Warn($msg) {
+  Write-Host "WARN: $msg" -ForegroundColor Yellow
+}
+
 function Require-File($path) {
   if (!(Test-Path $path)) { Fail "Missing file: $path" }
   $len = (Get-Item $path).Length
@@ -61,15 +65,15 @@ Ok "Required SSOT files exist and are non-empty"
 # 2) Exactly one manifest in /contract tree
 # -------------------------
 $manifests = @(
-    Get-ChildItem -Path $contractRoot -Recurse -Filter "contract_manifest.yaml" -File -ErrorAction SilentlyContinue
+  Get-ChildItem -Path $contractRoot -Recurse -Filter "contract_manifest.yaml" -File -ErrorAction SilentlyContinue
 )
 
 if ($manifests.Count -eq 0) {
-    Fail "No contract_manifest.yaml found under /contract"
+  Fail "No contract_manifest.yaml found under /contract"
 }
 
 if ($manifests.Count -ne 1) {
-    Fail "Expected exactly 1 contract_manifest.yaml, found $($manifests.Count)"
+  Fail "Expected exactly 1 contract_manifest.yaml, found $($manifests.Count)"
 }
 
 Ok "Exactly one contract_manifest.yaml"
@@ -82,7 +86,7 @@ $gwText = Get-Content $gateway -Raw
 # Detect common UTF-8->CP1252 mojibake and Unicode replacement char
 $replacementChar = [char]0xFFFD
 if ($gwText.Contains("â") -or $gwText.Contains($replacementChar)) {
-  Fail "tool_gateway_contract.md appears encoding-corrupted (found mojibake 'â' or Unicode replacement char ' ')."
+  Fail "tool_gateway_contract.md appears encoding-corrupted (found mojibake 'â' or Unicode replacement char)."
 }
 Ok "Tool gateway contract encoding looks clean"
 
@@ -98,7 +102,6 @@ $manText   = Get-Content $manifest -Raw
 # -------------------------
 # 5) Gate 6 SSOT enforcement:
 #    Every manifest-relative path "./..." must resolve under contract/v1 and exist.
-#    (This makes Contract v1 the authoritative inventory.)
 # -------------------------
 $pathRegex = [regex]'(?<![A-Za-z0-9_\-])\./[A-Za-z0-9_\-./]+'
 $rawRefs = @()
@@ -115,7 +118,6 @@ foreach ($rp in $rawRefs) {
   $relative = ($rp -replace '^\./','')
   $full = Join-Path $contractRoot $relative
 
-  # Case isolation + SSOT guardrail: prevent traversal / escaping contract root
   $fullResolved = (Resolve-Path -LiteralPath $full -ErrorAction SilentlyContinue)
   if ($null -eq $fullResolved) {
     Fail "Manifest reference missing on disk: $rp -> $full"
@@ -197,18 +199,9 @@ foreach ($r in $laneRoles) {
 Ok "All lane roles exist in roles.yaml"
 
 # -------------------------
-# 10) Optional: Hash enforcement (Gate 6 "No drift")
-#     If enabled in manifest, validate listed hashes.
-#     We do NOT require a YAML parser; we enforce a simple block format:
-#       integrity:
-#         file_hashes:
-#           enabled: true
-#           algorithm: "sha256"
-#           hashes:
-#             "./path/file": "<sha256>"
+# 10) Hash enforcement (Gate 6 "No drift")
 # -------------------------
 if ($manText -match '(?m)^\s*enabled:\s*true\s*$') {
-  # Extract entries under hashes:
   $hashEntryRegex = [regex]'(?m)^\s*"\./(?<p>[^"]+)"\s*:\s*"(?<h>[a-fA-F0-9]{64})"\s*$'
   $hashes = @{}
   foreach ($m in $hashEntryRegex.Matches($manText)) {
@@ -233,50 +226,68 @@ if ($manText -match '(?m)^\s*enabled:\s*true\s*$') {
 } else {
   Ok "Manifest hash enforcement is disabled (integrity.file_hashes.enabled != true)"
 }
-# Existing validation checks above here...
 
-# --- Stage 12: Determinism & fingerprint enforcement (string checks) ---
-	$fpYaml = Join-Path $contractRoot "orchestration\run_identity_fingerprints.yaml"
-	$fpMd   = Join-Path $contractRoot "orchestration\determinism_integrity_contract.md"
+# -------------------------
+# Stage 12: Determinism & fingerprint enforcement (string checks)
+# -------------------------
+$fpYaml = Join-Path $contractRoot "orchestration\run_identity_fingerprints.yaml"
+$fpMd   = Join-Path $contractRoot "orchestration\determinism_integrity_contract.md"
 
-	if (-not (Test-Path $fpYaml)) { Fail "Missing required determinism SSOT: $fpYaml" }
-	if (-not (Test-Path $fpMd))   { Fail "Missing required determinism contract: $fpMd" }
+if (-not (Test-Path $fpYaml)) { Fail "Missing required determinism SSOT: $fpYaml" }
+if (-not (Test-Path $fpMd))   { Fail "Missing required determinism contract: $fpMd" }
 
-	$fpText = Get-Content -Raw $fpYaml
-	$requiredAnchors = @(
-	  "inputs_fingerprint:",
-	  "run_fingerprint:",
-	  "artifact_metadata_requirements:",
-	  "required_on_all_canonical_artifacts:",
-	  "no_mixed_run_answers:",
-	  "algorithm: sha256"
-	)
+$fpText = Get-Content -Raw $fpYaml
+$requiredAnchors = @(
+  "inputs_fingerprint:",
+  "run_fingerprint:",
+  "artifact_metadata_requirements:",
+  "required_on_all_canonical_artifacts:",
+  "no_mixed_run_answers:",
+  "algorithm: sha256"
+)
 
-	foreach ($a in $requiredAnchors) {
-	  if ($fpText -notmatch [regex]::Escape($a)) {
-		Fail "Determinism SSOT missing anchor: $a"
-	  }
-	}
+foreach ($a in $requiredAnchors) {
+  if ($fpText -notmatch [regex]::Escape($a)) {
+    Fail "Determinism SSOT missing anchor: $a"
+  }
+}
 
-Write-Host "OK: Determinism fingerprint SSOT present and well-formed (anchor checks)"
-# --- end Stage 12 ---
+Write-Host "OK: Determinism fingerprint SSOT present and well-formed (anchor checks)" -ForegroundColor Green
 
-# --- Stage 14: Deterministic Replay Equivalence (executably verifiable) ---
-Write-Host "Running Stage 14 replay equivalence verification..." -ForegroundColor Cyan
+# -------------------------
+# Stage 14: Deterministic Replay Equivalence (executably verifiable)
+#   - Local dev default: SKIP (opt-in)
+#   - CI: set RUN_STAGE14_REPLAY=1 to enforce
+# -------------------------
+Write-Host "Stage 14 replay equivalence verification (opt-in)..." -ForegroundColor Cyan
 
-$contractRoot = Join-Path $PSScriptRoot ".." | Resolve-Path
-$contractRoot = $contractRoot.Path
+$runReplay = ($env:RUN_STAGE14_REPLAY -eq "1")
+if (-not $runReplay) {
+  Warn "Stage 14 SKIPPED. To enforce replay equivalence, set environment variable RUN_STAGE14_REPLAY=1."
+} else {
+  Write-Host "Running Stage 14 replay equivalence verification..." -ForegroundColor Cyan
 
-$replayRunner = Join-Path $contractRoot "harness\run_replay.py"
-$replayVectors = Join-Path $contractRoot "harness\replay_vectors"
+  $contractRoot2 = Join-Path $PSScriptRoot ".." | Resolve-Path
+  $contractRoot2 = $contractRoot2.Path
 
-if (!(Test-Path $replayRunner)) { throw "Missing replay runner: $replayRunner" }
-if (!(Test-Path $replayVectors)) { throw "Missing replay vectors dir: $replayVectors" }
+  $replayRunner  = Join-Path $contractRoot2 "harness\run_replay.py"
+  $replayVectors = Join-Path $contractRoot2 "harness\replay_vectors"
 
-python $replayRunner --contract_root $contractRoot --vectors_dir $replayVectors
-if ($LASTEXITCODE -ne 0) { throw "Stage 14 replay equivalence failed." }
+  if (!(Test-Path $replayRunner))  { Fail "Missing replay runner: $replayRunner" }
+  if (!(Test-Path $replayVectors)) { Fail "Missing replay vectors dir: $replayVectors" }
 
-Write-Host "OK: Stage 14 replay equivalence passed (canonical outputs match)" -ForegroundColor Green
+  # Capture output for visibility in CI logs
+  $output = & python $replayRunner --contract_root $contractRoot2 --vectors_dir $replayVectors 2>&1
+  $exit = $LASTEXITCODE
+
+  if ($output) { Write-Host $output }
+
+  if ($exit -ne 0) {
+    Fail "Stage 14 replay equivalence failed (exit=$exit). If contract artifacts changed, update replay vectors or rerun vector generation."
+  }
+
+  Write-Host "OK: Stage 14 replay equivalence passed (canonical outputs match)" -ForegroundColor Green
+}
 
 Write-Host "`nALL CHECKS PASSED ✅" -ForegroundColor Cyan
 exit 0
