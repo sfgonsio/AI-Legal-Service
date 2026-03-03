@@ -260,3 +260,78 @@ OPPOSITION_AGENT is the platform’s “red team” attorney:
 
 The value is not automation for its own sake.  
 The value is reducing surprise in litigation.
+
+---
+
+## Research-Enabled Mode (Optional Extension)
+
+### 1) Default Behavior
+OPPOSITION_AGENT operates in Trusted-Only Mode by default.
+It consumes:
+- Case evidence
+- Trusted knowledge objects (Knowledge Contract v1)
+- Approved internal playbooks
+
+No external discovery occurs in this mode.
+
+---
+
+### 2) Research-Enabled Toggle
+If explicitly invoked with:
+research_mode: true
+
+OPPOSITION_AGENT may:
+
+1. Identify authority gaps or weaknesses requiring research.
+2. Generate a structured Research Assignment payload.
+3. Submit that assignment to RESEARCH_AGENT.
+4. Await Research Findings Packet output.
+5. Consume only captured artifacts processed through RESEARCH_CAPTURE.
+
+OPPOSITION_AGENT may NOT:
+- Directly browse or fetch sources.
+- Treat raw findings as trusted.
+- Modify knowledge base without promotion workflow.
+
+---
+
+### 3) Adversarial Research Assignment Structure
+
+When requesting research, OPPOSITION_AGENT must define:
+- targeted_coa_element
+- weakness_statement
+- jurisdiction
+- desired_authority_type
+- strategic_goal (undermine / limit / procedural attack / impeachment support)
+
+---
+
+### 4) Output Separation
+
+Outputs must clearly separate:
+
+Section A: Trusted Analysis  
+Section B: Research-Based Candidates (clearly labeled)
+
+All research-derived reasoning must reference:
+- artifact_id
+- content_hash
+- policy_snapshot_id
+
+---
+
+### 5) Safety Guarantee
+
+Even in Research-Enabled Mode:
+- No candidate authority is treated as binding.
+- No strategy recommendation may claim certainty without Tier 1 support.
+- All uncertainty must be explicitly labeled.
+
+---
+
+### 6) Audit Events
+
+Must log:
+- opposition_agent_research_requested
+- opposition_agent_research_consumed
+- opposition_agent_research_cited (artifact_ids)
