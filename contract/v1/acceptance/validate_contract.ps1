@@ -2,6 +2,7 @@
   [string]$Root = "."
 )
 
+Set-StrictMode -Version Latest
 $ErrorActionPreference = "Stop"
 
 function Fail($msg) {
@@ -18,18 +19,33 @@ function Warn($msg) {
 }
 
 function Require-File($path) {
-  if (!(Test-Path $path)) { Fail "Missing file: $path" }
-  $len = (Get-Item $path).Length
+  if (!(Test-Path -LiteralPath $path)) { Fail "Missing file: $path" }
+  $len = (Get-Item -LiteralPath $path).Length
   if ($len -le 0) { Fail "Empty file: $path" }
 }
 
 function Get-Sha256($path) {
-  return (Get-FileHash -Path $path -Algorithm SHA256).Hash.ToLowerInvariant()
+  return (Get-FileHash -LiteralPath $path -Algorithm SHA256).Hash.ToLowerInvariant()
+}
+
+function Normalize-ManifestRelPath([string]$rel) {
+  # Input examples:
+  #   contract/v1/agents/x.md
+  #   agents/x.md
+  # Output should be contractRoot-relative (since $contractRoot is already .../contract/v1)
+  $p = $rel.Trim()
+  $p = $p -replace "\\", "/"
+  if ($p -like "contract/v1/*") {
+    $p = $p.Substring("contract/v1/".Length)
+  }
+  return ($p -replace "/", "\")
 }
 
 # -------------------------
 # Paths
 # -------------------------
+# $PSScriptRoot points to contract/v1/acceptance
+# contract root => contract/v1
 $contractRoot = Resolve-Path (Join-Path $PSScriptRoot "..")
 
 $manifest = Join-Path $contractRoot "contract_manifest.yaml"
@@ -77,7 +93,7 @@ Ok "Exactly one contract_manifest.yaml"
 # -------------------------
 # 3) Gateway encoding sanity
 # -------------------------
-$gwText = Get-Content $gateway -Raw
+$gwText = Get-Content -LiteralPath $gateway -Raw
 $replacementChar = [char]0xFFFD
 if ($gwText.Contains("â") -or $gwText.Contains($replacementChar)) {
   Fail "tool_gateway_contract.md encoding corrupted."
@@ -87,18 +103,23 @@ Ok "Tool gateway contract encoding looks clean"
 # -------------------------
 # 4) Load raw docs
 # -------------------------
-$lanesText = Get-Content $lanes -Raw
-$rolesText = Get-Content $roles -Raw
-$regText   = Get-Content $registry -Raw
-$ddlText   = Get-Content $ddl -Raw
-$manText   = Get-Content $manifest -Raw
-$cfgText   = Get-Content $caseConfig -Raw
+$lanesText = Get-Content -LiteralPath $lanes -Raw
+$rolesText = Get-Content -LiteralPath $roles -Raw
+$regText   = Get-Content -LiteralPath $registry -Raw
+$ddlText   = Get-Content -LiteralPath $ddl -Raw
+$manText   = Get-Content -LiteralPath $manifest -Raw
+$cfgText   = Get-Content -LiteralPath $caseConfig -Raw
 
 # -------------------------
 # 5) Manifest path enforcement
 # -------------------------
+# Detect ./... references anywhere in manifest text
 $pathRegex = [regex]'(?<![A-Za-z0-9_\-])\./[A-Za-z0-9_\-./]+'
-$rawRefs = @($pathRegex.Matches($manText) | ForEach-Object { $_.Value.Trim() } | Sort-Object -Unique)
+$rawRefs = @(
+  $pathRegex.Matches($manText) |
+    ForEach-Object { $_.Value.Trim() } |
+    Sort-Object -Unique
+)
 
 if ($rawRefs.Length -lt 5) {
   Fail "Too few manifest path references detected."
@@ -106,11 +127,12 @@ if ($rawRefs.Length -lt 5) {
 
 foreach ($rp in $rawRefs) {
   $relative = ($rp -replace '^\./','')
-  $full = Join-Path $contractRoot $relative
+  $relative = Normalize-ManifestRelPath $relative
 
+  $full = Join-Path $contractRoot $relative
   $fullResolved = Resolve-Path -LiteralPath $full -ErrorAction SilentlyContinue
   if ($null -eq $fullResolved) {
-    Fail "Manifest reference missing on disk: $rp"
+    Fail "Manifest reference missing on disk: $rp (resolved: $full)"
   }
 
   $fullResolvedStr = $fullResolved.Path
@@ -160,7 +182,11 @@ Ok "DDL contains all required tables"
 # 8) Lane tools exist
 # -------------------------
 $toolRegex = [regex]'(?m)^\s*-\s*(?<t>[a-z0-9_]+\.[a-z0-9_.]+)\s*$'
-$laneTools = @($toolRegex.Matches($lanesText) | ForEach-Object { $_.Groups["t"].Value.Trim() } | Sort-Object -Unique)
+$laneTools = @(
+  $toolRegex.Matches($lanesText) |
+    ForEach-Object { $_.Groups["t"].Value.Trim() } |
+    Sort-Object -Unique
+)
 
 if ($laneTools.Length -eq 0) { Fail "No tools detected in lanes.yaml." }
 
@@ -178,7 +204,9 @@ $laneRoleRegex = [regex]'roles:\s*\[(?<list>[^\]]+)\]'
 $laneRoles = @()
 
 foreach ($m in $laneRoleRegex.Matches($lanesText)) {
-  $laneRoles += ($m.Groups["list"].Value -split ",") | ForEach-Object { $_.Trim() } | Where-Object { $_ -ne "" }
+  $laneRoles += ($m.Groups["list"].Value -split ",") |
+    ForEach-Object { $_.Trim() } |
+    Where-Object { $_ -ne "" }
 }
 $laneRoles = @($laneRoles | Sort-Object -Unique)
 
@@ -194,7 +222,11 @@ Ok "All lane roles exist"
 # -------------------------
 if ($manText -match '(?m)^\s*enabled:\s*true\s*$') {
 
-  $hashRegex = [regex]'(?m)^\s*"\./(?<p>[^"]+)"\s*:\s*"(?<h>[a-fA-F0-9]{64})"\s*$'
+  # Support BOTH:
+  #   "./path": "hash"
+  #   ./path: "hash"
+  # Captures p without leading "./"
+  $hashRegex = [regex]'(?m)^\s*("?)(\./(?<p>[A-Za-z0-9_\-./]+))\1\s*:\s*"(?<h>[a-fA-F0-9]{64})"\s*$'
   $hashMatches = $hashRegex.Matches($manText)
 
   if ($hashMatches.Count -eq 0) {
@@ -202,15 +234,19 @@ if ($manText -match '(?m)^\s*enabled:\s*true\s*$') {
   }
 
   foreach ($m in $hashMatches) {
-    $p = $m.Groups["p"].Value
+    $pRaw = $m.Groups["p"].Value
     $expected = $m.Groups["h"].Value.ToLowerInvariant()
+
+    $p = Normalize-ManifestRelPath $pRaw
     $full = Join-Path $contractRoot $p
 
-    if (!(Test-Path $full)) { Fail "Hash listed for missing file: ./$( $p )" }
+    if (!(Test-Path -LiteralPath $full)) {
+      Fail "Hash listed for missing file: ./$( $pRaw ) (resolved: $full)"
+    }
 
     $actual = Get-Sha256 $full
     if ($actual -ne $expected) {
-      Fail "Hash drift detected for ./$( $p )"
+      Fail "Hash drift detected for ./$( $pRaw )"
     }
   }
 
@@ -226,7 +262,11 @@ else {
 Write-Host "Stage 13.5 overlay pack structural validation..." -ForegroundColor Cyan
 
 $overlayRegex = [regex]'(?m)^\s*-\s*"\./(?<p>overlays/interview/[^"]+\.ya?ml)"\s*$'
-$overlayPaths = @($overlayRegex.Matches($manText) | ForEach-Object { $_.Groups["p"].Value.Trim() } | Sort-Object -Unique)
+$overlayPaths = @(
+  $overlayRegex.Matches($manText) |
+    ForEach-Object { $_.Groups["p"].Value.Trim() } |
+    Sort-Object -Unique
+)
 
 if ($overlayPaths.Length -eq 0) {
   Warn "No interview overlay packs found in manifest."
@@ -247,12 +287,12 @@ else {
 
   foreach ($relPath in $overlayPaths) {
 
-    $fullPath = Join-Path $contractRoot $relPath
-    if (!(Test-Path $fullPath)) {
+    $fullPath = Join-Path $contractRoot ($relPath -replace "/", "\")
+    if (!(Test-Path -LiteralPath $fullPath)) {
       Fail "Overlay listed in manifest missing: ./$( $relPath )"
     }
 
-    $text = Get-Content -Raw $fullPath
+    $text = Get-Content -LiteralPath $fullPath -Raw
 
     foreach ($a in $requiredAnchors) {
       if ($text -notmatch [regex]::Escape($a)) {
@@ -286,9 +326,12 @@ if ($cfgText -notmatch '(?m)^\s*overlays:\s*$') {
 }
 
 # 13.6B: Extract overlay_ids from case_config.yaml under interview.overlays
-# Matches lines like: - overlay_id: firm_default_v1
 $cfgOverlayIdRegex = [regex]'(?m)^\s*-\s*overlay_id:\s*(?<id>[A-Za-z0-9_\-\.]+)\s*$'
-$cfgOverlayIds = @($cfgOverlayIdRegex.Matches($cfgText) | ForEach-Object { $_.Groups["id"].Value.Trim() } | Where-Object { $_ -ne "" })
+$cfgOverlayIds = @(
+  $cfgOverlayIdRegex.Matches($cfgText) |
+    ForEach-Object { $_.Groups["id"].Value.Trim() } |
+    Where-Object { $_ -ne "" }
+)
 
 if ($cfgOverlayIds.Length -eq 0) {
   Fail "case_config.yaml interview.overlays contains no overlay_id entries"
@@ -304,20 +347,20 @@ if ($dupes.Length -gt 0) {
 foreach ($oid in $cfgOverlayIds) {
 
   $expectedRel = "overlays/interview/$oid.yaml"
-  $expectedAbs = Join-Path $contractRoot $expectedRel
+  $expectedAbs = Join-Path $contractRoot ($expectedRel -replace "/", "\")
 
-  if (-not (Test-Path $expectedAbs)) {
+  if (-not (Test-Path -LiteralPath $expectedAbs)) {
     Fail "case_config.yaml references overlay_id '$oid' but expected overlay file is missing: ./$( $expectedRel )"
   }
 
-  # Must be referenced in manifest as authoritative inventory
+  # Must be referenced in manifest as authoritative inventory (expects quotes)
   $needle = '"./' + [regex]::Escape($expectedRel) + '"'
   if ($manText -notmatch $needle) {
     Fail "Overlay file for overlay_id '$oid' exists but is not listed in contract_manifest.yaml authoritative_files (missing: ./$expectedRel)"
   }
 
   # Overlay file must contain matching overlay_id:
-  $ovText = Get-Content -Raw $expectedAbs
+  $ovText = Get-Content -LiteralPath $expectedAbs -Raw
   $ovIdMatch = [regex]::Match($ovText, '(?m)^\s*overlay_id:\s*(?<id>[A-Za-z0-9_\-\.]+)\s*$')
   if (-not $ovIdMatch.Success) {
     Fail "Overlay file ./$expectedRel missing overlay_id: header"
@@ -327,8 +370,7 @@ foreach ($oid in $cfgOverlayIds) {
     Fail "Overlay file ./$expectedRel overlay_id mismatch: case_config=$oid, file=$ovId"
   }
 
-  # Must include enabled: true/false for that overlay entry in case_config (string check somewhere)
-  # We don't parse YAML; we simply require at least one enabled: line exists in config.
+  # Require at least one enabled: line exists in config.
   if ($cfgText -notmatch '(?m)^\s*enabled:\s*(true|false)\s*$') {
     Fail "case_config.yaml missing required enabled: true|false entries under interview.overlays"
   }
@@ -360,8 +402,8 @@ if ($env:RUN_STAGE14_REPLAY -eq "1") {
   $replayRunner  = Join-Path $contractRoot "harness\run_replay.py"
   $replayVectors = Join-Path $contractRoot "harness\replay_vectors"
 
-  if (!(Test-Path $replayRunner))  { Fail "Missing replay runner." }
-  if (!(Test-Path $replayVectors)) { Fail "Missing replay vectors dir." }
+  if (!(Test-Path -LiteralPath $replayRunner))  { Fail "Missing replay runner." }
+  if (!(Test-Path -LiteralPath $replayVectors)) { Fail "Missing replay vectors dir." }
 
   & python $replayRunner --contract_root $contractRoot --vectors_dir $replayVectors
   if ($LASTEXITCODE -ne 0) { Fail "Stage 14 replay equivalence failed." }
