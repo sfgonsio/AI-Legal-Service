@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "pattern_pack_bundle_manifest.schema.json",
+  "title": "Pattern Pack Bundle Manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["bundle_id", "version", "created_at", "inventory"],
+  "properties": {
+    "bundle_id": { "type": "string", "minLength": 5 },
+    "version": { "type": "string", "pattern": "^(v|V)?\\d+(\\.\\d+){0,2}$" },
+    "created_at": { "type": "string", "minLength": 10 },
+    "inventory": {
+      "type": "array",
+      "minItems": 3,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["path", "sha256"],
+        "properties": {
+          "path": { "type": "string", "minLength": 3 },
+          "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" }
+        }
+      }
+    }
+  }
+}
