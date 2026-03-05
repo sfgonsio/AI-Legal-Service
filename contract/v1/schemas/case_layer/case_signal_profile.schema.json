@@ -1,0 +1,303 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://antigravity.local/schemas/case_layer/case_signal_profile.schema.json",
+  "title": "Case Signal Profile (Contract v1)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "jurisdiction",
+    "run_id",
+    "created_at",
+    "signals",
+    "archetype_hypotheses"
+  ],
+  "properties": {
+    "schema_version": { "type": "string", "enum": ["case_signal_profile.v1"] },
+    "jurisdiction": { "type": "string", "description": "Jurisdiction identifier (e.g., CA)." },
+    "case_id": { "type": "string" },
+    "run_id": { "type": "string" },
+    "created_at": { "type": "string", "format": "date-time" },
+    "mode": { "type": "string", "enum": ["neutral_diagnostic", "intake", "litigation_support"], "default": "neutral_diagnostic" },
+
+    "signals": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["parties", "events", "damages", "documents", "communications"],
+      "properties": {
+        "parties": { "type": "array", "items": { "$ref": "#/definitions/party_signal" } },
+        "events": { "type": "array", "items": { "$ref": "#/definitions/event_signal" } },
+        "agreements": { "type": "array", "items": { "$ref": "#/definitions/agreement_signal" }, "default": [] },
+        "ownership_claims": { "type": "array", "items": { "$ref": "#/definitions/ownership_signal" }, "default": [] },
+        "damages": { "type": "array", "items": { "$ref": "#/definitions/damage_signal" } },
+        "communications": { "type": "array", "items": { "$ref": "#/definitions/communication_signal" } },
+        "documents": { "type": "array", "items": { "$ref": "#/definitions/document_signal" } },
+        "statute_mentions": { "type": "array", "items": { "$ref": "#/definitions/statute_signal" }, "default": [] }
+      }
+    },
+
+    "archetype_hypotheses": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/definitions/archetype_hypothesis" }
+    },
+
+    "notes": { "type": "string" }
+  },
+
+  "definitions": {
+    "confidence_level": {
+      "type": "string",
+      "enum": ["unverified", "corroborated", "verified"]
+    },
+
+    "citation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source_type"],
+      "properties": {
+        "source_type": { "type": "string", "enum": ["interview", "document", "system"] },
+        "interview_turn_id": { "type": "string" },
+        "doc_uid": { "type": "string" },
+        "chunk_uid": { "type": "string" },
+        "exhibit_id": { "type": "string" },
+        "page_range": { "type": "string", "description": "Optional: 'p.12-14'." },
+        "quote": { "type": "string", "description": "Short excerpt only; avoid long verbatim." }
+      }
+    },
+
+    "base_signal": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["signal_id", "signal_type", "source", "confidence", "citations"],
+      "properties": {
+        "signal_id": { "type": "string" },
+        "signal_type": { "type": "string" },
+        "source": { "type": "string", "enum": ["interview", "document", "system"] },
+        "confidence": { "$ref": "#/definitions/confidence_level" },
+        "citations": { "type": "array", "items": { "$ref": "#/definitions/citation" }, "minItems": 0 },
+        "created_at": { "type": "string", "format": "date-time" },
+        "tags": { "type": "array", "items": { "type": "string" }, "default": [] }
+      }
+    },
+
+    "party_signal": {
+      "allOf": [
+        { "$ref": "#/definitions/base_signal" },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["attributes"],
+          "properties": {
+            "signal_type": { "type": "string", "enum": ["party"] },
+            "attributes": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["name", "party_kind", "roles"],
+              "properties": {
+                "name": { "type": "string" },
+                "party_kind": { "type": "string", "enum": ["person", "organization", "unknown"] },
+                "roles": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+                "relationship_notes": { "type": "string" }
+              }
+            }
+          }
+        }
+      ]
+    },
+
+    "event_signal": {
+      "allOf": [
+        { "$ref": "#/definitions/base_signal" },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["attributes"],
+          "properties": {
+            "signal_type": { "type": "string", "enum": ["event"] },
+            "attributes": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["actor", "action"],
+              "properties": {
+                "actor": { "type": "string" },
+                "action": { "type": "string" },
+                "object": { "type": "string" },
+                "time": { "type": "string", "description": "ISO date or best-known time window." },
+                "location": { "type": "string" },
+                "context": { "type": "string" }
+              }
+            }
+          }
+        }
+      ]
+    },
+
+    "agreement_signal": {
+      "allOf": [
+        { "$ref": "#/definitions/base_signal" },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["attributes"],
+          "properties": {
+            "signal_type": { "type": "string", "enum": ["agreement"] },
+            "attributes": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "parties": { "type": "array", "items": { "type": "string" }, "default": [] },
+                "exists": { "type": "boolean" },
+                "written": { "type": "boolean" },
+                "terms_summary": { "type": "string" },
+                "date_range": { "type": "string" },
+                "performance_summary": { "type": "string" }
+              }
+            }
+          }
+        }
+      ]
+    },
+
+    "ownership_signal": {
+      "allOf": [
+        { "$ref": "#/definitions/base_signal" },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["attributes"],
+          "properties": {
+            "signal_type": { "type": "string", "enum": ["ownership_claim"] },
+            "attributes": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["asset", "claimant"],
+              "properties": {
+                "asset": { "type": "string" },
+                "claimant": { "type": "string" },
+                "basis": { "type": "string" },
+                "chain_of_title_notes": { "type": "string" }
+              }
+            }
+          }
+        }
+      ]
+    },
+
+    "damage_signal": {
+      "allOf": [
+        { "$ref": "#/definitions/base_signal" },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["attributes"],
+          "properties": {
+            "signal_type": { "type": "string", "enum": ["damage"] },
+            "attributes": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["damage_type"],
+              "properties": {
+                "damage_type": { "type": "string", "description": "Economic, reputational, bodily injury, emotional distress, etc." },
+                "amount": { "type": "number" },
+                "currency": { "type": "string", "default": "USD" },
+                "causation_summary": { "type": "string" },
+                "timeframe": { "type": "string" }
+              }
+            }
+          }
+        }
+      ]
+    },
+
+    "communication_signal": {
+      "allOf": [
+        { "$ref": "#/definitions/base_signal" },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["attributes"],
+          "properties": {
+            "signal_type": { "type": "string", "enum": ["communication"] },
+            "attributes": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["from", "to", "channel"],
+              "properties": {
+                "from": { "type": "string" },
+                "to": { "type": "string" },
+                "channel": { "type": "string", "enum": ["email", "text", "call", "letter", "social", "other"] },
+                "date": { "type": "string" },
+                "summary": { "type": "string" },
+                "admission_flag": { "type": "boolean", "default": false },
+                "notice_flag": { "type": "boolean", "default": false }
+              }
+            }
+          }
+        }
+      ]
+    },
+
+    "document_signal": {
+      "allOf": [
+        { "$ref": "#/definitions/base_signal" },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["attributes"],
+          "properties": {
+            "signal_type": { "type": "string", "enum": ["document"] },
+            "attributes": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["doc_type", "title"],
+              "properties": {
+                "doc_type": { "type": "string", "description": "Complaint, contract, invoice, email chain, photo, etc." },
+                "title": { "type": "string" },
+                "date": { "type": "string" },
+                "doc_uid": { "type": "string" },
+                "source_location": { "type": "string" }
+              }
+            }
+          }
+        }
+      ]
+    },
+
+    "statute_signal": {
+      "allOf": [
+        { "$ref": "#/definitions/base_signal" },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["attributes"],
+          "properties": {
+            "signal_type": { "type": "string", "enum": ["statute_mention"] },
+            "attributes": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["citation"],
+              "properties": {
+                "citation": { "type": "string", "description": "e.g., 'Bus. & Prof. Code § 17200' (as mentioned)." },
+                "context": { "type": "string" }
+              }
+            }
+          }
+        }
+      ]
+    },
+
+    "archetype_hypothesis": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["archetype_id", "confidence", "why_signals", "disambiguation_questions"],
+      "properties": {
+        "archetype_id": { "type": "string" },
+        "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+        "why_signals": { "type": "array", "items": { "type": "string" }, "default": [] },
+        "disambiguation_questions": { "type": "array", "items": { "type": "string" }, "default": [] },
+        "notes": { "type": "string" }
+      }
+    }
+  }
+}
