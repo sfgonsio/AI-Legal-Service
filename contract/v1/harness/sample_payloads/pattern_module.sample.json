@@ -1,0 +1,43 @@
+﻿{
+  "schema_version": "pattern_module.v1",
+  "module_id": "breach_contract_CA",
+  "jurisdiction": "CA",
+  "version": "1.0.0",
+  "status": "active",
+  "applies_to_archetypes": ["breach_contract"],
+  "metadata": {
+    "author": "system",
+    "created_at": "2026-03-04T00:00:00Z",
+    "reviewed_by": [],
+    "notes": "Demo module with a single element rule."
+  },
+  "elements": [
+    {
+      "element_id": "contract_exists",
+      "authority_refs": ["CACI_303_placeholder"],
+      "required_predicates": [
+        {
+          "path": "signals.agreements[*].attributes.exists",
+          "operator": "equals",
+          "value": true
+        }
+      ],
+      "supporting_predicates": [],
+      "strong_threshold": { "min_required_matches": 1, "min_supporting_matches": 0 },
+      "weak_threshold": { "min_required_matches": 1, "min_supporting_matches": 0 },
+      "evidence_asks": [
+        "Upload any written agreement, emails confirming terms, invoices, or payments supporting agreement existence."
+      ],
+      "missing_information_prompts": [
+        "Who were the contracting parties?",
+        "What were the key terms (scope, ownership, profit split, control)?",
+        "When was the agreement formed?"
+      ],
+      "discovery_themes": [
+        "Agreement formation",
+        "Terms and performance",
+        "Breach and causation"
+      ]
+    }
+  ]
+}
