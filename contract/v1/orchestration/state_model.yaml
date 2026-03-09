@@ -1,0 +1,175 @@
+version: v1
+authority: contract_v1_ssot
+name: workflow_state_model
+
+state_families:
+  case_state:
+    description: Canonical case lifecycle states
+    states:
+      - CASE_INTAKE_OPEN
+      - INTAKE_IN_PROGRESS
+      - INTAKE_COMPLETE
+      - FACT_NORMALIZATION_READY
+      - FACT_NORMALIZATION_COMPLETE
+      - MAPPING_READY
+      - MAPPING_COMPLETE
+      - COMPOSITE_READY
+      - COMPOSITE_COMPLETE
+      - TAGGING_READY
+      - TAGGING_COMPLETE
+      - COA_READY
+      - COA_COMPLETE
+      - ATTORNEY_REVIEW_PENDING
+      - ATTORNEY_REVIEW_COMPLETE
+      - RERUN_PENDING
+      - SUPERSEDED
+      - CLOSED
+
+  program_state:
+    description: Deterministic program execution states
+    states:
+      - PROGRAM_QUEUED
+      - PROGRAM_RUNNING
+      - PROGRAM_COMPLETED
+      - PROGRAM_FAILED
+      - PROGRAM_BLOCKED
+      - PROGRAM_SUPERSEDED
+
+  agent_state:
+    description: Governed agent execution states
+    states:
+      - AGENT_QUEUED
+      - AGENT_RUNNING
+      - AGENT_COMPLETED
+      - AGENT_FAILED
+      - AGENT_BLOCKED
+      - AGENT_SUPERSEDED
+
+  approval_state:
+    description: Approval checkpoint states
+    states:
+      - APPROVAL_NOT_REQUIRED
+      - APPROVAL_PENDING
+      - APPROVAL_APPROVED
+      - APPROVAL_REJECTED
+      - APPROVAL_EXPIRED
+      - APPROVAL_SUPERSEDED
+
+  rerun_state:
+    description: Rerun governance states
+    states:
+      - RERUN_NOT_REQUESTED
+      - RERUN_REQUESTED
+      - RERUN_APPROVED
+      - RERUN_IN_PROGRESS
+      - RERUN_COMPLETED
+      - RERUN_REJECTED
+
+  supersession_state:
+    description: Supersession lifecycle states
+    states:
+      - NOT_SUPERSEDED
+      - PENDING_SUPERSESSION
+      - SUPERSEDED_ACTIVE_HISTORY
+      - SUPERSESSION_PROPAGATED
+
+  review_state:
+    description: Attorney review lifecycle states
+    states:
+      - REVIEW_NOT_STARTED
+      - REVIEW_PENDING
+      - REVIEW_IN_PROGRESS
+      - REVIEW_ACCEPTED
+      - REVIEW_REJECTED
+      - REVIEW_ESCALATED
+      - REVIEW_CLOSED
+
+pause_states:
+  - WAITING_FOR_APPROVAL
+  - WAITING_FOR_INPUT
+  - WAITING_FOR_RERUN_AUTHORIZATION
+  - WAITING_FOR_DEPENDENCY
+
+initial_states:
+  case_state: CASE_INTAKE_OPEN
+  program_state: PROGRAM_QUEUED
+  agent_state: AGENT_QUEUED
+  approval_state: APPROVAL_NOT_REQUIRED
+  rerun_state: RERUN_NOT_REQUESTED
+  supersession_state: NOT_SUPERSEDED
+  review_state: REVIEW_NOT_STARTED
+
+terminal_states:
+  case_state:
+    - CLOSED
+    - SUPERSEDED
+  program_state:
+    - PROGRAM_COMPLETED
+    - PROGRAM_FAILED
+    - PROGRAM_SUPERSEDED
+  agent_state:
+    - AGENT_COMPLETED
+    - AGENT_FAILED
+    - AGENT_SUPERSEDED
+  approval_state:
+    - APPROVAL_APPROVED
+    - APPROVAL_REJECTED
+    - APPROVAL_EXPIRED
+    - APPROVAL_SUPERSEDED
+  rerun_state:
+    - RERUN_COMPLETED
+    - RERUN_REJECTED
+  review_state:
+    - REVIEW_ACCEPTED
+    - REVIEW_REJECTED
+    - REVIEW_CLOSED
+
+valid_case_transitions:
+  - from: CASE_INTAKE_OPEN
+    to: INTAKE_IN_PROGRESS
+  - from: INTAKE_IN_PROGRESS
+    to: INTAKE_COMPLETE
+  - from: INTAKE_COMPLETE
+    to: FACT_NORMALIZATION_READY
+  - from: FACT_NORMALIZATION_READY
+    to: FACT_NORMALIZATION_COMPLETE
+  - from: FACT_NORMALIZATION_COMPLETE
+    to: MAPPING_READY
+  - from: MAPPING_READY
+    to: MAPPING_COMPLETE
+  - from: MAPPING_COMPLETE
+    to: COMPOSITE_READY
+  - from: COMPOSITE_READY
+    to: COMPOSITE_COMPLETE
+  - from: COMPOSITE_COMPLETE
+    to: TAGGING_READY
+  - from: TAGGING_READY
+    to: TAGGING_COMPLETE
+  - from: TAGGING_COMPLETE
+    to: COA_READY
+  - from: COA_READY
+    to: COA_COMPLETE
+  - from: COA_COMPLETE
+    to: ATTORNEY_REVIEW_PENDING
+  - from: ATTORNEY_REVIEW_PENDING
+    to: ATTORNEY_REVIEW_COMPLETE
+  - from: ATTORNEY_REVIEW_PENDING
+    to: RERUN_PENDING
+  - from: RERUN_PENDING
+    to: FACT_NORMALIZATION_READY
+  - from: RERUN_PENDING
+    to: COMPOSITE_READY
+  - from: RERUN_PENDING
+    to: TAGGING_READY
+  - from: RERUN_PENDING
+    to: COA_READY
+  - from: ATTORNEY_REVIEW_COMPLETE
+    to: CLOSED
+  - from: ATTORNEY_REVIEW_COMPLETE
+    to: SUPERSEDED
+
+rules:
+  invalid_transition_action: block_and_audit
+  allow_direct_skip: false
+  require_governed_transition: true
+  preserve_transition_history: true

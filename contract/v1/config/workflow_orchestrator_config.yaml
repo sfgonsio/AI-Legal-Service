@@ -1,0 +1,36 @@
+version: v1
+authority: contract_v1_ssot
+name: workflow_orchestrator_config
+
+execution:
+  deterministic_dispatch_only: true
+  allow_parallel_case_execution: true
+  allow_parallel_module_execution_same_case: false
+  max_retry_attempts_per_step: 1
+  require_case_locking: true
+  require_execution_pre_registration: true
+
+approval:
+  require_attorney_review_after_coa: true
+  require_major_rerun_authorization: true
+
+rerun:
+  enable_bounded_reruns: true
+  default_scope_on_attorney_rejection: COA_ONLY
+  preserve_prior_history: true
+  enforce_new_run_id: true
+
+audit:
+  require_audit_on_every_transition: true
+  require_audit_on_every_dispatch: true
+  require_audit_on_every_failure: true
+
+failure_handling:
+  halt_downstream_on_failure: true
+  allow_silent_recovery: false
+  require_explicit_restart: true
+
+supersession:
+  enable_supersession_propagation: true
+  preserve_superseded_records: true
+  require_supersession_reason: true
