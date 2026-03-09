@@ -1,0 +1,39 @@
+version: v1
+authority: contract_v1_ssot
+name: tool_gateway_contract
+
+gateway_rules:
+
+  require_registry_lookup: true
+  prohibit_unregistered_tools: true
+  require_audit_log: true
+  require_caller_validation: true
+
+execution_requirements:
+
+  deterministic_tool_execution: true
+  prohibit_side_effects_outside_contract: true
+  enforce_allowed_callers: true
+
+request_structure:
+
+  required_fields:
+    - tool_name
+    - caller_module
+    - run_id
+    - request_payload
+
+response_structure:
+
+  required_fields:
+    - tool_name
+    - run_id
+    - response_payload
+    - execution_status
+
+audit:
+
+  record_tool_calls: true
+  record_execution_timestamp: true
+  record_caller_module: true
+  record_run_id: true
