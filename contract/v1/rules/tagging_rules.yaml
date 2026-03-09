@@ -1,0 +1,31 @@
+version: v1
+authority: contract_v1_ssot
+name: tagging_rules
+
+rules:
+
+  financial_transaction_tag:
+    event_type: PAYMENT_TRANSACTION
+    assign_tags:
+      - FINANCIAL_TRANSACTION
+      - BUSINESS_ACTIVITY
+
+  contract_event_tag:
+    event_type: CONTRACT_EXECUTION
+    assign_tags:
+      - CONTRACT_FORMATION
+
+  invoice_event_tag:
+    event_type: INVOICE_ISSUED
+    assign_tags:
+      - PAYMENT_OBLIGATION
+
+  nonpayment_event_tag:
+    event_type: PAYMENT_MISSED
+    assign_tags:
+      - BREACH_INDICATOR
+
+  communication_event_tag:
+    event_type: EMAIL_COMMUNICATION
+    assign_tags:
+      - BUSINESS_COMMUNICATION
