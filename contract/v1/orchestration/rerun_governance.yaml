@@ -1,0 +1,40 @@
+version: v1
+authority: contract_v1_ssot
+name: rerun_governance
+
+global_rules:
+  rerun_only_by_governed_request: true
+  require_rerun_record: true
+  require_new_run_id: true
+  preserve_prior_run_history: true
+  require_audit_log: true
+  allow_silent_rerun: false
+  enforce_bounded_scope: true
+
+allowed_scopes:
+  - scope_name: FACT_NORMALIZATION_ONLY
+    restart_state: FACT_NORMALIZATION_READY
+    downstream_recompute:
+      - FACT_NORMALIZATION
+    supersede_downstream_outputs: false
+
+  - scope_name: FROM_COMPOSITE_FORWARD
+    restart_state: COMPOSITE_READY
+    downstream_recompute:
+      - COMPOSITE_ENGINE
+      - TAGGING_ENGINE
+      - COA_ENGINE
+    supersede_downstream_outputs: true
+
+  - scope_name: FROM_TAGGING_FORWARD
+    restart_state: TAGGING_READY
+    downstream_recompute:
+      - TAGGING_ENGINE
+      - COA_ENGINE
+    supersede_downstream_outputs: true
+
+  - scope_name: COA_ONLY
+    restart_state: COA_READY
+    downstream_recompute:
+      - COA_ENGINE
+    supersede_downstream_outputs: true

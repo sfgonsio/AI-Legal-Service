@@ -1,0 +1,78 @@
+version: v1
+authority: contract_v1_ssot
+name: workflow_rules
+
+global_rules:
+  deterministic_dispatch_only: true
+  allow_direct_module_invocation_outside_orchestrator: false
+  require_prerequisite_validation: true
+  require_execution_record_pre_write: true
+  require_audit_log_on_transition: true
+  require_tool_gateway_dispatch: true
+  require_contract_version_alignment: true
+  preserve_execution_history: true
+  block_on_invalid_state: true
+  block_on_missing_prerequisite: true
+
+workflow_sequence:
+  - sequence: 10
+    module_name: INTERVIEW_AGENT
+    module_type: agent
+    entry_state: CASE_INTAKE_OPEN
+    exit_state: INTAKE_COMPLETE
+    prerequisite_states: []
+    approval_required: false
+
+  - sequence: 20
+    module_name: FACT_NORMALIZATION
+    module_type: program
+    entry_state: FACT_NORMALIZATION_READY
+    exit_state: FACT_NORMALIZATION_COMPLETE
+    prerequisite_states:
+      - INTAKE_COMPLETE
+    approval_required: false
+
+  - sequence: 30
+    module_name: MAPPING_AGENT
+    module_type: agent
+    entry_state: MAPPING_READY
+    exit_state: MAPPING_COMPLETE
+    prerequisite_states:
+      - FACT_NORMALIZATION_COMPLETE
+    approval_required: false
+
+  - sequence: 40
+    module_name: COMPOSITE_ENGINE
+    module_type: program
+    entry_state: COMPOSITE_READY
+    exit_state: COMPOSITE_COMPLETE
+    prerequisite_states:
+      - MAPPING_COMPLETE
+    approval_required: false
+
+  - sequence: 50
+    module_name: TAGGING_ENGINE
+    module_type: program
+    entry_state: TAGGING_READY
+    exit_state: TAGGING_COMPLETE
+    prerequisite_states:
+      - COMPOSITE_COMPLETE
+    approval_required: false
+
+  - sequence: 60
+    module_name: COA_ENGINE
+    module_type: program
+    entry_state: COA_READY
+    exit_state: COA_COMPLETE
+    prerequisite_states:
+      - TAGGING_COMPLETE
+    approval_required: false
+
+  - sequence: 70
+    module_name: ATTORNEY_REVIEW
+    module_type: human_gate
+    entry_state: ATTORNEY_REVIEW_PENDING
+    exit_state: ATTORNEY_REVIEW_COMPLETE
+    prerequisite_states:
+      - COA_COMPLETE
+    approval_required: true
