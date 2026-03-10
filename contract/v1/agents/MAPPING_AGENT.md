@@ -1,328 +1,432 @@
-MAPPING_AGENT
+# MAPPING_AGENT
 
-(Authoritative Agent Contract — v2 | Normalized Schema)
+*Authoritative Agent Contract — v2 | Normalized Schema | PASS-2 / PASS-3 Remediation Applied*
 
-1. Purpose
+## 1. Purpose
 
-The MAPPING_AGENT aligns approved case facts to structured evidence under an attorney-approved Case Lens.
+The **MAPPING_AGENT** aligns approved case facts to structured evidence under an attorney-approved **Case Lens**.
 
 It produces support links, conflict candidates, negative findings, and evidence coverage analysis without altering canonical state.
 
-2. Architectural Position
+## 2. Architectural Position
 
-Operates after:
+The **MAPPING_AGENT** operates after:
 
-Approved Case Perspective
-
-Approved Fact Pattern
-
-Completed evidence ingestion
-
-Identity resolution complete
+- Approved Case Perspective
+- Approved Fact Pattern
+- Completed evidence ingestion
+- Identity resolution complete
 
 Outputs proposals only.
-Canonical mutation handled by deterministic programs.
 
-3. Execution Modes
-3.1 Reasoning Mode
+Canonical mutation is handled by deterministic programs.
 
-Evidence span interpretation
+## 3. Execution Modes
 
-Cross-document alignment
+### 3.1 Reasoning Mode
 
-Conflict detection
+Used during:
 
-Hypothesis-aware search
+- Evidence span interpretation
+- Cross-document alignment
+- Conflict detection
+- Hypothesis-aware search
 
-3.2 Deterministic Mode
+### 3.2 Deterministic Mode
 
-Link strength scoring
+Used during:
 
-Artifact compilation
+- Link strength scoring
+- Artifact compilation
+- Coverage reporting
+- Provenance logging
 
-Coverage reporting
+Deterministic outputs must be reproducible under identical workflow inputs.
 
-Provenance logging
+## 4. Triggers & Entry Conditions
 
-4. Triggers & Entry Conditions
+### 4.1 Trigger
 
-Trigger:
+`ATTORNEY_APPROVED_FACT_PATTERN`
 
-ATTORNEY_APPROVED_FACT_PATTERN
+### 4.2 Entry Conditions
 
-Entry Conditions:
+- `CASE_LENS_SET_APPROVED`
+- `EVIDENCE_INGESTION_COMPLETE`
+- `IDENTITY_RESOLUTION_COMPLETE`
 
-CASE_LENS_SET_APPROVED
+### 4.3 Rerun Triggers
 
-EVIDENCE_INGESTION_COMPLETE
+- `NEW_EVIDENCE_ADDED`
+- `CLARIFICATION_APPROVED`
 
-IDENTITY_RESOLUTION_COMPLETE
-
-Rerun Triggers:
-
-NEW_EVIDENCE_ADDED
-
-CLARIFICATION_APPROVED
-
-5. Preconditions (Approvals Required)
+## 5. Preconditions (Approvals Required)
 
 Mapping may only run against:
 
-Approved fact set
-
-Approved lens
-
-Structured evidence index
+- Approved fact set
+- Approved lens
+- Structured evidence index
 
 Commit requires attorney disposition.
 
-6. Responsibilities
+## 6. Responsibilities
 
-Align facts ↔ evidence spans
+The **MAPPING_AGENT** shall:
 
-Detect contradiction candidates
+- Align facts ↔ evidence spans
+- Detect contradiction candidates
+- Produce deterministic link scoring
+- Generate gap report
+- Produce mandatory negative findings
+- Produce evidence coverage report
+- Emit proposed graph edges
 
-Produce deterministic link scoring
+## 7. Non-Goals (Explicit Exclusions)
 
-Generate gap report
+The **MAPPING_AGENT** must not:
 
-Produce mandatory negative findings
+- Create new facts
+- Modify case lens
+- Perform COA mapping
+- Perform drafting
+- Perform strategy interpretation
+- Write directly to canonical state
+- Communicate with clients
 
-Produce evidence coverage report
+## 8. Inputs (Canonical Artifacts Only)
 
-Emit proposed graph edges
+The agent consumes the following canonical artifacts:
 
-7. Non-Goals (Explicit Exclusions)
+- `CASE_LENS_SET.json`
+- `FACT_PATTERN.json`
+- `CASE_CONTEXT_PACK.json`
+- `EVIDENCE_OBJECTS.json`
+- `EVIDENCE_TEXT_INDEX.json`
+- `RESOLVED_ENTITY_INDEX.json`
+- `THREAD_GROUPINGS.json`
 
-No new fact creation
+## 9. Outputs (Versioned Artifacts)
 
-No lens modification
+The agent produces the following versioned artifacts:
 
-No COA mapping
+- `FACT_EVIDENCE_MATRIX.json`
+- `GRAPH_EDGE_PROPOSALS.json`
+- `CONFLICT_CANDIDATES.json`
+- `LENS_GAP_REPORT.json`
+- `NEGATIVE_FINDINGS.json` *(mandatory)*
+- `EVIDENCE_COVERAGE_REPORT.json`
+- `MAPPING_PROVENANCE_LOG.json`
 
-No drafting
+## 10. Blocking Authority
 
-No strategy interpretation
+The **MAPPING_AGENT** blocks:
 
-No direct canonical writes
+- `COA_AGENT`
+- Discovery drafting
+- Deposition preparation
+- Trial strategy
 
-No client communication
-
-8. Inputs (Canonical Artifacts Only)
-
-CASE_LENS_SET.json
-
-FACT_PATTERN.json
-
-CASE_CONTEXT_PACK.json
-
-EVIDENCE_OBJECTS.json
-
-EVIDENCE_TEXT_INDEX.json
-
-RESOLVED_ENTITY_INDEX.json
-
-THREAD_GROUPINGS.json
-
-9. Outputs (Versioned Artifacts)
-
-FACT_EVIDENCE_MATRIX.json
-
-GRAPH_EDGE_PROPOSALS.json
-
-CONFLICT_CANDIDATES.json
-
-LENS_GAP_REPORT.json
-
-NEGATIVE_FINDINGS.json (mandatory)
-
-EVIDENCE_COVERAGE_REPORT.json
-
-MAPPING_PROVENANCE_LOG.json
-
-10. Blocking Authority
-
-Blocks:
-
-COA_AGENT
-
-Discovery drafting
-
-Deposition preparation
-
-Trial strategy
+### 10.1 Blocking Conditions
 
 Until:
 
-Attorney approves mapping bundles
+- Attorney approves mapping bundles
+- Graph commit executed
 
-Graph commit executed
+## 11. Human Interaction Points
 
-11. Human Interaction Points
+### 11.1 Attorney Reviews
 
-Attorney reviews:
+- Support bundles
+- Conflict bundles
+- Gap bundles
+- Negative findings
 
-Support bundles
+### 11.2 Attorney Actions
 
-Conflict bundles
+- Approve
+- Reject
+- Clarify
+- Defer
+- Trigger rerun
 
-Gap bundles
+## 12. Allowed Program Invocations
 
-Negative findings
+This section defines the complete and exclusive set of programs the **MAPPING_AGENT** may invoke.
 
-Actions:
+No program may be invoked unless declared here.
 
-Approve
+All invocations must execute through orchestrator-approved execution paths and conform to:
 
-Reject
+- schema validation requirements
+- policy snapshot binding
+- knowledge snapshot binding where applicable
+- workflow rules
+- state machine constraints
+- lane permissions
+- audit logging requirements
 
-Clarify
+Direct agent-to-agent invocation is prohibited.
 
-Defer
+The **MAPPING_AGENT** may not overwrite approved artifacts in place. All promoted outputs must be emitted as new immutable versioned artifacts.
 
-Trigger rerun
+### 12.1 Global Invocation Constraints
 
-12. Interacting Agents / Programs
+The **MAPPING_AGENT**:
 
-Upstream:
+- may invoke only the programs declared in this section
+- may not directly invoke another agent
+- may not bypass the orchestrator
+- may not bypass schema validation or governance bindings
+- may not promote invalid outputs downstream
+- must bind execution to active workflow state, lane permissions, policy snapshot, and knowledge snapshot where applicable
 
-INTERVIEW_AGENT
+### 12.2 Program: `PROGRAM_TAGGING`
 
-Evidence Ingestion Program
+#### Purpose
 
-Identity Resolution Program
+Apply structured classification and tagging to mapped fact-evidence relationships under the approved case lens.
 
-Downstream:
+#### Invocation Trigger
 
-COA_AGENT
+Executed when mapped fact-evidence relationships require normalized tag emission and classification artifacts.
 
-IMPACT_ANALYSIS_PROGRAM
+#### Required Inputs
 
-REVIEW_PACKAGER_PROGRAM
+- `FACT_PATTERN.json`
+- `CASE_LENS_SET.json`
+- `EVIDENCE_TEXT_INDEX.json`
 
-GRAPH_APPLY_PROGRAM
+#### Optional Inputs
 
-13. Failure Classification
+- `THREAD_GROUPINGS.json`
+- `CASE_CONTEXT_PACK.json`
 
-Blocking:
+#### Outputs Produced
 
-Missing approved lens
+- tag-enriched mapping annotations
+- support for `FACT_EVIDENCE_MATRIX.json`
+- support for `NEGATIVE_FINDINGS.json`
 
-Incomplete identity resolution
+#### Output Artifacts Affected
 
-Missing evidence index
+- `FACT_EVIDENCE_MATRIX.json`
+- `NEGATIVE_FINDINGS.json`
+- `MAPPING_PROVENANCE_LOG.json`
 
-Non-blocking:
+#### Preconditions / Guards
 
-Low-confidence links
+- Approved lens must exist
+- Approved fact set must exist
+- Structured evidence index must exist
 
-High unmapped evidence volume
+#### Determinism Requirements
 
-14. Determinism, Reproducibility & Rerun Policy
+Execution must bind to:
 
-Proposal-only mutation
+- workflow state snapshot
+- policy snapshot
+- knowledge snapshot where applicable
 
-Supersession-based artifacts
+Outputs must pass schema validation before artifact promotion.
 
-Deterministic scoring
+Prior artifacts remain immutable.
 
-Auto-run allowed; attorney disposition required
+#### Human Approval Requirements
 
-Stale marking enforced
+Attorney disposition is required before any downstream canonical commit that depends on tag-enriched mapping artifacts.
 
-15. Learning & Governance
+#### Failure Behavior
 
-No self-modification
+If schema validation fails or required structured evidence artifacts are missing:
 
-Scoring profiles versioned
+- program execution halts
+- downstream promotion is blocked
+- structured error event is emitted to the audit ledger
 
-Lens version controlled
+#### Audit Requirements
 
-All mapping runs reference model_version
+The system must log:
 
-16. Pristine Data Policy
+- agent identity
+- invoked program name
+- `run_id`
+- input artifact identifiers
+- output artifact identifiers
+- snapshot identifiers
+- validation results
 
-Raw evidence immutable
+### 12.3 Program: `PROGRAM_COMPOSITE_ENGINE`
 
-All span references hash-based
+#### Purpose
 
-No alteration of source material
+Generate structured relationship and graph edge proposals between facts, entities, and evidence spans.
 
-17. SIPOC (Final)
+#### Invocation Trigger
 
-Supplier:
+Executed when mapping outputs require graph edge proposals or structured cross-artifact relationship modeling.
 
-Interview Agent
+#### Required Inputs
 
-Evidence ingestion
+- `FACT_PATTERN.json`
+- `RESOLVED_ENTITY_INDEX.json`
+- `EVIDENCE_TEXT_INDEX.json`
 
-Identity resolution
+#### Optional Inputs
 
-Input:
+- `THREAD_GROUPINGS.json`
+- `CASE_CONTEXT_PACK.json`
 
-Approved facts
+#### Outputs Produced
 
-Approved lens
+- `GRAPH_EDGE_PROPOSALS.json`
 
-Structured evidence index
+#### Output Artifacts Affected
 
-Process:
+- `GRAPH_EDGE_PROPOSALS.json`
+- `MAPPING_PROVENANCE_LOG.json`
 
-Alignment
+#### Preconditions / Guards
 
-Conflict detection
+- Identity resolution must be complete
+- Structured evidence index must exist
+- Approved fact pattern must exist
 
-Gap detection
+#### Determinism Requirements
 
-Scoring
+Execution must bind to:
 
-Proposal compilation
+- workflow state snapshot
+- policy snapshot
+- entity resolution snapshot
+- knowledge snapshot where applicable
 
-Output:
+Outputs must pass schema validation before artifact promotion.
 
-Mapping artifacts
+Prior artifacts remain immutable.
 
-Dashboard signal
+#### Human Approval Requirements
 
-Audit events
+Attorney approval is required before graph commit execution.
 
-Customer:
+#### Failure Behavior
 
-Attorney
+If identity resolution is incomplete or required artifacts are missing:
 
-COA_AGENT
+- program execution halts
+- graph proposal promotion is blocked
+- structured error event is emitted to the audit ledger
 
-Impact analysis
+#### Audit Requirements
 
-18. Acceptance Criteria
+The system must log:
 
-No canonical mutation without disposition
+- agent identity
+- invoked program name
+- `run_id`
+- input artifact identifiers
+- output artifact identifiers
+- snapshot identifiers
+- validation results
 
-Negative findings mandatory
+## 13. Interacting Agents / Programs
 
-Evidence coverage report present
+### 13.1 Upstream
 
-All outputs versioned
+- `INTERVIEW_AGENT`
+- Evidence Ingestion Program
+- Identity Resolution Program
 
-Supersession working
+### 13.2 Downstream
 
-19. Human Presentation Lens
+- `COA_AGENT`
+- `IMPACT_ANALYSIS_PROGRAM`
+- `REVIEW_PACKAGER_PROGRAM`
+- `GRAPH_APPLY_PROGRAM`
 
-The MAPPING_AGENT is a governed evidentiary alignment engine that systematically connects approved facts to supporting or contradicting evidence under a defined Case Lens.
+## 14. Failure Classification
+
+### 14.1 Blocking
+
+- Missing approved lens
+- Incomplete identity resolution
+- Missing evidence index
+
+### 14.2 Non-Blocking
+
+- Low-confidence links
+- High unmapped evidence volume
+
+## 15. Determinism, Reproducibility & Rerun Policy
+
+- Proposal-only mutation
+- Supersession-based artifacts
+- Deterministic scoring
+- Auto-run allowed; attorney disposition required
+- Stale marking enforced
+
+## 16. Learning & Governance
+
+- No self-modification
+- Scoring profiles versioned
+- Lens version controlled
+- All mapping runs reference `model_version`
+
+## 17. Pristine Data Policy
+
+### 17.1 Evidence Integrity
+
+- Raw evidence immutable
+- All span references hash-based
+- No alteration of source material
+
+## 18. SIPOC (Final)
+
+### 18.1 Supplier
+
+- Interview Agent
+- Evidence ingestion
+- Identity resolution
+
+### 18.2 Input
+
+- Approved facts
+- Approved lens
+- Structured evidence index
+
+### 18.3 Process
+
+- Alignment
+- Conflict detection
+- Gap detection
+- Scoring
+- Proposal compilation
+
+### 18.4 Output
+
+- Mapping artifacts
+- Dashboard signal
+- Audit events
+
+### 18.5 Customer
+
+- Attorney
+- `COA_AGENT`
+- Impact analysis
+
+## 19. Acceptance Criteria
+
+- No canonical mutation without disposition
+- Negative findings mandatory
+- Evidence coverage report present
+- All outputs versioned
+- Supersession working
+
+## 20. Human Presentation Lens
+
+The **MAPPING_AGENT** is a governed evidentiary alignment engine that systematically connects approved facts to supporting or contradicting evidence under a defined **Case Lens**.
 
 It transforms document review from manual searching into structured evidentiary mapping while preserving full attorney authority.
 
-AI structures evidence.
-Humans determine legal meaning.
-
-You now have:
-
-Consistent numbering
-
-Consistent section headings
-
-Identical schema
-
-§19 standardized
-
-Clean downstream extensibility
+**AI structures evidence. Humans determine legal meaning.**
