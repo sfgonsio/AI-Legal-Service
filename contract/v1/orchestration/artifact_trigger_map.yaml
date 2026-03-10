@@ -1,0 +1,273 @@
+map_name: artifact_trigger_map
+version: v1
+status: active
+
+description: >
+  Defines how governed artifacts are triggered from program completions,
+  agent outputs, and workflow state changes. This map operationalizes the
+  DIKW progression by converting canonical analysis outputs into attorney-
+  facing artifacts under governed conditions.
+
+defaults:
+  attorney_review_required: true
+  lineage_required: true
+  silent_regeneration_allowed: false
+  release_requires_attorney_approval: true
+
+trigger_mappings:
+
+  - trigger_id: trg_fact_matrix_on_fact_normalization_complete
+    trigger_event: fact_normalization_complete
+    trigger_source_type: deterministic_program
+    trigger_source: program_FACT_NORMALIZATION
+    artifact_type_id: fact_matrix
+    artifact_lane: assembly
+    artifact_producer_type: deterministic_program
+    artifact_generator: program_FACT_NORMALIZATION
+    preconditions:
+      - normalized_facts_exist
+      - source_documents_linked
+      - run_id_present
+    inputs:
+      canonical:
+        - EVIDENCE_FACTS.json
+      optional:
+        - TAG_ASSIGNMENTS.json
+    output_contract:
+      artifact_status_on_create: generated
+      lineage_mode: canonical_hash_bound
+      attorney_action: review
+    stale_on:
+      - fact_update
+      - fact_deletion
+      - source_document_reprocessing
+
+  - trigger_id: trg_master_timeline_on_event_candidates_confirmed
+    trigger_event: event_candidates_confirmed
+    trigger_source_type: deterministic_program
+    trigger_source: program_COMPOSITE_ENGINE
+    artifact_type_id: master_timeline
+    artifact_lane: assembly
+    artifact_producer_type: deterministic_program
+    artifact_generator: program_COMPOSITE_ENGINE
+    preconditions:
+      - event_candidates_exist
+      - chronology_resolved
+      - run_id_present
+    inputs:
+      canonical:
+        - EVENT_CANDIDATES.json
+        - EVIDENCE_FACTS.json
+      optional:
+        - TAG_ASSIGNMENTS.json
+        - entity_resolution_output
+    output_contract:
+      artifact_status_on_create: generated
+      lineage_mode: canonical_hash_bound
+      attorney_action: review
+    stale_on:
+      - event_update
+      - event_deletion
+      - chronology_rebuild
+      - source_document_reprocessing
+
+  - trigger_id: trg_element_proof_chart_on_coa_selected
+    trigger_event: coa_selected
+    trigger_source_type: deterministic_program
+    trigger_source: program_COA_ENGINE
+    artifact_type_id: element_proof_chart
+    artifact_lane: assembly
+    artifact_producer_type: deterministic_program
+    artifact_generator: program_COA_ENGINE
+    preconditions:
+      - selected_coa_present
+      - coverage_matrix_exists
+      - run_id_present
+    inputs:
+      canonical:
+        - COA_ELEMENT_COVERAGE_MATRIX.json
+        - EVIDENCE_FACTS.json
+      optional:
+        - EVENT_CANDIDATES.json
+        - TAG_ASSIGNMENTS.json
+    output_contract:
+      artifact_status_on_create: generated
+      lineage_mode: canonical_hash_bound
+      attorney_action: validate
+    stale_on:
+      - coverage_matrix_update
+      - fact_update
+      - coa_selection_change
+
+  - trigger_id: trg_case_theory_memo_on_element_analysis_complete
+    trigger_event: element_analysis_complete
+    trigger_source_type: hybrid_workflow
+    trigger_source: program_COA_ENGINE_plus_agent_COA_REASONER
+    artifact_type_id: case_theory_memo
+    artifact_lane: proposal
+    artifact_producer_type: ai_agent
+    artifact_generator: agent_COA_REASONER
+    preconditions:
+      - coverage_matrix_exists
+      - proof_chart_exists
+      - run_id_present
+    inputs:
+      canonical:
+        - COA_ELEMENT_COVERAGE_MATRIX.json
+        - EVIDENCE_FACTS.json
+      proposal_support:
+        - element_proof_chart
+        - master_timeline
+      optional:
+        - legal_research_notes
+    output_contract:
+      artifact_status_on_create: generated
+      lineage_mode: mixed_canonical_and_artifact_lineage
+      attorney_action: validate
+    stale_on:
+      - coverage_matrix_update
+      - proof_chart_regeneration
+      - major_fact_update
+
+  - trigger_id: trg_complaint_draft_on_case_theory_approved
+    trigger_event: case_theory_approved
+    trigger_source_type: workflow_state_change
+    trigger_source: attorney_review_workflow
+    artifact_type_id: complaint_draft
+    artifact_lane: assembly
+    artifact_producer_type: hybrid_workflow
+    artifact_generator: pleading_pipeline_v1
+    preconditions:
+      - case_theory_memo_approved
+      - selected_coa_present
+      - proof_chart_exists
+      - run_id_present
+    inputs:
+      canonical:
+        - COA_ELEMENT_COVERAGE_MATRIX.json
+        - EVIDENCE_FACTS.json
+      governed_artifacts:
+        - case_theory_memo
+        - element_proof_chart
+        - master_timeline
+      optional:
+        - jurisdiction_rules
+        - caption_metadata
+        - damages_inputs
+    output_contract:
+      artifact_status_on_create: generated
+      lineage_mode: mixed_canonical_and_artifact_lineage
+      attorney_action: approve
+    stale_on:
+      - case_theory_memo_superseded
+      - proof_chart_regeneration
+      - coa_selection_change
+      - major_fact_update
+
+  - trigger_id: trg_discovery_request_set_on_proof_gap_detected
+    trigger_event: proof_gap_detected
+    trigger_source_type: deterministic_program
+    trigger_source: program_COA_ENGINE
+    artifact_type_id: discovery_request_set
+    artifact_lane: assembly
+    artifact_producer_type: hybrid_workflow
+    artifact_generator: discovery_pipeline_v1
+    preconditions:
+      - unsupported_or_weak_element_detected
+      - selected_coa_present
+      - run_id_present
+    inputs:
+      canonical:
+        - COA_ELEMENT_COVERAGE_MATRIX.json
+        - EVIDENCE_FACTS.json
+      governed_artifacts:
+        - element_proof_chart
+        - case_theory_memo
+      optional:
+        - known_document_gaps
+        - witness_candidates
+    output_contract:
+      artifact_status_on_create: generated
+      lineage_mode: mixed_canonical_and_artifact_lineage
+      attorney_action: approve
+    stale_on:
+      - proof_chart_regeneration
+      - fact_update
+      - discovery_scope_change
+
+  - trigger_id: trg_deposition_outline_on_deposition_target_selected
+    trigger_event: deposition_target_selected
+    trigger_source_type: workflow_state_change
+    trigger_source: case_workflow_controller
+    artifact_type_id: deposition_outline
+    artifact_lane: assembly
+    artifact_producer_type: hybrid_workflow
+    artifact_generator: deposition_pipeline_v1
+    preconditions:
+      - deposition_target_identified
+      - witness_or_party_profile_exists
+      - run_id_present
+    inputs:
+      canonical:
+        - EVIDENCE_FACTS.json
+        - EVENT_CANDIDATES.json
+      governed_artifacts:
+        - master_timeline
+        - case_theory_memo
+      optional:
+        - prior_statements
+        - document_clusters
+    output_contract:
+      artifact_status_on_create: generated
+      lineage_mode: mixed_canonical_and_artifact_lineage
+      attorney_action: approve
+    stale_on:
+      - deposition_target_change
+      - major_fact_update
+      - timeline_regeneration
+
+  - trigger_id: trg_motion_draft_on_motion_opportunity_detected
+    trigger_event: motion_opportunity_detected
+    trigger_source_type: deterministic_program
+    trigger_source: program_COA_ENGINE
+    artifact_type_id: motion_draft
+    artifact_lane: assembly
+    artifact_producer_type: future_capability
+    artifact_generator: reserved_motion_pipeline
+    preconditions:
+      - motion_basis_identified
+      - supporting_record_exists
+      - run_id_present
+    inputs:
+      canonical:
+        - COA_ELEMENT_COVERAGE_MATRIX.json
+        - EVIDENCE_FACTS.json
+      governed_artifacts:
+        - element_proof_chart
+        - master_timeline
+        - case_theory_memo
+      optional:
+        - legal_research_notes
+        - procedural_posture_metadata
+    output_contract:
+      artifact_status_on_create: generated
+      lineage_mode: mixed_canonical_and_artifact_lineage
+      attorney_action: approve
+    stale_on:
+      - motion_basis_change
+      - proof_chart_regeneration
+      - major_fact_update
+
+enforcement_rules:
+  - governed_artifact_must_exist_in_artifact_types_taxonomy
+  - governed_artifact_must_have_registry_schema_support
+  - proposal_lane_outputs_may_not_write_to_canonical_lane
+  - assembly_lane_outputs_may_not_mutate_canonical_artifacts
+  - attorney_edited_artifacts_may_not_be_silently_regenerated
+  - all_triggered_artifacts_must_record_run_id_and_input_hashes
+
+notes:
+  - This file defines orchestration triggers, not final procedural law.
+  - Trigger firing authorizes artifact generation eligibility; it does not bypass attorney review.
+  - Future capability entries reserve workflow space without requiring immediate agent creation.
+  
