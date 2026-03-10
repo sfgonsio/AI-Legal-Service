@@ -1,12 +1,60 @@
 taxonomy_name: artifact_types
-version: v1
+version: v1.1
 status: active
 
 description: >
-  Defines the initial governed artifact catalog for the AI Legal Service platform.
-  These artifacts are the primary attorney-facing outputs supported in v1.
+  Defines the governed artifact catalog for the AI Legal Service platform.
+  These artifacts are the primary attorney-facing and workflow-governing
+  outputs supported in the current execution spine.
 
 artifacts:
+
+  # =========================================================
+  # INTAKE ARTIFACTS
+  # =========================================================
+
+  - artifact_type_id: case_perspective
+    artifact_name: Case Perspective
+    artifact_class: governed_core
+    pipeline_lane: assembly
+    producer_type: ai_agent
+    primary_generator: agent_INTERVIEW_AGENT
+    lifecycle_policy: governed_review_required
+    regeneration_policy: allowed_if_not_attorney_edited
+    lineage_required: true
+    trigger:
+      event: intake_validation_complete
+      source: interview_workflow_controller
+
+  - artifact_type_id: coverage_status
+    artifact_name: Coverage Status
+    artifact_class: governed_core
+    pipeline_lane: assembly
+    producer_type: deterministic_program
+    primary_generator: intake_compilation_pipeline_v1
+    lifecycle_policy: governed_review_required
+    regeneration_policy: allowed_if_not_attorney_edited
+    lineage_required: true
+    trigger:
+      event: intake_validation_complete
+      source: interview_workflow_controller
+
+  - artifact_type_id: issues_for_review
+    artifact_name: Issues for Review
+    artifact_class: governed_core
+    pipeline_lane: proposal
+    producer_type: ai_agent
+    primary_generator: agent_INTERVIEW_AGENT
+    lifecycle_policy: governed_review_required
+    regeneration_policy: allowed_if_not_attorney_edited
+    lineage_required: true
+    trigger:
+      event: intake_contradictions_detected
+      source: agent_INTERVIEW_AGENT
+
+  # =========================================================
+  # FACT / TIMELINE / COA ARTIFACTS
+  # =========================================================
 
   - artifact_type_id: fact_matrix
     artifact_name: Fact Matrix
@@ -60,6 +108,109 @@ artifacts:
       event: element_analysis_complete
       source: program_COA_ENGINE
 
+  # =========================================================
+  # MAPPING ARTIFACTS
+  # =========================================================
+
+  - artifact_type_id: fact_evidence_matrix
+    artifact_name: Fact Evidence Matrix
+    artifact_class: governed_core
+    pipeline_lane: assembly
+    producer_type: hybrid_workflow
+    primary_generator: agent_MAPPING_AGENT
+    lifecycle_policy: governed_review_required
+    regeneration_policy: allowed_if_not_attorney_edited
+    lineage_required: true
+    trigger:
+      event: mapping_analysis_complete
+      source: agent_MAPPING_AGENT_plus_program_COMPOSITE_ENGINE
+
+  - artifact_type_id: conflict_candidates
+    artifact_name: Conflict Candidates
+    artifact_class: governed_core
+    pipeline_lane: proposal
+    producer_type: ai_agent
+    primary_generator: agent_MAPPING_AGENT
+    lifecycle_policy: governed_review_required
+    regeneration_policy: allowed_if_not_attorney_edited
+    lineage_required: true
+    trigger:
+      event: mapping_analysis_complete
+      source: agent_MAPPING_AGENT
+
+  - artifact_type_id: negative_findings
+    artifact_name: Negative Findings
+    artifact_class: governed_core
+    pipeline_lane: assembly
+    producer_type: hybrid_workflow
+    primary_generator: agent_MAPPING_AGENT
+    lifecycle_policy: governed_review_required
+    regeneration_policy: allowed_if_not_attorney_edited
+    lineage_required: true
+    trigger:
+      event: mapping_analysis_complete
+      source: agent_MAPPING_AGENT_plus_program_TAGGING_ENGINE
+
+  - artifact_type_id: evidence_coverage_report
+    artifact_name: Evidence Coverage Report
+    artifact_class: governed_core
+    pipeline_lane: assembly
+    producer_type: hybrid_workflow
+    primary_generator: agent_MAPPING_AGENT
+    lifecycle_policy: governed_review_required
+    regeneration_policy: allowed_if_not_attorney_edited
+    lineage_required: true
+    trigger:
+      event: mapping_analysis_complete
+      source: agent_MAPPING_AGENT_plus_program_TAGGING_ENGINE
+
+  # =========================================================
+  # OPPOSITION ARTIFACTS
+  # =========================================================
+
+  - artifact_type_id: opposition_weakness_map
+    artifact_name: Opposition Weakness Map
+    artifact_class: governed_core
+    pipeline_lane: proposal
+    producer_type: ai_agent
+    primary_generator: OPPOSITION_AGENT
+    lifecycle_policy: governed_review_required
+    regeneration_policy: allowed_if_not_attorney_edited
+    lineage_required: true
+    trigger:
+      event: case_theory_approved
+      source: attorney_review_workflow
+
+  - artifact_type_id: opposition_strategy_map
+    artifact_name: Opposition Strategy Map
+    artifact_class: governed_core
+    pipeline_lane: proposal
+    producer_type: ai_agent
+    primary_generator: OPPOSITION_AGENT
+    lifecycle_policy: governed_review_required
+    regeneration_policy: allowed_if_not_attorney_edited
+    lineage_required: true
+    trigger:
+      event: opposition_analysis_requested
+      source: attorney_review_workflow
+
+  - artifact_type_id: tactical_playbook
+    artifact_name: Tactical Playbook
+    artifact_class: governed_core
+    pipeline_lane: assembly
+    producer_type: ai_agent
+    primary_generator: OPPOSITION_AGENT
+    lifecycle_policy: attorney_approval_required
+    regeneration_policy: blocked_if_attorney_edited_without_approval
+    lineage_required: true
+    trigger:
+      event: opposition_analysis_complete
+      source: OPPOSITION_AGENT
+
+  # =========================================================
+  # PLEADING / DISCOVERY / DEPOSITION / MOTION ARTIFACTS
+  # =========================================================
+
   - artifact_type_id: complaint_draft
     artifact_name: Complaint Draft
     artifact_class: governed_core
@@ -71,7 +222,7 @@ artifacts:
     lineage_required: true
     trigger:
       event: case_theory_approved
-      source: agent_COA_REASONER
+      source: attorney_review_workflow
 
   - artifact_type_id: discovery_request_set
     artifact_name: Discovery Request Set
