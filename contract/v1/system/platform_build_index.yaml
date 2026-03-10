@@ -11,26 +11,23 @@ platform_components:
     - contract/v1/agents/OPPOSITION_AGENT.md
 
   programs:
-  - contract/v1/programs/program_COMPLAINT_PARSE.md
-  - contract/v1/programs/program_FACT_NORMALIZATION.md
-  - contract/v1/programs/program_DISCOVERY_PACKET.md
-
-  - contract/v1/programs/program_COMPOSITE_ENGINE.md
-  - contract/v1/programs/program_TAGGING_ENGINE.md
-  - contract/v1/programs/program_COA_ENGINE.md
-
-  - contract/v1/programs/program_COVERAGE_ANALYSIS.md
-  - contract/v1/programs/program_BURDEN_MAP_BUILDER.md
-  - contract/v1/programs/program_MTC_READINESS_EVALUATOR.md
-  - contract/v1/programs/program_AUTHORITY_COVERAGE_CHECK.md
-  - contract/v1/programs/program_ARCHETYPE_PROPOSAL.md
-
-  - contract/v1/programs/program_KNOWLEDGE_INGESTION.md
-  - contract/v1/programs/program_RESEARCH_CAPTURE.md
-  - contract/v1/programs/program_PATTERN_PACK_COMPILER.md
-  - contract/v1/programs/program_PATTERN_PACK_BUNDLE_ASSEMBLER.md
-
-  - contract/v1/programs/program_WORKFLOW_ORCHESTRATOR.md
+    - contract/v1/programs/program_COMPLAINT_PARSE.md
+    - contract/v1/programs/program_FACT_NORMALIZATION.md
+    - contract/v1/programs/program_DISCOVERY_PACKET.md
+    - contract/v1/programs/program_COMPOSITE_ENGINE.md
+    - contract/v1/programs/program_TAGGING_ENGINE.md
+    - contract/v1/programs/program_COA_ENGINE.md
+    - contract/v1/programs/program_COVERAGE_ANALYSIS.md
+    - contract/v1/programs/program_BURDEN_MAP_BUILDER.md
+    - contract/v1/programs/program_MTC_READINESS_EVALUATOR.md
+    - contract/v1/programs/program_AUTHORITY_COVERAGE_CHECK.md
+    - contract/v1/programs/program_ARCHETYPE_PROPOSAL.md
+    - contract/v1/programs/program_KNOWLEDGE_INGESTION.md
+    - contract/v1/programs/program_RESEARCH_CAPTURE.md
+    - contract/v1/programs/program_PATTERN_PACK_COMPILER.md
+    - contract/v1/programs/program_PATTERN_PACK_BUNDLE_ASSEMBLER.md
+    - contract/v1/programs/program_WORKFLOW_ORCHESTRATOR.md
+    - contract/v1/programs/program_PROCESSING.md
 
   orchestration:
     - contract/v1/orchestration/state_model.yaml
