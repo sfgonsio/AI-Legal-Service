@@ -1,0 +1,182 @@
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃                                                                   ┃
+┃              📂 YOUR PROJECT - FILE LOCATIONS                     ┃
+┃                                                                   ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+
+🎯 YOU ARE HERE → Looking at files in Figma Make web interface
+
+
+┌─────────────────────────────────────────────────────────────────────┐
+│  ROOT FOLDER (Main Directory)                                       │
+│  All the files I created for you are HERE ⭐                        │
+├─────────────────────────────────────────────────────────────────────┤
+│                                                                     │
+│  📄 ABSOLUTE-BEGINNERS-GUIDE.md  ← START HERE! Step-by-step       │
+│  📄 WIX-HOSTING-HELP.md          ← Read about Wix limitations      │
+│  📄 DEPLOY-COMMANDS.txt          ← Command reference               │
+│  📄 START-HERE.md                ← Project overview                │
+│  📄 QUICKSTART.md                ← Deployment guide                │
+│  📄 DEPLOYMENT.md                ← Detailed deployment docs        │
+│  📄 PROJECT-STRUCTURE.txt        ← Visual diagram                  │
+│  📄 README.md                    ← Project documentation           │
+│                                                                     │
+│  ⚙️  package.json                ← Project dependencies            │
+│  ⚙️  vite.config.ts              ← Build configuration             │
+│  ⚙️  netlify.toml                ← Netlify deployment config       │
+│  ⚙️  vercel.json                 ← Vercel deployment config        │
+│                                                                     │
+└─────────────────────────────────────────────────────────────────────┘
+
+
+┌─────────────────────────────────────────────────────────────────────┐
+│  📁 src/                                                            │
+│  Your source code (React components)                                │
+├─────────────────────────────────────────────────────────────────────┤
+│                                                                     │
+│  📁 src/app/                                                        │
+│     ├── 📁 pages/              ← Your 10 portal pages              │
+│     │   ├── Welcome.tsx                                            │
+│     │   ├── WhatThisIs.tsx                                         │
+│     │   ├── WhatThisChanges.tsx                                    │
+│     │   ├── CoreCapabilities.tsx                                   │
+│     │   ├── Workflow.tsx                                           │
+│     │   ├── AgentProgramMap.tsx                                    │
+│     │   ├── Evidentiary.tsx                                        │
+│     │   ├── EngineeringFoundation.tsx                              │
+│     │   ├── DevelopmentStatus.tsx                                  │
+│     │   └── LeadershipInput.tsx                                    │
+│     │                                                               │
+│     ├── 📁 components/         ← Reusable UI components            │
+│     │   ├── Layout.tsx                                             │
+│     │   ├── ProgressIndicator.tsx                                  │
+│     │   ├── PageNavigation.tsx                                     │
+│     │   ├── ThemeToggle.tsx                                        │
+│     │   └── ...                                                    │
+│     │                                                               │
+│     ├── App.tsx                ← Main application                  │
+│     └── routes.tsx             ← Route configuration               │
+│                                                                     │
+│  📁 src/styles/                                                     │
+│     ├── theme.css              ← Design system                     │
+│     ├── fonts.css              ← Font imports                      │
+│     └── ...                                                        │
+│                                                                     │
+└─────────────────────────────────────────────────────────────────────┘
+
+
+┌─────────────────────────────────────────────────────────────────────┐
+│  📁 dist/                                                           │
+│  GENERATED AFTER YOU RUN: npm run build                            │
+│  THIS IS WHERE YOUR .html, .js, .css FILES ARE! ⭐                 │
+├─────────────────────────────────────────────────────────────────────┤
+│                                                                     │
+│  📄 index.html                 ← Your main HTML file               │
+│                                                                     │
+│  📁 assets/                                                         │
+│     ├── index-abc123.js        ← Your JavaScript bundle           │
+│     ├── index-def456.css       ← Your compiled CSS                │
+│     └── other files...         ← Images, fonts, etc.              │
+│                                                                     │
+│  📄 .htaccess                  ← Server routing config             │
+│                                                                     │
+│  👉 UPLOAD THIS ENTIRE FOLDER TO NETLIFY!                          │
+│                                                                     │
+└─────────────────────────────────────────────────────────────────────┘
+
+
+═══════════════════════════════════════════════════════════════════════
+                          HOW TO ACCESS FILES
+═══════════════════════════════════════════════════════════════════════
+
+IN FIGMA MAKE (Web Interface):
+┌────────────────────────────────────────┐
+│  📁 File Explorer (Left Sidebar)       │
+│  ├── 📄 ABSOLUTE-BEGINNERS-GUIDE.md   │← Click here!
+│  ├── 📄 WIX-HOSTING-HELP.md           │← Click here!
+│  ├── 📄 DEPLOY-COMMANDS.txt           │← Click here!
+│  ├── 📄 START-HERE.md                 │← Click here!
+│  └── ... more files                   │
+└────────────────────────────────────────┘
+
+
+ON YOUR COMPUTER (After downloading):
+┌────────────────────────────────────────┐
+│  1. Download project from Figma Make   │
+│  2. Unzip the file                     │
+│  3. Open the folder                    │
+│  4. All .md and .txt files are there   │
+└────────────────────────────────────────┘
+
+
+═══════════════════════════════════════════════════════════════════════
+                       🚀 DEPLOYMENT WORKFLOW
+═══════════════════════════════════════════════════════════════════════
+
+   START
+     │
+     ├── Download project from Figma Make
+     │
+     ├── Unzip to your computer
+     │
+     ├── Open Terminal/Command Prompt
+     │
+     ├── Navigate: cd /path/to/your/project
+     │
+     ├── Install: npm install
+     │
+     ├── Build: npm run build
+     │             │
+     │             └─→ Creates "dist" folder ⭐
+     │                 (with .html, .js, .css)
+     │
+     ├── Go to: https://app.netlify.com/drop
+     │
+     ├── Drag "dist" folder to the page
+     │
+     └── Get your live URL! ✅
+         https://your-app.netlify.app
+
+
+═══════════════════════════════════════════════════════════════════════
+                      ⚠️  ABOUT WIX HOSTING
+═══════════════════════════════════════════════════════════════════════
+
+Regular Wix DOES NOT support custom React apps like this.
+
+❌ Can't upload "dist" folder to Wix
+❌ No FTP access on Wix
+❌ Wix builder doesn't work with React
+
+✅ Solution: Use Netlify (free) or a subdomain
+   - Keep main site on Wix
+   - Portal on Netlify at: portal.yourcompany.com
+
+📖 Read: WIX-HOSTING-HELP.md for full explanation
+
+
+═══════════════════════════════════════════════════════════════════════
+                       📖 WHAT TO READ FIRST
+═══════════════════════════════════════════════════════════════════════
+
+1. 📄 ABSOLUTE-BEGINNERS-GUIDE.md    ← Complete walkthrough
+2. 📄 WIX-HOSTING-HELP.md            ← Why Wix won't work
+3. 📄 DEPLOY-COMMANDS.txt            ← Quick commands
+
+
+═══════════════════════════════════════════════════════════════════════
+                         🎯 TLDR (TOO LONG)
+═══════════════════════════════════════════════════════════════════════
+
+All the guide files are in the ROOT (main folder) of your project.
+
+Look in the left sidebar in Figma Make, or download the project
+and open the main folder on your computer.
+
+Files ending in .md or .txt are guides I wrote for you!
+
+Start with: ABSOLUTE-BEGINNERS-GUIDE.md
+
+
+═══════════════════════════════════════════════════════════════════════
