@@ -1,4 +1,4 @@
-# AGENT CONTRACT — OPPOSITION_AGENT
+# agent_OPPOSITION_AGENT
 
 **Contract Version:** v1  
 **Agent Role:** Adversarial Risk & Weakness Discovery (Defense/Adversary Emulation)  

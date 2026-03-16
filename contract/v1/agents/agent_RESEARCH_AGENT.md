@@ -1,4 +1,4 @@
-# AGENT CONTRACT — RESEARCH_AGENT
+# agent_RESEARCH_AGENT
 **Contract Version:** v1  
 **Agent Role:** Student Researcher (Discovery + Authority Capture)  
 **Layer:** Brain (Post-Spine Baseline v1.0-spine-stable)  
