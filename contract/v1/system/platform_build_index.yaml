@@ -5,10 +5,10 @@ name: platform_build_index
 platform_components:
 
   agents:
-    - contract/v1/agents/INTERVIEW_AGENT.md
-    - contract/v1/agents/MAPPING_AGENT.md
+    - contract/v1/agents/agent_INTERVIEW_AGENT.md
+    - contract/v1/agents/agent_MAPPING_AGENT.md
     - contract/v1/agents/agent_COA_REASONER.md
-    - contract/v1/agents/OPPOSITION_AGENT.md
+    - contract/v1/agents/agent_OPPOSITION_AGENT.md
 
   programs:
     - contract/v1/programs/program_COMPLAINT_PARSE.md
