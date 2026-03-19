@@ -1,0 +1,10 @@
+﻿{
+  "fixture_id": "clean_case_v1",
+  "matter_id": "MTR-0001",
+  "documents": [
+    {
+      "document_id": "DOC-0001",
+      "text": "Agreement signed on January 1. Payment was due on February 1. Payment was not made."
+    }
+  ]
+}

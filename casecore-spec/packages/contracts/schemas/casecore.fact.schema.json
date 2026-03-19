@@ -1,0 +1,28 @@
+﻿{
+  "$id": "casecore.fact.schema.json",
+  "type": "object",
+  "required": [
+    "id",
+    "matter_id",
+    "statement",
+    "source_refs",
+    "status",
+    "run_id",
+    "schema_version"
+  ],
+  "properties": {
+    "id": { "type": "string" },
+    "matter_id": { "type": "string" },
+    "statement": { "type": "string" },
+    "source_refs": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "status": {
+      "type": "string",
+      "enum": ["proposed", "canonical", "rejected"]
+    },
+    "run_id": { "type": "string" },
+    "schema_version": { "type": "string" }
+  }
+}

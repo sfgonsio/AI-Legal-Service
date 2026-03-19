@@ -1,0 +1,9 @@
+﻿events:
+  - name: casecore.workflow.started
+  - name: casecore.ingestion.completed
+  - name: casecore.facts.generated
+  - name: casecore.events.generated
+  - name: casecore.coa.mapped
+  - name: casecore.review.requested
+  - name: casecore.artifact.promoted
+  - name: casecore.artifact.rejected

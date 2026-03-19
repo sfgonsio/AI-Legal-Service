@@ -1,0 +1,18 @@
+﻿{
+  "$id": "casecore.entity.schema.json",
+  "type": "object",
+  "required": [
+    "id",
+    "matter_id",
+    "name",
+    "entity_type",
+    "schema_version"
+  ],
+  "properties": {
+    "id": { "type": "string" },
+    "matter_id": { "type": "string" },
+    "name": { "type": "string" },
+    "entity_type": { "type": "string" },
+    "schema_version": { "type": "string" }
+  }
+}

@@ -1,0 +1,32 @@
+﻿{
+  "$id": "casecore.proposal-envelope.schema.json",
+  "type": "object",
+  "required": [
+    "proposal_type",
+    "matter_id",
+    "run_id",
+    "schema_version",
+    "payload",
+    "model_metadata"
+  ],
+  "properties": {
+    "proposal_type": { "type": "string" },
+    "matter_id": { "type": "string" },
+    "run_id": { "type": "string" },
+    "schema_version": { "type": "string" },
+    "source_refs": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "payload": { "type": "object" },
+    "model_metadata": {
+      "type": "object",
+      "required": ["provider", "model", "prompt_version"],
+      "properties": {
+        "provider": { "type": "string" },
+        "model": { "type": "string" },
+        "prompt_version": { "type": "string" }
+      }
+    }
+  }
+}

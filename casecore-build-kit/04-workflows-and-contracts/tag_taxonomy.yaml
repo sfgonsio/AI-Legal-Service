@@ -1,0 +1,17 @@
+﻿tag_taxonomy:
+  issue_tags:
+    - contract
+    - payment
+    - partnership
+    - branding
+    - damages
+  evidence_tags:
+    - agreement
+    - invoice
+    - email
+    - testimony
+    - financial_record
+  status_tags:
+    - conflict
+    - missing_support
+    - restricted

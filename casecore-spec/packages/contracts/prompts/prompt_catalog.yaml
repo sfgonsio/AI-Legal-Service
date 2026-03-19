@@ -1,0 +1,10 @@
+﻿prompts:
+  - id: fact_extraction_v1
+    purpose: Extract fact proposals from source text
+    output_type: fact_candidates
+  - id: event_synthesis_v1
+    purpose: Propose event candidates from fact clusters
+    output_type: event_candidates
+  - id: narrative_support_v1
+    purpose: Generate attorney-facing narrative support proposals
+    output_type: narrative_support

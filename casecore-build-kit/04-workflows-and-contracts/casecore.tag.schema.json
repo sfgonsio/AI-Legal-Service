@@ -1,0 +1,16 @@
+﻿{
+  "$id": "casecore.tag.schema.json",
+  "type": "object",
+  "required": [
+    "id",
+    "label",
+    "taxonomy_group",
+    "schema_version"
+  ],
+  "properties": {
+    "id": { "type": "string" },
+    "label": { "type": "string" },
+    "taxonomy_group": { "type": "string" },
+    "schema_version": { "type": "string" }
+  }
+}

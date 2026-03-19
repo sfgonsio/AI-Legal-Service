@@ -1,0 +1,11 @@
+\casecore-spec\_imports\architecture_pack_v1\ARCHITECTURE_PACK_v1.zip
+\casecore-spec\_imports\architecture_pack_v1\BUILD_SPEC.md
+\casecore-spec\_imports\architecture_pack_v1\README.md
+\casecore-spec\_imports\control_pack\casecore_control_pack.zip
+\casecore-spec\_imports\control_pack\docs\frontend\DESIGN_SYSTEM_SPEC.md
+\casecore-spec\_imports\control_pack\docs\governance\GLOSSARY.md
+\casecore-spec\_imports\control_pack\README.md
+\casecore-spec\_imports\persistence_ops_pack\casecore_persistence_ops_pack.zip
+\casecore-spec\_imports\persistence_ops_pack\DATA_MODEL.md
+\casecore-spec\_imports\persistence_ops_pack\DATABASE_SCHEMA.sql
+\casecore-spec\_imports\persistence_ops_pack\SECURITY_ARCHITECTURE.md

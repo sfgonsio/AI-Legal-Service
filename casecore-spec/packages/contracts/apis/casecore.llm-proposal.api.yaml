@@ -1,0 +1,20 @@
+﻿endpoint: /api/casecore/llm/proposals
+method: POST
+
+request:
+  required:
+    - proposal_type
+    - matter_id
+    - run_id
+    - schema_version
+    - payload
+
+response:
+  required:
+    - accepted
+    - proposal_artifact_id
+
+rules:
+  - proposal must validate against casecore.proposal-envelope.schema.json
+  - proposal may not directly mutate canonical state
+  - provenance is required where applicable
