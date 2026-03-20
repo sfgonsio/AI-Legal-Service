@@ -83,6 +83,7 @@
 \casecore-spec\packages\contracts\programs\program_FACT_NORMALIZATION.md
 \casecore-spec\packages\contracts\programs\program_TAGGING.md
 \casecore-spec\packages\contracts\prompts\prompt_catalog.yaml
+\casecore-spec\packages\contracts\schemas\casecore.audit.schema.json
 \casecore-spec\packages\contracts\schemas\casecore.coa-element-coverage.schema.json
 \casecore-spec\packages\contracts\schemas\casecore.entity.schema.json
 \casecore-spec\packages\contracts\schemas\casecore.event.schema.json
@@ -95,3 +96,12 @@
 \casecore-spec\packages\test-fixtures\expected\fixture_clean_case_expected.json
 \casecore-spec\packages\test-fixtures\inputs\fixture_clean_case_input.json
 \casecore-spec\README.md
+\casecore-spec\validators\examples\coa-element-coverage.valid.json
+\casecore-spec\validators\examples\entity.valid.json
+\casecore-spec\validators\examples\event.valid.json
+\casecore-spec\validators\examples\fact.valid.json
+\casecore-spec\validators\examples\proposal-envelope.valid.json
+\casecore-spec\validators\examples\tag.valid.json
+\casecore-spec\validators\README.md
+\casecore-spec\validators\validate_json_artifact.py
+\casecore-spec\validators\validate_schema_examples.ps1

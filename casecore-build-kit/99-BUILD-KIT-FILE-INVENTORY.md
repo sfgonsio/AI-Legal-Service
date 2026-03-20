@@ -68,4 +68,13 @@
 \casecore-build-kit\09-traceability-and-review\FINAL_AUTHORITATIVE_COMPLETENESS_CHECK.md
 \casecore-build-kit\09-traceability-and-review\INTEGRATED_SYSTEM_REVIEW.md
 \casecore-build-kit\09-traceability-and-review\TRACEABILITY_MATRIX.md
+\casecore-build-kit\09-traceability-and-review\validators\examples\coa-element-coverage.valid.json
+\casecore-build-kit\09-traceability-and-review\validators\examples\entity.valid.json
+\casecore-build-kit\09-traceability-and-review\validators\examples\event.valid.json
+\casecore-build-kit\09-traceability-and-review\validators\examples\fact.valid.json
+\casecore-build-kit\09-traceability-and-review\validators\examples\proposal-envelope.valid.json
+\casecore-build-kit\09-traceability-and-review\validators\examples\tag.valid.json
+\casecore-build-kit\09-traceability-and-review\validators\README.md
+\casecore-build-kit\09-traceability-and-review\validators\validate_json_artifact.py
+\casecore-build-kit\09-traceability-and-review\validators\validate_schema_examples.ps1
 \casecore-build-kit\99-BUILD-KIT-FILE-INVENTORY.md
