@@ -13,7 +13,7 @@ def load_json(path_str: str):
     if not path.exists():
         print(f"ERROR: File not found: {path}")
         sys.exit(1)
-    with path.open("r", encoding="utf-8") as f:
+    with path.open("r", encoding="utf-8-sig") as f:
         return json.load(f)
 
 def main():
