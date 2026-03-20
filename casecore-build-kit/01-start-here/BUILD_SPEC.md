@@ -1,7 +1,4 @@
-$path = "C:\Users\sfgon\Documents\GitHub\AI Legal Service\casecore-build-kit\01-start-here\BUILD_SPEC.md"
-
-@'
-# CASECORE BUILD SPEC (Authoritative Execution Guide)
+﻿# CASECORE BUILD SPEC (Authoritative Execution Guide)
 
 ## 1. Purpose
 
@@ -56,9 +53,14 @@ CASECORE is a **deterministic, contract-driven litigation system** composed of:
 
 ## 4. Canonical Processing Flow
 
-
-
-
+1. Input
+2. Fact Normalization
+3. Tagging
+4. Event / Composite Mapping
+5. COA Mapping
+6. AI Proposal Generation (non-authoritative)
+7. Review Workflow
+8. Promotion to Canonical State
 
 ---
 
@@ -253,6 +255,3 @@ The goal is not speed.
 
 The goal is:
 **correctness, determinism, and defensibility**
-'@ | Set-Content -Path $path -Encoding UTF8
-
-Get-Content $path
