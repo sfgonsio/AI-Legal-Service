@@ -1,0 +1,7 @@
+﻿CASECORE UI scaffold placeholder.
+Next implementation:
+- app shell
+- matter dashboard
+- artifact explorer
+- review queue
+- audit view
