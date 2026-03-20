@@ -1,0 +1,14 @@
+﻿{
+  "event_id": "AUD-001",
+  "timestamp": "2026-03-19T14:01:00Z",
+  "actor_id": "USR-001",
+  "action": "promote_artifact",
+  "target_id": "FCT-RUNTIME-001",
+  "run_id": "RUN-RUNTIME-001",
+  "before_state": {
+    "status": "proposed"
+  },
+  "after_state": {
+    "status": "canonical"
+  }
+}

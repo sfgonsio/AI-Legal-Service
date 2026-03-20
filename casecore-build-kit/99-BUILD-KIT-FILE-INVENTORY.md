@@ -58,6 +58,7 @@
 \casecore-build-kit\07-security-ops-and-governance\NON_FUNCTIONAL_REQUIREMENTS.md
 \casecore-build-kit\07-security-ops-and-governance\PRIVILEGED_CONTENT_HANDLING.md
 \casecore-build-kit\07-security-ops-and-governance\RESILIENCY_AND_RECOVERY.md
+\casecore-build-kit\07-security-ops-and-governance\RUNTIME_ENFORCEMENT_POLICY.md
 \casecore-build-kit\07-security-ops-and-governance\SECURITY_ARCHITECTURE.md
 \casecore-build-kit\08-fixtures-and-acceptance\ACCEPTANCE_GATES.md
 \casecore-build-kit\08-fixtures-and-acceptance\fixture_clean_case_expected.json
@@ -84,6 +85,12 @@
 \casecore-build-kit\09-traceability-and-review\validators\pipeline\validate_pipeline_outputs.ps1
 \casecore-build-kit\09-traceability-and-review\validators\pipeline\validate_pipeline_outputs.py
 \casecore-build-kit\09-traceability-and-review\validators\README.md
+\casecore-build-kit\09-traceability-and-review\validators\runtime\README.md
+\casecore-build-kit\09-traceability-and-review\validators\runtime\sample_runtime\runtime_artifact.json
+\casecore-build-kit\09-traceability-and-review\validators\runtime\sample_runtime\runtime_audit.json
+\casecore-build-kit\09-traceability-and-review\validators\runtime\sample_runtime\runtime_transition.json
+\casecore-build-kit\09-traceability-and-review\validators\runtime\validate_runtime_output.ps1
+\casecore-build-kit\09-traceability-and-review\validators\runtime\validate_runtime_output.py
 \casecore-build-kit\09-traceability-and-review\validators\validate_json_artifact.py
 \casecore-build-kit\09-traceability-and-review\validators\validate_schema_examples.ps1
 \casecore-build-kit\99-BUILD-KIT-FILE-INVENTORY.md

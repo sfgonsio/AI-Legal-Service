@@ -1,0 +1,7 @@
+﻿{
+  "artifact_id": "FCT-RUNTIME-001",
+  "from_state": "proposed",
+  "to_state": "canonical",
+  "actor_id": "USR-001",
+  "reason": "Attorney approved promotion"
+}

@@ -48,6 +48,7 @@
 \casecore-spec\docs\governance\PROMOTION_POLICY.md
 \casecore-spec\docs\governance\RESILIENCY_AND_RECOVERY.md
 \casecore-spec\docs\governance\RESPONSIBILITY_MATRIX.md
+\casecore-spec\docs\governance\RUNTIME_ENFORCEMENT_POLICY.md
 \casecore-spec\docs\governance\SAMPLE_MATTER_FIXTURE_SPEC.md
 \casecore-spec\docs\governance\SECURITY_ARCHITECTURE.md
 \casecore-spec\docs\governance\STATE_TRANSITION_MATRIX.md
@@ -113,5 +114,11 @@
 \casecore-spec\validators\pipeline\validate_pipeline_outputs.py
 \casecore-spec\validators\README.md
 \casecore-spec\validators\run_all_validations.ps1
+\casecore-spec\validators\runtime\README.md
+\casecore-spec\validators\runtime\sample_runtime\runtime_artifact.json
+\casecore-spec\validators\runtime\sample_runtime\runtime_audit.json
+\casecore-spec\validators\runtime\sample_runtime\runtime_transition.json
+\casecore-spec\validators\runtime\validate_runtime_output.ps1
+\casecore-spec\validators\runtime\validate_runtime_output.py
 \casecore-spec\validators\validate_json_artifact.py
 \casecore-spec\validators\validate_schema_examples.ps1
