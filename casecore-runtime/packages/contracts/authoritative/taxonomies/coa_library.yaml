@@ -1,0 +1,20 @@
+﻿coa_library:
+  civil:
+    breach_of_contract:
+      elements:
+        - valid_contract
+        - plaintiff_performance_or_excuse
+        - breach
+        - damages
+    partnership_dispute:
+      elements:
+        - partnership_relationship
+        - duty_or_agreement
+        - breach_or_interference
+        - damages_or_equitable_relief
+    trademark_or_brand_dispute:
+      elements:
+        - protectable_mark_or_brand_interest
+        - ownership_or_control_interest
+        - unauthorized_use_or_interference
+        - harm

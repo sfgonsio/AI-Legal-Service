@@ -1,0 +1,5 @@
+﻿review_status:
+  - pending
+  - approved
+  - rejected
+  - overridden
