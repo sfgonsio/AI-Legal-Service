@@ -1,16 +1,32 @@
 ﻿{
   "$id": "casecore.tag.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CASECORE Tag Assignment",
   "type": "object",
+  "additionalProperties": false,
   "required": [
     "id",
+    "matter_id",
+    "artifact_type",
+    "schema_version",
     "label",
     "taxonomy_group",
-    "schema_version"
+    "target_ref",
+    "status",
+    "created_at"
   ],
   "properties": {
-    "id": { "type": "string" },
-    "label": { "type": "string" },
-    "taxonomy_group": { "type": "string" },
-    "schema_version": { "type": "string" }
+    "id": { "type": "string", "pattern": "^TAG-[A-Z0-9_-]+$" },
+    "matter_id": { "type": "string", "pattern": "^MTR-[A-Z0-9_-]+$" },
+    "artifact_type": { "const": "TAG_ASSIGNMENT" },
+    "schema_version": { "type": "string", "minLength": 1 },
+    "label": { "type": "string", "minLength": 1 },
+    "taxonomy_group": { "type": "string", "minLength": 1 },
+    "target_ref": { "type": "string", "minLength": 1 },
+    "status": {
+      "type": "string",
+      "enum": ["proposed", "canonical", "rejected"]
+    },
+    "created_at": { "type": "string", "format": "date-time" }
   }
 }

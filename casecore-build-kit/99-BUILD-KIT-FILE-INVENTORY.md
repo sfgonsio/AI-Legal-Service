@@ -20,6 +20,7 @@
 \casecore-build-kit\04-workflows-and-contracts\casecore.audit.events.yaml
 \casecore-build-kit\04-workflows-and-contracts\casecore.audit.schema.json
 \casecore-build-kit\04-workflows-and-contracts\casecore.audit-rules.yaml
+\casecore-build-kit\04-workflows-and-contracts\casecore.coa-element-coverage.schema.json
 \casecore-build-kit\04-workflows-and-contracts\casecore.entity.schema.json
 \casecore-build-kit\04-workflows-and-contracts\casecore.event.schema.json
 \casecore-build-kit\04-workflows-and-contracts\casecore.fact.schema.json
@@ -67,3 +68,4 @@
 \casecore-build-kit\09-traceability-and-review\FINAL_AUTHORITATIVE_COMPLETENESS_CHECK.md
 \casecore-build-kit\09-traceability-and-review\INTEGRATED_SYSTEM_REVIEW.md
 \casecore-build-kit\09-traceability-and-review\TRACEABILITY_MATRIX.md
+\casecore-build-kit\99-BUILD-KIT-FILE-INVENTORY.md

@@ -1,28 +1,52 @@
 ﻿{
   "$id": "casecore.event.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CASECORE Event",
   "type": "object",
+  "additionalProperties": false,
   "required": [
     "id",
     "matter_id",
+    "artifact_type",
+    "schema_version",
     "label",
     "fact_refs",
     "status",
     "run_id",
-    "schema_version"
+    "created_at"
   ],
   "properties": {
-    "id": { "type": "string" },
-    "matter_id": { "type": "string" },
-    "label": { "type": "string" },
+    "id": { "type": "string", "pattern": "^EVT-[A-Z0-9_-]+$" },
+    "matter_id": { "type": "string", "pattern": "^MTR-[A-Z0-9_-]+$" },
+    "artifact_type": { "const": "EVENT" },
+    "schema_version": { "type": "string", "minLength": 1 },
+    "label": { "type": "string", "minLength": 1 },
     "fact_refs": {
       "type": "array",
-      "items": { "type": "string" }
+      "minItems": 1,
+      "items": { "type": "string", "pattern": "^FCT-[A-Z0-9_-]+$" }
+    },
+    "entity_refs": {
+      "type": "array",
+      "items": { "type": "string", "pattern": "^ENT-[A-Z0-9_-]+$" }
+    },
+    "source_refs": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
     },
     "status": {
       "type": "string",
       "enum": ["proposed", "canonical", "rejected"]
     },
-    "run_id": { "type": "string" },
-    "schema_version": { "type": "string" }
+    "run_id": { "type": "string", "pattern": "^RUN-[A-Z0-9_-]+$" },
+    "created_at": { "type": "string", "format": "date-time" },
+    "time_bounds": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "start_at": { "type": "string", "format": "date-time" },
+        "end_at": { "type": "string", "format": "date-time" }
+      }
+    }
   }
 }

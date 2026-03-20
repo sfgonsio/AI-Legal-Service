@@ -83,6 +83,7 @@
 \casecore-spec\packages\contracts\programs\program_FACT_NORMALIZATION.md
 \casecore-spec\packages\contracts\programs\program_TAGGING.md
 \casecore-spec\packages\contracts\prompts\prompt_catalog.yaml
+\casecore-spec\packages\contracts\schemas\casecore.coa-element-coverage.schema.json
 \casecore-spec\packages\contracts\schemas\casecore.entity.schema.json
 \casecore-spec\packages\contracts\schemas\casecore.event.schema.json
 \casecore-spec\packages\contracts\schemas\casecore.fact.schema.json
