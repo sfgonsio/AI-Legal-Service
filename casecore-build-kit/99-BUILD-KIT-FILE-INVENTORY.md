@@ -74,6 +74,15 @@
 \casecore-build-kit\09-traceability-and-review\validators\examples\fact.valid.json
 \casecore-build-kit\09-traceability-and-review\validators\examples\proposal-envelope.valid.json
 \casecore-build-kit\09-traceability-and-review\validators\examples\tag.valid.json
+\casecore-build-kit\09-traceability-and-review\validators\pipeline\PIPELINE_VALIDATION_RULES.md
+\casecore-build-kit\09-traceability-and-review\validators\pipeline\README.md
+\casecore-build-kit\09-traceability-and-review\validators\pipeline\sample_outputs\coa_engine.output.json
+\casecore-build-kit\09-traceability-and-review\validators\pipeline\sample_outputs\event_mapping.output.json
+\casecore-build-kit\09-traceability-and-review\validators\pipeline\sample_outputs\fact_normalization.output.json
+\casecore-build-kit\09-traceability-and-review\validators\pipeline\sample_outputs\proposal.output.json
+\casecore-build-kit\09-traceability-and-review\validators\pipeline\sample_outputs\tagging.output.json
+\casecore-build-kit\09-traceability-and-review\validators\pipeline\validate_pipeline_outputs.ps1
+\casecore-build-kit\09-traceability-and-review\validators\pipeline\validate_pipeline_outputs.py
 \casecore-build-kit\09-traceability-and-review\validators\README.md
 \casecore-build-kit\09-traceability-and-review\validators\validate_json_artifact.py
 \casecore-build-kit\09-traceability-and-review\validators\validate_schema_examples.ps1

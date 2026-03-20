@@ -102,6 +102,15 @@
 \casecore-spec\validators\examples\fact.valid.json
 \casecore-spec\validators\examples\proposal-envelope.valid.json
 \casecore-spec\validators\examples\tag.valid.json
+\casecore-spec\validators\pipeline\PIPELINE_VALIDATION_RULES.md
+\casecore-spec\validators\pipeline\README.md
+\casecore-spec\validators\pipeline\sample_outputs\coa_engine.output.json
+\casecore-spec\validators\pipeline\sample_outputs\event_mapping.output.json
+\casecore-spec\validators\pipeline\sample_outputs\fact_normalization.output.json
+\casecore-spec\validators\pipeline\sample_outputs\proposal.output.json
+\casecore-spec\validators\pipeline\sample_outputs\tagging.output.json
+\casecore-spec\validators\pipeline\validate_pipeline_outputs.ps1
+\casecore-spec\validators\pipeline\validate_pipeline_outputs.py
 \casecore-spec\validators\README.md
 \casecore-spec\validators\validate_json_artifact.py
 \casecore-spec\validators\validate_schema_examples.ps1
