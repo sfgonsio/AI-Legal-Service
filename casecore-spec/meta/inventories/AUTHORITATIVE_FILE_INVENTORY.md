@@ -112,5 +112,6 @@
 \casecore-spec\validators\pipeline\validate_pipeline_outputs.ps1
 \casecore-spec\validators\pipeline\validate_pipeline_outputs.py
 \casecore-spec\validators\README.md
+\casecore-spec\validators\run_all_validations.ps1
 \casecore-spec\validators\validate_json_artifact.py
 \casecore-spec\validators\validate_schema_examples.ps1
