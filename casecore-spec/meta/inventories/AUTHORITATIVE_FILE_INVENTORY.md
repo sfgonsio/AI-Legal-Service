@@ -62,7 +62,9 @@
 \casecore-spec\meta\inventories\IMPORT_FILE_INVENTORY.md
 \casecore-spec\meta\inventories\IMPORT_MAP.md
 \casecore-spec\meta\inventories\RUN_NAMING_SCAN.ps1
+\casecore-spec\meta\traceability\FINAL_INTEGRATED_REVIEW_CHECKLIST.md
 \casecore-spec\meta\traceability\INTEGRATED_SYSTEM_REVIEW.md
+\casecore-spec\meta\traceability\run_integrated_consistency_audit.ps1
 \casecore-spec\meta\traceability\TRACEABILITY_STATUS.md
 \casecore-spec\packages\contracts\agents\agent_COA_REASONER.md
 \casecore-spec\packages\contracts\agents\agent_INTERVIEW_AGENT.md
