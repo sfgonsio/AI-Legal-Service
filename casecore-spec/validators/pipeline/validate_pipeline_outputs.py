@@ -23,7 +23,7 @@ PIPELINE_MAP = [
 def load_json(path: Path):
     if not path.exists():
         raise FileNotFoundError(f"Missing file: {path}")
-    with path.open("r", encoding="utf-8") as f:
+    with path.open("r", encoding="utf-8-sig") as f:
         return json.load(f)
 
 def validate_pair(instance_path: Path, schema_path: Path):
