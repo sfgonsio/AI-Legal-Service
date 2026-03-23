@@ -1,10 +1,9 @@
 ﻿# CASECORE Artifact Service
 
 Purpose:
-- artifact retrieval
-- proposal/canonical separation
-- artifact storage abstraction
+- store artifacts in real database
+- retrieve artifacts by id
+- preserve proposal/canonical separation through artifact metadata
 
 Status:
-- scaffolded
-- ready for persistence wiring
+- wired to real Supabase Postgres
