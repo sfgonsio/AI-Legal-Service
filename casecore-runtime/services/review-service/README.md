@@ -1,10 +1,11 @@
 ﻿# CASECORE Review Service
 
 Purpose:
-- review decisions
-- approval/rejection/override scaffolding
-- promotion request handling
+- create governed review/promotion requests
+- persist review requests as artifacts
+- emit audit events through audit-service
+- preserve proposal/canonical separation
 
 Status:
-- scaffolded
-- ready for runtime enforcement and audit wiring
+- wired to real Supabase Postgres
+- wired to real audit-service
