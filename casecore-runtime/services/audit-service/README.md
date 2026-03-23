@@ -1,9 +1,9 @@
 ﻿# CASECORE Audit Service
 
 Purpose:
-- append-only audit event recording
-- audit retrieval by target_id, run_id, actor_id
+- append audit records to real database
+- retrieve audit records by target_id
+- support legal-grade traceability
 
 Status:
-- scaffolded
-- ready for persistence wiring
+- wired to real Supabase Postgres
