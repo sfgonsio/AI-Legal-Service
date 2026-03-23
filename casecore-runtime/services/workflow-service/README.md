@@ -1,10 +1,9 @@
 ﻿# CASECORE Workflow Service
 
 Purpose:
-- run orchestration
-- state progression
-- stage coordination
+- create workflow runs in real database
+- retrieve runs by id
+- provide deterministic run tracking foundation
 
 Status:
-- scaffolded
-- ready for validator and persistence wiring
+- wired to real Supabase Postgres
