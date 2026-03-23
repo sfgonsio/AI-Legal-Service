@@ -1,8 +1,9 @@
 ﻿# CASECORE Persistence Service
 
 Purpose:
-- persistence abstraction
-- future DB/session/repository wiring
+- load environment-backed database configuration
+- establish real Postgres connectivity
+- provide basic health-check query support
 
 Status:
-- scaffolded
+- connected to real Supabase Postgres
