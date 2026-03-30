@@ -1,4 +1,4 @@
-version: v1
+﻿version: v1
 authority: contract_v1_ssot
 name: platform_build_index
 
@@ -11,6 +11,7 @@ platform_components:
     - contract/v1/agents/agent_OPPOSITION_AGENT.md
 
   programs:
+    - programs/authority_sync/program_CA_BPC_DIV10_CANNABIS_SYNC.py
     - contract/v1/programs/program_COMPLAINT_PARSE.md
     - contract/v1/programs/program_FACT_NORMALIZATION.md
     - contract/v1/programs/program_DISCOVERY_PACKET.md

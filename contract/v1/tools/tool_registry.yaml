@@ -182,3 +182,14 @@ tools:
     required_scope_keys: [case_id, run_id]
     prohibited_flags: [cross_case_lookup, external_export]
     write_targets: []
+  - tool_id: authority.sync.leginfo.ca_bpc_div10_cannabis
+    display_name: "Authority Sync - CA BPC Division 10 Cannabis"
+    description: "Refresh authoritative California BPC Division 10 Cannabis materials from LegInfo."
+    category: authority_sync
+    execution_mode: program
+    entrypoint: "programs/authority_sync/program_CA_BPC_DIV10_CANNABIS_SYNC.py"
+    writes_to:
+      - "authority_store/ca/bpc/division_10_cannabis/current"
+      - "authority_store/ca/bpc/division_10_cannABIS/raw"
+      - "authority_store/ca/bpc/division_10_cannabis/runs"
+      - "authority_store/ca/bpc/division_10_cannabis/state"

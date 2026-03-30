@@ -59,3 +59,10 @@ contract/v1/presentation/_figma_presentation_script_introduction.md
 contract/v1/acceptance/hash_file.ps1
 docs/figma/
 .vercel
+
+# =========================
+# Local BE Envrionment
+# =========================
+casecore-runtime/.env
+.env
+.env.**.bak.*

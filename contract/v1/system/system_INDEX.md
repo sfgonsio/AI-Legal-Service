@@ -110,3 +110,8 @@ System-level documents interact with other specification domains:
 ### Execution Programs
 
 Defined in:
+
+## Authority Sync Programs
+
+- `program_CA_BPC_DIV10_CANNABIS_SYNC.py`  
+  Refreshes California Business and Professions Code Division 10 Cannabis authority materials for governed Spine, Brain, and Program use.

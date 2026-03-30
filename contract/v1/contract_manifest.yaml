@@ -118,3 +118,7 @@ integrity:
       "./overlays/interview/employment_wrongful_term_pack_v2.yaml": "22b0d9c23b34137631030a86206decb8adead7504cae6de321c4c4706997352a"
       "./overlays/interview/attorney_smith_style_v3.yaml": "f5ff23242c045db371b17ce0c225fcfd4dcb85b46ab5fe4cf57652c3de7ed831"
       "./overlays/interview/matter_critical_gaps_pack_v1.yaml": "55fe28157e27fdf58acd1e8bee2670acf7d68fb2df0d69a5514a7cb0bf245158"
+
+authority_sync:
+  targets:
+    - "./config/authority_sync_targets.yaml"
