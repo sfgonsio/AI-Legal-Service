@@ -1,0 +1,7 @@
+﻿authority_packs:
+  - authority_id: CA_BPC_DIV10_CANNABIS
+    pack_id: ca_bpc_div10_cannabis
+    manifest_path: authority_packs/ca_bpc_div10_cannabis/authority_pack_manifest.yaml
+    type: statute
+    jurisdiction: CA
+    enabled: true

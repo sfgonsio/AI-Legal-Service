@@ -1,0 +1,29 @@
+﻿authority_id: CA_BPC_DIV10_CANNABIS
+pack_id: ca_bpc_div10_cannabis
+jurisdiction: CA
+authority_type: statute
+title: California Business and Professions Code Division 10 Cannabis
+version: 1.0
+enabled: true
+
+inputs:
+  sections_path: authority_store/ca/bpc/division_10_cannabis/current/sections
+  source_manifest_path: authority_store/ca/bpc/division_10_cannabis/current/division_manifest.json
+  source_sync_manifest_path: authority_store/ca/bpc/division_10_cannabis/current/section_sync_manifest.json
+
+outputs:
+  normalized_path: casecore-runtime/data/law_normalized/CA_BPC_DIV10_CANNABIS_LAW_NORMALIZED.json
+  impact_path: casecore-runtime/data/authority_impact/CA_BPC_DIV10_CANNABIS_AUTHORITY_IMPACT.json
+
+rules:
+  enable_subsections: true
+  enable_definitions: true
+  enable_actor_extraction: true
+  enable_burden_mapping: true
+  enable_burden_stage: true
+  preserve_history: true
+
+artifact_policy:
+  supersede_mode: forward_only
+  stale_status_on_authority_change: SUPERSEDED_BY_AUTHORITY
+  legacy_status_label: LEGACY
