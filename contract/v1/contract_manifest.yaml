@@ -1,4 +1,10 @@
-﻿contract:
+  - ./programs/program_AUTHORITY_NORMALIZATION.md
+  - ./programs/program_AUTHORITY_IMPACT_ANALYSIS.md
+  - ./programs/program_AUTHORITY_BINDING.md
+contract:
+
+  - ./programs/program_LAW_NORMALIZATION.md
+contract:
   name: "AI Legal Service Contract"
   version: "v1"
   status: "authoritative"
@@ -122,4 +128,5 @@ integrity:
 authority_sync:
   targets:
     - "./config/authority_sync_targets.yaml"
+
 
