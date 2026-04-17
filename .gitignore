@@ -82,3 +82,5 @@ authority_store/
 **/.DS_Store
 docs/case/
 docs/case/Mills_v_Polley/
+CASECORE_API_KEY.txt
+docs/design/casecore/CASECORE_API_KEY.txt
