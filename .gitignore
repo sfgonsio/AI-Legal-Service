@@ -67,3 +67,16 @@ casecore-runtime/.env
 .env
 .env.**.bak.*
 authority_store/
+
+# === Repo hygiene protections ===
+**/node_modules/
+**/.cloud_tokens.json
+**/.env
+**/.env.*
+!**/.env.template
+**/*.bak.*
+**/*.tmp
+**/*.log
+**/__pycache__/
+**/*.pyc
+**/.DS_Store
