@@ -1,0 +1,27 @@
+{
+  "code": "EVID",
+  "section": "1062",
+  "title": "Trade Secret — Exclusion of Public from Criminal Proceeding",
+  "text": "(a) Notwithstanding any other provision of law, in a criminal case, the court, upon motion of the owner of a trade secret, or upon motion by the People with the consent of the owner, may exclude the public from any portion of a criminal proceeding where the proponent of closure has demonstrated a substantial probability that the trade secret would otherwise be disclosed to the public during that proceeding and a substantial probability that the disclosure would cause serious harm to the owner of the secret, and where the court finds that there is no overriding public interest in an open proceeding. No evidence, however, shall be excluded during a criminal proceeding pursuant to this section if it would conceal a fraud, work an injustice, or deprive the People or the defendant of a fair trial.",
+  "tags": [
+    "privilege",
+    "trade_secret",
+    "public_exclusion",
+    "criminal_proceeding",
+    "fraud_exception"
+  ],
+  "structure": {
+    "division": "8",
+    "division_title": "Privileges",
+    "chapter": "4",
+    "chapter_title": "Particular Privileges",
+    "article": "11",
+    "article_title": "Trade Secret"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Amended by Stats. 1990, Ch. 714, Sec. 2."
+  }
+}

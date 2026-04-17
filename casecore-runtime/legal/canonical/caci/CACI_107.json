@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "107",
+  "title": "Witnesses",
+  "series": "100",
+  "series_title": "Pretrial",
+  "text": "A witness is a person who has knowledge related to this case. Y ou will\nhave to decide whether you believe each witness and how important each\nwitness\u2019s testimony is to the case. Y ou may believe all, part, or none of a\nwitness\u2019s testimony.\nIn deciding whether to believe a witness\u2019s testimony, you may consider,\namong other factors, the following:\n(a) How well did the witness see, hear, or otherwise sense what the\nwitness described in court?\n(b) How well did the witness remember and describe what\nhappened?\n(c) How did the witness look, act, and speak while testifying?\n(d) Did the witness have any reason to say something that was not\ntrue? For example, did the witness show any bias or prejudice or\nhave a personal relationship with any of the parties involved in\nthe case or have a personal stake in how this case is decided?\n(e) What was the witness\u2019s attitude toward this case or about giving\ntestimony?\nSometimes a witness may say something that is not consistent with\nsomething else the witness said. Sometimes different witnesses will give\ndifferent versions of what happened. People often forget things or make\nmistakes in what they remember. Also, two people may see the same\nevent but remember it differently. Y ou may consider these differences,\nbut do not decide that testimony is untrue just because it differs from\nother testimony.\nHowever, if you decide that a witness did not tell the truth about\nsomething important, you may choose not to believe anything that\nwitness said. On the other hand, if you think the witness did not tell the\ntruth about some things but told the truth about others, you may accept\nthe part you think is true and ignore the rest.\nDo not make any decision simply because there were more witnesses on\none side than on the other. If you believe it is true, the testimony of a\nsingle witness is enough to prove a fact.\nNew September 2003; Revised April 2004, June 2005, April 2007, December 2012,\nJune 2015, December 2016, May 2020",
+  "tags": [
+    "pretrial"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "This instruction may be given as an introductory instruction or as a concluding\n23\n\ninstruction after trial. (See CACI No. 5003, Witnesses.)",
+  "sources_and_authority": "\u2022 Role of Jury. Evidence Code section 312.\n\u2022 Considerations for Evaluating the Credibility of Witnesses. Evidence Code\nsection 780.\n\u2022 Direct Evidence of Single Witness Sufficient. Evidence Code section 411.\n\u2022 \u201cIt should certainly not be of importance to tell the ordinary man of the world\nthat he should distrust the statements of a witness whom he believes to be a\nliar.\u201d (Wallace v. Paci\ufb01c Electric Ry. Co. (1930) 105 Cal.App. 664, 671 [288 P .\n834].)"
+}

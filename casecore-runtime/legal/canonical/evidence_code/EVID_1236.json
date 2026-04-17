@@ -1,0 +1,28 @@
+{
+  "code": "EVID",
+  "section": "1236",
+  "title": "Prior Consistent Statement of Witness",
+  "text": "Evidence of a statement previously made by a witness is not made inadmissible by the hearsay rule if the statement is consistent with his testimony at the hearing and is offered in compliance with Section 791.",
+  "tags": [
+    "hearsay_exception",
+    "prior_consistent_statement",
+    "witness",
+    "rehabilitation",
+    "deposition_relevant",
+    "trial_relevant"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Hearsay Evidence",
+    "chapter": "2",
+    "chapter_title": "Exceptions to the Hearsay Rule",
+    "article": "3",
+    "article_title": "Prior Statements of Witnesses"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

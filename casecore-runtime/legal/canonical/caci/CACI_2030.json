@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "2030",
+  "title": "Affirmative Defense\u2014Statute of Limitations\u2014Trespass or Private Nuisance",
+  "series": "2000",
+  "series_title": "Insurance Litigation",
+  "text": "2031. Damages for Annoyance and Discomfort\u2014Trespass or Nuisance\n2032\u20132099. Reserved for Future Use\nVF-2000. Trespass\nVF-2001. Trespass\u2014Affirmative Defense\u2014Necessity\nVF-2002. Trespass\u2014Extrahazardous Activities\nVF-2003. Trespass to Timber (Civ. Code, \u00a7 3346)\nVF-2004. Trespass to Timber\u2014Willful and Malicious Conduct (Civ. Code, \u00a7 3346; Code\nCiv. Proc., \u00a7 733)\nV olume 1 Table of Contents\nxxiv\n\nVF-2005. Public Nuisance\nVF-2006. Private Nuisance\nVF-2007\u2013VF-2099. Reserved for Future Use\nSERIES 2100 CONVERSION",
+  "tags": [
+    "damages",
+    "insurance",
+    "statute_of_limitations"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

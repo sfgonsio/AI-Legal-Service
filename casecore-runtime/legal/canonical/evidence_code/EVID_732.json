@@ -1,0 +1,9 @@
+{
+  "code": "EVID",
+  "section": "732",
+  "title": "Examination of Court-Appointed Expert",
+  "text": "Any expert appointed by the court under Section 730 may be called and examined by the court or by any party to the action. When such witness is called and examined by the court, the parties have the same right as is expressed in Section 775 to cross-examine the witness and to object to the questions asked and the evidence adduced.",
+  "tags": ["expert_witness", "court_appointed", "cross_examination", "examination"],
+  "structure": {"division": "6", "division_title": "Witnesses", "chapter": "3", "chapter_title": "Expert Witnesses", "article": "2", "article_title": "Appointment of Expert Witness by Court"},
+  "source": {"type": "ca_legislature", "jurisdiction": "California", "url": "https://leginfo.legislature.ca.gov", "editorial_note": "Enacted by Stats. 1965, Ch. 299."}
+}

@@ -1,0 +1,22 @@
+{
+  "code": "BPC",
+  "section": "26035",
+  "title": "Section 26035",
+  "text": "The director shall designate the persons employed by the department for purposes of the administration and enforcement of this division. The director shall ensure that a sufficient number of employees are qualified peace officers for purposes of enforcing this division. (Amended by Stats. 2021, Ch. 70, Sec. 27. (AB 141) Effective July 12, 2021.)",
+  "tags": [
+    "enforcement",
+    "cannabis"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Cannabis",
+    "chapter": "3",
+    "chapter_title": "Enforcement"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Scraped from authority_store raw data."
+  }
+}

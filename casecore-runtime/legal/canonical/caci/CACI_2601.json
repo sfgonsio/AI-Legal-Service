@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "2601",
+  "title": "Eligibility",
+  "series": "2600",
+  "series_title": "Whistleblower Protection",
+  "text": "To show that [he/she/ nonbinary pronoun] was eligible for [family care/\nmedical] leave, [ name of plaintiff ] must prove all of the following:\n1. That [ name of plaintiff ] was an employee of [ name of defendant ];\n[2. That [ name of defendant ] directly employed \ufb01ve or more\nemployees for a wage or salary;]\n3. That at the time [ name of plaintiff ] [requested/began] leave, [he/\nshe/nonbinary pronoun ] had more than 12 months of service with\n[name of defendant ] and had worked at least 1,250 hours for [ name\nof defendant ] during the previous 12 months; and\n4. That at the time [ name of plaintiff ] [requested/began] leave [ name\nof plaintiff ] had taken no more than 12 weeks of family care or\nmedical leave in the 12-month period [ de\ufb01ne period ].\nNew September 2003; Revised June 2011, May 2021",
+  "tags": [
+    "medical"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "The CFRA applies to employers who directly employ \ufb01ve or more employees (and\nto the state and any political or civil subdivision of the state and cities of any size).\n(Gov. Code, \u00a7 12945.2(b)(4).) Include element 2 only if there is a factual dispute\nabout the number of people the defendant directly employed for a wage or salary.",
+  "sources_and_authority": "\u2022 Right to Family Care and Medical Leave. Government Code section 12945.2(a)."
+}

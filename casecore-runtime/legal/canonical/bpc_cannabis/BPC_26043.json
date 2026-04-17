@@ -1,0 +1,25 @@
+{
+  "code": "BPC",
+  "section": "26043",
+  "title": "Section 26043",
+  "text": "(a) After proceedings pursuant to Section 26031, 26031.5, or 26058 or Chapter 2 (commencing with Section 480) or Chapter 3 (commencing with Section 490) of Division 1.5, any person aggrieved by the decision of the department denying the person\u2019s application for any license, denying the person\u2019s renewal of any license, placing any license on probation, imposing any condition on any license, imposing any fine on any license or licensee, assessing any penalty on any license, or canceling, suspending, revoking, or otherwise disciplining any license as provided for under this division, may appeal the department\u2019s written decision to the panel. (b) The panel shall review the decision subject to such limitations as may be imposed by the Legislature. In such cases, the panel shall not receive evidence in addition to that considered by the department. (c) Review by the panel of a decision of the department shall be limited to the following questions: (1) Whether the department has proceeded without or in excess of its jurisdiction. (2) Whether the department has proceeded in the manner required by law. (3) Whether the decision is supported by the findings. (4) Whether the findings are supported by substantial evidence in the light of the whole record. (Amended by Stats. 2021, Ch. 70, Sec. 31. (AB 141) Effective July 12, 2021. Note: This section was added on Nov. 8, 2016, by initiative Prop. 64.)",
+  "tags": [
+    "enforcement",
+    "tracking",
+    "licensing",
+    "cannabis",
+    "local_control"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Cannabis",
+    "chapter": "4",
+    "chapter_title": "Appeals"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Scraped from authority_store raw data."
+  }
+}

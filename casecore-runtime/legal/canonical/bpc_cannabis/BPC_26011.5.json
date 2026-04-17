@@ -1,0 +1,22 @@
+{
+  "code": "BPC",
+  "section": "26011.5",
+  "title": "Section 26011.5",
+  "text": "The protection of the public shall be the highest priority for the department in exercising licensing, regulatory, and disciplinary functions under this division. Whenever the protection of the public is inconsistent with other interests sought to be promoted, the protection of the public shall be paramount. (Amended by Stats. 2021, Ch. 70, Sec. 10. (AB 141) Effective July 12, 2021.)",
+  "tags": [
+    "licensing",
+    "cannabis"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Cannabis",
+    "chapter": "2",
+    "chapter_title": "Administration"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Scraped from authority_store raw data."
+  }
+}

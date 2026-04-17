@@ -1,0 +1,16 @@
+{
+  "code": "CACI",
+  "instruction_id": "3301",
+  "title": ". . . . . . . . . . . . . . . . . . . .350, 352, 353",
+  "series": "3300",
+  "series_title": "Unknown",
+  "text": "3302 . . . . . . . . . . . . . . . . . . . . . . . . . . 355\n3306 . . . . . . . . . . . . . . . . . . . . . . . . . . 356\n3307 . . . . . . . . . . . . . . . . . . . . . . . . . . 357\n3333 . . . . . . . 1921, 1923, 1924, 3900, 3903K, 4101\nAS TABLE OF STATUTES\n[References are to the Judicial Council of California Criminal Jury Instructions (CALCRIM), e.g., 1900]\nTS-5\nThis version provided by LexisNexis\u00ae Matthew Bender\u00ae, Official Publisher, 800-533-1637,\nstore.lexisnexis.com, for public and internal court use\n\nCivil Code\u2014Cont.\nSec. Inst.\n3333.1 . . . . . . . . . . . . . . . . . . . . . . . . . 500\n3333.2. . . . . . . . . . . . . . . . . . . . . .500, 3902\n3333.2(b). . . . . . . . . . . . .3101, 3104, 3107, 3109\n3333.2(c)(2) . . . . . . . . . . . . . . . . . . . . . 3103\n3334 . . . . . . . . . . . . . . . . . . . . 3903F, 3903G\n3334(a) . . . . . . . . . . . . . . . . . . . . . . . 3903F",
+  "tags": [],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

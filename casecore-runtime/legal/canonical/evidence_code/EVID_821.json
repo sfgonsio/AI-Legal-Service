@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "821",
+  "title": "Nature of Nearby Improvements",
+  "text": "When relevant to the determination of the value of property, a witness may take into account as a basis for his opinion the nature of the improvements on properties in the general vicinity of the property or property interest being valued and the character of the existing uses being made of such properties.",
+  "tags": ["opinion", "property_valuation", "neighborhood"],
+  "structure": {
+    "division": "7",
+    "division_title": "Opinion Testimony and Scientific Evidence",
+    "chapter": "1",
+    "chapter_title": "Expert and Other Opinion Testimony",
+    "article": "2",
+    "article_title": "Evidence of Market Value of Property"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Added by Stats. 1965, Ch. 1151."
+  }
+}

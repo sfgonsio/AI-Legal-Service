@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "1419",
+  "title": "Handwriting — Proof of Business Transactions",
+  "text": "Where a writing whose genuineness is in dispute was enclosed in a letter or other communication received by the party, it may be shown that the letter or other communication was received in response to a prior letter or other communication addressed to the person whose handwriting is in question.",
+  "tags": ["authentication", "handwriting", "business", "correspondence"],
+  "structure": {
+    "division": "11",
+    "division_title": "Writings",
+    "chapter": "1",
+    "chapter_title": "Authentication and Proof of Writings",
+    "article": "2",
+    "article_title": "Means of Authenticating and Proving Writings"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "code": "EVID",
+  "section": "701",
+  "title": "Disqualification of Witness",
+  "text": "(a) A person is disqualified to be a witness if he or she is:\n(1) Incapable of expressing himself or herself concerning the matter so as to be understood, either directly or through interpretation by one who can understand him; or\n(2) Incapable of understanding the duty of a witness to tell the truth.\n(b) In any proceeding held outside the presence of a jury, the court may reserve challenges to the competency of a witness until the conclusion of the direct examination of that witness.",
+  "tags": ["competency", "witness", "disqualification", "incapacity"],
+  "structure": {"division": "6", "division_title": "Witnesses", "chapter": "1", "chapter_title": "Competency"},
+  "source": {"type": "ca_legislature", "jurisdiction": "California", "url": "https://leginfo.legislature.ca.gov", "editorial_note": "Amended by Stats. 1985, Ch. 884, Sec. 2."}
+}

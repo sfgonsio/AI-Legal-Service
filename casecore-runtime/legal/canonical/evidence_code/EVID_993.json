@@ -1,0 +1,25 @@
+{
+  "code": "EVID",
+  "section": "993",
+  "title": "Holder of Physician-Patient Privilege — Definition",
+  "text": "(a) The patient when he has no guardian or conservator.\n(b) A guardian or conservator of the patient when the patient has a guardian or conservator.\n(c) The personal representative of the patient if the patient is dead.",
+  "tags": [
+    "definition",
+    "holder",
+    "physician_patient"
+  ],
+  "structure": {
+    "division": "8",
+    "division_title": "Privileges",
+    "chapter": "4",
+    "chapter_title": "Particular Privileges",
+    "article": "6",
+    "article_title": "Physician-Patient Privilege"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

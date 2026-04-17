@@ -1,0 +1,21 @@
+{
+  "code": "CACI",
+  "instruction_id": "375",
+  "title": "Restitution From Transferee Based on Quasi-Contract or Unjust Enrichment",
+  "series": "300",
+  "series_title": "Negligence\u2014Essential Factual Elements",
+  "text": "376\u2013379. Reserved for Future Use\n380. Agreement Formalized by Electronic Means\u2014Uniform Electronic Transactions Act\n(Civ. Code, \u00a7 1633.1 et seq.)\n381\u2013399. Reserved for Future Use\nVF-300. Breach of Contract\nVF-301. Breach of Contract\u2014Affirmative Defense\u2014Unilateral Mistake of Fact\nVF-302. Breach of Contract\u2014Affirmative Defense\u2014Duress\nVF-303. Breach of Contract\u2014Contract Formation at Issue\nVF-304. Breach of Implied Covenant of Good Faith and Fair Dealing\nVF-305\u2013VF-399. Reserved for Future Use\nSERIES 400 NEGLIGENCE",
+  "tags": [
+    "breach",
+    "contract",
+    "essential_elements",
+    "negligence"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

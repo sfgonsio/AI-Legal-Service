@@ -1,0 +1,43 @@
+{
+  "section_id": "EC-623",
+  "code": "EVID",
+  "section": "623",
+  "title": "Estoppel by Statement or Conduct",
+  "text": "Whenever a party has, by his own statement or conduct, intentionally and deliberately led another to believe a particular thing true and to act upon such belief, he is not, in any litigation arising out of such statement or conduct, permitted to contradict it.",
+  "notes": "Codifies estoppel by statement or conduct where one party intentionally and deliberately induces another to believe and act on a particular state of affairs.",
+  "rule_type": "hearsay_exception",
+  "rule_type_confidence": "heuristic",
+  "applies_to": [],
+  "evidentiary_standard": null,
+  "foundation_requirements": [],
+  "cross_refs": [],
+  "coa_relevance": [],
+  "exclusion_grounds": [],
+  "tags": [
+    "conclusive_presumption",
+    "estoppel",
+    "statement",
+    "conduct",
+    "reliance"
+  ],
+  "structure": {
+    "division": "5",
+    "division_title": "Burden of Proof; Burden of Producing Evidence; Presumptions and Inferences",
+    "chapter": "3",
+    "chapter_title": "Presumptions and Inferences",
+    "article": "2",
+    "article_title": "Conclusive Presumptions"
+  },
+  "canonical_type": "source",
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "(Enacted by Stats. 1965, Ch. 299.)"
+  },
+  "effective_date": null,
+  "schema_version": "1.0",
+  "pass1_complete": true,
+  "pass2_complete": false,
+  "source_file": "EVID_623.json"
+}

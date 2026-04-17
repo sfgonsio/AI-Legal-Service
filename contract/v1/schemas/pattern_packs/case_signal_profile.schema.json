@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "case_signal_profile.schema.json",
+  "title": "Case Signal Profile",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "run_id",
+    "jurisdiction",
+    "parties",
+    "alleged_events",
+    "agreements",
+    "alleged_harms",
+    "causes_of_action",
+    "evidence_mentions",
+    "statutory_references"
+  ],
+  "properties": {
+    "run_id": { "type": "string", "minLength": 3 },
+    "jurisdiction": { "type": "string", "minLength": 2 },
+    "parties": {
+      "type": "object",
+      "required": [
+        "plaintiff_names",
+        "defendant_names",
+        "cross_complainant_names",
+        "cross_defendant_names"
+      ],
+      "properties": {
+        "plaintiff_names": { "type": "array", "items": { "type": "string" } },
+        "defendant_names": { "type": "array", "items": { "type": "string" } },
+        "cross_complainant_names": { "type": "array", "items": { "type": "string" } },
+        "cross_defendant_names": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "alleged_events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "event_id",
+          "actors",
+          "action_verb",
+          "object",
+          "source_paragraph_ref"
+        ],
+        "properties": {
+          "event_id": { "type": "string" },
+          "approximate_date": { "type": "string" },
+          "actors": { "type": "array", "items": { "type": "string" } },
+          "action_verb": { "type": "string" },
+          "object": { "type": "string" },
+          "location": { "type": "string" },
+          "source_paragraph_ref": { "type": "string" }
+        }
+      }
+    },
+    "agreements": { "type": "object" },
+    "alleged_harms": { "type": "object" },
+    "causes_of_action": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "evidence_mentions": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "statutory_references": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}

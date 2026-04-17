@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "1410",
+  "title": "Content as Authentication",
+  "text": "Nothing in this article shall be construed to limit the means by which a writing may be authenticated or proved.",
+  "tags": ["authentication", "means", "writings"],
+  "structure": {
+    "division": "11",
+    "division_title": "Writings",
+    "chapter": "1",
+    "chapter_title": "Authentication and Proof of Writings",
+    "article": "2",
+    "article_title": "Means of Authenticating and Proving Writings"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

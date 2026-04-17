@@ -1,0 +1,18 @@
+{
+  "code": "CACI",
+  "instruction_id": "1942",
+  "title": ". . . . . . . . . . . . . . . . . . . . . . . . .4326",
+  "series": "1900",
+  "series_title": "Wrongful Termination",
+  "text": "1942.3. . . . . . . . . . . . . . . . . . . . . . . . .4320\n1942.4(a) . . . . . . . . . . . . . . . . . . . . . . . 4320\n1942.5 . . . . . . . . . . . . . . . . . . . . . 4321, 4322\n1942.5(a) . . . . . . . . . . . . . . . . . . . . . . . 4321\n1942.5(d) . . . . . . . . . . . . . . . . . . . . . . . 4322\n1942.5(f). . . . . . . . . . . . . . . . . . . .4321, 4322\n1942.5(g). . . . . . . . . . . . . . . . . . . .4321, 4322\n1942.5(j) . . . . . . . . . . . . . . . . . . . . . . . 4321",
+  "tags": [
+    "wrongful_termination"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

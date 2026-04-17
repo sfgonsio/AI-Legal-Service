@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "1414",
+  "title": "Admission of Authenticity",
+  "text": "A writing may be authenticated by evidence that: (a) The party against whom it is offered has at any time admitted its authenticity; or (b) The writing has been acted upon as authentic by the party against whom it is offered.",
+  "tags": ["authentication", "admission", "party_opponent"],
+  "structure": {
+    "division": "11",
+    "division_title": "Writings",
+    "chapter": "1",
+    "chapter_title": "Authentication and Proof of Writings",
+    "article": "2",
+    "article_title": "Means of Authenticating and Proving Writings"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

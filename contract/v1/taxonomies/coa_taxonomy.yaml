@@ -1,0 +1,41 @@
+version: v1
+authority: contract_v1_ssot
+name: coa_taxonomy
+
+causes_of_action:
+
+  breach_of_contract:
+    jurisdiction: general
+    elements:
+      - element_id: contract_existence
+        description: Valid enforceable contract exists
+      - element_id: plaintiff_performance
+        description: Plaintiff performed contractual obligations or was excused
+      - element_id: defendant_breach
+        description: Defendant failed to perform contractual duty
+      - element_id: damages
+        description: Plaintiff suffered damages caused by breach
+
+  fraud:
+    jurisdiction: general
+    elements:
+      - element_id: misrepresentation
+        description: False representation of material fact
+      - element_id: knowledge_of_falsity
+        description: Defendant knew statement was false
+      - element_id: intent_to_induce
+        description: Defendant intended reliance
+      - element_id: reliance
+        description: Plaintiff reasonably relied
+      - element_id: damages
+        description: Plaintiff suffered damages
+
+  unjust_enrichment:
+    jurisdiction: general
+    elements:
+      - element_id: benefit_conferred
+        description: Plaintiff conferred benefit on defendant
+      - element_id: knowledge_of_benefit
+        description: Defendant knew of the benefit
+      - element_id: unjust_retention
+        description: Defendant retained benefit unjustly

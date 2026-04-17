@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "1706",
+  "title": "De\ufb01nition of Statement",
+  "series": "1700",
+  "series_title": "Wrongful Death",
+  "text": "The word \u201cstatement\u201d in these instructions refers to any form of\ncommunication or representation, including spoken or written words [or]\npictures [or] [ insert audible or visual representations ].\nNew September 2003",
+  "tags": [
+    "wrongful_death"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "This instruction may be necessary in every case, but could be useful in cases where\ndefamatory material is not written or verbal.",
+  "sources_and_authority": "\u2022 Libel. Civil Code section 45.\n\u2022 Slander. Civil Code section 46."
+}

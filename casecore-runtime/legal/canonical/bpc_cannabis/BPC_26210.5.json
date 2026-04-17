@@ -1,0 +1,22 @@
+{
+  "code": "BPC",
+  "section": "26210.5",
+  "title": "Section 26210.5",
+  "text": "By July 1, 2018, the Bureau of Cannabis Control, in coordination with the Department of General Services, shall establish an office to collect fees and taxes in the County of Humboldt, County of Trinity, or County of Mendocino in order to ensure the safe payment and collection of cash in those counties. (Amended by Stats. 2021, Ch. 70, Sec. 88. (AB 141) Effective July 12, 2021.)",
+  "tags": [
+    "local_control",
+    "cannabis"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Cannabis",
+    "chapter": "21",
+    "chapter_title": "Funding"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Scraped from authority_store raw data."
+  }
+}

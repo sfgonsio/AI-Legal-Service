@@ -1,0 +1,28 @@
+{
+  "code": "EVID",
+  "section": "1281",
+  "title": "Official Records — Vital Statistics",
+  "text": "Evidence of a writing made as a record of a birth, fetal death, death, or marriage is not made inadmissible by the hearsay rule if the maker was required by law to file the writing in a designated public office and the writing was made and filed as required by law.",
+  "tags": [
+    "hearsay_exception",
+    "official_records",
+    "vital_statistics",
+    "birth",
+    "death",
+    "marriage"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Hearsay Evidence",
+    "chapter": "2",
+    "chapter_title": "Exceptions to the Hearsay Rule",
+    "article": "8",
+    "article_title": "Official Records and Other Official Writings"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

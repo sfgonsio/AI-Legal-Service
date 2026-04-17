@@ -1,0 +1,18 @@
+{
+  "code": "CACI",
+  "instruction_id": "2750",
+  "title": ". . . . . . . . . . . . . . . . . . . . . . . . .2400",
+  "series": "2700",
+  "series_title": "Labor Code Actions",
+  "text": "2750.5. . . . . . . . . . . . . . . . . . . . . . . . .3704\n2775 . . . . . . . . . . . . . . . . . . . . . . 2705, 3704\n2775(b)(1) . . . . . . . . . . . . . . . . . . . . . . 2705\n2776 to 2784 . . . . . . . . . . . . . . . . . . . . . 2705",
+  "tags": [
+    "labor_code"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "1155",
+  "title": "Liability Insurance",
+  "text": "Evidence that a person was, at the time a harm was suffered by another, insured wholly or partially against loss arising from liability for that harm is inadmissible to prove negligence or other wrongdoing.",
+  "tags": ["extrinsic_policy", "insurance", "negligence"],
+  "structure": {
+    "division": "9",
+    "division_title": "Evidence Affected or Excluded by Extrinsic Policies",
+    "chapter": "3",
+    "chapter_title": "Other Evidence Affected or Excluded by Extrinsic Policies",
+    "article": "",
+    "article_title": ""
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

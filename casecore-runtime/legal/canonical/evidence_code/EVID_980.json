@@ -1,0 +1,26 @@
+{
+  "code": "EVID",
+  "section": "980",
+  "title": "Privilege for Confidential Marital Communications",
+  "text": "Subject to Section 912 and except as otherwise provided in this article, a spouse (or his or her guardian or conservator when he or she has a guardian or conservator), whether or not a party, has a privilege during the marital or domestic partnership relationship and afterwards to refuse to disclose, and to prevent another from disclosing, a communication if he or she claims the privilege and the communication was made in confidence between him or her and the other spouse while they were spouses.",
+  "tags": [
+    "privilege",
+    "marital",
+    "confidential_communication",
+    "domestic_partnership"
+  ],
+  "structure": {
+    "division": "8",
+    "division_title": "Privileges",
+    "chapter": "4",
+    "chapter_title": "Particular Privileges",
+    "article": "5",
+    "article_title": "Privilege for Confidential Marital Communications"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Amended by Stats. 2016, Ch. 50, Sec. 34. Effective January 1, 2017."
+  }
+}

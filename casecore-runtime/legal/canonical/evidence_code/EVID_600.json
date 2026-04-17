@@ -1,0 +1,15 @@
+{
+  "code": "EVID",
+  "section": "600",
+  "title": "Presumptions and Inferences Defined",
+  "text": "(a) A presumption is an assumption of fact that the law requires to be made from another fact or group of facts found or otherwise established in the action. A presumption is not evidence.\n(b) An inference is a deduction of fact that may logically and reasonably be drawn from another fact or group of facts found or otherwise established in the action.",
+  "category": "presumptions",
+  "canonical_type": "source",
+  "structure": {
+    "division": "5",
+    "chapter": "3",
+    "article": "1"
+  },
+  "tags": ["presumption", "inference", "not evidence"],
+  "notes": "Critical distinction: presumptions are legal rules, not evidence."
+}

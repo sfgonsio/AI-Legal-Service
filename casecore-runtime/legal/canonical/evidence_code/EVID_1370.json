@@ -1,0 +1,27 @@
+{
+  "code": "EVID",
+  "section": "1370",
+  "title": "Hearsay Exception — Threats of Physical Injury",
+  "text": "(a) Evidence of a statement by a declarant is not made inadmissible by the hearsay rule if all of the following conditions are met:\n\n(1) The statement purports to narrate, describe, or explain the infliction or threat of physical injury upon the declarant.\n\n(2) The declarant is unavailable as a witness pursuant to Section 240.\n\n(3) The statement was made at or near the time of the infliction or threat of physical injury. Evidence of statements made more than five years before the filing of the current action or proceeding shall be inadmissible under this section.\n\n(4) The statement was made under circumstances that would indicate its trustworthiness.\n\n(5) The statement was made in writing, was electronically recorded, or made to a physician, nurse, paramedic, or to a law enforcement official.\n\n(b) For purposes of paragraph (4) of subdivision (a), circumstances relevant to the issue of trustworthiness include, but are not limited to, the following:\n\n(1) Whether the statement was made in contemplation of pending or anticipated litigation in which the declarant was interested.\n\n(2) Whether the declarant has a bias or motive for fabricating the statement, and the extent of any bias or motive.\n\n(3) Whether the statement is corroborated by evidence other than statements that are admissible only pursuant to this section.\n\n(c) A statement is admissible pursuant to this section only if the proponent of the statement makes known to the adverse party the intention to offer the statement and the particulars of the statement sufficiently in advance of the proceedings in order to provide the adverse party with a fair opportunity to prepare to meet the statement.",
+  "tags": [
+    "hearsay",
+    "exception",
+    "physical_abuse",
+    "physical_injury",
+    "declarant_unavailable"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Hearsay Evidence",
+    "chapter": "2",
+    "chapter_title": "Hearsay Exceptions",
+    "article": "17",
+    "article_title": "Physical Abuse"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Amended by Stats. 2000, Ch. 1001, Sec. 2. Effective January 1, 2001."
+  }
+}

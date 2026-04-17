@@ -1,0 +1,27 @@
+{
+  "code": "EVID",
+  "section": "971",
+  "title": "Privilege Not to Be Called as Witness Against Spouse",
+  "text": "Except as otherwise provided by statute, a married person whose spouse is a party to a proceeding has a privilege not to be called as a witness by an adverse party to that proceeding without the prior express consent of the spouse having the privilege under this section unless the party calling the spouse does so in good faith without knowledge of the marital relationship.",
+  "tags": [
+    "privilege",
+    "marital",
+    "spouse",
+    "adverse_party",
+    "deposition_relevant"
+  ],
+  "structure": {
+    "division": "8",
+    "division_title": "Privileges",
+    "chapter": "4",
+    "chapter_title": "Particular Privileges",
+    "article": "4",
+    "article_title": "Privilege Not to Testify Against Spouse"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

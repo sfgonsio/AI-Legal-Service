@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "222",
+  "title": "Evidence of Sliding-Scale Settlement",
+  "series": "200",
+  "series_title": "Contracts",
+  "text": "Y ou have heard evidence that there was a settlement agreement between\n[name of settling defendant ] and [ name of plaintiff ].\nUnder this agreement, the amount of money that [ name of settling\ndefendant] will have to pay to [ name of plaintiff ] will depend on the\namount of money that [ name of plaintiff ] receives from [ name of\nnonsettling defendant ] at trial. The more money that [ name of plaintiff ]\nmight receive from [ name of nonsettling defendant ], the less that [ name of\nsettling defendant ] will have to pay under the agreement.\nY ou may consider evidence of the settlement only to decide whether\n[name of settling defendant/name of witness ] [, who testi\ufb01ed on behalf of\n[name of settling defendant ],] is biased or prejudiced and whether [his/her/\nnonbinary pronoun] testimony is believable.\nNew April 2007; Revised June 2016",
+  "tags": [
+    "contracts"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "Use this instruction for cases involving sliding scale or \u201cMary Carter\u201d settlement\nagreements if a party who settled appears at trial as a witness. A \u201cMary Carter\u201d\nagreement calls for the settling defendant to participate in the trial on the plaintiff\u2019s\nbehalf, and provides for a settling defendant to be credited for amounts the plaintiff\nrecovers from nonsettling defendants. It is secret and raises concerns of collusion\nand the potential for fraud. The interests of the parties are realigned in a manner not\napparent to the trier of fact. ( Diamond v. Reshko (2015) 239 Cal.App.4th 828, 843,\nfn. 7 [191 Cal.Rptr.3d 438].)\nThe court must give this instruction on the motion of any party unless it \ufb01nds that\ndisclosure will create substantial danger of undue prejudice, of confusing the issues,\nor of misleading the jury. (Code Civ. Proc., \u00a7 877.5(a)(2).)\nIf the settling defendant is an entity, insert the name of the witness who testi\ufb01ed on\nbehalf of the entity and include the bracketed language in the third paragraph.\nSee CACI No. 217, Evidence of Settlement . See also CACI No. 3926, Settlement\nDeduction.",
+  "sources_and_authority": "\u2022 Evidence of Settlement. Code of Civil Procedure section 877.5(a)(2).\n\u2022 \u201c[W]hen a defendant is a party to a sliding scale settlement, which is also called\na \u2018Mary Carter\u2019 agreement, that agreement must be disclosed to the jury if the\nsettling defendant testi\ufb01es at trial, unless the court \ufb01nds that the disclosure will\ncreate a substantial danger of undue prejudice.\u201d ( Diamond, supra , 239\nCal.App.4th at p. 843.)\n76\n\n\u2022 Evidence of a settlement agreement is admissible to show bias or prejudice of an\nadverse party. Relevant evidence includes evidence relevant to the credibility of\na witness. ( Moreno v. Sayre (1984) 162 Cal.App.3d 116, 126 [208 Cal.Rptr.\n444].)\n\u2022 Evidence of a prior settlement is not automatically admissible. \u201cEven if it\nappears that a witness could have been in\ufb02uenced in his testimony by the\npayment of money or the obtaining of a dismissal, the party resisting the\nadmission of such evidence may still appeal to the court\u2019s discretion to exclude\nit under section 352 of the code.\u201d ( Granville v. Parsons (1968) 259 Cal.App.2d\n298, 305 [66 Cal.Rptr. 149].)"
+}

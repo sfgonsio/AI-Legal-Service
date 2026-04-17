@@ -1,0 +1,16 @@
+{
+  "code": "CACI",
+  "instruction_id": "7451",
+  "title": ". . . . . . . . . . . . . . . . . . . . . . . . .2705",
+  "series": "7400",
+  "series_title": "Unknown",
+  "text": "10138 . . . . . . . . . . . . . . . . . . . . . . . . . 4104\n16720 . . . . . . . . . . . 3400, 3407, 3420, 3421, 3423\n16720(a) . . . . . . . . . . . . . 3401, 3402, 3405, 3406\n16720(c) . . . . . . . . . . . . . . . . . . . . 3403, 3404\n16725 . . . . . . . . . . . . . . . . . . . . . 3404, 3405",
+  "tags": [],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

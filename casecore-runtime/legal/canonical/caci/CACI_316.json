@@ -1,0 +1,22 @@
+{
+  "code": "CACI",
+  "instruction_id": "316",
+  "title": "Interpretation\u2014Meaning of Technical Words",
+  "series": "300",
+  "series_title": "Negligence\u2014Essential Factual Elements",
+  "text": "Y ou should assume that the parties intended technical words used in the\ncontract to have the meaning that is usually given to them by people\nwho work in that technical \ufb01eld, unless you decide that the parties\nclearly used the words in a different sense.\nNew September 2003; Revised December 2014",
+  "tags": [
+    "contract",
+    "essential_elements",
+    "negligence"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "This instruction may be given with CACI No. 314, Interpretation\u2014Disputed Words.\nSee the Directions for Use and Sources and Authority to that instruction for\ndiscussion of when contract interpretation may be a proper jury role.",
+  "sources_and_authority": "\u2022 Technical Words. Civil Code section 1645.\n\u2022 \u201cThe \u2018clear and explicit\u2019 meaning of these provisions, interpreted in their\n\u2018ordinary and popular sense,\u2019 unless \u2018used by the parties in a technical sense or a\nspecial meaning is given to them by usage\u2019 [citation], controls judicial\ninterpretation.\u201d ( Cooper Companies, Inc. v. Transcontinental Insurance Co.\n(1995) 31 Cal.App.4th 1094, 1101 [37 Cal.Rptr.2d 508].)"
+}

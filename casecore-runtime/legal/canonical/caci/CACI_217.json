@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "217",
+  "title": "Evidence of Settlement",
+  "series": "200",
+  "series_title": "Contracts",
+  "text": "Y ou have heard evidence that there was a settlement between [ insert\nnames of settling parties ]. Y ou must not consider this settlement to\ndetermine responsibility for any harm. Y ou may consider this evidence\nonly to decide whether [ insert name of witness who settled ] is biased or\nprejudiced and whether [his/her/ nonbinary pronoun] testimony is\nbelievable.\nNew September 2003",
+  "tags": [
+    "contracts"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "Evidence of prior settlement is not automatically admissible: \u201cEven if it appears that\na witness could have been in\ufb02uenced in his testimony by the payment of money or\nthe obtaining of a dismissal, the party resisting the admission of such evidence may\nstill appeal to the court\u2019s discretion to exclude it under section 352 of the code.\u201d\n(Granville v. Parsons (1968) 259 Cal.App.2d 298, 305 [66 Cal.Rptr. 149].)",
+  "sources_and_authority": "\u2022 Evidence of Settlement. Evidence Code section 1152(a).\n\u2022 \u201cWhile evidence of a settlement agreement is inadmissible to prove liability, it is\nadmissible to show bias or prejudice of an adverse party. Relevant evidence\nincludes evidence relevant to the credibility of a witness.\u201d ( Moreno v. Sayre\n(1984) 162 Cal.App.3d 116, 126 [208 Cal.Rptr. 444], internal citations omitted.)\n\u2022 \u201c[E]vidence of a plaintiff\u2019s settlement with one or more defendants is admissible\nat trial to prove witness bias and to prevent collusion.\u201d ( Diamond v. Reshko\n(2015) 239 Cal.App.4th 828, 843 [191 Cal.Rptr.3d 438].)\n\u2022 \u201c[A] term in a settlement agreement requiring the settling defendant to stay in\nthe case during trial is not per se improper, but the settling defendant\u2019s position\nshould be revealed to the court and jury to avoid committing a fraud on the\ncourt, and to permit the trier of fact to properly weigh the settling defendant\u2019s\ntestimony.\u201d (Diamond, supra , 239 Cal.App.4th at p. 844.)\n\u2022 \u201c[T]he good faith settlement determination did not limit the trial court\u2019s authority\nto admit evidence of that settlement at trial. To the contrary, . . . the decision\nwhether to admit evidence of the settlement was for the trial court to make.\u201d\n(Diamond, supra, 239 Cal.App.4th at p. 846.)\n\u2022 \u201cThe bias inherent in a settling defendant\u2019s realignment with the plaintiff\u2019s\ninterest may or may not affect the conduct of the plaintiff or settling defendant at\ntrial, but that is a question for the jury to decide.\u201d ( Diamond, supra , 239\nCal.App.4th at p. 848.)\n67"
+}

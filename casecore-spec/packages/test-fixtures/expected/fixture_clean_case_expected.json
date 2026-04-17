@@ -1,0 +1,9 @@
+﻿{
+  "fixture_id": "clean_case_v1",
+  "expected": {
+    "minimum_fact_candidates": 2,
+    "minimum_event_candidates": 1,
+    "requires_audit_entries": true,
+    "requires_provenance_on_proposals": true
+  }
+}

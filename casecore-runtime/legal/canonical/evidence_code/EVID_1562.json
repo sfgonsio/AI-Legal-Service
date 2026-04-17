@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "1562",
+  "title": "Service of More Than One Subpoena",
+  "text": "If more than one subpoena duces tecum is served upon the custodian of records or other qualified witness of a business and the party on whose behalf the subpoena is served and the custodian of records or other qualified witness agree, one copy of the records shall satisfy any number of the subpoenas if the records are available for use by any party.",
+  "tags": ["subpoena", "multiple", "business_records", "custodian"],
+  "structure": {
+    "division": "11",
+    "division_title": "Writings",
+    "chapter": "2",
+    "chapter_title": "Secondary Evidence of Writings",
+    "article": "4",
+    "article_title": "Production of Business Records"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

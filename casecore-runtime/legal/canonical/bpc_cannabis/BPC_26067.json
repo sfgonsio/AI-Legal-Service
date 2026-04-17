@@ -1,0 +1,25 @@
+{
+  "code": "BPC",
+  "section": "26067",
+  "title": "Section 26067",
+  "text": "(a) The department shall establish a track and trace program for reporting the movement of cannabis, industrial hemp, and cannabis products throughout the distribution chain that utilizes a unique identifier and is capable of providing information that captures, at a minimum, all of the following: (1) The licensee or industrial hemp cultivator from which the cannabis, industrial hemp, or cannabis product originates and the licensee receiving the cannabis, industrial hemp, or cannabis product. (2) The transaction date. (3) The unique identifier or identifiers for the cannabis, industrial hemp, or cannabis product. (4) The date of retail sale to a customer and whether the sale is conducted on the retail premises or by delivery. (5) Information relating to cannabis, industrial hemp, or cannabis products leaving the licensed premises in a delivery vehicle as determined by regulations adopted pursuant to subdivision (d) of Section",
+  "tags": [
+    "distribution",
+    "tracking",
+    "licensing",
+    "cannabis",
+    "cultivation"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Cannabis",
+    "chapter": "6.5",
+    "chapter_title": "Unique Identifiers and Track and Trace"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Scraped from authority_store raw data."
+  }
+}

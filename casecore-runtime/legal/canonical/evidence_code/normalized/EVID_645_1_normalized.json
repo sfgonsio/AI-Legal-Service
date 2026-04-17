@@ -1,0 +1,37 @@
+{
+  "section_id": "EC-6451",
+  "code": "EVID",
+  "section": "645_1",
+  "title": "",
+  "text": "",
+  "notes": "Newspaper authenticity presumption.",
+  "rule_type": "general",
+  "rule_type_confidence": "heuristic",
+  "applies_to": [],
+  "evidentiary_standard": null,
+  "foundation_requirements": [],
+  "cross_refs": [],
+  "coa_relevance": [],
+  "exclusion_grounds": [],
+  "tags": [],
+  "structure": {
+    "division": "unknown",
+    "division_title": "Unknown Division",
+    "chapter": null,
+    "chapter_title": null,
+    "article": null,
+    "article_title": null
+  },
+  "canonical_type": "source",
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": null
+  },
+  "effective_date": null,
+  "schema_version": "1.0",
+  "pass1_complete": true,
+  "pass2_complete": false,
+  "source_file": "EVID_645_1.json"
+}

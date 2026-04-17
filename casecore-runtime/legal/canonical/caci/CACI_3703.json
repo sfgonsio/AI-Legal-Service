@@ -1,0 +1,21 @@
+{
+  "code": "CACI",
+  "instruction_id": "3703",
+  "title": "Legal Relationship Not Disputed",
+  "series": "3700",
+  "series_title": "Damages",
+  "text": "In this case [ name of agent ] was the [employee/agent/[ insert other\nrelationship, e.g., \u201cpartner\u201d ]] of [ name of defendant ].\nIf you \ufb01nd that [ name of agent ] was acting within the scope of [his/her/\nnonbinary pronoun] [employment/agency/[ insert other relationship ]] when\nthe incident occurred, then [ name of defendant ] is responsible for any\nharm caused by [ name of agent ]\u2019s [ insert applicable tort theory, e.g.,\n\u201cnegligence\u201d].\nNew September 2003",
+  "tags": [
+    "damages",
+    "negligence"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "The term \u201cname of agent,\u201d in brackets, is intended in the general sense, to denote\nthe person or entity whose wrongful conduct is alleged to have created the\nprincipal\u2019s liability.\nUnder other principles of law, a principal may be directly liable for authorizing or\ndirecting an agent\u2019s wrongful acts. (See 3 Witkin, Summary of Cal. Law (11th ed.\n2017) Agency and Employment, \u00a7 173.)\nThis instruction may not apply where employer liability is statutory, such as under\nthe Fair Employment and Housing Act.",
+  "sources_and_authority": "\u2022 Ordinarily, the question of agency is one of fact; however, where the evidence is\nundisputed the issue becomes one of law. ( Mantonya v. Bratlie (1948) 33 Cal.2d\n120, 128\u2013129 [199 P .2d 677].)\n\u2022 This instruction may be appropriate in cases where vicarious liability is asserted\nin the context of employment, since agency and employment are often viewed as\nsynonymous. Witkin observes: \u201cThere is seldom any reason to distinguish\nbetween the service of an agent and that of an employee . . . . [However, t]he\ntwo relationships are not considered identical. It is said that an employee works\nfor the employer, while an agent also acts for and in the place of the principal\nfor the purpose of bringing the principal into legal relations with third persons.\u201d\n(3 Witkin, Summary of Cal. Law (11th ed. 2017), Agency and Employment,\n\u00a7 4.)\n\u2022 \u201cIt is settled that for purposes of liability to third parties for torts, a real estate\nsalesperson is the agent of the broker who employs him or her. The broker is\nliable as a matter of law for all damages caused to third persons by the tortious\nacts of the salesperson committed within the course and scope of employment.\u201d\n(California Real Estate Loans, Inc. v. Wallace (1993) 18 Cal.App.4th 1575, 1581\n[23 Cal.Rptr.2d 462], internal citations omitted.)\n733"
+}

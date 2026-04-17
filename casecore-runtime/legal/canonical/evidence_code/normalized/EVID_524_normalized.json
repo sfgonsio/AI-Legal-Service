@@ -1,0 +1,44 @@
+{
+  "section_id": "EC-524",
+  "code": "EVID",
+  "section": "524",
+  "title": "Burden of Proof for State Board of Equalization Penalty Assertions",
+  "text": "(a) Notwithstanding any other provision of law, in a civil proceeding to which the State Board of Equalization is a party, that board shall have the burden of proof by clear and convincing evidence in sustaining its assertion of a penalty for intent to evade or fraud against a taxpayer, with respect to any factual issue relevant to ascertaining the liability of a taxpayer.\n(b) Nothing in this section shall be construed to override any requirement for a taxpayer to substantiate any item on a return or claim filed with the State Board of Equalization.\n(c) Nothing in this section shall subject a taxpayer to unreasonable search or access to records in violation of the United States Constitution, the California Constitution, or any other law.\n(d) For purposes of this section, “taxpayer” includes a person on whom fees administered by the State Board of Equalization are imposed.",
+  "notes": "Special burden allocation and heightened proof standard for certain State Board of Equalization civil penalty assertions.",
+  "rule_type": "burden",
+  "rule_type_confidence": "heuristic",
+  "applies_to": [],
+  "evidentiary_standard": null,
+  "foundation_requirements": [],
+  "cross_refs": [],
+  "coa_relevance": [],
+  "exclusion_grounds": [],
+  "tags": [
+    "burden_of_proof",
+    "state_board_of_equalization",
+    "taxpayer",
+    "fraud",
+    "clear_and_convincing_evidence",
+    "specific_issues"
+  ],
+  "structure": {
+    "division": "5",
+    "division_title": "Burden of Proof; Burden of Producing Evidence; Presumptions and Inferences",
+    "chapter": "1",
+    "chapter_title": "Burden of Proof",
+    "article": "2",
+    "article_title": "Burden of Proof on Specific Issues"
+  },
+  "canonical_type": "source",
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "(Added by Stats. 2010, Ch. 168, Sec. 1. (AB 2195) Effective January 1, 2011.)"
+  },
+  "effective_date": null,
+  "schema_version": "1.0",
+  "pass1_complete": true,
+  "pass2_complete": false,
+  "source_file": "EVID_524.json"
+}

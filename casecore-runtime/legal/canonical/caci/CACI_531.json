@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "531",
+  "title": "Consent on Behalf of Another",
+  "series": "500",
+  "series_title": "Medical Negligence",
+  "text": "In this case [ name of patient ] could not consent to the [ insert medical\nprocedure] because [he/she/ nonbinary pronoun] was [ insert reason\u2014e.g., a\nminor/incompetent/unconscious]. In this situation, the law allows [ name of\nauthorized person ] to give consent on behalf of [ name of patient ].\nY ou must decide whether [ name of authorized person ] consented to the\n[insert medical procedure ] performed on [ name of patient ].\nNew September 2003",
+  "tags": [
+    "medical",
+    "medical_negligence"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "sources_and_authority": "\u2022 Parent Delegation of Right to Authorize Medical Care. Family Code section\n6910.\n\u2022 \u201cIf the patient is a minor or incompetent, the authority to consent is transferred\nto the patient\u2019s legal guardian or closest available relative.\u201d ( Cobbs v. Grant\n(1972) 8 Cal.3d 229, 244 [104 Cal.Rptr. 505, 502 P .2d 1]; Farber v. Olkon\n(1953) 40 Cal.2d 503, 509 [254 P .2d 520].)"
+}

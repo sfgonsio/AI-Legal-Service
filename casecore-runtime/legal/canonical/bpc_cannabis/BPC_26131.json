@@ -1,0 +1,25 @@
+{
+  "code": "BPC",
+  "section": "26131",
+  "title": "Section 26131",
+  "text": "Standards for the production, packaging, and labeling of all cannabis products developed by the department apply to all licensed manufacturers and microbusinesses, and nonprofits licensed under Section 26070.5, unless otherwise specified by the department. (Added by renumbering Section 26106 by Stats. 2021, Ch. 70, Sec. 64. (AB 141) Effective July 12, 2021. Note: This section was added on Nov. 8, 2016, by initiative Prop. 64.)",
+  "tags": [
+    "packaging",
+    "manufacturing",
+    "licensing",
+    "cannabis",
+    "testing"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Cannabis",
+    "chapter": "13",
+    "chapter_title": "Manufacturers and Cannabis Products"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Scraped from authority_store raw data."
+  }
+}

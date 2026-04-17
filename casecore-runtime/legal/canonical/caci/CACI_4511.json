@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "4511",
+  "title": "Affirmative Defense\u2014Contractor Followed Plans and",
+  "series": "4500",
+  "series_title": "Workers Compensation",
+  "text": "Speci\ufb01cations\n[Name of plaintiff ] claims that [ name of defendant ] failed to [perform the\nwork for the [project /describe construction project, e.g., kitchen remodeling ]\ncompetently/ [or] use the proper materials for the [project / e.g., kitchen\nremodeling]]. [ Name of defendant ] claims that [he/she/ nonbinary pronoun/it]\nfollowed the plans and speci\ufb01cations and that [ specify alleged defect in the\nwork or materials ] was because of the plans and speci\ufb01cations that [ name\nof plaintiff ] provided to [ name of defendant ] for the project.\nTo succeed on this defense, [ name of defendant ] must prove all the\nfollowing:\n1. That [ name of plaintiff ] provided [ name of defendant ] with the\nplans and speci\ufb01cations for the project;\n2. That [ name of plaintiff ] required [ name of defendant ] to follow the\nplans and speci\ufb01cations in constructing the project;\n3. That [ name of defendant ] substantially complied with the plans\nand speci\ufb01cations that [ name of plaintiff ] provided for the project;\nand\n4. That [ specify alleged defect in the work and/or de\ufb01ciency in\nperformance] was because of [ name of defendant ]\u2019s use of the plans\nand speci\ufb01cations.\nNew December 2010",
+  "tags": [
+    "contract"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "This instruction is a contractor\u2019s affirmative defense to the owner\u2019s claims that there\nis a defect in the work or de\ufb01ciency in the contractor\u2019s performance. (See CACI No.\n4510, Breach of Implied Covenant to Perform Work in a Good and Competent\nManner\u2014Essential Factual Elements .) The contractor asserts that any alleged defect\nor de\ufb01cient performance was caused by following the plans and speci\ufb01cations that\nwere provided by the owner because the plans and speci\ufb01cations were inaccurate or\nincomplete. This instruction may be modi\ufb01ed for use in the contractor\u2019s action for\ncompensation from the owner if the owner alleges poor quality work as a defense to\npayment.",
+  "sources_and_authority": "\u2022 \u201c[T]he authorities hold that where the plans and speci\ufb01cations were prepared by\nthe owner\u2019s architect and not by the subcontractor, and since the subcontractor\nundertook to do the work in accordance with the speci\ufb01c proposal, it cannot\nreasonably be concluded that the subcontractor assumed responsibility for the\n1293\n\nadequacy of the plans and speci\ufb01cations to meet the purpose of the owner, and\nwhere the contractor faithfully performs the work as speci\ufb01ed, there cannot be\nan implied warranty that the contractor will supplement the inadequacy of the\nplans.\u201d ( Sunbeam Construction Co. v. Fisci (1969) 2 Cal.App.3d 181, 184\u2013185\n[82 Cal.Rptr. 446].)\n\u2022 \u201cThere is no basis for an implied warranty of \ufb01tness of the installation since the\nwork was done in accordance with the plans and speci\ufb01cations supplied by the\nowner. . . . \u2018In other words, as to the refrigerating plant, defendants got\nprecisely what they contracted for, and there was no implied warranty that the\nmachine would answer the particular purpose for which the buyers intended to\nuse it.\u2019 \u201d ( Corporation of Presiding Bishop of Church of Jesus Christ of Latter-\nDay Saints v. Cavanaugh (1963) 217 Cal.App.2d 492, 508\u2013509 [32 Cal.Rptr.\n144].)\n\u2022 \u201c[T]he contractor\u2019s responsibility for any completed portion of the work, so done\nunder the direction and to the satisfaction of the engineers, relieves him from\nresponsibility for such an accident as that which befell. . . .\u201d ( McConnell v.\nCorona City Water Co. (1906) 149 Cal. 60, 63 [85 P . 929].)"
+}

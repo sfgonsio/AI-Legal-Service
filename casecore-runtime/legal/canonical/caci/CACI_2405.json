@@ -1,0 +1,21 @@
+{
+  "code": "CACI",
+  "instruction_id": "2405",
+  "title": "Breach of Implied Employment Contract\u2014Unspeci\ufb01ed Term\u2014\u201cGood Cause\u201d",
+  "series": "2400",
+  "series_title": "Elder Abuse",
+  "text": "De\ufb01ned\u2014Misconduct\n2406. Breach of Employment Contract\u2014Unspeci\ufb01ed Term\u2014Damages\n2407\u20132419. Reserved for Future Use\n2420. Breach of Employment Contract\u2014Speci\ufb01ed Term\u2014Essential Factual Elements",
+  "tags": [
+    "breach",
+    "contract",
+    "damages",
+    "elder_abuse"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "406",
+  "title": "Weight and Credibility Evidence Not Limited",
+  "text": "This article does not limit the right of a party to introduce before the trier of fact evidence relevant to weight or credibility.",
+  "tags": ["preliminary_fact", "weight", "credibility"],
+  "structure": {
+    "division": "3",
+    "division_title": "General Provisions",
+    "chapter": "4",
+    "chapter_title": "Admitting and Excluding Evidence",
+    "article": "2",
+    "article_title": "Preliminary Determinations on Admissibility of Evidence"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

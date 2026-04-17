@@ -1,0 +1,22 @@
+{
+  "code": "BPC",
+  "section": "26250",
+  "title": "Section 26250",
+  "text": "The provisions of this chapter are severable. If any provision of this chapter or its application is held invalid, that invalidity shall not affect other provisions or applications that can be given effect without the invalid provision or application. (Added by Stats. 2018, Ch. 794, Sec. 3. (SB 1294) Effective January 1, 2019.) BPC Business and Professions Code - BPC",
+  "tags": [
+    "licensing",
+    "cannabis"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Cannabis",
+    "chapter": "23",
+    "chapter_title": "The California Cannabis Equity Act"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Scraped from authority_store raw data."
+  }
+}

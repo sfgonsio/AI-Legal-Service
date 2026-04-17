@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "803",
+  "title": "Exclusion of Opinion on Improper Basis",
+  "text": "The court may, and upon objection shall, exclude testimony in the form of an opinion that is based in whole or in significant part on matter that is not a proper basis for such an opinion. In such case, the witness may, if there remains a proper basis for his opinion, then state his opinion after excluding from consideration the matter determined to be improper.",
+  "tags": ["opinion", "exclusion", "improper_basis"],
+  "structure": {
+    "division": "7",
+    "division_title": "Opinion Testimony and Scientific Evidence",
+    "chapter": "1",
+    "chapter_title": "Expert and Other Opinion Testimony",
+    "article": "1",
+    "article_title": "Expert and Other Opinion Testimony Generally"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

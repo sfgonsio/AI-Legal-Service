@@ -1,0 +1,93 @@
+schema_name: artifact_registry_schema
+version: v1
+status: active
+
+description: >
+  Defines the registry structure for governed artifacts produced by the AI Legal Service platform.
+  This schema supports artifact lifecycle tracking, lineage, triggers, and regeneration governance.
+
+tables:
+
+  artifact_types:
+    description: Catalog of governed artifact definitions
+    fields:
+      artifact_type_id: string
+      artifact_name: string
+      artifact_class: enum
+      pipeline_lane: enum
+      producer_type: enum
+      lifecycle_policy: string
+      regeneration_policy: string
+      lineage_required: boolean
+
+    enums:
+      artifact_class:
+        - governed_core
+        - derived_flexible
+        - external_work_product
+
+      pipeline_lane:
+        - canonical
+        - proposal
+        - assembly
+
+      producer_type:
+        - deterministic_program
+        - ai_agent
+        - hybrid_workflow
+        - human_external
+
+  artifact_instances:
+    description: Individual generated artifacts within a case
+    fields:
+      artifact_instance_id: string
+      artifact_type_id: string
+      case_id: string
+      run_id: string
+      generator: string
+      generation_timestamp: datetime
+      status: enum
+      attorney_edited: boolean
+      supersedes_artifact_id: string
+      stale_flag: boolean
+      stale_reason: string
+
+    enums:
+      status:
+        - generated
+        - reviewed
+        - attorney_edited
+        - approved
+        - approved_for_release
+        - released
+        - stale
+        - superseded
+
+  artifact_lineage:
+    description: Links artifacts to canonical inputs
+    fields:
+      lineage_id: string
+      artifact_instance_id: string
+      canonical_source_type: string
+      canonical_source_id: string
+      input_hash: string
+
+  artifact_status_history:
+    description: Immutable status transitions
+    fields:
+      history_id: string
+      artifact_instance_id: string
+      previous_status: string
+      new_status: string
+      change_timestamp: datetime
+      changed_by: string
+
+  artifact_triggers:
+    description: Conditions that generate artifacts
+    fields:
+      trigger_id: string
+      trigger_name: string
+      trigger_event: string
+      artifact_type_id: string
+      trigger_condition: string
+      trigger_source_program: string

@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "2812",
+  "title": "Injury Caused by Co-Employee\u2019s Intoxication\u2014Essential",
+  "series": "2800",
+  "series_title": "Unfair Business Practices",
+  "text": "Factual Elements (Lab. Code, \u00a7 3601(a)(2))\n[Name of plaintiff ] claims that [he/she/ nonbinary pronoun] was harmed\nbecause [ name of defendant ] was intoxicated. To establish this claim,\n[name of plaintiff ] must prove all of the following:\n1. That [ name of defendant ] [ insert description of injury-producing\nconduct];\n2. That [ name of defendant ] was intoxicated;\n3. That [ name of plaintiff ] was harmed; and\n4. That [ name of defendant ]\u2019s intoxication was a substantial factor in\ncausing [ name of plaintiff ]\u2019s harm.\nNew September 2003",
+  "tags": [
+    "unfair_business"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "This instruction is intended for use in cases where a co-employee is the defendant\nand the plaintiff alleges that the case falls outside of the workers\u2019 compensation\nexclusivity rule.",
+  "sources_and_authority": "\u2022 Exclusive Remedy: Exception for Act of Intoxicated Coemployee. Labor Code\nsection 3601(a)(2).\n\u2022 \u201cAs relevant here, a civil suit is permissible when an employee proximately\ncauses another employee\u2019s injury or death by a \u2018willful and unprovoked physical\nact of aggression\u2019 or by intoxication. If an employee brings a lawsuit against a\ncoemployee based on either of these exceptions, the employer is not \u2018held liable,\ndirectly or indirectly, for damages awarded against, or for a liability incurred by\nthe other employee . . . .\u2019 This provision is consistent with the view that a\ncoemployee is immune from suit to the extent necessary to prevent an end-run\nagainst the employer under the exclusivity rule. \u2018It is self-evident that Labor\nCode section 3601 did not establish or create a new right or cause of action in\nthe employee but severely limited a preexisting right to freely sue a fellow\nemployee for damages.\u2019 \u201d ( Torres v. Parkhouse Tire Service, Inc. (2001) 26\nCal.4th 995, 1002 [111 Cal.Rptr.2d 564, 30 P .3d 57], internal citations and\nfootnotes omitted.)"
+}

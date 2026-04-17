@@ -1,0 +1,15 @@
+{
+  "code": "EVID",
+  "section": "602",
+  "title": "Prima Facie Evidence",
+  "text": "A statute providing that a fact is prima facie evidence of another fact establishes a rebuttable presumption.",
+  "category": "presumptions",
+  "canonical_type": "source",
+  "structure": {
+    "division": "5",
+    "chapter": "3",
+    "article": "1"
+  },
+  "tags": ["prima facie", "rebuttable"],
+  "notes": "Defines statutory prima facie evidence as a rebuttable presumption."
+}

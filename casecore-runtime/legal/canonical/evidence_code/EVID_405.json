@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "405",
+  "title": "Determination of Other Preliminary Facts",
+  "text": "With respect to preliminary fact determinations not governed by Section 403 or 404:\n\n(a) When the existence of a preliminary fact is disputed, the court shall indicate which party has the burden of producing evidence and the burden of proof on the issue as implied by the rule of law under which the question arises. The court shall determine the existence or nonexistence of the preliminary fact and shall admit or exclude the proffered evidence as required by the rule of law under which the question arises.\n\n(b) If a preliminary fact is also a fact in issue in the action:\n\n(1) The jury shall not be informed of the court's determination as to the existence or nonexistence of the preliminary fact.\n\n(2) If the proffered evidence is admitted, the jury shall not be instructed to disregard the evidence if its determination of the fact differs from the court's determination of the preliminary fact.",
+  "tags": ["preliminary_fact", "burden_of_proof", "fact_in_issue"],
+  "structure": {
+    "division": "3",
+    "division_title": "General Provisions",
+    "chapter": "4",
+    "chapter_title": "Admitting and Excluding Evidence",
+    "article": "2",
+    "article_title": "Preliminary Determinations on Admissibility of Evidence"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

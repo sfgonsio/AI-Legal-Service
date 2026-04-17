@@ -1,0 +1,24 @@
+{
+  "code": "EVID",
+  "section": "903",
+  "title": "Criminal Proceeding — Definition",
+  "text": "\"Criminal proceeding\" means:\n(a) A criminal action; and\n(b) A proceeding pursuant to Article 3 (commencing with Section 3060) of Chapter 7 of Division 4 of Title 1 of the Government Code to determine whether a public officer should be removed from office for willful or corrupt misconduct in office.",
+  "tags": [
+    "definition",
+    "criminal_proceeding"
+  ],
+  "structure": {
+    "division": "8",
+    "division_title": "Privileges",
+    "chapter": "1",
+    "chapter_title": "Definitions",
+    "article": null,
+    "article_title": null
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

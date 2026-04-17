@@ -1,0 +1,19 @@
+{
+  "code": "CACI",
+  "instruction_id": "114",
+  "title": "Bench Conferences and Conferences in Chambers",
+  "series": "100",
+  "series_title": "Pretrial",
+  "text": "From time to time during the trial, it may become necessary for me to\ntalk with the attorneys out of the hearing of the jury, either by having a\nconference at the bench when the jury is present in the courtroom, or by\ncalling a recess to discuss matters outside of your presence. The purpose\nof these conferences is not to keep relevant information from you, but to\ndecide how certain evidence is to be treated under the rules of evidence.\nDo not be concerned about our discussions or try to guess what is being\nsaid.\nI may not always grant an attorney\u2019s request for a conference. Do not\nconsider my granting or denying a request for a conference as any\nindication of my opinion of the case or of my view of the evidence.\nNew December 2010",
+  "tags": [
+    "pretrial"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "This instruction is based on Model Instruction 1.17 of the federal Ninth Circuit\nCourt of Appeals. It may be used to explain to the jury why there may be\ndiscussions at the bench that the jury will not be able to hear, and why sometimes\nthe judge will call a recess for discussions outside of the presence of the jury."
+}

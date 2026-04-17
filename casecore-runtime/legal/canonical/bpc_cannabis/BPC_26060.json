@@ -1,0 +1,25 @@
+{
+  "code": "BPC",
+  "section": "26060",
+  "title": "Section 26060",
+  "text": "(a) (1) For the purposes of this division, cannabis is an agricultural product. (2) In issuing cannabis cultivation licenses, the department shall consider issues, including, but not limited to, water use and environmental impacts. If the State Water Resources Control Board or the Department of Fish and Wildlife finds, based on substantial evidence, that cannabis cultivation is causing significant adverse impacts on the environment in a watershed or other geographic area, the department shall not issue new cultivation licenses or authorize increased production within that watershed or area. (b) The regulations related to cannabis cultivation shall do all of the following: (1) Provide that weighing or measuring devices used in connection with the sale or distribution of cannabis are required to meet standards equivalent to Division 5 (commencing with Section 12001). (2) Require that cannabis cultivation by licensees is conducted in accordance with state and local laws. (3) Prescribe standards for the reporting of information as necessary related to unique identifiers pursuant to Chapter 6.5 (commencing with Section 26067). (c) The Department of Pesticide Regulation shall develop guidelines for the use of pesticides in the cultivation of cannabis and residue in harvested cannabis. (d) A cannabis cultivator shall not use any pesticide that has been banned for use in the state. An industrial hemp cultivator shall not transfer or sell industrial hemp to a licensee if a banned pesticide was used in its cultivation. (e) The regulations adopted by the department under this division shall implement the requirements of subdivision (b) of Section",
+  "tags": [
+    "distribution",
+    "licensing",
+    "cannabis",
+    "local_control",
+    "cultivation"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Cannabis",
+    "chapter": "6",
+    "chapter_title": "Licensed Cultivation Sites"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Scraped from authority_store raw data."
+  }
+}

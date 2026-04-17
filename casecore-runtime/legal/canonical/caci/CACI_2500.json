@@ -1,0 +1,19 @@
+{
+  "code": "CACI",
+  "instruction_id": "2500",
+  "title": "Disparate Treatment\u2014Essential Factual Elements (Gov. Code, \u00a7 12940(a))",
+  "series": "2500",
+  "series_title": "Fair Employment and Housing Act (FEHA)",
+  "text": "2501. Affirmative Defense\u2014Bona \ufb01de Occupational Quali\ufb01cation\n2502. Disparate Impact\u2014Essential Factual Elements (Gov. Code, \u00a7 12940(a))\n2503. Affirmative Defense\u2014Business Necessity/Job Relatedness\n2504. Disparate Impact\u2014Rebuttal to Business Necessity/Job Relatedness Defense",
+  "tags": [
+    "discrimination",
+    "feha"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

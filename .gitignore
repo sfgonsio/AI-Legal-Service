@@ -1,41 +1,86 @@
+# =========================
 # Python
+# =========================
 __pycache__/
 *.pyc
+.pytest_cache/
 .venv/
 venv/
 .env
 
-# Word temp files
-~$*.docx
-
-# Outputs that can be regenerated (optional)
-reports/*.json
-reports/*.txt
-
-# Node
+# =========================
+# Node / frontend
+# =========================
 node_modules/
 
-# VitePress build artifacts
+# =========================
+# Word / Office temp files
+# =========================
+~$*.docx
+
+# =========================
+# Generated reports / outputs
+# =========================
+reports/*.json
+reports/*.txt
+contract/v1/harness/outputs/*.json
+contract/v1/golden/out/
+contract/v1/runner/outputs/
+
+# =========================
+# Documentation build artifacts
+# =========================
 docs/.vitepress/cache/
 docs/.vitepress/dist/
 
+# =========================
 # OS junk
+# =========================
 .DS_Store
 
-# Local notes
+# =========================
+# Local notes / scratch files
+# =========================
 commit command.txt
 contract/v1/schemas/commit command.txt
-contract/v1/harness/outputs/*.json
-contract/v1/golden/out/
+contract/v1/tools/inventory_tree.txt
+
+# =========================
+# Archived / local-only contract artifacts
+# =========================
 contract/v1/golden/_legacy_archive/
 contract/v1/agents/_template_agent_contract.md
 contract/v1/agents/AI Legal Service.docx
-contract/v1/agents/_template_agent_contract.md
-contract/v1/agents/INTERVIEW_AGENT.md
-contract/v1/agents/MAPPING_AGENT.md
-contract/v1/agents/Progarm_COMPOSITE_ENGINE.md
-# --- Contract v1 hygiene ---
-.pytest_cache/
 
-# V1 Huaman Readable Presentation
-contract\v1\presentation\_figma_presentation_script_introduction.md
+# =========================
+# Human-readable presentation / figma working files
+# =========================
+contract/v1/presentation/_figma_presentation_script_introduction.md
+contract/v1/acceptance/hash_file.ps1
+docs/figma/
+.vercel
+
+# =========================
+# Local BE Envrionment
+# =========================
+casecore-runtime/.env
+.env
+.env.**.bak.*
+authority_store/
+
+# === Repo hygiene protections ===
+**/node_modules/
+**/.cloud_tokens.json
+**/.env
+**/.env.*
+!**/.env.template
+**/*.bak.*
+**/*.tmp
+**/*.log
+**/__pycache__/
+**/*.pyc
+**/.DS_Store
+docs/case/
+docs/case/Mills_v_Polley/
+CASECORE_API_KEY.txt
+docs/design/casecore/CASECORE_API_KEY.txt

@@ -1,0 +1,31 @@
+{
+  "code": "EVID",
+  "section": "1230",
+  "title": "Declaration Against Interest",
+  "text": "Evidence of a statement by a declarant having sufficient knowledge of the subject is not made inadmissible by the hearsay rule if the declarant is unavailable as a witness and the statement, when made, was so far contrary to the declarant's pecuniary or proprietary interest, or so far subjected him to the risk of civil or criminal liability, or so far tended to render invalid a claim by him against another, or created such a risk of making him an object of hatred, ridicule, or social disgrace in the community, that a reasonable man in his position would not have made the statement unless he believed it to be true.",
+  "tags": [
+    "hearsay_exception",
+    "declaration_against_interest",
+    "unavailable_witness",
+    "pecuniary_interest",
+    "civil_liability",
+    "agent_core",
+    "deposition_relevant",
+    "trial_relevant",
+    "intake_critical"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Hearsay Evidence",
+    "chapter": "2",
+    "chapter_title": "Exceptions to the Hearsay Rule",
+    "article": "2",
+    "article_title": "Declarations Against Interest"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

@@ -1,0 +1,100 @@
+policy_id: approved_sources_v1
+policy_type: research_source_policy
+version: "1.0"
+status: active
+
+metadata:
+  owner: platform_ssot
+  purpose: "Define where RESEARCH_AGENT may roam and how findings are classified."
+  default_jurisdiction: "CA"
+  notes:
+    - "Tier controls constrain exploration and reduce drift."
+    - "All discoveries remain candidate until attorney promotion."
+
+defaults:
+  allowed_tiers: [tier_1, tier_2]
+  block_unlisted_domains: true
+  require_citation_for_promotion: true
+  trusted_consumption_default: true   # agents consume trusted knowledge by default
+  research_discovery_requires_policy: true
+
+tiers:
+  tier_1:
+    label: "Official authority"
+    description: "Primary legal authority sources (statutes, court rules, official judiciary publications)."
+    allowed_use:
+      - authority_text
+    promotion_bias: high
+    warnings: []
+
+  tier_2:
+    label: "Reputable secondary"
+    description: "Practice guides, bar publications, respected treatises (license permitting)."
+    allowed_use:
+      - practice_guide
+      - heuristic_rule
+      - burden_map
+    promotion_bias: medium
+    warnings:
+      - "Secondary authority; confirm against primary authority when possible."
+
+  tier_3:
+    label: "General web (restricted)"
+    description: "Blogs, informal summaries, forums. Allowed only via explicit escalation."
+    allowed_use:
+      - practice_guide
+    promotion_bias: low
+    warnings:
+      - "Non-authoritative. Use for leads only."
+      - "Must be corroborated by Tier 1/2 before promotion."
+
+domain_allowlist:
+  tier_1:
+    - courts.ca.gov
+    - leginfo.legislature.ca.gov
+    - oag.ca.gov
+    - ca.gov
+  tier_2:
+    - calbar.ca.gov
+    - govinfo.gov
+    - lawreview.*   # optional wildcard semantics by your gateway implementation
+  tier_3: []
+
+escalation_rules:
+  enable_tier_3:
+    requires:
+      - attorney_approval: true
+      - audit_event: research_escalation_approved
+    scope:
+      - per_run_only: true
+      - expires_after_hours: 24
+
+  unlisted_domain_access:
+    requires:
+      - attorney_approval: true
+      - justification_note: true
+      - audit_event: research_unlisted_domain_approved
+    scope:
+      - per_domain_only: true
+      - expires_after_days: 7
+
+capture_rules:
+  require_snapshot_hash: true
+  store_full_document_when_permitted: true
+  store_excerpt_when_not_permitted: true
+  max_excerpt_words: 200
+  record_query_trace: true
+  record_retrieval_timestamp: true
+
+promotion_rules:
+  required_fields:
+    - source_locator
+    - retrieval_metadata
+    - query_trace
+    - normalized_summary
+    - relevance_mapping
+    - limitations
+    - content_hash
+    - policy_snapshot_id
+  disallow_promotion_without_primary_support: true
+  primary_support_tiers: [tier_1, tier_2]

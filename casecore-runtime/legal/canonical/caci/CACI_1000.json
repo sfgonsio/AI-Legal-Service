@@ -1,0 +1,21 @@
+{
+  "code": "CACI",
+  "instruction_id": "1000",
+  "title": "Premises Liability\u2014Essential Factual Elements",
+  "series": "1000",
+  "series_title": "Premises Liability",
+  "text": "[Name of plaintiff ] claims that [he/she/ nonbinary pronoun] was harmed\nbecause of the way [ name of defendant ] managed [his/her/ nonbinary\npronoun/its] property. To establish this claim, [ name of plaintiff ] must\nprove all of the following:\n1. That [ name of defendant ] [owned/leased/occupied/controlled] the\nproperty;\n2. That [ name of defendant ] was negligent in the use or maintenance\nof the property;\n3. That [ name of plaintiff ] was harmed; and\n4. That [ name of defendant ]\u2019s negligence was a substantial factor in\ncausing [ name of plaintiff ]\u2019s harm.\nNew September 2003; Revised June 2005, December 2011",
+  "tags": [
+    "negligence",
+    "premises_liability"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "For cases involving public entity defendants, see instructions on dangerous\nconditions of public property (CACI No. 1100 et seq.).",
+  "sources_and_authority": "\u2022 General Duty to Exercise Due Care. Civil Code section 1714(a).\n\u2022 \u201cThe elements of a negligence claim and a premises liability claim are the same:\na legal duty of care, breach of that duty, and proximate cause resulting in injury.\nPremises liability \u2018 \u201cis grounded in the possession of the premises and the\nattendant right to control and manage the premises\u201d \u2019; accordingly, \u2018 \u201cmere\npossession with its attendant right to control conditions on the premises is a\nsufficient basis for the imposition of an affirmative duty to act.\u201d \u2019 But the duty\narising from possession and control of property is adherence to the same\nstandard of care that applies in negligence cases. In determining whether a\npremises owner owes a duty to persons on its property, we apply the Rowland\n[Rowland v. Christian (1968) 69 Cal.2d 108 [70 Cal.Rptr. 97, 443 P .2d 561]]\nfactors. Indeed, Rowland itself involved premises liability.\u2019 \u201d ( Kesner v. Superior\nCourt (2016) 1 Cal.5th 1132, 1159 [210 Cal.Rptr.3d 283, 384 P .3d 283], internal\ncitations omitted.)\n\u2022 \u201cThe owner of premises is under a duty to exercise ordinary care in the\nmanagement of such premises in order to avoid exposing persons to an\nunreasonable risk of harm. A failure to ful\ufb01ll this duty is negligence.\u201d ( Brooks v.\nEugene Burger Management Corp. (1989) 215 Cal.App.3d 1611, 1619 [264\nCal.Rptr. 756].)\n\u2022 \u201c \u2018[P]roperty owners are liable for injuries on land they own, possess, or\n626\n\ncontrol.\u2019 But . . . the phrase \u2018own, possess, or control\u2019 is stated in the\nalternative. A defendant need not own, possess and control property in order to\nbe held liable; control alone is sufficient.\u201d ( Alcaraz v. V ece (1997) 14 Cal.4th\n1149, 1162 [60 Cal.Rptr.2d 448, 929 P .2d 1239], original italics, internal\ncitations omitted.)\n\u2022 \u201c \u2018 \u201c[A] landowner\u2019s duty of care to avoid exposing others to a risk of injury is\nnot limited to injuries that occur on premises owned or controlled by the\nlandowner.\u201d \u2019 \u2018Rather, the duty of care encompasses a duty to avoid exposing\npersons to risks of injury that occur off site if the landowner\u2019s property is\nmaintained in such a manner as to expose persons to an unreasonable risk of\ninjury offsite.\u2019 \u201d ( Kesner , supra, 5 Cal.5th at p. 1159, internal citations omitted.)"
+}

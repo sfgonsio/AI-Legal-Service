@@ -1,0 +1,5 @@
+﻿audit_rules:
+  - all material promotions require audit
+  - all overrides require audit
+  - all export actions require audit where governed
+  - all invalid state transition attempts should be loggable

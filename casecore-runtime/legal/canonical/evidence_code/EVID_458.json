@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "458",
+  "title": "Subsequent Judicial Notice in Same Action",
+  "text": "The failure or refusal of the trial court to take judicial notice of a matter, or to instruct the jury with respect to the matter, does not preclude the trial court in subsequent proceedings in the action from taking judicial notice of the matter in accordance with the procedure specified in this division.",
+  "tags": ["judicial_notice", "subsequent_proceedings"],
+  "structure": {
+    "division": "4",
+    "division_title": "Judicial Notice",
+    "chapter": "",
+    "chapter_title": "",
+    "article": "",
+    "article_title": ""
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

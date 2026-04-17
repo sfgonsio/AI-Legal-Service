@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "1415",
+  "title": "Handwriting — By Witness",
+  "text": "A writing may be authenticated by a witness who states either of the following: (a) The handwriting is that of the person whose handwriting it purports to be. (b) The witness, during the course of a relationship or following an occurrence or transaction, has acquired knowledge of a person's handwriting, and the handwriting is that of the person.",
+  "tags": ["authentication", "handwriting", "witness", "identification"],
+  "structure": {
+    "division": "11",
+    "division_title": "Writings",
+    "chapter": "1",
+    "chapter_title": "Authentication and Proof of Writings",
+    "article": "2",
+    "article_title": "Means of Authenticating and Proving Writings"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "code": "CACI",
+  "instruction_id": "354",
+  "title": "Owner\u2019s/Lessee\u2019s Damages for Breach of Contract to Construct Improvements on Real",
+  "series": "300",
+  "series_title": "Negligence\u2014Essential Factual Elements",
+  "text": "Property\n355. Obligation to Pay Money Only\n356. Buyer\u2019s Damages for Breach of Contract for Sale of Real Property (Civ. Code, \u00a7 3306)\n357. Seller\u2019s Damages for Breach of Contract to Purchase Real Property",
+  "tags": [
+    "breach",
+    "contract",
+    "damages",
+    "essential_elements",
+    "negligence"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "code": "EVID",
+  "section": "703",
+  "title": "Judge as Witness",
+  "text": "(a) Before the judge presiding at the trial of an action may be called to testify in that trial as a witness, he shall, in proceedings held out of the presence and hearing of the jury, inform the parties of the information he has concerning any fact or matter about which he will be called to testify.\n(b) Against the objection of a party, the judge presiding at the trial of an action may not testify in that trial as a witness. Upon such objection, the judge shall declare a mistrial and order the action assigned for trial before another judge.\n(c) The calling of the judge presiding at a trial to testify in that trial as a witness shall be deemed a consent to the granting of a motion for mistrial, and an objection to such calling of a judge shall be deemed a motion for mistrial.\n(d) In the absence of objection by a party, the judge presiding at the trial of an action may testify in that trial as a witness.",
+  "tags": ["judge", "witness", "mistrial", "competency"],
+  "structure": {"division": "6", "division_title": "Witnesses", "chapter": "1", "chapter_title": "Competency"},
+  "source": {"type": "ca_legislature", "jurisdiction": "California", "url": "https://leginfo.legislature.ca.gov", "editorial_note": "Enacted by Stats. 1965, Ch. 299."}
+}

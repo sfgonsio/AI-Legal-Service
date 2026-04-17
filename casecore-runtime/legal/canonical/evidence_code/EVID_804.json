@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "804",
+  "title": "Examination of Person Relied Upon by Expert",
+  "text": "(a) If a witness testifying as an expert testifies that his opinion is based in whole or in part upon the opinion or statement of another person, such other person may be called and examined by any adverse party as if under cross-examination concerning the opinion or statement.\n\n(b) This section is not applicable if the person upon whose opinion or statement the expert witness has relied is (1) a party, (2) a person identified with a party within the meaning of subdivision (d) of Section 776, or (3) a witness who has testified in the action concerning the subject matter of the opinion or statement upon which the expert witness has relied.\n\n(c) Nothing in this section makes admissible an expert opinion that is inadmissible because it is based in whole or in part on the opinion or statement of another person.\n\n(d) An expert opinion otherwise admissible is not made inadmissible by this section because it is based on the opinion or statement of a person who is unavailable for examination pursuant to this section.",
+  "tags": ["opinion", "expert_witness", "cross_examination", "basis"],
+  "structure": {
+    "division": "7",
+    "division_title": "Opinion Testimony and Scientific Evidence",
+    "chapter": "1",
+    "chapter_title": "Expert and Other Opinion Testimony",
+    "article": "1",
+    "article_title": "Expert and Other Opinion Testimony Generally"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "code": "EVID",
+  "section": "637",
+  "title": "Possession Presumed Ownership",
+  "text": "The things which a person possesses are presumed to be owned by him.",
+  "category": "presumption_burden_of_production",
+  "canonical_type": "source",
+  "structure": { "division": "5","chapter": "3","article": "3" },
+  "source": { "type": "ca_legislature","jurisdiction": "California" },
+  "tags": ["possession","ownership","property"],
+  "notes": "Possession creates default ownership presumption."
+}

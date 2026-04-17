@@ -1,0 +1,21 @@
+{
+  "code": "CACI",
+  "instruction_id": "3702",
+  "title": "Affirmative Defense\u2014Comparative Fault of Plaintiff\u2019s Agent",
+  "series": "3700",
+  "series_title": "Damages",
+  "text": "[Name of defendant ] claims that the negligence of [ name of plaintiff\u2019 s\nagent] contributed to [ name of plaintiff principal ]\u2019s harm. To succeed on\nthis claim, [ name of defendant ] must prove all of the following:\n1. That [ name of plaintiff\u2019s agent ] was acting as [ name of plaintiff\nprincipal]\u2019s [agent/employee/[ insert other relationship, e.g.,\n\u201cpartner\u201d]];\n2. That [ name of plaintiff\u2019s agent ] was acting within the scope of [his/\nher/nonbinary pronoun ] [agency/employment/[ insert other\nrelationship]] when the incident occurred; and\n3. That the negligence of [ name of plaintiff\u2019s agent ] was a substantial\nfactor in causing [ name of plaintiff principal ]\u2019s harm.\nIf [ name of defendant ] proves the above, [ name of plaintiff principal ]\u2019s\nclaim is reduced by your determination of the percentage of [ name of\nplaintiff\u2019 s agent ]\u2019s responsibility. I will calculate the actual reduction.\nNew September 2003; Revised December 2009",
+  "tags": [
+    "damages",
+    "negligence"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "This instruction may be used by a defendant against a principal/employer to assert\nthe comparative fault of an agent/employee. For example, in an automobile accident\nlawsuit brought by a corporate plaintiff, the defendant may use this instruction to\nassert that the negligence of the plaintiff\u2019s employee/driver contributed to causing\nthe accident.",
+  "sources_and_authority": "\u2022 The doctrine of respondeat superior is not limited to the principal\u2019s responsibility\nfor injuries to third parties. A defendant also can use the doctrine to support a\nclaim of contributory negligence against a plaintiff principal if the plaintiff\u2019s\nagent was contributorily negligent. (See 6 Witkin, Summary of Cal. Law (11th\ned. 2017) Torts, \u00a7 1481.)"
+}

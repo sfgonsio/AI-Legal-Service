@@ -1,0 +1,27 @@
+{
+  "code": "EVID",
+  "section": "911",
+  "title": "No General Privilege to Refuse to Be Witness",
+  "text": "Except as otherwise provided by statute:\n(a) No person has a privilege to refuse to be a witness.\n(b) No person has a privilege to refuse to disclose any matter or to refuse to produce any writing, object, or other thing.\n(c) No person has a privilege that another shall not be a witness or shall not disclose any matter or shall not produce any writing, object, or other thing.",
+  "tags": [
+    "privilege",
+    "witness",
+    "general_rule",
+    "deposition_relevant",
+    "agent_core"
+  ],
+  "structure": {
+    "division": "8",
+    "division_title": "Privileges",
+    "chapter": "3",
+    "chapter_title": "General Provisions Relating to Privileges",
+    "article": null,
+    "article_title": null
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "code": "CACI",
+  "instruction_id": "4001",
+  "title": "\u201cMental Disorder\u201d Explained",
+  "series": "4000",
+  "series_title": "Fiduciary Duty",
+  "text": "Revoked May 2024. Reserved for Future Use.\n1031",
+  "tags": [
+    "fiduciary_duty"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

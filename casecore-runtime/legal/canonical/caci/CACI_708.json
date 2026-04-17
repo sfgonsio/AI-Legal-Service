@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "708",
+  "title": "Maximum Speed Limit (Veh. Code, \u00a7\u00a7 22349, 22356)",
+  "series": "700",
+  "series_title": "Intentional Torts",
+  "text": "The maximum speed limit where the accident occurred was [ insert\nnumber] miles per hour.\nNew September 2003",
+  "tags": [
+    "intentional_tort"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "An instruction on maximum speed limits could be useful to help frame the issue for\nthe jury. On the other hand, a speci\ufb01c instruction on the maximum speed limits may\nbe unnecessary. In the event that there is sufficient evidence to support an\ninstruction that one of the parties violated the maximum speed limit, the judge could\ngive the negligence per se instructions while reciting the speci\ufb01c code section. In\nthat event, the judge would not give an instruction on the basic speed law. (See\nHargrave v. Winquist (1982) 134 Cal.App.3d 916 [185 Cal.Rptr. 30].)",
+  "sources_and_authority": "\u2022 General Maximum Speed is 65 Miles Per Hour. V ehicle Code section 22349(a).\n\u2022 Basic Maximum Speed for Two-Lane Undivided Highways is 55 Miles Per\nHour. V ehicle Code section 22349(b).\n\u2022 Maximum Speed at Selected Locations is 70 Miles Per Hour. V ehicle Code\nsection 22356.\n\u2022 Driving Too Slowly. V ehicle Code section 22400(a)."
+}

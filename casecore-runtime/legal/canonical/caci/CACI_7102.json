@@ -1,0 +1,16 @@
+{
+  "code": "CACI",
+  "instruction_id": "7102",
+  "title": ". . . . . . . . . . . . . . . . . . . . . . . . .4543",
+  "series": "7100",
+  "series_title": "Unknown",
+  "text": "10120 . . . . . . . . . . . . . . . . . . . . . . . . . 4500\n10226 . . . . . . . . . . . . . . . . . . . . . . . . . 4532\nUnemployment Insurance Code\nSec. Inst.\n3302.2. . . . . . . . . . . . . . . . . . . . . . . . .2600\nVehicle Code\nSec. Inst.\n165 . . . . . . . . . . . . . . . . . . . . . . . . . . . 730\n312 . . . . . . . . . . . . . . . . . . . . . . . . . . . 709\n525 . . . . . . . . . . . . . . . . . . . . . . . . . . . 701\n544 . . . . . . . . . . . . . . . . . . . . . . . . . . . 705\nVehicle Code\u2014Cont.\nSec. Inst.\n5602 . . . . . . . . . . . . . . . . . . . . . . . . . . 720\n14606(a) . . . . . . . . . . . . . . . . . . . . . . . . 724",
+  "tags": [],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

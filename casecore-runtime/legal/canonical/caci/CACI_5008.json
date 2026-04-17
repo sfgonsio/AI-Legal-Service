@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "5008",
+  "title": "Duty to Abide by Translation Provided in Court",
+  "series": "5000",
+  "series_title": "Concluding Instructions",
+  "text": "Some testimony was given in [ insert language other than English ]. An\ninterpreter provided translation for you at the time that the testimony\nwas given. Y ou must rely solely on the translation provided by the\ninterpreter, even if you understood the language spoken by the witness.\nDo not retranslate any testimony for other jurors.\nNew April 2004",
+  "tags": [
+    "duty"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "If this instruction is used, the advisory committee recommends that it be read to the\njury before reading instructions on the substantive law.",
+  "sources_and_authority": "\u2022 It is misconduct for a juror to retranslate for other jurors testimony that has been\ntranslated by the court-appointed interpreter. ( People v. Cabrera (1991) 230\nCal.App.3d 300, 303 [281 Cal.Rptr. 238].)\n\u2022 \u201cIt is well-settled a juror may not conduct an independent investigation into the\nfacts of the case or gather evidence from outside sources and bring it into the\njury room. It is also misconduct for a juror to inject his or her own expertise\ninto the jury\u2019s deliberation.\u201d ( People v. Cabrera, supra, 230 Cal.App.3d at p.\n303.)\n\u2022 \u201cIf [the juror] believed the court interpreter was translating incorrectly, the\nproper action would have been to call the matter to the trial court\u2019s attention, not\ntake it upon herself to provide her fellow jurors with the \u2018correct\u2019 translation.\u201d\n(People v. Cabrera, supra, 230 Cal.App.3d at p. 304.)"
+}

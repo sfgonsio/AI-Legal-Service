@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "704",
+  "title": "Left Turns (Veh. Code, \u00a7 21801)",
+  "series": "700",
+  "series_title": "Intentional Torts",
+  "text": "The statute just read to you uses the word \u201chazard.\u201d A \u201chazard\u201d exists if\nany approaching vehicle is so near or is approaching so fast that a\nreasonably careful person would realize that there is a danger of a\ncollision [or accident].\n[A driver who is attempting to make a left turn must make sure that no\noncoming vehicles are close enough to be a hazard before the driver\nproceeds across each lane.]\nNew September 2003; Revised May 2020",
+  "tags": [
+    "intentional_tort"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "The bracketed paragraph should be given in appropriate cases involving multiple\nlanes of oncoming traffic. ( Sesler v. Ghumman (1990) 219 Cal.App.3d 218, 227 [268\nCal.Rptr. 70].)",
+  "sources_and_authority": "\u2022 Duty to Yield Right of Way: Left Turn. V ehicle Code section 21801(a).\n\u2022 \u201cWe hold section 21802, subdivision (a), requires that where, as here, some, but\nnot all, of the oncoming vehicles have yielded their right-of-way to a left-turning\ndriver, that driver has a continuing duty during the turning movement to\nascertain, before proceeding across the next open lane(s), if any vehicle is\napproaching from the opposite direction so close as to constitute a hazard.\u201d\n(Sesler , supra, 219 Cal.App.3d at pp. 224\u2013225)\n\u2022 Noting that in 1957 the Legislature added the phrase \u201cat any time during the\nturning movement\u201d to this section, the court in In re Kirk (1962) 202 Cal.App.2d\n288, 291 [20 Cal.Rptr. 787], reasoned that \u201cif the oncoming vehicle in the lane\nclosest to the left turning vehicle surrenders its right of way by indicating to the\noperator of the left turning vehicle that it desires him to proceed, such operator\nmay not proceed beyond that \ufb01rst lane of traffic, now effectively blocked by the\nwaiving vehicle, if in fact other vehicles approaching in any of the other\noncoming lanes will constitute a hazard to the left turning vehicle during the\nturning movement.\u201d"
+}

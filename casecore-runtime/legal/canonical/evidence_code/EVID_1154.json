@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "1154",
+  "title": "Acceptance of Claim Settlement",
+  "text": "Evidence that a person has accepted or offered or promised to accept a sum of money or any other thing, act, or service in satisfaction of a claim, as well as any conduct or statements made in negotiation thereof, is inadmissible to prove the invalidity of the claim or any part of it.",
+  "tags": ["extrinsic_policy", "settlement", "claim"],
+  "structure": {
+    "division": "9",
+    "division_title": "Evidence Affected or Excluded by Extrinsic Policies",
+    "chapter": "3",
+    "chapter_title": "Other Evidence Affected or Excluded by Extrinsic Policies",
+    "article": "",
+    "article_title": ""
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

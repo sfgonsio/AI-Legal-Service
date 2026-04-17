@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "108",
+  "title": "Duty to Abide by Translation Provided in Court",
+  "series": "100",
+  "series_title": "Pretrial",
+  "text": "Some testimony will be given in [ insert language other than English ]. An\ninterpreter will provide a translation for you at the time that the\ntestimony is given. Y ou must rely solely on the translation provided by\nthe interpreter, even if you understand the language spoken by the\nwitness. Do not retranslate any testimony for other jurors. If you believe\nthe court interpreter translated testimony incorrectly, let me know\nimmediately by writing a note and giving it to the [clerk/bailiff/court\nattendant].\nNew September 2003; Revised April 2004, June 2011",
+  "tags": [
+    "duty",
+    "pretrial"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "sources_and_authority": "\u2022 \u201cJuror [] committed misconduct by failing to rely on the court interpreter\u2019s\ntranslation, as she promised she would during voir dire. She committed further\nmisconduct by sharing her personal translation with her fellow jurors thus\nintroducing outside evidence into their deliberations.\u201d ( People v. Cabrera (1991)\n230 Cal.App.3d 300, 304 [281 Cal.Rptr. 238].)\n\u2022 \u201cIt is well-settled a juror may not conduct an independent investigation into the\nfacts of the case or gather evidence from outside sources and bring it into the\njury room. It is also misconduct for a juror to inject his or her own expertise\ninto the jury\u2019s deliberation.\u201d ( People v. Cabrera, supra, 230 Cal.App.3d at p.\n303.)\n\u2022 \u201cIf [the juror] believed the court interpreter was translating incorrectly, the\nproper action would have been to call the matter to the trial court\u2019s attention, not\ntake it upon herself to provide her fellow jurors with the \u2018correct\u2019 translation.\u201d\n(People v. Cabrera, supra, 230 Cal.App.3d at p. 304.)"
+}

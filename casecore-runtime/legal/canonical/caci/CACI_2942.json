@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "2942",
+  "title": "Damages for Death of Employee",
+  "series": "2900",
+  "series_title": "Real Property",
+  "text": "2943\u20132999. Reserved for Future Use\nVF-2900. FELA\u2014Negligence\u2014Plaintiff\u2019s Negligence at Issue\nVF-2901. Federal Safety Appliance Act or Boiler Inspection Act\nVF-2902\u2013VF-2999. Reserved for Future Use\nSERIES 3000 CIVIL RIGHTS",
+  "tags": [
+    "damages",
+    "negligence",
+    "real_property"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

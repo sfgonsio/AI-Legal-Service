@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "190",
+  "title": "Proof",
+  "text": "\"Proof\" is the establishment by evidence of a requisite degree of belief concerning a fact in the mind of the trier of fact or the court.",
+  "tags": ["definitions", "proof"],
+  "structure": {
+    "division": "2",
+    "division_title": "Words and Phrases Defined",
+    "chapter": "",
+    "chapter_title": "",
+    "article": "",
+    "article_title": ""
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

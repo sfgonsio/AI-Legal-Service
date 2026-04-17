@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "2303",
+  "title": "Affirmative Defense\u2014Insurance Policy Exclusion",
+  "series": "2300",
+  "series_title": "Antitrust",
+  "text": "[Name of defendant ] claims that [ name of plaintiff ]\u2019s [liability/loss] is not\ncovered because it is speci\ufb01cally excluded under the policy. To succeed,\n[name of defendant ] must prove that [ name of plaintiff ]\u2019s [liability/loss]\n[arises out of/is based on/occurred because of] [ state exclusion under the\npolicy]. This exclusion applies if [ set forth disputed factual issues that jury\nmust determine ].\nNew September 2003; Revised October 2008, June 2014, May 2021",
+  "tags": [
+    "antitrust"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "The instructions in this series assume the plaintiff is the insured and the defendant is\nthe insurer. The party designations may be changed if appropriate to the facts of the\ncase.\nGive this instruction if the court has determined that an exclusionary clause in an\ninsurance policy might apply to foreclose coverage, but the applicability turns on a\nquestion of fact. Identify with speci\ufb01city the disputed factual issues the jury must\nresolve to determine whether the exclusion applies.\nThis instruction can be used in cases involving either a third party liability or a \ufb01rst\nparty loss policy. Use CACI No. 2306, Covered and Excluded Risks\u2014Predominant\nCause of Loss , rather than this instruction, if a \ufb01rst party loss policy is involved and\nthere is evidence that a loss was caused by both covered and excluded perils.",
+  "sources_and_authority": "\u2022 \u201cThe burden of bringing itself within any exculpatory clause contained in the\npolicy is on the insurer.\u201d ( Clemmer v. Hartford Insurance Co. (1978) 22 Cal.3d\n865, 880 [151 Cal.Rptr. 285, 587 P .2d 1098].)\n\u2022 \u201cThe burden is on an insured to establish that the occurrence forming the basis\nof its claim is within the basic scope of insurance coverage. And, once an\ninsured has made this showing, the burden is on the insurer to prove the claim is\nspeci\ufb01cally excluded.\u201d ( Aydin Corp. v. First State Insurance Co. (1998) 18\nCal.4th 1183, 1188 [77 Cal.Rptr.2d 537, 959 P .2d 1213].)\n\u2022 Once the insurer proves that the speci\ufb01c exclusion applies, the insured \u201cshould\nbear the burden of establishing the exception because \u2018its effect is to reinstate\ncoverage that the exclusionary language otherwise bars.\u2019 \u201d ( Aydin Corp., supra,\n18 Cal.4th at p. 1188.)\n\u2022 \u201cThe interpretation of an exclusionary clause is an issue of law subject to this\ncourt\u2019s independent determination.\u201d ( Marquez Knolls Property Owners Assn.,\nInc. v. Executive Risk Indemnity, Inc. (2007) 153 Cal.App.4th 228, 233 [62\nCal.Rptr.3d 510].)\n\u2022 \u201c[T]he question of what caused the loss is generally a question of fact, and the\n1378\n\nloss is not covered if the covered risk was only a remote cause of the loss, or\nthe excluded risk was the efficient proximate, or predominate cause.\u201d ( State\nFarm Fire & Casualty Co. v. V on Der Lieth (1991) 54 Cal.3d 1123, 1131\u20131132\n[2 Cal.Rptr.2d 183, 820 P .2d 285].)"
+}

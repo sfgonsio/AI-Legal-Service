@@ -1,0 +1,18 @@
+{
+  "code": "CACI",
+  "instruction_id": "1906",
+  "title": "Misrepresentations Made to Persons Other Than the Plaintiff",
+  "series": "1900",
+  "series_title": "Wrongful Termination",
+  "text": "1907. Reliance\n1908. Reasonable Reliance\n1909. Reserved for Future Use\n1910. Real Estate Seller\u2019s Nondisclosure of Material Facts\n1911\u20131919. Reserved for Future Use",
+  "tags": [
+    "wrongful_termination"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

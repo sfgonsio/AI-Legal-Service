@@ -1,0 +1,21 @@
+{
+  "code": "CACI",
+  "instruction_id": "4329",
+  "title": "Affirmative Defense\u2014Failure to Provide Reasonable",
+  "series": "4300",
+  "series_title": "Unlawful Detainer",
+  "text": "Accommodation\n[Name of defendant ] claims that [ name of plaintiff ] is not entitled to evict\n[him/her/nonbinary pronoun] because [ name of plaintiff ] violated fair\nhousing laws by refusing to provide [[ name of defendant ]/a member of\n[name of defendant ]\u2019s household] [a] reasonable accommodation[s] for\n[his/her/nonbinary pronoun] disability as necessary to afford [him/her/\nnonbinary pronoun] an equal opportunity to use and enjoy [a/an] [ specify\nnature of dwelling or public and common use area at issue, e.g., the\napartment building\u2019 s mail room ].\nTo establish this defense, [ name of defendant ] must prove all of the\nfollowing:\n1. That [[ name of defendant ]/a member of [ name of defendant ]\u2019s\nhousehold] has a disability;\n2. That [ name of plaintiff ] knew of, or should have known of, [[ name\nof defendant ]/the member of [ name of defendant ]\u2019s household]\u2019s\ndisability;\n3. That [[ name of defendant ]/a member of [ name of defendant ]\u2019s\nhousehold/an authorized representative of [ name of defendant ]]\nrequested [an] accommodation[s] on behalf of [himself/herself/\nnonbinary pronoun/name of defendant ] [or] [another household\nmember with a disability];\n4. That [an] accommodation[s] [was/were] necessary to afford\n[[name of defendant ]/a member of [ name of defendant ]\u2019s household]\nan equal opportunity to use and enjoy the [ specify nature of\ndwelling or public and common use area at issue, e.g., the apartment\nbuilding\u2019s mail room ]; and\n5. [That [ name of plaintiff ] failed to provide the reasonable\naccommodation[s]]\n5. [or]\n5. [That [ name of plaintiff ] failed to engage in the interactive process\nto try to accommodate the disability].\nNew May 2021",
+  "tags": [
+    "disability",
+    "unlawful_detainer"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "An individual with a disability may raise failure to provide a reasonable\naccommodation as an affirmative defense to an unlawful detainer action. (Cal. Code\nRegs., tit. 2, \u00a7 12176(c)(8)(A).) The individual with a disability seeking a reasonable\n1204\n\naccommodation must make a request for an accommodation. (Cal. Code Regs., tit.\n2, \u00a7 12176(c)(1).) Such a request may be made by the individual with a disability, a\nfamily member, or someone authorized by the individual with a disability to act on\nthe individual\u2019s behalf. (Cal. Code Regs., tit. 2, \u00a7 12176(c)(2).)\nA reasonable accommodation request that is made during a pending unlawful\ndetainer action is subject to the same regulations that govern reasonable\naccommodation requests made at any other time. (Cal. Code Regs., tit. 2,\n\u00a7 12176(c)(8).)",
+  "sources_and_authority": "\u2022 Disability Discrimination Prohibited Under Fair Employment and Housing Act.\nGovernment Code section 12940(a).\n\u2022 \u201cMedical Condition\u201d De\ufb01ned. Government Code section 12926(i).\n\u2022 \u201cMental Disability\u201d De\ufb01ned. Government Code section 12926(j).\n\u2022 \u201cPhysical Disability\u201d De\ufb01ned. Government Code section 12926(m).\n\u2022 Combination of Characteristics, Perception, and Perceived Association.\nGovernment Code section 12926(o).\n\u2022 Reasonable Accommodations. California Code of Regulations, title 2, section\n12176(a), (c).\n\u2022 Reasonable Accommodation Requests in Unlawful Detainer Actions. Cal. Code\nRegs., tit. 2, \u00a7 12176(c)(8)."
+}

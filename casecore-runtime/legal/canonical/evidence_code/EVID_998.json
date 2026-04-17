@@ -1,0 +1,26 @@
+{
+  "code": "EVID",
+  "section": "998",
+  "title": "Exception — Criminal Proceeding",
+  "text": "There is no privilege under this article in a criminal proceeding.",
+  "tags": [
+    "privilege",
+    "physician_patient",
+    "exception",
+    "criminal_proceeding"
+  ],
+  "structure": {
+    "division": "8",
+    "division_title": "Privileges",
+    "chapter": "4",
+    "chapter_title": "Particular Privileges",
+    "article": "6",
+    "article_title": "Physician-Patient Privilege"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

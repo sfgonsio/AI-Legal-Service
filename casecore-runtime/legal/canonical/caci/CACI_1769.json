@@ -1,0 +1,18 @@
+{
+  "code": "CACI",
+  "instruction_id": "1769",
+  "title": ". . . . . . . . . . . . . . . . . . . . . . . . .3211",
+  "series": "1700",
+  "series_title": "Wrongful Death",
+  "text": "1770(a) . . . . . . . . . . . . . . . . . . . . . . . . 4700\n1770(a)(4) . . . . . . . . . . . . . . . . . . . . . . 4700\n1770(a)(9) . . . . . . . . . . . . . . . . . . . . . . 4700\n1770(a)(19) . . . . . . . . . . . . . . . . . . . . . . 4700",
+  "tags": [
+    "wrongful_death"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

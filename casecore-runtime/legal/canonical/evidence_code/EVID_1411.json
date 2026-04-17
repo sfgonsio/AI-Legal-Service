@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "1411",
+  "title": "Subscribing Witness Testimony Not Required",
+  "text": "Except as provided by statute, the testimony of a subscribing witness is not required to authenticate a writing.",
+  "tags": ["authentication", "subscribing_witness", "writings"],
+  "structure": {
+    "division": "11",
+    "division_title": "Writings",
+    "chapter": "1",
+    "chapter_title": "Authentication and Proof of Writings",
+    "article": "2",
+    "article_title": "Means of Authenticating and Proving Writings"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

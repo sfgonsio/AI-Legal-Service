@@ -1,0 +1,18 @@
+{
+  "code": "CACI",
+  "instruction_id": "1103",
+  "title": ". . . . . . . . . . . . . . . . . . . . . . . . .3230",
+  "series": "1100",
+  "series_title": "Products Liability",
+  "text": "1202(d) . . . . . . . . . . . . . . . . . . . . . . . . 1243\n1205(a) . . . . . . . . . . . . . . . . . . . . . . . . 1243\n1303. . . . . . . . . . . . . . . . . . . . . . . . . .1231\n2102. . . . . . . . . . . . . . . . . . . . . . . . . .1230\n2104(1) . . . . . . . . . . . . . . . . . . . . . . . . 1231",
+  "tags": [
+    "products_liability"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

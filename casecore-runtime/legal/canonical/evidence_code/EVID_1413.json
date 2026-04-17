@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "1413",
+  "title": "Witness to Execution or Authenticity",
+  "text": "A writing may be authenticated by anyone who saw the writing made or executed, including a subscribing witness.",
+  "tags": ["authentication", "witness", "execution"],
+  "structure": {
+    "division": "11",
+    "division_title": "Writings",
+    "chapter": "1",
+    "chapter_title": "Authentication and Proof of Writings",
+    "article": "2",
+    "article_title": "Means of Authenticating and Proving Writings"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

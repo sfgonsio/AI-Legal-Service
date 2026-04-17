@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "455",
+  "title": "Opportunity to Present Information on Judicial Notice",
+  "text": "With respect to any matter specified in Section 452 or in subdivision (f) of Section 451 that is of substantial consequence to the determination of the action:\n\n(a) If the trial court has been requested to take or has taken or proposes to take judicial notice of such matter, the court shall afford each party reasonable opportunity, before the jury is instructed or before the cause is submitted for decision by the court, to present to the court information relevant to (1) the propriety of taking judicial notice of the matter and (2) the tenor of the matter to be noticed.\n\n(b) If the trial court resorts to any source of information not received in open court, including the advice of persons learned in the subject matter, such information and its source shall be made a part of the record in the action and the court shall afford each party reasonable opportunity to meet such information before judicial notice of the matter may be taken.",
+  "tags": ["judicial_notice", "due_process", "party_opportunity"],
+  "structure": {
+    "division": "4",
+    "division_title": "Judicial Notice",
+    "chapter": "",
+    "chapter_title": "",
+    "article": "",
+    "article_title": ""
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

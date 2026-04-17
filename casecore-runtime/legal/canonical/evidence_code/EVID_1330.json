@@ -1,0 +1,28 @@
+{
+  "code": "EVID",
+  "section": "1330",
+  "title": "Dispositive Instruments",
+  "text": "Evidence of a statement contained in a deed of conveyance or a will or other writing purporting to affect an interest in real or personal property is not made inadmissible by the hearsay rule if:\n\n(a) The matter stated was relevant to the purpose of the writing;\n\n(b) The matter stated would be relevant to an issue as to an interest in the property; and\n\n(c) The dealings with the property since the statement was made have not been inconsistent with the truth of the statement.",
+  "tags": [
+    "hearsay",
+    "exception",
+    "dispositive_instruments",
+    "property",
+    "deed",
+    "will"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Hearsay Evidence",
+    "chapter": "2",
+    "chapter_title": "Hearsay Exceptions",
+    "article": "13",
+    "article_title": "Dispositive Instruments and Ancient Writings"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

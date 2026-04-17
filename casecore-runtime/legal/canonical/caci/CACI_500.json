@@ -1,0 +1,18 @@
+{
+  "code": "CACI",
+  "instruction_id": "500",
+  "title": ". .200, 201, 450A, 450B, 2549, 3051, 3940, 3942,",
+  "series": "500",
+  "series_title": "Medical Negligence",
+  "text": "3943, 3945, 3947, 3949, 4407\n502 . . . . . . . . . . . . . . . . . . . . . . . . 200, 201\n520 . . . . . . . . . . . . . . . . . . . . . . . . . . 4407\n600(b) . . . . . . . . . . . . . . . . . . . . . . . . . 202\n603 . . . . . . . . . . . . . . . . . . . . . . . . . . 2732",
+  "tags": [
+    "medical_negligence"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

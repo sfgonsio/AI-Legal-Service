@@ -1,0 +1,21 @@
+{
+  "code": "CACI",
+  "instruction_id": "722",
+  "title": "Adult\u2019s Liability for Minor\u2019s Permissive Use of Motor Vehicle",
+  "series": "700",
+  "series_title": "Intentional Torts",
+  "text": "[Name of plaintiff ] claims that [he/she/ nonbinary pronoun] was harmed\nand that [ name of defendant ] is responsible for the harm because [ name of\ndefendant] gave [ name of minor ] permission to operate the vehicle. To\nestablish this claim, [ name of plaintiff ] must prove all of the following:\n1. That [ name of minor ] was negligent in operating the vehicle;\n2. That [ name of plaintiff ] was harmed;\n3. That [ name of minor ]\u2019s negligence was a substantial factor in\ncausing the harm; and\n4. That [ name of defendant ], by words or conduct, gave [ name of\nminor] permission to use the vehicle.\nNew September 2003; Revised April 2004, October 2004",
+  "tags": [
+    "intentional_tort",
+    "negligence"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "Under V ehicle Code section 17708, an element of this cause of action is that the\ndefendant must have \u201ccustody\u201d of the minor driver. The instruction omits this\nelement because it will most likely be stipulated to or decided by the judge as a\nmatter of law. If there are contested issues of fact regarding this element, this\ninstruction may be augmented to include the speci\ufb01c factual \ufb01ndings necessary to\narrive at a determination of custody.",
+  "sources_and_authority": "\u2022 Parental Liability for Minor\u2019s V ehicle Operation. V ehicle Code section 17708.\n\u2022 \u201c[I]t was incumbent upon [plaintiffs], in order to fasten liability upon [the\nparents] for the minor\u2019s negligence, to establish two necessary facts. These facts\nwere, \ufb01rst, that at the time the collision occurred respondents had custody of the\nminor and, second, that they had given to the minor their permission, either\nexpress or implied, to his driving the automobile by the negligent operation of\nwhich the injuries were caused.\u201d ( Sommers v. V an Der Linden (1938) 24\nCal.App.2d 375, 380 [75 P .2d 83].)\n\u2022 \u201cWhether or not a sufficient custody existed, within the meaning of the statute,\nmight well depend upon evidence of speci\ufb01c facts showing the nature, kind and\nextent of the custody and right of control which the respondent [grandfather]\nactually had.\u201d ( Hughes v. Wardwell (1953) 117 Cal.App.2d 406, 409 [255 P .2d\n881].)\n\u2022 \u201cIn the absence of statute, ordinarily a parent is not liable for the torts of his\nminor child. A parent, however, becomes liable for the torts of his minor child if\nthat child in committing a tort is his agent and acting within the child\u2019s\nauthority.\u201d (V an Den Eikhof v. Hocker (1978) 87 Cal.App.3d 900, 904\u2013905 [151\n573\n\nCal.Rptr. 456], internal citations omitted.)\n\u2022 \u201c \u2018[P]erson having custody of the minor\u2019 means person having permanent legal\ncustody, and not a person such as a school teacher whose control over his pupils\nis limited in time and scope.\u201d ( Hathaway v. Siskiyou Union High School Dist.\n(1944) 66 Cal.App.2d 103, 114 [151 P .2d 861].)"
+}

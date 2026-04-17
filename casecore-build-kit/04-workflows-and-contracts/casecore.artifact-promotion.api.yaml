@@ -1,0 +1,19 @@
+﻿endpoint: /api/casecore/artifacts/promote
+method: POST
+
+request:
+  required:
+    - artifact_id
+    - artifact_type
+    - actor_id
+    - promotion_reason
+
+response:
+  required:
+    - promoted
+    - canonical_artifact_id
+
+rules:
+  - promotion must be governed
+  - audit event required
+  - invalid state transitions rejected

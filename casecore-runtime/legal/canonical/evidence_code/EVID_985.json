@@ -1,0 +1,26 @@
+{
+  "code": "EVID",
+  "section": "985",
+  "title": "Exception — Criminal Proceeding",
+  "text": "There is no privilege under this article in a criminal proceeding in which one spouse is charged with:\n(a) A crime committed at any time against the person or property of the other spouse or of a child of either.\n(b) A crime committed at any time against the person or property of a third person committed in the course of committing a crime against the person or property of the other spouse.\n(c) Bigamy.\n(d) A crime defined by Section 270 or 270a of the Penal Code.",
+  "tags": [
+    "privilege",
+    "marital",
+    "exception",
+    "criminal_proceeding"
+  ],
+  "structure": {
+    "division": "8",
+    "division_title": "Privileges",
+    "chapter": "4",
+    "chapter_title": "Particular Privileges",
+    "article": "5",
+    "article_title": "Privilege for Confidential Marital Communications"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Amended by Stats. 1975, Ch. 71."
+  }
+}

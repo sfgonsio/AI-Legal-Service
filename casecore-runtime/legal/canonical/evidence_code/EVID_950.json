@@ -1,0 +1,25 @@
+{
+  "code": "EVID",
+  "section": "950",
+  "title": "Lawyer — Definition",
+  "text": "As used in this article, \"lawyer\" means a person authorized, or reasonably believed by the client to be authorized, to practice law in any state or nation.",
+  "tags": [
+    "definition",
+    "lawyer",
+    "attorney_client"
+  ],
+  "structure": {
+    "division": "8",
+    "division_title": "Privileges",
+    "chapter": "4",
+    "chapter_title": "Particular Privileges",
+    "article": "3",
+    "article_title": "Lawyer-Client Privilege"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

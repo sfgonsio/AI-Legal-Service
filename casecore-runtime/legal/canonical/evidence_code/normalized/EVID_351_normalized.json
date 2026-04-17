@@ -1,0 +1,43 @@
+{
+  "section_id": "EC-351",
+  "code": "EVID",
+  "section": "351",
+  "title": "Relevant Evidence Admissible",
+  "text": "Except as otherwise provided by statute, all relevant evidence is admissible.",
+  "notes": null,
+  "rule_type": "relevance",
+  "rule_type_confidence": "heuristic",
+  "applies_to": [],
+  "evidentiary_standard": null,
+  "foundation_requirements": [],
+  "cross_refs": [],
+  "coa_relevance": [],
+  "exclusion_grounds": [],
+  "tags": [
+    "relevance",
+    "admissibility",
+    "system_rule",
+    "intake_critical",
+    "trial_relevant"
+  ],
+  "structure": {
+    "division": "3",
+    "division_title": "General Provisions",
+    "chapter": null,
+    "chapter_title": null,
+    "article": null,
+    "article_title": null
+  },
+  "canonical_type": "source",
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": null
+  },
+  "effective_date": null,
+  "schema_version": "1.0",
+  "pass1_complete": true,
+  "pass2_complete": false,
+  "source_file": "EVID_351.json"
+}

@@ -1,0 +1,45 @@
+﻿{
+  "$id": "casecore.fact.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CASECORE Fact",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "matter_id",
+    "artifact_type",
+    "schema_version",
+    "statement",
+    "source_refs",
+    "status",
+    "run_id",
+    "created_at"
+  ],
+  "properties": {
+    "id": { "type": "string", "pattern": "^FCT-[A-Z0-9_-]+$" },
+    "matter_id": { "type": "string", "pattern": "^MTR-[A-Z0-9_-]+$" },
+    "artifact_type": { "const": "FACT" },
+    "schema_version": { "type": "string", "minLength": 1 },
+    "statement": { "type": "string", "minLength": 1 },
+    "source_refs": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "status": {
+      "type": "string",
+      "enum": ["proposed", "canonical", "rejected"]
+    },
+    "run_id": { "type": "string", "pattern": "^RUN-[A-Z0-9_-]+$" },
+    "created_at": { "type": "string", "format": "date-time" },
+    "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+    "entity_refs": {
+      "type": "array",
+      "items": { "type": "string", "pattern": "^ENT-[A-Z0-9_-]+$" }
+    },
+    "tag_refs": {
+      "type": "array",
+      "items": { "type": "string", "pattern": "^TAG-[A-Z0-9_-]+$" }
+    }
+  }
+}

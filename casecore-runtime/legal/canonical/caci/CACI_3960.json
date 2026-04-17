@@ -1,0 +1,21 @@
+{
+  "code": "CACI",
+  "instruction_id": "3960",
+  "title": "Comparative Fault of Plaintiff\u2014General Verdict",
+  "series": "3950",
+  "series_title": "Punitive Damages",
+  "text": "If you decide that [ name of plaintiff ]\u2019s negligence combined with [ name of\ndefendant]\u2019s [negligence/conduct/product] in causing [ name of plaintiff ]\u2019s\nharm, then you must decide the percentage of responsibility for the\nharm that you attribute to each of them.\nFirst, decide the total amount of [ name of plaintiff ]\u2019s damages. Then\ndecide the percentage of responsibility that [ name of plaintiff ] and [ name\nof defendant ] have for the damages. Then reduce the total damages by\nthe percentage of responsibility that you attribute to [ name of plaintiff ].\nAfter you make these calculations, state the reduced damage award in\nyour verdict.\nNew September 2003; Revised December 2009",
+  "tags": [
+    "damages",
+    "negligence",
+    "punitive_damages"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "sources_and_authority": "\u2022 \u201cIn determining to what degree the injury was due to the fault of the plaintiff, it\nis logically essential that the plaintiff\u2019s negligence be weighed against the\ncombined total of all other causative negligence; moreover, inasmuch as a\nplaintiff\u2019s actual damages do not vary by virtue of the particular defendants who\nhappen to be before the court, we do not think that the damages which a plaintiff\nmay recover against defendants who are joint and severally liable should\n\ufb02uctuate in such a manner.\u201d ( American Motorcycle Assn. v. Superior Court\n(1978) 20 Cal.3d 578, 590, fn. 2 [146 Cal.Rptr. 182, 578 P .2d 899].)\n\u2022 \u201cProposition 51 . . . retains the joint liability of all tortfeasors, regardless of\ntheir respective shares of fault, with respect to all objectively provable expenses\nand monetary losses. On the other hand, the more intangible and subjective\ncategories of damage were limited by Proposition 51 to a rule of strict\nproportionate liability. With respect to these noneconomic damages, the plaintiff\nalone now assumes the risk that a proportionate contribution cannot be obtained\nfrom each person responsible for the injury.\u201d ( DaFonte v. Up-Right, Inc. (1992)\n2 Cal.4th 593, 600 [7 Cal.Rptr.2d 238, 828 P .2d 140].)"
+}

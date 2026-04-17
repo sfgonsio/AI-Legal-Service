@@ -1,0 +1,19 @@
+{
+  "code": "CACI",
+  "instruction_id": "1510",
+  "title": "Affirmative Defense\u2014Reliance on Counsel",
+  "series": "1500",
+  "series_title": "Sexual Harassment",
+  "text": "[Name of defendant ] claims that [he/she/ nonbinary pronoun] had\nreasonable grounds for [causing or continuing the criminal proceeding/\nbringing or continuing a [lawsuit/administrative proceeding]] because\n[he/she/nonbinary pronoun] was relying on the advice of an attorney. To\nsucceed, [ name of defendant ] must prove both of the following:\n1. That [ name of defendant ] made a full and honest disclosure of all\nthe important facts known to [him/her/ nonbinary pronoun ] to the\n[district attorney/attorney]; and\n2. That [he/she/ nonbinary pronoun ] reasonably relied on the [district\nattorney/attorney]\u2019s advice.\nNew September 2003; Renumbered from CACI No. 1505 June 2013",
+  "tags": [
+    "sexual_harassment"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "sources_and_authority": "\u2022 \u201c \u2018Good faith reliance on the advice of counsel, after truthful disclosure of all\nthe relevant facts, is a complete defense to a malicious prosecution claim.\u2019 The\nburden of proving the advice of counsel defense is on [defendant].\u201d ( Nunez v.\nPennisi (2015) 241 Cal.App.4th 861, 876\u2013877 [193 Cal.Rptr.3d 912], internal\ncitation omitted.)\n\u2022 \u201c[I]f the initiator acts in bad faith or withholds from counsel facts he knew or\nshould have known would defeat a cause of action otherwise appearing from the\ninformation supplied, [the] defense fails.\u201d ( Bertero v. National General Corp.\n(1974) 13 Cal.3d 43, 53\u201354 [118 Cal.Rptr. 184, 529 P .2d 608].)\n\u2022 \u201c[T]he defense that a criminal prosecution was commenced upon the advice of\ncounsel is unavailing in an action for malicious prosecution if it appears . . .\nthat the defendant did not believe that the accused was guilty of the crime\ncharged.\u201d ( Singleton v. Singleton (1945) 68 Cal.App.2d 681, 695 [157 P .2d\n886].)"
+}

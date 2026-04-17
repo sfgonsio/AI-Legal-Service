@@ -1,0 +1,26 @@
+{
+  "code": "EVID",
+  "section": "1324",
+  "title": "Reputation Concerning Character",
+  "text": "Evidence of a person's general reputation with reference to his character or a trait of his character at a relevant time in the community in which he then resided or in a group with which he then habitually associated is not made inadmissible by the hearsay rule.",
+  "tags": [
+    "hearsay",
+    "exception",
+    "reputation",
+    "character"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Hearsay Evidence",
+    "chapter": "2",
+    "chapter_title": "Hearsay Exceptions",
+    "article": "12",
+    "article_title": "Reputation and Statements Concerning Community History, Property Interests, and Character"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

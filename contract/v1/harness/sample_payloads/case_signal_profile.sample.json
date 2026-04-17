@@ -1,0 +1,44 @@
+﻿{
+  "schema_version": "case_signal_profile.v1",
+  "jurisdiction": "CA",
+  "run_id": "run_demo_001",
+  "created_at": "2026-03-04T00:00:00Z",
+  "signals": {
+    "parties": [],
+    "events": [],
+    "agreements": [
+      {
+        "signal_id": "a1",
+        "signal_type": "agreement",
+        "source": "interview",
+        "confidence": "unverified",
+        "citations": [],
+        "attributes": {
+          "exists": true,
+          "written": false,
+          "terms_summary": "Oral partnership understanding alleged; no signed agreement uploaded yet."
+        }
+      }
+    ],
+    "ownership_claims": [],
+    "damages": [],
+    "communications": [],
+    "documents": [],
+    "statute_mentions": []
+  },
+  "archetype_hypotheses": [
+    {
+      "archetype_id": "breach_contract",
+      "confidence": 0.6,
+      "why_signals": [
+        "Client describes agreement + alleged breach"
+      ],
+      "disambiguation_questions": [
+        "Was the agreement written or oral?",
+        "What were the material terms?",
+        "Who performed and how was performance measured?"
+      ]
+    }
+  ],
+  "notes": "Demo case profile for coverage engine runner."
+}

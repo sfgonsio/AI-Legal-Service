@@ -1,0 +1,23 @@
+{
+  "code": "CACI",
+  "instruction_id": "327",
+  "title": "Assignment Not Contested",
+  "series": "300",
+  "series_title": "Negligence\u2014Essential Factual Elements",
+  "text": "[Name of plaintiff ] was not a party to the original contract. However, [he/\nshe/nonbinary pronoun/it] may bring a claim for breach of contract\nbecause [ name of assignor ] transferred the rights under the contract to\n[name of plaintiff ]. This transfer is referred to as an \u201cassignment.\u201d\nNew February 2005",
+  "tags": [
+    "breach",
+    "contract",
+    "essential_elements",
+    "negligence"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "This instruction is intended to explain to the jury why a party not named in the\noriginal contract is nevertheless a party to the case.",
+  "sources_and_authority": "\u2022 Oral Assignment. Civil Code section 1052.\n\u2022 \u201cTo \u2018assign\u2019 ordinarily means to transfer title or ownership of property, but an\nassignment, to be effective, must include manifestation to another person by the\nowner of his intention to transfer the right, without further action, to such other\nperson or to a third person. It is the substance and not the form of a transaction\nwhich determines whether an assignment was intended. If from the entire\ntransaction and the conduct of the parties it clearly appears that the intent of the\nparties was to pass title to the chose in action, then an assignment will be held\nto have taken place.\u201d ( McCown v. Spencer (1970) 8 Cal.App.3d 216, 225 [87\nCal.Rptr. 213], internal citations omitted.)"
+}

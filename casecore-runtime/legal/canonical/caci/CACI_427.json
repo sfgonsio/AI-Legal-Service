@@ -1,0 +1,19 @@
+{
+  "code": "CACI",
+  "instruction_id": "427",
+  "title": "Furnishing Alcoholic Beverages to Minors (Civ. Code, \u00a7 1714(d))",
+  "series": "400",
+  "series_title": "Negligence",
+  "text": "428. Parental Liability (Nonstatutory)\n429. Negligent Sexual Transmission of Disease\n430. Causation: Substantial Factor\n431. Causation: Multiple Causes",
+  "tags": [
+    "causation",
+    "negligence"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

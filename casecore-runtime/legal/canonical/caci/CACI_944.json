@@ -1,0 +1,18 @@
+{
+  "code": "CACI",
+  "instruction_id": "944",
+  "title": ". . . . . . . . . . . . . . . . . . . . . .4570, 4571",
+  "series": "900",
+  "series_title": "Common Carriers",
+  "text": "945.5 . . . . . . . . . . . . . . . . . . . . . . . . . 4570\n945.5(a). . . . . . . . . . . . . . . . . . . . . . . .4572\n945.5(b). . . . . . . . . . . . . . . . . . . . . . . .4573\n945.5(c). . . . . . . . . . . . . . . . . . . . . . . .4575\n945.5(d). . . . . . . . . . . . . . . . . . . . . . . .4574\n1052 . . . . . . . . . . . . . . . . . . . . . . . 326, 327",
+  "tags": [
+    "common_carrier"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

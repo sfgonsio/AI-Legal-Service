@@ -1,0 +1,9 @@
+{
+  "code": "EVID",
+  "section": "710",
+  "title": "Oath or Affirmation Required",
+  "text": "Every witness before testifying shall take an oath or make an affirmation or declaration in the form provided by law, except that a child under the age of 10 or a dependent person with a substantial cognitive impairment, in the court's discretion, may be required only to promise to tell the truth.",
+  "tags": ["oath", "affirmation", "witness", "testimony", "foundation"],
+  "structure": {"division": "6", "division_title": "Witnesses", "chapter": "2", "chapter_title": "Oath and Confrontation"},
+  "source": {"type": "ca_legislature", "jurisdiction": "California", "url": "https://leginfo.legislature.ca.gov", "editorial_note": "Amended by Stats. 2004, Ch. 823, Sec. 3. Effective January 1, 2005."}
+}

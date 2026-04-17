@@ -1,0 +1,21 @@
+{
+  "code": "CACI",
+  "instruction_id": "553",
+  "title": "Affirmative Defense\u2014Emotional State of Patient",
+  "series": "500",
+  "series_title": "Medical Negligence",
+  "text": "[Name of defendant ] claims that [he/she/ nonbinary pronoun] did not have\nto inform [ name of plaintiff ] of the risks of the [ insert medical procedure ].\n[A/An] [ insert type of medical practitioner ] does not have to provide\ninformation about risks if the information will so seriously upset the\npatient that the patient will not be able to reasonably consider the risks\nof refusing to have the medical procedure.\nIf [ name of defendant ] has proved that [ name of plaintiff ] would have been\nso seriously upset by being told of the risks that [he/she/ nonbinary\npronoun] would not have been able to reasonably consider the risks of\nrefusing to have the [ insert medical procedure ], then [ name of defendant ]\nwas not required to inform [ name of plaintiff ] of the risks.\nNew September 2003",
+  "tags": [
+    "medical",
+    "medical_negligence"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "\u201cWhenever appropriate, the court should instruct the jury on the defenses available\nto a doctor who has failed to make the disclosure required by law.\u201d ( Cobbs v. Grant\n(1972) 8 Cal.3d 229, 245 [104 Cal.Rptr. 505, 502 P .2d 1].) This instruction could be\nmodi\ufb01ed to cover \u201cinformed refusal\u201d cases by redrafting it to state, in substance,\nthat the information regarding the risks of refusing the test would have seriously\nupset the patient.",
+  "sources_and_authority": "\u2022 \u201cA disclosure need not be made beyond that required within the medical\ncommunity when a doctor can prove by a preponderance of the evidence he\nrelied upon facts which would demonstrate to a reasonable man the disclosure\nwould have so seriously upset the patient that the patient would not have been\nable to dispassionately weigh the risks of refusing to undergo the recommended\ntreatment.\u201d ( Cobbs, supra, 8 Cal.3d at p. 246.)\n\u2022 This defense is considered a \u201cjusti\ufb01cation.\u201d Justi\ufb01cation for failure to disclose is\nan affirmative defense on which the defendant has the burden of proof. ( Mathis\nv. Morrissey (1992) 11 Cal.App.4th 332, 347, fn. 9 [13 Cal.Rptr.2d 819].)"
+}

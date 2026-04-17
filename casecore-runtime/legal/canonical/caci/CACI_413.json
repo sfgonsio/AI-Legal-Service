@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "413",
+  "title": "Custom or Practice",
+  "series": "400",
+  "series_title": "Negligence",
+  "text": "Y ou may consider customs or practices in the community in deciding\nwhether [ name of plaintiff/defendant ] acted reasonably. Customs and\npractices do not necessarily determine what a reasonable person would\nhave done in [ name of plaintiff/defendant ]\u2019s situation. They are only\nfactors for you to consider.\nFollowing a custom or practice does not excuse conduct that is\nunreasonable. Y ou should consider whether the custom or practice itself\nis reasonable.\nNew September 2003",
+  "tags": [
+    "negligence"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "An instruction stating that evidence of custom is not controlling on the issue of\nstandard of care should not be given in professional malpractice cases in which\nexpert testimony is used to set the standard of care. (See Osborn v. Irwin Memorial\nBlood Bank (1992) 5 Cal.App.4th 234, 277 [7 Cal.Rptr.2d 101].) The instruction\nmay be used if the standard of care is within common knowledge. (See Leonard v.\nWatsonville Community Hospital (1956) 47 Cal.2d 509, 519 [305 P .2d 36].)\nThis instruction is also inappropriate in cases involving strict liability ( Titus v.\nBethlehem Steel Corp. (1979) 91 Cal.App.3d 372, 378 [154 Cal.Rptr. 122]) or cases\ninvolving negligence in the use of public roads ( Shuff v. Irwindale Trucking Co.\n(1976) 62 Cal.App.3d 180, 187 [132 Cal.Rptr. 897]).",
+  "sources_and_authority": "\u2022 Evidence of custom and practice is relevant, but not conclusive, on the issue of\nthe standard of care in cases of ordinary negligence. ( Holt v. Department of\nFood and Agriculture (1985) 171 Cal.App.3d 427, 435 [218 Cal.Rptr. 1].)\n\u2022 Restatement Second of Torts, section 295A, provides: \u201cIn determining whether\nconduct is negligent, the customs of the community, or of others under like\ncircumstances, are factors to be taken into account, but are not controlling where\na reasonable man would not follow them.\u201d"
+}

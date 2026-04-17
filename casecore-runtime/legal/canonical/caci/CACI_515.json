@@ -1,0 +1,18 @@
+{
+  "code": "CACI",
+  "instruction_id": "515",
+  "title": ". . . . . . . . . . . . . . . . . . . . . .2720, 2721",
+  "series": "500",
+  "series_title": "Medical Negligence",
+  "text": "515(a) . . . . . . . . . . . . . . . . . . . . . 2720, 2721\n515(d). . . . . . . . . . . . . . . . . . . . . . . . .2702\n880 to 890 . . . . . . . . . . . . . . . . . . . 2760, 2765\n970 . . . . . . . . . . . . . . . . . . . . . . . . . . 2710\n971 . . . . . . . . . . . . . . . . . . . . . . . . . . 2710\n972 . . . . . . . . . . . . . . . . . . . . . . . . . . 2710",
+  "tags": [
+    "medical_negligence"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

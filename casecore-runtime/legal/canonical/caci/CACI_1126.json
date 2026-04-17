@@ -1,0 +1,18 @@
+{
+  "code": "CACI",
+  "instruction_id": "1126",
+  "title": "Failure to Warn of a Dangerous Roadway Condition Resulting From an Approved",
+  "series": "1100",
+  "series_title": "Products Liability",
+  "text": "Design\u2014Essential Factual Elements\n1127\u20131199. Reserved for Future Use\nVF-1100. Dangerous Condition of Public Property\nVF-1101. Dangerous Condition of Public Property\u2014Affirmative Defense\u2014Reasonable Act\nor Omission (Gov. Code, \u00a7 835.4)\nVF-1102\u2013VF-1199. Reserved for Future Use\nSERIES 1200 PRODUCTS LIABILITY",
+  "tags": [
+    "products_liability"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

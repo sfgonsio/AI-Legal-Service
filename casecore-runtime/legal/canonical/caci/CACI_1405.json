@@ -1,0 +1,22 @@
+{
+  "code": "CACI",
+  "instruction_id": "1405",
+  "title": "False Arrest With Warrant\u2014Essential Factual Elements",
+  "series": "1400",
+  "series_title": "Assault and Battery",
+  "text": "[Name of plaintiff ] claims that [he/she/ nonbinary pronoun] was wrongfully\narrested by [ name of defendant ]. To establish this claim, [ name of plaintiff ]\nmust prove all of the following:\n1. [That [ name of defendant ] arrested [ name of plaintiff ];]\n1. [or]\n1. [That [ name of defendant ] intentionally caused [ name of plaintiff ] to\nbe wrongfully arrested;]\n2. That [ insert facts supporting the invalidity of the warrant or the\nunlawfulness of the arrest, e.g., \u201cthe warrant for [name of plaintiff]\u2019s\narrest had expired\u201d ];\n3. That [ name of plaintiff ] was [actually] harmed; and\n4. That [ name of defendant ]\u2019s conduct was a substantial factor in\ncausing [ name of plaintiff ]\u2019s harm.\nNew September 2003; Revised December 2011",
+  "tags": [
+    "assault",
+    "battery",
+    "wrongful"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "CACI No. 1406, False Arrest With Warrant\u2014Peace Off\u0131cer\u2014Aff\u0131rmative\nDefense\u2014\u201cGood-Faith\u201d Exception , should be given after this instruction if that\ndefense is asserted.\nIf the plaintiff is seeking nominal damages as an alternative to actual damages,\ninsert the following paragraph above element 3:\nIf you \ufb01nd both of the above, then the law assumes that [ name of plaintiff ] has\nbeen harmed and [he/she/ nonbinary pronoun] is entitled to a nominal sum such\nas one dollar. [ Name of plaintiff ] is also entitled to additional damages if [he/\nshe/nonbinary pronoun] proves the following:\nThe second sentence of the above paragraph, along with the \ufb01nal two elements of\nthis instruction, should be omitted if plaintiff is seeking nominal damages only.\nRead \u201cactually\u201d in the third element only if nominal damages are also being sought.",
+  "sources_and_authority": "\u2022 Penal Code section 834.\n\u2022 Public Employee Liability for False Arrest. Government Code section 820.4.\n\u2022 \u201cFalse arrest and false imprisonment are the same tort. False arrest is a way of\ncommitting false imprisonment.\u201d ( Cox v. Griff\u0131n (2019) 34 Cal.App.5th 440, 446,\nfn. 6 [246 Cal.Rptr.3d 185].)\n\u2022 \u201c \u2018The action for false imprisonment is frequently alleged to have been\n902\n\ncommitted by reason of some wrongful arrest under some pretended or void\norder of some court, in which class of false imprisonment cases it is incumbent\non the plaintiff to allege facts showing or tending to show that such arrest, under\nsuch court procedure, was wrongful, unauthorized and without any probable\ncause; . . . .\u2019 \u201d ( Peters v. Bigelow (1934) 137 Cal.App. 135, 139 [30 P .2d 450].)"
+}

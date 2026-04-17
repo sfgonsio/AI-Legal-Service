@@ -1,0 +1,22 @@
+{
+  "code": "CACI",
+  "instruction_id": "307",
+  "title": "Contract Formation\u2014Offer",
+  "series": "300",
+  "series_title": "Negligence\u2014Essential Factual Elements",
+  "text": "Both an offer and an acceptance are required to create a contract. [ Name\nof defendant ] contends that a contract was not created because there was\nnever any offer. To overcome this contention, [ name of plaintiff ] must\nprove all of the following:\n1. That [ name of plaintiff ] communicated to [ name of defendant ] that\n[he/she/nonbinary pronoun /it] was willing to enter into a contract\nwith [ name of defendant ];\n2. That the communication contained speci\ufb01c terms; and\n3. That, based on the communication, [ name of defendant ] could have\nreasonably concluded that a contract with these terms would\nresult if [he/she/ nonbinary pronoun /it] accepted the offer.\nIf [ name of plaintiff ] did not prove all of the above, then a contract was\nnot created.\nNew September 2003; Revised May 2020",
+  "tags": [
+    "contract",
+    "essential_elements",
+    "negligence"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "Do not give this instruction unless the defendant has testi\ufb01ed or offered other\nevidence in support of the contention there was never any offer.\nThis instruction assumes that the defendant is claiming the plaintiff never made an\noffer. Change the identities of the parties in the indented paragraphs if, under the\nfacts of the case, the roles of the parties are switched (e.g., if defendant was the\nalleged offeror). If the existence of an offer is not contested, then this instruction is\nunnecessary.",
+  "sources_and_authority": "\u2022 Courts have adopted the de\ufb01nition of \u201coffer\u201d found at Restatement Second of\nContracts, section 24: \u201cAn offer is the manifestation of willingness to enter into\na bargain, so made as to justify another person in understanding that his assent\nto that bargain is invited and will conclude it.\u201d ( City of Moorpark v. Moorpark\nUni\ufb01ed School Dist. (1991) 54 Cal.3d 921, 930 [1 Cal.Rptr.2d 896, 819 P .2d\n854].)\n\u2022 Under basic contract law \u201c \u2018[a]n offer must be sufficiently de\ufb01nite, or must call\nfor such de\ufb01nite terms in the acceptance that the performance promised is\nreasonably certain.\u2019 \u201d ( Ladas v. California State Automobile Assn. (1993) 19\nCal.App.4th 761, 770 [23 Cal.Rptr.2d 810].)\n\u2022 \u201cThe trier of fact must determine \u2018whether a reasonable person would\nnecessarily assume . . . a willingness to enter into contract.\u2019 [Citation.]\u201d ( In re\n102\n\nFirst Capital Life Insurance Co. (1995) 34 Cal.App.4th 1283, 1287 [40\nCal.Rptr.2d 816].)\n\u2022 Offers should be contrasted with preliminary negotiations: \u201cPreliminary\nnegotiations or an agreement for future negotiations are not the functional\nequivalent of a valid, subsisting agreement.\u201d ( Kruse v. Bank of America (1988)\n202 Cal.App.3d 38, 59 [248 Cal.Rptr. 217].)"
+}

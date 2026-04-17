@@ -1,0 +1,21 @@
+{
+  "code": "BPC",
+  "section": "26229.2",
+  "title": "Section 26229.2",
+  "text": "Any association may become a member or stockholder of any other association. (Added by Stats. 2017, Ch. 27, Sec. 107. (SB 94) Effective June 27, 2017.)",
+  "tags": [
+    "cannabis"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Cannabis",
+    "chapter": "3",
+    "chapter_title": "Enforcement"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Scraped from authority_store raw data."
+  }
+}

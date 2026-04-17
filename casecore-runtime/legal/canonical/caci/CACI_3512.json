@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "3512",
+  "title": "Severance Damages\u2014Offset for Bene\ufb01ts",
+  "series": "3500",
+  "series_title": "Construction Law",
+  "text": "The [ name of condemnor ] claims that the remainder of [ name of property\nowner]\u2019s property has received a bene\ufb01t from the project as proposed.\nY ou must determine the amount of bene\ufb01t by determining any\nreasonably certain increase in the fair market value of the remaining\nproperty caused by the project.\n[Y ou must then subtract that amount from the severance damages. If the\nproject\u2019s bene\ufb01t to the remaining property is equal to or greater than\nthe loss caused by the taking, then you must award zero severance\ndamages. Any bene\ufb01ts to the remaining property should not be\nsubtracted from the value of the property that [ name of condemnor ] has\ntaken.]\nNew September 2003",
+  "tags": [
+    "damages"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "A special verdict form may be used to have the jury set forth separately the\ndetermination of severance damages and bene\ufb01ts. Use the bracketed paragraph if the\njudge will not be calculating the offset to severance damages for the bene\ufb01t to the\nremaining property.",
+  "sources_and_authority": "\u2022 Compensation for Remainder After Severance. Code of Civil Procedure section\n1263.410.\n\u2022 \u201cBene\ufb01t to Remainder\u201d De\ufb01ned. Code of Civil Procedure section 1263.430.\n\u2022 Functions of Trier of Fact. Code of Civil Procedure section 1260.230."
+}

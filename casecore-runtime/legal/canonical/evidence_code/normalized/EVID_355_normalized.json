@@ -1,0 +1,44 @@
+{
+  "section_id": "EC-355",
+  "code": "EVID",
+  "section": "355",
+  "title": "Limited Admissibility of Evidence",
+  "text": "When evidence is admissible as to one party or for one purpose and is inadmissible as to another party or for another purpose, the court upon request shall restrict the evidence to its proper scope and instruct the jury accordingly.",
+  "notes": null,
+  "rule_type": "admissibility",
+  "rule_type_confidence": "heuristic",
+  "applies_to": [],
+  "evidentiary_standard": null,
+  "foundation_requirements": [],
+  "cross_refs": [],
+  "coa_relevance": [],
+  "exclusion_grounds": [],
+  "tags": [
+    "admissibility",
+    "limited_admissibility",
+    "jury_instruction",
+    "scope_limitation",
+    "intake_critical",
+    "trial_relevant"
+  ],
+  "structure": {
+    "division": "3",
+    "division_title": "General Provisions",
+    "chapter": null,
+    "chapter_title": null,
+    "article": null,
+    "article_title": null
+  },
+  "canonical_type": "source",
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": null
+  },
+  "effective_date": null,
+  "schema_version": "1.0",
+  "pass1_complete": true,
+  "pass2_complete": false,
+  "source_file": "EVID_355.json"
+}

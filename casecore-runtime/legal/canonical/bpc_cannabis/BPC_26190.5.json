@@ -1,0 +1,23 @@
+{
+  "code": "BPC",
+  "section": "26190.5",
+  "title": "Section 26190.5",
+  "text": "The department shall contract with the California Cannabis Research Program, known as the Center for Medicinal Cannabis Research, and formerly known as the California Marijuana Research Program, authorized pursuant to Section 11362.9 of the Health and Safety Code, to develop a study that identifies the impact that cannabis has on motor skills. (Amended by Stats. 2021, Ch. 70, Sec. 83. (AB 141) Effective July 12, 2021.)",
+  "tags": [
+    "medical",
+    "adult_use",
+    "cannabis"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Cannabis",
+    "chapter": "19",
+    "chapter_title": "Annual Reports; Performance Audit"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Scraped from authority_store raw data."
+  }
+}

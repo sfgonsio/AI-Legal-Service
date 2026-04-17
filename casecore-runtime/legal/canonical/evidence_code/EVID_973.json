@@ -1,0 +1,26 @@
+{
+  "code": "EVID",
+  "section": "973",
+  "title": "Waiver of Marital Testimony Privilege",
+  "text": "(a) Unless erroneously compelled to do so, a married person who testifies in a proceeding to which his spouse is a party, or who testifies against his spouse in any proceeding, does not have a privilege under this article in the proceeding in which such testimony is given.\n(b) There is no privilege under this article in a civil proceeding brought or defended by a married person for the immediate benefit of his spouse or of himself and his spouse.",
+  "tags": [
+    "privilege",
+    "marital",
+    "waiver",
+    "civil_proceeding"
+  ],
+  "structure": {
+    "division": "8",
+    "division_title": "Privileges",
+    "chapter": "4",
+    "chapter_title": "Particular Privileges",
+    "article": "4",
+    "article_title": "Privilege Not to Testify Against Spouse"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

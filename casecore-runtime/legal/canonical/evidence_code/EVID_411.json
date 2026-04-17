@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "411",
+  "title": "Sufficiency of One Witness",
+  "text": "Except where additional evidence is required by statute, the direct evidence of one witness who is entitled to full credit is sufficient for proof of any fact.",
+  "tags": ["weight_of_evidence", "sufficiency", "witness"],
+  "structure": {
+    "division": "3",
+    "division_title": "General Provisions",
+    "chapter": "5",
+    "chapter_title": "Weight of Evidence Generally",
+    "article": "",
+    "article_title": ""
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

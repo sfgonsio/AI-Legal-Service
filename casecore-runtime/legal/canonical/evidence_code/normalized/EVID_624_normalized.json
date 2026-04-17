@@ -1,0 +1,43 @@
+{
+  "section_id": "EC-624",
+  "code": "EVID",
+  "section": "624",
+  "title": "Tenant May Not Deny Landlord's Title at Commencement of Relation",
+  "text": "A tenant is not permitted to deny the title of his landlord at the time of the commencement of the relation.",
+  "notes": "Prevents a tenant from denying the landlord's title at the commencement of the landlord-tenant relationship.",
+  "rule_type": "presumption",
+  "rule_type_confidence": "heuristic",
+  "applies_to": [],
+  "evidentiary_standard": null,
+  "foundation_requirements": [],
+  "cross_refs": [],
+  "coa_relevance": [],
+  "exclusion_grounds": [],
+  "tags": [
+    "conclusive_presumption",
+    "tenant",
+    "landlord",
+    "title",
+    "real_property"
+  ],
+  "structure": {
+    "division": "5",
+    "division_title": "Burden of Proof; Burden of Producing Evidence; Presumptions and Inferences",
+    "chapter": "3",
+    "chapter_title": "Presumptions and Inferences",
+    "article": "2",
+    "article_title": "Conclusive Presumptions"
+  },
+  "canonical_type": "source",
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "(Enacted by Stats. 1965, Ch. 299.)"
+  },
+  "effective_date": null,
+  "schema_version": "1.0",
+  "pass1_complete": true,
+  "pass2_complete": false,
+  "source_file": "EVID_624.json"
+}

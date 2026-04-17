@@ -1,0 +1,24 @@
+{
+  "code": "BPC",
+  "section": "26201",
+  "title": "Section 26201",
+  "text": "Any standards, requirements, and regulations regarding health and safety, environmental protection, testing, security, food safety, and worker protections established by the state shall be the minimum standards for all licensees under this division statewide. A local jurisdiction may establish additional standards, requirements, and regulations. (Added November 8, 2016, by initiative Proposition 64, Sec. 6.1.)",
+  "tags": [
+    "testing",
+    "local_control",
+    "licensing",
+    "cannabis"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Cannabis",
+    "chapter": "20",
+    "chapter_title": "Local Control"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Scraped from authority_store raw data."
+  }
+}

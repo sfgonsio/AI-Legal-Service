@@ -1,0 +1,22 @@
+{
+  "code": "CACI",
+  "instruction_id": "357",
+  "title": "Seller\u2019s Damages for Breach of Contract to Purchase Real Property",
+  "series": "300",
+  "series_title": "Negligence\u2014Essential Factual Elements",
+  "text": "358. Mitigation of Damages\n359. Present Cash Value of Future Damages\n360. Nominal Damages\n361. Reliance Damages\n362\u2013369. Reserved for Future Use",
+  "tags": [
+    "breach",
+    "contract",
+    "damages",
+    "essential_elements",
+    "negligence"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "code": "EVID",
+  "section": "1004",
+  "title": "Exception — Commitment Proceeding",
+  "text": "There is no privilege under this article in a proceeding to commit the patient or otherwise place him or his property, or both, under the control of another because of his alleged mental or physical condition.",
+  "tags": [
+    "privilege",
+    "physician_patient",
+    "exception",
+    "commitment"
+  ],
+  "structure": {
+    "division": "8",
+    "division_title": "Privileges",
+    "chapter": "4",
+    "chapter_title": "Particular Privileges",
+    "article": "6",
+    "article_title": "Physician-Patient Privilege"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

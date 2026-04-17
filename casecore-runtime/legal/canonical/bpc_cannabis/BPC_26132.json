@@ -1,0 +1,23 @@
+{
+  "code": "BPC",
+  "section": "26132",
+  "title": "Section 26132",
+  "text": "Manufacturing Level 2 licensees shall enact sufficient methods or procedures to capture or otherwise limit risk of explosion, combustion, or any other unreasonably dangerous risk to public safety created by volatile solvents. The department shall establish minimum standards concerning such methods and procedures for Level 2 licensees. (Added by renumbering Section 26105 by Stats. 2021, Ch. 70, Sec. 63. (AB 141) Effective July 12, 2021.) BPC Business and Professions Code - BPC",
+  "tags": [
+    "manufacturing",
+    "licensing",
+    "cannabis"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Cannabis",
+    "chapter": "13",
+    "chapter_title": "Manufacturers and Cannabis Products"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Scraped from authority_store raw data."
+  }
+}

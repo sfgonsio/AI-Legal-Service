@@ -1,0 +1,10 @@
+﻿{
+  "id": "ENT-001",
+  "matter_id": "MTR-001",
+  "artifact_type": "ENTITY",
+  "schema_version": "1.0.0",
+  "name": "Acme Supply LLC",
+  "entity_type": "organization",
+  "aliases": ["Acme"],
+  "created_at": "2026-03-19T12:00:00Z"
+}

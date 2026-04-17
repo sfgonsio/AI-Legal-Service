@@ -1,0 +1,24 @@
+CASECORE_SBX_ANTHROPIC
+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
+
+CASECORE_SBX_OPENAI
+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
+
+ANTHROPIC for CaseCore
+Name: ANTHROPIC_API_KEY
+Key: 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
+create a new key at - https://platform.claude.com/settings/keys
+
+
+DROPBOX
+CaseCore
+App Key: 2ixgz9f2967mvh1
+App Secrete: yawwmbt0z9absz9
+
+GITHUB: CASECORE_DESIGN-SYSTEM
+Token:  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
+
+
+Backend: https://casecore.onrender.com (Render, Python/FastAPI)
+Frontend: https://casecore-exxnt.vercel.app (Vercel, Vite/React)
+Repo: https://github.com/sfgonsio/casecore

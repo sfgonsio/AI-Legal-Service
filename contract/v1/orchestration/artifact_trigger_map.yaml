@@ -1,0 +1,463 @@
+map_name: artifact_trigger_map
+version: v1
+status: active
+
+description: >
+  Defines how governed artifacts are triggered from program completions,
+  agent outputs, and workflow state changes. This map operationalizes the
+  DIKW progression by converting canonical analysis outputs into attorney-
+  facing artifacts under governed conditions.
+
+defaults:
+  attorney_review_required: true
+  lineage_required: true
+  silent_regeneration_allowed: false
+  release_requires_attorney_approval: true
+
+trigger_mappings:
+
+# =========================================================
+# INTAKE ARTIFACTS
+# =========================================================
+
+  - trigger_id: trg_case_perspective_on_intake_validation_complete
+    trigger_event: intake_validation_complete
+    trigger_source_type: workflow_state_change
+    trigger_source: interview_workflow_controller
+    artifact_type_id: case_perspective
+    artifact_lane: assembly
+    artifact_producer_type: ai_agent
+    artifact_generator: agent_INTERVIEW_AGENT
+    preconditions:
+      - client_validation_record_exists
+      - coverage_threshold_met
+      - run_id_present
+    inputs:
+      canonical:
+        - intake_transcript.jsonl
+        - case_metadata
+      optional:
+        - uploaded_client_files
+        - approved_question_pack_version
+    output_contract:
+      artifact_status_on_create: generated
+      lineage_mode: intake_source_bound
+      attorney_action: review
+    stale_on:
+      - intake_clarification_added
+      - client_validation_reopened
+      - source_intake_reprocessing
+
+  - trigger_id: trg_coverage_status_on_intake_validation_complete
+    trigger_event: intake_validation_complete
+    trigger_source_type: workflow_state_change
+    trigger_source: interview_workflow_controller
+    artifact_type_id: coverage_status
+    artifact_lane: assembly
+    artifact_producer_type: deterministic_program
+    artifact_generator: intake_compilation_pipeline_v1
+    preconditions:
+      - coverage_threshold_evaluated
+      - run_id_present
+    inputs:
+      canonical:
+        - intake_transcript.jsonl
+        - case_metadata
+    output_contract:
+      artifact_status_on_create: generated
+      lineage_mode: intake_source_bound
+      attorney_action: review
+    stale_on:
+      - intake_clarification_added
+      - coverage_rule_change
+
+  - trigger_id: trg_issues_for_review_on_intake_contradictions_detected
+    trigger_event: intake_contradictions_detected
+    trigger_source_type: ai_agent
+    trigger_source: agent_INTERVIEW_AGENT
+    artifact_type_id: issues_for_review
+    artifact_lane: proposal
+    artifact_producer_type: ai_agent
+    artifact_generator: agent_INTERVIEW_AGENT
+    preconditions:
+      - contradiction_candidates_exist
+      - run_id_present
+    inputs:
+      canonical:
+        - intake_transcript.jsonl
+    output_contract:
+      artifact_status_on_create: generated
+      lineage_mode: intake_source_bound
+      attorney_action: review
+    stale_on:
+      - intake_clarification_added
+      - contradiction_resolution_recorded
+
+# =========================================================
+# FACT NORMALIZATION ARTIFACTS
+# =========================================================
+
+  - trigger_id: trg_fact_matrix_on_fact_normalization_complete
+    trigger_event: fact_normalization_complete
+    trigger_source_type: deterministic_program
+    trigger_source: program_FACT_NORMALIZATION
+    artifact_type_id: fact_matrix
+    artifact_lane: assembly
+    artifact_producer_type: deterministic_program
+    artifact_generator: program_FACT_NORMALIZATION
+    preconditions:
+      - normalized_facts_exist
+      - source_documents_linked
+      - run_id_present
+    inputs:
+      canonical:
+        - EVIDENCE_FACTS.json
+      optional:
+        - TAG_ASSIGNMENTS.json
+    output_contract:
+      artifact_status_on_create: generated
+      lineage_mode: canonical_hash_bound
+      attorney_action: review
+    stale_on:
+      - fact_update
+      - fact_deletion
+      - source_document_reprocessing
+
+# =========================================================
+# MAPPING ARTIFACTS
+# =========================================================
+
+  - trigger_id: trg_fact_evidence_matrix_on_mapping_analysis_complete
+    trigger_event: mapping_analysis_complete
+    trigger_source_type: hybrid_workflow
+    trigger_source: agent_MAPPING_AGENT_plus_program_COMPOSITE_ENGINE
+    artifact_type_id: fact_evidence_matrix
+    artifact_lane: assembly
+    artifact_producer_type: hybrid_workflow
+    artifact_generator: agent_MAPPING_AGENT
+    preconditions:
+      - approved_fact_pattern_exists
+      - approved_case_lens_exists
+      - evidence_index_exists
+      - run_id_present
+    inputs:
+      canonical:
+        - FACT_PATTERN.json
+        - EVIDENCE_OBJECTS.json
+        - EVIDENCE_TEXT_INDEX.json
+        - RESOLVED_ENTITY_INDEX.json
+    output_contract:
+      artifact_status_on_create: generated
+      lineage_mode: mixed_canonical_and_artifact_lineage
+      attorney_action: review
+    stale_on:
+      - fact_update
+      - evidence_reprocessing
+      - case_lens_change
+      - mapping_rerun
+
+  - trigger_id: trg_conflict_candidates_on_mapping_analysis_complete
+    trigger_event: mapping_analysis_complete
+    trigger_source_type: ai_agent
+    trigger_source: agent_MAPPING_AGENT
+    artifact_type_id: conflict_candidates
+    artifact_lane: proposal
+    artifact_producer_type: ai_agent
+    artifact_generator: agent_MAPPING_AGENT
+    preconditions:
+      - mapping_conflict_detection_complete
+      - run_id_present
+    inputs:
+      canonical:
+        - FACT_PATTERN.json
+        - EVIDENCE_TEXT_INDEX.json
+      governed_artifacts:
+        - fact_evidence_matrix
+    output_contract:
+      artifact_status_on_create: generated
+      lineage_mode: mixed_canonical_and_artifact_lineage
+      attorney_action: review
+    stale_on:
+      - fact_update
+      - evidence_reprocessing
+      - mapping_rerun
+
+  - trigger_id: trg_negative_findings_on_mapping_analysis_complete
+    trigger_event: mapping_analysis_complete
+    trigger_source_type: hybrid_workflow
+    trigger_source: agent_MAPPING_AGENT_plus_program_TAGGING_ENGINE
+    artifact_type_id: negative_findings
+    artifact_lane: assembly
+    artifact_producer_type: hybrid_workflow
+    artifact_generator: agent_MAPPING_AGENT
+    preconditions:
+      - mapping_gap_detection_complete
+      - run_id_present
+    inputs:
+      canonical:
+        - FACT_PATTERN.json
+        - EVIDENCE_TEXT_INDEX.json
+      governed_artifacts:
+        - fact_evidence_matrix
+    output_contract:
+      artifact_status_on_create: generated
+      lineage_mode: mixed_canonical_and_artifact_lineage
+      attorney_action: review
+    stale_on:
+      - fact_update
+      - evidence_reprocessing
+      - mapping_rerun
+
+  - trigger_id: trg_evidence_coverage_report_on_mapping_analysis_complete
+    trigger_event: mapping_analysis_complete
+    trigger_source_type: hybrid_workflow
+    trigger_source: agent_MAPPING_AGENT_plus_program_TAGGING_ENGINE
+    artifact_type_id: evidence_coverage_report
+    artifact_lane: assembly
+    artifact_producer_type: hybrid_workflow
+    artifact_generator: agent_MAPPING_AGENT
+    preconditions:
+      - mapping_coverage_evaluation_complete
+      - run_id_present
+    inputs:
+      canonical:
+        - FACT_PATTERN.json
+        - EVIDENCE_OBJECTS.json
+        - EVIDENCE_TEXT_INDEX.json
+      governed_artifacts:
+        - fact_evidence_matrix
+    output_contract:
+      artifact_status_on_create: generated
+      lineage_mode: mixed_canonical_and_artifact_lineage
+      attorney_action: review
+    stale_on:
+      - fact_update
+      - evidence_reprocessing
+      - mapping_rerun
+
+# =========================================================
+# TIMELINE ARTIFACT
+# =========================================================
+
+  - trigger_id: trg_master_timeline_on_event_candidates_confirmed
+    trigger_event: event_candidates_confirmed
+    trigger_source_type: deterministic_program
+    trigger_source: program_COMPOSITE_ENGINE
+    artifact_type_id: master_timeline
+    artifact_lane: assembly
+    artifact_producer_type: deterministic_program
+    artifact_generator: program_COMPOSITE_ENGINE
+    preconditions:
+      - event_candidates_exist
+      - chronology_resolved
+      - run_id_present
+    inputs:
+      canonical:
+        - EVENT_CANDIDATES.json
+        - EVIDENCE_FACTS.json
+    output_contract:
+      artifact_status_on_create: generated
+      lineage_mode: canonical_hash_bound
+      attorney_action: review
+    stale_on:
+      - event_update
+      - chronology_rebuild
+
+# =========================================================
+# COA ARTIFACTS
+# =========================================================
+
+  - trigger_id: trg_element_proof_chart_on_coa_selected
+    trigger_event: coa_selected
+    trigger_source_type: deterministic_program
+    trigger_source: program_COA_ENGINE
+    artifact_type_id: element_proof_chart
+    artifact_lane: assembly
+    artifact_producer_type: deterministic_program
+    artifact_generator: program_COA_ENGINE
+    preconditions:
+      - selected_coa_present
+      - coverage_matrix_exists
+      - run_id_present
+    inputs:
+      canonical:
+        - COA_ELEMENT_COVERAGE_MATRIX.json
+        - EVIDENCE_FACTS.json
+    output_contract:
+      artifact_status_on_create: generated
+      lineage_mode: canonical_hash_bound
+      attorney_action: validate
+    stale_on:
+      - coverage_matrix_update
+      - fact_update
+      - coa_selection_change
+
+# =========================================================
+# CASE THEORY ARTIFACT
+# =========================================================
+
+  - trigger_id: trg_case_theory_memo_on_element_analysis_complete
+    trigger_event: element_analysis_complete
+    trigger_source_type: hybrid_workflow
+    trigger_source: program_COA_ENGINE_plus_agent_COA_REASONER
+    artifact_type_id: case_theory_memo
+    artifact_lane: proposal
+    artifact_producer_type: ai_agent
+    artifact_generator: agent_COA_REASONER
+    preconditions:
+      - coverage_matrix_exists
+      - proof_chart_exists
+      - run_id_present
+    inputs:
+      canonical:
+        - COA_ELEMENT_COVERAGE_MATRIX.json
+        - EVIDENCE_FACTS.json
+      proposal_support:
+        - element_proof_chart
+        - master_timeline
+    output_contract:
+      artifact_status_on_create: generated
+      lineage_mode: mixed_canonical_and_artifact_lineage
+      attorney_action: validate
+    stale_on:
+      - coverage_matrix_update
+      - proof_chart_regeneration
+
+# =========================================================
+# OPPOSITION ANALYSIS
+# =========================================================
+
+  - trigger_id: trg_opposition_weakness_map_on_case_theory_approved
+    trigger_event: case_theory_approved
+    trigger_source_type: workflow_state_change
+    trigger_source: attorney_review_workflow
+    artifact_type_id: opposition_weakness_map
+    artifact_lane: proposal
+    artifact_producer_type: ai_agent
+    artifact_generator: OPPOSITION_AGENT
+    preconditions:
+      - case_theory_memo_approved
+      - element_proof_chart_exists
+      - run_id_present
+    inputs:
+      canonical:
+        - COA_ELEMENT_COVERAGE_MATRIX.json
+        - EVIDENCE_FACTS.json
+      governed_artifacts:
+        - case_theory_memo
+        - element_proof_chart
+        - master_timeline
+    output_contract:
+      artifact_status_on_create: generated
+      lineage_mode: mixed_canonical_and_artifact_lineage
+      attorney_action: review
+    stale_on:
+      - case_theory_memo_superseded
+      - proof_chart_regeneration
+
+  - trigger_id: trg_opposition_strategy_map_on_opposition_analysis_requested
+    trigger_event: opposition_analysis_requested
+    trigger_source_type: workflow_state_change
+    trigger_source: attorney_review_workflow
+    artifact_type_id: opposition_strategy_map
+    artifact_lane: proposal
+    artifact_producer_type: ai_agent
+    artifact_generator: OPPOSITION_AGENT
+    preconditions:
+      - opposition_scope_defined
+      - element_proof_chart_exists
+      - run_id_present
+    inputs:
+      canonical:
+        - COA_ELEMENT_COVERAGE_MATRIX.json
+        - EVIDENCE_FACTS.json
+      governed_artifacts:
+        - opposition_weakness_map
+        - case_theory_memo
+    output_contract:
+      artifact_status_on_create: generated
+      lineage_mode: mixed_canonical_and_artifact_lineage
+      attorney_action: review
+    stale_on:
+      - opposition_scope_change
+      - weakness_map_regeneration
+
+  - trigger_id: trg_tactical_playbook_on_opposition_analysis_complete
+    trigger_event: opposition_analysis_complete
+    trigger_source_type: ai_agent
+    trigger_source: OPPOSITION_AGENT
+    artifact_type_id: tactical_playbook
+    artifact_lane: assembly
+    artifact_producer_type: ai_agent
+    artifact_generator: OPPOSITION_AGENT
+    preconditions:
+      - opposition_weakness_map_exists
+      - opposition_strategy_map_exists
+      - run_id_present
+    inputs:
+      canonical:
+        - COA_ELEMENT_COVERAGE_MATRIX.json
+        - EVIDENCE_FACTS.json
+      governed_artifacts:
+        - opposition_weakness_map
+        - opposition_strategy_map
+    output_contract:
+      artifact_status_on_create: generated
+      lineage_mode: mixed_canonical_and_artifact_lineage
+      attorney_action: approve
+    stale_on:
+      - weakness_map_regeneration
+      - strategy_map_regeneration
+
+# =========================================================
+# PLEADING GENERATION
+# =========================================================
+
+  - trigger_id: trg_complaint_draft_on_case_theory_approved
+    trigger_event: case_theory_approved
+    trigger_source_type: workflow_state_change
+    trigger_source: attorney_review_workflow
+    artifact_type_id: complaint_draft
+    artifact_lane: assembly
+    artifact_producer_type: hybrid_workflow
+    artifact_generator: pleading_pipeline_v1
+    preconditions:
+      - case_theory_memo_approved
+      - selected_coa_present
+      - proof_chart_exists
+      - run_id_present
+    inputs:
+      canonical:
+        - COA_ELEMENT_COVERAGE_MATRIX.json
+        - EVIDENCE_FACTS.json
+      governed_artifacts:
+        - case_theory_memo
+        - element_proof_chart
+        - master_timeline
+    output_contract:
+      artifact_status_on_create: generated
+      lineage_mode: mixed_canonical_and_artifact_lineage
+      attorney_action: approve
+    stale_on:
+      - case_theory_memo_superseded
+      - proof_chart_regeneration
+      - coa_selection_change
+
+# =========================================================
+# ENFORCEMENT RULES
+# =========================================================
+
+enforcement_rules:
+  - governed_artifact_must_exist_in_artifact_types_taxonomy
+  - governed_artifact_must_have_registry_schema_support
+  - proposal_lane_outputs_may_not_write_to_canonical_lane
+  - assembly_lane_outputs_may_not_mutate_canonical_artifacts
+  - attorney_edited_artifacts_may_not_be_silently_regenerated
+  - all_triggered_artifacts_must_record_run_id_and_input_hashes
+  - trigger_events_must_resolve_to_workflow_or_program_sources
+  - proposal_lane_outputs_must_not_be_promoted_without_attorney_review
+
+notes:
+  - This file defines orchestration triggers, not final procedural law.
+  - Trigger firing authorizes artifact generation eligibility; it does not bypass attorney review.
+  - Future capability entries reserve workflow space without requiring immediate agent creation.

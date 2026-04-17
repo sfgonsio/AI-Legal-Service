@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "135",
+  "title": "Declarant",
+  "text": "\"Declarant\" is a person who makes a statement.",
+  "tags": ["definitions", "declarant"],
+  "structure": {
+    "division": "2",
+    "division_title": "Words and Phrases Defined",
+    "chapter": "",
+    "chapter_title": "",
+    "article": "",
+    "article_title": ""
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

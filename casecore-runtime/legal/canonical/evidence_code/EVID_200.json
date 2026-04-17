@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "200",
+  "title": "Public Entity",
+  "text": "\"Public entity\" includes a nation, state, county, city and county, city, district, public authority, public agency, or any other political subdivision or public corporation, whether foreign or domestic.",
+  "tags": ["definitions", "public_entity"],
+  "structure": {
+    "division": "2",
+    "division_title": "Words and Phrases Defined",
+    "chapter": "",
+    "chapter_title": "",
+    "article": "",
+    "article_title": ""
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "code": "CACI",
+  "instruction_id": "1249",
+  "title": "Affirmative Defense\u2014Reliance on Knowledgeable Intermediary",
+  "series": "1200",
+  "series_title": "Dangerous Condition of Public Property",
+  "text": "1250\u20131299. Reserved for Future Use\nVF-1200. Strict Products Liability\u2014Manufacturing Defect\u2014Comparative Fault at Issue\nVF-1201. Strict Products Liability\u2014Design Defect\u2014Affirmative Defense\u2014Misuse or\nModi\ufb01cation\nVF-1202. Strict Products Liability\u2014Design Defect\u2014Risk-Bene\ufb01t Test\nVF-1203. Strict Products Liability\u2014Failure to Warn\nVF-1204. Products Liability\u2014Negligence\u2014Comparative Fault of Plaintiff at Issue\nVF-1205. Products Liability\u2014Negligent Failure to Warn\nVF-1206. Products Liability\u2014Express Warranty\u2014Affirmative Defense\u2014Not \u201cBasis of\nBargain\u201d\nVF-1207. Products Liability\u2014Implied Warranty of Merchantability\u2014Affirmative\nDefense\u2014Exclusion of Implied Warranties\nVF-1208. Products Liability\u2014Implied Warranty of Fitness for a Particular Purpose\nVF-1209\u2013VF-1299. Reserved for Future Use\nSERIES 1300 ASSAULT AND BATTERY",
+  "tags": [
+    "dangerous_condition",
+    "negligence"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

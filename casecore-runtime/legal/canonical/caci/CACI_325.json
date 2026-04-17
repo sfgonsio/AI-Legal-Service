@@ -1,0 +1,21 @@
+{
+  "code": "CACI",
+  "instruction_id": "325",
+  "title": "Breach of Implied Covenant of Good Faith and Fair Dealing\u2014Essential Factual",
+  "series": "300",
+  "series_title": "Negligence\u2014Essential Factual Elements",
+  "text": "Elements\n326. Assignment Contested\n327. Assignment Not Contested\n328. Breach of Implied Duty to Perform With Reasonable Care\u2014Essential Factual Elements",
+  "tags": [
+    "breach",
+    "duty",
+    "essential_elements",
+    "negligence"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

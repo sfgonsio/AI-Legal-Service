@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "3924",
+  "title": "No Punitive Damages",
+  "series": "3700",
+  "series_title": "Damages",
+  "text": "Y ou must not include in your award any damages to punish or make an\nexample of [ name of defendant ]. Such damages would be punitive\ndamages, and they cannot be a part of your verdict. Y ou must award\nonly the damages that fairly compensate [ name of plaintiff ] for [his/her/\nnonbinary pronoun/its] loss.\nNew September 2003",
+  "tags": [
+    "damages"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "Do not use this instruction if punitive damages are being sought in the phase of the\ntrial in which these instructions are given.",
+  "sources_and_authority": "\u2022 No Governmental Liability for Punitive Damages. Government Code section\n818.\n\u2022 \u201cPunitive damages are not permitted in wrongful death actions.\u201d ( Cortez v.\nMacias (1980) 110 Cal.App.3d 640, 657 [167 Cal.Rptr. 905].)\n\u2022 \u201c[P]unitive damages are prohibited in an action against a public entity.\u201d ( Pearl v.\nCity of Los Angeles (2019) 36 Cal.App.5th 475, 486 [248 Cal.Rptr.3d 508].)\n\u2022 \u201cThe punitive damages theory cannot be predicated on the breach of contract\ncause of action without an underlying tort.\u201d ( Palmer v. Ted Stevens Honda, Inc.\n(1987) 193 Cal.App.3d 530, 536 [238 Cal.Rptr. 363], internal citations omitted.)\n\u2022 \u201cAn award of punitive damages is not supported by a verdict based on breach of\ncontract, even where the defendant\u2019s conduct in breaching the contract was\nwilful, fraudulent, or malicious. Even in those cases in which a separate tort\naction is alleged, if there is \u2018but one verdict based upon contract\u2019 a punitive\ndamage award is improper.\u201d ( Myers Building Industries, Ltd. v. Interface\nTechnology, Inc. (1993) 13 Cal.App.4th 949, 960 [17 Cal.Rptr.2d 242], internal\ncitations omitted.)"
+}

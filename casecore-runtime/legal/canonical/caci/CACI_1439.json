@@ -1,0 +1,19 @@
+{
+  "code": "CACI",
+  "instruction_id": "1439",
+  "title": ". . . . . . . . . . . . . . . . . .2401, 2420, 2423",
+  "series": "1400",
+  "series_title": "Assault and Battery",
+  "text": "1440 . . . . . . . . . . . . . . . . . . . . . . . . . . 324\n1500. . . . . . . . . . . . . . . . . . . . . . . . . .4327\n1511. . . . . . . . . . . . . . . . . . . . . . . . . .4532\n1511(1) . . . . . . . . . . . . . . . . . . . . . . . . 4532\n1530 . . . . . . . . . . . . . . . . . . . . . . . . . . 337\n1549 . . . . . . . . . . . . . . . . . . . . . . . . . . 303\n1550 . . . . . . . . . . . . . . . . . . . . . . . . . . 302\n1556 . . . . . . . . . . . . . . . . . . . . . . . . . . 302\n1559 . . . . . . . . . . . . . . . . . . . . . . . . . . 301\n1565 . . . . . . . . . . . . . . . . . . . . . . . . . . 302\n1567 . . . . . . . . . . . . 330, 331, 332, 333, 334, 335\n1568 . . . . . . . . . . . . 330, 331, 332, 333, 334, 335\n1569 . . . . . . . . . . . . . . . . . . . . . . . . . . 332\nTABLE OF STATUTES AS\n[References are to the Judicial Council of California Criminal Jury Instructions (CALCRIM), e.g., 1900]\nTS-2\nThis version provided by LexisNexis\u00ae Matthew Bender\u00ae, Official Publisher, 800-533-1637,\nstore.lexisnexis.com, for public and internal court use\n\nCivil Code\u2014Cont.\nSec. Inst.\n1570 . . . . . . . . . . . . . . . . . . . . . . . . . . 332",
+  "tags": [
+    "assault",
+    "battery"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

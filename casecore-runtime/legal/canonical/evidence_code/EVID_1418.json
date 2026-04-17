@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "1418",
+  "title": "Handwriting — Admitted or Proved",
+  "text": "The handwriting of a person may be proved by anyone who has seen the person write, at any time, provided it was not in preparation for the purposes of the litigation.",
+  "tags": ["authentication", "handwriting", "observation"],
+  "structure": {
+    "division": "11",
+    "division_title": "Writings",
+    "chapter": "1",
+    "chapter_title": "Authentication and Proof of Writings",
+    "article": "2",
+    "article_title": "Means of Authenticating and Proving Writings"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

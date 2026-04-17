@@ -1,0 +1,18 @@
+{
+  "code": "CACI",
+  "instruction_id": "4921",
+  "title": "Wrongful Foreclosure\u2014Tender Excused",
+  "series": "4900",
+  "series_title": "Unknown",
+  "text": "4922-4999. Reserved for Future Use\nSERIES 5000 CONCLUDING INSTRUCTIONS\n5000. Duties of the Judge and Jury\n5001. Insurance",
+  "tags": [
+    "wrongful"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

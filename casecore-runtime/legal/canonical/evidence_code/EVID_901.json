@@ -1,0 +1,27 @@
+{
+  "code": "EVID",
+  "section": "901",
+  "title": "Proceeding — Definition",
+  "text": "\"Proceeding\" means any action, hearing, investigation, inquest, or inquiry (whether conducted by a court, administrative agency, hearing officer, arbitrator, legislative body, or any other person authorized by law) in which, pursuant to law, testimony can be compelled to be given.",
+  "tags": [
+    "definition",
+    "proceeding",
+    "administrative",
+    "arbitration",
+    "deposition_relevant"
+  ],
+  "structure": {
+    "division": "8",
+    "division_title": "Privileges",
+    "chapter": "1",
+    "chapter_title": "Definitions",
+    "article": null,
+    "article_title": null
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

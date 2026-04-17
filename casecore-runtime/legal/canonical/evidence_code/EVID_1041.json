@@ -1,0 +1,28 @@
+{
+  "code": "EVID",
+  "section": "1041",
+  "title": "Informer Identity Privilege",
+  "text": "(a) Except as provided in this section, a public entity has a privilege to refuse to disclose the identity of a person who has furnished information purporting to disclose a violation of a law of the United States or of this state or of a public entity in this state, and to prevent another from disclosing the person's identity, if the privilege is claimed by a person authorized by the public entity to do so and either of the following apply:\n(1) Disclosure is forbidden by an act of the Congress of the United States or a statute of this state.\n(2) Disclosure of the identity of the informer is against the public interest because the necessity for preserving the confidentiality of his or her identity outweighs the necessity for disclosure in the interest of justice.\n(b) The privilege described in this section applies only if the information is furnished in confidence by the informer to a law enforcement officer, a representative of an administrative agency charged with enforcement of the law alleged to be violated, or any person for the purpose of transmittal to such persons.\n(c) The privilege described in this section shall not be construed to prevent the informer from disclosing his or her identity.",
+  "tags": [
+    "privilege",
+    "informer",
+    "identity",
+    "law_enforcement",
+    "administrative_agency",
+    "cannabis_enforcement"
+  ],
+  "structure": {
+    "division": "8",
+    "division_title": "Privileges",
+    "chapter": "4",
+    "chapter_title": "Particular Privileges",
+    "article": "9",
+    "article_title": "Official Information and Identity of Informer"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Amended by Stats. 2013, Ch. 19, Sec. 1. Effective January 1, 2014."
+  }
+}

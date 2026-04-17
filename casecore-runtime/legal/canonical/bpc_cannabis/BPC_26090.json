@@ -1,0 +1,23 @@
+{
+  "code": "BPC",
+  "section": "26090",
+  "title": "Section 26090",
+  "text": "(a) Deliveries, as defined in this division, may only be made by a licensed retailer or microbusiness, or a licensed nonprofit under Section",
+  "tags": [
+    "distribution",
+    "licensing",
+    "cannabis"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Cannabis",
+    "chapter": "3",
+    "chapter_title": "Enforcement"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Scraped from authority_store raw data."
+  }
+}

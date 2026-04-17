@@ -1,0 +1,25 @@
+{
+  "code": "EVID",
+  "section": "995",
+  "title": "Physician Must Claim Privilege When Present",
+  "text": "The physician who received or made a communication subject to the privilege under this article shall claim the privilege whenever he is present when the communication is sought to be disclosed and is authorized to claim the privilege under subdivision (c) of Section 994.",
+  "tags": [
+    "privilege",
+    "physician_patient",
+    "mandatory_claim"
+  ],
+  "structure": {
+    "division": "8",
+    "division_title": "Privileges",
+    "chapter": "4",
+    "chapter_title": "Particular Privileges",
+    "article": "6",
+    "article_title": "Physician-Patient Privilege"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

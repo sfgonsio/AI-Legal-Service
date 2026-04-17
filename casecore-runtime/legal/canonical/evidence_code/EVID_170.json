@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "170",
+  "title": "Perceive",
+  "text": "\"Perceive\" means to acquire knowledge through one's senses.",
+  "tags": ["definitions", "perceive"],
+  "structure": {
+    "division": "2",
+    "division_title": "Words and Phrases Defined",
+    "chapter": "",
+    "chapter_title": "",
+    "article": "",
+    "article_title": ""
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

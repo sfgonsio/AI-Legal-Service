@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "706",
+  "title": "Basic Speed Law (Veh. Code, \u00a7 22350)",
+  "series": "700",
+  "series_title": "Intentional Torts",
+  "text": "A person must drive at a reasonable speed. Whether a particular speed\nis reasonable depends on the circumstances such as traffic, weather,\nvisibility, and road conditions. Drivers must not drive so fast that they\ncreate a danger to people or property.\nIf [ name of plaintiff/defendant ] has proved that [ name of defendant/plaintiff ]\nwas not driving at a reasonable speed at the time of the accident, then\n[name of defendant/plaintiff ] was negligent.\nNew September 2003; Revised December 2016",
+  "tags": [
+    "intentional_tort"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "Driving at an unreasonable speed is negligence per se (see Hert v. Firestone Tire &\nRubber Co. (1935) 4 Cal.App.2d 598, 599 [41 P .2d 369]), which establishes the \ufb01rst\nelement of CACI No. 400, Negligence\u2014Essential Factual Elements. Plaintiff must\nstill prove the other two elements of harm and causation. (See CACI No. 430,\nCausation: Substantial Factor .)",
+  "sources_and_authority": "\u2022 Speeding. V ehicle Code section 22350.\n\u2022 \u201cThe so-called basic speed law is primarily a regulation of the conduct of the\noperators of vehicles. They are bound to know the conditions which dictate the\nspeeds at which they can drive with a reasonable degree of safety. They know,\nor should know, their cars and their own ability to handle them, and especially\ntheir ability to come to a stop at different speeds and under different conditions\nof the surface of the highway.\u201d ( Wilding v. Norton (1957) 156 Cal.App.2d 374,\n379 [319 P .2d 440].)\n\u2022 \u201cWhether V ehicle Code section 22350 has been violated is a question of fact.\u201d\n(Leighton v. Dodge (1965) 236 Cal.App.2d 54, 57 [45 Cal.Rptr. 820], internal\ncitation omitted.)\n\u2022 \u201cA number of cases have held that it is proper to give an instruction in the terms\nof this section and to inform the jury that a violation of the statute is\nnegligence.\u201d ( Hardin v. San Jose City Lines, Inc. (1953) 41 Cal.2d 432, 438 [260\nP .2d 63].)\n\u2022 Compliance with the posted speed law does not negate negligence as a matter of\nlaw. (Maxwell v. Colburn (1980) 105 Cal.App.3d 180, 186 [163 Cal.Rptr. 912].)"
+}

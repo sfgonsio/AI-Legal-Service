@@ -1,0 +1,43 @@
+{
+  "section_id": "EC-665",
+  "code": "EVID",
+  "section": "665",
+  "title": "Intent from Voluntary Act Presumption",
+  "text": "A person is presumed to intend the ordinary consequences of his voluntary act. This presumption is inapplicable in a criminal action to establish the specific intent of the defendant where specific intent is an element of the crime charged.",
+  "notes": null,
+  "rule_type": "presumption",
+  "rule_type_confidence": "heuristic",
+  "applies_to": [],
+  "evidentiary_standard": null,
+  "foundation_requirements": [],
+  "cross_refs": [],
+  "coa_relevance": [],
+  "exclusion_grounds": [],
+  "tags": [
+    "presumption",
+    "intent",
+    "voluntary_act",
+    "criminal_action",
+    "specific_intent"
+  ],
+  "structure": {
+    "division": "5",
+    "division_title": "Burden of Proof; Burden of Producing Evidence; Presumptions and Inferences",
+    "chapter": null,
+    "chapter_title": null,
+    "article": null,
+    "article_title": null
+  },
+  "canonical_type": "source",
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": null
+  },
+  "effective_date": null,
+  "schema_version": "1.0",
+  "pass1_complete": true,
+  "pass2_complete": false,
+  "source_file": "EVID_665.json"
+}

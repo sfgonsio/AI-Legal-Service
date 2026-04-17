@@ -1,0 +1,17 @@
+{
+  "doc_id": "CACI_2026",
+  "title": "Judicial Council of California Civil Jury Instructions (2026 edition)",
+  "authority_type": "CACI",
+  "edition": "2026",
+  "raw_pdf": "C:\\Users\\sfgon\\Documents\\GitHub\\AI Legal Service\\casecore-runtime\\legal\\reference\\caci\\raw\\CACI_2026_SOURCE.pdf",
+  "raw_pdf_name": "CACI_2026_SOURCE.pdf",
+  "raw_pdf_size_bytes": 11274649,
+  "raw_pdf_sha256": "592A3BD5A1F5D15F784F6C8A3EF35EFBF98B27F010324EF994580659625662EC",
+  "pages_jsonl": "C:\\Users\\sfgon\\Documents\\GitHub\\AI Legal Service\\casecore-runtime\\legal\\reference\\caci\\text\\CACI_2026_PAGES.jsonl",
+  "text_md": "C:\\Users\\sfgon\\Documents\\GitHub\\AI Legal Service\\casecore-runtime\\legal\\reference\\caci\\text\\CACI_2026_TEXT.md",
+  "chunks_jsonl": "C:\\Users\\sfgon\\Documents\\GitHub\\AI Legal Service\\casecore-runtime\\legal\\index\\caci\\CACI_2026_CHUNKS.jsonl",
+  "toc_json": "C:\\Users\\sfgon\\Documents\\GitHub\\AI Legal Service\\casecore-runtime\\legal\\index\\caci\\CACI_2026_TOC.json",
+  "created_utc": "2026-04-06T20:17:42.9107148Z",
+  "status": "text_extracted",
+  "page_count_detected": 3560
+}

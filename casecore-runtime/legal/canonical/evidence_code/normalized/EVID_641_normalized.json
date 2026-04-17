@@ -1,0 +1,41 @@
+{
+  "section_id": "EC-641",
+  "code": "EVID",
+  "section": "641",
+  "title": "Mail Receipt Presumption",
+  "text": "A letter correctly addressed and properly mailed is presumed to have been received in the ordinary course of mail.",
+  "notes": "Proper mailing creates presumption of receipt.",
+  "rule_type": "presumption",
+  "rule_type_confidence": "heuristic",
+  "applies_to": [],
+  "evidentiary_standard": null,
+  "foundation_requirements": [],
+  "cross_refs": [],
+  "coa_relevance": [],
+  "exclusion_grounds": [],
+  "tags": [
+    "mail",
+    "delivery",
+    "receipt"
+  ],
+  "structure": {
+    "division": "5",
+    "division_title": "Burden of Proof; Burden of Producing Evidence; Presumptions and Inferences",
+    "chapter": "3",
+    "chapter_title": null,
+    "article": "3",
+    "article_title": null
+  },
+  "canonical_type": "source",
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": null
+  },
+  "effective_date": null,
+  "schema_version": "1.0",
+  "pass1_complete": true,
+  "pass2_complete": false,
+  "source_file": "EVID_641.json"
+}

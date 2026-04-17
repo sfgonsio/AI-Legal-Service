@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "115",
+  "title": "\u201cClass Action\u201d De\ufb01ned (Plaintiff Class)",
+  "series": "100",
+  "series_title": "Pretrial",
+  "text": "A class action is a lawsuit that has been brought by one or more\nplaintiffs on behalf of a larger group of people who have similar legal\nclaims. All of these people together are called a \u201cclass.\u201d [ Name of\nplaintiff] brings this action as the class representative.\nIn a class action, the claims of many individuals can be resolved at the\nsame time instead of requiring each member to sue separately. Because\nof the large number of claims that are at issue in this case, not everyone\nin the class will testify. Y ou may assume that the evidence at this [stage\nof the] trial applies to all class members [except as I speci\ufb01cally tell you\notherwise]. All members of the class will be bound by the result of this\ntrial.\nIn this case, the class(es) consist(s) of the following:\n[Describe each class, e.g.,\nOriginal Homebuyers: All current homeowners in the Happy V alley\nsubdivision in Pleasantville, California, who purchased homes that were\nconstructed and marketed by [name of defendant]. (\u201cClass of Original\nPurchasers\u201d)\nSubsequent Homebuyers: All current homeowners in the Happy V alley\nsubdivisions in Pleasantville, California, who purchased homes that were\nconstructed and marketed by [name of defendant] from another homeowner .\n(\u201cClass of Later Purchasers\u201d) ].\nNew June 2011",
+  "tags": [
+    "pretrial"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "The \ufb01rst paragraph may be modi\ufb01ed for use with a defendant class. If in the course\nof the trial the court decerti\ufb01es the class or one of the classes as to some or all\nissues, a concluding instruction explaining the effect of the decerti\ufb01cation should be\ngiven.\nIn the second paragraph, if class evidence and individual evidence will be received\nin separate stages of the trial, include the \ufb01rst bracketed language. If both class\nevidence and individual evidence will be received together, include the second\nbracketed language and specify the class evidence in a separate instruction.",
+  "sources_and_authority": "\u2022 Right to Bring Class Action. Code of Civil Procedure section 382.\n\u2022 \u201cCourts long have acknowledged the importance of class actions as a means to\nprevent a failure of justice in our judicial system. \u2018 \u201cBy establishing a technique\nwhereby the claims of many individuals can be resolved at the same time, the\n34\n\nclass suit both eliminates the possibility of repetitious litigation and provides\nsmall claimants with a method of obtaining redress . . . .\u201d \u2019 Generally, a class\nsuit is appropriate \u2018when numerous parties suffer injury of insufficient size to\nwarrant individual action and when denial of class relief would result in unjust\nadvantage to the wrongdoer.\u2019 \u2018But because group action also has the potential to\ncreate injustice, trial courts are required to \u2018 \u201ccarefully weigh respective bene\ufb01ts\nand burdens and to allow maintenance of the class action only where substantial\nbene\ufb01ts accrue both to litigants and the courts.\u201d \u2019 \u201d ( Linder v. Thrifty Oil Co.\n(2000) 23 Cal.4th 429, 434\u2013435 [97 Cal.Rptr.2d 179, 2 P .3d 27], internal\ncitations omitted.)\n\u2022 \u201cThe cases uniformly hold that a plaintiff seeking to maintain a class action must\nbe a member of the class he claims to represent.\u201d ( La Sala v. American Sav. &\nLoan Assn. (1971) 5 Cal.3d 864, 875 [97 Cal.Rptr 849, 489 P .2d 1113].)"
+}

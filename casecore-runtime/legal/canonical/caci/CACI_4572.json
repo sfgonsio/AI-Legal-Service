@@ -1,0 +1,18 @@
+{
+  "code": "CACI",
+  "instruction_id": "4572",
+  "title": "Right to Repair Act\u2014Affirmative Defense\u2014Act of Nature",
+  "series": "4500",
+  "series_title": "Workers Compensation",
+  "text": "(Civ. Code, \u00a7 945.5(a))\n[Name of defendant ] claims that [he/she/ nonbinary pronoun/it] is not\nresponsible for [ name of plaintiff ]\u2019s harm because it was caused by an\nunforeseen event. To establish this defense, [ name of defendant ] must\nprove that the [ specify defect, e.g., door that allowed unintended water to\npass through it ] was caused by [ specify, e.g., a landslide ], which was an\nunforeseen [act of nature/manmade event] that caused the home not to\nmeet the otherwise required standard.\nNew May 2019",
+  "tags": [],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "This instruction sets forth a builder\u2019s affirmative defense to a homeowner\u2019s\nconstruction defect claim under the Right to Repair Act, asserting the construction\ndefect was caused by an unforeseen act of nature. An \u201cunforeseen act of nature\u201d\nincludes unforeseen manmade events such as war, terrorism, or vandalism, in\naddition to weather conditions and earthquakes. (See Civ. Code, \u00a7 945.5(a).)\nThe unforeseen event must be \u201cin excess of the design criteria expressed by the\napplicable building codes, regulations, and ordinances in effect at the time of\noriginal construction.\u201d (Civ. Code, \u00a7 945.5(a).) If there is a question of fact with\nregard to such a situation, modify the instruction accordingly.",
+  "sources_and_authority": "\u2022 Right to Repair Act Affirmative Defense of Unforeseen Act of Nature. Civil\nCode section 945.5(a)."
+}

@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "456",
+  "title": "Denial of Request for Judicial Notice",
+  "text": "If the trial court denies a request to take judicial notice of any matter, the court shall at the earliest practicable time so advise the parties and indicate for the record that it has denied the request.",
+  "tags": ["judicial_notice", "denial", "record"],
+  "structure": {
+    "division": "4",
+    "division_title": "Judicial Notice",
+    "chapter": "",
+    "chapter_title": "",
+    "article": "",
+    "article_title": ""
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

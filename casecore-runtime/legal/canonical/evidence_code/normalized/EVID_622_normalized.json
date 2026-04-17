@@ -1,0 +1,43 @@
+{
+  "section_id": "EC-622",
+  "code": "EVID",
+  "section": "622",
+  "title": "Truth of Facts Recited in Written Instrument",
+  "text": "The facts recited in a written instrument are conclusively presumed to be true as between the parties thereto, or their successors in interest; but this rule does not apply to the recital of a consideration.",
+  "notes": "Creates a conclusive presumption that factual recitals in a written instrument are true between the parties or their successors in interest, except as to recital of consideration.",
+  "rule_type": "presumption",
+  "rule_type_confidence": "heuristic",
+  "applies_to": [],
+  "evidentiary_standard": null,
+  "foundation_requirements": [],
+  "cross_refs": [],
+  "coa_relevance": [],
+  "exclusion_grounds": [],
+  "tags": [
+    "conclusive_presumption",
+    "written_instrument",
+    "recitals",
+    "contract",
+    "successors_in_interest"
+  ],
+  "structure": {
+    "division": "5",
+    "division_title": "Burden of Proof; Burden of Producing Evidence; Presumptions and Inferences",
+    "chapter": "3",
+    "chapter_title": "Presumptions and Inferences",
+    "article": "2",
+    "article_title": "Conclusive Presumptions"
+  },
+  "canonical_type": "source",
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "(Enacted by Stats. 1965, Ch. 299.)"
+  },
+  "effective_date": null,
+  "schema_version": "1.0",
+  "pass1_complete": true,
+  "pass2_complete": false,
+  "source_file": "EVID_622.json"
+}

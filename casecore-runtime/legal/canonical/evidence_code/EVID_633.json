@@ -1,0 +1,12 @@
+{
+  "code": "EVID",
+  "section": "633",
+  "title": "Obligation Returned Presumed Paid",
+  "text": "An obligation delivered up to the debtor is presumed to have been paid.",
+  "category": "presumption_burden_of_production",
+  "canonical_type": "source",
+  "structure": { "division": "5","chapter": "3","article": "3" },
+  "source": { "type": "ca_legislature","jurisdiction": "California" },
+  "tags": ["debt","payment","obligation"],
+  "notes": "Return of obligation implies satisfaction."
+}

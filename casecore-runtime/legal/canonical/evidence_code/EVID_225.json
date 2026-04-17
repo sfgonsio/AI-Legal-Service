@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "225",
+  "title": "Statement",
+  "text": "\"Statement\" means (a) oral or written verbal expression or (b) nonverbal conduct of a person intended by him as a substitute for oral or written verbal expression.",
+  "tags": ["definitions", "statement"],
+  "structure": {
+    "division": "2",
+    "division_title": "Words and Phrases Defined",
+    "chapter": "",
+    "chapter_title": "",
+    "article": "",
+    "article_title": ""
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

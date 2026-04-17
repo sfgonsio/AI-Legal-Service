@@ -1,0 +1,50 @@
+version: v1
+jurisdiction: CA
+
+authority_catalog:
+
+  CACI_303:
+    title: "Breach of Contract – Essential Elements"
+    elements:
+      - element_id: contract_existence
+        proof_types: [written_contract, oral_agreement, conduct]
+      - element_id: plaintiff_performance
+        proof_types: [performance_records, testimony]
+      - element_id: defendant_breach
+        proof_types: [breach_event, failure_to_perform]
+      - element_id: damages
+        proof_types: [financial_records, expert_testimony]
+
+  CACI_2100:
+    title: "Conversion"
+    elements:
+      - element_id: ownership_or_right_to_possession
+        proof_types: [ownership_docs, testimony]
+      - element_id: wrongful_control
+        proof_types: [control_evidence, demand_refusal]
+      - element_id: harm
+        proof_types: [valuation_docs]
+
+  CACI_1900:
+    title: "Intentional Misrepresentation"
+    elements:
+      - element_id: misrepresentation
+        proof_types: [communications, documents]
+      - element_id: knowledge_of_falsity
+        proof_types: [internal_records, testimony]
+      - element_id: intent_to_induce_reliance
+        proof_types: [context_evidence]
+      - element_id: justifiable_reliance
+        proof_types: [reliance_actions]
+      - element_id: damages
+        proof_types: [financial_records]
+
+  CACI_4100:
+    title: "Breach of Fiduciary Duty"
+    elements:
+      - element_id: fiduciary_relationship
+        proof_types: [partnership_agreement, conduct]
+      - element_id: breach_of_duty
+        proof_types: [accounting_records, testimony]
+      - element_id: damages
+        proof_types: [financial_records]

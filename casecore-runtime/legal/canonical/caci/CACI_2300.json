@@ -1,0 +1,21 @@
+{
+  "code": "CACI",
+  "instruction_id": "2300",
+  "title": "Breach of Contractual Duty to Pay a Covered Claim\u2014Essential Factual Elements",
+  "series": "2300",
+  "series_title": "Antitrust",
+  "text": "2301. Breach of Insurance Binder\u2014Essential Factual Elements\n2302. Breach of Contract for Temporary Life Insurance\u2014Essential Factual Elements\n2303. Affirmative Defense\u2014Insurance Policy Exclusion\n2304. Exception to Insurance Policy Exclusion\u2014Burden of Proof",
+  "tags": [
+    "antitrust",
+    "breach",
+    "contract",
+    "duty"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

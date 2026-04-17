@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "805",
+  "title": "Opinion on Ultimate Issue",
+  "text": "Testimony in the form of an opinion that is otherwise admissible is not objectionable because it embraces the ultimate issue to be decided by the trier of fact.",
+  "tags": ["opinion", "ultimate_issue"],
+  "structure": {
+    "division": "7",
+    "division_title": "Opinion Testimony and Scientific Evidence",
+    "chapter": "1",
+    "chapter_title": "Expert and Other Opinion Testimony",
+    "article": "1",
+    "article_title": "Expert and Other Opinion Testimony Generally"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

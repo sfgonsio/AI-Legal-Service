@@ -1,0 +1,22 @@
+{
+  "code": "CACI",
+  "instruction_id": "2527",
+  "title": "Failure to Prevent Harassment, Discrimination, or Retaliation\u2014Essential Factual",
+  "series": "2500",
+  "series_title": "Fair Employment and Housing Act (FEHA)",
+  "text": "Elements\u2014Employer or Entity Defendant (Gov. Code, \u00a7 12940(k))\n2528. Failure to Prevent Harassment by Nonemployee (Gov. Code, \u00a7 12940(j))\n2540. Disability Discrimination\u2014Disparate Treatment\u2014Essential Factual Elements\n2547. Disability-Based Associational Discrimination\u2014Essential Factual Elements",
+  "tags": [
+    "disability",
+    "discrimination",
+    "feha",
+    "harassment",
+    "retaliation"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

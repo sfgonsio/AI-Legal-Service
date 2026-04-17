@@ -1,0 +1,45 @@
+version: v1
+authority: contract_v1_ssot
+name: coa_mapping_rules
+
+mapping_rules:
+
+  breach_of_contract:
+
+    contract_existence:
+      required_tags:
+        - CONTRACT_FORMATION
+
+    plaintiff_performance:
+      required_tags:
+        - BUSINESS_ACTIVITY
+
+    defendant_breach:
+      required_tags:
+        - BREACH_INDICATOR
+
+    damages:
+      required_tags:
+        - FINANCIAL_TRANSACTION
+
+  fraud:
+
+    misrepresentation:
+      required_tags:
+        - BUSINESS_COMMUNICATION
+
+    knowledge_of_falsity:
+      required_tags:
+        - BUSINESS_COMMUNICATION
+
+    intent_to_induce:
+      required_tags:
+        - BUSINESS_COMMUNICATION
+
+    reliance:
+      required_tags:
+        - BUSINESS_ACTIVITY
+
+    damages:
+      required_tags:
+        - FINANCIAL_TRANSACTION

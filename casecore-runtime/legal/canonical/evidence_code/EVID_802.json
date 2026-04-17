@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "802",
+  "title": "Statement of Basis for Opinion",
+  "text": "A witness testifying in the form of an opinion may state on direct examination the reasons for his opinion and the matter (including, in the case of an expert, his special knowledge, skill, experience, training, and education) upon which it is based, unless he is precluded by law from using such reasons or matter as a basis for his opinion. The court in its discretion may require that a witness before testifying in the form of an opinion be first examined concerning the matter upon which his opinion is based.",
+  "tags": ["opinion", "basis", "direct_examination"],
+  "structure": {
+    "division": "7",
+    "division_title": "Opinion Testimony and Scientific Evidence",
+    "chapter": "1",
+    "chapter_title": "Expert and Other Opinion Testimony",
+    "article": "1",
+    "article_title": "Expert and Other Opinion Testimony Generally"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

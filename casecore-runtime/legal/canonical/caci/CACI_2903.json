@@ -1,0 +1,22 @@
+{
+  "code": "CACI",
+  "instruction_id": "2903",
+  "title": "Causation\u2014Negligence",
+  "series": "2900",
+  "series_title": "Real Property",
+  "text": "[Name of defendant ]\u2019s negligence, if any, was a cause of [[ name of\nplaintiff]\u2019s harm/[ name of decedent ]\u2019s death] if it played any part, no\nmatter how small, in bringing about the [harm/death], even if other\nfactors also contributed to the [harm/death].\nNew September 2003",
+  "tags": [
+    "causation",
+    "negligence",
+    "real_property"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "For an instruction on concurrent cause, see CACI No. 431, Causation: Multiple\nCauses.",
+  "sources_and_authority": "\u2022 Federal Employers\u2019 Liability Act. Title 45 United States Code section 51.\n\u2022 \u201cUnder this statute the test of a jury case is simply whether the proofs justify\nwith reason the conclusion that employer negligence played any part, even the\nslightest, in producing the injury or death for which damages are sought.\u201d\n(Rogers v. Missouri Paci\ufb01c Railroad Co. (1957) 352 U.S. 500, 506 [77 S.Ct.\n443, 1 L.Ed.2d 493].)\n\u2022 \u201cIn sum, the understanding of Rogers we here affirm \u2018has been accepted as\nsettled law for several decades.\u2019 \u2018Congress has had [more than 50] years in\nwhich it could have corrected our decision in [ Rogers] if it disagreed with it, and\nhas not chosen to do so.\u2019 Countless judges have instructed countless juries in\nlanguage drawn from Rogers. To discard or restrict the Rogers instruction now\nwould ill serve the goals of \u2018stability\u2019 and \u2018predictability\u2019 that the doctrine of\nstatutory stare decisis aims to ensure.\u201d ( CSX Transp., Inc. v. McBride (2011) 564\nU.S. 685, 699 [131 S.Ct. 2630, 180 L.Ed.2d 637], internal citations omitted.)\n\u2022 \u201cThe standard under FELA is a relaxed one; to prove that a railroad breached its\nduty, a \u2018plaintiff must show circumstances which a reasonable person would\nforesee as creating a potential for harm [and] then show that this breach played\nany part, even the slightest, in producing the injury.\u2019 \u2018It is well established that\nthe quantum of evidence required to establish liability in an FELA case is much\nless than in an ordinary negligence action.\u2019 If the negligence of the employer\n\u2018played any part, however small, in the injury,\u2019 the employer is liable.\u201d ( Fair v.\nBNSF Railway Co. (2015) 238 Cal.App.4th 269, 275\u2013276 [189 Cal.Rptr.3d 150],\ninternal citation omitted.)\n\u2022 \u201cThe common law concept of proximate cause . . . has not been adopted as the\ncausation test in F.E.L.A. cases. Causation in an F.E.L.A. case exists even if\nthere is a plurality of causes, including the negligence of the defendant or of a\nthird person. The negligence of the employer need not be the sole cause or even\na substantial cause of the ensuing injury.\u201d ( Parker v. Atchison, Topeka and Santa\n182\n\nFe Ry. Co. (1968) 263 Cal.App.2d 675, 678 [70 Cal.Rptr. 8].)\n\u2022 \u201cAlthough the burden upon the plaintiff in proving causation in an F.E.L.A. case\ncan be weighed neither in pounds nor ounces, it is a substantially lighter burden\nthat that imposed upon him by [the common-law jury instruction].\u201d ( Parker ,\nsupra, 263 Cal.App.2d at p. 678.)\n\u2022 \u201c[T]he same standard of causation applies to railroad negligence under Section 1\nas to plaintiff contributory negligence under Section 3.\u201d ( Norfolk Southern Ry. v.\nSorrell (2007) 549 U.S. 158, 171 [127 S.Ct. 799, 166 L.Ed.2d 638].)"
+}

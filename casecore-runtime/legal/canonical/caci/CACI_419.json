@@ -1,0 +1,22 @@
+{
+  "code": "CACI",
+  "instruction_id": "419",
+  "title": "Presumption of Negligence per se (Causation Only at Issue)",
+  "series": "400",
+  "series_title": "Negligence",
+  "text": "[Insert citation to statute, regulation, or ordinance ] states:\n.\nA violation of this law has been established and is not an issue for you to\ndecide.\n[However, you must decide whether the violation was excused. If it was\nnot excused, then you] [Y ou] must decide whether the violation was a\nsubstantial factor in harming [ name of plaintiff ].\nIf you decide that the violation was a substantial factor, then you must\n\ufb01nd that [ name of plaintiff/defendant ] was negligent.\nNew September 2003; Revised December 2011",
+  "tags": [
+    "causation",
+    "negligence",
+    "presumption"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "The California Law Revision Commission comment on Evidence Code section 669\nstates that the trier of fact usually decides the question of whether the violation\noccurred. However, \u201cif a party admits the violation or if the evidence of the\nviolation is undisputed, it is appropriate for the judge to instruct the jury that a\nviolation of the statute, ordinance, or regulation has been established as a matter of\nlaw.\u201d In such cases, the jury would decide causation and, if applicable, the existence\nof any justi\ufb01cation or excuse. For an instruction on excuse, see CACI No. 420,\nNegligence per se: Rebuttal of the Presumption of Negligence\u2014Violation Excused.\nSee also Sources and Authority to CACI No. 418, Presumption of Negligence per\nse.",
+  "sources_and_authority": "\u2022 Presumption of Negligence per se. Evidence Code section 669(a).\n\u2022 \u201cUnder the doctrine of negligence per se, the plaintiff \u2018borrows\u2019 statutes to prove\nduty of care and standard of care. [Citation.] The plaintiff still has the burden of\nproving causation.\u201d ( David v. Hernandez (2014) 226 Cal.App.4th 578, 584 [172\nCal.Rptr.3d 204].)"
+}

@@ -1,0 +1,27 @@
+{
+  "code": "EVID",
+  "section": "1003",
+  "title": "Exception — Validity of Writing Affecting Property",
+  "text": "There is no privilege under this article as to a communication relevant to an issue concerning the validity of a deed of conveyance, will, or other writing, executed by a patient, now deceased, purporting to affect an interest in property.",
+  "tags": [
+    "privilege",
+    "physician_patient",
+    "exception",
+    "validity",
+    "property"
+  ],
+  "structure": {
+    "division": "8",
+    "division_title": "Privileges",
+    "chapter": "4",
+    "chapter_title": "Particular Privileges",
+    "article": "6",
+    "article_title": "Physician-Patient Privilege"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

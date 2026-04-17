@@ -1,0 +1,23 @@
+{
+  "code": "CACI",
+  "instruction_id": "335",
+  "title": "Affirmative Defense\u2014Fraud",
+  "series": "300",
+  "series_title": "Negligence\u2014Essential Factual Elements",
+  "text": "[Name of defendant ] claims that no contract was created because [his/her/\nnonbinary pronoun/its] consent was obtained by fraud. To succeed, [ name\nof defendant ] must prove all of the following:\n1. That [ name of plaintiff ] represented that [ insert alleged fraudulent\nstatement];\n2. That [ name of plaintiff ] knew that the representation was not true;\n3. That [ name of plaintiff ] made the representation to persuade\n[name of defendant ] to agree to the contract;\n4. That [ name of defendant ] reasonably relied on this representation;\nand\n5. That [ name of defendant ] would not have entered into the contract\nif [he/she/ nonbinary pronoun /it] had known that the representation\nwas not true.\nIf you decide that [ name of defendant ] has proved all of the above, then\nno contract was created.\nNew September 2003",
+  "tags": [
+    "contract",
+    "essential_elements",
+    "fraud",
+    "negligence"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "This instruction covers intentional misrepresentation under the \ufb01rst alternative\npresented in Civil Code section 1572. The other types of fraud that are set forth in\nsection 1572 are negligent misrepresentation, concealment of a material fact, and\nfalse promise.\nIf the case involves an alleged negligent misrepresentation, substitute the following\nfor element 2: \u201cThat [ name of plaintiff ] had no reasonable grounds for believing the\nrepresentation was true.\u201d\nIf the case involves concealment, the following may be substituted for element 1:\n\u201cThat [ name of plaintiff ] intentionally concealed an important fact from [ name of\ndefendant], creating a false representation.\u201d See CACI No. 1901, Concealment, for\nalternative ways of proving this element.\nIf the case involves a false promise, substitute the following for element 1: \u201cThat\n[name of plaintiff ] made a promise that [he/she/ nonbinary pronoun/it] did not intend\nto perform\u201d and insert the word \u201cpromise\u201d in place of the word \u201crepresentation\u201d\nthroughout the remainder of the instruction.",
+  "sources_and_authority": "\u2022 When Consent Not Freely Given. Civil Code sections 1567, 1568.\n\u2022 Actual Fraud. Civil Code section 1572.\n156\n\n\u2022 Fraud can be found in making a misstatement of fact, as well as in the\nconcealment of a fact: \u201cActual fraud involves conscious misrepresentation, or\nconcealment, or non-disclosure of a material fact which induces the innocent\nparty to enter the contract.\u201d ( Odorizzi v. Bloom\ufb01eld School Dist. (1966) 246\nCal.App.2d 123, 128 [54 Cal.Rptr. 533].)\n\u2022 Fraud may be asserted as an affirmative defense: \u201cOne who has been induced to\nenter into a contract by false and fraudulent representations may rescind the\ncontract; or he may affirm it, keeping what he has received under it, and\nmaintain an action to recover damages he has sustained by reason of the fraud;\nor he may set up such damages as a complete or partial defense if sued on the\ncontract by the other party.\u201d ( Grady v. Easley (1941) 45 Cal.App.2d 632, 642\n[114 P .2d 635].)\n\u2022 \u201cIt is well established that a defrauded defendant may set up the fraud as a\ndefense and, in fact, may even recoup his damages by counterclaim in an action\nbrought by the guilty party to the contract. The right to avoid for fraud, however,\nis lost if the injured party, after acquiring knowledge of the fraud, manifests an\nintention to affirm the contract.\u201d ( Bowmer v. H. C. Louis, Inc. (1966) 243\nCal.App.2d 501, 503 [52 Cal.Rptr. 436], internal citations omitted.)"
+}

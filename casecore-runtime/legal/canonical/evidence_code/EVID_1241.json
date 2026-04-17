@@ -1,0 +1,27 @@
+{
+  "code": "EVID",
+  "section": "1241",
+  "title": "Contemporaneous Statement",
+  "text": "Evidence of a statement is not made inadmissible by the hearsay rule if the statement:\n(a) Is offered to explain, qualify, or make understandable conduct of the declarant; and\n(b) Was made while the declarant was engaged in such conduct.",
+  "tags": [
+    "hearsay_exception",
+    "contemporaneous_statement",
+    "conduct",
+    "verbal_act",
+    "trial_relevant"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Hearsay Evidence",
+    "chapter": "2",
+    "chapter_title": "Exceptions to the Hearsay Rule",
+    "article": "4",
+    "article_title": "Spontaneous, Contemporaneous, and Dying Declarations"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

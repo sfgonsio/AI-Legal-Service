@@ -1,0 +1,19 @@
+{
+  "code": "CACI",
+  "instruction_id": "2767",
+  "title": "Meal Break Violations\u2014Pay Owed",
+  "series": "2700",
+  "series_title": "Labor Code Actions",
+  "text": "2768\u20132769. Reserved for Future Use\n2770. Affirmative Defense\u2014Meal Breaks\u2014Waiver by Mutual Consent\n2771. Affirmative Defense\u2014Meal Breaks\u2014Written Consent to On-Duty Meal Breaks\n2772\u20132774. Reserved for Future Use",
+  "tags": [
+    "duty",
+    "labor_code"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

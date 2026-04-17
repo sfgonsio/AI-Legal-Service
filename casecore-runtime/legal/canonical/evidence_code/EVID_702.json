@@ -1,0 +1,9 @@
+{
+  "code": "EVID",
+  "section": "702",
+  "title": "Personal Knowledge of Witness",
+  "text": "(a) Subject to Section 801, the testimony of a witness concerning a particular matter is inadmissible unless he has personal knowledge of the matter. Against the objection of a party, such personal knowledge must be shown before the witness may testify concerning the matter.\n(b) A witness' personal knowledge of a matter may be shown by any otherwise admissible evidence, including his own testimony.",
+  "tags": ["personal_knowledge", "witness", "foundation", "admissibility", "agent_core", "trial_relevant"],
+  "structure": {"division": "6", "division_title": "Witnesses", "chapter": "1", "chapter_title": "Competency"},
+  "source": {"type": "ca_legislature", "jurisdiction": "California", "url": "https://leginfo.legislature.ca.gov", "editorial_note": "Enacted by Stats. 1965, Ch. 299."}
+}

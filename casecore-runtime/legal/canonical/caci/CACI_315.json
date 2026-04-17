@@ -1,0 +1,22 @@
+{
+  "code": "CACI",
+  "instruction_id": "315",
+  "title": "Interpretation\u2014Meaning of Ordinary Words",
+  "series": "300",
+  "series_title": "Negligence\u2014Essential Factual Elements",
+  "text": "Y ou should assume that the parties intended the words in their contract\nto have their usual and ordinary meaning unless you decide that the\nparties intended the words to have a special meaning.\nNew September 2003; Revised December 2014",
+  "tags": [
+    "contract",
+    "essential_elements",
+    "negligence"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "This instruction may be given with CACI No. 314, Interpretation\u2014Disputed Words.\nSee the Directions for Use and Sources and Authority to that instruction for\ndiscussion of when contract interpretation may be a proper jury role.",
+  "sources_and_authority": "\u2022 Words to Be Understood in Usual Sense. Civil Code section 1644.\n\u2022 \u201cGenerally speaking, words in a contract are to be construed according to their\nplain, ordinary, popular or legal meaning, as the case may be. However,\nparticular expressions may, by trade usage, acquire a different meaning in\nreference to the subject matter of a contract. If both parties are engaged in that\ntrade, the parties to the contract are deemed to have used them according to their\ndifferent and peculiar sense as shown by such trade usage and parol evidence is\nadmissible to establish the trade usage even though the words in their ordinary\nor legal meaning are entirely unambiguous. [Citation.]\u201d ( Hayter Trucking Inc. v.\nShell Western E & P , Inc. (1993) 18 Cal.App.4th 1, 15 [22 Cal.Rptr.2d 229].)"
+}

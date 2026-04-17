@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "2921",
+  "title": "Causation Under FSAA or BIA",
+  "series": "2900",
+  "series_title": "Real Property",
+  "text": "If you decide that [ name of defendant ] [ describe violation of the Federal\nSafety Appliance Act/Boiler Inspection Act ], then this is a cause of harm if\nit played any part, no matter how small, in bringing about the [harm/\ndeath], even if other factors also contributed to the [harm/death].\nNew September 2003",
+  "tags": [
+    "causation",
+    "real_property"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "sources_and_authority": "\u2022 \u201cActions alleging a violation of the BIA are brought under the FELA. The\nstandard of causation required in a BIA case is the same as the standard of\ncausation required in a FELA negligence case.\u201d ( Summers v. Missouri Paci\ufb01c\nRailroad System (10th Cir. 1997) 132 F.3d 599, 606, internal citations omitted.)\n\u2022 \u201cProximate cause, as traditionally understood, is not required to establish\ncausation under either the FELA or the BIA. \u2018Under the FELA [but not the\nBIA], an employee is entitled to recover damages if the employer\u2019s negligence\nplayed any part in producing the injury, no matter how slight.\u2019 \u201d ( Fontaine v.\nNational Railroad Passenger Corp. (1997) 54 Cal.App.4th 1519, 1525 [63\nCal.Rptr.2d 644], internal citations omitted.)\n\u2022 Liability under the BIA is established if defendant\u2019s violation of the BIA \u201cplayed\nany part, no matter how small, in bringing about or actually causing, the injury\u201d\nto the plaintiff . . . \u201cwithout any requirement of a showing of negligence on the\npart of the defendant.\u201d ( Oglesby v. Southern Paci\ufb01c Transportation Co. (9th Cir.\n1993) 6 F.3d 603, 606\u2013609.)"
+}

@@ -1,0 +1,21 @@
+{
+  "code": "CACI",
+  "instruction_id": "403",
+  "title": "Standard of Care for Person with a Physical Disability",
+  "series": "400",
+  "series_title": "Negligence",
+  "text": "A person with a physical disability is required to use the amount of care\nthat a reasonably careful person who has the same physical disability\nwould use in the same situation.\nNew September 2003; Revised May 2023",
+  "tags": [
+    "disability",
+    "negligence"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "By \u201csame\u201d disability, this instruction is referring to the effect of the disability, not\nthe cause.",
+  "sources_and_authority": "\u2022 Liability of Person of \u201cUnsound Mind.\u201d Civil Code section 41.\n\u2022 \u201c[A] person [whose faculties are impaired] is bound to use that care which a\nperson of ordinary prudence with faculties so impaired would use in the same\ncircumstances.\u201d ( Conjorsky v. Murray (1955) 135 Cal.App.2d 478, 482 [287 P .2d\n505].)\n\u2022 \u201cThe jury was properly instructed that negligence is failure to use ordinary care\nand that ordinary care is that care which persons of ordinary prudence exercise\nin the management of their own affairs. A person with faculties impaired is held\nto the same degree of care and no higher. He is bound to use that care which a\nperson of ordinary prudence with faculties so impaired would use in the same\ncircumstances.\u201d ( Jones v. Bayley (1942) 49 Cal.App.2d 647, 654 [122 P .2d 293].)\n\u2022 \u201cWe conclude sudden mental illness may not be posed as a defense to harmful\nconduct and that the harm caused by such individual\u2019s behavior shall be judged\non the objective reasonable person standard in the context of a negligence action\nas expressed in Civil Code section 41.\u201d ( Bashi v. Wodarz (1996) 45 Cal.App.4th\n1314, 1323 [53 Cal.Rptr.2d 635].)\n\u2022 Restatement Second of Torts, section 283B, provides: \u201cUnless the actor is a\nchild, his insanity or other mental de\ufb01ciency does not relieve the actor from\nliability for conduct which does not conform to the standard of a reasonable man\nunder like circumstances.\u201d\n\u2022 Restatement Second of Torts, section 283C, provides: \u201cIf the actor is ill or\notherwise physically disabled, the standard of conduct to which he must conform\nto avoid being negligent is that of a reasonable man under like disability.\u201d"
+}

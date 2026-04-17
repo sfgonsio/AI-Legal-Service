@@ -1,0 +1,39 @@
+﻿{
+  "$id": "casecore.coa-element-coverage.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CASECORE COA Element Coverage",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "matter_id",
+    "artifact_type",
+    "schema_version",
+    "case_type",
+    "coa_name",
+    "element_name",
+    "coverage_status",
+    "support_refs",
+    "run_id",
+    "created_at"
+  ],
+  "properties": {
+    "id": { "type": "string", "pattern": "^COA-[A-Z0-9_-]+$" },
+    "matter_id": { "type": "string", "pattern": "^MTR-[A-Z0-9_-]+$" },
+    "artifact_type": { "const": "COA_ELEMENT_COVERAGE" },
+    "schema_version": { "type": "string", "minLength": 1 },
+    "case_type": { "type": "string", "minLength": 1 },
+    "coa_name": { "type": "string", "minLength": 1 },
+    "element_name": { "type": "string", "minLength": 1 },
+    "coverage_status": {
+      "type": "string",
+      "enum": ["supported", "unsupported", "conflicting", "missing_support"]
+    },
+    "support_refs": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "run_id": { "type": "string", "pattern": "^RUN-[A-Z0-9_-]+$" },
+    "created_at": { "type": "string", "format": "date-time" }
+  }
+}

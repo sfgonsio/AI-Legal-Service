@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "801",
+  "title": "Expert Opinion Testimony",
+  "text": "If a witness is testifying as an expert, his testimony in the form of an opinion is limited to such an opinion as is:\n\n(a) Related to a subject that is sufficiently beyond common experience that the opinion of an expert would assist the trier of fact; and\n\n(b) Based on matter (including his special knowledge, skill, experience, training, and education) perceived by or personally known to the witness or made known to him at or before the hearing, whether or not admissible, that is of a type that reasonably may be relied upon by an expert in forming an opinion upon the subject to which his testimony relates, unless an expert is precluded by law from using such matter as a basis for his opinion.",
+  "tags": ["opinion", "expert_witness", "qualifications"],
+  "structure": {
+    "division": "7",
+    "division_title": "Opinion Testimony and Scientific Evidence",
+    "chapter": "1",
+    "chapter_title": "Expert and Other Opinion Testimony",
+    "article": "1",
+    "article_title": "Expert and Other Opinion Testimony Generally"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "code": "EVID",
+  "section": "1601",
+  "title": "Proof of Content of Lost Official Record",
+  "text": "If the original of a recorded document affecting real property was lost, destroyed, or beyond the jurisdiction of the court before a copy could be made, it is presumed that the copy of the document as it appears in the official record accurately reflects the content of the original.",
+  "tags": ["lost_record", "property", "presumption", "official_record", "real_property"],
+  "structure": {
+    "division": "11",
+    "division_title": "Writings",
+    "chapter": "3",
+    "chapter_title": "Official Writings Affecting Property"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "code": "EVID",
+  "section": "1045",
+  "title": "Access to Peace Officer Complaint Records",
+  "text": "(a) This article does not affect the right of access to records of complaints, or investigations of complaints, or discipline imposed as a result of those investigations, concerning an event or transaction in which the peace officer or custodial officer participated, or which the officer perceived, and pertaining to the manner in which the officer performed the officer's duties, provided that information is relevant to the subject matter involved in the pending litigation.\n(b) In determining relevance, the court shall examine the information in chambers in conformity with Section 915, and shall exclude from disclosure:\n(1) In any criminal proceeding the conclusions of any officer investigating a complaint filed pursuant to Section 832.5 of the Penal Code.\n(2) Facts sought to be disclosed that are so remote as to make disclosure of little or no practical benefit.",
+  "tags": [
+    "privilege",
+    "peace_officer",
+    "complaint_records",
+    "relevance",
+    "in_camera"
+  ],
+  "structure": {
+    "division": "8",
+    "division_title": "Privileges",
+    "chapter": "4",
+    "chapter_title": "Particular Privileges",
+    "article": "9",
+    "article_title": "Official Information and Identity of Informer"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Amended by Stats. 2021, Ch. 402, Sec. 1. Effective January 1, 2022."
+  }
+}

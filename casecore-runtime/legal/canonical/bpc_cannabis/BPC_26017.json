@@ -1,0 +1,21 @@
+{
+  "code": "BPC",
+  "section": "26017",
+  "title": "Section 26017",
+  "text": "In any hearing before the department pursuant to this division, the department may pay any person appearing as a witness at the hearing at the request of the department pursuant to a subpoena, the person\u2019s actual, necessary, and reasonable travel, food, and lodging expenses, not to exceed the amount authorized for state employees. (Amended by Stats. 2021, Ch. 70, Sec. 18. (AB 141) Effective July 12, 2021.)",
+  "tags": [
+    "cannabis"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Cannabis",
+    "chapter": "2",
+    "chapter_title": "Administration"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Scraped from authority_store raw data."
+  }
+}

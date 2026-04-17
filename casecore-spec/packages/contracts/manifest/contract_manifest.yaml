@@ -1,0 +1,50 @@
+﻿manifest_version: "1.0"
+system_name: "casecore"
+
+contract_sets:
+  schemas:
+    - /casecore-spec/packages/contracts/schemas/casecore.fact.schema.json
+    - /casecore-spec/packages/contracts/schemas/casecore.event.schema.json
+    - /casecore-spec/packages/contracts/schemas/casecore.entity.schema.json
+    - /casecore-spec/packages/contracts/schemas/casecore.tag.schema.json
+    - /casecore-spec/packages/contracts/schemas/casecore.proposal-envelope.schema.json
+
+  apis:
+    - /casecore-spec/packages/contracts/apis/casecore.llm-proposal.api.yaml
+    - /casecore-spec/packages/contracts/apis/casecore.artifact-promotion.api.yaml
+    - /casecore-spec/packages/contracts/apis/casecore.workflow-status.api.yaml
+
+  events:
+    - /casecore-spec/packages/contracts/events/casecore.workflow.events.yaml
+    - /casecore-spec/packages/contracts/events/casecore.audit.events.yaml
+
+  enums:
+    - /casecore-spec/packages/contracts/enums/artifact_status.yaml
+    - /casecore-spec/packages/contracts/enums/review_status.yaml
+    - /casecore-spec/packages/contracts/enums/case_type.yaml
+    - /casecore-spec/packages/contracts/enums/proposal_type.yaml
+
+  audit:
+    - /casecore-spec/packages/contracts/audit/casecore.audit.schema.json
+    - /casecore-spec/packages/contracts/audit/casecore.audit-rules.yaml
+
+  workflows:
+    - /casecore-spec/packages/contracts/workflows/state_transitions.yaml
+
+  prompts:
+    - /casecore-spec/packages/contracts/prompts/prompt_catalog.yaml
+
+  programs:
+    - /casecore-spec/packages/contracts/programs/program_FACT_NORMALIZATION.md
+    - /casecore-spec/packages/contracts/programs/program_TAGGING.md
+    - /casecore-spec/packages/contracts/programs/program_COMPOSITE_ENGINE.md
+    - /casecore-spec/packages/contracts/programs/program_COA_ENGINE.md
+
+  agents:
+    - /casecore-spec/packages/contracts/agents/agent_INTERVIEW_AGENT.md
+    - /casecore-spec/packages/contracts/agents/agent_MAPPING_AGENT.md
+    - /casecore-spec/packages/contracts/agents/agent_COA_REASONER.md
+
+  taxonomies:
+    - /casecore-spec/packages/contracts/taxonomies/coa_library.yaml
+    - /casecore-spec/packages/contracts/taxonomies/tag_taxonomy.yaml

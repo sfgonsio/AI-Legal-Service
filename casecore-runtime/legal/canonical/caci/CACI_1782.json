@@ -1,0 +1,18 @@
+{
+  "code": "CACI",
+  "instruction_id": "1782",
+  "title": ". . . . . . . . . . . . . . . . . . . . . . . . .4701",
+  "series": "1700",
+  "series_title": "Wrongful Death",
+  "text": "1782(a) . . . . . . . . . . . . . . . . . . . . . . . . 4701\n1782(c) . . . . . . . . . . . . . . . . . . . . . . . . 4710\n1784. . . . . . . . . . . . . . . . . . . . . . . . . .4710\n1790.1. . . . . . . . . . . . . . . . . . . . . . . . .3222\n1790.3. . . . . . . . . . . . . . . . . .3200, 3201, 3222\nAS TABLE OF STATUTES\n[References are to the Judicial Council of California Criminal Jury Instructions (CALCRIM), e.g., 1900]\nTS-3\nThis version provided by LexisNexis\u00ae Matthew Bender\u00ae, Official Publisher, 800-533-1637,\nstore.lexisnexis.com, for public and internal court use\n\nCivil Code\u2014Cont.\nSec. Inst.\n1791(a). . . . . . . . . . . . . . . . . . . . .3200, 3241\n1791(g) to (i) . . . . . . . 3200, 3201, 3210, 3211, 3221\n1791.1(a) . . . . . . . . . . . . . . . . . . . . . . . 3210\n1791.1(b) . . . . . . . . . . . . . . . . . . . . . . . 3211\n1791.1(c). . . . . . . . . . . . . . . . . . . .3210, 3212\n1791.1(d). . . . . . . . . . . . .3210, 3211, 3240, 3241\n1791.2 . . . . . . . . . . . . . . . . . . . . . 3200, 3201\n1791.3. . . . . . . . . . . . . . . . . . . . . . . . .3221",
+  "tags": [
+    "wrongful_death"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "414",
+  "title": "Amount of Caution Required in Dangerous Situations",
+  "series": "400",
+  "series_title": "Negligence",
+  "text": "People must be extremely careful when they deal with dangerous items\nor participate in dangerous activities. [ Insert type of dangerous item or\nactivity] is dangerous in and of itself. The risk of harm is so great that\nthe failure to use extreme caution is negligence.\nNew September 2003; Revised May 2020",
+  "tags": [
+    "negligence"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "An instruction on the standard of care for extremely dangerous activities is proper\nonly \u201cin situations where the nature of the activity or substance is so inherently\ndangerous or complex, as such, that the hazard persists despite the exercise of\nordinary care.\u201d ( Benwell v. Dean (1964) 227 Cal.App.2d 226, 233 [38 Cal.Rptr.\n542]; see also Menchaca v. Helms Bakeries, Inc. (1968) 68 Cal.2d 535, 544 [67\nCal.Rptr. 775, 439 P .2d 903].)\nThis instruction should not be given at the same time as an instruction pertaining to\nstandard of care for employees who have to work in dangerous situations. In\nappropriate cases, juries may be instructed that a person of ordinary prudence is\nrequired to exercise extreme caution when engaged in a dangerous activity.\n(Borenkraut v. Whitten (1961) 56 Cal.2d 538, 544\u2013546 [15 Cal.Rptr. 635, 364 P .2d\n467].) However, this rule does not apply when a person\u2019s lawful employment\nrequires that person to work in a dangerous situation. ( McDonald v. City of Oakland\n(1967) 255 Cal.App.2d 816, 827 [63 Cal.Rptr. 593].) This is because \u201creasonable\n[employees] who are paid to give at least part of their attention to their job\u201d may\nnot be as able to maintain the same standards for personal safety as nonemployees.\n(Young v. Aro Corp. (1974) 36 Cal.App.3d 240, 245 [111 Cal.Rptr. 535].) (See\nCACI No. 415, Employee Required to Work in Dangerous Situations .)",
+  "sources_and_authority": "\u2022 Even a slight deviation from the standards of care will constitute negligence in\ncases involving dangerous instrumentalities. ( Borenkraut, supra, 56 Cal.2d at p.\n545.)\n\u2022 Dangerous instrumentalities include \ufb01re, \ufb01rearms, explosive or highly\nin\ufb02ammable materials, and corrosive or otherwise dangerous or noxious \ufb02uids.\n(Warner v. Santa Catalina Island Co. (1955) 44 Cal.2d 310, 317 [282 P .2d 12].)\n\u2022 In Menchaca, the Court held that \u201c[d]riving a motor vehicle may be sufficiently\ndangerous to warrant special instructions, but it is not so hazardous that it\nalways requires \u2018extreme caution.\u2019 \u201d ( Menchaca, supra, 68 Cal.2d at p. 544.)"
+}

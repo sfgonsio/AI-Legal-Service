@@ -1,0 +1,24 @@
+﻿authority_sync_targets:
+  - authority_id: CA_BPC_DIV10_CANNABIS
+    enabled: true
+    jurisdiction: CA
+    code_family: BPC
+    division: "10"
+    title: Cannabis
+    sync_program: programs/authority_sync/program_CA_BPC_DIV10_CANNABIS_SYNC.py
+    storage_root: authority_store/ca/bpc/division_10_cannabis
+    cadence:
+      mode: scheduled
+      suggested: weekly
+    upstreams:
+      downloads_page: https://leginfo.legislature.ca.gov/faces/downloads.xhtml
+      toc_url: https://leginfo.legislature.ca.gov/faces/codes_displayexpandedbranch.xhtml?article=&chapter=&division=10.&part=&title=&tocCode=BPC
+    intended_consumers:
+      - spine
+      - brain
+      - programs
+    use_cases:
+      - cannabis licensing
+      - cannabis compliance
+      - cannabis commercial disputes
+      - Mills vs. Polley

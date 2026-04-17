@@ -1,0 +1,31 @@
+{
+  "code": "EVID",
+  "section": "502",
+  "title": "Jury Instruction on Burden of Proof",
+  "text": "The court on all proper occasions shall instruct the jury as to which party bears the burden of proof on each issue and as to whether that burden requires that a party raise a reasonable doubt concerning the existence or nonexistence of a fact or that he establish the existence or nonexistence of a fact by a preponderance of the evidence, by clear and convincing proof, or by proof beyond a reasonable doubt.",
+  "category": "jury_instruction",
+  "canonical_type": "source",
+  "structure": {
+    "division": "5",
+    "division_title": "Burden of Proof; Burden of Producing Evidence; Presumptions and Inferences",
+    "chapter": "1",
+    "chapter_title": "Burden of Proof",
+    "article": "1",
+    "article_title": "General"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "(Enacted by Stats. 1965, Ch. 299.)"
+  },
+  "tags": [
+    "jury instruction",
+    "burden of proof",
+    "standard of proof",
+    "preponderance",
+    "clear and convincing",
+    "beyond a reasonable doubt"
+  ],
+  "notes": "Critical bridge between issue-level burdens and jury instruction on the applicable standard of proof."
+}

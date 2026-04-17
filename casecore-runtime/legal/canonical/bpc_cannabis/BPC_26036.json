@@ -1,0 +1,24 @@
+{
+  "code": "BPC",
+  "section": "26036",
+  "title": "Section 26036",
+  "text": "Nothing in this division shall be interpreted to supersede or limit the department or other state and local agencies from exercising their existing enforcement authority, including, but not limited to, under this division, the Fish and Game Code, the Food and Agricultural Code, the Government Code, the Health and Safety Code, the Penal Code, the Public Resources Code, the Water Code, or the application of those laws. (Amended by Stats. 2025, Ch. 248, Sec. 7. (AB 8) Effective January 1, 2026.)",
+  "tags": [
+    "enforcement",
+    "licensing",
+    "cannabis",
+    "local_control"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Cannabis",
+    "chapter": "3",
+    "chapter_title": "Enforcement"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Scraped from authority_store raw data."
+  }
+}

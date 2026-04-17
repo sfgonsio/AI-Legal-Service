@@ -1,0 +1,19 @@
+{
+  "code": "CACI",
+  "instruction_id": "3040",
+  "title": "Violation of Prisoner\u2019s Federal Civil Rights\u2014Eighth",
+  "series": "3000",
+  "series_title": "Civil Rights (Statutory)",
+  "text": "Amendment\u2014Substantial Risk of Serious Harm (42 U.S.C. \u00a7 1983)\n3041. Violation of Prisoner\u2019s Federal Civil Rights\u2014Eighth Amendment\u2014Medical\nCare (42 U.S.C. \u00a7 1983)\n3042. Violation of Prisoner\u2019s Federal Civil Rights\u2014Eighth Amendment\u2014Excessive\nForce (42 U.S.C. \u00a7 1983)",
+  "tags": [
+    "civil_rights",
+    "medical"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

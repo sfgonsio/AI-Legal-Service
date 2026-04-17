@@ -1,0 +1,26 @@
+{
+  "code": "EVID",
+  "section": "1204",
+  "title": "Hearsay Inadmissible Against Criminal Defendant if Unconstitutional",
+  "text": "A statement that is otherwise admissible as hearsay evidence is inadmissible against the defendant in a criminal action if the statement was made, either by the defendant or by another, under such circumstances that it is inadmissible against the defendant under the Constitution of the United States or the State of California.",
+  "tags": [
+    "hearsay",
+    "criminal",
+    "constitutional",
+    "inadmissible"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Hearsay Evidence",
+    "chapter": "1",
+    "chapter_title": "General Provisions",
+    "article": null,
+    "article_title": null
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

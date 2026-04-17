@@ -1,0 +1,21 @@
+{
+  "code": "BPC",
+  "section": "26222.5",
+  "title": "Section 26222.5",
+  "text": "The General Corporation Law (Division 1 (commencing with Section 100) of Title 1 of the Corporations Code) applies to each association that is organized pursuant to this chapter, except where those provisions are in conflict with or inconsistent with the express provisions of this chapter. For the purpose of associations organized without shares of stock, the members shall be deemed to be \u201cshareholders\u201d as the term is used in the General Corporation Law. (Added by Stats. 2017, Ch. 27, Sec. 107. (SB 94) Effective June 27, 2017.)",
+  "tags": [
+    "cannabis"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Cannabis",
+    "chapter": "3",
+    "chapter_title": "Enforcement"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Scraped from authority_store raw data."
+  }
+}

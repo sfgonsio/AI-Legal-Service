@@ -1,0 +1,22 @@
+{
+  "code": "BPC",
+  "section": "26248",
+  "title": "Section 26248",
+  "text": "(a) On or before July 1, 2021, and annually thereafter, the Governor\u2019s Office of Business and Economic Development shall submit a report to the Legislature regarding the progress of local equity programs that have received funding pursuant to Section",
+  "tags": [
+    "local_control",
+    "cannabis"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Cannabis",
+    "chapter": "23",
+    "chapter_title": "The California Cannabis Equity Act"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Scraped from authority_store raw data."
+  }
+}

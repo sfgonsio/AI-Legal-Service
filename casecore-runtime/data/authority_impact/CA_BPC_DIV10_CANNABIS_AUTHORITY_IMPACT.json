@@ -1,0 +1,21 @@
+{
+  "authority_id": "CA_BPC_DIV10_CANNABIS",
+  "impact_mode": "forward_only_supersession",
+  "staleness_policy": {
+    "legacy_label": "LEGACY",
+    "authority_change_status": "SUPERSEDED_BY_AUTHORITY"
+  },
+  "impacted_artifact_classes": [
+    "deposition_workspace",
+    "burden_map",
+    "element_coverage",
+    "evidence_to_element_mapping",
+    "trial_theme_workspace"
+  ],
+  "rerun_guidance": [
+    "preserve historical artifacts",
+    "mark impacted artifacts as superseded or stale",
+    "rerun from authority binding layer forward",
+    "do not rewrite prior artifacts"
+  ]
+}

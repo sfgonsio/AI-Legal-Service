@@ -1,0 +1,19 @@
+{
+  "code": "CACI",
+  "instruction_id": "3903",
+  "title": "Items of Economic Damage",
+  "series": "3700",
+  "series_title": "Damages",
+  "text": "The following are the speci\ufb01c items of economic damages claimed by\n[name of plaintiff ]:\n[Insert applicable instructions on items of economic damage. ]\nNew September 2003",
+  "tags": [
+    "damages"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "This instruction may not be necessary in every case. For example, if the plaintiff is\nnot claiming any noneconomic damages, there would be no need to de\ufb01ne the\nclaimed damages as \u201ceconomic.\u201d If this instruction is used, it should be followed by\napplicable instructions (see CACI Nos. 3903A through 3903N) concerning the items\nof economic damage claimed by the plaintiff. These instructions should be inserted\ninto this instruction as sequentially numbered items."
+}

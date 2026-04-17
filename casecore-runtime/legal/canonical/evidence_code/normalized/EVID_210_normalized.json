@@ -1,0 +1,45 @@
+{
+  "section_id": "EC-210",
+  "code": "EVID",
+  "section": "210",
+  "title": "Relevant Evidence",
+  "text": "“Relevant evidence” means evidence, including evidence relevant to the credibility of a witness or hearsay declarant, having any tendency in reason to prove or disprove any disputed fact that is of consequence to the determination of the action.",
+  "notes": null,
+  "rule_type": "hearsay_exception",
+  "rule_type_confidence": "heuristic",
+  "applies_to": [],
+  "evidentiary_standard": null,
+  "foundation_requirements": [],
+  "cross_refs": [],
+  "coa_relevance": [],
+  "exclusion_grounds": [],
+  "tags": [
+    "relevance",
+    "admissibility",
+    "credibility",
+    "hearsay",
+    "intake_critical",
+    "agent_core",
+    "trial_relevant"
+  ],
+  "structure": {
+    "division": "2",
+    "division_title": "Words and Phrases Defined",
+    "chapter": null,
+    "chapter_title": null,
+    "article": null,
+    "article_title": null
+  },
+  "canonical_type": "source",
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": null
+  },
+  "effective_date": null,
+  "schema_version": "1.0",
+  "pass1_complete": true,
+  "pass2_complete": false,
+  "source_file": "EVID_210.json"
+}

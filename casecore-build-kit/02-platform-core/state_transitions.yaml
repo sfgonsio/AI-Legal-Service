@@ -1,0 +1,12 @@
+﻿workflow_objects:
+  matter:
+    states: [created, active, review_pending, closed, archived]
+  artifact:
+    states: [proposed, canonical, rejected]
+  review:
+    states: [pending, approved, rejected, overridden]
+
+rules:
+  - no_skipped_transitions: true
+  - all_material_transitions_require_audit: true
+  - canonical_promotion_requires_governed_action: true

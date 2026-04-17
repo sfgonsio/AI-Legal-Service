@@ -1,0 +1,41 @@
+{
+  "section_id": "EC-620",
+  "code": "EVID",
+  "section": "620",
+  "title": "Conclusive Presumptions Defined",
+  "text": "The presumptions established by this article, and all other presumptions declared by law to be conclusive, are conclusive presumptions.",
+  "notes": "Defines conclusive presumptions as those established by this article or otherwise declared conclusive by law. These presumptions are not rebuttable.",
+  "rule_type": "presumption",
+  "rule_type_confidence": "heuristic",
+  "applies_to": [],
+  "evidentiary_standard": null,
+  "foundation_requirements": [],
+  "cross_refs": [],
+  "coa_relevance": [],
+  "exclusion_grounds": [],
+  "tags": [
+    "conclusive_presumption",
+    "presumptions",
+    "irrebuttable"
+  ],
+  "structure": {
+    "division": "5",
+    "division_title": "Burden of Proof; Burden of Producing Evidence; Presumptions and Inferences",
+    "chapter": "3",
+    "chapter_title": "Presumptions and Inferences",
+    "article": "2",
+    "article_title": "Conclusive Presumptions"
+  },
+  "canonical_type": "source",
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "(Enacted by Stats. 1965, Ch. 299.)"
+  },
+  "effective_date": null,
+  "schema_version": "1.0",
+  "pass1_complete": true,
+  "pass2_complete": false,
+  "source_file": "EVID_620.json"
+}

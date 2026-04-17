@@ -1,0 +1,21 @@
+{
+  "code": "CACI",
+  "instruction_id": "505",
+  "title": "Success Not Required",
+  "series": "500",
+  "series_title": "Medical Negligence",
+  "text": "[A/An] [ insert type of medical practitioner ] is not necessarily negligent just\nbecause [his/her/ nonbinary pronoun] efforts are unsuccessful or [he/she/\nnonbinary pronoun] makes an error that was reasonable under the\ncircumstances. [A/An] [ insert type of medical practitioner ] is negligent only\nif [he/she/ nonbinary pronoun] was not as skillful, knowledgeable, or\ncareful as other reasonable [ insert type of medical practitioners ] would\nhave been in similar circumstances.\nNew September 2003",
+  "tags": [
+    "medical",
+    "medical_negligence"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "Plaintiffs have argued that this type of instruction \u201cprovides too easy an \u2018out\u2019 for\nmalpractice defendants.\u201d ( Fraijo v. Hartland Hospital (1979) 99 Cal.App.3d 331,\n343 [160 Cal.Rptr. 246].) Nevertheless, in California, instructions on this point have\nbeen sustained when challenged. ( Rainer v. Community Memorial Hospital (1971)\n18 Cal.App.3d 240, 260 [95 Cal.Rptr. 901].)",
+  "sources_and_authority": "\u2022 \u201cWhile a physician cannot be held liable for mere errors of judgment or for\nerroneous conclusions on matters of opinion, he must use the judgment and form\nthe opinions of one possessed of knowledge and skill common to medical men\npracticing, in the same or like community and that he may have done his best is\nno answer to an action of this sort.\u201d ( Sim v. Weeks (1935) 7 Cal.App.2d 28, 36\n[45 P .2d 350].)\n\u2022 \u201cThe \u2018law has never held a physician or surgeon liable for every untoward result\nwhich may occur in medical practice\u2019 but it \u2018demands only that a physician or\nsurgeon have the degree of learning and skill ordinarily possessed by\npractitioners of the medical profession in the same locality and that he exercise\nordinary care in applying such learning and skill to the treatment of his\npatient.\u2019 \u201d ( Huffman v. Lindquist (1951) 37 Cal.2d 465, 473 [234 P .2d 34],\ninternal citations omitted.)\n\u2022 It is appropriate to instruct a jury that \u201cthey do not necessarily adjudge whether\nthere was negligence in terms of the result achieved . . . .\u201d ( Dincau v. Tamayose\n(1982) 131 Cal.App.3d 780, 800 [182 Cal.Rptr. 855].)\n\u2022 \u201c[A] physician and surgeon is not required to make a perfect diagnosis but is\nonly required to have that degree of skill and learning ordinarily possessed by\nphysicians of good standing practicing in the same locality and to use ordinary\ncare and diligence in applying that learning to the treatment of his patient.\u201d ( Ries\nv. Reinard (1941) 47 Cal.App.2d 116, 119 [117 P .2d 386].)\n\u2022 \u201cA doctor is not a warrantor of cures nor is he required to guarantee results and\n447\n\nin the absence of a want of reasonable care and skill will not be held responsible\nfor untoward results.\u201d ( Sanchez v. Rodriguez (1964) 226 Cal.App.2d 439, 449\n[38 Cal.Rptr. 110].)"
+}

@@ -1,4 +1,10 @@
-﻿contract:
+  - ./programs/program_AUTHORITY_NORMALIZATION.md
+  - ./programs/program_AUTHORITY_IMPACT_ANALYSIS.md
+  - ./programs/program_AUTHORITY_BINDING.md
+contract:
+
+  - ./programs/program_LAW_NORMALIZATION.md
+contract:
   name: "AI Legal Service Contract"
   version: "v1"
   status: "authoritative"
@@ -58,8 +64,8 @@
       - "./data/postgres_seed.sql"
       - "./data/data_model_mappings.md"
 
-    agent_contracts:
-      - "./agents/agent_interface_contract.md"
+    agent_contracts: []
+    
 
     taxonomies:
       coa:
@@ -94,8 +100,7 @@ integrity:
     enabled: true
     algorithm: "sha256"
     hashes:
-      "./agents/agent_interface_contract.md": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      "./architecture/section7-layered-architecture.md": "2c5a9d4f85b5593abc2993e41613e80d83dcd9cd0b0f03dd4f418e4a7bef602e"
+      "./architecture/section7-layered-architecture.md": ""
       "./data/data_model_mappings.md": "89698a88d1358e7a5a9015dc147d6d0b1c3f25fc70960337cc82c503c9b1ab01"
       "./data/postgres_ddl.sql": "816ec94992c5e56b92a3997149d56e09d1414813b5a40398f53099a27dffc333"
       "./data/postgres_seed.sql": "da88cb89538b2cf8a501fad0f57b18479ace8f04d229cddd3d3011f557c1edda"
@@ -110,7 +115,7 @@ integrity:
       "./taxonomies/entities/entity_schema_v1.yaml": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       "./taxonomies/tags/tag_schema_v1.yaml": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       "./tools/tool_gateway_contract.md": "8b47ca97a7e1ea5f0d16b9705d1748f0fbc324dc10dedc6eaed0cf55f85c63cf"
-      "./tools/tool_registry.yaml": "d42c1ba40ecde605260b9ec387d472f072e222e012ed48f8074c61239e08fd67"
+      "./tools/tool_registry.yaml": "c3c50228341fdb7f242aba15f17840728046ebadbec931ba180c37c12eaee1bc"
       "./schemas/interview/case_strategy_mode.schema.json": "50d8022ca369637f4bf6600da86f5f3fb993527994d8719d0083b321c4eeb927"
       "./schemas/interview/element_completeness_matrix.schema.json": "971676365b5bf0949c5f54e1bd36b4b7ecec09c0965fcaa447cd79dbee855d50"
       "./schemas/interview/risk_flag_register.schema.json": "5d1d91b0ee78c629ae0bbfe0c6b01b6bd78a96255d9ef7cfce73c6c96a27551c"
@@ -119,4 +124,9 @@ integrity:
       "./overlays/interview/employment_wrongful_term_pack_v2.yaml": "22b0d9c23b34137631030a86206decb8adead7504cae6de321c4c4706997352a"
       "./overlays/interview/attorney_smith_style_v3.yaml": "f5ff23242c045db371b17ce0c225fcfd4dcb85b46ab5fe4cf57652c3de7ed831"
       "./overlays/interview/matter_critical_gaps_pack_v1.yaml": "55fe28157e27fdf58acd1e8bee2670acf7d68fb2df0d69a5514a7cb0bf245158"
-not following.  can i gie oyu
+
+authority_sync:
+  targets:
+    - "./config/authority_sync_targets.yaml"
+
+

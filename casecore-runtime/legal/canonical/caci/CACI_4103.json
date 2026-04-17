@@ -1,0 +1,22 @@
+{
+  "code": "CACI",
+  "instruction_id": "4103",
+  "title": "Duty of Con\ufb01dentiality\u2014Essential Factual Elements",
+  "series": "4100",
+  "series_title": "Legal Malpractice",
+  "text": "[Name of plaintiff ] claims that [he/she/ nonbinary pronoun/it] was harmed\nby [ name of defendant ]\u2019s breach of the \ufb01duciary duty of con\ufb01dentiality.\nTo establish this claim, [ name of plaintiff ] must prove all of the following:\n1. That [ name of defendant ] was [ name of plaintiff ]\u2019s\n[agent/stockbroker/real estate agent/real estate broker/corporate\nofficer/partner/[insert other \ufb01duciary relationship ]];\n2. That [ name of defendant ] had information relating to [ name of\nplaintiff] that [he/she/ nonbinary pronoun /it] knew or should have\nknown was con\ufb01dential;\n3. That [ name of defendant ] [ insert one of the following: ]\n3. [used [ name of plaintiff ]\u2019s con\ufb01dential information for [his/her/\nnonbinary pronoun /its] own bene\ufb01t;]\n3. [communicated [ name of plaintiff ]\u2019s con\ufb01dential information to\nthird parties;]\n4. That [ name of plaintiff ] did not give informed consent to [ name of\ndefendant]\u2019s conduct;\n5. That the con\ufb01dential information was not a matter of general\nknowledge;\n6. That [ name of plaintiff ] was harmed; and\n7. That [ name of defendant ]\u2019s conduct was a substantial factor in\ncausing [ name of plaintiff ]\u2019s harm.\nNew June 2006",
+  "tags": [
+    "breach",
+    "duty",
+    "legal_malpractice"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "The instructions in this series are intended for lawsuits brought by or on behalf of\nthe principal. They also assume that the plaintiff is bringing a legal cause of action,\nnot an action in equity. (See V an de Kamp v. Bank of America (1988) 204\nCal.App.3d 819 [251 Cal.Rptr. 530].)\nFor a breach of \ufb01duciary duty instruction in cases involving attorney defendants, see\nCACI No. 4106, Breach of Fiduciary Duty by Attorney\u2014Essential Factual\nElements.\nWhile the advisory committee has not included \u201cemployee\u201d as an option for\nidentifying the defendant agent in element 1, there may be cases in which certain\nemployees qualify as \u201cagents,\u201d thereby subjecting them to liability for breach of\n\ufb01duciary duty.\n1066\n\nA cause of action relating to the misuse of con\ufb01dential information may also be\nbrought, in certain circumstances, against non-\ufb01duciaries. This instruction may be\nmodi\ufb01ed to apply to such cases.",
+  "sources_and_authority": "\u2022 Restatement Second of Agency, section 395, states: \u201cUnless otherwise agreed, an\nagent is subject to a duty to the principal not to use or to communicate\ninformation con\ufb01dentially given him by the principal or acquired by him during\nthe course of or on account of his agency or in violation of his duties as agent,\nin competition with or to the injury of the principal, on his own account or on\nbehalf of another, although such information does not relate to the transaction in\nwhich he is then employed, unless the information is a matter of general\nknowledge.\u201d\n\u2022 \u201c \u2018The law of con\ufb01dential relationships governs duties of trust that one is not\nobligated to assume. Once a person commits himself to a con\ufb01dential\nrelationship, the law requires him to ful\ufb01ll the duties attendant to the\nrelationship. Con\ufb01dential relations protect the trust that is implicit in\nrelationships between employers and employees, between masters and servants,\nand between principals and agents, rather than the information that may pass\nbetween these parties.\u2019 \u201d ( Balboa Ins. Co. v. Trans Global Equities (1990) 218\nCal.App.3d 1327, 1350\u20131351 [267 Cal.Rptr. 787], original italics, internal\ncitation omitted.)"
+}

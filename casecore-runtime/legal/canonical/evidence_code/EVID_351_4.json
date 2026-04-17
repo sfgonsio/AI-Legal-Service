@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "351.4",
+  "title": "Immigration Status — Criminal Actions In Camera Hearing",
+  "text": "(a) In a criminal action, evidence of a person's immigration status shall not be disclosed in open court by a party or their attorney unless the judge presiding over the matter first determines that the evidence is admissible in an in camera hearing requested by the party seeking disclosure of the person's immigration status.\n\n(b) This section does not do any of the following:\n\n(1) Apply to cases in which a person's immigration status is necessary to prove an element of an offense or an affirmative defense.\n\n(2) Limit discovery in a criminal action.\n\n(3) Prohibit a person or their attorney from voluntarily revealing the person's immigration status to the court.",
+  "tags": ["admissibility", "immigration_status", "criminal_action", "in_camera"],
+  "structure": {
+    "division": "3",
+    "division_title": "General Provisions",
+    "chapter": "4",
+    "chapter_title": "Admitting and Excluding Evidence",
+    "article": "1",
+    "article_title": "General Provisions"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Added by Stats. 2022, Ch. 168, Sec. 2. (SB 836) Effective August 22, 2022."
+  }
+}

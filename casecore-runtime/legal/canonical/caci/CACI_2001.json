@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "2001",
+  "title": "Trespass\u2014Extrahazardous Activities",
+  "series": "2000",
+  "series_title": "Insurance Litigation",
+  "text": "[Name of plaintiff ] claims that [ name of defendant ] trespassed on [his/her/\nnonbinary pronoun/its] property. To establish this claim, [ name of plaintiff ]\nmust prove all of the following:\n1. That [ name of plaintiff ] [owned/leased/occupied/controlled] the\nproperty;\n2. That [ name of defendant ] was engaged in [ insert extrahazardous\nactivity];\n3. That [ insert extrahazardous activity ] caused [ insert thing ] to enter\n[name of plaintiff ]\u2019s property;\n4. That [ name of plaintiff ] did not give permission for the entry [or\nthat [ name of defendant ] exceeded [ name of plaintiff ]\u2019s permission];\n5. That [ name of plaintiff ] was harmed; and\n6. That [ name of defendant ]\u2019s conduct was a substantial factor in\ncausing [ name of plaintiff ]\u2019s harm.\n[Entry can be on, above, or below the surface of the land.]\n[Entry may occur indirectly, such as by causing vibrations that damage\nthe land or property on the land.]\nNew September 2003",
+  "tags": [
+    "insurance"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "Nominal damages alone are not available in cases involving intangible intrusions\nsuch as noise and vibrations; proof of actual damage to the property is required:\n\u201c[T]he rule is that actionable trespass may not be predicated upon nondamaging\nnoise, odor, or light intrusion . . . .\u201d ( San Diego Gas & Electric Co. v. Superior\nCourt (1996) 13 Cal.4th 893, 936 [55 Cal.Rptr.2d 724, 920 P .2d 669], internal\ncitation omitted.)\n\u201cWhether an activity is ultrahazardous is a question of law to be determined by the\ncourt.\u201d ( Smith v. Lockheed Propulsion Co. (1967) 247 Cal.App.2d 774, 785 [56\nCal.Rptr. 128].)",
+  "sources_and_authority": "\u2022 \u201c[W]e conclude that the rule of the Restatement is sound, and that in this state\nthere is no liability for a trespass unless the trespass is intentional, the result of\nrecklessness or negligence, or the result of engaging in an extra-hazardous\nactivity.\u201d (Gallin v. Poulou (1956) 140 Cal.App.2d 638, 645 [295 P .2d 958].)\n\u2022 \u201cSection 520 of the Restatement of Torts de\ufb01nes ultrahazardous activity as\n1255\n\nfollows: \u2018An activity is ultrahazardous if it (a) necessarily involves a risk of\nserious harm to the person, land or chattels of others which cannot be eliminated\nby the exercise of the utmost care, and (b) is not a matter of common usage.\u2019\nCalifornia has apparently accepted the Restatement de\ufb01nition.\u201d ( Smith v.\nLockheed Propulsion Co., supra, 247 Cal.App.2d at p. 785.)\n\u2022 \u201cTrespass may be \u2018 \u201cby personal intrusion of the wrongdoer or by his failure to\nleave; by throwing or placing something on the land; or by causing the entry of\nsome other person. . . .\u201d \u2019 A trespass may be on the surface of the land, above it,\nor below it. The migration of pollutants from one property to another may\nconstitute a trespass, a nuisance, or both.\u201d ( Martin Marietta Corp. v. Insurance\nCo. of North America (1995) 40 Cal.App.4th 1113, 1132 [47 Cal.Rptr.2d 670],\ninternal citations omitted.)"
+}

@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "1550.1",
+  "title": "Printed Representation of Images Stored on Video or Digital Medium",
+  "text": "A printed representation of images stored on a video or digital medium is presumed to be an accurate representation of the images it purports to represent. This presumption is a presumption affecting the burden of producing evidence. If a party to an action introduces evidence that a printed representation of images stored on a video or digital medium is inaccurate or unreliable, the party introducing the printed representation into evidence has the burden of proving, by a preponderance of evidence, that the printed representation is an accurate representation of the existence and content of the images that it purports to represent.",
+  "tags": ["digital_images", "video", "presumption", "accuracy", "burden_of_proof"],
+  "structure": {
+    "division": "11",
+    "division_title": "Writings",
+    "chapter": "2",
+    "chapter_title": "Secondary Evidence of Writings",
+    "article": "3",
+    "article_title": "Photographic Copies and Printed Representations of Writings"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

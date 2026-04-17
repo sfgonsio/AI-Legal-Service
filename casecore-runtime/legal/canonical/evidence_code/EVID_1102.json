@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "1102",
+  "title": "Defendant's Character in Criminal Action",
+  "text": "In a criminal action, evidence of the defendant's character or a trait of his character in the form of an opinion or evidence of his reputation is not made inadmissible by Section 1101 if such evidence is:\n\n(a) Offered by the defendant to prove his conduct in conformity with such character or trait of character.\n\n(b) Offered by the prosecution to rebut evidence adduced by the defendant under subdivision (a).",
+  "tags": ["character_evidence", "criminal_action", "defendant"],
+  "structure": {
+    "division": "9",
+    "division_title": "Evidence Affected or Excluded by Extrinsic Policies",
+    "chapter": "1",
+    "chapter_title": "Evidence of Character, Habit, or Custom",
+    "article": "",
+    "article_title": ""
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

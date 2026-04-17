@@ -1,0 +1,65 @@
+version: v1
+authority: contract_v1_ssot
+name: evidence_graph_schema
+
+entities:
+
+  document:
+    primary_key: doc_uid
+    fields:
+      - doc_uid
+      - source_path
+      - ingestion_timestamp
+      - document_type
+      - hash
+
+  fact:
+    primary_key: fact_uid
+    fields:
+      - fact_uid
+      - doc_uid
+      - fact_type
+      - fact_value
+      - fact_timestamp
+      - run_id
+
+  event:
+    primary_key: event_uid
+    fields:
+      - event_uid
+      - event_type
+      - event_timestamp
+      - run_id
+
+  tag:
+    primary_key: tag_uid
+    fields:
+      - tag_uid
+      - event_uid
+      - tag_type
+      - run_id
+
+  coa:
+    primary_key: coa_uid
+    fields:
+      - coa_uid
+      - coa_type
+      - jurisdiction
+      - run_id
+
+relationships:
+
+  fact_to_event:
+    from: fact
+    to: event
+    link_table: EVENT_FACT_LINK
+
+  event_to_tag:
+    from: event
+    to: tag
+    link_table: EVENT_TAG_LINK
+
+  event_to_coa:
+    from: event
+    to: coa
+    link_table: COA_EVENT_LINK

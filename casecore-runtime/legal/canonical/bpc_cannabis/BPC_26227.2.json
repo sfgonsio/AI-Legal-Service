@@ -1,0 +1,21 @@
+{
+  "code": "BPC",
+  "section": "26227.2",
+  "title": "Section 26227.2",
+  "text": "An association may act as the agent or representative of any member or members in any of the activities specified in Section 26226.2 or",
+  "tags": [
+    "cannabis"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Cannabis",
+    "chapter": "3",
+    "chapter_title": "Enforcement"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Scraped from authority_store raw data."
+  }
+}

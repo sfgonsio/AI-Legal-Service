@@ -1,0 +1,18 @@
+{
+  "code": "CACI",
+  "instruction_id": "2802",
+  "title": ". . . . . . . . . . . . . . . . . . . . . . . . .2750",
+  "series": "2800",
+  "series_title": "Unfair Business Practices",
+  "text": "2802(a) . . . . . . . . . . . . . . . . . . . . . . . . 2750\n2922 . . . . . . . . 2400, 2401, 2403, 2420, 2421, 2513\n2924 . . . . . . . . . . . . . . . . . . . . . . 2420, 2421\n3351 . . . . . . . . . . . . . . . . . . . . . . 2800, 2810",
+  "tags": [
+    "unfair_business"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

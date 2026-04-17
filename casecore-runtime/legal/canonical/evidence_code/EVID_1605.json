@@ -1,0 +1,19 @@
+{
+  "code": "EVID",
+  "section": "1605",
+  "title": "Title by Prescription",
+  "text": "Whenever it appears that the occupant, or those under whom he claims, entered into the possession of real property under claim of title, exclusive of any other right, founding the claim upon a written instrument, as being a conveyance of the property in question, or upon the decree or judgment of a competent court, and that there has been a continued occupation and possession of the property included in the instrument, decree, or judgment, or of some part of the property, under the claim, for a period of five years, the property so included is deemed to have been held adversely.",
+  "tags": ["prescription", "adverse_possession", "title", "real_property", "five_years"],
+  "structure": {
+    "division": "11",
+    "division_title": "Writings",
+    "chapter": "3",
+    "chapter_title": "Official Writings Affecting Property"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

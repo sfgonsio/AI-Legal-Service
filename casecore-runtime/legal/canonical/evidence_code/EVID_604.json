@@ -1,0 +1,15 @@
+{
+  "code": "EVID",
+  "section": "604",
+  "title": "Effect of Production Presumption",
+  "text": "Requires fact assumed unless rebutted, then disappears.",
+  "category": "presumptions",
+  "canonical_type": "source",
+  "structure": {
+    "division": "5",
+    "chapter": "3",
+    "article": "1"
+  },
+  "tags": ["bursting bubble"],
+  "notes": "Classic 'bursting bubble' presumption."
+}

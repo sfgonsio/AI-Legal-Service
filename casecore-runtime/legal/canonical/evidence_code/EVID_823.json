@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "823",
+  "title": "Valuation Where No Comparable Market",
+  "text": "Notwithstanding any other provision of this article, the value of property for which there is no relevant, comparable market may be determined by any method of valuation that is just and equitable.",
+  "tags": ["opinion", "property_valuation", "no_comparable_market"],
+  "structure": {
+    "division": "7",
+    "division_title": "Opinion Testimony and Scientific Evidence",
+    "chapter": "1",
+    "chapter_title": "Expert and Other Opinion Testimony",
+    "article": "2",
+    "article_title": "Evidence of Market Value of Property"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Amended by Stats. 1992, Ch. 7, Sec. 4. Effective January 1, 1993."
+  }
+}

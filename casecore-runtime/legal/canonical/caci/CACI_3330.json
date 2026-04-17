@@ -1,0 +1,18 @@
+{
+  "code": "CACI",
+  "instruction_id": "3330",
+  "title": "Affirmative Defense to Locality Discrimination Claim\u2014Cost",
+  "series": "3300",
+  "series_title": "Unknown",
+  "text": "Justi\ufb01cation\n[Name of defendant ] claims that any locality discrimination proven by\n[name of plaintiff ] is within the law. To succeed, [ name of defendant ] must\nprove that the difference in [his/her/ nonbinary pronoun/its] price is\njusti\ufb01ed by: [ insert one or more of the following: ]\n[A difference in the [grade/quality/quantity] of the [ product] [he/she/\nnonbinary pronoun/it] sold in the different locations;] [or]\n[The difference in the cost of the [manufacture/sale/delivery] of [his/\nher/nonbinary pronoun/its] [ product] in the different locations;] [or]\n[A difference in the actual cost of transportation from the place the\n[product] was [produced/manufactured/shipped] to the place where\nthe [ product] was sold.]\nNew September 2003",
+  "tags": [],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "This defense applies to locality discrimination only.",
+  "sources_and_authority": "\u2022 Costs Justi\ufb01cation for Locality Discrimination. Business and Professions Code\nsection 17041.\n\u2022 \u201cWe . . . conclude that appellants are not required to negative the exception for\ndifferences in grade or other enumerated factors found in section 17041, and\ndeem the complaint sufficient to withstand demurrer without such allegations.\u201d\n(G.H.I.I. v. Mts, Inc. (1983) 147 Cal.App.3d 256, 273 [195 Cal.Rptr. 211],\ninternal citations and footnote omitted.)"
+}

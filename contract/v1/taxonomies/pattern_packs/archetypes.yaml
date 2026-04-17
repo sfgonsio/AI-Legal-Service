@@ -1,0 +1,81 @@
+version: v1
+jurisdiction: CA
+
+archetypes:
+
+  - archetype_id: breach_of_contract_CA
+    label: "Breach of Contract (California)"
+    coa_family: contract
+    default_modules:
+      - agreement_terms_capture
+      - breach_event_capture
+      - damages_quantification
+      - timeline_integrity
+      - authentication_chain_of_custody
+    conditional_modules:
+      - oral_agreement_validation
+      - assignment_chain_tracking
+      - mitigation_analysis
+    jury_instruction_refs:
+      - CACI_303
+      - CACI_304
+
+  - archetype_id: partnership_dispute_CA
+    label: "Partnership / Fiduciary Dispute (California)"
+    coa_family: business_association
+    default_modules:
+      - partnership_formation_capture
+      - fiduciary_duty_capture
+      - profit_distribution_capture
+      - authority_control
+      - accounting_trace
+    conditional_modules:
+      - dissolution_trigger_analysis
+      - brand_ownership_tracking
+    jury_instruction_refs:
+      - CACI_4100
+      - CACI_4102
+
+  - archetype_id: conversion_CA
+    label: "Conversion (California)"
+    coa_family: property
+    default_modules:
+      - ownership_establishment
+      - wrongful_control_capture
+      - demand_and_refusal_capture
+      - damages_quantification
+      - timeline_integrity
+    conditional_modules:
+      - brand_asset_tracking
+      - digital_asset_control_tracking
+    jury_instruction_refs:
+      - CACI_2100
+
+  - archetype_id: unfair_competition_CA
+    label: "Unfair Competition / Trademark (California)"
+    coa_family: intellectual_property
+    default_modules:
+      - brand_ownership_tracking
+      - market_confusion_capture
+      - wrongful_use_capture
+      - damages_quantification
+      - evidence_authentication
+    conditional_modules:
+      - registration_validation
+      - assignment_chain_tracking
+    jury_instruction_refs:
+      - CACI_17200
+
+  - archetype_id: fraud_misrepresentation_CA
+    label: "Fraud / Intentional Misrepresentation (California)"
+    coa_family: tort
+    default_modules:
+      - representation_capture
+      - knowledge_of_falsity_capture
+      - reliance_capture
+      - damages_quantification
+      - credibility_impeachment
+    conditional_modules:
+      - concealment_analysis
+    jury_instruction_refs:
+      - CACI_1900

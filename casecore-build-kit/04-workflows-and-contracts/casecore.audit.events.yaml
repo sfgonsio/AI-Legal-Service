@@ -1,0 +1,6 @@
+﻿events:
+  - name: casecore.audit.artifact.created
+  - name: casecore.audit.artifact.promoted
+  - name: casecore.audit.artifact.rejected
+  - name: casecore.audit.override.recorded
+  - name: casecore.audit.export.completed

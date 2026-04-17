@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "1550",
+  "title": "Photographic Copy",
+  "text": "A nonerasable optical image reproduction provided that additions, deletions, or changes to the original document are not permitted by the technology, a photostatic, microfilm, microcard, miniature photographic, or other photographic copy or reproduction, or an enlargement thereof, of a writing is as admissible as the writing itself if the copy or reproduction was made and preserved as a part of the records of a business (as defined by Section 1270) in the regular course of that business. The introduction of the copy, reproduction, or enlargement does not preclude admission of the original writing if it is still in existence. A court may require the introduction of a hard copy printout of the document.",
+  "tags": ["photographic_copy", "business_records", "admissibility", "reproduction"],
+  "structure": {
+    "division": "11",
+    "division_title": "Writings",
+    "chapter": "2",
+    "chapter_title": "Secondary Evidence of Writings",
+    "article": "3",
+    "article_title": "Photographic Copies and Printed Representations of Writings"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}
