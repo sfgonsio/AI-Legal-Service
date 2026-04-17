@@ -1,2 +1,38 @@
-﻿fastapi
-uvicorn
+# ============================================================
+# CASECORE API — Python Dependencies
+# ============================================================
+# Install: pip install -r requirements.txt
+# Works locally AND in production (Docker, cloud, etc.)
+# ============================================================
+
+# --- Core API framework ---
+fastapi>=0.110.0
+uvicorn>=0.29.0
+python-multipart>=0.0.9      # file uploads
+
+# --- Data validation ---
+pydantic>=2.6.0
+
+# --- AI Services ---
+anthropic>=0.49.0             # INTERVIEW_AGENT, COA Engine
+openai>=1.30.0                # Whisper audio transcription
+
+# --- Document Processing ---
+pypdf>=4.0.0                  # PDF text extraction
+python-docx>=1.1.0            # DOCX text extraction
+openpyxl>=3.1.0               # Excel file processing
+
+# --- Image Processing (optional — for OCR evidence ingestion) ---
+# Pillow>=10.0.0              # Image handling
+# pytesseract>=0.3.10         # OCR (requires tesseract binary)
+
+# --- Web Scraping (authority_sync pipeline) ---
+beautifulsoup4>=4.12.0
+lxml>=5.0.0
+requests>=2.31.0
+
+# --- Environment ---
+python-dotenv>=1.0.0          # .env file loading
+
+# --- HTTP client for service-to-service calls ---
+httpx>=0.27.0
