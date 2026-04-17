@@ -1,0 +1,19 @@
+name: Contract v1 Validation
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  validate-contract-v1:
+    runs-on: windows-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run Contract Validator
+        shell: pwsh
+        run: |
+          & "./contract/v1/validate_contract.ps1"
