@@ -1,0 +1,21 @@
+{
+  "code": "BPC",
+  "section": "26016",
+  "title": "Section 26016",
+  "text": "For any hearing held pursuant to this division, except a hearing held under Chapter 4 (commencing with Section 26040), the department may delegate the power to hear and decide to an administrative law judge. Any hearing before an administrative law judge shall be pursuant to the procedures, rules, and limitations prescribed in Chapter 5 (commencing with Section 11500) of Part 1 of Division 3 of Title 2 of the Government Code. (Amended by Stats. 2021, Ch. 70, Sec. 17. (AB 141) Effective July 12, 2021.)",
+  "tags": [
+    "cannabis"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Cannabis",
+    "chapter": "2",
+    "chapter_title": "Administration"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Scraped from authority_store raw data."
+  }
+}

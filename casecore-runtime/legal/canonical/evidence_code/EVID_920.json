@@ -1,0 +1,24 @@
+{
+  "code": "EVID",
+  "section": "920",
+  "title": "Privileges — No Implied Repeal of Other Statutes",
+  "text": "Nothing in this division shall be construed to repeal by implication any other statute relating to privileges.",
+  "tags": [
+    "privilege",
+    "statutory_construction"
+  ],
+  "structure": {
+    "division": "8",
+    "division_title": "Privileges",
+    "chapter": "3",
+    "chapter_title": "General Provisions Relating to Privileges",
+    "article": null,
+    "article_title": null
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

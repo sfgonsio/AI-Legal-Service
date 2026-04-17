@@ -1,0 +1,28 @@
+{
+  "code": "EVID",
+  "section": "961",
+  "title": "Exception — Validity of Writing Affecting Property",
+  "text": "There is no privilege under this article as to a communication relevant to an issue concerning the validity of a deed of conveyance, will, or other writing, executed by a client, now deceased, purporting to affect an interest in property.",
+  "tags": [
+    "attorney_client",
+    "privilege",
+    "exception",
+    "validity",
+    "property",
+    "deed"
+  ],
+  "structure": {
+    "division": "8",
+    "division_title": "Privileges",
+    "chapter": "4",
+    "chapter_title": "Particular Privileges",
+    "article": "3",
+    "article_title": "Lawyer-Client Privilege"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

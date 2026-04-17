@@ -1,0 +1,18 @@
+{
+  "code": "CACI",
+  "instruction_id": "712",
+  "title": "Affirmative Defense\u2014Failure to Wear a Seat Belt",
+  "series": "700",
+  "series_title": "Intentional Torts",
+  "text": "713\u2013719. Reserved for Future Use\n720. Motor Vehicle Owner Liability\u2014Permissive Use of Vehicle\n721. Motor Vehicle Owner Liability\u2014Affirmative Defense\u2014Use Beyond Scope of\nPermission",
+  "tags": [
+    "intentional_tort"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

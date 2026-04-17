@@ -1,0 +1,9 @@
+{
+  "code": "EVID",
+  "section": "754",
+  "title": "Interpreter for Deaf or Hard-of-Hearing Person",
+  "text": "(a) As used in this section, \"individual who is deaf or hard of hearing\" means an individual with a hearing loss so great as to prevent his or her understanding language spoken in a normal tone, but does not include an individual who is hard of hearing provided with, and able to fully participate in the proceedings through the use of, an assistive listening system or computer-aided transcription equipment provided pursuant to Section 54.8 of the Civil Code.\n(b) In a civil or criminal action, including an action involving a traffic or other infraction, a small claims court proceeding, a juvenile court proceeding, a family court proceeding or service, or a proceeding to determine the mental competency of a person, in a court-ordered or court-provided alternative dispute resolution, including mediation and arbitration, or in an administrative hearing, where a party or witness is an individual who is deaf or hard of hearing and the individual who is deaf or hard of hearing is present and participating, the proceeding shall be interpreted in a language that the individual who is deaf or hard of hearing understands by a qualified interpreter appointed by the court or other appointing authority, or as agreed upon.",
+  "tags": ["interpreter", "deaf", "hard_of_hearing", "qualified_interpreter", "civil_action", "ada"],
+  "structure": {"division": "6", "division_title": "Witnesses", "chapter": "4", "chapter_title": "Interpreters and Translators"},
+  "source": {"type": "ca_legislature", "jurisdiction": "California", "url": "https://leginfo.legislature.ca.gov", "editorial_note": "Amended by Stats. 2017, Ch. 561, Sec. 56. Effective January 1, 2018."}
+}

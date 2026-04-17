@@ -1,0 +1,22 @@
+{
+  "code": "BPC",
+  "section": "26051.5",
+  "title": "Section 26051.5",
+  "text": "(k) Failure to comply with license conditions established pursuant to subdivision (b) of Section",
+  "tags": [
+    "licensing",
+    "cannabis"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Cannabis",
+    "chapter": "3",
+    "chapter_title": "Enforcement"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Scraped from authority_store raw data."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "code": "CACI",
+  "instruction_id": "3220",
+  "title": "Affirmative Defense\u2014Unauthorized or Unreasonable Use",
+  "series": "3200",
+  "series_title": "Injunctive Relief",
+  "text": "[Name of defendant ] is not responsible for any harm to [ name of plaintiff ]\nif [ name of defendant ] proves that the [[ specify defect(s) in the consumer\ngood]/failure to match the [written/implied] warranty] [was/were] caused\nby unauthorized or unreasonable use of the [ consumer good ] after it was\nsold.\nNew September 2003; Revised February 2005, November 2018",
+  "tags": [
+    "injunctive_relief"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "sources_and_authority": "\u2022 Unauthorized or Unreasonable Use. Civil Code section 1794.3.\n\u2022 \u201cThe Song-Beverly Act provides that a breach of the warranty of merchantability\noccurs when a good becomes un\ufb01t for the ordinary purpose for which it is used.\nAn exception occurs when the defect or nonconformity is caused by the buyer\u2019s\nunauthorized or unreasonable use under Civil Code section 1794.3. \u2018It is a\n\u201cfamiliar\u201d and \u201clongstanding\u201d legal principle that \u201c \u2018[w]hen a proviso . . .\ncarves an exception out of the body of a statute or contract those who set up\nsuch exception must prove it.\u2019 \u201d [Citations.]\u2019 Defendant, as the party claiming the\nexemption from the Song-Beverly Act, had the burden to prove the\nexemption. . . . Plaintiff alleged the vehicle became un\ufb01t and presented\nuncontradicted evidence that the vehicle had ceased functioning; to avail itself of\nCivil Code section 1794.3, defendant had to allege and prove that,\nnotwithstanding the un\ufb01tness, the Song-Beverly Act did not apply due to\nplaintiff\u2019s improper use or maintenance.\u201d ( Jones v. Credit Auto Center , Inc.\n(2015) 237 Cal.App.4th Supp. 1, 10\u201311 [188 Cal.Rptr.3d 578], internal citations\nomitted.)"
+}

@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "416",
+  "title": "Amount of Caution Required in Transmitting Electric Power",
+  "series": "400",
+  "series_title": "Negligence",
+  "text": "People and companies must be very careful in constructing, insulating,\ninspecting, maintaining, and repairing power lines and transmission\nequipment at all places where it is reasonably probable that they will\ncause harm to persons or property.\nNew September 2003",
+  "tags": [
+    "negligence"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "The cases have crafted a speci\ufb01c standard of care for the construction and\nmaintenance of power lines, and juries must be instructed on this standard upon\nrequest. ( Scally v. Paci\ufb01c Gas and Electric Co. (1972) 23 Cal.App.3d 806, 816 [100\nCal.Rptr. 501].)",
+  "sources_and_authority": "\u2022 Electric power lines are considered dangerous instrumentalities. ( Polk v. City of\nLos Angeles (1945) 26 Cal.2d 519, 525 [159 P .2d 931].)\n\u2022 The requirement to insulate wires applies to only those wires that may come into\ncontact with people or property: \u201cWhile an electric company is not under an\nabsolute duty to insulate or make the wires safe in any particular manner, it does\nhave a duty to make the wires safe under all the exigencies created by the\nsurrounding circumstances. The duty of an electric company is alternative, i.e.,\neither to insulate the wires or to so locate them to make them comparatively\nharmless.\u201d ( Scally, supra, 23 Cal.App.3d at pp. 815\u2013816.)\n\u2022 Dunn v. Paci\ufb01c Gas and Electric Co. (1954) 43 Cal.2d 265, 272\u2013274 [272 P .2d\n745]; McKenzie v. Paci\ufb01c Gas & Electric Co. (1962) 200 Cal.App.2d 731, 736\n[19 Cal.Rptr. 628] (disapproved on another ground in Di Mare v. Cresci (1962)\n58 Cal.2d 292, 299 [23 Cal.Rptr. 772, 373 P .2d 860].)"
+}

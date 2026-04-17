@@ -1,0 +1,27 @@
+{
+  "code": "EVID",
+  "section": "914",
+  "title": "Determination of Privilege Claim",
+  "text": "(a) The presiding officer shall determine a claim of privilege in any proceeding in the same manner as a court determines such a claim under Article 2 (commencing with Section 400) of Chapter 4 of Division 3.\n(b) No person may be held in contempt for failure to disclose information claimed to be privileged unless he has failed to comply with an order of a court that he disclose such information.",
+  "tags": [
+    "privilege",
+    "determination",
+    "contempt",
+    "presiding_officer",
+    "deposition_relevant"
+  ],
+  "structure": {
+    "division": "8",
+    "division_title": "Privileges",
+    "chapter": "3",
+    "chapter_title": "General Provisions Relating to Privileges",
+    "article": null,
+    "article_title": null
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "code": "EVID",
+  "section": "917",
+  "title": "Presumption of Confidentiality — Privileged Relationships",
+  "text": "(a) If a privilege is claimed on the ground that the matter sought to be disclosed is a communication made in confidence in the course of the lawyer-client, lawyer referral service-client, physician-patient, psychotherapist-patient, clergy-penitent, marital or domestic partnership, sexual assault counselor-victim, domestic violence counselor-victim, or human trafficking caseworker-victim relationship, the communication is presumed to have been made in confidence and the opponent of the claim of privilege has the burden of proof to establish that the communication was not confidential.\n(b) A communication between persons in a relationship listed in subdivision (a) does not lose its privileged character for the sole reason that it is communicated by electronic means or because persons involved in the delivery, facilitation, or storage of electronic communication may have access to the content of the communication.",
+  "tags": [
+    "privilege",
+    "presumption",
+    "confidentiality",
+    "electronic_communication",
+    "attorney_client",
+    "agent_core",
+    "deposition_relevant"
+  ],
+  "structure": {
+    "division": "8",
+    "division_title": "Privileges",
+    "chapter": "3",
+    "chapter_title": "General Provisions Relating to Privileges",
+    "article": null,
+    "article_title": null
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Amended by Stats. 2016, Ch. 50, Sec. 33. Effective January 1, 2017."
+  }
+}

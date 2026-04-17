@@ -1,0 +1,22 @@
+{
+  "code": "CACI",
+  "instruction_id": "3242",
+  "title": "Incidental Damages",
+  "series": "3200",
+  "series_title": "Injunctive Relief",
+  "text": "[Name of plaintiff ] also claims additional reasonable expenses for [ list\nclaimed incidental damages ].\nTo recover these expenses, [ name of plaintiff ] must prove all of the\nfollowing:\n1. That the expense was actually charged;\n2. That the expense was reasonable; and\n3. That [ name of defendant ]\u2019s [breach of warranty/[ other violation of\nSong-Beverly Consumer Warranty Act ]] was a substantial factor in\ncausing the expense.\nNew September 2003; Revised December 2011",
+  "tags": [
+    "breach",
+    "damages",
+    "injunctive_relief"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "This instruction is for use if incidental damages are sought in an action under the\nSong-Beverly Consumer Warranty Act. Incidental damages are allowed as part of\nthe restitution remedy for new motor vehicles. (Civ. Code, \u00a7 1793.2(d)(2)(B).) See\nalso CACI No. 3241, Restitution From Manufacturer\u2014New Motor V ehicle .\nWith regard to claims for consumer goods, the availability of incidental damages\nmay be limited. If the plaintiff has elected to accept the goods, incidental damages\nunder California Uniform Commercial Code section 2715 and the cost of repairs\nrequired to make the goods conform to the warranty are allowed. (Civ. Code,\n\u00a7 1794(b)(2).) If the buyer has rightfully rejected or justi\ufb01ably revoked acceptance,\nincidental damages are allowed under California Uniform Commercial Code sections\n2711, 2712, and 2713 for the seller\u2019s nondelivery or repudiation of the contract or in\nconnection with cover (obtaining replacement goods from another seller). (Civ.\nCode, \u00a7 1794(b)(1).) If any of these matters are disputed, additional instructions will\nbe required on these points.\nIf incidental damages are otherwise recoverable, they are recoverable regardless of\nthe nature of the claim under Song-Beverly. (See Civ. Code, \u00a7 1794(b) [statute\ncovers all Song-Beverly actions].)",
+  "sources_and_authority": "\u2022 Measure of Buyer\u2019s Damages: Commercial Code Remedies Available. Civil\nCode section 1794(b).\n\u2022 Restitution Includes Incidental Damages. Civil Code section 1793.2(d)(2)(B).\n\u2022 Buyer\u2019s Remedies for Seller\u2019s Breach. California Uniform Commercial Code\nsection 2711(1).\n\u2022 Incidental Damages Recoverable. California Uniform Commercial Code sections\n2712(2), 2713(1).\n514\n\n\u2022 \u201cIncidental Damages\u201d De\ufb01ned. California Uniform Commercial Code section\n2715(1).\n\u2022 \u201cIn light of the relevant legislative history and express language in the Act, we\nconclude California Uniform Commercial Code section 2715\u2019s reference to\nlosses must be construed and applied in the context of monetary losses actually\nincurred.\u201d ( Bishop v. Hyundai Motor America (1996) 44 Cal.App.4th 750, 756\n[52 Cal.Rptr.2d 134], original italics.)"
+}

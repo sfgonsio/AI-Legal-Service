@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "212",
+  "title": "Statements of a Party Opponent",
+  "series": "200",
+  "series_title": "Contracts",
+  "text": "A party may offer into evidence any oral or written statement made by\nan opposing party outside the courtroom.\nWhen you evaluate evidence of such a statement, you must consider\nthese questions:\n1. Do you believe that the party actually made the statement? If you\ndo not believe that the party made the statement, you may not\nconsider the statement at all.\n2. If you believe that the statement was made, do you believe it was\nreported accurately?\nY ou should view testimony about an oral statement made by a party\noutside the courtroom with caution.\nNew September 2003",
+  "tags": [
+    "contracts"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "Under Evidence Code section 403(c), the court must instruct the jury to disregard a\nstatement offered as evidence if it \ufb01nds that the preliminary facts do not exist. For\nadoptive admissions, see CACI No. 213, Adoptive Admissions .",
+  "sources_and_authority": "\u2022 Determination of Preliminary Facts. Evidence Code section 403.\n\u2022 Statements of Party. Evidence Code section 1220.\n\u2022 The Law Revision Commission comment to this section observes that \u201c[t]he\nrational underlying this exception is that the party cannot object to the lack of\nthe right to cross-examine the declarant since the party himself made the\nstatement.\u201d\n\u2022 There is no requirement that the prior statement of a party must have been\nagainst his or her interests when made in order to be admissible. Any prior\nstatement of a party may be offered against him or her in trial. (1 Witkin,\nCalifornia Evidence (4th ed. 2000) Hearsay \u00a7 93.)\n\u2022 The cautionary instruction regarding admissions is derived from common law,\nformerly codi\ufb01ed at Code of Civil Procedure section 2061. The repeal of this\nsection did not affect decisional law concerning the giving of the cautionary\ninstruction. ( People v. Beagle (1972) 6 Cal.3d 441, 455, fn. 4 [99 Cal.Rptr. 313,\n492 P .2d 1].)\n\u2022 The purpose of the cautionary instruction has been stated as follows: \u201cOrdinarily\nthere is strong reasoning behind the principle that a party\u2019s extrajudicial\nadmissions or declarations against interest should be viewed with caution. . . .\n59\n\nNo class of evidence is more subject to error or abuse inasmuch as witnesses\nhaving the best of motives are generally unable to state the exact language of an\nadmission and are liable, by the omission or the changing of words, to convey a\nfalse impression of the language used.\u201d ( Pittman v. Boiven (1967) 249\nCal.App.2d 207, 214 [57 Cal.Rptr. 319].)\n\u2022 The need to give the cautionary instruction appears to apply to both civil and\ncriminal cases. (See People v. Livaditis (1992) 2 Cal.4th 759, 789 [9 Cal.Rptr.2d\n72, 831 P .2d 297] (conc. opn. of Mosk, J.).)"
+}

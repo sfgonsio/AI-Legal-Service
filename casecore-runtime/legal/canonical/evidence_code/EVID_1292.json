@@ -1,0 +1,31 @@
+{
+  "code": "EVID",
+  "section": "1292",
+  "title": "Former Testimony — Civil Action, Similar Interest and Motive",
+  "text": "(a) Evidence of former testimony is not made inadmissible by the hearsay rule if:\n(1) The declarant is unavailable as a witness;\n(2) The former testimony is offered in a civil action; and\n(3) The issue is such that the party to the action or proceeding in which the former testimony was given had the right and opportunity to cross-examine the declarant with an interest and motive similar to that which the party against whom the testimony is offered has at the hearing.\n(b) The admissibility of former testimony under this section is subject to the same limitations and objections as though the declarant were testifying at the hearing, except that former testimony offered under this section is not subject to objections based on competency or privilege which did not exist at the time the former testimony was given.",
+  "tags": [
+    "hearsay_exception",
+    "former_testimony",
+    "civil_action",
+    "unavailable_witness",
+    "cross_examination",
+    "similar_motive",
+    "agent_core",
+    "deposition_relevant",
+    "trial_relevant"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Hearsay Evidence",
+    "chapter": "2",
+    "chapter_title": "Exceptions to the Hearsay Rule",
+    "article": "9",
+    "article_title": "Former Testimony"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

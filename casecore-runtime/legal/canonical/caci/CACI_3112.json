@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "3112",
+  "title": "\u201cDependent Adult\u201d Explained (Welf. & Inst. Code,",
+  "series": "3100",
+  "series_title": "Trespass and Conversion",
+  "text": "\u00a7 15610.23)\nA \u201cdependent adult\u201d is a person, regardless of whether or not the person\nlives independently, who is between the ages of 18 and 64 years and who\n[insert one of the following: ]\n[has physical or mental limitations that restrict that person\u2019s ability\nto carry out normal activities or to protect that person\u2019s rights. This\nincludes persons who have physical or developmental disabilities or\nwhose physical or mental abilities have diminished because of age.]\n[or]\n[is admitted as an inpatient to [a/an] [ insert 24-hour health facility ].]\nNew September 2003; Revised January 2019, May 2020",
+  "tags": [
+    "trespass"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "Read the alternative that is most appropriate to the facts of the case.",
+  "sources_and_authority": "\u2022 \u201cDependent Adult\u201d De\ufb01ned. Welfare and Institutions Code section 15610.23.\n\u2022 \u201cDevelopmentally Disabled Person\u201d De\ufb01ned. Welfare and Institutions Code\nsection 15610.25."
+}

@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "705",
+  "title": "Turning (Veh. Code, \u00a7 22107)",
+  "series": "700",
+  "series_title": "Intentional Torts",
+  "text": "A driver must use reasonable care when turning [or moving to the right\nor to the left].\nNew September 2003",
+  "tags": [
+    "intentional_tort"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "An instruction on this point should be given only if the jury is instructed on V ehicle\nCode section 22107. It should be read after that section has been given. ( Anderson\nv. Latimer (1985) 166 Cal.App.3d 667, 672\u2013673 [212 Cal.Rptr. 544].)",
+  "sources_and_authority": "\u2022 Turning and Changing Lanes. V ehicle Code section 22107.\n\u2022 \u201cThis provision does not require the driver to know that a turn can be made with\nsafety but only that he must exercise reasonable care, and whether such care has\nbeen exercised is normally a question of fact.\u201d ( Butigan v. Yellow Cab Co.\n(1958) 49 Cal.2d 652, 656 [320 P .2d 500].)\n\u2022 Courts have held that a reading of section 22107 should be followed by an\ninstruction clarifying that the driver is under a duty to exercise only as much\ncare as a reasonably prudent person when making a turn or movement: \u201cAn\ninstruction to a jury concerning V ehicle Code, section 544 [now 22107] must\nmake it clear that the driver who is about to turn must exercise such care as\nwould a reasonably prudent man under similar circumstances, no more and no\nless.\u201d ( Lewis v. Franklin (1958) 161 Cal.App.2d 177, 184 [326 P .2d 625].)"
+}

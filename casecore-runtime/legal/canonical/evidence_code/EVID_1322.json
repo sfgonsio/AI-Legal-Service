@@ -1,0 +1,26 @@
+{
+  "code": "EVID",
+  "section": "1322",
+  "title": "Reputation Concerning Land Boundaries and Customs",
+  "text": "Evidence of reputation in a community is not made inadmissible by the hearsay rule if the reputation concerns boundaries of, or customs affecting, land in the community and the reputation arose before controversy.",
+  "tags": [
+    "hearsay",
+    "exception",
+    "reputation",
+    "land_boundaries"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Hearsay Evidence",
+    "chapter": "2",
+    "chapter_title": "Hearsay Exceptions",
+    "article": "12",
+    "article_title": "Reputation and Statements Concerning Community History, Property Interests, and Character"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "code": "BPC",
+  "section": "26230.1",
+  "title": "Section 26230.1",
+  "text": "Notwithstanding any provisions of the Civil Code, a contract that is entered into by a member or stockholder of an association that provides for the delivery to the association of a cannabis product that is produced or acquired by the member or stockholder may be specifically enforced by the association to secure the delivery to it of the cannabis product. (Added by Stats. 2017, Ch. 27, Sec. 107. (SB 94) Effective June 27, 2017.)",
+  "tags": [
+    "distribution",
+    "cannabis"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Cannabis",
+    "chapter": "3",
+    "chapter_title": "Enforcement"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Scraped from authority_store raw data."
+  }
+}

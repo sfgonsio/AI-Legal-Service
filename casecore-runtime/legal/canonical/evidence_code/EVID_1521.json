@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "1521",
+  "title": "Secondary Evidence Rule",
+  "text": "(a) The content of a writing may be proved by otherwise admissible secondary evidence. The court shall exclude secondary evidence of the content of writing if the court determines either of the following: (1) A genuine dispute exists concerning material terms of the writing and justice requires the exclusion. (2) Admission of the secondary evidence would be unfair. (b) Nothing in this section makes admissible oral testimony to prove the content of a writing if the testimony is inadmissible under Section 1523.",
+  "tags": ["secondary_evidence", "best_evidence", "content", "exclusion"],
+  "structure": {
+    "division": "11",
+    "division_title": "Writings",
+    "chapter": "2",
+    "chapter_title": "Secondary Evidence of Writings",
+    "article": "1",
+    "article_title": "Proof of Content of a Writing"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

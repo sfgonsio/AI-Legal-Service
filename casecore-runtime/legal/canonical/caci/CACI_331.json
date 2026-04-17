@@ -1,0 +1,22 @@
+{
+  "code": "CACI",
+  "instruction_id": "331",
+  "title": "Affirmative Defense\u2014Bilateral Mistake",
+  "series": "300",
+  "series_title": "Negligence\u2014Essential Factual Elements",
+  "text": "[Name of defendant ] claims that there was no contract because both\nparties were mistaken about [ insert description of mistake ]. To succeed,\n[name of defendant ] must prove both of the following:\n1. That both parties were mistaken about [ insert description of\nmistake]; and\n2. That [ name of defendant ] would not have agreed to enter into this\ncontract if [he/she/ nonbinary pronoun /it] had known about the\nmistake.\nIf you decide that [ name of defendant ] has proved both of the above, then\nno contract was created.\nNew September 2003",
+  "tags": [
+    "contract",
+    "essential_elements",
+    "negligence"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "This instruction does not contain the requirement that the mistake be material to the\ncontract because the materiality of a representation is a question of law. ( Merced\nCounty Mutual Fire Insurance Co. v. State of California (1991) 233 Cal.App.3d\n765, 772 [284 Cal.Rptr. 680].) Accordingly, the judge would decide whether an\nalleged mistake was material, and that mistake would be inserted into this\ninstruction.\nIf the mistake is one of law, this may not be a jury issue.",
+  "sources_and_authority": "\u2022 When Consent Not Free. Civil Code section 1567.\n\u2022 Consent Obtained by Fraud. Civil Code section 1568.\n\u2022 Mistake. Civil Code section 1576.\n\u2022 Mistake of Fact. Civil Code section 1577.\n\u2022 Mistake of Law. Civil Code section 1578.\n\u2022 Rescission of Contract. Civil Code section 1689.\n\u2022 \u201cA mistake of fact may be urged as a defense to an action upon a contract only\nif the mistake is material to the contract.\u201d ( Edwards v. Lang (1961) 198\nCal.App.2d 5, 12 [18 Cal.Rptr. 60].)\n\u2022 \u201cA \u2018mistake\u2019 within the meaning of subdivision (b)(1) of section 1689 of the\nCivil Code can be either one of fact or of law. \u2018Generally a mistake of fact\noccurs when a person understands the facts to be other than they are . . . .\u2019\nWhen both parties understand the facts other than they are, the mistake\nnecessarily is mutual and thus becomes a basis for rescission.\u201d ( Crocker-Anglo\n146\n\nNat\u2019l Bank v. Kuchman (1964) 224 Cal.App.2d 490, 496 [36 Cal.Rptr. 806],\ninternal citations omitted.)\n\u2022 \u201c[T]o warrant a unilateral rescission of a contract because of mutual mistake, the\nmistake must relate to basic or material fact, not a collateral matter.\u201d ( Wood v.\nKalbaugh (1974) 39 Cal.App.3d 926, 932 [114 Cal.Rptr 673].)\n\u2022 \u201cWhere, as here, the extrinsic evidence is not in con\ufb02ict, the determination of\nwhether a mutual mistake occurred is a question of law.\u201d ( Hess v. Ford Motor\nCo. (2002) 27 Cal.4th 516, 527 [117 Cal. Rptr. 2d 220, 41 P .3d 46].)\n\u2022 \u201cOrdinary negligence does not bar a claim for mutual mistake because \u2018 \u201c[t]here\nis an element of carelessness in nearly every case of mistake . . . .\u201d \u2019 \u2018Only\ngross negligence or \u2018preposterous or irrational\u2019 conduct will [bar] mutual\nmistake.\u2019 \u201d ( Thrifty Payless, Inc. v. The Americana at Brand, LLC (2013) 218\nCal.App.4th 1230, 1243 [160 Cal.Rptr.3d 718], internal citation omitted.)\n\u2022 \u201cWhere parties are aware at the time the contract is entered into that a doubt\nexists in regard to a certain matter and contract on that assumption, the risk of\nthe existence of the doubtful matter is assumed as an element of the bargain.\u201d\n(Guthrie v. Times-Mirror Co. (1975) 51 Cal.App.3d 879, 885 [124 Cal.Rptr\n577].)"
+}

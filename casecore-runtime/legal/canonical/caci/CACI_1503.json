@@ -1,0 +1,18 @@
+{
+  "code": "CACI",
+  "instruction_id": "1503",
+  "title": "Affirmative Defense\u2014Proceeding Initiated by Public Employee Within Scope of",
+  "series": "1500",
+  "series_title": "Sexual Harassment",
+  "text": "Employment (Gov. Code, \u00a7 821.6)\n1504. Former Criminal Proceeding\u2014\u201cActively Involved\u201d Explained\n1505\u20131509. Reserved for Future Use\n1510. Affirmative Defense\u2014Reliance on Counsel",
+  "tags": [
+    "sexual_harassment"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

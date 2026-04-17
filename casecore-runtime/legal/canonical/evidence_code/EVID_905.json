@@ -1,0 +1,25 @@
+{
+  "code": "EVID",
+  "section": "905",
+  "title": "Presiding Officer — Definition",
+  "text": "\"Presiding officer\" means the person authorized to rule on a claim of privilege in the proceeding in which the claim is made.",
+  "tags": [
+    "definition",
+    "presiding_officer",
+    "privilege"
+  ],
+  "structure": {
+    "division": "8",
+    "division_title": "Privileges",
+    "chapter": "1",
+    "chapter_title": "Definitions",
+    "article": null,
+    "article_title": null
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

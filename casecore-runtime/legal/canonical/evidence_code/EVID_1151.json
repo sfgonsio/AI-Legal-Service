@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "1151",
+  "title": "Subsequent Remedial Measures",
+  "text": "When, after the occurrence of an event, remedial or precautionary measures are taken, which, if taken previously, would have tended to make the event less likely to occur, evidence of such subsequent measures is inadmissible to prove negligence or culpable conduct in connection with the event.",
+  "tags": ["extrinsic_policy", "subsequent_remedial_measures", "negligence"],
+  "structure": {
+    "division": "9",
+    "division_title": "Evidence Affected or Excluded by Extrinsic Policies",
+    "chapter": "3",
+    "chapter_title": "Other Evidence Affected or Excluded by Extrinsic Policies",
+    "article": "",
+    "article_title": ""
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

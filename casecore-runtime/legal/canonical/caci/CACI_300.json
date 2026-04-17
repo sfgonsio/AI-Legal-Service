@@ -1,0 +1,23 @@
+{
+  "code": "CACI",
+  "instruction_id": "300",
+  "title": "Breach of Contract\u2014Introduction",
+  "series": "300",
+  "series_title": "Negligence\u2014Essential Factual Elements",
+  "text": "[Name of plaintiff ] claims that [he/she/ nonbinary pronoun/it] and [ name of\ndefendant] entered into a contract for [ insert brief summary of alleged\ncontract].\n[Name of plaintiff ] claims that [ name of defendant ] breached this contract\nby [ brie\ufb02y state the alleged breach ].\n[Name of plaintiff ] also claims that [ name of defendant ]\u2019s breach of this\ncontract caused harm to [ name of plaintiff ] for which [ name of defendant ]\nshould pay.\n[Name of defendant ] denies [ insert denial of any of the above claims ]. [ Name\nof defendant ] also claims [ insert aff\u0131rmative defense ].\nNew September 2003; Revised December 2007",
+  "tags": [
+    "breach",
+    "contract",
+    "essential_elements",
+    "negligence"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "This instruction is designed to introduce the jury to the issues involved in the case.\nIt should be read before the instructions on the substantive law.",
+  "sources_and_authority": "\u2022 The Supreme Court has observed that \u201c[c]ontract and tort are different branches\nof law. Contract law exists to enforce legally binding agreements between\nparties; tort law is designed to vindicate social policy.\u201d ( Applied Equipment\nCorp. v. Litton Saudi Arabia, Ltd. (1994) 7 Cal.4th 503, 514 [28 Cal.Rptr.2d\n475, 869 P .2d 454].)\n\u2022 \u201cThe differences between contract and tort give rise to distinctions in assessing\ndamages and in evaluating underlying motives for particular courses of conduct.\nContract damages seek to approximate the agreed-upon performance . . . and\nare generally limited to those within the contemplation of the parties when the\ncontract was entered into or at least reasonably foreseeable by them at that time;\nconsequential damages beyond the expectations of the parties are not\nrecoverable.\u201d ( Applied Equipment Corp., supra, 7 Cal.4th at p. 515, internal\ncitations omitted.)\n\u2022 Certain defenses are decided as questions of law, not as questions of fact. These\ndefenses include frustration of purpose, impossibility, and impracticability.\n(Oosten v. Hay Haulers Dairy Employees and Helpers Union (1955) 45 Cal.2d\n784, 788 [291 P .2d 17]; Mitchell v. Ceazan Tires, Ltd. (1944) 25 Cal.2d 45, 48\n[153 P .2d 53]; Autry v. Republic Productions, Inc. (1947) 30 Cal.2d 144, 157\n[180 P .2d 888]; Glen Falls Indemnity Co. v. Perscallo (1950) 96 Cal.App.2d\n799, 802 [216 P .2d 567].)\n\u2022 \u201cDefendant contends that frustration is a question of fact resolved in its favor by\n83\n\nthe trial court. The excuse of frustration, however, like that of impossibility , is a\nconclusion of law drawn by the court from the facts of a given case . . . .\u201d\n(Mitchell, supra, 25 Cal.2d at p. 48, italics added.)\n\u2022 Estoppel is a \u201cnonjury fact question to be determined by the trial court in\naccordance with applicable law.\u201d ( DRG/Beverly Hills, Ltd. v. Chopstix Dim Sum\nCafe and Takeout III, Ltd. (1994) 30 Cal.App.4th 54, 61 [35 Cal.Rptr.2d 515].)\n\u2022 \u201cA settlement agreement is a contract, and the legal principles which apply to\ncontracts generally apply to settlement contracts.\u201d ( Monster Energy Co. v.\nSchechter (2019) 7 Cal.5th 781, 789 [249 Cal.Rptr.3d 295, 444 P .3d 97].)"
+}

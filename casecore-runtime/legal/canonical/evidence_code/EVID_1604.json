@@ -1,0 +1,19 @@
+{
+  "code": "EVID",
+  "section": "1604",
+  "title": "Certificate of Purchase or Location of Public Land",
+  "text": "A certificate of purchase, or of location, of any land in this state, issued or made in pursuance of any law of the United States or of this state, is prima facie evidence that the holder or assignee of the certificate is the owner of the land described therein; but this evidence may be overcome by proof that, at the time of the location, or time of filing a preemption claim on which the certificate may have been issued, the land was in the adverse possession of, or was held by a superior title in, another person.",
+  "tags": ["certificate", "public_land", "prima_facie", "ownership", "preemption"],
+  "structure": {
+    "division": "11",
+    "division_title": "Writings",
+    "chapter": "3",
+    "chapter_title": "Official Writings Affecting Property"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

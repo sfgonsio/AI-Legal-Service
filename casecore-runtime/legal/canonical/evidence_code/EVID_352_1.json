@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "352.1",
+  "title": "Exclusion of Victim Address in Sexual Assault Cases",
+  "text": "In any criminal proceeding under Section 261, 262, or 264.1, subdivision (d) of Section 286, or subdivision (d) of Section 287 of, or former Section 288a of, the Penal Code, or in any criminal proceeding under subdivision (c) of Section 286 or subdivision (c) of Section 287 of, or former Section 288a of, the Penal Code in which the defendant is alleged to have compelled the participation of the victim by force, violence, duress, menace, or threat of great bodily harm, the district attorney may, upon written motion with notice to the defendant or the defendant's attorney, if he or she is represented by an attorney, within a reasonable time prior to any hearing, move to exclude from evidence the current address and telephone number of any victim at the hearing.\n\nThe court may order that evidence of the victim's current address and telephone number be excluded from any hearings conducted pursuant to the criminal proceeding if the court finds that the probative value of the evidence is outweighed by the creation of substantial danger to the victim.\n\nNothing in this section shall abridge or limit the defendant's right to discover or investigate the information.",
+  "tags": ["admissibility", "exclusion", "victim_address", "sexual_assault", "criminal_proceeding"],
+  "structure": {
+    "division": "3",
+    "division_title": "General Provisions",
+    "chapter": "4",
+    "chapter_title": "Admitting and Excluding Evidence",
+    "article": "1",
+    "article_title": "General Provisions"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Amended by Stats. 2018, Ch. 423, Sec. 18. (SB 1494) Effective January 1, 2019."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "code": "BPC",
+  "section": "26066",
+  "title": "Section 26066",
+  "text": "Indoor and outdoor cannabis cultivation by persons and entities licensed under this division shall be conducted in accordance with state and local laws related to land conversion, current building and fire standards, grading, electricity usage, water usage, water quality, woodland and riparian habitat protection, agricultural discharges, and similar matters. State agencies, including, but not limited to, the State Board of Forestry and Fire Protection, the Department of Fish and Wildlife, the State Water Resources Control Board, the California regional water quality control boards, and traditional state law enforcement agencies, shall address environmental impacts of cannabis cultivation and shall coordinate when appropriate with cities and counties and their law enforcement agencies in enforcement efforts. (Amended by Stats. 2017, Ch. 27, Sec. 56. (SB 94) Effective June 27, 2017. Note: This section was added on Nov. 8, 2016, by initiative Prop. 64.)",
+  "tags": [
+    "cannabis",
+    "cultivation",
+    "enforcement",
+    "licensing",
+    "local_control"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Cannabis",
+    "chapter": "6",
+    "chapter_title": "Licensed Cultivation Sites"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Scraped from authority_store raw data."
+  }
+}

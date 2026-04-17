@@ -1,0 +1,26 @@
+{
+  "code": "EVID",
+  "section": "1341",
+  "title": "Historical and Scientific Publications",
+  "text": "Historical works, books of science or art, and published maps or charts, made by persons indifferent between the parties, are not made inadmissible by the hearsay rule when offered to prove facts of general notoriety and interest.",
+  "tags": [
+    "hearsay",
+    "exception",
+    "scientific_publications",
+    "historical_works"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Hearsay Evidence",
+    "chapter": "2",
+    "chapter_title": "Hearsay Exceptions",
+    "article": "14",
+    "article_title": "Commercial, Scientific, and Similar Publications"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

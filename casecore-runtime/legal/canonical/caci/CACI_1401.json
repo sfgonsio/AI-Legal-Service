@@ -1,0 +1,19 @@
+{
+  "code": "CACI",
+  "instruction_id": "1401",
+  "title": "False Arrest Without Warrant by Peace Officer\u2014Essential Factual Elements",
+  "series": "1400",
+  "series_title": "Assault and Battery",
+  "text": "1402. False Arrest Without Warrant\u2014Affirmative Defense\u2014Peace Officer\u2014Probable Cause\nto Arrest\n1403. False Arrest Without Warrant by Private Citizen\u2014Essential Factual Elements\n1404. False Arrest Without Warrant\u2014Affirmative Defense\u2014Private Citizen\u2014Probable\nCause to Arrest",
+  "tags": [
+    "assault",
+    "battery"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

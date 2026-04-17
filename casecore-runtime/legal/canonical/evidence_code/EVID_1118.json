@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "1118",
+  "title": "Oral Agreement in Mediation",
+  "text": "An oral agreement \"in accordance with Section 1118\" means an oral agreement that satisfies all of the following conditions:\n\n(a) The oral agreement is recorded by a court reporter or reliable means of audio recording.\n\n(b) The terms of the oral agreement are recited on the record in the presence of the parties and the mediator, and the parties express on the record that they agree to the terms recited.\n\n(c) The parties to the oral agreement expressly state on the record that the agreement is enforceable or binding, or words to that effect.\n\n(d) The recording is reduced to writing and the writing is signed by the parties within 72 hours after it is recorded.",
+  "tags": ["mediation", "oral_agreement", "enforceability"],
+  "structure": {
+    "division": "9",
+    "division_title": "Evidence Affected or Excluded by Extrinsic Policies",
+    "chapter": "2",
+    "chapter_title": "Mediation",
+    "article": "",
+    "article_title": ""
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Amended by Stats. 2010, Ch. 328, Sec. 64. (SB 1330) Effective January 1, 2011."
+  }
+}

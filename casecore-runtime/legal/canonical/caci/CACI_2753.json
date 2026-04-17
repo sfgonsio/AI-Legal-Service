@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "2753",
+  "title": "Failure to Pay All Vested Vacation Time\u2014Essential Factual",
+  "series": "2700",
+  "series_title": "Labor Code Actions",
+  "text": "Elements (Lab. Code, \u00a7 227.3)\n[Name of plaintiff ] claims that [ name of defendant ] owes\n[him/her/nonbinary pronoun] compensation for unpaid vacation time that\n[name of plaintiff ] earned but did not use before being terminated.\nTo establish this claim, [ name of plaintiff ] must prove all of the following:\n1. That [ name of defendant ] was [a/an] [employer/[ specify other\ncovered entity ]];\n2. That [ name of plaintiff ] was an employee of [ name of defendant ];\n3. That [ name of defendant ] did not pay [him/her/ nonbinary pronoun ]\nfor all earned and unused vacation time at [his/her/ nonbinary\npronoun] \ufb01nal rate of pay in accordance with the [contract of\nemployment/employer policy]; and\n4. The amount owed to [ name of plaintiff ] for earned and unused\nvacation time.\nNew November 2021",
+  "tags": [
+    "labor_code"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "Element 1 may be omitted if there is no dispute regarding the defendant\u2019s status as\nan employer.\nAn employee\u2019s proportionate right to a paid vacation vests as the labor is rendered.\n(Suastez v. Plastic Dress-Up Co. (1982) 31 Cal.3d 774, 784 [183 Cal.Rptr. 846, 647\nP .2d 122].) If there is a dispute as to the amount of vested vacation time, the jury\nshould be instructed to determine a pro rata share of vested vacation time. \u201c[A]n\nemployment contract or employer policy shall not provide for forfeiture of vested\nvacation upon termination.\u201d (Lab. Code, \u00a7 227.3.)",
+  "sources_and_authority": "\u2022 Payment of V ested V acation Wages Upon Termination. Labor Code section\n227.3.\n\u2022 \u201cEmployer\u201d De\ufb01ned. Labor Code section 350(a).\n\u2022 \u201cEmployee\u201d De\ufb01ned. Labor Code section 350(b).\n\u2022 \u201cThe right to a paid vacation, when offered in an employer\u2019s policy or contract\nof employment, constitutes deferred wages for services rendered. Case law from\nthis state and others, as well as principles of equity and justice, compel the\nconclusion that a proportionate right to a paid vacation \u2018vests\u2019 as the labor is\nrendered. Once vested, the right is protected from forfeiture by section 227.3. On\ntermination of employment, therefore, the statute requires that an employee be\n79\n\npaid in wages for a pro rata share of his vacation pay.\u201d ( Suastez, supra, 31\nCal.3d at p. 784.)\n\u2022 \u201cUnder Labor Code section 227.3, an employee has the right to be paid for\nunused vacation only after the \u2018employee is terminated without having taken off\nhis vested vacation time.\u2019 Thus, termination of employment is the event that\nconverts the employer\u2019s obligation to allow an employee to take vacation from\nwork into the monetary obligation to pay that employee for unused vested\nvacation time. Consequently, [the plaintiff\u2019s] cause of action to enforce his\nstatutory right to be paid for vested vacation did not accrue until the date his\nemployment was terminated.\u201d ( Church v. Jamison (2006) 143 Cal.App.4th 1568,\n1576\u20131577 [50 Cal.Rptr.3d 166], footnote omitted.)"
+}

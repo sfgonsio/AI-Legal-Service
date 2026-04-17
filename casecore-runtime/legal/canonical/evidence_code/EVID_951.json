@@ -1,0 +1,25 @@
+{
+  "code": "EVID",
+  "section": "951",
+  "title": "Client — Definition",
+  "text": "As used in this article, \"client\" means a person who, directly or through an authorized representative, consults a lawyer for the purpose of retaining the lawyer or securing legal service or advice from him in his professional capacity, and includes an incompetent (a) who himself so consults the lawyer or (b) whose guardian or conservator so consults the lawyer in behalf of the incompetent.",
+  "tags": [
+    "definition",
+    "client",
+    "attorney_client"
+  ],
+  "structure": {
+    "division": "8",
+    "division_title": "Privileges",
+    "chapter": "4",
+    "chapter_title": "Particular Privileges",
+    "article": "3",
+    "article_title": "Lawyer-Client Privilege"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

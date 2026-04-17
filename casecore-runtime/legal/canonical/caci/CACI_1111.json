@@ -1,0 +1,18 @@
+{
+  "code": "CACI",
+  "instruction_id": "1111",
+  "title": "Affirmative Defense\u2014Condition Created by Reasonable Act or Omission (Gov. Code,",
+  "series": "1100",
+  "series_title": "Products Liability",
+  "text": "\u00a7 835.4(a))\n1112. Affirmative Defense\u2014Reasonable Act or Omission to Correct (Gov. Code, \u00a7 835.4(b))\n1113\u20131119. Reserved for Future Use\n1120. Failure to Provide Traffic Control Signals (Gov. Code, \u00a7 830.4)",
+  "tags": [
+    "products_liability"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

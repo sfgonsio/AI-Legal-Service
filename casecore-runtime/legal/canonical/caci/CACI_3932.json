@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "3932",
+  "title": "Life Expectancy",
+  "series": "3700",
+  "series_title": "Damages",
+  "text": "If you decide [ name of plaintiff ] has suffered damages that will continue\nfor the rest of [his/her/ nonbinary pronoun] life, you must determine how\nlong [he/she/ nonbinary pronoun] will probably live. According to [ insert\nsource of information ], a [ insert number ]-year-old [male/female] is expected\nto live another [ insert number ] years. This is the average life expectancy.\nSome people live longer and others die sooner.\nThis published information is evidence of how long a person is likely to\nlive but is not conclusive. In deciding a person\u2019s life expectancy, you\nshould also consider, among other factors, that person\u2019s health, habits,\nactivities, lifestyle, and occupation.\nNew September 2003; Revised February 2005, February 2007",
+  "tags": [
+    "damages"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "Use of the life tables in Vital Statistics of the United States , published by the\nNational Center for Health Statistics, is recommended. (See Life Expectancy\nTable\u2014Male and Life Expectancy Table\u2014Female, following the Damages series.)\nThe \ufb01rst column shows the age interval between the two exact ages indicated. For\nexample, 50\u201351 means the one-year interval between the \ufb01ftieth and \ufb01fty-\ufb01rst\nbirthdays.",
+  "sources_and_authority": "\u2022 \u201cThe life expectancy of the deceased is a question of fact for the jury to decide,\nconsidering all relevant factors including the deceased\u2019s health, lifestyle and\noccupation. Life expectancy \ufb01gures from mortality tables are admissible but are\nnot conclusive. Here the jury was correctly told the \ufb01gure given was not\nconclusive evidence of Charlene\u2019s life expectancy. It was merely \u2018a factor which\nyou may consider,\u2019 along with the evidence of Charlene\u2019s health, habits,\noccupation and activities.\u201d ( Allen v. Toledo (1980) 109 Cal.App.3d 415, 424 [167\nCal.Rptr. 270], internal citations omitted.)\n\u2022 \u201cMortality tables are admissible to assist the jury but they are not indispensable.\nIt has been held, for example, that, absent mortality tables, the trier of fact may\nstill approximate the life expectancy of a statutory bene\ufb01ciary who appeared in\ncourt.\u201d ( Francis v. Sauve (1963) 222 Cal.App.2d 102, 121 [34 Cal.Rptr. 754],\ninternal citations omitted.)\n\u2022 \u201cIt is a matter of common knowledge that many persons live beyond the period\nof life allotted them by the mortality roles.\u201d ( Temple v. De Mirjian (1942) 51\nCal.App.2d 559, 566 [125 P .2d 544], internal citation omitted.)"
+}

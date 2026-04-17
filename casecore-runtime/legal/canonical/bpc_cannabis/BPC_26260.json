@@ -1,0 +1,24 @@
+{
+  "code": "BPC",
+  "section": "26260",
+  "title": "Section 26260",
+  "text": "(a) An entity that receives deposits, extends credit, conducts fund transfers, transports cash or financial instruments, or provides other financial services does not commit a crime under any California law, including Chapter 10 (commencing with Section 186.9) of Title 7 of Part 1 of the Penal Code, solely by virtue of the fact that the person receiving the benefit of any of those services engages in commercial cannabis activity as a licensee pursuant to this division. (b) (1) A person licensed to engage in commercial cannabis activity pursuant to this division may request in writing that the department, a local licensing authority, a state or local agency, or a joint powers authority share the person\u2019s application, license, and other regulatory and financial information with a financial institution of the person\u2019s designation. The person shall include in that written request a waiver authorizing the transfer of that information and waiving any confidentiality or privilege that applies to that information. (2) Notwithstanding any other law that might proscribe the disclosure of application, licensee, and other regulatory and financial information, upon receipt of a written request and waiver pursuant to paragraph (1), the department, a local licensing authority, a state or local agency, or a joint powers authority may share application, licensee, and other regulatory and financial information with the financial institution designated by the licensee in that request for the purpose of facilitating the provision of financial services for that licensee. (3) A person who provides a waiver may withdraw that waiver at any time. Upon receipt of the withdrawal, the department, local licensing authority, state or local agency, or joint powers authority shall cease to share application, licensee, or other regulatory or financial information with the financial institution. (c) For purposes of this section, all of the following definitions apply: (1) \u201cApplication, licensee, and other regulatory and financial information\u201d includes, but is not limited to, information in the track and trace system established pursuant to Sections 26067 and",
+  "tags": [
+    "tracking",
+    "local_control",
+    "licensing",
+    "cannabis"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Cannabis",
+    "chapter": "24",
+    "chapter_title": "Information Sharing with Financial Institutions"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Scraped from authority_store raw data."
+  }
+}

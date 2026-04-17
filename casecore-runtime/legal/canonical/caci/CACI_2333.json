@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "2333",
+  "title": "Bad Faith (First Party)\u2014Breach of Duty to Inform Insured of Rights\u2014Essential",
+  "series": "2300",
+  "series_title": "Antitrust",
+  "text": "Factual Elements\n2334. Bad Faith (Third Party)\u2014Refusal to Accept Reasonable Settlement Demand Within\nLiability Policy Limits\u2014Essential Factual Elements\n2335. Bad Faith\u2014Advice of Counsel",
+  "tags": [
+    "antitrust",
+    "breach",
+    "duty"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

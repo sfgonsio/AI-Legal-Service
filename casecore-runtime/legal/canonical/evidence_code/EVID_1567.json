@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "1567",
+  "title": "Employee Records",
+  "text": "(a) A copy of records maintained by the Employment Development Department of this state may be introduced in evidence, without further foundation, if it meets the requirements of Section 1271 of this code. (b) The records shall be received in evidence if a custodian or other qualified witness testifies to its identity and the mode of its preparation, and if it was made in the regular course of business, at or near the time of the act, condition, or event, and if the sources of information and method and time of preparation were such as to indicate its trustworthiness.",
+  "tags": ["employee_records", "EDD", "business_records", "foundation"],
+  "structure": {
+    "division": "11",
+    "division_title": "Writings",
+    "chapter": "2",
+    "chapter_title": "Secondary Evidence of Writings",
+    "article": "4",
+    "article_title": "Production of Business Records"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

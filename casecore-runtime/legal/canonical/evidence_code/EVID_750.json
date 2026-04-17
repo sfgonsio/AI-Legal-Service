@@ -1,0 +1,9 @@
+{
+  "code": "EVID",
+  "section": "750",
+  "title": "Interpreter or Translator Subject to Witness Rules",
+  "text": "A person who serves as an interpreter or translator in any action is subject to all the rules of law relating to witnesses.",
+  "tags": ["interpreter", "translator", "witness_rules"],
+  "structure": {"division": "6", "division_title": "Witnesses", "chapter": "4", "chapter_title": "Interpreters and Translators"},
+  "source": {"type": "ca_legislature", "jurisdiction": "California", "url": "https://leginfo.legislature.ca.gov", "editorial_note": "Enacted by Stats. 1965, Ch. 299."}
+}

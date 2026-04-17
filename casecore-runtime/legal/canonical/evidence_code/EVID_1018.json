@@ -1,0 +1,26 @@
+{
+  "code": "EVID",
+  "section": "1018",
+  "title": "Exception — Crime or Tort",
+  "text": "There is no privilege under this article if the services of the psychotherapist were sought or obtained to enable or aid anyone to commit or plan to commit a crime or a tort or to escape detection or apprehension after the commission of a crime or a tort.",
+  "tags": [
+    "privilege",
+    "psychotherapist_patient",
+    "exception",
+    "crime_fraud"
+  ],
+  "structure": {
+    "division": "8",
+    "division_title": "Privileges",
+    "chapter": "4",
+    "chapter_title": "Particular Privileges",
+    "article": "7",
+    "article_title": "Psychotherapist-Patient Privilege"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

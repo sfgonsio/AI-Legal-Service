@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "2803",
+  "title": "Employer\u2019s Defective Product\u2014Essential Factual Elements",
+  "series": "2800",
+  "series_title": "Unfair Business Practices",
+  "text": "(Lab. Code, \u00a7 3602(b)(3))\n[Name of plaintiff ] claims that [he/she/ nonbinary pronoun] was harmed by\na defective product manufactured by [ name of defendant ]. To establish\nthis claim, [ name of plaintiff ] must prove all of the following:\n1. That the [ product] was manufactured by [ name of defendant ];\n2. That the [ product] was [sold/leased/transferred for valuable\nconsideration] to an independent third person;\n3. That the third person then provided the [ product] for [ name of\nplaintiff]\u2019s use;\n4. That the [ product] was defective in design or manufacture;\n5. That [ name of plaintiff ] was harmed; and\n6. That the [ product] was a substantial factor in causing [ name of\nplaintiff]\u2019s harm.\nNew September 2003",
+  "tags": [
+    "unfair_business"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "This instruction is intended for use in cases where the employer is the defendant\nand the plaintiff alleges that the case falls outside of the workers\u2019 compensation\nexclusivity rule. See the Products Liability series (CACI Nos. 1200\u20131243) for\ninstructions on product defect.",
+  "sources_and_authority": "\u2022 Exclusive Remedy: Defective Product Exception. Labor Code section 3602(b)(3).\n\u2022 \u201c[T]he 1982 amendments were not intended to provide an exhaustive list of\nexceptions to the exclusivity rule. They did not, for example, foreclose the\nrecognition of an exception for injuries stemming from wrongful discharges that\nviolated public policy, an issue that neither the Legislature nor the judicial\nsystem had confronted in 1982. Section 3602 only applies \u2018[w]here the\nconditions . . . set forth in section 3600 concur,\u2019 and does not purport to resolve\nthe ambiguities in that latter section discussed above, nor to de\ufb01nitively delineate\nthe scope of the compensation bargain that has been the key to construing the\nmeaning of section 3600. Rather, section 3602 merely con\ufb01rms the judicial\nrecognition of certain types of employer acts as outside the compensation\nbargain, even as it reinforces the exclusivity rule by repealing the dual capacity\ndoctrine.\u201d ( Fermino v. Fedco, Inc. (1994) 7 Cal.4th 701, 720 [30 Cal.Rptr.2d 18,\n872 P .2d 559], internal citation omitted.)\n\u2022 \u201cThe language \u2018provided for the employee\u2019s use\u2019 indicates the product must be\n142\n\ngiven or furnished to the employee in order for the employee to accomplish\nsome task.\u201d ( Behrens v. Fayette Manufacturing Co. (1992) 4 Cal.App.4th 1567,\n1574 [7 Cal.Rptr.2d 264].)\n\u2022 \u201cOur interpretation is in accord with that of commentators who have noted that\nthe exception of subdivision (b)(3) requires the employee to come into contact\nwith the defective product as a consumer.\u201d ( Behrens, supra, 4 Cal.App.4th at p.\n1574, internal citations omitted.)"
+}

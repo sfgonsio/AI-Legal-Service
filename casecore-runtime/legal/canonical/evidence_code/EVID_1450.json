@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "1450",
+  "title": "Acknowledged Writing",
+  "text": "The presumptions established by this article are presumptions affecting the burden of producing evidence.",
+  "tags": ["acknowledged_writings", "presumption", "burden_of_proof"],
+  "structure": {
+    "division": "11",
+    "division_title": "Writings",
+    "chapter": "1",
+    "chapter_title": "Authentication and Proof of Writings",
+    "article": "3",
+    "article_title": "Presumptions Affecting Acknowledged Writings and Official Writings"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

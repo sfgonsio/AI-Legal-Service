@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "1115",
+  "title": "Mediation Definitions",
+  "text": "For purposes of this chapter:\n\n(a) \"Mediation\" means a process in which a neutral person or persons facilitate communication between the disputants to assist them in reaching a mutually acceptable agreement.\n\n(b) \"Mediator\" means a neutral person who conducts a mediation. \"Mediator\" includes any person designated by a mediator either to assist in the mediation or to communicate with the participants in preparation for a mediation.\n\n(c) \"Mediation consultation\" means a communication between a person and a mediator for the purpose of initiating, considering, or reconvening a mediation or retaining the mediator.",
+  "tags": ["mediation", "definitions"],
+  "structure": {
+    "division": "9",
+    "division_title": "Evidence Affected or Excluded by Extrinsic Policies",
+    "chapter": "2",
+    "chapter_title": "Mediation",
+    "article": "",
+    "article_title": ""
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Added by Stats. 1997, Ch. 772, Sec. 3. Effective January 1, 1998."
+  }
+}

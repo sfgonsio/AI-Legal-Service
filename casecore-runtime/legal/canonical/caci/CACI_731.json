@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "731",
+  "title": "De\ufb01nition of \u201cEmergency\u201d (Veh. Code, \u00a7 21055)",
+  "series": "700",
+  "series_title": "Intentional Torts",
+  "text": "An \u201cemergency\u201d exists if the driver of an authorized emergency vehicle\nis [ insert one of the following ]\n[responding to an emergency call.]\n[involved in rescue operations.]\n[in the immediate pursuit of an actual or suspected violator of the\nlaw.]\n[responding to, but not returning from, a \ufb01re alarm.]\n[operating a \ufb01re department vehicle while traveling from one place\nto another place because of an emergency call.]\nNew September 2003",
+  "tags": [
+    "intentional_tort"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "This instruction is based on the language of V ehicle Code section 21055(a) and is\nonly intended for cases in which there is a factual issue regarding whether the\ndefendant was acting in response to an emergency at the time of the accident.\n(Washington v. City and County of San Francisco (1954) 123 Cal.App.2d 235, 241\n[266 P .2d 828].)",
+  "sources_and_authority": "\u2022 Authorized Emergency V ehicle Exemption. V ehicle Code section 21055(a).\n\u2022 \u201cWhether a vehicle is driven in response to an emergency call depends on the\nnature of the call received and the situation as presented to the mind of the\ndriver and not upon whether there is an emergency in fact. The driver, of course,\nshould have reasonable grounds to believe that there is an emergency.\u201d ( Gallup\nv. Sparks-Mundo Engineering Co. (1954) 43 Cal.2d 1, 5 [271 P .2d 34], internal\ncitations omitted.)"
+}

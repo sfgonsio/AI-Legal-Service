@@ -1,0 +1,18 @@
+{
+  "code": "CACI",
+  "instruction_id": "503B",
+  "title": "Affirmative Defense\u2014Psychotherapist\u2019s Communication of Threat to Victim and Law",
+  "series": "500",
+  "series_title": "Medical Negligence",
+  "text": "Enforcement\n504. Standard of Care for Nurses\n505. Success Not Required\n506. Alternative Methods of Care",
+  "tags": [
+    "medical_negligence"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "code": "EVID",
+  "section": "1040",
+  "title": "Official Information Privilege",
+  "text": "(a) As used in this section, \"official information\" means information acquired in confidence by a public employee in the course of his or her duty and not open, or officially disclosed, to the public prior to the time the claim of privilege is made.\n(b) A public entity has a privilege to refuse to disclose official information, and to prevent another from disclosing official information, if the privilege is claimed by a person authorized by the public entity to do so and either of the following apply:\n(1) Disclosure is forbidden by an act of the Congress of the United States or a statute of this state.\n(2) Disclosure of the information is against the public interest because there is a necessity for preserving the confidentiality of the information that outweighs the necessity for disclosure in the interest of justice; but no privilege may be claimed under this paragraph if any person authorized to do so has consented that the information be disclosed in the proceeding. In determining whether disclosure of the information is against the public interest, the interest of the public entity as a party in the outcome of the proceeding may not be considered.",
+  "tags": [
+    "privilege",
+    "official_information",
+    "public_entity",
+    "public_interest",
+    "metrc",
+    "cannabis_reporting",
+    "agent_core",
+    "deposition_relevant",
+    "trial_relevant"
+  ],
+  "structure": {
+    "division": "8",
+    "division_title": "Privileges",
+    "chapter": "4",
+    "chapter_title": "Particular Privileges",
+    "article": "9",
+    "article_title": "Official Information and Identity of Informer"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Amended by Stats. 2015, Ch. 20, Sec. 1. Effective June 24, 2015."
+  }
+}

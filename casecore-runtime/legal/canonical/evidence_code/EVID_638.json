@@ -1,0 +1,12 @@
+{
+  "code": "EVID",
+  "section": "638",
+  "title": "Acts of Ownership Presumed Ownership",
+  "text": "A person who exercises acts of ownership over property is presumed to be the owner of it.",
+  "category": "presumption_burden_of_production",
+  "canonical_type": "source",
+  "structure": { "division": "5","chapter": "3","article": "3" },
+  "source": { "type": "ca_legislature","jurisdiction": "California" },
+  "tags": ["ownership","control","property"],
+  "notes": "Behavior consistent with ownership creates presumption."
+}

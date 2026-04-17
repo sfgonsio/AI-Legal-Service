@@ -1,0 +1,26 @@
+{
+  "code": "EVID",
+  "section": "1340",
+  "title": "Commercial Publications",
+  "text": "Evidence of a statement, other than an opinion, contained in a tabulation, list, directory, register, or other published compilation is not made inadmissible by the hearsay rule if the compilation is generally used and relied upon as accurate in the course of a business as defined in Section 1270.",
+  "tags": [
+    "hearsay",
+    "exception",
+    "commercial_publications",
+    "business_records"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Hearsay Evidence",
+    "chapter": "2",
+    "chapter_title": "Hearsay Exceptions",
+    "article": "14",
+    "article_title": "Commercial, Scientific, and Similar Publications"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

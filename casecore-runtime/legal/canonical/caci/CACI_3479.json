@@ -1,0 +1,16 @@
+{
+  "code": "CACI",
+  "instruction_id": "3479",
+  "title": ". . . . . . . . . . . . . . . . . .2020, 2021, 4308",
+  "series": "3400",
+  "series_title": "Unknown",
+  "text": "3480. . . . . . . . . . . . . . . . . . . . . . . . . .2020\n3482 . . . . . . . . . . . . . . . . . . . . . . 2020, 2021\n3482.8. . . . . . . . . . . . . . . . . . . . . . . . .2020\n3490. . . . . . . . . . . . . . . . . . . . . . . . . .2030",
+  "tags": [],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

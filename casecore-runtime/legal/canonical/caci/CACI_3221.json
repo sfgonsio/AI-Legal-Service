@@ -1,0 +1,21 @@
+{
+  "code": "CACI",
+  "instruction_id": "3221",
+  "title": "Affirmative Defense\u2014Disclaimer of Implied Warranties",
+  "series": "3200",
+  "series_title": "Injunctive Relief",
+  "text": "[Name of defendant ] claims that it did not breach any implied warranties\nbecause the [ consumer good ] was sold on an \u201cas is\u201d or \u201cwith all faults\u201d\nbasis. To succeed, [ name of defendant ] must prove both of the following:\n1. That at the time of sale a clearly visible written notice was\nattached to the [ consumer good ]; and\n2. That the written notice, in clear and simple language, told the\nbuyer each of the following:\na. That the [ consumer good ] was being sold on an \u201cas is\u201d or\n\u201cwith all faults\u201d basis;\nb. That the buyer accepted the entire risk of the quality and\nperformance of the [ consumer good ]; and\nc. That if the [ consumer good ] were defective, the buyer would be\nresponsible for the cost of all necessary servicing or repair.\nNew September 2003; Revised June 2010",
+  "tags": [
+    "breach",
+    "injunctive_relief"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "If the consumer goods in question were sold by means of a mail-order catalog, the\ninstruction must be modi\ufb01ed in accordance with Civil Code section 1792.4(b).\nIn addition to sales of consumer goods, the Consumer Warranty Act applies to\nleases\u2014see Civil Code sections 1791(g)\u2013(i) and 1795.4. This instruction may be\nmodi\ufb01ed for use in cases involving leases of consumer goods.\nIf at the time of sale, or within 90 days thereafter, the defendant sold the plaintiff a\nservice contract that applied to the product, the federal Magnuson-Moss\nWarranty\u2014Federal Trade Commission Improvement Act preempts use of this\ndefense. (See 15 U.S.C. \u00a7 2308.)",
+  "sources_and_authority": "\u2022 Waiver of Implied Warranties. Civil Code section 1792.3.\n\u2022 \u201cAs Is\u201d Sale. Civil Code section 1791.3.\n\u2022 Conspicuous Writing Required. Civil Code section 1792.4.\n\u2022 Express Warranty Does Not Preempt Implied Warranty. Civil Code section 1793.\n\u2022 When Waiver of Implied Warranties Allowed. Civil Code section 1792.5.\n\u2022 Lessor\u2019s Disclaimer of Warranties on Re-lease. Civil Code section 1795.4(e).\n\u2022 \u201cUnless speci\ufb01c disclaimer methods are followed, an implied warranty of\nmerchantability accompanies every retail sale of consumer goods in the state.\u201d\n(Music Acceptance Corp. v. Lo\ufb01ng (1995) 32 Cal.App.4th 610, 619 [39\n502\n\nCal.Rptr.2d 159].)"
+}

@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "3933",
+  "title": "Damages From Multiple Defendants",
+  "series": "3700",
+  "series_title": "Damages",
+  "text": "In this case, [ name of plaintiff ] seeks damages from more than one\ndefendant. Y ou must determine the liability of each defendant to [ name\nof plaintiff] separately.\nIf you determine that more than one defendant is liable to [ name of\nplaintiff] for damages, you will be asked to \ufb01nd [ name of plaintiff ]\u2019s total\ndamages [and the comparative fault of [[ name of plaintiff ]/each\ndefendant/ [and] other nonparties]].\nIn deciding on the amount of damages, consider only [ name of plaintiff ]\u2019s\nclaimed losses. Do not attempt to divide the damages [between/among]\nthe defendants. The allocation of responsibility for payment of damages\namong multiple defendants is to be done by the court after you reach\nyour verdict.\nNew December 2010",
+  "tags": [
+    "damages"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "Give this instruction in any case involving the joint and several liability of multiple\ndefendants or several liability only for noneconomic damages under Proposition 51.\n(See Civ. Code, \u00a7 1431.2.) It is designed to deter the jury from awarding different\ndamages against each defendant after factoring in the respective culpability of the\ndefendants. Do not give this instruction in a case in which separate tortfeasors have\ncaused separate injuries. (See Carr v. Cove (1973) 33 Cal.App.3d 851, 854 [109\nCal.Rptr. 449].)\nIf comparative fault is at issue, give the bracketed language in the second paragraph.\nComparative fault may involve each defendant, the plaintiff, and other nonparties.\n\u201cNonparties\u201d include the universe of tortfeasors who are not present at trial,\nincluding defendants who settled before trial and nonjoined alleged tortfeasors.\n(Dafonte v. Up-Right (1992) 2 Cal.4th 593, 603 [7 Cal.Rptr.2d 238, 828 P .2d 140].)\nSee also CACI No. 406, Apportionment of Responsibility , and CACI No. VF-402,\nNegligence\u2014Fault of Plaintiff and Others at Issue .",
+  "sources_and_authority": "\u2022 Proposition 51. Civil Code section 1431.2(a).\n\u2022 \u201cThe pro tanto reduction provision works to prevent settlements from producing\ndouble recoveries in the case of a single injury caused by joint tortfeasors. The\ngeneral theory of compensatory damages bars double recovery for the same\nwrong. The principal situation is where joint or concurrent tortfeasors are jointly\nand severally liable for the same wrong. Only one complete satisfaction is\npermissible, and, if partial satisfaction is received from one, the liability of\nothers will be correspondingly reduced.\u201d ( Carr, supra, 33 Cal.App.3d at p. 854,\n915\n\noriginal italics.)"
+}

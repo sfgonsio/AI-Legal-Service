@@ -1,0 +1,26 @@
+{
+  "code": "EVID",
+  "section": "970",
+  "title": "Privilege Not to Testify Against Spouse",
+  "text": "Except as otherwise provided by statute, a married person has a privilege not to testify against his spouse in any proceeding.",
+  "tags": [
+    "privilege",
+    "marital",
+    "spouse",
+    "testimony"
+  ],
+  "structure": {
+    "division": "8",
+    "division_title": "Privileges",
+    "chapter": "4",
+    "chapter_title": "Particular Privileges",
+    "article": "4",
+    "article_title": "Privilege Not to Testify Against Spouse"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

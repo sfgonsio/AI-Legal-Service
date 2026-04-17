@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "1561",
+  "title": "Affidavit of Custodian",
+  "text": "(a) The records shall be accompanied by the affidavit of the custodian or other qualified witness, certifying to the identity and mode of preparation of the records, and that the records were prepared by the personnel of the business in the ordinary course of business at or near the time of the act, condition, or event. (b) If the business has none of the records described, or only part thereof, the custodian or other qualified witness shall so state in the affidavit and deliver the affidavit and such records as are available in one of the manners provided in Section 1560. (c) Where the records described in the subpoena were delivered to an attorney, the attorney shall promptly notify the witness that the original records must be returned to the witness within the time provided for in Section 1564.",
+  "tags": ["affidavit", "custodian", "business_records", "authentication", "ordinary_course"],
+  "structure": {
+    "division": "11",
+    "division_title": "Writings",
+    "chapter": "2",
+    "chapter_title": "Secondary Evidence of Writings",
+    "article": "4",
+    "article_title": "Production of Business Records"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

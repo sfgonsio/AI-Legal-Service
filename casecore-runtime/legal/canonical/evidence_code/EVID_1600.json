@@ -1,0 +1,19 @@
+{
+  "code": "EVID",
+  "section": "1600",
+  "title": "Record of Document Affecting Property",
+  "text": "A record of an instrument or other document purporting to establish or affect an interest in property is prima facie evidence of the existence and content of the original recorded document and its execution and delivery by each person by whom it purports to have been executed if: (a) The record is in fact a record of an office of a public entity; and (b) A statute authorized such a document to be recorded in that office.",
+  "tags": ["property", "record", "prima_facie", "public_entity", "instrument"],
+  "structure": {
+    "division": "11",
+    "division_title": "Writings",
+    "chapter": "3",
+    "chapter_title": "Official Writings Affecting Property"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "code": "BPC",
+  "section": "26229",
+  "title": "Section 26229",
+  "text": "Under the terms and conditions that are prescribed in the bylaws adopted by it, an association may admit as members or issue common stock only to persons engaged in the cultivation of a cannabis product that is to be handled by or through the association. (Added by Stats. 2017, Ch. 27, Sec. 107. (SB 94) Effective June 27, 2017.)",
+  "tags": [
+    "cultivation",
+    "cannabis"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Cannabis",
+    "chapter": "3",
+    "chapter_title": "Enforcement"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Scraped from authority_store raw data."
+  }
+}

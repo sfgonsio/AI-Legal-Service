@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "4330",
+  "title": "Denial of Requested Accommodation",
+  "series": "4300",
+  "series_title": "Unlawful Detainer",
+  "text": "4331\u20134339. Reserved for Future Use\n4340. Damages for Reasonable Rental Value\n4341. Statutory Damages on Showing of Malice (Code Civ. Proc., \u00a7 1174(b))\n4342. Reduced Rent for Breach of Habitability\n4343\u20134349. Reserved for Future Use",
+  "tags": [
+    "breach",
+    "damages",
+    "unlawful_detainer"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

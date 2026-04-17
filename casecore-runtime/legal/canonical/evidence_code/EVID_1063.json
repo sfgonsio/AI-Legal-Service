@@ -1,0 +1,27 @@
+{
+  "code": "EVID",
+  "section": "1063",
+  "title": "Trade Secret — Sealing of Court Records",
+  "text": "(a) The People shall request sealing of articles reasonably expected to be filed or admitted into evidence as follows:\n(1) No less than 10 court days before trial, and no less than five court days before any other criminal proceeding, the People shall file with the court a list of all articles which the People reasonably expect to file with the court, or admit into evidence, under seal at that proceeding. That list shall be available to the public.\n(2) The court shall not allow the listed articles to be filed, admitted into evidence, or in any way made a part of the court record otherwise open to the public before holding a hearing to consider any objections to the People's request to seal the articles.",
+  "tags": [
+    "privilege",
+    "trade_secret",
+    "sealing",
+    "court_records",
+    "protective_order"
+  ],
+  "structure": {
+    "division": "8",
+    "division_title": "Privileges",
+    "chapter": "4",
+    "chapter_title": "Particular Privileges",
+    "article": "11",
+    "article_title": "Trade Secret"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Added by Stats. 1990, Ch. 714, Sec. 3."
+  }
+}

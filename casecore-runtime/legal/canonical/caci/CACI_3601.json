@@ -1,0 +1,16 @@
+{
+  "code": "CACI",
+  "instruction_id": "3601",
+  "title": ". . . . . . . . . . . . . . . . . .2810, 2811, 2812",
+  "series": "3600",
+  "series_title": "Eminent Domain",
+  "text": "3601(a)(1). . . . . . . . . . . . . . . . . . . . . . .2811\n3601(a)(2) . . . . . . . . . . . . . . . . . . . . . . 2812\n3602(a) . . . . . . . . . . . . . . . . . . . . . . . . 2800\n3602(b)(1) . . . . . . . . . . . . . . . . . . . . . . 2801\n3602(b)(2) . . . . . . . . . . . . . . . . . . . . . . 2802\n3602(b)(3) . . . . . . . . . . . . . . . . . . . . . . 2803\n3602(c) . . . . . . . . . . . . . . . . . . . . . . . . 2800",
+  "tags": [],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

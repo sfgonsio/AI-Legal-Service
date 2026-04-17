@@ -1,0 +1,76 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# =========================
+# Node / frontend
+# =========================
+node_modules/
+dist/
+.next/
+
+# =========================
+# Word / Office temp files
+# =========================
+~$*.docx
+
+# =========================
+# Database (local dev only — Render uses persistent disk)
+# =========================
+*.db
+*.sqlite3
+
+# =========================
+# Environment files (NEVER commit secrets)
+# =========================
+.env
+.env.*
+.env.**.bak.*
+
+# =========================
+# OS junk
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# =========================
+# Docker volumes
+# =========================
+data/
+
+# =========================
+# Deployment
+# =========================
+.vercel
+.render
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Authority store / local artifacts
+# =========================
+authority_store/

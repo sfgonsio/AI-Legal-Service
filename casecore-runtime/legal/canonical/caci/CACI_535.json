@@ -1,0 +1,18 @@
+{
+  "code": "CACI",
+  "instruction_id": "535",
+  "title": "Risks of Nontreatment\u2014Essential Factual Elements",
+  "series": "500",
+  "series_title": "Medical Negligence",
+  "text": "536\u2013549. Reserved for Future Use\n550. Affirmative Defense\u2014Plaintiff Would Have Consented\n551. Affirmative Defense\u2014Waiver\n552. Affirmative Defense\u2014Simple Procedure",
+  "tags": [
+    "medical_negligence"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

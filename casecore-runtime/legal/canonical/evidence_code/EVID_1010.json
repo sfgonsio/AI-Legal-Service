@@ -1,0 +1,25 @@
+{
+  "code": "EVID",
+  "section": "1010",
+  "title": "Psychotherapist — Definition",
+  "text": "(a) A person authorized to practice medicine in any state or nation who devotes a substantial portion of their time to the practice of psychiatry.\n(b) A person licensed as a psychologist.\n(c) A person licensed as a clinical social worker when engaged in applied psychotherapy of a nonmedical nature.\n(d) A person serving as a school psychologist.\n(e) A person licensed as a marriage and family therapist.\n(f)-(o) Various registered associates, interns, and trainees under supervision of licensed professionals.",
+  "tags": [
+    "definition",
+    "psychotherapist",
+    "psychotherapist_patient"
+  ],
+  "structure": {
+    "division": "8",
+    "division_title": "Privileges",
+    "chapter": "4",
+    "chapter_title": "Particular Privileges",
+    "article": "7",
+    "article_title": "Psychotherapist-Patient Privilege"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Amended by Stats. 2021, Ch. 647, Sec. 74. Effective January 1, 2022."
+  }
+}

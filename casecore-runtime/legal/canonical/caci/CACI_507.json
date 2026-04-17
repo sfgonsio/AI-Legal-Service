@@ -1,0 +1,19 @@
+{
+  "code": "CACI",
+  "instruction_id": "507",
+  "title": "Duty to Warn Patient",
+  "series": "500",
+  "series_title": "Medical Negligence",
+  "text": "V olume 1 Table of Contents\nxxx\nThis version provided by LexisNexis\u00ae Matthew Bender\u00ae, Official Publisher, 800-533-1637,\nstore.lexisnexis.com, for public and internal court use",
+  "tags": [
+    "duty",
+    "medical_negligence"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

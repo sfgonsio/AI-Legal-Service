@@ -1,0 +1,23 @@
+{
+  "code": "BPC",
+  "section": "26011",
+  "title": "Section 26011",
+  "text": "Neither the director nor any member of the Cannabis Control Appeals Panel established under Section 26040 shall do any of the following: (a) Receive any commission or profit whatsoever, directly or indirectly, from any person applying for or receiving any license or permit under this division. (b) Engage or have any interest in the sale or any insurance covering a licensee\u2019s business or premises. (c) Engage or have any interest in the sale of equipment for use upon the premises of a licensee engaged in commercial cannabis activity. (d) Knowingly solicit any licensee for the purchase of tickets for benefits or contributions for benefits. (e) Knowingly request any licensee to donate or receive money, or any other thing of value, for the benefit of any person whatsoever. (Amended by Stats. 2021, Ch. 70, Sec. 9. (AB 141) Effective July 12, 2021. Note: This section was added on Nov. 8, 2016, by initiative Prop. 64.)",
+  "tags": [
+    "distribution",
+    "licensing",
+    "cannabis"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Cannabis",
+    "chapter": "2",
+    "chapter_title": "Administration"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Scraped from authority_store raw data."
+  }
+}

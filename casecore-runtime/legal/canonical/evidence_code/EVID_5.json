@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "5",
+  "title": "Effect of Headings",
+  "text": "Division, chapter, article, and section headings do not in any manner affect the scope, meaning, or intent of the provisions of this code.",
+  "tags": ["preliminary", "headings"],
+  "structure": {
+    "division": "1",
+    "division_title": "Preliminary Provisions and Construction",
+    "chapter": "",
+    "chapter_title": "",
+    "article": "",
+    "article_title": ""
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

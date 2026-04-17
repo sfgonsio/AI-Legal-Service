@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "215",
+  "title": "Exercise of a Communication Privilege",
+  "series": "200",
+  "series_title": "Contracts",
+  "text": "[Name of party/witness ] has an absolute right not to disclose what [he/she/\nnonbinary pronoun] told [his/her/ nonbinary pronoun]\n[doctor/attorney/[other]] in con\ufb01dence because the law considers this\ninformation privileged. Do not consider, for any reason at all, the fact\nthat [ name of party/witness ] did not disclose what [he/she/ nonbinary\npronoun] told [his/her/ nonbinary pronoun] [doctor/attorney/[ other]]. Do not\ndiscuss that fact during your deliberations or let it in\ufb02uence your\ndecision in any way.\nNew September 2003; Revised December 2012",
+  "tags": [
+    "contracts"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "This instruction must be given upon request, if appropriate and the court has\ndetermined that the privilege has not been waived. (Evid. Code, \u00a7 913(b).)",
+  "sources_and_authority": "\u2022 No Presumption on Exercise of Privilege. Evidence Code section 913(b).\n\u2022 The comment to Evidence Code section 913 notes that this statute \u201cmay modify\nexisting California law as it applies in civil cases.\u201d Speci\ufb01cally, the comment\nnotes that section 913 in effect overrules two Supreme Court cases: Nelson v.\nSouthern Paci\ufb01c Co . (1937) 8 Cal.2d 648 [67 P .2d 682] and Fross v. Wotton\n(1935) 3 Cal.2d 384 [44 P .2d 350]. The Nelson court had held that evidence of a\nperson\u2019s exercise of the privilege against self-incrimination in a prior proceeding\nmay be shown for impeachment purposes if he or she testi\ufb01es in a self-\nexculpatory manner in a subsequent proceeding. Language in Fross indicated\nthat unfavorable inferences may be drawn in a civil case from a party\u2019s claim of\nthe privilege against self-incrimination during the case itself."
+}

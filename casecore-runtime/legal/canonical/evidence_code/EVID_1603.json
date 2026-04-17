@@ -1,0 +1,19 @@
+{
+  "code": "EVID",
+  "section": "1603",
+  "title": "Deed by Officer in Pursuance of Court Process",
+  "text": "A deed, conveyance, or other writing purporting to have been executed by proper authority, pursuant to process of a court of record of any state in the United States, is prima facie evidence that the authority existed and the process was regular.",
+  "tags": ["deed", "court_process", "prima_facie", "conveyance", "authority"],
+  "structure": {
+    "division": "11",
+    "division_title": "Writings",
+    "chapter": "3",
+    "chapter_title": "Official Writings Affecting Property"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

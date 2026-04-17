@@ -1,0 +1,25 @@
+{
+  "code": "EVID",
+  "section": "1014",
+  "title": "Psychotherapist-Patient Privilege",
+  "text": "Subject to Section 912 and except as otherwise provided in this article, the patient, whether or not a party, has a privilege to refuse to disclose, and to prevent another from disclosing, a confidential communication between patient and psychotherapist if the privilege is claimed by:\n(a) The holder of the privilege.\n(b) A person who is authorized to claim the privilege by the holder of the privilege.\n(c) The person who was the psychotherapist at the time of the confidential communication, but the person may not claim the privilege if there is no holder of the privilege in existence or if he or she is otherwise instructed by a person authorized to permit disclosure.",
+  "tags": [
+    "privilege",
+    "psychotherapist_patient",
+    "confidential_communication"
+  ],
+  "structure": {
+    "division": "8",
+    "division_title": "Privileges",
+    "chapter": "4",
+    "chapter_title": "Particular Privileges",
+    "article": "7",
+    "article_title": "Psychotherapist-Patient Privilege"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Amended by Stats. 2011, Ch. 381, Sec. 22. Effective January 1, 2012."
+  }
+}

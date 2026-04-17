@@ -1,0 +1,18 @@
+{
+  "code": "CACI",
+  "instruction_id": "216",
+  "title": "Exercise of Right Not to Incriminate Oneself (Evid. Code, \u00a7 913)",
+  "series": "200",
+  "series_title": "Contracts",
+  "text": "217. Evidence of Settlement\n218. Statements Made to Physician (Previously Existing Condition)\n219. Expert Witness Testimony\n220. Experts\u2014Questions Containing Assumed Facts",
+  "tags": [
+    "contracts"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

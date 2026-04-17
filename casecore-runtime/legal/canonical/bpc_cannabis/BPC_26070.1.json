@@ -1,0 +1,24 @@
+{
+  "code": "BPC",
+  "section": "26070.1",
+  "title": "Section 26070.1",
+  "text": "Cannabis or cannabis products purchased by a customer shall not leave a licensed retail premises unless they are placed in an opaque package. (Added by Stats. 2017, Ch. 27, Sec. 60. (SB 94) Effective June 27, 2017.)",
+  "tags": [
+    "packaging",
+    "distribution",
+    "licensing",
+    "cannabis"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Cannabis",
+    "chapter": "7",
+    "chapter_title": "Retailers, Distributors, Microbusinesses, and Combined Activities"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Scraped from authority_store raw data."
+  }
+}

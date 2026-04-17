@@ -1,0 +1,19 @@
+{
+  "code": "CACI",
+  "instruction_id": "1808",
+  "title": "Stalking (Civ. Code, \u00a7 1708.7)",
+  "series": "1800",
+  "series_title": "Fraud and Deceit",
+  "text": "Revoked June 2015. See Stats 2014, Ch. 853 (AB 1356), substantially\namending Civ. Code, \u00a7 1708.7.\n1153",
+  "tags": [
+    "deceit",
+    "fraud"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

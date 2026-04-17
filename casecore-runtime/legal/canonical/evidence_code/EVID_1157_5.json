@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "1157.5",
+  "title": "Nonprofit Medical Care Foundation Records",
+  "text": "Except in actions involving a claim of a provider of health care services for payment for such services, the prohibition relating to discovery or testimony provided by Section 1157 shall be applicable to the proceedings or records of an organized committee of any nonprofit medical care foundation or professional standards review organization which is organized in a manner which makes available professional competence to review health care services with respect to medical necessity, quality of care, or economic justification of charges or level of care.",
+  "tags": ["extrinsic_policy", "peer_review", "nonprofit_medical", "healthcare"],
+  "structure": {
+    "division": "9",
+    "division_title": "Evidence Affected or Excluded by Extrinsic Policies",
+    "chapter": "3",
+    "chapter_title": "Other Evidence Affected or Excluded by Extrinsic Policies",
+    "article": "",
+    "article_title": ""
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Amended by Stats. 1980, Ch. 524."
+  }
+}

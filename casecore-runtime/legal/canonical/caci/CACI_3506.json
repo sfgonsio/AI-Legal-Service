@@ -1,0 +1,18 @@
+{
+  "code": "CACI",
+  "instruction_id": "3506",
+  "title": "Effect of Improvements",
+  "series": "3500",
+  "series_title": "Construction Law",
+  "text": "In determining the fair market value of the property you must consider\nboth the value of the land and whether any buildings, machinery, or\nother equipment attached to the property increase or decrease the value\nof the property.\nNew September 2003",
+  "tags": [],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "The court decides as a legal issue whether an improvement is a \ufb01xture \u201cpertaining\nto the realty.\u201d (Code Civ. Proc., \u00a7 1260.030.)",
+  "sources_and_authority": "\u2022 Improvements to Property Compensable. Code of Civil Procedure section\n1263.210(a).\n\u2022 \u201cImprovements\u201d De\ufb01ned. Code of Civil Procedure section 1263.205(a).\n\u2022 Removal of Property Without Substantial Economic Loss. Code of Civil\nProcedure section 1263.205(b).\n\u2022 \u201c[T]he market value of land and the improvements thereon is the market value\nthereof viewed as a whole and not separately.\u201d ( South Bay Irrigation Dist. v.\nCalifornia-American Water Co. (1976) 61 Cal.App.3d 944, 986 [133 Cal.Rptr.\n166], internal citation omitted.)"
+}

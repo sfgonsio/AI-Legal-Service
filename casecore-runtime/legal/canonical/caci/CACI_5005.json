@@ -1,0 +1,18 @@
+{
+  "code": "CACI",
+  "instruction_id": "5005",
+  "title": "Multiple Parties",
+  "series": "5000",
+  "series_title": "Concluding Instructions",
+  "text": "[There are [ number] plaintiffs in this trial. Y ou should decide the case of\neach plaintiff separately as if it were a separate lawsuit. Each plaintiff is\nentitled to separate consideration of each plaintiff\u2019s own claim(s).]\n[There are [ number] defendants in this trial. Y ou should decide the case\nagainst each defendant separately as if it were a separate lawsuit. Each\ndefendant is entitled to separate consideration of each defendant\u2019s own\ndefenses.]\n[Different aspects of this case involve different parties (plaintiffs and\ndefendants). Each instruction will identify the parties to whom it applies.\nPay particular attention to the parties named in each instruction.]\n[or]\n[Unless I tell you otherwise, all instructions apply to each plaintiff and\ndefendant.]\nNew April 2004; Revised April 2009, May 2020",
+  "tags": [],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "If this instruction is used, the advisory committee recommends that it be read to the\njury before reading instructions on the substantive law.\nThe CACI instructions require the use of party names rather than party-status words\nlike \u201cplaintiff\u201d and \u201cdefendant.\u201d In multiparty cases, it is important to name only the\nparties in each instruction to whom the instruction applies. For example, an\ninstruction on loss of consortium (see CACI No. 3920) will not apply to all\nplaintiffs. Instructions on vicarious liability (see CACI No. 3700 et seq.) will not\napply to all defendants. Unless all or nearly all of the instructions will apply to all\nof the parties, give the \ufb01rst option for the last paragraph.",
+  "sources_and_authority": "\u2022 \u201cWe realize, of course, that multiple defendants are involved and that each\ndefendant is entitled to instructions on, and separate consideration of, every\ndefense available and applicable to it. The purpose of this rule is to insure that\nthe jury will distinguish and evaluate the separate facts relevant to each\ndefendant.\u201d ( Campbell v. Southern Paci\ufb01c Co. (1978) 22 Cal.3d 51, 58 [148\nCal.Rptr. 596, 583 P .2d 121], internal citations omitted.)"
+}

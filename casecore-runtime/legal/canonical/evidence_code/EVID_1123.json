@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "1123",
+  "title": "Written Settlement Agreement in Mediation",
+  "text": "A written settlement agreement prepared in the course of, or pursuant to, a mediation, is not made inadmissible, or protected from disclosure, by provisions of this chapter if the agreement is signed by the settling parties and any of the following conditions are satisfied:\n\n(a) The agreement provides that it is admissible or subject to disclosure, or words to that effect.\n\n(b) The agreement provides that it is enforceable or binding or words to that effect.\n\n(c) All parties to the agreement expressly agree in writing, or orally in accordance with Section 1118, to its disclosure.\n\n(d) The agreement is used to show fraud, duress, or illegality that is relevant to an issue in dispute.",
+  "tags": ["mediation", "settlement_agreement", "written", "enforceability"],
+  "structure": {
+    "division": "9",
+    "division_title": "Evidence Affected or Excluded by Extrinsic Policies",
+    "chapter": "2",
+    "chapter_title": "Mediation",
+    "article": "",
+    "article_title": ""
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Added by Stats. 1997, Ch. 772, Sec. 3. Effective January 1, 1998."
+  }
+}

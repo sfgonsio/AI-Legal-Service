@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "4206",
+  "title": "Presumption of Insolvency",
+  "series": "4200",
+  "series_title": "Accounting Malpractice",
+  "text": "A debtor who is generally not paying [his/her/ nonbinary pronoun/its]\ndebts as they become due, other than because of a legitimate dispute, is\npresumed to be insolvent.\nIn determining whether [ name of debtor ] was generally not paying [his/\nher/nonbinary pronoun/its] debts as they became due, you may consider\nall of the following:\n(a) The number of [ name of debtor ]\u2019s debts;\n(b) The percentage of debts that were not being paid;\n(c) How long those debts remained unpaid;\n(d) Whether special circumstances explain any failure to pay the\ndebts; and\n(e) [ Name of debtor ]\u2019s payment practices before the period of alleged\nnonpayment [and the payment practices of [ name of debtor ]\u2019s\n[trade/industry]].\nIf [ name of plaintiff ] proves that [ name of debtor ] was generally not\npaying debts as they became due, then you must \ufb01nd that [ name of\ndebtor] was insolvent unless [ name of defendant ] proves that [ name of\ndebtor] was solvent.\nNew June 2006; Revised June 2016",
+  "tags": [
+    "presumption"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "This instruction should be read in conjunction with CACI No. 4203, Constructive\nFraudulent Transfer\u2014Insolvency\u2014Essential Factual Elements , and CACI No. 4205,\nInsolvency Explained .",
+  "sources_and_authority": "\u2022 Presumption of Insolvency. Civil Code section 3439.02(b).\n\u2022 \u201cSubdivision (c) [now subdivision (b)] establishes a rebuttable presumption of\ninsolvency from the fact of general nonpayment of debts as they become due.\n. . . The presumption imposes on the party against whom the presumption is\ndirected the burden of proving that the nonexistence of insolvency as de\ufb01ned in\nsubdivision (a) is more probable than its existence.\u201d (Legislative Committee\nComment to Civil Code section 3439.02.)\n\u2022 \u201cIn determining whether a debtor is paying its debts generally as they become\ndue, the court should look at more than the amount and due dates of the\nindebtedness. The court should also take into account such factors as the number\nof the debtor\u2019s debts, the proportion of those debts not being paid, the duration\n1113\n\nof the nonpayment, and the existence of bona \ufb01de disputes or other special\ncircumstances alleged to constitute an explanation for the stoppage of payments.\nThe court\u2019s determination may be affected by a consideration of the debtor\u2019s\npayment practices prior to the period of alleged nonpayment and the payment\npractices of the trade or industry in which the debtor is engaged.\u201d (Legislative\nCommittee Comment to Civil Code section 3439.02.)"
+}

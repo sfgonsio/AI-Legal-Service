@@ -1,0 +1,22 @@
+{
+  "code": "CACI",
+  "instruction_id": "308",
+  "title": "Contract Formation\u2014Revocation of Offer",
+  "series": "300",
+  "series_title": "Negligence\u2014Essential Factual Elements",
+  "text": "Both an offer and an acceptance are required to create a contract. [ Name\nof defendant ] contends that the offer was withdrawn before it was\naccepted. To overcome this contention, [ name of plaintiff ] must prove one\nof the following:\n1. That [ name of defendant ] did not withdraw the offer; or\n2. That [ name of plaintiff ] accepted the offer before [ name of\ndefendant] withdrew it; or\n3. That [ name of defendant ]\u2019s withdrawal of the offer was never\ncommunicated to [ name of plaintiff ].\nIf [ name of plaintiff ] did not prove any of the above, then a contract was\nnot created.\nNew September 2003; Revised May 2020",
+  "tags": [
+    "contract",
+    "essential_elements",
+    "negligence"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "Do not give this instruction unless the defendant has testi\ufb01ed or offered other\nevidence in support of the contention.\nThis instruction assumes that the defendant is claiming to have revoked the\ndefendant\u2019s offer. Change the identities of the parties in the indented paragraphs if,\nunder the facts of the case, the roles of the parties are switched (e.g., if defendant\nwas the alleged offeree).",
+  "sources_and_authority": "\u2022 Revocation Before Acceptance. Civil Code section 1586.\n\u2022 Methods for Revocation. Civil Code section 1587.\n\u2022 \u201cIt is a well-established principle of contract law that an offer may be revoked\nby the offeror any time prior to acceptance.\u201d ( T. M. Cobb Co., Inc. v. Superior\nCourt (1984) 36 Cal.3d 273, 278 [204 Cal.Rptr. 143, 682 P .2d 338].)\n\u2022 \u201c \u2018Under familiar contract law, a revocation of an offer must be directed to the\nofferee.\u2019 [Citation.]\u201d ( Moffett v. Barclay (1995) 32 Cal.App.4th 980, 983 [38\nCal.Rptr.2d 546].)"
+}

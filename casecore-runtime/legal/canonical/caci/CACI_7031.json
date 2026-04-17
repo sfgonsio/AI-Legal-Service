@@ -1,0 +1,16 @@
+{
+  "code": "CACI",
+  "instruction_id": "7031",
+  "title": ". . . . . . . . . . . . . . . . . . . . . . . . .4560",
+  "series": "7000",
+  "series_title": "Unknown",
+  "text": "7031(a) . . . . . . . . . . . . . . . . . 4560, 4561, 4562\n7031(b). . . . . . . . . . . . . . . . . . . . .4560, 4561\n7031(d). . . . . . . . . . . . . . . . . . . . .4560, 4562\n7031(e) . . . . . . . . . . . . . . . . . 4560, 4561, 4562\n7068(b)(3) . . . . . . . . . . . . . . . . . . . . . . 4560\n7150.1. . . . . . . . . . . . . . . . . . . . . . . . .4522\n7159.6. . . . . . . . . . . . . . . . . . . . . . . . .4522",
+  "tags": [],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

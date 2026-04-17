@@ -1,0 +1,17 @@
+{
+  "code": "CACI",
+  "instruction_id": "5020",
+  "title": "Demonstrative Evidence",
+  "series": "5000",
+  "series_title": "Concluding Instructions",
+  "text": "During the trial, materials have been shown to you to [help explain\ntestimony or other evidence in the case/[ specify other purpose ]]. [Some of\nthese materials have been admitted into evidence, and you will be able to\nreview them during your deliberations.\nOther materials have also been shown to you during the trial, but they\nhave not been admitted into evidence.] Y ou will not be able to review\nthem during your deliberations because they are not themselves evidence\nor proof of any facts. Y ou may, however, consider the testimony given in\nconnection with those materials.\nNew December 2011; Revised June 2012",
+  "tags": [],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "This instruction may be given if the jury has been provided with charts, summaries,\nor other demonstrative evidence during the trial to assist in understanding complex\nevidence. The purpose of the instruction is to explain to the jury why certain\nmaterials are available for deliberations and other materials are not. Include the\nbracketed sentences if some materials have been admitted into evidence."
+}

@@ -1,0 +1,12 @@
+{
+  "code": "EVID",
+  "section": "641",
+  "title": "Mail Receipt Presumption",
+  "text": "A letter correctly addressed and properly mailed is presumed to have been received in the ordinary course of mail.",
+  "category": "presumption_burden_of_production",
+  "canonical_type": "source",
+  "structure": { "division": "5","chapter": "3","article": "3" },
+  "source": { "type": "ca_legislature","jurisdiction": "California" },
+  "tags": ["mail","delivery","receipt"],
+  "notes": "Proper mailing creates presumption of receipt."
+}

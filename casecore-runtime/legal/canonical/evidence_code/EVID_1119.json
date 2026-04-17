@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "1119",
+  "title": "Mediation Confidentiality",
+  "text": "Except as otherwise provided in this chapter:\n\n(a) No evidence of anything said or any admission made for the purpose of, in the course of, or pursuant to, a mediation or a mediation consultation is admissible or subject to discovery, and disclosure of the evidence shall not be compelled, in any arbitration, administrative adjudication, civil action, or other noncriminal proceeding in which, pursuant to law, testimony can be compelled to be given.\n\n(b) No writing, as defined in Section 250, that is prepared for the purpose of, in the course of, or pursuant to, a mediation or a mediation consultation, is admissible or subject to discovery, and disclosure of the writing shall not be compelled, in any arbitration, administrative adjudication, civil action, or other noncriminal proceeding in which, pursuant to law, testimony can be compelled to be given.\n\n(c) All communications, negotiations, or settlement discussions by and between participants in the course of a mediation or a mediation consultation shall remain confidential.",
+  "tags": ["mediation", "confidentiality", "privilege", "discovery"],
+  "structure": {
+    "division": "9",
+    "division_title": "Evidence Affected or Excluded by Extrinsic Policies",
+    "chapter": "2",
+    "chapter_title": "Mediation",
+    "article": "",
+    "article_title": ""
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Added by Stats. 1997, Ch. 772, Sec. 3. Effective January 1, 1998."
+  }
+}

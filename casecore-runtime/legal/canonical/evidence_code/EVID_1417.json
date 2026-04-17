@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "1417",
+  "title": "Handwriting — Comparison by Trier of Fact",
+  "text": "The genuineness of handwriting, or the lack thereof, may be proved by a comparison made by the trier of fact with handwriting (a) which the court finds was admitted or treated as genuine by the party against whom the evidence is offered or (b) otherwise proved to be genuine to the satisfaction of the court.",
+  "tags": ["authentication", "handwriting", "comparison", "trier_of_fact"],
+  "structure": {
+    "division": "11",
+    "division_title": "Writings",
+    "chapter": "1",
+    "chapter_title": "Authentication and Proof of Writings",
+    "article": "2",
+    "article_title": "Means of Authenticating and Proving Writings"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

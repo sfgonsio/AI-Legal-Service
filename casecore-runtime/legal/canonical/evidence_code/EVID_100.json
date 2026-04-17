@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "100",
+  "title": "Construction of Definitions",
+  "text": "Unless the provision or context otherwise requires, these definitions govern the construction of this code.",
+  "tags": ["definitions", "construction"],
+  "structure": {
+    "division": "2",
+    "division_title": "Words and Phrases Defined",
+    "chapter": "",
+    "chapter_title": "",
+    "article": "",
+    "article_title": ""
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

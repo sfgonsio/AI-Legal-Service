@@ -1,0 +1,18 @@
+{
+  "code": "CACI",
+  "instruction_id": "3331",
+  "title": "Affirmative Defense to Locality Discrimination, Below Cost",
+  "series": "3300",
+  "series_title": "Unknown",
+  "text": "Sales, and Loss Leader Sales Claims\u2014Closed-out, Discontinued,\nDamaged, or Perishable Items\n[Name of defendant ] claims that any [locality discrimination/below cost\nsales/loss leader sales] proven by [ name of plaintiff ] [is/are] within the law\nbecause the [ product] was being sold as [a close-out/seasonal\ngoods/damaged goods/perishable goods]. To succeed, [ name of defendant ]\nmust prove both of the following:\n1. That [his/her/ nonbinary pronoun /its] sales were [ insert one or more\nof the following: ]\n1. [in the course of closing out, in good faith, all or any part of [his/\nher/nonbinary pronoun /its] supply of [ product], in order to stop\ntrade in [ product];] [or]\n1. [of seasonal goods to prevent loss by depreciation;] [or]\n1. [of perishable goods to prevent loss by spoilage or depreciation;]\n[or]\n1. [of goods that were damaged or deteriorated in quality;] and\n2. That [ name of defendant ] gave sufficient notice of the sale to the\npublic.\nNotice is sufficient only if:\n1. The sale goods are kept separate from other goods;\n2. The sale goods are clearly marked with the reason[s] for the\nsales; and\n3. Any advertisement of such goods sets forth the reason[s] for the\nsale and indicates the number of items to be sold.\nNew September 2003",
+  "tags": [],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "This defense applies to locality discrimination, below cost sales, and loss leader\nsales only.",
+  "sources_and_authority": "\u2022 Exceptions for Close-out, Discontinued, Damaged, or Perishable Items. Business\nand Professions Code section 17050."
+}

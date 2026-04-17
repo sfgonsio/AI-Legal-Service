@@ -1,0 +1,30 @@
+{
+  "code": "EVID",
+  "section": "521",
+  "title": "Burden of Proof for Lack of Due Care",
+  "text": "The party claiming that a person did not exercise a requisite degree of care has the burden of proof on that issue.",
+  "category": "burden_specific",
+  "canonical_type": "source",
+  "structure": {
+    "division": "5",
+    "division_title": "Burden of Proof; Burden of Producing Evidence; Presumptions and Inferences",
+    "chapter": "1",
+    "chapter_title": "Burden of Proof",
+    "article": "2",
+    "article_title": "Burden of Proof on Specific Issues"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "(Enacted by Stats. 1965, Ch. 299.)"
+  },
+  "tags": [
+    "burden of proof",
+    "due care",
+    "negligence",
+    "standard of care",
+    "specific issues"
+  ],
+  "notes": "Allocates the burden of proof to the party asserting lack of the requisite degree of care."
+}

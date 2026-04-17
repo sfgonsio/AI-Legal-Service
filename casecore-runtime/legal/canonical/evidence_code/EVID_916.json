@@ -1,0 +1,26 @@
+{
+  "code": "EVID",
+  "section": "916",
+  "title": "Exclusion of Privileged Information by Presiding Officer",
+  "text": "(a) The presiding officer, on his own motion or on the motion of any party, shall exclude information that is subject to a claim of privilege under this division if:\n(1) The person from whom the information is sought is not a person authorized to claim the privilege; and\n(2) There is no party to the proceeding who is a person authorized to claim the privilege.\n(b) The presiding officer may not exclude information under this section if:\n(1) He is otherwise instructed by a person authorized to permit disclosure; or\n(2) The proponent of the evidence establishes that there is no person authorized to claim the privilege in existence.",
+  "tags": [
+    "privilege",
+    "exclusion",
+    "presiding_officer",
+    "authorization"
+  ],
+  "structure": {
+    "division": "8",
+    "division_title": "Privileges",
+    "chapter": "3",
+    "chapter_title": "General Provisions Relating to Privileges",
+    "article": null,
+    "article_title": null
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

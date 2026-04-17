@@ -1,0 +1,26 @@
+{
+  "code": "EVID",
+  "section": "1000",
+  "title": "Exception — Claims Through Deceased Patient",
+  "text": "There is no privilege under this article as to a communication relevant to an issue between parties all of whom claim through a deceased patient, regardless of whether the claims are by testate or intestate succession or by inter vivos transaction.",
+  "tags": [
+    "privilege",
+    "physician_patient",
+    "exception",
+    "deceased_patient"
+  ],
+  "structure": {
+    "division": "8",
+    "division_title": "Privileges",
+    "chapter": "4",
+    "chapter_title": "Particular Privileges",
+    "article": "6",
+    "article_title": "Physician-Patient Privilege"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

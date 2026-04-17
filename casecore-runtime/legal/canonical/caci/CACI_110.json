@@ -1,0 +1,21 @@
+{
+  "code": "CACI",
+  "instruction_id": "110",
+  "title": "Service Provider for Juror With Disability",
+  "series": "100",
+  "series_title": "Pretrial",
+  "text": "During trial, [ name of juror ] will be assisted by a [ insert service provider ].\nThe [ insert service provider ] is not a member of the jury and is not to\nparticipate in the deliberations in any way other than as necessary to\nprovide the service to [ name of juror ].\nNew September 2003",
+  "tags": [
+    "disability",
+    "pretrial"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "This instruction should be read along with other introductory instructions at the\nbeginning of the trial if appropriate.",
+  "sources_and_authority": "\u2022 Eligibility to Serve as Juror. Code of Civil Procedure section 203(a)(6).\n\u2022 Service Provider for Juror With Disability. Code of Civil Procedure section 224."
+}

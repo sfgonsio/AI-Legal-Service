@@ -1,0 +1,25 @@
+{
+  "code": "EVID",
+  "section": "1034",
+  "title": "Clergy Member Privilege",
+  "text": "Subject to Section 912, a member of the clergy, whether or not a party, has a privilege to refuse to disclose a penitential communication if he or she claims the privilege.",
+  "tags": [
+    "privilege",
+    "clergy",
+    "penitent"
+  ],
+  "structure": {
+    "division": "8",
+    "division_title": "Privileges",
+    "chapter": "4",
+    "chapter_title": "Particular Privileges",
+    "article": "8",
+    "article_title": "Clergy Penitent Privileges"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Amended by Stats. 2002, Ch. 806, Sec. 23. Effective January 1, 2003."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "code": "BPC",
+  "section": "26220.3",
+  "title": "Section 26220.3",
+  "text": "\u201cCannabis product\u201d includes any cannabis associated with a licensed cultivator. (Added by Stats. 2017, Ch. 27, Sec. 107. (SB 94) Effective June 27, 2017.) BPC Business and Professions Code - BPC 1.",
+  "tags": [
+    "cultivation",
+    "licensing",
+    "cannabis"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Cannabis",
+    "chapter": "3",
+    "chapter_title": "Enforcement"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Scraped from authority_store raw data."
+  }
+}

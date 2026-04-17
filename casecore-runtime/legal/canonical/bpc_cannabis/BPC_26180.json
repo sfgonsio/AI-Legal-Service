@@ -1,0 +1,24 @@
+{
+  "code": "BPC",
+  "section": "26180",
+  "title": "Section 26180",
+  "text": "(4) A license in inactive status shall remain a license issued pursuant to this division. All of the following apply to a licensee who holds a license in inactive status: (A) The licensee shall continue to comply with all laws and regulations applicable to cultivation licensees. (B) If the licensee holds a provisional license, the licensee shall continue to pursue requirements for annual licensure. (C) The licensee shall be allowed to maintain eligibility for state programs available to cultivation licensees, including, but not limited to, grant programs. (d) Notwithstanding subdivision (c) of Section 26050, the department shall allow each licensee a one-time opportunity to change the date of license renewal, in implementing subdivisions (b) and (c). (e) Notwithstanding any other law, the department may adopt emergency regulations to implement this section. The provisions of Section 26013 shall be applicable to emergency regulations adopted or readopted pursuant to this section. The adoption of emergency regulations authorized by this section shall be deemed an emergency and necessary for the immediate preservation of the public peace, health, safety, or general welfare. (Added by Stats. 2023, Ch. 886, Sec. 1. (SB 833) Effective January 1, 2024.)",
+  "tags": [
+    "testing",
+    "cultivation",
+    "licensing",
+    "cannabis"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Cannabis",
+    "chapter": "6",
+    "chapter_title": "Licensed Cultivation Sites"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Scraped from authority_store raw data."
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "220",
+  "title": "State",
+  "text": "\"State\" means the State of California, unless applied to the different parts of the United States. In the latter case, it includes any state, district, commonwealth, territory, or insular possession of the United States.",
+  "tags": ["definitions", "state"],
+  "structure": {
+    "division": "2",
+    "division_title": "Words and Phrases Defined",
+    "chapter": "",
+    "chapter_title": "",
+    "article": "",
+    "article_title": ""
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "code": "CACI",
+  "instruction_id": "320",
+  "title": "Interpretation\u2014Construction Against Drafter",
+  "series": "300",
+  "series_title": "Negligence\u2014Essential Factual Elements",
+  "text": "In determining the meaning of the words of the contract, you must \ufb01rst\nconsider all of the other instructions that I have given you. If, after\nconsidering these instructions, you still cannot agree on the meaning of\nthe words, then you should interpret the contract against [the party that\ndrafted the disputed words/the party that caused the uncertainty].\nNew September 2003; Revised December 2014",
+  "tags": [
+    "contract",
+    "essential_elements",
+    "negligence"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "This instruction may be given with CACI No. 314, Interpretation\u2014Disputed Words.\nSee the Directions for Use and Sources and Authority to that instruction for\ndiscussion of when contract interpretation may be a proper jury role.",
+  "sources_and_authority": "\u2022 Language Interpreted Against Party Causing Uncertainty. Civil Code section\n1654.\n\u2022 \u201c[T]his [Civil Code section 1654] canon applies only as a tie breaker, when\nother canons fail to dispel uncertainty.\u201d Paci\ufb01c Gas & Electric Co. v. Superior\nCourt (1993) 15 Cal.App.4th 576, 596 [19 Cal.Rptr.2d 295], disapproved on\nother grounds in Advanced Micro Devices, Inc. v. Intel Corp. (1994) 9 Cal.4th\n362, 376\u2013377 [36 Cal.Rptr.2d 581, 885 P .2d 994].)\n\u2022 \u201cThe trial court\u2019s instruction . . . embodies a general rule of contract\ninterpretation that was applicable to the negotiated agreement between [the\nparties]. It may well be that in a particular situation the discussions and\nexchanges between the parties in the negotiation process may make it difficult or\neven impossible for the jury to determine which party caused a particular\ncontractual ambiguity to exist, but this added complexity does not make the\nunderlying rule irrelevant or inappropriate for a jury instruction. We conclude,\naccordingly, that the trial court here did not err in instructing the jury on Civil\nCode section 1654\u2019s general rule of contract interpretation.\u201d ( City of Hope\nNational Medical Center v. Genentech, Inc. (2008) 43 Cal.4th 375, 398 [75\nCal.Rptr.3d 333, 181 P .3d 142].)\n\u2022 \u201c[I]f the uncertainty is not removed by application of the other rules of\ninterpretation, a contract must be interpreted most strongly against the party who\nprepared it. This last rule is applied with particular force in the case of adhesion\ncontracts.\u201d ( Badie v. Bank of America (1998) 67 Cal.App.4th 779, 801 [79\nCal.Rptr.2d 273], internal citations omitted.)\n\u2022 \u201c[T]he doctrine of contra proferentem (construing ambiguous agreements against\nthe drafter) applies with even greater force when the person who prepared the\nwriting is a lawyer.\u201d Mayhew v. Benninghoff (1997) 53 Cal.App.4th 1365, 1370\n125\n\n[62 Cal.Rptr.2d 27].)"
+}

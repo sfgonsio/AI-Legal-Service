@@ -1,0 +1,18 @@
+{
+  "code": "CACI",
+  "instruction_id": "1929",
+  "title": ". . . . . . . . . . . . . . . . . . . . . . . . .4326",
+  "series": "1900",
+  "series_title": "Wrongful Termination",
+  "text": "1941. . . . . . . . . . . . . . . . . . .4320, 4326, 4350\n1941.1 . . . . . . . . . . . . . . . . . . . . . 4320, 4350\n1941.1(a) . . . . . . . . . . . . . . . . . . . . . . . 4320\n1941.2 . . . . . . . . . . . . . . . . . . . . . 4320, 4326\n1941.2(b). . . . . . . . . . . . . . . . . . . .4320, 4326",
+  "tags": [
+    "wrongful_termination"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "code": "EVID",
+  "section": "982",
+  "title": "Exception — Commitment Proceeding",
+  "text": "There is no privilege under this article in a proceeding to commit either spouse or otherwise place him or his property, or both, under the control of another because of his alleged mental or physical condition.",
+  "tags": [
+    "privilege",
+    "marital",
+    "exception",
+    "commitment"
+  ],
+  "structure": {
+    "division": "8",
+    "division_title": "Privileges",
+    "chapter": "4",
+    "chapter_title": "Particular Privileges",
+    "article": "5",
+    "article_title": "Privilege for Confidential Marital Communications"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

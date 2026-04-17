@@ -1,0 +1,27 @@
+{
+  "code": "EVID",
+  "section": "987",
+  "title": "Exception — Defendant Spouse Offers Communication",
+  "text": "There is no privilege under this article in a criminal proceeding in which the communication is offered in evidence by a defendant who is one of the spouses between whom the communication was made.",
+  "tags": [
+    "privilege",
+    "marital",
+    "exception",
+    "defendant",
+    "criminal"
+  ],
+  "structure": {
+    "division": "8",
+    "division_title": "Privileges",
+    "chapter": "4",
+    "chapter_title": "Particular Privileges",
+    "article": "5",
+    "article_title": "Privilege for Confidential Marital Communications"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

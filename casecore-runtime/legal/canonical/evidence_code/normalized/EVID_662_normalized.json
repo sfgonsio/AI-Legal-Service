@@ -1,0 +1,43 @@
+{
+  "section_id": "EC-662",
+  "code": "EVID",
+  "section": "662",
+  "title": "Ownership of Legal Title Presumption",
+  "text": "The owner of the legal title to property is presumed to be the owner of the full beneficial title. This presumption may be rebutted only by clear and convincing proof.",
+  "notes": null,
+  "rule_type": "presumption",
+  "rule_type_confidence": "heuristic",
+  "applies_to": [],
+  "evidentiary_standard": null,
+  "foundation_requirements": [],
+  "cross_refs": [],
+  "coa_relevance": [],
+  "exclusion_grounds": [],
+  "tags": [
+    "presumption",
+    "property",
+    "ownership",
+    "beneficial_title",
+    "clear_and_convincing"
+  ],
+  "structure": {
+    "division": "5",
+    "division_title": "Burden of Proof; Burden of Producing Evidence; Presumptions and Inferences",
+    "chapter": null,
+    "chapter_title": null,
+    "article": null,
+    "article_title": null
+  },
+  "canonical_type": "source",
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": null
+  },
+  "effective_date": null,
+  "schema_version": "1.0",
+  "pass1_complete": true,
+  "pass2_complete": false,
+  "source_file": "EVID_662.json"
+}

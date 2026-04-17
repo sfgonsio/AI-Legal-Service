@@ -1,0 +1,27 @@
+{
+  "code": "EVID",
+  "section": "1024",
+  "title": "Exception — Dangerous Patient",
+  "text": "There is no privilege under this article if the psychotherapist has reasonable cause to believe that the patient is in such mental or emotional condition as to be dangerous to himself or to the person or property of another and that disclosure of the communication is necessary to prevent the threatened danger.",
+  "tags": [
+    "privilege",
+    "psychotherapist_patient",
+    "exception",
+    "dangerous_patient",
+    "duty_to_warn"
+  ],
+  "structure": {
+    "division": "8",
+    "division_title": "Privileges",
+    "chapter": "4",
+    "chapter_title": "Particular Privileges",
+    "article": "7",
+    "article_title": "Psychotherapist-Patient Privilege"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

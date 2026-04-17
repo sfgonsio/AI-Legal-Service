@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "3024",
+  "title": "Affirmative Defense\u2014Search Incident to Lawful Arrest",
+  "series": "3000",
+  "series_title": "Civil Rights (Statutory)",
+  "text": "[Name of defendant ] claims that the search was reasonable and that a\nsearch warrant was not required. To succeed, [ name of defendant ] must\nprove all of the following:\n1. That the search was conducted as part of a lawful arrest of [ name\nof plaintiff ];\n2. That [ name of defendant ] searched only [ name of plaintiff ] and the\narea within which [he/she/ nonbinary pronoun ] might have gained\npossession of a weapon or might have destroyed or hidden\nevidence; and\n3. That the search was reasonable under the circumstances.\nIn deciding whether the search was reasonable, you should consider,\namong other factors, the following:\n(a) The extent of the particular intrusion;\n(b) The place in which the search was conducted; [and]\n(c) The manner in which the search was conducted; [and]\n(d) [ insert other applicable factor ].\nNew September 2003; Renumbered from CACI No. 3004 December 2012",
+  "tags": [
+    "civil_rights"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "For instructions regarding whether an arrest is lawful, see instructions in the False\nImprisonment series (CACI Nos. 1400\u20131409).\nThis instruction is not intended for use in cases involving automobile searches:\n\u201c[W]e hold that when a policeman has made a lawful custodial arrest of the\noccupant of an automobile, he may, as a contemporaneous incident of that arrest,\nsearch the passenger compartment of that automobile.\u201d ( New York v. Belton (1981)\n453 U.S. 454, 460 [101 S.Ct. 2860, 69 L.Ed.2d 768], footnotes omitted.)",
+  "sources_and_authority": "\u2022 \u201cSearches incident to lawful arrest constitute a well-established exception to the\nwarrant requirement of the Fourth Amendment.\u201d ( Hallstrom v. Garden City (9th\nCir. 1993) 991 F.2d 1473, 1477, internal citations omitted.)\n\u2022 \u201cUnder applicable federal law, a lawful custodial arrest creates a situation which\njusti\ufb01es the full contemporaneous search without a warrant of the person arrested\nand of the immediately surrounding area. Such searches are considered valid\nbecause of the need to remove weapons and to prevent the concealment or\ndestruction of evidence.\u201d ( People v. Gutierrez (1984) 163 Cal.App.3d 332,\n266\n\n334\u2013335 [209 Cal.Rptr. 376], internal citations omitted.)\n\u2022 \u201cLaw enforcement officers are permitted to search the entire passenger\ncompartment of a car, including the inside of containers, during a \u2018search\nincident to arrest.\u2019 \u201d ( United States v. Tank (2000) 200 F.3d 627, 631, fn. 6,\ninternal citations omitted.)\n\u2022 \u201cIn New York v. Belton, we determined that the lower courts \u2018have found no\nworkable de\ufb01nition of \u201cthe area within the immediate control of the arrestee\u201d\nwhen that area arguably includes the interior of an automobile and the arrestee is\nits recent occupant.\u2019 In order to provide a \u2018workable rule,\u2019 we held that \u2018articles\ninside the relatively narrow compass of the passenger compartment of an\nautomobile are in fact generally, even if not inevitably, within \u201cthe area into\nwhich an arrestee might reach in order to grab a weapon\u201d . . . .\u2019 We also held\nthat the police may examine the contents of any open or closed container found\nwithin the passenger compartment, \u2018for if the passenger compartment is within\nthe reach of the arrestee, so will containers in it be within his reach.\u2019 \u201d\n(Michigan v. Long (1983) 463 U.S. 1032, 1048\u20131049 [103 S.Ct. 3469, 77\nL.Ed.2d 1201], internal citations omitted.)"
+}

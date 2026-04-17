@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "2304",
+  "title": "Exception to Insurance Policy Exclusion\u2014Burden of Proof",
+  "series": "2300",
+  "series_title": "Antitrust",
+  "text": "[Name of plaintiff ] claims that [his/her/ nonbinary pronoun/its] [liability/\nloss] is covered under an exception to a speci\ufb01c coverage exclusion under\nthe policy. To establish this coverage, [ name of plaintiff ] must prove that\n[his/her/nonbinary pronoun/its] [liability/loss] [arises out of/is based on/\noccurred because] [ state exception to policy exclusion ].\nNew September 2003",
+  "tags": [
+    "antitrust"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "The instructions in this series assume the plaintiff is the insured and the defendant is\nthe insurer. The party designations may be changed if appropriate to the facts of the\ncase.\nUse this instruction only if the insurer is asserting that the insured\u2019s claim is subject\nto an exclusion.",
+  "sources_and_authority": "\u2022 \u201cThe burden is on an insured to establish that the occurrence forming the basis\nof its claim is within the basic scope of insurance coverage. And, once an\ninsured has made this showing, the burden is on the insurer to prove the claim is\nspeci\ufb01cally excluded.\u201d ( Aydin Corp. v. First State Insurance Co. (1998) 18\nCal.4th 1183, 1188 [77 Cal.Rptr.2d 537, 959 P .2d 1213], internal citations\nomitted.)\n\u2022 Once the insurer proves that the speci\ufb01c exclusion applies, the insured \u201cshould\nbear the burden of establishing the exception because \u2018its effect is to reinstate\ncoverage that the exclusionary language otherwise bars.\u2019 \u201d ( Aydin Corp., supra,\n18 Cal.4th at p. 1188.)"
+}

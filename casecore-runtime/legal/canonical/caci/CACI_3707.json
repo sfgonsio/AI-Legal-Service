@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "3707",
+  "title": "Special Employment\u2014Joint Responsibility",
+  "series": "3700",
+  "series_title": "Damages",
+  "text": "If you decide that [ name of worker ] was the special employee of [ name of\ndefendant borrowing employer ], but that [ name of defendant lending\nemployer] partially controlled [ name of worker ]\u2019s activities along with\n[name of defendant borrowing employer ], then you must conclude that\nboth [ name of defendant lending employer ] and [ name of defendant\nborrowing employer] are responsible for the conduct of [ name of worker ].\nNew September 2003; Revised December 2016",
+  "tags": [
+    "damages"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "Give this instruction with CACI No. 3706, Special Employment\u2014Lending Employer\nDenies Responsibility for Worker\u2019 s Acts , if the jury will be given the option of\ndeciding that both the lending employer and the borrowing employer should be\ntreated as the worker\u2019s employer with regard to the claim at issue.",
+  "sources_and_authority": "\u2022 \u201c \u2018 \u201cWhere an employer sends an employee to do work for another person, and\nboth have the right to exercise certain powers of control over the employee, that\nemployee may be held to have two employers\u2014his original or \u2018general\u2019\nemployer and a second, the \u2018special\u2019 employer.\u201d \u2019 A general employer is absolved\nof respondeat superior liability when it has relinquished total control to the\nspecial employer. During this period of transferred control, the special employer\nbecomes solely liable under the doctrine of respondeat superior for the\nemployee\u2019s job-related torts.\u201d ( Montague v. AMN Healthcare, Inc. (2014) 223\nCal.App.4th 1515, 1520 [168 Cal.Rptr.3d 123], internal citations omitted.)\n\u2022 \u201cFacts demonstrating the existence of a special employment relationship do not\nnecessarily preclude a \ufb01nding that a particular employee also remained under the\npartial control of the original employer. Where general and special employers\nshare control of an employee\u2019s work, a \u2018dual employment\u2019 arises, and the general\nemployer remains concurrently and simultaneously, jointly and severally liable\nfor the employee\u2019s torts.\u201d ( Marsh v. Tilley Steel Co. (1980) 26 Cal.3d 486,\n494\u2013495 [162 Cal.Rptr. 320, 606 P .2d 355], internal citations omitted.)\n\u2022 \u201cThis is especially true where the loaned employee performs work of interest to\nboth the general and special employers.\u201d ( Societa per Azioni de Navigazione\nItalia v. City of Los Angeles (1982) 31 Cal.3d 446, 460 [183 Cal.Rptr. 51, 645\nP .2d 102], internal citation omitted.) If the loaned employee performs work of\ninterest to both the general and special employers, \u201cthere is a presumption that\nthe [employee] remained in his general employment. ( Ibid.) The [general\nemployer] can avoid liability only if it can [prove] that it gave up . . .\n\u2018authoritative direction and control\u2019 [over the employee].\u201d ( Ibid.)\n\u2022 \u201c \u2018Authoritative direction and control\u2019 is more than the power to suggest details\n749\n\nor the necessary cooperation.\u201d ( Societa per Azioni de Navigazione Italia, supra ,\n31 Cal.3d at p. 460, internal citations omitted.)"
+}

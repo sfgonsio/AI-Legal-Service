@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "1551",
+  "title": "Photographic Copy Where Original Destroyed or Lost",
+  "text": "A copy of a writing made by a public employee in the course of his duties, where he had authority to and did compare the copy with the original, or a copy made under the authority of a public official, is admissible as the original if the original has been lost or destroyed.",
+  "tags": ["photographic_copy", "public_employee", "lost_original", "admissibility"],
+  "structure": {
+    "division": "11",
+    "division_title": "Writings",
+    "chapter": "2",
+    "chapter_title": "Secondary Evidence of Writings",
+    "article": "3",
+    "article_title": "Photographic Copies and Printed Representations of Writings"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

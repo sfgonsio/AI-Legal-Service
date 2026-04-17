@@ -1,0 +1,27 @@
+{
+  "code": "EVID",
+  "section": "957",
+  "title": "Exception — Claims Through Deceased Client",
+  "text": "There is no privilege under this article as to a communication relevant to an issue between parties all of whom claim through a deceased client, regardless of whether the claims are by testate or intestate succession, nonprobate transfer, or inter vivos transaction.",
+  "tags": [
+    "attorney_client",
+    "privilege",
+    "exception",
+    "deceased_client",
+    "succession"
+  ],
+  "structure": {
+    "division": "8",
+    "division_title": "Privileges",
+    "chapter": "4",
+    "chapter_title": "Particular Privileges",
+    "article": "3",
+    "article_title": "Lawyer-Client Privilege"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Amended by Stats. 2009, Ch. 8, Sec. 2. Effective January 1, 2010."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "code": "CACI",
+  "instruction_id": "208",
+  "title": "Deposition as Substantive Evidence",
+  "series": "200",
+  "series_title": "Contracts",
+  "text": "During the trial, you received deposition testimony that was [read from\nthe deposition transcript/[ describe other manner presented, e.g., shown by\nvideo]]. A deposition is the testimony of a person taken before trial. At a\ndeposition the person is sworn to tell the truth and is questioned by the\nattorneys. Y ou must consider the deposition testimony that was presented\nto you in the same way as you consider testimony given in court.\nNew September 2003; Revised December 2012",
+  "tags": [
+    "contracts"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "sources_and_authority": "\u2022 How Testimony is Taken. Code of Civil Procedure section 2002.\n\u2022 Use of Deposition at Trial. Code of Civil Procedure section 2025.620.\n\u2022 Admissibility of Former Testimony. Evidence Code sections 1291(a), 1292(a).\n\u2022 \u201cFormer Testimony\u201d De\ufb01ned. Evidence Code section 1290(c).\n\u2022 \u201cAdmissions contained in depositions and interrogatories are admissible in\nevidence to establish any material fact.\u201d ( Leasman v. Beech Aircraft Corp.\n(1975) 48 Cal.App.3d 376, 380 [121 Cal.Rptr. 768].)\n\u2022 \u201cThe deposition of a witness, whether or not a party, may be used by any party\nfor any purpose if the court \ufb01nds the witness unavailable as a witness within the\nmeaning of section 240 of the Evidence Code.\u201d ( Chavez v. Zapata Ocean\nResources, Inc. (1984) 155 Cal.App.3d 115, 118 [201 Cal.Rptr. 887], citation\nomitted.)"
+}

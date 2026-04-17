@@ -1,0 +1,18 @@
+{
+  "code": "CACI",
+  "instruction_id": "1320",
+  "title": "Intent",
+  "series": "1300",
+  "series_title": "Employment",
+  "text": "V olume 1 Table of Contents\nxxxvi\nThis version provided by LexisNexis\u00ae Matthew Bender\u00ae, Official Publisher, 800-533-1637,\nstore.lexisnexis.com, for public and internal court use",
+  "tags": [
+    "employment"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

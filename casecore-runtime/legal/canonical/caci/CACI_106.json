@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "106",
+  "title": "Evidence",
+  "series": "100",
+  "series_title": "Pretrial",
+  "text": "Y ou must decide what the facts are in this case only from the evidence\nyou see or hear during the trial. Sworn testimony, documents, or\nanything else may be admitted into evidence. Y ou may not consider as\nevidence anything that you see or hear when court is not in session, even\nsomething done or said by one of the parties, attorneys, or witnesses.\nWhat the attorneys say during the trial is not evidence. In their opening\nstatements and closing arguments, the attorneys will talk to you about\nthe law and the evidence. What the lawyers say may help you\nunderstand the law and the evidence, but their statements and\narguments are not evidence.\nThe attorneys\u2019 questions are not evidence. Only the witnesses\u2019 answers\nare evidence. Y ou should not think that something is true just because an\nattorney\u2019s question suggests that it is true. However, the attorneys for\nboth sides can agree that certain facts are true. This agreement is called\na \u201cstipulation.\u201d No other proof is needed and you must accept those facts\nas true in this trial.\nEach side has the right to object to evidence offered by the other side. If\nI do not agree with the objection, I will say it is overruled. If I overrule\nan objection, the witness will answer and you may consider the evidence.\nIf I agree with the objection, I will say it is sustained. If I sustain an\nobjection, you must ignore the question. If the witness did not answer,\nyou must not guess what that witness might have said or why I sustained\nthe objection. If the witness has already answered, you must ignore the\nanswer.\nAn attorney may make a motion to strike testimony that you have\nheard. If I grant the motion, you must totally disregard that testimony.\nY ou must treat it as though it did not exist.\nNew September 2003; Revised February 2005, December 2010, December 2012,\nMay 2020",
+  "tags": [
+    "pretrial"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "This instruction should be given as an introductory instruction.",
+  "sources_and_authority": "\u2022 \u201cEvidence\u201d De\ufb01ned. Evidence Code section 140.\n\u2022 Jury to Decide Questions of Fact. Evidence Code section 312.\n\u2022 Miscarriage of Justice. Evidence Code section 353.\n\u2022 A stipulation in proper form is binding on the parties if it is within the authority\n21\n\nof the attorney. Properly stipulated facts may not be contradicted. ( Palmer v. City\nof Long Beach (1948) 33 Cal.2d 134, 141\u2013142 [199 P .2d 952].)\n\u2022 Courts have held that \u201cattempts to suggest matters of an evidentiary nature to a\njury other than by the legitimate introduction into evidence is misconduct\nwhether by questions on cross-examination, argument or other means.\u201d ( Smith v.\nCovell (1980) 100 Cal.App.3d 947, 960 [161 Cal.Rptr. 377].)\n\u2022 Courts have stated that \u201c[t]he right to object on appeal to misconduct or\nimproper argument, even when prejudicial, is generally waived in the absence of\na proper objection and request the jury be admonished.\u201d ( Atkins v. Bisigier\n(1971) 16 Cal.App.3d 414, 427 [94 Cal.Rptr. 49]; Horn v. Atchison, Topeka &\nSanta Fe Ry. Co . (1964) 61 Cal.2d 602, 610 [39 Cal.Rptr. 721, 394 P .2d 561].)"
+}

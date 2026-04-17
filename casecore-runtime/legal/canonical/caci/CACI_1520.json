@@ -1,0 +1,19 @@
+{
+  "code": "CACI",
+  "instruction_id": "1520",
+  "title": "Abuse of Process\u2014Essential Factual Elements",
+  "series": "1500",
+  "series_title": "Sexual Harassment",
+  "text": "1521\u20131529. Reserved for Future Use\n1530. Apportionment of Attorney Fees and Costs Between Proper and Improper Claims\n1531\u20131599. Reserved for Future Use\nVF-1500. Malicious Prosecution\u2014Former Criminal Proceeding\nVF-1501. Malicious Prosecution\u2014Wrongful Use of Civil Proceedings\nVF-1502. Malicious Prosecution\u2014Wrongful Use of Civil Proceedings\u2014Affirmative\nDefense\u2014Reliance on Counsel\nVF-1503. Malicious Prosecution\u2014Wrongful Use of Administrative Proceedings\nVF-1504. Abuse of Process\nVF-1505\u2013VF-1599. Reserved for Future Use\nSERIES 1600 EMOTIONAL DISTRESS",
+  "tags": [
+    "sexual_harassment",
+    "wrongful"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

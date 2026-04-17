@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "3903C",
+  "title": "Past and Future Lost Earnings (Economic Damage)",
+  "series": "3700",
+  "series_title": "Damages",
+  "text": "[Insert number , e.g., \u201c3.\u201d] [Past] [and] [future] lost earnings.\n[To recover damages for past lost earnings, [ name of plaintiff ] must prove\nthe amount of [ insert one or more of the following:\nincome/earnings/salary/wages] that [he/she/ nonbinary pronoun] has lost to\ndate.]\n[To recover damages for future lost earnings, [ name of plaintiff ] must\nprove the amount of [ insert one or more of the following: income/earnings/\nsalary/wages] [he/she/ nonbinary pronoun] will be reasonably certain to\nlose in the future as a result of the injury.]\nNew September 2003; Revised November 2020",
+  "tags": [
+    "damages"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "This instruction is not intended for use in employment cases.\nUse this instruction along with CACI No. 3906, Lost Earnings and Lost Earning\nCapacity\u2014Jurors Not to Reduce Damages on Basis of Race, Ethnicity, or Gender\n(Economic Damage) .",
+  "sources_and_authority": "\u2022 Estimations, Measures, or Calculations of Past, Present, or Future Damages.\nCivil Code section 3361.\n\u2022 \u201cWe know of no rule of law that requires that a plaintiff establish the amount of\nhis actual earnings at the time of the injury in order to obtain recovery for loss\nof wages although, obviously, the amount of such earnings would be helpful to\nthe jury in particular situations.\u201d ( Rodriguez v. McDonnell Douglas Corp. (1978)\n87 Cal.App.3d 626, 656 [151 Cal.Rptr. 399].)\n\u2022 \u201c \u2018To entitle a plaintiff to recover present damages for apprehended future\nconsequences, there must be evidence to show such a degree of probability of\ntheir occurring as amounts to a reasonable certainty that they will result from the\noriginal injury.\u2019 \u201d ( Bellman v. San Francisco High School Dist. (1938) 11 Cal.2d\n576, 588 [81 P .2d 894], internal citation omitted.)\n\u2022 \u201c \u2018Under the prevailing American rule, a tort victim suing for damages for\npermanent injuries is permitted to base his recovery \u201con his prospective earnings\nfor the balance of his life expectancy at the time of his injury undiminished by\nany shortening of that expectancy as a result of the injury.\u201d \u2019 \u201d ( Fein v.\nPermanente Medical Group (1985) 38 Cal.3d 137, 153 [211 Cal.Rptr. 368, 695\nP .2d 665], internal citations omitted.)\n\u2022 \u201cRequiring the plaintiff to prove future economic losses are reasonably certain\n\u2018ensures that the jury\u2019s \ufb01xing of damages is not wholly, and thus impermissibly,\n827\n\nspeculative.\u2019 \u201d ( Atkins v. City of Los Angeles (2017) 8 Cal.App.5th 696, 738 [214\nCal.Rptr.3d 113].)\n\u2022 \u201c[T]he majority view is that no deduction is made for the injured party\u2019s\nexpected living expenses during the lost years.\u201d ( Overly v. Ingalls Shipbuilding,\nInc. (1999) 74 Cal.App.4th 164, 171 [87 Cal.Rptr.2d 626], internal citations\nomitted.)"
+}

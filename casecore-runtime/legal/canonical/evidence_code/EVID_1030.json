@@ -1,0 +1,26 @@
+{
+  "code": "EVID",
+  "section": "1030",
+  "title": "Member of the Clergy — Definition",
+  "text": "As used in this article, a \"member of the clergy\" means a priest, minister, religious practitioner, or similar functionary of a church or of a religious denomination or religious organization.",
+  "tags": [
+    "definition",
+    "clergy",
+    "penitent",
+    "privilege"
+  ],
+  "structure": {
+    "division": "8",
+    "division_title": "Privileges",
+    "chapter": "4",
+    "chapter_title": "Particular Privileges",
+    "article": "8",
+    "article_title": "Clergy Penitent Privileges"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Amended by Stats. 2002, Ch. 806, Sec. 19. Effective January 1, 2003."
+  }
+}

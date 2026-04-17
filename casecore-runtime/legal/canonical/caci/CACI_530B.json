@@ -1,0 +1,22 @@
+{
+  "code": "CACI",
+  "instruction_id": "530B",
+  "title": "Medical Battery\u2014Conditional Consent",
+  "series": "500",
+  "series_title": "Medical Negligence",
+  "text": "[Name of plaintiff ] claims that [ name of defendant ] committed a medical\nbattery. To establish this claim, [ name of plaintiff ] must prove all of the\nfollowing:\n1. That [ name of plaintiff ] consented to a medical procedure, but\nonly on the condition that [ describe what had to occur before\nconsent would be given ];\n2. That [ name of defendant ] proceeded without this condition having\noccurred;\n3. That [ name of defendant ] intended to perform the procedure with\nknowledge that the condition had not occurred;\n4. That [ name of plaintiff ] was harmed; and\n5. That [ name of defendant ]\u2019s conduct was a substantial factor in\ncausing [ name of plaintiff ]\u2019s harm.\nA patient can consent to a medical procedure by words or conduct.\nDerived from former CACI No. 530 April 2007; Revised October 2008",
+  "tags": [
+    "battery",
+    "medical",
+    "medical_negligence"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "Give this instruction in a case of a conditional consent in which it is alleged that the\ndefendant proceeded without the condition having occurred. If the claim is that the\ndefendant proceeded without any consent or deviated from the consent given, give\nCACI No. 530A, Medical Battery .",
+  "sources_and_authority": "\u2022 Battery may also be found if a conditional consent is violated: \u201c[I]t is well\nrecognized a person may place conditions on the consent. If the actor exceeds\nthe terms or conditions of the consent, the consent does not protect the actor\nfrom liability for the excessive act.\u201d ( Ashcraft v. King (1991) 228 Cal.App.3d\n604, 610 [278 Cal.Rptr. 900].)\n\u2022 Battery is an intentional tort. Therefore, a claim for battery against a doctor as a\nviolation of conditional consent requires proof that the doctor intentionally\nviolated the condition placed on the patient\u2019s consent. ( Piedra v. Dugan (2004)\n123 Cal.App.4th 1483, 1498 [21 Cal.Rptr.3d 36], internal citations omitted.)\n\u2022 \u201c[T]he reason why CACI No. 530B has an explicit intent and knowledge\nrequirement and CACI No. 530A does not is clear. The law presumes that\n\u2018[w]hen the patient gives permission to perform one type of treatment and the\ndoctor performs another, the requisite element of deliberate intent to deviate\nfrom the consent given is present.\u2019 That situation is covered by CACI No. 530A.\n478\n\nOn the other hand, in a case involving conditional consent, the requisite element\nof deliberate intent to deviate from the consent given cannot be presumed simply\nfrom the act itself. This is because if the intent element is not explicitly stated in\nthe instruction, it would be possible for a jury (incorrectly) to \ufb01nd a doctor liable\nfor medical battery even if it believed the doctor negligently forgot about the\ncondition precedent.\u201d ( Dennis v. Southard (2009) 174 Cal.App.4th 540, 544 [94\nCal.Rptr.3d 559], internal citation omitted.)\n\u2022 \u201cOur high court has made it clear that battery and lack of informed consent are\nseparate causes of action. A claim based on lack of informed consent\u2014which\nsounds in negligence\u2014arises when the doctor performs a procedure without \ufb01rst\nadequately disclosing the risks and alternatives. In contrast, a battery is an\nintentional tort that occurs when a doctor performs a procedure without\nobtaining any consent.\u201d ( Saxena v. Goffney (2008) 159 Cal.App.4th 316, 324 [71\nCal.Rptr.3d 469].)"
+}

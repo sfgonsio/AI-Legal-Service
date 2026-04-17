@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "1530",
+  "title": "Copy of Writing in Official Custody",
+  "text": "(a) A purported copy of a writing in the custody of a public entity, or of an entry in such a writing, is prima facie evidence of the existence and content of such writing or entry if: (1) The copy purports to be published by the authority of the nation or state, or public entity therein in which the writing is kept; (2) The office in which the writing is kept is within the United States or within the Panama Canal Zone, the Trust Territory of the Pacific Islands, or the Ryukyu Islands, and the copy is attested or certified as a correct copy of the writing or entry by a public employee, or a deputy of a public employee, having the legal custody of the writing; or (3) The office in which the writing is kept is not within the United States or any other place described in paragraph (2) and the copy is attested as a correct copy of the writing or entry by a person having authority to make the attestation. The attestation must be accompanied by a final statement certifying the genuineness of the signature and the official position of the attesting person. (b) The matters described in paragraph (3) of subdivision (a) as the required subject of a final statement may be certified by any authorized officer or agent of the United States.",
+  "tags": ["official_writings", "copy", "public_entity", "certification", "prima_facie"],
+  "structure": {
+    "division": "11",
+    "division_title": "Writings",
+    "chapter": "2",
+    "chapter_title": "Secondary Evidence of Writings",
+    "article": "2",
+    "article_title": "Official Writings and Recorded Writings"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

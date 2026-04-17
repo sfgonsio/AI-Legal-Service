@@ -1,0 +1,18 @@
+{
+  "code": "CACI",
+  "instruction_id": "3706",
+  "title": ". . . . . . . . . . . . . . . . . . . . . . . . .2800",
+  "series": "3700",
+  "series_title": "Damages",
+  "text": "Labor Code\u2014Cont.\nSec. Inst.\n4558. . . . . . . . . . . . . . . . . . . . . . . . . .2804\n4558(d) . . . . . . . . . . . . . . . . . . . . . . . . 3800\n6302(d) . . . . . . . . . . . . . . . . . . . . . . . . 4605\n6304.5 . . . . . . . . . . . . . . . . . . . . . . . . . 418",
+  "tags": [
+    "damages"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

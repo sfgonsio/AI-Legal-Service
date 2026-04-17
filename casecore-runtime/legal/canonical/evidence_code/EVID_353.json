@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "353",
+  "title": "Erroneous Admission of Evidence",
+  "text": "A verdict or finding shall not be set aside, nor shall the judgment or decision based thereon be reversed, by reason of the erroneous admission of evidence unless:\n\n(a) There appears of record an objection to or a motion to exclude or to strike the evidence that was timely made and so stated as to make clear the specific ground of the objection or motion; and\n\n(b) The court which passes upon the effect of the error or errors is of the opinion that the admitted evidence should have been excluded on the ground stated and that the error or errors complained of resulted in a miscarriage of justice.",
+  "tags": ["admissibility", "erroneous_admission", "objection", "miscarriage_of_justice"],
+  "structure": {
+    "division": "3",
+    "division_title": "General Provisions",
+    "chapter": "4",
+    "chapter_title": "Admitting and Excluding Evidence",
+    "article": "1",
+    "article_title": "General Provisions"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

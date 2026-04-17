@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "1159",
+  "title": "Animal Experimentation Evidence",
+  "text": "(a) No evidence pertaining to live animal experimentation, including, but not limited to, injury, impact, or crash experimentation, shall be admissible in any product liability action involving a motor vehicle or vehicles.\n\n(b) This section shall apply to cases for which a trial has not actually commenced, as described in paragraph (6) of subdivision (a) of Section 581 of the Code of Civil Procedure, on January 1, 1993.",
+  "tags": ["extrinsic_policy", "animal_experimentation", "product_liability"],
+  "structure": {
+    "division": "9",
+    "division_title": "Evidence Affected or Excluded by Extrinsic Policies",
+    "chapter": "3",
+    "chapter_title": "Other Evidence Affected or Excluded by Extrinsic Policies",
+    "article": "",
+    "article_title": ""
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Added by Stats. 1992, Ch. 188, Sec. 1. Effective January 1, 1993."
+  }
+}

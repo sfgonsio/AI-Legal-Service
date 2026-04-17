@@ -1,0 +1,12 @@
+{
+  "code": "EVID",
+  "section": "631",
+  "title": "Money Delivered Presumption",
+  "text": "Money delivered by one to another is presumed to have been due to the latter.",
+  "category": "presumption_burden_of_production",
+  "canonical_type": "source",
+  "structure": { "division": "5","chapter": "3","article": "3" },
+  "source": { "type": "ca_legislature","jurisdiction": "California" },
+  "tags": ["money","debt","presumption"],
+  "notes": "Creates presumption that payment was owed."
+}

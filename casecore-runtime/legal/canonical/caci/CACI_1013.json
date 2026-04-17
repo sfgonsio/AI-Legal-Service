@@ -1,0 +1,19 @@
+{
+  "code": "CACI",
+  "instruction_id": "1013",
+  "title": "Landlord\u2019s Liability for Dangerous Dog Kept on Property\u2014Essential Factual Elements",
+  "series": "1000",
+  "series_title": "Premises Liability",
+  "text": "1014\u20131099. Reserved for Future Use\nVF-1000. Premises Liability\u2014Comparative Negligence of Others Not at Issue\nVF-1001. Premises Liability\u2014Affirmative Defense\u2014Recreation Immunity\u2014Exceptions\nVF-1002. Premises Liability\u2014Comparative Fault of Plaintiff at Issue\nVF-1003. Landlord\u2019s Liability for Dangerous Dog Kept on Property\nVF-1004\u2013VF-1099. Reserved for Future Use\nSERIES 1100 DANGEROUS CONDITION OF PUBLIC PROPERTY",
+  "tags": [
+    "negligence",
+    "premises_liability"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

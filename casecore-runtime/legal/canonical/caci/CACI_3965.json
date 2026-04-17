@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "3965",
+  "title": "No Deduction for Workers\u2019 Compensation Bene\ufb01ts Paid",
+  "series": "3950",
+  "series_title": "Punitive Damages",
+  "text": "3966\u20133999. Reserved for Future Use\nVF-3900. Punitive Damages\nVF-3901. Punitive Damages Against Employer or Principal for Conduct of a Speci\ufb01c Agent\nor Employee\nVF-3902. Punitive Damages\u2014Entity Defendant\nVF-3903. Punitive Damages\u2014Entity Defendant\u2014Rati\ufb01cation\nVF-3904. Punitive Damages\u2014Entity Defendant\u2014Authorization\nVF-3905. Damages for Wrongful Death (Death of an Adult)\nVF-3906. Damages for Wrongful Death (Parents\u2019 Recovery for Death of a Minor Child)\nVF-3907. Damages for Loss of Consortium (Noneconomic Damage)\nVF-3908\u2013VF-3919. Reserved for Future Use\nVF-3920. Damages on Multiple Legal Theories\nVF-3921\u2013VF-3999. Reserved for Future Use\nSERIES 4000 LANTERMAN-PETRIS-SHORT ACT",
+  "tags": [
+    "damages",
+    "punitive_damages",
+    "wrongful"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

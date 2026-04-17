@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "1452",
+  "title": "Official Record — Proof",
+  "text": "A seal is presumed to be genuine and its use authorized if it purports to be the seal of: (a) The United States or a department, agency, or officer of the United States. (b) A public entity in the United States or a department, agency, or officer of such public entity. (c) A nation recognized by the executive power of the United States or a department, agency, or officer of such nation. (d) A court of admiralty or maritime jurisdiction. (e) A notary public within any state of the United States.",
+  "tags": ["seal", "presumption", "official", "authentication"],
+  "structure": {
+    "division": "11",
+    "division_title": "Writings",
+    "chapter": "1",
+    "chapter_title": "Authentication and Proof of Writings",
+    "article": "3",
+    "article_title": "Presumptions Affecting Acknowledged Writings and Official Writings"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

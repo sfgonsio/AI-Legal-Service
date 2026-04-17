@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "815",
+  "title": "Sales of Subject Property",
+  "text": "When relevant to the determination of the value of property, a witness may take into account as a basis for an opinion the price and other terms and circumstances of any sale or contract to sell and purchase which included the property or property interest being valued or any part thereof if the sale or contract was freely made in good faith within a reasonable time before or after the date of valuation, except that in an eminent domain proceeding where the sale or contract to sell and purchase includes only the property or property interest being taken or a part thereof, such sale or contract to sell and purchase may not be taken into account if it occurs after the filing of the lis pendens.",
+  "tags": ["opinion", "property_valuation", "comparable_sales"],
+  "structure": {
+    "division": "7",
+    "division_title": "Opinion Testimony and Scientific Evidence",
+    "chapter": "1",
+    "chapter_title": "Expert and Other Opinion Testimony",
+    "article": "2",
+    "article_title": "Evidence of Market Value of Property"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Amended by Stats. 1978, Ch. 294."
+  }
+}

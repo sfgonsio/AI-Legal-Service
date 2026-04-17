@@ -1,0 +1,21 @@
+{
+  "code": "CACI",
+  "instruction_id": "900",
+  "title": "Introductory Instruction",
+  "series": "900",
+  "series_title": "Common Carriers",
+  "text": "[Name of plaintiff ] claims that [he/she/ nonbinary pronoun] was harmed by\n[name of defendant ]\u2019s negligence while [he/she/ nonbinary pronoun] was a\npassenger on [ name of defendant ]\u2019s [ insert type of carrier , e.g., train ].\n[In this case, [ name of defendant ] was a common carrier at the time of\nthe incident. A common carrier provides transportation to the general\npublic.]\n[or]\n[[Name of plaintiff ] also claims that [ name of defendant ] was a common\ncarrier at the time of the incident.]\nNew September 2003",
+  "tags": [
+    "common_carrier",
+    "negligence"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "Give either one of the bracketed sentences, depending on whether the defendant\u2019s\nstatus as a common carrier is contested or not.\nThis instruction is intended as an introductory instruction to frame the issues. CACI\nNo. 400, Negligence\u2014Essential Factual Elements , would still be given to set forth\nthe elements that plaintiff has to prove in order to recover (i.e., negligence, harm,\nand causation).",
+  "sources_and_authority": "\u2022 \u201cCommon Carrier\u201d De\ufb01ned. Civil Code section 2168.\n\u2022 \u201cCarriage\u201d De\ufb01ned. Civil Code section 2085.\n\u2022 \u201c[A] common carrier within the meaning of Civil Code section 2168 is any\nentity which holds itself out to the public generally and indifferently to transport\ngoods or persons from place to place for pro\ufb01t.\u201d ( Squaw V alley Ski Corporation\nv. Superior Court (1992) 2 Cal.App.4th 1499, 1508 [3 Cal.Rptr.2d 897].)"
+}

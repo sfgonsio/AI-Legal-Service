@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "1400",
+  "title": "Authentication Required",
+  "text": "Authentication of a writing means (a) the introduction of evidence sufficient to sustain a finding that it is the writing that the proponent of the evidence claims it is or (b) the establishment of such facts by any other means provided by law.",
+  "tags": ["authentication", "writings", "foundation"],
+  "structure": {
+    "division": "11",
+    "division_title": "Writings",
+    "chapter": "1",
+    "chapter_title": "Authentication and Proof of Writings",
+    "article": "1",
+    "article_title": "Requirement of Authentication"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

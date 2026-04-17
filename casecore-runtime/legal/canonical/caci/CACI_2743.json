@@ -1,0 +1,21 @@
+{
+  "code": "CACI",
+  "instruction_id": "2743",
+  "title": "Equal Pay Act\u2014Retaliation\u2014Essential Factual Elements",
+  "series": "2700",
+  "series_title": "Labor Code Actions",
+  "text": "(Lab. Code, \u00a7 1197.5(k))\n[Name of plaintiff ] claims that [ name of defendant ] retaliated against [him/\nher/nonbinary pronoun] for [pursuing/assisting another in the enforcement\nof] [his/her/ nonbinary pronoun] right to equal pay regardless of [sex/race/\nethnicity]. To establish this claim, [ name of plaintiff ] must prove all of the\nfollowing:\n1. That [ name of plaintiff ] [ specify acts taken by plaintiff to invoke,\nenforce, or assist in the enforcement of the right to equal pay ];\n2. That [ name of defendant ] [discharged/[ other adverse employment\naction]] [ name of plaintiff ];\n3. That [ name of plaintiff ]\u2019s [pursuit of/assisting in the enforcement\nof another\u2019s right to] equal pay was a substantial motivating\nreason for [ name of defendant ]\u2019s [discharging/[ other adverse\nemployment action ]] [ name of plaintiff ];\n4. That [ name of plaintiff ] was harmed; and\n5. That [ name of defendant ]\u2019s retaliatory conduct was a substantial\nfactor in causing [ name of plaintiff ]\u2019s harm.\nNew May 2018; Revised May 2020, May 2024",
+  "tags": [
+    "labor_code",
+    "retaliation"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "Use this instruction in cases of alleged retaliation against an employee under the\nEqual Pay Act. The Act prohibits adverse employment actions against an employee\nwho has invoked the protections of or taken steps to enforce it. (Lab. Code,\n\u00a7 1197.5(k)(1) [protecting the right of employees to invoke the protections of the\nAct, assist in enforcement of the Act, disclose their wages, discuss the wages of\nothers, inquire about another employee\u2019s wages, or encourage other employees to\nexercise their rights under the Act].) Modify the instruction as necessary to describe\nthe employee\u2019s protected activity in the \ufb01rst sentence. An employee who has been\nretaliated against may bring a civil action for reinstatement, reimbursement for lost\nwages and work bene\ufb01ts, interest, and equitable relief. (Lab. Code, \u00a7 1197.5(k)(2).)\nNote that there are two causation elements. First, there must be a causal connection\nbetween the employee\u2019s protected activity and the adverse employment action\n(element 3). Second, the employee must have suffered harm because of the\nemployer\u2019s retaliatory acts (element 5).\nElement 3 uses the term \u201csubstantial motivating reason\u201d to express both intent and\ncausation between the employee\u2019s protected activity and the adverse employment\naction. \u201cSubstantial motivating reason\u201d has been held to be the appropriate standard\n73\n\nunder the discrimination prohibitions of the Fair Employment and Housing Act to\naddress the possibility of both discriminatory and nondiscriminatory motives. (See\nHarris v. City of Santa Monica (2013) 56 Cal.4th 203, 232 [152 Cal.Rptr.3d 392,\n294 P .3d 49]; CACI No. 2507, \u201cSubstantial Motivating Reason\u201d Explained .)\nWhether this standard applies to the Equal Pay Act retaliation cases has not been\naddressed by the courts.\nIf an employer takes adverse action within 90 days of an employee\u2019s exercise of\nrights protected by the Equal Pay Act, there is a rebuttable presumption in favor of\nthe employee\u2019s claim. (Lab. Code, \u00a7 1197.5(k)(1).) Consider modifying this\ninstruction and/or giving additional instructions regarding the rebuttable\npresumption.",
+  "sources_and_authority": "\u2022 Retaliation Prohibited Under Equal Pay Act. Labor Code section 1197.5(k).\n\u2022 Rebuttable Presumption in Favor of Employee\u2019s Claim. Labor Code section\n1197.5(k)(1)."
+}

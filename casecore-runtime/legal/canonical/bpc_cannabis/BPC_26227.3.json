@@ -1,0 +1,22 @@
+{
+  "code": "BPC",
+  "section": "26227.3",
+  "title": "Section 26227.3",
+  "text": "An association may purchase or otherwise acquire, hold, own, and exercise all rights of ownership in, sell, transfer, pledge, or guarantee the payment of dividends or interest on, or the retirement or redemption of, shares of the capital stock or bonds of an association that is engaged in any related activity or in the growing, harvesting, curing, drying, trimming, packing, grading, storing, or handling of a cannabis product that is handled by the association. (Added by Stats. 2017, Ch. 27, Sec. 107. (SB 94) Effective June 27, 2017.)",
+  "tags": [
+    "cultivation",
+    "cannabis"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Cannabis",
+    "chapter": "3",
+    "chapter_title": "Enforcement"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Scraped from authority_store raw data."
+  }
+}

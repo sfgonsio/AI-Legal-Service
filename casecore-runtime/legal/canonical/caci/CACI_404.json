@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "404",
+  "title": "Intoxication",
+  "series": "400",
+  "series_title": "Negligence",
+  "text": "A person is not necessarily negligent just because that person used\nalcohol [or drugs]. However, people who drink alcohol [or take drugs]\nmust act just as carefully as those who do not.\nNew September 2003; Revised May 2020",
+  "tags": [
+    "negligence"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "This instruction should be given only if there is evidence of alcohol or drug\nconsumption. This instruction is not intended for situations in which intoxication is\ngrounds for a negligence per se instruction (e.g., driving under the in\ufb02uence).",
+  "sources_and_authority": "\u2022 Mere consumption of alcohol is not negligence in and of itself: \u201cThe fact that a\nperson when injured was intoxicated is not in itself evidence of contributory\nnegligence, but it is a circumstance to be considered in determining whether his\nintoxication contributed to his injury.\u201d ( Coakley v. Ajuria (1930) 209 Cal. 745,\n752 [290 P . 33].)\n\u2022 Intoxication is not generally an excuse for failure to comply with the reasonable-\nperson standard. ( Cloud v. Market Street Railway Co. (1946) 74 Cal.App.2d 92,\n97 [168 P .2d 191].)\n\u2022 Intoxication is not negligence as a matter of law, but it is a circumstance for the\njury to consider in determining whether such intoxication was a contributing\ncause of an injury and is also a question of fact for the jury. ( Pittman v. Boiven\n(1967) 249 Cal.App.2d 207, 217 [57 Cal.Rptr. 319]; Barr v. Scott (1955) 134\nCal.App.2d 823, 827\u2013828 [286 P .2d 552]; see also Emery v. Los Angeles Ry.\nCorp. (1943) 61 Cal.App.2d 455, 461 [143 P .2d 112].)"
+}

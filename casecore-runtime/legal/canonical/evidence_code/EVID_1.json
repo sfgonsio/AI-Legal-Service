@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "1",
+  "title": "Title of Code",
+  "text": "This code shall be known as the Evidence Code.",
+  "tags": ["preliminary", "title"],
+  "structure": {
+    "division": "1",
+    "division_title": "Preliminary Provisions and Construction",
+    "chapter": "",
+    "chapter_title": "",
+    "article": "",
+    "article_title": ""
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

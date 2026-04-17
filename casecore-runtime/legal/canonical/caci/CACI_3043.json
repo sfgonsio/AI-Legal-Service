@@ -1,0 +1,19 @@
+{
+  "code": "CACI",
+  "instruction_id": "3043",
+  "title": "Violation of Prisoner\u2019s Federal Civil Rights\u2014Eighth",
+  "series": "3000",
+  "series_title": "Civil Rights (Statutory)",
+  "text": "Amendment\u2014Deprivation of Necessities (42 U.S.C. \u00a7 1983)\n3044\u20133045 Reserved for Future Use\n3046. Violation of Pretrial Detainee\u2019s Federal Civil Rights\u2014Fourteenth\nAmendment\u2014Medical Care and Conditions of Con\ufb01nement (42 U.S.C.\n\u00a7 1983)\n3047\u20133049. Reserved for Future Use\n219",
+  "tags": [
+    "civil_rights",
+    "medical"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "3928",
+  "title": "Unusually Susceptible Plaintiff",
+  "series": "3700",
+  "series_title": "Damages",
+  "text": "Y ou must decide the full amount of money that will reasonably and\nfairly compensate [ name of plaintiff ] for all damages caused by the\nwrongful conduct of [ name of defendant ], even if [ name of plaintiff ] was\nmore susceptible to injury than a normally healthy person would have\nbeen, and even if a normally healthy person would not have suffered\nsimilar injury.\nNew September 2003",
+  "tags": [
+    "damages",
+    "wrongful"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "sources_and_authority": "\u2022 \u201cThat a plaintiff without such a [preexisting] condition would probably have\nsuffered less injury or no injury does not exonerate a defendant from liability.\u201d\n(Ng v. Hudson (1977) 75 Cal.App.3d 250, 255 [142 Cal.Rptr. 69], internal\ncitations omitted, overruled on another ground in Soule v. G.M. Corp. (1994) 8\nCal.4th 548, 574 [34 Cal.Rptr.2d 607, 882 P .2d 298].)\n\u2022 \u201cThe tortfeasor takes the person he injures as he \ufb01nds him. If, by reason of some\npreexisting condition, his victim is more susceptible to injury, the tortfeasor is\nnot thereby exonerated from liability.\u201d ( Rideau v. Los Angeles Transit Lines\n(1954) 124 Cal.App.2d 466, 471 [268 P .2d 772], internal citations omitted.)"
+}

@@ -1,0 +1,26 @@
+{
+  "code": "EVID",
+  "section": "910",
+  "title": "Applicability of Division — All Proceedings",
+  "text": "Except as otherwise provided by statute, the provisions of this division apply in all proceedings. The provisions of any statute making rules of evidence inapplicable in particular proceedings, or limiting the applicability of rules of evidence in particular proceedings, do not make this division inapplicable to such proceedings.",
+  "tags": [
+    "privilege",
+    "applicability",
+    "all_proceedings",
+    "agent_core"
+  ],
+  "structure": {
+    "division": "8",
+    "division_title": "Privileges",
+    "chapter": "2",
+    "chapter_title": "Applicability of Division",
+    "article": null,
+    "article_title": null
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

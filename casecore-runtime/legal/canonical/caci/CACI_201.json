@@ -1,0 +1,18 @@
+{
+  "code": "CACI",
+  "instruction_id": "201",
+  "title": ". . . . . . . . . . . . . . . . . . . . . .2700, 2704",
+  "series": "200",
+  "series_title": "Contracts",
+  "text": "201(a). . . . . . . . . . . . . . . . . . . . . . . . .2704\n202. . . . . . . . . . . . . . . . . . . . . . .2700, 2704\nLabor Code\u2014Cont.\nSec. Inst.\n202(a). . . . . . . . . . . . . . . . . . . . . . . . .2704\n203 . . . . . . . . . . . . . . . . . . . . . . . . . . 2704\n206(a) . . . . . . . . . . . . . . 2700, 2701, 2702, 2704\n206.5 . . . . . . . . . . . . . . . . . . . . . . . . . 2700",
+  "tags": [
+    "contracts"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

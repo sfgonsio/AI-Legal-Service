@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "140",
+  "title": "Evidence",
+  "text": "\"Evidence\" means testimony, writings, material objects, or other things presented to the senses that are offered to prove the existence or nonexistence of a fact.",
+  "tags": ["definitions", "evidence"],
+  "structure": {
+    "division": "2",
+    "division_title": "Words and Phrases Defined",
+    "chapter": "",
+    "chapter_title": "",
+    "article": "",
+    "article_title": ""
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

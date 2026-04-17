@@ -1,0 +1,28 @@
+{
+  "code": "EVID",
+  "section": "1290",
+  "title": "Former Testimony — Definition",
+  "text": "(a) As used in this article, \"former testimony\" means testimony given under oath in:\n(a) Another action or in a former hearing or trial of the same action;\n(b) A proceeding to determine a controversy conducted by or under the supervision of an agency that has the power to determine such a controversy and is an agency of the United States or a public entity in the United States;\n(c) A deposition taken in compliance with law in another action; or\n(d) An arbitration proceeding if the evidence of such former testimony is a verbatim transcript thereof.",
+  "tags": [
+    "definition",
+    "former_testimony",
+    "deposition",
+    "arbitration",
+    "prior_proceeding",
+    "deposition_relevant"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Hearsay Evidence",
+    "chapter": "2",
+    "chapter_title": "Exceptions to the Hearsay Rule",
+    "article": "9",
+    "article_title": "Former Testimony"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

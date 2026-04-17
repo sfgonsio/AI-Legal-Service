@@ -1,0 +1,22 @@
+{
+  "code": "CACI",
+  "instruction_id": "3961",
+  "title": "Duty to Mitigate Damages for Past Lost Earnings",
+  "series": "3950",
+  "series_title": "Punitive Damages",
+  "text": "[Name of plaintiff ] is not entitled to recover damages for economic losses\nthat [ name of defendant ] proves [ name of plaintiff ] could have avoided by\nreturning to gainful employment as soon as it was reasonable for [him/\nher/nonbinary pronoun] to do so.\nTo calculate the amount of damages you must:\n1. Determine the amount [ name of plaintiff ] would have earned from\nthe job [he/she/ nonbinary pronoun ] held at the time\n[he/she/nonbinary pronoun ] was injured; and\n2. Subtract the amount [ name of plaintiff ] earned or could have\nearned by returning to gainful employment.\nThe resulting amount is [ name of plaintiff ]\u2019s damages for past lost\nearnings.\nNew September 2003; Revised December 2015",
+  "tags": [
+    "damages",
+    "duty",
+    "punitive_damages"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "For an instruction on mitigation of damages involving personal injury, see CACI\nNo. 3930, Mitigation of Damages (Personal Injury) .",
+  "sources_and_authority": "\u2022 \u201cA plaintiff has a duty to mitigate damages and cannot recover losses it could\nhave avoided through reasonable efforts.\u201d ( Thrifty-Tel, Inc. v. Bezenek (1996) 46\nCal.App.4th 1559, 1568 [54 Cal.Rptr.2d 468].)\n\u2022 \u201cThe doctrine of mitigation of damages holds that \u2018[a] plaintiff who suffers\ndamage as a result of either a breach of contract or a tort has a duty to take\nreasonable steps to mitigate those damages and will not be able to recover for\nany losses which could have been thus avoided.\u2019 A plaintiff may not recover for\ndamages avoidable through ordinary care and reasonable exertion. The duty to\nmitigate damages does not require an injured party to do what is unreasonable or\nimpracticable. \u2018The rule of mitigation of damages has no application where its\neffect would be to require the innocent party to sacri\ufb01ce and surrender important\nand valuable rights.\u2019 \u201d ( V alle de Oro Bank v. Gamboa (1994) 26 Cal.App.4th\n1686, 1691 [32 Cal.Rptr.2d 329], internal citations omitted.)\n\u2022 \u201cWhether a plaintiff acted reasonably to mitigate damages, however, is a factual\nmatter to be determined by the trier of fact, and is reviewed under the substantial\nevidence test. The burden of proving a plaintiff failed to mitigate damages,\nhowever, is on the defendant, not the other way around.\u201d ( Powerhouse\nMotorsports Group, Inc. v. Yamaha Motor Corp., U.S.A. (2013) 221 Cal.App.4th\n867, 884 [164 Cal.Rptr.3d 811].)\n1000"
+}

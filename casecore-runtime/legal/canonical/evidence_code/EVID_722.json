@@ -1,0 +1,9 @@
+{
+  "code": "EVID",
+  "section": "722",
+  "title": "Credibility of Expert Witness — Compensation",
+  "text": "(a) The fact of the appointment of an expert witness by the court may be revealed to the trier of fact.\n(b) The compensation and expenses paid or to be paid to an expert witness by the party calling him is a proper subject of inquiry by any adverse party as relevant to the credibility of the witness and the weight of his testimony.",
+  "tags": ["expert_witness", "credibility", "compensation", "bias", "cross_examination", "trial_relevant"],
+  "structure": {"division": "6", "division_title": "Witnesses", "chapter": "3", "chapter_title": "Expert Witnesses", "article": "1", "article_title": "Expert Witnesses Generally"},
+  "source": {"type": "ca_legislature", "jurisdiction": "California", "url": "https://leginfo.legislature.ca.gov", "editorial_note": "Enacted by Stats. 1965, Ch. 299."}
+}

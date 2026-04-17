@@ -1,0 +1,19 @@
+{
+  "code": "CACI",
+  "instruction_id": "806",
+  "title": "Comparative Fault\u2014Duty to Approach Crossing With Care",
+  "series": "800",
+  "series_title": "Defamation",
+  "text": "807\u2013899. Reserved for Future Use\nSERIES 900 COMMON CARRIERS\n900. Introductory Instruction\n901. Status of Common Carrier Disputed",
+  "tags": [
+    "defamation",
+    "duty"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "code": "EVID",
+  "section": "1038",
+  "title": "Human Trafficking Caseworker-Victim Privilege",
+  "text": "(a) A trafficking victim, whether or not a party to the action, has a privilege to refuse to disclose, and to prevent another from disclosing, a confidential communication, whether made orally, in writing, or otherwise conveyed, between the victim and a human trafficking caseworker if the privilege is claimed by any of the following persons:\n(1) The holder of the privilege.\n(2) A person who is authorized to claim the privilege by the holder of the privilege.\n(3) The person who was the human trafficking caseworker at the time of the confidential communication or is presently the human trafficking caseworker for the victim.\n(b) The human trafficking caseworker shall claim the privilege whenever the caseworker is present when the communication is sought to be disclosed and the caseworker is authorized to claim the privilege under this section.\n(c) A human trafficking caseworker shall inform a trafficking victim of any applicable limitations on confidentiality of communications between the victim and the caseworker.",
+  "tags": [
+    "privilege",
+    "human_trafficking",
+    "caseworker",
+    "victim",
+    "confidential_communication"
+  ],
+  "structure": {
+    "division": "8",
+    "division_title": "Privileges",
+    "chapter": "4",
+    "chapter_title": "Particular Privileges",
+    "article": "8.8",
+    "article_title": "Human Trafficking Caseworker-Victim Privilege"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Amended by Stats. 2019, Ch. 197, Sec. 1. Effective January 1, 2020."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "code": "BPC",
+  "section": "26069",
+  "title": "Section 26069",
+  "text": "(a) (1) The department shall implement a unique identification program for cannabis and cannabis products. (2) The unique identification program shall include the identification of permitted quantities of cannabis plants at a cultivation site during the cultivation period, and the identification of harvest batches and manufactured batches, as required by the department. The unique identifier shall be recorded in a manner as determined by the department by regulation. (b) Unique identifiers shall only be issued to those persons appropriately licensed by this division. (c) Information associated with the assigned unique identifier and licensee shall be included in the trace and track program specified in Section",
+  "tags": [
+    "tracking",
+    "manufacturing",
+    "licensing",
+    "cannabis",
+    "cultivation"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Cannabis",
+    "chapter": "6.5",
+    "chapter_title": "Unique Identifiers and Track and Trace"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Scraped from authority_store raw data."
+  }
+}

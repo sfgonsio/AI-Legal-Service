@@ -1,0 +1,12 @@
+{
+  "code": "EVID",
+  "section": "640",
+  "title": "Writing Date Presumption",
+  "text": "A writing is presumed to have been truly dated.",
+  "category": "presumption_burden_of_production",
+  "canonical_type": "source",
+  "structure": { "division": "5","chapter": "3","article": "3" },
+  "source": { "type": "ca_legislature","jurisdiction": "California" },
+  "tags": ["writing","date","document"],
+  "notes": "Documents presumed accurately dated."
+}

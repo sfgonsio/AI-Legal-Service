@@ -1,0 +1,23 @@
+{
+  "code": "BPC",
+  "section": "26057",
+  "title": "Section 26057",
+  "text": "(a) The department shall deny an application if either the applicant, or the premises for which a state license is applied, do not qualify for licensure under this division. (b) The department may deny the application for licensure or renewal of a state license if any of the following conditions apply: (1) Failure or inability to comply with the provisions of this division, any rule or regulation adopted pursuant to this division, or any requirement imposed to protect natural resources, including, but not limited to, protections for instream flow, water quality, and fish and wildlife. (2) Conduct that constitutes grounds for denial of licensure under Chapter 2 (commencing with Section 480) of Division 1.5, except as otherwise specified in this section and Section",
+  "tags": [
+    "testing",
+    "licensing",
+    "cannabis"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Cannabis",
+    "chapter": "5",
+    "chapter_title": "Licensing"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Scraped from authority_store raw data."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "code": "CACI",
+  "instruction_id": "1012",
+  "title": "Knowledge of Employee Imputed to Owner",
+  "series": "1000",
+  "series_title": "Premises Liability",
+  "text": "If you \ufb01nd that the condition causing the risk of harm was created by\n[name of defendant ] or [his/her/ nonbinary pronoun/its] employee acting\nwithin the scope of [his/her/ nonbinary pronoun] employment, then you\nmust conclude that [ name of defendant ] knew of this condition.\nNew October 2004",
+  "tags": [
+    "premises_liability"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "sources_and_authority": "\u2022 \u201cWhere the dangerous or defective condition of the property which causes the\ninjury has been created by reason of the negligence of the owner of the property\nor his employee acting within the scope of the employment, the owner of the\nproperty cannot be permitted to assert that he had no notice or knowledge of the\ndefective or dangerous condition in an action by an invitee for injuries suffered\nby reason of the dangerous condition. Under such circumstances knowledge\nthereof is imputed to him.\u201d ( Hat\ufb01eld v. Levy Bros . (1941) 18 Cal.2d 798, 806\n[117 P .2d 841], internal citation omitted.)\n\u2022 \u201cWhen an unsafe condition which causes injury to an invitee has been created\nby the owner of the property himself or by an employee within the scope of his\nemployment, the invitee need not prove the owner\u2019s notice or knowledge of the\ndangerous condition; the knowledge is imputed to the owner.\u201d ( Sanders v.\nMacFarlane\u2019 s Candies (1953) 119 Cal.App.2d 497, 501 [259 P .2d 1010], internal\ncitation omitted.)\n\u2022 \u201cWhere the evidence shows, as it does in this case, that the condition which\ncaused the injury was created by the employees of the respondent, or the\nevidence is such that a reasonable inference can be drawn that the condition was\ncreated by employees of the respondent, then respondent is charged with notice\nof the dangerous condition.\u201d ( Oldham v. Atchison, T. & S.F . Ry. Co . (1948) 85\nCal.App.2d 214, 218\u2013219 [192 P .2d 516].)"
+}

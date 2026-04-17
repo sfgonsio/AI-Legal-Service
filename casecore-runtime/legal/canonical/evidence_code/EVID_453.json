@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "453",
+  "title": "Compulsory Judicial Notice on Request",
+  "text": "The trial court shall take judicial notice of any matter specified in Section 452 if a party requests it and:\n\n(a) Gives each adverse party sufficient notice of the request, through the pleadings or otherwise, to enable such adverse party to prepare to meet the request; and\n\n(b) Furnishes the court with sufficient information to enable it to take judicial notice of the matter.",
+  "tags": ["judicial_notice", "compulsory", "party_request"],
+  "structure": {
+    "division": "4",
+    "division_title": "Judicial Notice",
+    "chapter": "",
+    "chapter_title": "",
+    "article": "",
+    "article_title": ""
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "code": "CACI",
+  "instruction_id": "3514",
+  "title": "Burden of Proof",
+  "series": "3500",
+  "series_title": "Construction Law",
+  "text": "Neither the [ name of condemnor ] nor [ name of property owner ] has the\nburden of proving the amount of just compensation.\nNew September 2003",
+  "tags": [],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "sources_and_authority": "\u2022 Order of Presenting Evidence; No Burden of Proof. Code of Civil Procedure\nsection 1260.210."
+}

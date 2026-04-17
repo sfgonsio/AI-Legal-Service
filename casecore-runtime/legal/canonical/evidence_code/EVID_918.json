@@ -1,0 +1,26 @@
+{
+  "code": "EVID",
+  "section": "918",
+  "title": "Error on Disallowed Privilege Claim",
+  "text": "A party may predicate error on a ruling disallowing a claim of privilege only if he is the holder of the privilege, except that a party may predicate error on a ruling disallowing a claim of privilege by his spouse under Section 970 or 971.",
+  "tags": [
+    "privilege",
+    "error",
+    "holder",
+    "marital"
+  ],
+  "structure": {
+    "division": "8",
+    "division_title": "Privileges",
+    "chapter": "3",
+    "chapter_title": "General Provisions Relating to Privileges",
+    "article": null,
+    "article_title": null
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

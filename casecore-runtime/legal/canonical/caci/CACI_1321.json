@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "1321",
+  "title": "Transferred Intent",
+  "series": "1300",
+  "series_title": "Employment",
+  "text": "1322\u20131399. Reserved\nfor Future Use\nVF-1300. Battery\nVF-1301. Battery\u2014Self-Defense/Defense of Others at Issue\nVF-1302. Assault\nVF-1303A. Battery by Law Enforcement Officer (Nondeadly Force)\nVF-1303B. Battery by Peace Officer (Deadly Force)\nVF-1304\u2013VF-1399. Reserved for Future Use\nSERIES 1400 FALSE IMPRISONMENT",
+  "tags": [
+    "assault",
+    "battery",
+    "employment"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

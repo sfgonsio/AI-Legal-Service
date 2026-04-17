@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "1532",
+  "title": "Recorded Writing",
+  "text": "(a) The official record of a writing is not admissible to prove the content of the original writing, except where the original is lost or has been destroyed. (b) This section does not apply to: (1) A recorded writing that is made evidence by statute. (2) A writing which has been recorded, where the original has been delivered as required by law to any public officer. (3) A certified copy of a vital record.",
+  "tags": ["recorded_writing", "official_record", "admissibility", "lost_original"],
+  "structure": {
+    "division": "11",
+    "division_title": "Writings",
+    "chapter": "2",
+    "chapter_title": "Secondary Evidence of Writings",
+    "article": "2",
+    "article_title": "Official Writings and Recorded Writings"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "code": "BPC",
+  "section": "26050.5",
+  "title": "Section 26050.5",
+  "text": "(a) Until January 1, 2031, the department may, in its sole discretion, issue a provisional license for a local equity applicant, as defined in Chapter 23 (commencing with Section 26240), for retailer activities, if the applicant has submitted a completed license application to the department, provided that the applicant meets the following requirements: (1) If compliance with the California Environmental Quality Act (Division 13 (commencing with Section 21000) of the Public Resources Code) is not complete, evidence that compliance is underway. (2) If compliance with local ordinances enacted pursuant to Section 26200 is not complete, evidence that compliance is underway. (3) Compliance with paragraphs (5) and (11) of subdivision (a) of Section",
+  "tags": [
+    "distribution",
+    "licensing",
+    "cannabis",
+    "testing",
+    "local_control"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Cannabis",
+    "chapter": "5",
+    "chapter_title": "Licensing"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Scraped from authority_store raw data."
+  }
+}

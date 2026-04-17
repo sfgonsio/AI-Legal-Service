@@ -1,0 +1,21 @@
+{
+  "code": "CACI",
+  "instruction_id": "552",
+  "title": "Affirmative Defense\u2014Simple Procedure",
+  "series": "500",
+  "series_title": "Medical Negligence",
+  "text": "[Name of defendant ] claims that [he/she/ nonbinary pronoun] did not have\nto inform [ name of plaintiff ] of the risks of [a/an] [ insert medical\nprocedure]. [A/An] [ insert type of medical practitioner ] is not required to\ntell a patient about the dangers of a simple procedure if it is commonly\nunderstood that the dangers are not likely to occur.\nIf [ name of defendant ] has proved that [a/an] [ insert medical procedure ] is\na simple procedure, and that it is commonly understood that any\ndangers are not likely to occur, then [ name of defendant ] was not required\nto inform [ name of plaintiff ] of the risks.\nNew September 2003; Revised June 2014",
+  "tags": [
+    "medical",
+    "medical_negligence"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "The court should instruct the jury on the defenses available to a doctor who has\nfailed to make the disclosure required by law. ( Cobbs v. Grant (1972) 8 Cal.3d 229,\n245 [104 Cal.Rptr. 505, 502 P .2d 1].) This instruction could be modi\ufb01ed to cover\n\u201cinformed refusal\u201d cases (see CACI No. 534, Informed Refusal\u2014De\ufb01nition , and\nCACI No. 535, Risks of Nontreatment\u2014Essential Factual Elements ) by redrafting it\nto state, in substance, that the risks of refusing the test were commonly understood\nto be unlikely to occur.",
+  "sources_and_authority": "\u2022 \u201c[D]isclosure need not be made if the procedure is simple and the danger remote\nand commonly appreciated to be remote.\u201d ( Cobbs, supra , 8 Cal.3d at p. 245.)\n\u2022 \u201c[T]here is no physician\u2019s duty to discuss the relatively minor risks inherent in\ncommon procedures, when it is common knowledge that such risks inherent in\nthe procedure are of very low incidence.\u201d ( Cobbs, supra, 8 Cal.3d at p. 244.)\n\u2022 \u201cWe note that under our law justi\ufb01cation is regarded as an affirmative defense\nand that the defendant normally bears the burden of proof with respect to\naffirmative defenses.\u201d ( Mathis v. Morrissey (1992) 11 Cal.App.4th 332, 347, fn.\n9 [13 Cal.Rptr.2d 819].)"
+}

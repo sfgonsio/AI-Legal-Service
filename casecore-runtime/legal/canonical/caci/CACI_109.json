@@ -1,0 +1,19 @@
+{
+  "code": "CACI",
+  "instruction_id": "109",
+  "title": "Removal of Claims or Parties",
+  "series": "100",
+  "series_title": "Pretrial",
+  "text": "[[Name of plaintiff ]\u2019s claim for [ insert claim ] is no longer an issue in this\ncase.]\n[[Name of party ] is no longer a party to this case.]\nDo not speculate as to why this [claim/person] is no longer involved in\nthis case. Y ou should not consider this during your deliberations.\nNew September 2003",
+  "tags": [
+    "pretrial"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "This instruction may be read during trial as appropriate."
+}

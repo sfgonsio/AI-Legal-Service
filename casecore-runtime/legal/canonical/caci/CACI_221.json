@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "221",
+  "title": "Con\ufb02icting Expert Testimony",
+  "series": "200",
+  "series_title": "Contracts",
+  "text": "If the expert witnesses disagreed with one another, you should weigh\neach opinion against the others. Y ou should examine the reasons given\nfor each opinion and the facts or other matters that each witness relied\non. Y ou may also compare the experts\u2019 quali\ufb01cations.\nNew September 2003",
+  "tags": [
+    "contracts"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "Unless the issue is one that can be resolved only with expert testimony, the jury\nshould not be instructed that they must accept the entire testimony of the expert\nwhose testimony appears to be entitled to greater weight. ( Santa Clara County\nFlood Control and Water Conservation Dist. v. Freitas (1960) 177 Cal.App.2d 264,\n268\u2013269 [2 Cal.Rptr. 129].)\nFor an instruction on expert witnesses generally, see CACI No. 219, Expert Witness\nTestimony. For an instruction on hypothetical questions, see CACI No. 220,\nExperts\u2014Questions Containing Assumed Facts .",
+  "sources_and_authority": "\u2022 \u201c[C]redibility of expert witnesses is a matter for the jury after proper instructions\nfrom the court.\u201d ( Williams v. V olkswagenwerk Aktiengesellschaft (1986) 180\nCal.App.3d 1244, 1265 [226 Cal.Rptr. 306].)\n\u2022 \u201c[W]e rely upon the rule of Sargon [Sargon Enterprises, Inc. v. University of\nSouthern California (2012) 55 Cal.4th 747 [149 Cal.Rptr.3d 614, 288 P .3d\n1237]] that although trial courts \u2018have a substantial \u201cgatekeeping\u201d responsibility\u2019\nin evaluating proposed expert opinion, the gate tended is not a partisan\ncheckpoint.\u201d ( Davis v. Honeywell Internat. Inc. (2016) 245 Cal.App.4th 477, 492\n[199 Cal.Rptr.3d 583], internal citation omitted.)\n\u2022 \u201cComplex questions of medical causation are prone to uncertainty. . . . It is\ntherefore imperative that the party without the burden of proof be allowed to\nsuggest alternative causes, or the uncertainty of causation, to less than a\nreasonable medical probability. To withhold such information from the jury is to\ndeprive it of relevant information in assessing whether the plaintiff has met its\nultimate burden of persuasion. And, it would improperly transfer from the jury to\nthe court the responsibility for resolving con\ufb02icts between competing expert\nopinions.\u201d ( Kline v. Zimmer , Inc. (2022) 79 Cal.App.5th 123, 133\u2013134 [294\nCal.Rptr.3d 500], internal citation and footnote omitted.)"
+}

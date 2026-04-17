@@ -1,0 +1,21 @@
+﻿{
+  "code": "EVID",
+  "section": "355",
+  "title": "Limited Admissibility",
+  "text": "When evidence is admissible as to one party or for one purpose and is inadmissible as to another party or for another purpose, the court upon request shall restrict the evidence to its proper scope and instruct the jury accordingly.",
+  "tags": ["admissibility", "limited_admissibility", "jury_instruction"],
+  "structure": {
+    "division": "3",
+    "division_title": "General Provisions",
+    "chapter": "4",
+    "chapter_title": "Admitting and Excluding Evidence",
+    "article": "1",
+    "article_title": "General Provisions"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

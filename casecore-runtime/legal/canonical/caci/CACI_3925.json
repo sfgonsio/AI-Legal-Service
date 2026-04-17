@@ -1,0 +1,18 @@
+{
+  "code": "CACI",
+  "instruction_id": "3925",
+  "title": "Arguments of Counsel Not Evidence of Damages",
+  "series": "3700",
+  "series_title": "Damages",
+  "text": "809",
+  "tags": [
+    "damages"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

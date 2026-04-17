@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "413",
+  "title": "Party's Failure to Explain or Deny Evidence",
+  "text": "In determining what inferences to draw from the evidence or facts in the case against a party, the trier of fact may consider, among other things, the party's failure to explain or to deny by his testimony such evidence or facts in the case against him, or his willful suppression of evidence relating thereto, if such be the case.",
+  "tags": ["weight_of_evidence", "adverse_inference", "suppression_of_evidence"],
+  "structure": {
+    "division": "3",
+    "division_title": "General Provisions",
+    "chapter": "5",
+    "chapter_title": "Weight of Evidence Generally",
+    "article": "",
+    "article_title": ""
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

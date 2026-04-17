@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "3231",
+  "title": "Continuation of Express or Implied Warranty During Repairs",
+  "series": "3200",
+  "series_title": "Injunctive Relief",
+  "text": "(Civ. Code, \u00a7 1795.6)\nRegardless of what the warranty says, if a defect exists within the\nwarranty period and the [ consumer good/new motor vehicle ] has been\nreturned for repairs, the warranty will not expire until the defect has\nbeen \ufb01xed. [ Name of plaintiff ] must have noti\ufb01ed [ name of defendant ] of\nthe failure of the repairs within 60 days after they were completed. The\nwarranty period will also be extended for the amount of time that the\nwarranty repairs have not been performed because of delays caused by\ncircumstances beyond the control of [ name of plaintiff ].\nNew June 2012",
+  "tags": [
+    "injunctive_relief"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "Give this instruction if it might appear to the jury from the language of an express\nor implied warranty that the warranty should have expired during the course of\nrepairs. By statute, the warranty cannot expire until the problem has been resolved\nas long as the defendant had notice that the defect had not been repaired. (Civ.\nCode, \u00a7 1795.6(b).)",
+  "sources_and_authority": "\u2022 Continuation of Express Warranty During Repairs. Civil Code section 1795.6.\n\u2022 Notice Required in Work Order or Repair Invoice. Civil Code section\n1793.1(a)(2).\n\u2022 \u201cThere is no support in the law for instructing the jury that if a defect exists\nwithin the warranty period, the warranty continues in perpetuity until the defect\nhas been diagnosed and \ufb01xed. It was error to give the special instruction, an\nincomplete and misleading statement that does not comport with the law of\nexpress warranty or with the lemon law provision on tolling. The proper\ninstruction was CACI No. 3231.\u201d ( Ruiz Nunez v. FCA US LLC (2021) 61\nCal.App.5th 385, 396 [275 Cal.Rptr.3d 618].)"
+}

@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "518",
+  "title": "Medical Malpractice: Res ipsa loquitur",
+  "series": "500",
+  "series_title": "Medical Negligence",
+  "text": "519\u2013530. Reserved for Future Use\n530A. Medical Battery\n530B. Medical Battery\u2014Conditional Consent\n531. Consent on Behalf of Another",
+  "tags": [
+    "battery",
+    "medical",
+    "medical_negligence"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

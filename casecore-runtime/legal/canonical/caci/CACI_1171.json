@@ -1,0 +1,18 @@
+{
+  "code": "CACI",
+  "instruction_id": "1171",
+  "title": ". . . . . . . . . . . . . . . . . . . . . . . . .4300",
+  "series": "1100",
+  "series_title": "Products Liability",
+  "text": "1174(b). . . . . . . . . . . . . . . . . . . . .4340, 4341\n1174.2 . . . . . . . . . . . . . . . . . . . . . 4320, 4342\n1174.2(a) . . . . . . . . . . . . . . 4320, 4342, VF-4301\n1174.27 . . . . . . . . . . . . . . . . . . 4328, VF-4328\n1174.27(a)(1) . . . . . . . . . . . . . . . 4328, VF-4328\n1174.27(c) . . . . . . . . . . . . . . . . . . . . . . 4328\n1174.27(e) . . . . . . . . . . . . . . . . . 4328, VF-4328\n1179.02 . . . . . . . . . . . . . . . . . . . . 4302, 4303\n1209(a)(6). . . . . . . . . . . . . . . . . . . .100, 5000",
+  "tags": [
+    "products_liability"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

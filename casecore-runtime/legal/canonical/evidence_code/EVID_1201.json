@@ -1,0 +1,27 @@
+{
+  "code": "EVID",
+  "section": "1201",
+  "title": "Multiple Hearsay — Layered Exceptions",
+  "text": "A statement within the scope of an exception to the hearsay rule is not inadmissible on the ground that the evidence of such statement is hearsay evidence if such hearsay evidence consists of one or more statements each of which meets the requirements of an exception to the hearsay rule.",
+  "tags": [
+    "hearsay",
+    "multiple_hearsay",
+    "exception",
+    "admissibility",
+    "agent_core"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Hearsay Evidence",
+    "chapter": "1",
+    "chapter_title": "General Provisions",
+    "article": null,
+    "article_title": null
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Amended by Stats. 1967, Ch. 650."
+  }
+}

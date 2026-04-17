@@ -1,0 +1,18 @@
+{
+  "code": "CACI",
+  "instruction_id": "3111",
+  "title": "Reserved for Future Use",
+  "series": "3100",
+  "series_title": "Trespass and Conversion",
+  "text": "CACI No. 3110 ELDER ABUSE & DEPENDENT ADULTS\n436",
+  "tags": [
+    "trespass"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "code": "CACI",
+  "instruction_id": "328",
+  "title": "Breach of Implied Duty to Perform With Reasonable Care\u2014Essential Factual Elements",
+  "series": "300",
+  "series_title": "Negligence\u2014Essential Factual Elements",
+  "text": "329. Reserved for Future Use\n330. Affirmative Defense\u2014Unilateral Mistake of Fact\n331. Affirmative Defense\u2014Bilateral Mistake\n332. Affirmative Defense\u2014Duress",
+  "tags": [
+    "breach",
+    "duty",
+    "essential_elements",
+    "negligence"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

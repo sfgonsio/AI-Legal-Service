@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "1104",
+  "title": "Character for Care or Skill",
+  "text": "Except as provided in Sections 1102 and 1103, evidence of a trait of a person's character with respect to care or skill is inadmissible to prove the quality of his conduct on a specified occasion.",
+  "tags": ["character_evidence", "care", "skill"],
+  "structure": {
+    "division": "9",
+    "division_title": "Evidence Affected or Excluded by Extrinsic Policies",
+    "chapter": "1",
+    "chapter_title": "Evidence of Character, Habit, or Custom",
+    "article": "",
+    "article_title": ""
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

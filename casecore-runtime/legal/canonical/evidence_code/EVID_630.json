@@ -1,0 +1,20 @@
+{
+  "code": "EVID",
+  "section": "630",
+  "title": "Presumptions Affecting the Burden of Producing Evidence Defined",
+  "text": "The presumptions established by this article, and all other rebuttable presumptions established by law that fall within the criteria of Section 603, are presumptions affecting the burden of producing evidence.",
+  "category": "presumption_burden_of_production",
+  "canonical_type": "source",
+  "structure": {
+    "division": "5",
+    "chapter": "3",
+    "article": "3"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov"
+  },
+  "tags": ["presumption","burden of production","rebuttable"],
+  "notes": "Defines presumptions that shift the burden of producing evidence."
+}

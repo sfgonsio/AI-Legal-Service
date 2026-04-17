@@ -1,0 +1,19 @@
+{
+  "code": "CACI",
+  "instruction_id": "3027",
+  "title": "Affirmative Defense\u2014Emergency",
+  "series": "3000",
+  "series_title": "Civil Rights (Statutory)",
+  "text": "3028\u20133039. Reserved for Future Use\n3040. Violation of Prisoner\u2019s Federal Civil Rights\u2014Eighth Amendment\u2014Substantial Risk of\nSerious Harm (42 U.S.C. \u00a7 1983)\n3041. Violation of Prisoner\u2019s Federal Civil Rights\u2014Eighth Amendment\u2014Medical Care (42\nU.S.C. \u00a7 1983)",
+  "tags": [
+    "civil_rights",
+    "medical"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

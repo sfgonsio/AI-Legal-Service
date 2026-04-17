@@ -1,0 +1,12 @@
+{
+  "code": "EVID",
+  "section": "635",
+  "title": "Creditor Possession Presumption",
+  "text": "An obligation possessed by the creditor is presumed not to have been paid.",
+  "category": "presumption_burden_of_production",
+  "canonical_type": "source",
+  "structure": { "division": "5","chapter": "3","article": "3" },
+  "source": { "type": "ca_legislature","jurisdiction": "California" },
+  "tags": ["creditor","payment"],
+  "notes": "Possession by creditor implies unpaid debt."
+}

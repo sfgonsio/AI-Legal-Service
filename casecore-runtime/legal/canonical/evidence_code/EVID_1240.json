@@ -1,0 +1,28 @@
+{
+  "code": "EVID",
+  "section": "1240",
+  "title": "Spontaneous Statement",
+  "text": "Evidence of a statement is not made inadmissible by the hearsay rule if the statement:\n(a) Purports to narrate, describe, or explain an act, condition, or event perceived by the declarant; and\n(b) Was made spontaneously while the declarant was under the stress of excitement caused by such perception.",
+  "tags": [
+    "hearsay_exception",
+    "spontaneous_statement",
+    "excited_utterance",
+    "stress",
+    "agent_core",
+    "trial_relevant"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Hearsay Evidence",
+    "chapter": "2",
+    "chapter_title": "Exceptions to the Hearsay Rule",
+    "article": "4",
+    "article_title": "Spontaneous, Contemporaneous, and Dying Declarations"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

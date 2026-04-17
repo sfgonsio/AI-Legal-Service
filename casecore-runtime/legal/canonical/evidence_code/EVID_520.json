@@ -1,0 +1,30 @@
+{
+  "code": "EVID",
+  "section": "520",
+  "title": "Burden of Proof for Crime or Wrongdoing",
+  "text": "The party claiming that a person is guilty of crime or wrongdoing has the burden of proof on that issue.",
+  "category": "burden_specific",
+  "canonical_type": "source",
+  "structure": {
+    "division": "5",
+    "division_title": "Burden of Proof; Burden of Producing Evidence; Presumptions and Inferences",
+    "chapter": "1",
+    "chapter_title": "Burden of Proof",
+    "article": "2",
+    "article_title": "Burden of Proof on Specific Issues"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "(Enacted by Stats. 1965, Ch. 299.)"
+  },
+  "tags": [
+    "burden of proof",
+    "crime",
+    "wrongdoing",
+    "specific issues",
+    "misconduct"
+  ],
+  "notes": "Allocates the burden of proof to the party asserting crime or wrongdoing."
+}

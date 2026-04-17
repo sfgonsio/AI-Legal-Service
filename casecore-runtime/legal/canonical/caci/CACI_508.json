@@ -1,0 +1,21 @@
+{
+  "code": "CACI",
+  "instruction_id": "508",
+  "title": "Duty to Refer to a Specialist",
+  "series": "500",
+  "series_title": "Medical Negligence",
+  "text": "If a reasonably careful [ insert type of medical practitioner ] in the same\nsituation would have referred [ name of patient ] to a [ insert type of medical\nspecialist], then [ name of defendant ] was negligent if [he/she/ nonbinary\npronoun] did not do so.\nHowever, if [ name of defendant ] treated [ name of patient ] with as much\nskill and care as a reasonable [ insert type of medical specialist ] would\nhave, then [ name of defendant ] was not negligent.\nNew September 2003",
+  "tags": [
+    "duty",
+    "medical",
+    "medical_negligence"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "sources_and_authority": "\u2022 Physicians who elect to treat a patient even though the patient should have been\nreferred to a specialist will be held to the standard of care of that specialist. If\nthe physician meets the higher standard of care, he or she is not negligent.\n(Simone v. Sabo (1951) 37 Cal.2d 253, 257 [231 P .2d 19].)\n\u2022 If the evidence establishes that the failure of a nurse to consult the attending\nphysician under the circumstances presented in the case is not in accord with the\nstandard of care of the nursing profession, this instruction may be applicable.\n(Fraijo v. Hartland Hospital (1979) 99 Cal.App.3d 331, 344 [160 Cal.Rptr.\n246].)"
+}

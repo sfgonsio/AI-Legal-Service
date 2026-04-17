@@ -1,0 +1,27 @@
+{
+  "code": "EVID",
+  "section": "1301",
+  "title": "Judgment as Evidence for Judgment Debtor",
+  "text": "Evidence of a final judgment is not made inadmissible by the hearsay rule when offered by the judgment debtor to prove any fact which was essential to the judgment in an action in which he seeks to:\n(a) Recover partial or total indemnity or exoneration for money paid or liability incurred because of the judgment;\n(b) Enforce a warranty to protect the judgment debtor against the liability determined by the judgment; or\n(c) Recover damages for breach of warranty substantially the same as the warranty determined by the judgment to have been breached.",
+  "tags": [
+    "hearsay_exception",
+    "judgment",
+    "indemnity",
+    "warranty",
+    "civil_action"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Hearsay Evidence",
+    "chapter": "2",
+    "chapter_title": "Exceptions to the Hearsay Rule",
+    "article": "10",
+    "article_title": "Judgments"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

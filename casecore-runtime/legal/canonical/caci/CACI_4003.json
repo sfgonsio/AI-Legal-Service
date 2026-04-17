@@ -1,0 +1,18 @@
+{
+  "code": "CACI",
+  "instruction_id": "4003",
+  "title": "\u201cGravely Disabled\u201d Minor Explained",
+  "series": "4000",
+  "series_title": "Fiduciary Duty",
+  "text": "Revoked May 2019. See Conservatorship of M.B. (2018) 27 Cal.App.5th\n98, 107 [237 Cal.Rptr.3d 775] .\n1037",
+  "tags": [
+    "fiduciary_duty"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

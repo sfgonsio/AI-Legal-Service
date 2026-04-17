@@ -1,0 +1,29 @@
+{
+  "code": "EVID",
+  "section": "1284",
+  "title": "Absence of Official Record",
+  "text": "Evidence of a writing made by the public employee who is the official custodian of the records in a public office, reciting diligent search and failure to find a record, is not made inadmissible by the hearsay rule when offered to prove the absence of a record in that office.",
+  "tags": [
+    "hearsay_exception",
+    "official_records",
+    "absence_of_record",
+    "custodian",
+    "diligent_search",
+    "agent_core",
+    "trial_relevant"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Hearsay Evidence",
+    "chapter": "2",
+    "chapter_title": "Exceptions to the Hearsay Rule",
+    "article": "8",
+    "article_title": "Official Records and Other Official Writings"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

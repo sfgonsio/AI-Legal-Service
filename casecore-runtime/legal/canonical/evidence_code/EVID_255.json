@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "255",
+  "title": "Original",
+  "text": "\"Original\" means the writing itself or any counterpart intended to have the same effect by a person executing or issuing it. An \"original\" of a photograph includes the negative or any print therefrom. If data are stored in a computer or similar device, any printout or other output readable by sight, shown to reflect the data accurately, is an \"original.\"",
+  "tags": ["definitions", "original", "writing"],
+  "structure": {
+    "division": "2",
+    "division_title": "Words and Phrases Defined",
+    "chapter": "",
+    "chapter_title": "",
+    "article": "",
+    "article_title": ""
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Added by Stats. 1977, Ch. 708."
+  }
+}

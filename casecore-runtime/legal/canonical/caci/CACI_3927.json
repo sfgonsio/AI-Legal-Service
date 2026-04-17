@@ -1,0 +1,21 @@
+{
+  "code": "CACI",
+  "instruction_id": "3927",
+  "title": "Aggravation of Preexisting Condition or Disability",
+  "series": "3700",
+  "series_title": "Damages",
+  "text": "[Name of plaintiff ] is not entitled to damages for any physical or\nemotional condition that [he/she/ nonbinary pronoun] had before [ name of\ndefendant]\u2019s conduct occurred. However, if [ name of plaintiff ] had a\nphysical or emotional condition that was made worse by [ name of\ndefendant]\u2019s wrongful conduct, you must award damages that will\nreasonably and fairly compensate [him/her/ nonbinary pronoun] for the\neffect on that condition.\nNew September 2003",
+  "tags": [
+    "damages",
+    "disability",
+    "wrongful"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "sources_and_authority": "\u2022 \u201c[A] tortfeasor may be held liable in an action for damages where the effect of\nhis negligence is to aggravate a preexisting condition or disease. Plaintiff may\nrecover to the full extent that his condition has worsened as a result of\ndefendant\u2019s tortious act.\u201d ( Sanchez v. Kern Emergency Medical Transportation\nCorp. (2017) 8 Cal.App.5th 146, 168 [213 Cal.Rptr.3d 830].)\n\u2022 \u201cIt is by no means self-evident that an act which precipitates a \ufb02are-up of a\npreexisting condition should be considered a \u2018cause which, in natural and\ncontinuous sequence, produces the injury.\u2019 Thus, general instructions on\nproximate cause were not sufficient to inform the jury on the more speci\ufb01c issue\nof aggravation of preexisting conditions.\u201d ( Ng v. Hudson (1977) 75 Cal.App.3d\n250, 256 [142 Cal.Rptr. 69], internal citations omitted, overruled on another\nground in Soule v. General Motors Corp. (1994) 8 Cal.4th 548, 574 [34\nCal.Rptr.2d 607, 882 P .2d 298].)\n\u2022 \u201c[An instruction on preexisting condition] is proper only where the injured is the\nclaimant seeking compensation for his injuries. That is not the case here in a\nwrongful death action.\u201d ( V ecchione v. Carlin (1980) 111 Cal.App.3d 351, 358\n[168 Cal.Rptr. 571].)"
+}

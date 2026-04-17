@@ -1,0 +1,21 @@
+{
+  "code": "BPC",
+  "section": "26010",
+  "title": "Section 26010",
+  "text": "There is in the Business, Consumer Services, and Housing Agency, the Department of Cannabis Control under the supervision and control of a director. The director shall administer and enforce the provisions of this division related to the department. (Amended by Stats. 2021, Ch. 70, Sec. 6. (AB 141) Effective July 12, 2021.)",
+  "tags": [
+    "cannabis"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Cannabis",
+    "chapter": "2",
+    "chapter_title": "Administration"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Scraped from authority_store raw data."
+  }
+}

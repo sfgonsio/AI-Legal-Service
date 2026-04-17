@@ -1,0 +1,12 @@
+{
+  "code": "EVID",
+  "section": "632",
+  "title": "Delivery Ownership Presumption",
+  "text": "A thing delivered by one to another is presumed to have belonged to the latter.",
+  "category": "presumption_burden_of_production",
+  "canonical_type": "source",
+  "structure": { "division": "5","chapter": "3","article": "3" },
+  "source": { "type": "ca_legislature","jurisdiction": "California" },
+  "tags": ["property","delivery","ownership"],
+  "notes": "Creates presumption of ownership from delivery."
+}

@@ -1,0 +1,19 @@
+{
+  "code": "CACI",
+  "instruction_id": "3903O",
+  "title": "Injury to Pet\u2014Costs of Treatment (Economic Damage)",
+  "series": "3700",
+  "series_title": "Damages",
+  "text": "3903P . Damages From Employer for Wrongful Discharge (Economic Damage)\n3904A. Present Cash V alue\n3904B. Use of Present-V alue Tables\n3905. Items of Noneconomic Damage",
+  "tags": [
+    "damages",
+    "wrongful"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "4300",
+  "title": "Introductory Instruction",
+  "series": "4300",
+  "series_title": "Unlawful Detainer",
+  "text": "This is an action for what is called unlawful detainer. [ Name of plaintiff ],\nthe [landlord/tenant], claims that [ name of defendant ] is [his/her/ nonbinary\npronoun/its] [tenant/subtenant] under a [lease/rental agreement/sublease]\nand that [ name of defendant ] no longer has the right to occupy the\nproperty [by subleasing to [ name of subtenant ]]. [ Name of plaintiff ] seeks\nto recover possession of the property from [ name of defendant ]. [ Name of\ndefendant] claims that [he/she/ nonbinary pronoun/it] still has the right to\noccupy the property because [ insert defenses at issue ].\nThe property involved in this case is [ describe property: e.g., \u201can\napartment,\u201d \u201ca house,\u201d \u201cspace in a commercial building\u201d ] located in [ city\nor area] at [ address].\nNew August 2007",
+  "tags": [
+    "unlawful_detainer"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "If the plaintiff is the landlord or owner and the defendant is the tenant, select\n\u201clandlord\u201d and \u201ctenant,\u201d in the \ufb01rst sentence. If the plaintiff is a tenant seeking to\nrecover possession from a subtenant, select \u201ctenant\u201d and \u201csubtenant.\u201d (Code Civ.\nProc., \u00a7 1161(3).)\nIf the plaintiff is the landlord or owner, select either \u201clease\u201d or \u201crental agreement\u201d in\nthe \ufb01rst sentence. Commercial documents are usually called \u201cleases\u201d while\nresidential documents are often called \u201crental agreements.\u201d Select the term that is\nused on the written document. If the plaintiff is a tenant seeking to recover\npossession from a subtenant, select \u201csublease.\u201d\nIf the defendant is a tenant who has subleased the premises to someone else, add the\nbracketed language in the \ufb01rst paragraph referring to subleasing.",
+  "sources_and_authority": "\u2022 Right to Jury Trial. Code of Civil Procedure section 1171.\n\u2022 Right of Tenant to Bring Unlawful Detainer Against Subtenant. Code of Civil\nProcedure section 1161(3).\n\u2022 Tenant Protection Act of 2019. Civil Code section 1946.2.\n\u2022 De\ufb01nition of \u201cJust Cause.\u201d Civil Code section 1946.2(b).\n\u2022 \u201cThe remedy of unlawful detainer is designed to provide means by which the\ntimely possession of premises which are wrongfully withheld may be secured to\nthe person entitled thereto.\u201d ( Knowles v. Robinson (1963) 60 Cal.2d 620, 625 [36\nCal.Rptr. 33, 387 P .2d 833].)\n\u2022 \u201cChapter 4 of title 3 of part 3 of the Code of Civil Procedure is commonly\nknown as the Unlawful Detainer Act (hereafter, the Act). The Act is broad in\n1129\n\nscope and available to both lessors and lessees who have suffered certain wrongs\ncommitted by the other. Procedures and proceedings in unlawful detainer were\nnot known at common law and are entirely creatures of statute. As such, they are\ngoverned solely by the statutes which created them. Thus, where the Act \u2018deals\nwith matters of practice, its provisions supersede the rules of practice contained\nin other portions of the code.\u2019 \u201d ( Losornio v. Motta (1998) 67 Cal.App.4th 110,\n113 [78 Cal.Rptr.2d 799], internal citations omitted.)"
+}

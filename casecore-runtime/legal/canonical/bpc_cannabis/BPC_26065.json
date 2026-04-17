@@ -1,0 +1,22 @@
+{
+  "code": "BPC",
+  "section": "26065",
+  "title": "Section 26065",
+  "text": "An employee engaged in the cultivation of cannabis under this division shall be subject to Wage Order No. 4-2001 of the Industrial Welfare Commission. (Amended by Stats. 2017, Ch. 27, Sec. 55. (SB 94) Effective June 27, 2017. Note: This section was added on Nov. 8, 2016, by initiative Prop. 64.)",
+  "tags": [
+    "cultivation",
+    "cannabis"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Cannabis",
+    "chapter": "6",
+    "chapter_title": "Licensed Cultivation Sites"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Scraped from authority_store raw data."
+  }
+}

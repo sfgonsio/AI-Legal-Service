@@ -1,0 +1,18 @@
+{
+  "code": "CACI",
+  "instruction_id": "1731",
+  "title": "Trade Libel\u2014Essential Factual Elements",
+  "series": "1700",
+  "series_title": "Wrongful Death",
+  "text": "1732\u20131799. Reserved for Future Use\nVF-1700. Defamation per se (Public Officer/Figure and Limited Public Figure)\nVF-1701. Defamation per quod (Public Officer/Figure and Limited Public Figure)\nVF-1702. Defamation per se (Private Figure\u2014Matter of Public Concern)\nVF-1703. Defamation per quod (Private Figure\u2014Matter of Public Concern)\nVF-1704. Defamation per se\u2014Affirmative Defense\u2014Truth (Private Figure\u2014Matter of\nPrivate Concern)\nVF-1705. Defamation per quod (Private Figure\u2014Matter of Private Concern)\nVF-1706\u2013VF-1719. Reserved for Future Use\nVF-1720. Slander of Title\nVF-1721. Trade Libel\nVF-1722\u2013VF-1799. Reserved for Future Use\nTable A. Defamation Per Se\nTable B. Defamation Per Quod\nSERIES 1800 RIGHT OF PRIVACY",
+  "tags": [
+    "wrongful_death"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

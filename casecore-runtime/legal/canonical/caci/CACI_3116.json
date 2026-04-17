@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "3116",
+  "title": "\u201cFraud\u201d Explained",
+  "series": "3100",
+  "series_title": "Trespass and Conversion",
+  "text": "\u201cFraud\u201d means an intentional misrepresentation, deceit, or concealment\nof a material fact with the intention of depriving [ name of\nplaintiff/decedent] of property or of a legal right or otherwise to cause\n[name of plaintiff/decedent ] injury.\nNew September 2003; Revised October 2008",
+  "tags": [
+    "fraud",
+    "trespass"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "sources_and_authority": "\u2022 \u201cFraud\u201d for Punitive Damages. Civil Code section 3294(c)(3).\n\u2022 \u201cAlthough neglect that is fraudulent may be sufficient to trigger the enhanced\nremedies available under the Elder Abuse Act, without detrimental reliance, there\nis no fraud.\u201d ( Carter v. Prime Healthcare Paradise V alley LLC (2011) 198\nCal.App.4th 396, 409 [129 Cal.Rptr.3d 895], internal citations omitted.)\n\u2022 \u201cApart from recklessness, [plaintiffs] also alleged the [defendant] Hospital was\nliable for elder abuse remedies because it acted fraudulently. They alleged the\nHospital concealed [decedent] \u2018s fall from his family, knowing that the fall was\nan adverse event that would affect its Medicare funding. Unlike the allegations\nof recklessness in violating staffing regulations, we \ufb01nd these allegations of\nfraud insufficient. . . . There were no allegations explaining how such\nconcealment harmed [decedent] or how he detrimentally relied on it.\u201d ( Fenimore\nv. Regents of University of California (2016) 245 Cal.App.4th 1339, 1351 [200\nCal.Rptr.3d 345], internal citation omitted.)"
+}

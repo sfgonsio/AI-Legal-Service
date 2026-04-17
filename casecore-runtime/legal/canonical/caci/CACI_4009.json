@@ -1,0 +1,21 @@
+{
+  "code": "CACI",
+  "instruction_id": "4009",
+  "title": "Physical Restraint",
+  "series": "4000",
+  "series_title": "Fiduciary Duty",
+  "text": "The fact that respondent has been brought before the court in physical\nrestraints is not evidence of grave disability. Y ou must not speculate on\nthe reasons for such restraints.\nNew June 2005",
+  "tags": [
+    "disability",
+    "fiduciary_duty"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "When the restraints are concealed from the jury\u2019s view, this instruction should not\nbe given unless requested by the conservatee since it might invite initial attention to\nthe restraints and, thus, create prejudice, which would otherwise be avoided. ( People\nv. Duran (1976) 16 Cal.3d 282, 292 [127 Cal.Rptr. 618, 545 P .2d 1322].)\nIn Conservatorship of Warrack (1992) 11 Cal.App.4th 641, 647 [14 Cal.Rptr. 2d\n99], the court held that a proposed conservatee in a jury trial under the LPS Act\nmay not be physically restrained unless the trial court follows the procedures\noutlined in People v. Duran, supra, 16 Cal.3d at pp. 288\u2013290.",
+  "sources_and_authority": "\u2022 \u201cThe court in People v. Duran, held that where physical restraints are visible to\nthe jury the trial court must give a cautionary instruction advising the jurors such\nrestraints are not evidence of the defendant\u2019s guilt (disability) and that the jury\nshould not speculate as to the reasons for such restraints. The court erred in\nfailing to so instruct in this case.\u201d ( Conservatorship of Warrack, supra, 11\nCal.App.4th at p. 648, internal citation omitted.)"
+}

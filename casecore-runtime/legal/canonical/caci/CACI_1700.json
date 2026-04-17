@@ -1,0 +1,18 @@
+{
+  "code": "CACI",
+  "instruction_id": "1700",
+  "title": "Defamation per se\u2014Essential Factual Elements (Public Officer/Figure and Limited",
+  "series": "1700",
+  "series_title": "Wrongful Death",
+  "text": "Public Figure)\n1701. Defamation per quod\u2014Essential Factual Elements (Public Officer/Figure and Limited\nPublic Figure)\n1702. Defamation per se\u2014Essential Factual Elements (Private Figure\u2014Matter of Public\nConcern)",
+  "tags": [
+    "wrongful_death"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "code": "CACI",
+  "instruction_id": "606",
+  "title": "Legal Malpractice Causing Criminal Conviction\u2014Actual Innocence",
+  "series": "600",
+  "series_title": "Motor Vehicles",
+  "text": "607\u2013609. Reserved for Future Use\n610. Affirmative Defense\u2014Statute of Limitations\u2014Attorney Malpractice\u2014One-Year Limit\n(Code Civ. Proc., \u00a7 340.6)\n611. Affirmative Defense\u2014Statute of Limitations\u2014Attorney Malpractice\u2014Four-Year Limit\n(Code Civ. Proc., \u00a7 340.6)\n612\u2013699. Reserved for Future Use\nSERIES 700 MOTOR VEHICLES AND HIGHWAY SAFETY",
+  "tags": [
+    "motor_vehicle",
+    "statute_of_limitations"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

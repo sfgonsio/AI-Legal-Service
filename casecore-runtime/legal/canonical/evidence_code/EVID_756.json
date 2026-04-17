@@ -1,0 +1,9 @@
+{
+  "code": "EVID",
+  "section": "756",
+  "title": "Judicial Council Reimbursement for Court Interpreter Services",
+  "text": "(a) To the extent required by other state or federal laws, the Judicial Council shall reimburse courts for court interpreter services provided in civil actions and proceedings to any party who is present in court and who does not proficiently speak or understand the English language for the purpose of interpreting the proceedings in a language the party understands, and assisting communications between the party, the party's attorney, and the court.",
+  "tags": ["interpreter", "judicial_council", "reimbursement", "civil_action", "non_english"],
+  "structure": {"division": "6", "division_title": "Witnesses", "chapter": "4", "chapter_title": "Interpreters and Translators"},
+  "source": {"type": "ca_legislature", "jurisdiction": "California", "url": "https://leginfo.legislature.ca.gov", "editorial_note": "Amended by Stats. 2019, Ch. 497, Sec. 109. Effective January 1, 2020."}
+}

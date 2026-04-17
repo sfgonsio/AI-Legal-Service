@@ -1,0 +1,32 @@
+{
+  "code": "EVID",
+  "section": "1271",
+  "title": "Business Records Exception",
+  "text": "Evidence of a writing made as a record of an act, condition, or event is not made inadmissible by the hearsay rule when offered to prove the act, condition, or event if:\n(a) The writing was made in the regular course of a business;\n(b) The writing was made at or near the time of the act, condition, or event;\n(c) The custodian or other qualified witness testifies to its identity and the mode of its preparation; and\n(d) The sources of information and method and time of preparation were such as to indicate its trustworthiness.",
+  "tags": [
+    "hearsay_exception",
+    "business_records",
+    "regular_course",
+    "trustworthiness",
+    "custodian",
+    "foundation",
+    "agent_core",
+    "deposition_relevant",
+    "trial_relevant",
+    "intake_critical"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Hearsay Evidence",
+    "chapter": "2",
+    "chapter_title": "Exceptions to the Hearsay Rule",
+    "article": "7",
+    "article_title": "Business Records"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

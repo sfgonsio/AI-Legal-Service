@@ -1,0 +1,27 @@
+{
+  "code": "EVID",
+  "section": "1047",
+  "title": "Records of Officers Not Present at Arrest Not Subject to Disclosure",
+  "text": "(a) Records of peace officers or custodial officers, including supervisorial officers, who either were not present during the arrest or had no contact with the party seeking disclosure from the time of the arrest until the time of booking, or who were not present at the time the conduct at issue is alleged to have occurred within a jail facility, shall not be subject to disclosure.\n(b) Notwithstanding subdivision (a), if a supervisorial officer whose records are being sought had direct oversight of a peace officer or a custodial officer and issued command directives or had command influence over the circumstances at issue, the supervisorial officer's records shall be subject to disclosure pursuant to Section 1045.",
+  "tags": [
+    "privilege",
+    "peace_officer",
+    "personnel_records",
+    "supervisorial",
+    "disclosure"
+  ],
+  "structure": {
+    "division": "8",
+    "division_title": "Privileges",
+    "chapter": "4",
+    "chapter_title": "Particular Privileges",
+    "article": "9",
+    "article_title": "Official Information and Identity of Informer"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Amended by Stats. 2019, Ch. 585, Sec. 3. Effective January 1, 2020."
+  }
+}
