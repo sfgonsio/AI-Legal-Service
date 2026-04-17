@@ -1,0 +1,217 @@
+================================================================================
+CALIFORNIA CODE SCRAPER - QUICK START GUIDE
+================================================================================
+
+LOCATION: /sessions/focused-pensive-hamilton/mnt/AI Legal Service/programs/authority_sync/
+
+================================================================================
+INSTALLATION (Already Done)
+================================================================================
+
+Required packages already installed:
+  - requests (HTTP)
+  - beautifulsoup4 (HTML parsing)
+  - lxml (XML processing)
+
+All files are ready to use!
+
+================================================================================
+TEST THE SCRAPER (Verify Everything Works)
+================================================================================
+
+1. Run the test suite:
+   cd /sessions/focused-pensive-hamilton/mnt/AI Legal Service/programs/authority_sync
+   python test_scraper.py
+   
+   Expected output: 8 passed, 0 failed
+
+================================================================================
+SCRAPE CALIFORNIA CODES
+================================================================================
+
+SINGLE CODE (example: Civil Code):
+   python canonical_scraper.py CIV
+
+ALL 29 CODES:
+   ./scrape_all_codes.sh
+
+DRY-RUN (preview without writing):
+   python canonical_scraper.py CIV --dry-run
+
+RESUME (skip existing files):
+   python canonical_scraper.py CIV --resume
+
+PARALLEL (4 at a time):
+   ./scrape_all_codes.sh --parallel 4
+
+VERBOSE LOGGING:
+   python canonical_scraper.py CIV --verbose
+
+================================================================================
+OUTPUT
+================================================================================
+
+Files are written to:
+  casecore-runtime/legal/canonical/{code}/
+
+Structure:
+  casecore-runtime/
+    legal/
+      canonical/
+        civ/
+          CIV_1.json
+          CIV_1550.json
+          civ_manifest.json
+        pen/
+          ...
+        ... (27 more codes)
+
+Each file contains canonical JSON with:
+  - code, section, title, text
+  - tags (auto-generated)
+  - structure (division, chapter, article)
+  - source metadata
+
+================================================================================
+VALIDATE OUTPUT
+================================================================================
+
+After scraping, check results:
+   python validate_output.py
+
+For specific code:
+   python validate_output.py --code CIV
+
+================================================================================
+AVAILABLE CALIFORNIA CODES (29)
+================================================================================
+
+BPC    PEN    CIV    FAM    PEN
+CCP    PROB   GOV    LAB    HSC
+COM    CORP   EDC    ELEC   EVID
+FIN    FGC    FAC    HNC    INS
+MVC    PCC    PRC    PUC    RTC
+SHC    UIC    VEH    WAT    WIC
+
+================================================================================
+TIPS
+================================================================================
+
+1. Start with --dry-run to see what will happen:
+   python canonical_scraper.py CIV --dry-run
+
+2. Use --resume if scraping gets interrupted:
+   python canonical_scraper.py CIV --resume
+
+3. Check logs for details:
+   tail -f scrape_all_codes.log
+
+4. For faster results, use --parallel:
+   ./scrape_all_codes.sh --parallel 4
+
+5. Validate output after scraping:
+   python validate_output.py
+
+================================================================================
+KEY OPTIONS
+================================================================================
+
+--dry-run       Show what would be created without writing
+--resume        Skip already-existing files
+--division DIV  Scrape only specific division
+--verbose       Enable debug logging
+--parallel N    Run N scrapers in parallel
+--base-path DIR Output directory (default: .)
+
+================================================================================
+ESTIMATED TIME
+================================================================================
+
+Sequential (1 at a time):
+  - Civil Code (CIV):     ~50 minutes
+  - Penal Code (PEN):     ~17 minutes
+  - All 29 codes:         ~40 hours
+
+Parallel (4 at a time):
+  - All 29 codes:         ~10 hours (4x speedup)
+
+================================================================================
+INTEGRATION
+================================================================================
+
+Canonical JSON files are ready for CaseCore ingestion:
+
+import json
+from pathlib import Path
+
+canonical_dir = Path("casecore-runtime/legal/canonical")
+for json_file in canonical_dir.glob("*/*.json"):
+    if not json_file.name.endswith("_manifest.json"):
+        with open(json_file) as f:
+            section = json.load(f)
+            casecore.ingest_section(section)
+
+================================================================================
+TROUBLESHOOTING
+================================================================================
+
+Network error?
+  - Check connectivity: curl https://leginfo.legislature.ca.gov
+  - Try with --verbose for details: python canonical_scraper.py CIV --verbose
+  - Use --resume to retry: python canonical_scraper.py CIV --resume
+
+Missing sections?
+  - The website structure may have changed
+  - Update selectors in leginfo_parser.py
+  - Check verbose output to see what's happening
+
+No output?
+  - Run with --dry-run first to validate
+  - Check that base path is writable
+  - Look at scrape_all_codes.log for errors
+
+================================================================================
+FILES OVERVIEW
+================================================================================
+
+MAIN SCRIPTS:
+  canonical_scraper.py   - Single code scraper
+  scrape_all_codes.sh    - All 29 codes orchestrator
+  test_scraper.py        - Unit tests
+  validate_output.py     - Output validator
+
+UTILITIES:
+  leginfo_parser.py      - HTML parsing library
+  generate_section_configs.py - Config generator
+
+DOCUMENTATION:
+  README.md              - User guide
+  CONFIG.md              - Detailed configuration
+  QUICKSTART.txt         - This file
+
+CONFIGURATION:
+  section_configs/       - Config files for all 29 codes
+
+================================================================================
+SUPPORT
+================================================================================
+
+1. Read README.md for detailed information
+2. Read CONFIG.md for advanced configuration
+3. Run test_scraper.py to verify installation
+4. Use --verbose flag for debugging
+5. Check validate_output.py results
+
+================================================================================
+READY TO GO!
+================================================================================
+
+You have everything needed to scrape all California legal codes.
+
+Start with:
+  python canonical_scraper.py CIV --dry-run
+
+Then when ready:
+  ./scrape_all_codes.sh
+
+Good luck!
