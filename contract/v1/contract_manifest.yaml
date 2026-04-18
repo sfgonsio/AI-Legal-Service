@@ -115,7 +115,7 @@ integrity:
       "./taxonomies/entities/entity_schema_v1.yaml": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       "./taxonomies/tags/tag_schema_v1.yaml": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       "./tools/tool_gateway_contract.md": "8b47ca97a7e1ea5f0d16b9705d1748f0fbc324dc10dedc6eaed0cf55f85c63cf"
-      "./tools/tool_registry.yaml": "c3c50228341fdb7f242aba15f17840728046ebadbec931ba180c37c12eaee1bc"
+      "./tools/tool_registry.yaml": "c61dc4b520e41ad112f15401f6c175b19888da81add41c555c0caba753395acb"
       "./schemas/interview/case_strategy_mode.schema.json": "50d8022ca369637f4bf6600da86f5f3fb993527994d8719d0083b321c4eeb927"
       "./schemas/interview/element_completeness_matrix.schema.json": "971676365b5bf0949c5f54e1bd36b4b7ecec09c0965fcaa447cd79dbee855d50"
       "./schemas/interview/risk_flag_register.schema.json": "5d1d91b0ee78c629ae0bbfe0c6b01b6bd78a96255d9ef7cfce73c6c96a27551c"
