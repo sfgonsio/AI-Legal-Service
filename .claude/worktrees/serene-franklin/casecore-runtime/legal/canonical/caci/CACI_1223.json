@@ -1,0 +1,21 @@
+{
+  "code": "CACI",
+  "instruction_id": "1223",
+  "title": "Negligence\u2014Recall/Retro\ufb01t",
+  "series": "1200",
+  "series_title": "Dangerous Condition of Public Property",
+  "text": "[Name of plaintiff ] claims that [ name of defendant ] was negligent because\n[he/she/nonbinary pronoun/it] failed to [recall/retro\ufb01t] the [ product]. To\nestablish this claim, [ name of plaintiff ] must prove all of the following:\n1. That [ name of defendant ] [manufactured/distributed/sold] the\n[product];\n2. That [ name of defendant ] knew or reasonably should have known\nthat the [ product] was dangerous or was likely to be dangerous\nwhen used in a reasonably foreseeable manner;\n3. That [ name of defendant ] became aware of this defect after the\n[product] was sold;\n4. That [ name of defendant ] failed to [recall/retro\ufb01t] [or warn of the\ndanger of] the [ product];\n5. That a reasonable [manufacturer/distributor/seller] under the\nsame or similar circumstances would have [recalled/retro\ufb01tted]\nthe [ product];\n6. That [ name of plaintiff ] was harmed; and\n7. That [ name of defendant ]\u2019s failure to [recall/retro\ufb01t] the [ product]\nwas a substantial factor in causing [ name of plaintiff ]\u2019s harm.\nNew September 2003; Revised October 2004",
+  "tags": [
+    "dangerous_condition",
+    "negligence"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "If the issue concerns a negligently conducted recall, modify this instruction\naccordingly.",
+  "sources_and_authority": "\u2022 \u201cFailure to conduct an adequate retro\ufb01t campaign may constitute negligence\napart from the issue of defective design.\u201d ( Hernandez v. Badger Construction\nEquipment Co. (1994) 28 Cal.App.4th 1791, 1827 [34 Cal.Rptr.2d 732], internal\ncitation omitted.)\n\u2022 In Lunghi v. Clark Equipment Co . (1984) 153 Cal.App.3d 485 [200 Cal.Rptr.\n387], the court observed that, where the evidence showed that the manufacturer\nbecame aware of dangers after the product had been on the market, the jury\n\u201ccould still have found that Clark\u2019s knowledge of the injuries caused by these\nfeatures imposed a duty to warn of the danger, and/or a duty to conduct an\nadequate retro\ufb01t campaign .\u201d The failure to meet the standard of reasonable care\nwith regard to either of these duties could have supported a \ufb01nding of\nnegligence. ( Id. at p. 494, original italics.)\n781\n\n\u2022 In Balido v. Improved Machinery, Inc. (1972) 29 Cal.App.3d 633 [105 Cal.Rptr.\n890] (disapproved on other grounds in Regents of University of California v.\nHartford Accident & Indemnity Co. (1978) 21 Cal.3d 624, 641\u2013642 [147\nCal.Rptr. 486, 581 P .2d 197]), the court concluded that a jury could reasonably\nhave found negligence based upon the manufacturer\u2019s failure to retro\ufb01t\nequipment determined to be unsafe after it was sold, even though the\nmanufacturer told the equipment\u2019s owners of the safety problems and offered to\ncorrect those problems for $500. ( Id. at p. 649.)\n\u2022 If a customer fails to comply with a recall notice, this will not automatically\nabsolve the manufacturer from liability: \u201cA manufacturer cannot delegate\nresponsibility for the safety of its product to dealers, much less purchasers.\u201d\n(Springmeyer v. Ford Motor Co. (1998) 60 Cal.App.4th 1541, 1562\u20131563 [71\nCal.Rptr.2d 190], internal citations omitted.)"
+}

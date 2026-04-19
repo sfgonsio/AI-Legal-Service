@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "2766A",
+  "title": "Meal Break Violations\u2014Essential Factual Elements (Lab.",
+  "series": "2700",
+  "series_title": "Labor Code Actions",
+  "text": "Code, \u00a7\u00a7 226.7, 512)\nTo establish a meal break violation, [ name of plaintiff ] must prove both of\nthe following:\n1. That [ name of plaintiff ] worked for [ name of defendant ] for one or\nmore workdays for a period lasting longer than \ufb01ve hours; and\n2. That [ name of defendant ] did not provide [ name of plaintiff ] with\nthe opportunity to take [a/an] [timely] uninterrupted meal break\nof at least 30 minutes [for each \ufb01ve-hour period worked].\nNew December 2022",
+  "tags": [
+    "labor_code"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "If the case involves allegedly untimely meal breaks or more than one meal break,\nselect either or both of the bracketed options in element 2.\nDo not give this instruction for any meal break claims involving the rebuttable\npresumption of a violation based on an employer\u2019s records. (See CACI No. 2766B,\nMeal Break Violations\u2014Rebuttable Presumption\u2014Employer Records .)\nThe jury must also decide how much pay is owed for any meal break violations.\n(See CACI No. 2767, Meal Break Violations\u2014Pay Owed .)",
+  "sources_and_authority": "\u2022 Right of Action for Meal and Rest and Recovery Period Violations. Labor Code\nsection 226.7.\n\u2022 Meal Periods. Labor Code section 512.\n\u2022 Meal Periods. Cal. Code Regs., tit. 8, \u00a7 11010 et seq., subd. 11."
+}

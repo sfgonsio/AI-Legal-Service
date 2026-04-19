@@ -1,0 +1,18 @@
+{
+  "code": "CACI",
+  "instruction_id": "4412",
+  "title": "\u201cIndependent Economic Value\u201d Explained",
+  "series": "4400",
+  "series_title": "Partition",
+  "text": "4413\u20134419. Reserved for Future Use\n4420. Affirmative Defense\u2014Information Was Readily Ascertainable by Proper Means\n4421. Affirmative Defense\u2014Statute of Limitations\u2014Three-Year Limit (Civ. Code, \u00a7 3426.6)\n4422\u20134499. Reserved for Future Use\nVF-4400. Misappropriation of Trade Secrets\nVF-4401\u2013VF-4499. Reserved for Future Use\nSERIES 4500 CONSTRUCTION LAW",
+  "tags": [
+    "statute_of_limitations"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

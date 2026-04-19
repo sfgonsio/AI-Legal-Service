@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "1129",
+  "title": "Attorney Disclosure Requirements for Mediation",
+  "text": "(a) Except in the case of a class or representative action, an attorney representing a client participating in a mediation or a mediation consultation shall, as soon as reasonably possible before the client agrees to participate in the mediation or mediation consultation, provide that client with a printed disclosure containing the confidentiality restrictions described in Section 1119 and obtain a printed acknowledgment signed by that client stating that he or she has read and understands the confidentiality restrictions.\n\n(b) An attorney who is retained after an individual agrees to participate in the mediation or mediation consultation shall, as soon as reasonably possible after being retained, comply with the printed disclosure and acknowledgment requirements described in subdivision (a).\n\n(c) The printed disclosure required by subdivision (a) shall:\n\n(1) Be printed in the preferred language of the client in at least 12-point font.\n\n(2) Be printed on a single page that is not attached to any other document provided to the client.\n\n(3) Include the names of the attorney and the client and be signed and dated by the attorney and the client.",
+  "tags": ["mediation", "attorney_disclosure", "confidentiality", "informed_consent"],
+  "structure": {
+    "division": "9",
+    "division_title": "Evidence Affected or Excluded by Extrinsic Policies",
+    "chapter": "2",
+    "chapter_title": "Mediation",
+    "article": "",
+    "article_title": ""
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Added by Stats. 2018, Ch. 350, Sec. 2. (SB 954) Effective January 1, 2019."
+  }
+}

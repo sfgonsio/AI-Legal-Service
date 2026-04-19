@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "402",
+  "title": "Procedure for Determining Preliminary Facts",
+  "text": "(a) When the existence of a preliminary fact is disputed, its existence or nonexistence shall be determined as provided in this article.\n\n(b) The court may hear and determine the question of the admissibility of evidence out of the presence or hearing of the jury; but in a criminal action, the court shall hear and determine the question of the admissibility of a confession or admission of the defendant out of the presence and hearing of the jury if any party so requests.\n\n(c) A ruling on the admissibility of evidence implies whatever finding of fact is prerequisite thereto; a separate or formal finding is unnecessary unless required by statute.",
+  "tags": ["preliminary_fact", "procedure", "jury_exclusion", "confession"],
+  "structure": {
+    "division": "3",
+    "division_title": "General Provisions",
+    "chapter": "4",
+    "chapter_title": "Admitting and Excluding Evidence",
+    "article": "2",
+    "article_title": "Preliminary Determinations on Admissibility of Evidence"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

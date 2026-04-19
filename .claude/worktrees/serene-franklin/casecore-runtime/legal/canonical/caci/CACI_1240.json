@@ -1,0 +1,18 @@
+{
+  "code": "CACI",
+  "instruction_id": "1240",
+  "title": "Affirmative Defense to Express Warranty\u2014Not \u201cBasis of Bargain\u201d",
+  "series": "1200",
+  "series_title": "Dangerous Condition of Public Property",
+  "text": "1241. Affirmative Defense\u2014Exclusion or Modi\ufb01cation of Express Warranty\n1242. Affirmative Defense\u2014Exclusion of Implied Warranties\n1243. Noti\ufb01cation/Reasonable Time\n1244. Affirmative Defense\u2014Sophisticated User",
+  "tags": [
+    "dangerous_condition"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

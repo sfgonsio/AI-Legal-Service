@@ -1,0 +1,21 @@
+{
+  "code": "BPC",
+  "section": "26229.6",
+  "title": "Section 26229.6",
+  "text": "The bylaws shall prohibit the transfer of the common stock or membership certificates of the associations to a person that is not qualified to be a shareholder or member as specified in this chapter. These restrictions shall be printed upon every certificate of stock or membership that is subject to them. (Added by Stats. 2017, Ch. 27, Sec. 107. (SB 94) Effective June 27, 2017.)",
+  "tags": [
+    "cannabis"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Cannabis",
+    "chapter": "3",
+    "chapter_title": "Enforcement"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Scraped from authority_store raw data."
+  }
+}

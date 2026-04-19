@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "1454",
+  "title": "Foreign Acknowledged Document",
+  "text": "A certificate of the acknowledgment of a writing or a certificate of the proof of a writing in a foreign nation is prima facie evidence of the facts recited in the certificate and the genuineness of the signature of each person by whom the writing purports to have been signed if the certificate is made by a diplomatic, consular, or other official of the United States or an authorized official of the foreign nation.",
+  "tags": ["foreign", "acknowledgment", "certificate", "diplomatic"],
+  "structure": {
+    "division": "11",
+    "division_title": "Writings",
+    "chapter": "1",
+    "chapter_title": "Authentication and Proof of Writings",
+    "article": "3",
+    "article_title": "Presumptions Affecting Acknowledged Writings and Official Writings"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

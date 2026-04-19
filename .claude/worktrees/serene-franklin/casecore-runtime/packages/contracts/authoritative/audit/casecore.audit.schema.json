@@ -1,0 +1,22 @@
+﻿{
+  "$id": "casecore.audit.schema.json",
+  "type": "object",
+  "required": [
+    "event_id",
+    "timestamp",
+    "actor_id",
+    "action",
+    "target_id",
+    "run_id"
+  ],
+  "properties": {
+    "event_id": { "type": "string" },
+    "timestamp": { "type": "string" },
+    "actor_id": { "type": "string" },
+    "action": { "type": "string" },
+    "target_id": { "type": "string" },
+    "run_id": { "type": "string" },
+    "before_state": {},
+    "after_state": {}
+  }
+}

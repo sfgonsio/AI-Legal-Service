@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "1412",
+  "title": "Use of Subscribing Witness for Authentication",
+  "text": "If the testimony of a subscribing witness is used to authenticate a writing, he may be examined by any party for that purpose.",
+  "tags": ["authentication", "subscribing_witness", "examination"],
+  "structure": {
+    "division": "11",
+    "division_title": "Writings",
+    "chapter": "1",
+    "chapter_title": "Authentication and Proof of Writings",
+    "article": "2",
+    "article_title": "Means of Authenticating and Proving Writings"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

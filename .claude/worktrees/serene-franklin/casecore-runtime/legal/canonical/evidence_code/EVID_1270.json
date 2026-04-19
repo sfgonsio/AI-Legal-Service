@@ -1,0 +1,26 @@
+{
+  "code": "EVID",
+  "section": "1270",
+  "title": "Business — Definition for Business Records Article",
+  "text": "As used in this article, \"a business\" includes every kind of business, governmental activity, profession, occupation, calling, or operation of institutions, whether carried on for profit or not.",
+  "tags": [
+    "definition",
+    "business",
+    "business_records",
+    "governmental_activity"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Hearsay Evidence",
+    "chapter": "2",
+    "chapter_title": "Exceptions to the Hearsay Rule",
+    "article": "7",
+    "article_title": "Business Records"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

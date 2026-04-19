@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "113",
+  "title": "Bias",
+  "series": "100",
+  "series_title": "Pretrial",
+  "text": "SERIES 400\nNEGLIGENCE\n418. Presumption of Negligence per se\n426. Negligent Hiring, Supervision, or Retention of Employee",
+  "tags": [
+    "negligence",
+    "presumption",
+    "pretrial"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

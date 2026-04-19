@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "1127",
+  "title": "Attorney Fees for Compelling Mediator Testimony",
+  "text": "If a person subpoenas or otherwise seeks to compel a mediator to testify or produce a writing, as defined in Section 250, and the court or other adjudicative body determines that the testimony or writing is inadmissible under this chapter, or protected from disclosure under this chapter, the court or adjudicative body making the determination shall award reasonable attorney's fees and costs to the mediator against the person seeking the testimony or writing.",
+  "tags": ["mediation", "attorney_fees", "subpoena", "mediator"],
+  "structure": {
+    "division": "9",
+    "division_title": "Evidence Affected or Excluded by Extrinsic Policies",
+    "chapter": "2",
+    "chapter_title": "Mediation",
+    "article": "",
+    "article_title": ""
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Added by Stats. 1997, Ch. 772, Sec. 3. Effective January 1, 1998."
+  }
+}

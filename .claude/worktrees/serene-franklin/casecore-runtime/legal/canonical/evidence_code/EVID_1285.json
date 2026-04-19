@@ -1,0 +1,27 @@
+{
+  "code": "EVID",
+  "section": "1285",
+  "title": "Official Law Enforcement Report — Sexual Offense Civil Hearing",
+  "text": "Within an official written report or record of a law enforcement officer regarding a sexual offense that resulted in a person's conviction, the following statements are not made inadmissible by the hearsay rule at the civil hearing described in Section 6602 of the Welfare and Institutions Code when offered to prove the truth of the matter stated:\n(a) A statement from a victim of the sexual offense.\n(b) A statement from an eyewitness to the sexual offense.\n(c) A statement from a sexual assault medical examiner who examined a victim of the sexual offense.",
+  "tags": [
+    "hearsay_exception",
+    "official_records",
+    "law_enforcement",
+    "sexual_offense",
+    "civil_hearing"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Hearsay Evidence",
+    "chapter": "2",
+    "chapter_title": "Exceptions to the Hearsay Rule",
+    "article": "8",
+    "article_title": "Official Records and Other Official Writings"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Added by Stats. 2023, Ch. 363, Sec. 1. Effective January 1, 2024."
+  }
+}

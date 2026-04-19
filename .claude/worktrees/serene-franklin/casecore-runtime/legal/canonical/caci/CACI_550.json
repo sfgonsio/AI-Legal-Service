@@ -1,0 +1,21 @@
+{
+  "code": "CACI",
+  "instruction_id": "550",
+  "title": "Affirmative Defense\u2014Plaintiff Would Have Consented",
+  "series": "500",
+  "series_title": "Medical Negligence",
+  "text": "[Name of defendant ] claims that [he/she/ nonbinary pronoun] is not\nresponsible for [ name of plaintiff ]\u2019s harm because [ name of plaintiff ] would\nhave consented to the procedure, even if [he/she/ nonbinary pronoun] had\nbeen informed of the risks. To establish this defense, [ name of defendant ]\nmust prove that had [ name of plaintiff ] been adequately informed about\nthe risks of the [ insert medical procedure ], [he/she/ nonbinary pronoun]\nwould have consented, even if a reasonable person in [ name of plaintiff ]\u2019s\nposition might not have consented.\nNew September 2003; Revised June 2015, May 2020",
+  "tags": [
+    "medical",
+    "medical_negligence"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "Give this instruction if the defendant asserts as an affirmative defense that the\nplaintiff would have consented (and thereby would have suffered the same harm)\nhad the plaintiff been informed of the risks. This instruction can be modi\ufb01ed to\ncover \u201cinformed refusal\u201d cases by redrafting it to state, in substance, that even if the\nplaintiff had known of the risks of refusal, the plaintiff still would have refused the\ntest.",
+  "sources_and_authority": "\u2022 \u201cWhenever appropriate, the court should instruct the jury on the defenses\navailable to a doctor who has failed to make the disclosure required by law.\u201d\n(Cobbs v. Grant (1972) 8 Cal.3d 229, 245 [104 Cal.Rptr. 505, 502 P .2d 1].)\n\u2022 \u201cThe patient-plaintiff may testify on this subject but the issue extends beyond his\ncredibility. Since at the time of trial the uncommunicated hazard has\nmaterialized, it would be surprising if the patient-plaintiff did not claim that had\nhe been informed of the dangers he would have declined treatment. Subjectively\nhe may believe so, with the 20/20 vision of hindsight, but we doubt that justice\nwill be served by placing the physician in jeopardy of the patient\u2019s bitterness and\ndisillusionment. Thus an objective test is preferable: i.e., what would a prudent\nperson in the patient\u2019s position have decided if adequately informed of all\nsigni\ufb01cant perils.\u201d ( Cobbs, supra , 8 Cal.3d at p. 245.)\n\u2022 \u201cThe prudent person test for causation was established to protect defendant\nphysicians from the unfairness of having a jury consider the issue of proximate\ncause with the bene\ufb01t of the \u201820/20 vision of hindsight . . .\u2019 This standard\nshould not be employed to prevent a physician from raising the defense that\neven given adequate disclosure the injured patient would have made the same\ndecision, regardless of whether a reasonably prudent person would have decided\ndifferently if adequately informed.\u201d ( Truman v. Thomas (1980) 27 Cal.3d 285,\n294 fn. 5 [165 Cal. Rptr. 308, 611 P .2d 902].)\n491"
+}

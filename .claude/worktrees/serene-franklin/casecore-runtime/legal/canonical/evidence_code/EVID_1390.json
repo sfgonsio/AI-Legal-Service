@@ -1,0 +1,26 @@
+{
+  "code": "EVID",
+  "section": "1390",
+  "title": "Hearsay Exception — Forfeiture by Wrongdoing",
+  "text": "(a) Evidence of a statement is not made inadmissible by the hearsay rule if the statement is offered against a party that has engaged, or aided and abetted, in the wrongdoing that was intended to, and did, procure the unavailability of the declarant as a witness.\n\n(b) (1) The party seeking to introduce a statement pursuant to subdivision (a) shall establish, by a preponderance of the evidence, that the elements of subdivision (a) have been met at a foundational hearing.\n\n(2) The hearsay evidence that is the subject of the foundational hearing is admissible at the foundational hearing. However, a finding that the elements of subdivision (a) have been met shall not be based solely on the unconfronted hearsay statement of the unavailable declarant, and shall be supported by independent corroborative evidence.\n\n(3) The foundational hearing shall be conducted outside the presence of the jury. However, if the hearing is conducted after a jury trial has begun, the judge presiding at the hearing may consider evidence already presented to the jury in deciding whether the elements of subdivision (a) have been met.\n\n(4) In deciding whether or not to admit the statement, the judge may take into account whether it is trustworthy and reliable.\n\n(c) This section shall apply to any civil, criminal, or juvenile case or proceeding initiated or pending as of January 1, 2011.",
+  "tags": [
+    "hearsay",
+    "exception",
+    "forfeiture_by_wrongdoing",
+    "declarant_unavailable"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Hearsay Evidence",
+    "chapter": "2",
+    "chapter_title": "Hearsay Exceptions",
+    "article": "17",
+    "article_title": "Physical Abuse"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Amended by Stats. 2015, Ch. 55, Sec. 1. (AB 593) Effective January 1, 2016."
+  }
+}

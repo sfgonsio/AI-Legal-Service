@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "206",
+  "title": "Evidence Admitted for Limited Purpose",
+  "series": "200",
+  "series_title": "Contracts",
+  "text": "During the trial, certain evidence was admitted for a limited purpose.\nY ou may consider that evidence only for that purpose and for no other.\nNew September 2003; Revised May 2018, November 2018",
+  "tags": [
+    "contracts"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "It is recommended that the judge call attention to the purpose to which the evidence\napplies.\nIf appropriate, an instruction limiting the purpose for which evidence is to be\nconsidered must be given upon request. (Evid. Code, \u00a7 355; Daggett v. Atchison,\nTopeka & Santa Fe Ry. Co. (1957) 48 Cal.2d 655, 665\u2013666 [313 P .2d 557];\nContinental Airlines, Inc. v. McDonnell Douglas Corp. (1989) 216 Cal.App.3d 388,\n412 [264 Cal.Rptr. 779].)\nA limited-purpose instruction is insufficient to cure hearsay problems with case-\nspeci\ufb01c testimony given by an expert witness. ( People v. Sanchez (2016) 63 Cal.4th\n665, 684 [204 Cal.Rptr.3d 102, 374 P .3d 320].)\nFor an instruction on evidence applicable to one party or a limited number of\nparties, see CACI No. 207, Evidence Applicable to One Party .",
+  "sources_and_authority": "\u2022 Evidence Admitted for Limited Purpose. Evidence Code section 355.\n\u2022 Refusal to give a requested instruction limiting the purpose for which evidence\nis to be considered may constitute error. ( Adkins v. Brett (1920) 184 Cal. 252,\n261\u2013262 [193 P . 251].)\n\u2022 \u201cThe effect of the statute\u2014here, the municipal code section\u2014is to make certain\nhearsay evidence admissible for a limited purpose, i.e., supplementing or\nexplaining other evidence. This triggers the long-standing rule codi\ufb01ed in\nEvidence Code section 355, which states, \u2018When evidence is admissible . . . for\none purpose and is inadmissible . . . for another purpose, the court upon request\nshall restrict the evidence to its proper scope and instruct the jury accordingly.\u2019\n. . . In the absence of such a request, the evidence is \u2018 \u201cusable for any purpose.\u201d\n\u2019 \u201d ( Seibert v. City of San Jose (2016) 247 Cal.App.4th 1027, 1060\u20131061 [202\nCal.Rptr.3d 890], original italics.)\n\u2022 \u201cWhere the information is admitted for a purpose other than showing the truth of\nthe matter asserted . . . , prejudice is likely to be minimal and a limiting\ninstruction under section 355 may be requested to control the jury\u2019s use of the\ninformation.\u201d ( Korsak v. Atlas Hotels, Inc. (1992) 2 Cal.App.4th 1516, 1525 [3\nCal.Rptr.2d 833].)\n\u2022 An adverse party may be excused from the requirement of requesting a limiting\n52\n\ninstruction and may be permitted to assert error if the trial court unequivocally\nrejects the argument upon which a limiting instruction would be based. ( Warner\nConstruction Corp. v. City of Los Angeles (1970) 2 Cal.3d 285, 298\u2013299 [85\nCal.Rptr. 444, 466 P .2d 996].)"
+}

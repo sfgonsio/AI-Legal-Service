@@ -1,0 +1,19 @@
+{
+  "code": "CACI",
+  "instruction_id": "1708",
+  "title": "Coerced Self-Publication",
+  "series": "1700",
+  "series_title": "Wrongful Death",
+  "text": "[Name of plaintiff ] claims that [ name of defendant ] is responsible for [his/\nher/nonbinary pronoun] harm even though [ name of defendant ] did not\ncommunicate the statement(s) to anyone other than [ name of plaintiff ]. To\nsucceed, [ name of plaintiff ] must prove all of the following:\n1. That [ name of defendant ] made the statement(s) to [ name of\nplaintiff];\n2. That [ name of plaintiff ] was under strong pressure to\ncommunicate [ name of defendant ]\u2019s statement(s) to another\nperson; and\n3. That when [ name of defendant ] made the statements,\n[he/she/nonbinary pronoun ] should have known that [ name of\nplaintiff] would be under strong pressure to communicate them to\nanother person.\nIf [ name of plaintiff ] has proved all of the above, then you must \ufb01nd that\n[name of defendant ] was responsible for the communication of the\nstatement(s).\nNew September 2003",
+  "tags": [
+    "wrongful_death"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "sources_and_authority": "\u2022 The general rule is that \u201c[a] plaintiff cannot manufacture a defamation cause of\naction by publishing the statements to third persons; the publication must be\ndone by the defendant.\u201d The exception to the rule occurs \u201cwhen it [is]\nforeseeable that the defendant\u2019s act would result in plaintiff\u2019s publication to a\nthird person.\u201d ( Live Oak Publishing Co. v. Cohagan (1991) 234 Cal.App.3d\n1277, 1284 [286 Cal.Rptr. 198].)\n\u2022 [A] \u201cself-publication of the alleged defamatory statement may be imputed to the\noriginator of the statement if \u2018the person defamed is operating under a strong\ncompulsion to republish the defamatory statement and the circumstances which\ncreate the strong compulsion are known to the originator of the defamatory\nstatement at the time he communicates it to the person defamed.\u2019 \u201d ( Davis v.\nConsolidated Freightways (1994) 29 Cal.App.4th 354, 373 [34 Cal.Rptr.2d 438],\nquoting McKinney v. County of Santa Clara (1980) 110 Cal.App.3d 787,\n797\u2013798 [168 Cal.Rptr. 89].)\n\u2022 \u201cThis exception has been limited to a narrow class of cases, usually where a\nplaintiff is compelled to republish the statements in aid of disproving them.\u201d\n(Live Oak Publishing Co., supra, 234 Cal.App.3d at p. 1285.)\n\u2022 To determine if the coercion exception applies, the test is \u201cwhether \u2018because of\nsome necessity he was under to communicate the matter to others, it was\n1064\n\nreasonably to be anticipated that he would do so.\u2019 \u201d ( Live Oak Publishing Co.,\nsupra, 234 Cal.App.3d at p. 1285.)\n\u2022 \u201c[W]hile compelled self-published defamation per se technically eliminates the\nneed for publication by the defendant to a third party, a plaintiff cannot\nmanufacture the defamation claim by simply publishing statements to a third\nparty because the plaintiff must disclose contents of the employer\u2019s statement to\na third party after reading or being informed of the contents. The originator of\nthe statement is liable for the foreseeable repetition because of the causal link\nbetween the originator and the presumed damage to the plaintiff\u2019s reputation, but\nthe publication must be foreseeable. The presumed injury is no less damaging\nbecause the plaintiff was compelled to make the statement instead of the\nemployer making it directly to the third party.\u201d ( Tilkey v. Allstate Ins. Co. (2020)\n56 Cal.App.5th 521, 542 [270 Cal.Rptr.3d 559], original italics, internal citations\nomitted.)"
+}

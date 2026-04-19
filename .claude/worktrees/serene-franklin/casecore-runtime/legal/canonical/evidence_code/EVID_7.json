@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "7",
+  "title": "Definitions of Code Subdivisions",
+  "text": "Unless otherwise expressly stated:\n\n(a) \"Division\" means a division of this code.\n\n(b) \"Chapter\" means a chapter of the division in which that term occurs.\n\n(c) \"Article\" means an article of the chapter in which that term occurs.\n\n(d) \"Section\" means a section of this code.\n\n(e) \"Subdivision\" means a subdivision of the section in which that term occurs.\n\n(f) \"Paragraph\" means a paragraph of the subdivision in which that term occurs.",
+  "tags": ["preliminary", "definitions"],
+  "structure": {
+    "division": "1",
+    "division_title": "Preliminary Provisions and Construction",
+    "chapter": "",
+    "chapter_title": "",
+    "article": "",
+    "article_title": ""
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

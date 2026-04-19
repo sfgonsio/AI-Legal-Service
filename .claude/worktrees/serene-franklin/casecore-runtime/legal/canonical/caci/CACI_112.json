@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "112",
+  "title": "Questions From Jurors",
+  "series": "100",
+  "series_title": "Pretrial",
+  "text": "If, during the trial, you have a question that you believe should be asked\nof a witness, you may write out the question and send it to me through\nmy courtroom staff. I will share your question with the attorneys and\ndecide whether it may be asked.\nDo not feel disappointed if your question is not asked. Y our question\nmay not be asked for a variety of reasons. For example, the question\nmay call for an answer that is not allowed for legal reasons. Also, you\nshould not try to guess the reason why a question is not asked or\nspeculate about what the answer might have been. Because the decision\nwhether to allow the question is mine alone, do not hold it against any of\nthe attorneys or their clients if your question is not asked.\nRemember that you are not an advocate for one side or the other. Each\nof you is an impartial judge of the facts. Y our questions should be posed\nin as neutral a fashion as possible. Do not discuss any question asked by\nany juror with any other juror until after deliberations begin.\nNew February 2005; Revised April 2007, April 2009, June 2011",
+  "tags": [
+    "pretrial"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "This is an optional instruction for use if the jurors will be allowed to ask questions\nof the witnesses. For an instruction to be given at the end of the trial, see CACI No.\n5019, Questions From Jurors . This instruction may be modi\ufb01ed to account for an\nindividual judge\u2019s practice.",
+  "sources_and_authority": "\u2022 Written Questions From Jurors. Rule 2.1033 of the California Rules of Court.\n\u2022 \u201cIn a proper case there may be a real bene\ufb01t from allowing jurors to submit\nquestions under proper control by the court. However, in order to permit the\ncourt to exercise its discretion and maintain control of the trial, the correct\nprocedure is to have the juror write the questions for consideration by the court\nand counsel prior to their submission to the witness.\u201d ( People v. McAlister\n(1985) 167 Cal.App.3d 633, 644 [213 Cal.Rptr. 271].)\n\u2022 \u201c[T]he judge has discretion to ask questions submitted by jurors or to pass those\nquestions on and leave to the discretion of counsel whether to ask the\nquestions.\u201d ( People v. Cummings (1993) 4 Cal.4th 1233, 1305 [18 Cal.Rptr.2d\n796, 850 P .2d 1].)\n\u2022 \u201cThe appellant urges that when jurymen ask improper questions the defendant is\nplaced in the delicate dilemma of either allowing such question to go in without\nobjection or of offending the jurors by making the objection and the appellant\ninsists that the court of its own motion should check the putting of such\n29\n\nimproper questions by the jurymen, and thus relieve the party injuriously\naffected thereby from the odium which might result from making that objection\nthereto. There is no force in this contention. Objections to questions, whether\nasked by a juror or by opposing counsel, are presented to the court, and its\nruling thereon could not reasonably affect the rights or standing of the party\nmaking the objection before the jury in the one case more than in the other.\u201d\n(Maris v. H. Crummey, Inc. (1921) 55 Cal.App. 573, 578\u2013579 [204 P . 259].)"
+}

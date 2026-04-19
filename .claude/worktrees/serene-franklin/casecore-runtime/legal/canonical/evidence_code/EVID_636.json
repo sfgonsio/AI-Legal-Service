@@ -1,0 +1,12 @@
+{
+  "code": "EVID",
+  "section": "636",
+  "title": "Earlier Installments Presumed Paid",
+  "text": "The payment of earlier rent or installments is presumed from a receipt for later rent or installments.",
+  "category": "presumption_burden_of_production",
+  "canonical_type": "source",
+  "structure": { "division": "5","chapter": "3","article": "3" },
+  "source": { "type": "ca_legislature","jurisdiction": "California" },
+  "tags": ["rent","installments","payment","presumption"],
+  "notes": "Receipt of later payments implies earlier payments were satisfied."
+}

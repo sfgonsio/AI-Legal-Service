@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "4",
+  "title": "Rules of Construction",
+  "text": "Unless the provision or context otherwise requires, these preliminary provisions and rules of construction shall govern the construction of this code.",
+  "tags": ["preliminary", "construction"],
+  "structure": {
+    "division": "1",
+    "division_title": "Preliminary Provisions and Construction",
+    "chapter": "",
+    "chapter_title": "",
+    "article": "",
+    "article_title": ""
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

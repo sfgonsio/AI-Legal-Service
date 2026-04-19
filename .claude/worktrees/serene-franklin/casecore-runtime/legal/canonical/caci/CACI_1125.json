@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "1125",
+  "title": "Conditions on Adjacent Property",
+  "series": "1100",
+  "series_title": "Products Liability",
+  "text": "[Name of public entity defendant ]\u2019s property may be considered dangerous\nif [a] condition[s] on adjacent property contribute[s] to exposing those\nusing [ name of public entity defendant ]\u2019s property to a substantial risk of\ninjury.\n[Name of plaintiff ] claims that the following condition[s] on adjacent\nproperty contributed to making [ name of public entity defendant ]\u2019s\nproperty dangerous: [ specify]. Y ou should consider [this/these]\ncondition[s] in deciding whether [ name of public entity defendant ]\u2019s\nproperty was in a dangerous condition.\nNew November 2019",
+  "tags": [
+    "products_liability"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "Give this instruction if the plaintiff claims that conditions on property adjacent to\nthe public property that is alleged to be dangerous contributed to making the public\nproperty dangerous. This instruction should be given with, and not instead of, the\napplicable basic instructions for dangerous conditions on public property (see CACI\nNos. 1100 through 1103).\nThis instruction is for use when a plaintiff\u2019s claim involves conditions on property\nadjacent to the public property. A different instruction will be required if a\ndangerous condition on public property creates a substantial risk of injury to one\nusing adjacent property.",
+  "sources_and_authority": "\u2022 \u201cA California Law Revision Commission comment accompanying the statute\u2019s\n1963 enactment expands on the relationship between public property and\nadjacent property with regard to dangerous conditions: \u2018 \u201cAdjacent property\u201d as\nused in the de\ufb01nition of \u201cdangerous condition\u201d refers to the area that is exposed\nto the risk created by a dangerous condition of the public property. . . . [\u00b6] . . .\nA public entity may be liable only for dangerous conditions of its own property.\nBut its own property may be considered dangerous if it creates a substantial risk\nof injury to adjacent property or to persons on adjacent property; and its own\nproperty may be considered dangerous if a condition on the adjacent property\nexposes those using the public property to a substantial risk of injury.\u2019 \u201d\n(Bonanno v. Central Contra Costa Transit Authority (2003) 30 Cal.4th 139,\n147\u2013148 [132 Cal.Rptr.2d 341, 65 P .3d 807].)\n\u2022 \u201cThe third and fourth sentences of the City\u2019s \u2018[d]esign of the [d]riveway\u2019\ninstruction improperly told the jury that it could not \u2018rely on\u2019 elements of the\ndriveway, including \u2018the placement of the stop sign, the left turn pocket, and the\npresence of the pink cement\u2019 in deciding whether \u2018a dangerous condition\nexisted.\u2019 This was legally incorrect, and it directly con\ufb02icted with another\n721\n\ninstruction given to the jury, which told it that the City\u2019s \u2018property may be\nconsidered dangerous if a condition on adjacent property, such as the pink\nstamped concrete or the location of the stop sign, exposes those using the public\nproperty to a substantial risk of injury in conjunction with the adjacent property.\u2019\nGiving the jury these two con\ufb02icting instructions could not have been anything\nbut hopelessly confusing to the jury.\u201d ( Guernsey v. City of Salinas (2018) 30\nCal.App.5th 269, 281\u2013282 [241 Cal.Rptr.3d 335].)"
+}

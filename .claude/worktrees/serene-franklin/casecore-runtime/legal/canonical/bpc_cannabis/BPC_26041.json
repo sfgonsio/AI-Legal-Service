@@ -1,0 +1,21 @@
+{
+  "code": "BPC",
+  "section": "26041",
+  "title": "Section 26041",
+  "text": "All personnel of the panel shall be appointed, employed, directed, and controlled by the panel consistent with state civil service requirements. The Executive Director of the panel shall furnish the equipment, supplies, and housing necessary for the authorized activities of the panel and shall perform such other mechanics of administration as determined by the panel. (Amended by Stats. 2021, Ch. 70, Sec. 30. (AB 141) Effective July 12, 2021.)",
+  "tags": [
+    "cannabis"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Cannabis",
+    "chapter": "4",
+    "chapter_title": "Appeals"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Scraped from authority_store raw data."
+  }
+}

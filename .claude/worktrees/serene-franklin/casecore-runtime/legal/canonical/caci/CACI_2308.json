@@ -1,0 +1,21 @@
+{
+  "code": "CACI",
+  "instruction_id": "2308",
+  "title": "Affirmative Defense\u2014Misrepresentation or Concealment in Insurance Application",
+  "series": "2300",
+  "series_title": "Antitrust",
+  "text": "2309. Termination of Insurance Policy for Fraudulent Claim\n2310\u20132319. Reserved for Future Use\n2320. Affirmative Defense\u2014Failure to Provide Timely Notice\n2321. Affirmative Defense\u2014Insured\u2019s Breach of Duty to Cooperate in Defense",
+  "tags": [
+    "antitrust",
+    "breach",
+    "duty",
+    "fraud"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

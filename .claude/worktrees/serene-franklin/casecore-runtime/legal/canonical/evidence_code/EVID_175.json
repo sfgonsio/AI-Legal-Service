@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "175",
+  "title": "Person",
+  "text": "\"Person\" includes a natural person, firm, association, organization, partnership, business trust, corporation, limited liability company, or public entity.",
+  "tags": ["definitions", "person"],
+  "structure": {
+    "division": "2",
+    "division_title": "Words and Phrases Defined",
+    "chapter": "",
+    "chapter_title": "",
+    "article": "",
+    "article_title": ""
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Amended by Stats. 1994, Ch. 1010, Sec. 103. Effective January 1, 1995."
+  }
+}

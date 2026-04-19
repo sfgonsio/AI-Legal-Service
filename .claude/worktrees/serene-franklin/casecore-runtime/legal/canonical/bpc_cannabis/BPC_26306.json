@@ -1,0 +1,21 @@
+{
+  "code": "BPC",
+  "section": "26306",
+  "title": "Section 26306",
+  "text": "An agreement shall provide for collection of all applicable taxes. (Added by Stats. 2022, Ch. 396, Sec. 3. (SB 1326) Effective January 1, 2023.)",
+  "tags": [
+    "cannabis"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Cannabis",
+    "chapter": "3",
+    "chapter_title": "Enforcement"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Scraped from authority_store raw data."
+  }
+}

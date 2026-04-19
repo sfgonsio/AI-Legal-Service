@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "125",
+  "title": "Conduct",
+  "text": "\"Conduct\" includes all active and passive behavior, both verbal and nonverbal.",
+  "tags": ["definitions", "conduct"],
+  "structure": {
+    "division": "2",
+    "division_title": "Words and Phrases Defined",
+    "chapter": "",
+    "chapter_title": "",
+    "article": "",
+    "article_title": ""
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

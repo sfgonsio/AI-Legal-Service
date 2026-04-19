@@ -1,0 +1,28 @@
+{
+  "code": "EVID",
+  "section": "1061",
+  "title": "Trade Secret Privilege — Criminal Proceeding Procedure",
+  "text": "(a) For purposes of this section, and Sections 1062 and 1063:\n(1) \"Trade secret\" means \"trade secret\" as defined in subdivision (d) of Section 3426.1 of the Civil Code, or paragraph (9) of subdivision (a) of Section 499c of the Penal Code.\n(2) \"Article\" means \"article\" as defined in paragraph (2) of subdivision (a) of Section 499c of the Penal Code.\n(b) In addition to Section 1062, the following procedure shall apply whenever the owner of a trade secret wishes to assert his or her trade secret privilege during a criminal proceeding:\n(1) The owner of the trade secret shall file a motion for a protective order. The motion shall include an affidavit based upon personal knowledge listing the affiant's qualifications, identifying without revealing the alleged trade secret and articles which disclose the secret, and presenting evidence that the secret qualifies as a trade secret.\n(2) Any party in the proceeding may oppose the request for the protective order by submitting affidavits based upon the affiant's personal knowledge.\n(3) The movant shall, by a preponderance of the evidence, show that the issuance of a protective order is proper.\n(4) If the court finds that a trade secret may be disclosed during any criminal proceeding unless a protective order is issued and that the issuance of a protective order would not conceal a fraud or work an injustice, the court shall issue a protective order limiting the use and dissemination of the trade secret.",
+  "tags": [
+    "privilege",
+    "trade_secret",
+    "protective_order",
+    "criminal_proceeding",
+    "in_camera",
+    "preponderance_of_evidence"
+  ],
+  "structure": {
+    "division": "8",
+    "division_title": "Privileges",
+    "chapter": "4",
+    "chapter_title": "Particular Privileges",
+    "article": "11",
+    "article_title": "Trade Secret"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Amended by Stats. 2002, Ch. 784, Sec. 103. Effective January 1, 2003."
+  }
+}

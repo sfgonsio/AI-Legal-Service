@@ -1,0 +1,26 @@
+{
+  "code": "EVID",
+  "section": "1044",
+  "title": "Access to Medical Records Not Affected",
+  "text": "Nothing in this article shall be construed to affect the right of access to records of medical or psychological history where such access would otherwise be available under Section 996 or 1016.",
+  "tags": [
+    "privilege",
+    "official_information",
+    "medical_records",
+    "exception"
+  ],
+  "structure": {
+    "division": "8",
+    "division_title": "Privileges",
+    "chapter": "4",
+    "chapter_title": "Particular Privileges",
+    "article": "9",
+    "article_title": "Official Information and Identity of Informer"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Added by Stats. 1978, Ch. 630."
+  }
+}

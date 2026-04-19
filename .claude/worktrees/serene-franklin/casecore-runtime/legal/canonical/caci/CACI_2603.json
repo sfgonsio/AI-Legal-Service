@@ -1,0 +1,18 @@
+{
+  "code": "CACI",
+  "instruction_id": "2603",
+  "title": "\u201cComparable Job\u201d Explained",
+  "series": "2600",
+  "series_title": "Whistleblower Protection",
+  "text": "2604\u20132609. Reserved for Future Use\n2610. Affirmative Defense\u2014No Certi\ufb01cation From Health-Care Provider\n2611. Affirmative Defense\u2014Fitness for Duty Statement\n2612. Affirmative Defense\u2014Employment Would Have Ceased\n2613\u20132619. Reserved for Future Use",
+  "tags": [
+    "duty"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

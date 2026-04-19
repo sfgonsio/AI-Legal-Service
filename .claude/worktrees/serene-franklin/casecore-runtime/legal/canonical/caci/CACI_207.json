@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "207",
+  "title": "Evidence Applicable to One Party",
+  "series": "200",
+  "series_title": "Contracts",
+  "text": "[During the trial, I explained that certain evidence could be considered\nas to only one party. Y ou may not consider that evidence as to any other\nparty.]\n[During the trial, I explained that certain evidence could be considered\nas to one or more parties but not to every party. Y ou may not consider\nthat evidence as to any other party.]\nNew September 2003",
+  "tags": [
+    "contracts"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "If appropriate, an instruction limiting the parties to whom evidence applies must be\ngiven on request. (Evid. Code, \u00a7 355.) It is recommended that the judge call\nattention to the party or parties to which the evidence applies.\nFor an instruction on evidence admissible for a limited purpose, see CACI No. 206,\nEvidence Admitted for Limited Purpose .",
+  "sources_and_authority": "\u2022 Evidence Applicable to One Party. Evidence Code section 355."
+}

@@ -1,0 +1,45 @@
+{
+  "section_id": "EC-356",
+  "code": "EVID",
+  "section": "356",
+  "title": "Completeness Doctrine",
+  "text": "Where part of an act, declaration, conversation, or writing is given in evidence by one party, the whole on the same subject may be inquired into by an adverse party; when a letter is read, the answer may be given; and when a detached act, declaration, conversation, or writing is given in evidence, any other act, declaration, conversation, or writing which is necessary to make it understood may also be given in evidence.",
+  "notes": null,
+  "rule_type": "hearsay_exception",
+  "rule_type_confidence": "heuristic",
+  "applies_to": [],
+  "evidentiary_standard": null,
+  "foundation_requirements": [],
+  "cross_refs": [],
+  "coa_relevance": [],
+  "exclusion_grounds": [],
+  "tags": [
+    "admissibility",
+    "completeness",
+    "statements",
+    "writings",
+    "deposition_relevant",
+    "intake_critical",
+    "trial_relevant"
+  ],
+  "structure": {
+    "division": "3",
+    "division_title": "General Provisions",
+    "chapter": null,
+    "chapter_title": null,
+    "article": null,
+    "article_title": null
+  },
+  "canonical_type": "source",
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": null
+  },
+  "effective_date": null,
+  "schema_version": "1.0",
+  "pass1_complete": true,
+  "pass2_complete": false,
+  "source_file": "EVID_356.json"
+}

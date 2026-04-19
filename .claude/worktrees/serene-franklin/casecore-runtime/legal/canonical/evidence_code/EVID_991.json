@@ -1,0 +1,25 @@
+{
+  "code": "EVID",
+  "section": "991",
+  "title": "Patient — Definition (Physician-Patient)",
+  "text": "As used in this article, \"patient\" means a person who consults a physician or submits to an examination by a physician for the purpose of securing a diagnosis or preventive, palliative, or curative treatment of his physical or mental or emotional condition.",
+  "tags": [
+    "definition",
+    "patient",
+    "physician_patient"
+  ],
+  "structure": {
+    "division": "8",
+    "division_title": "Privileges",
+    "chapter": "4",
+    "chapter_title": "Particular Privileges",
+    "article": "6",
+    "article_title": "Physician-Patient Privilege"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

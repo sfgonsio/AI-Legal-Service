@@ -1,0 +1,27 @@
+{
+  "code": "EVID",
+  "section": "1046",
+  "title": "Excessive Force — Copy of Police Report Required",
+  "text": "In any case, otherwise authorized by law, in which the party seeking disclosure is alleging excessive force by a peace officer or custodial officer in connection with the arrest of that party, or for conduct alleged to have occurred within a jail facility, the motion shall include a copy of the police report setting forth the circumstances under which the party was stopped and arrested.",
+  "tags": [
+    "privilege",
+    "peace_officer",
+    "excessive_force",
+    "police_report",
+    "discovery"
+  ],
+  "structure": {
+    "division": "8",
+    "division_title": "Privileges",
+    "chapter": "4",
+    "chapter_title": "Particular Privileges",
+    "article": "9",
+    "article_title": "Official Information and Identity of Informer"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Amended by Stats. 2002, Ch. 391, Sec. 3. Effective January 1, 2003."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "code": "CACI",
+  "instruction_id": "1977",
+  "title": "The furnishing of misleading plans and speci\ufb01cations by an owner is a",
+  "series": "1900",
+  "series_title": "Wrongful Termination",
+  "text": "breach of an implied warranty of their correctness.\u201d ( C. Norman Peterson Co. v.\nContainer Corp. of Am. (1985) 172 Cal.App.3d 628, 643 [218 Cal.Rptr. 592],\ninternal citations omitted.)\n\u2022 \u201cThe trial court . . . read the section 158 disclaimer to the jury, but instructed\nthem that \u2018if a public agency makes a positive and material representation as to\na condition presumably within the knowledge of the agency and upon which the\nplaintiff had a right to rely, the agency is deemed to have warranted such facts\ndespite a general provision requiring an on-site inspection by the contractor.\u2019 In\nsubmitting the issue of the effect of the section 158 disclaimer to the jury, and\nits instructions to the jury, the trial court complied with our decision in Morrill,\nand the verdict must be taken as resolving that issue against defendant.\u201d ( Warner\nConstr . Corp., supra, 2 Cal.3d at p. 292, fn. 2].)\n\u2022 \u201cSince the plans and speci\ufb01cations were prepared by the owners\u2019 architect and\nnot by the subcontractor, and since the subcontractor undertook to do the work\nin accordance with his speci\ufb01c proposal, we cannot reasonably conclude that the\nsubcontractor assumed responsibility for the adequacy of the plans and\nspeci\ufb01cations . . . . The language upon which the plaintiff relies constituted a\nstatement of the purpose sought to be achieved by means of the owners\u2019 plans\nand speci\ufb01cations rather than an undertaking on the part of the subcontractor of",
+  "tags": [
+    "breach",
+    "wrongful_termination"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "code": "CACI",
+  "instruction_id": "1504",
+  "title": "Former Criminal Proceeding\u2014\u201cActively Involved\u201d Explained",
+  "series": "1500",
+  "series_title": "Sexual Harassment",
+  "text": "1505\u20131509. Reserved for Future Use\n1510. Affirmative Defense\u2014Reliance on Counsel\n1511. Wrongful Use of Civil Proceedings\u2014Affirmative Defense\u2014Attorney\u2019s Reliance on\nInformation Provided by Client\n1512\u20131519. Reserved for Future Use",
+  "tags": [
+    "sexual_harassment",
+    "wrongful"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

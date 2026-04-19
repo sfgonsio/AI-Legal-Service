@@ -1,0 +1,28 @@
+{
+  "code": "EVID",
+  "section": "501",
+  "title": "Burden of Proof in Criminal Actions",
+  "text": "Insofar as any statute, except Section 522, assigns the burden of proof in a criminal action, such statute is subject to Penal Code Section 1096.",
+  "category": "burden_of_proof",
+  "canonical_type": "source",
+  "structure": {
+    "division": "5",
+    "division_title": "Burden of Proof; Burden of Producing Evidence; Presumptions and Inferences",
+    "chapter": "1",
+    "chapter_title": "Burden of Proof",
+    "article": "1",
+    "article_title": "General"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "(Enacted by Stats. 1965, Ch. 299.)"
+  },
+  "tags": [
+    "burden of proof",
+    "criminal actions",
+    "Penal Code 1096"
+  ],
+  "notes": "Primarily criminal in application; generally low relevance to civil commercial litigation except as comparative authority context."
+}

@@ -1,0 +1,25 @@
+{
+  "code": "EVID",
+  "section": "1012",
+  "title": "Confidential Communication — Psychotherapist-Patient Definition",
+  "text": "As used in this article, \"confidential communication between patient and psychotherapist\" means information, including information obtained by an examination of the patient, transmitted between a patient and his psychotherapist in the course of that relationship and in confidence by a means which, so far as the patient is aware, discloses the information to no third persons other than those who are present to further the interest of the patient in the consultation, or those to whom disclosure is reasonably necessary for the transmission of the information or the accomplishment of the purpose for which the psychotherapist is consulted, and includes a diagnosis made and the advice given by the psychotherapist in the course of that relationship.",
+  "tags": [
+    "definition",
+    "confidential_communication",
+    "psychotherapist_patient"
+  ],
+  "structure": {
+    "division": "8",
+    "division_title": "Privileges",
+    "chapter": "4",
+    "chapter_title": "Particular Privileges",
+    "article": "7",
+    "article_title": "Psychotherapist-Patient Privilege"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Amended by Stats. 1970, Ch. 1397."
+  }
+}

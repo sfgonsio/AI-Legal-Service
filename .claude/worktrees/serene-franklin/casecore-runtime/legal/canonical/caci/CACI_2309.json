@@ -1,0 +1,21 @@
+{
+  "code": "CACI",
+  "instruction_id": "2309",
+  "title": "Termination of Insurance Policy for Fraudulent Claim",
+  "series": "2300",
+  "series_title": "Antitrust",
+  "text": "2310\u20132319. Reserved for Future Use\n2320. Affirmative Defense\u2014Failure to Provide Timely Notice\n2321. Affirmative Defense\u2014Insured\u2019s Breach of Duty to Cooperate in Defense\n2322. Affirmative Defense\u2014Insured\u2019s V oluntary Payment\n2323\u20132329. Reserved for Future Use",
+  "tags": [
+    "antitrust",
+    "breach",
+    "duty",
+    "fraud"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

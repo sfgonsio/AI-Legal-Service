@@ -1,0 +1,28 @@
+{
+  "code": "EVID",
+  "section": "1043",
+  "title": "Motion for Discovery of Peace Officer Personnel Records",
+  "text": "(a) In any case in which discovery or disclosure is sought of peace or custodial officer personnel records or records maintained pursuant to Section 832.5 of the Penal Code or information from those records, the party seeking the discovery or disclosure shall file a written motion with the appropriate court or administrative body upon written notice to the governmental agency that has custody and control of the records.\n(b) The motion shall include all of the following:\n(1) Identification of the proceeding in which discovery or disclosure is sought, the party seeking discovery or disclosure, the peace or custodial officer whose records are sought, the governmental agency that has custody and control of the records, and the time and place at which the motion for discovery or disclosure shall be heard.\n(2) A description of the type of records or information sought.\n(3) Affidavits showing good cause for the discovery or disclosure sought, setting forth the materiality thereof to the subject matter involved in the pending litigation.",
+  "tags": [
+    "privilege",
+    "peace_officer",
+    "personnel_records",
+    "discovery",
+    "motion",
+    "pitchess"
+  ],
+  "structure": {
+    "division": "8",
+    "division_title": "Privileges",
+    "chapter": "4",
+    "chapter_title": "Particular Privileges",
+    "article": "9",
+    "article_title": "Official Information and Identity of Informer"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Amended by Stats. 2019, Ch. 585, Sec. 2. Effective January 1, 2020."
+  }
+}

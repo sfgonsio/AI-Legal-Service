@@ -1,0 +1,24 @@
+{
+  "code": "BPC",
+  "section": "26104",
+  "title": "Section 26104",
+  "text": "(a) A licensed testing laboratory shall, in performing activities concerning cannabis and cannabis products, comply with the requirements and restrictions set forth in applicable law and regulations. (b) The department shall develop procedures to do all of the following: (1) Ensure that testing of cannabis and cannabis products occurs prior to distribution to retailers, microbusinesses, or nonprofits licensed under Section",
+  "tags": [
+    "testing",
+    "distribution",
+    "licensing",
+    "cannabis"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Cannabis",
+    "chapter": "10",
+    "chapter_title": "Testing Laboratories"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Scraped from authority_store raw data."
+  }
+}

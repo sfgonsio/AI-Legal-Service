@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "223",
+  "title": "Opinion Testimony of Lay Witness",
+  "series": "200",
+  "series_title": "Contracts",
+  "text": "A witness [who was not testifying as an expert] gave an opinion during\nthe trial. Y ou may, but are not required to, accept that opinion. Y ou may\ngive the opinion whatever weight you think is appropriate.\nConsider the extent of the witness\u2019s opportunity to perceive the matters\non which the opinion is based, the reasons the witness gave for the\nopinion, and the facts or information on which the witness relied in\nforming that opinion. Y ou must decide whether information on which the\nwitness relied was true and accurate. Y ou may disregard all or any part\nof an opinion that you \ufb01nd unbelievable, unreasonable, or unsupported\nby the evidence.\nNew April 2008",
+  "tags": [
+    "contracts"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "Give the bracketed phrase in the \ufb01rst sentence regarding the witness not testifying\nas an expert if an expert witness also testi\ufb01ed in the case.",
+  "sources_and_authority": "\u2022 Opinion Testimony of Lay Witness. Evidence Code section 800.\n\u2022 Foundation for Opinion Testimony of Lay Witness. Evidence Code section 802.\n\u2022 Character Evidence. Evidence Code section 1100."
+}

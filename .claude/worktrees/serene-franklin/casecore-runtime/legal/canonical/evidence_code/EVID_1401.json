@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "1401",
+  "title": "Authentication Required for Secondary Evidence",
+  "text": "Authentication of a writing is required before secondary evidence of its content may be received in evidence.",
+  "tags": ["authentication", "secondary_evidence", "writings"],
+  "structure": {
+    "division": "11",
+    "division_title": "Writings",
+    "chapter": "1",
+    "chapter_title": "Authentication and Proof of Writings",
+    "article": "1",
+    "article_title": "Requirement of Authentication"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "code": "CACI",
+  "instruction_id": "2611",
+  "title": "Affirmative Defense\u2014Fitness for Duty Statement",
+  "series": "2600",
+  "series_title": "Whistleblower Protection",
+  "text": "[Name of defendant ] claims that [he/she/ nonbinary pronoun/it] refused to\nreturn [ name of plaintiff ] to work because [he/she/ nonbinary pronoun] did\nnot provide a written statement from [his/her/ nonbinary pronoun] health-\ncare provider that [he/she/ nonbinary pronoun] was \ufb01t to return to work.\nTo succeed, [ name of defendant ] must prove both of the following:\n1. That [ name of defendant ] has a uniformly applied practice or\npolicy that requires employees on leave because of their own\nserious health condition to provide a written statement from their\nhealth-care provider that they are able to return to work; and\n2. That [ name of plaintiff ] did not provide [ name of defendant ] with a\nwritten statement from [his/her/ nonbinary pronoun ] health-care\nprovider of [his/her/ nonbinary pronoun ] \ufb01tness to return to work.\nNew September 2003",
+  "tags": [
+    "duty"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "sources_and_authority": "\u2022 Certi\ufb01cation on Health Care Provider: Child Care. Government Code section\n12945.2(i).\n\u2022 Certi\ufb01cation of Health Care Provider: Return to Work. Government Code section\n12945.2(j)(4).\n\u2022 \u201cHealth Care Provider\u201d De\ufb01ned. Government Code section 12945.2(b)(10).\n\u2022 Notice and Certi\ufb01cation. Cal. Code Regs., tit. 2, \u00a7 11088(b)."
+}

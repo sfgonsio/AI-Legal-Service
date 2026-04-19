@@ -1,0 +1,19 @@
+{
+  "code": "CACI",
+  "instruction_id": "1721",
+  "title": "Affirmative Defense\u2014Consent",
+  "series": "1700",
+  "series_title": "Wrongful Death",
+  "text": "[Name of defendant ] is not responsible for [ name of plaintiff ]\u2019s harm, if\nany, if [he/she/ nonbinary pronoun] proves that [ name of plaintiff ]\nconsented, by words or conduct, to [ name of defendant ]\u2019s communication\nof the statement(s) to others. In deciding whether [ name of plaintiff ]\nconsented to the communication, you should consider the circumstances\nsurrounding the words or conduct.\nNew September 2003; Revised October 2008",
+  "tags": [
+    "wrongful_death"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "sources_and_authority": "\u2022 Restatement Second of Torts, section 583, provides, in part: \u201c[T]he consent of\nanother to the publication of defamatory matter concerning him is a complete\ndefense to his action for defamation.\u201d\n\u2022 \u201cOne of the oldest and most widely recognized defenses to the publication of\ndefamatory matter is the doctrine of consent, which has been classi\ufb01ed as a form\nof absolute privilege.\u201d ( Royer v. Steinberg (1979) 90 Cal.App.3d 490, 498 [153\nCal.Rptr. 499].)\n\u2022 \u201cOne of the primary purposes of the doctrine of consent in defamation law is to\nprevent a party from inviting or inducing indiscretion and thereby laying the\nfoundation of a lawsuit for his own pecuniary gain.\u201d ( Royer , supra, 90\nCal.App.3d at p. 499.)\n\u2022 This rule applies when the plaintiff asks the defendant to repeat the statement to\nothers and when the plaintiff himself repeats the statements to others. ( Royer ,\nsupra, 90 Cal.App.3d at p. 498 [but see CACI No. 1708, Coerced Self-\nPublication].)"
+}

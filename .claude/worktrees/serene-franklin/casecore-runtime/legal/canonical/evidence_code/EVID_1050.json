@@ -1,0 +1,25 @@
+{
+  "code": "EVID",
+  "section": "1050",
+  "title": "Political Vote Privilege",
+  "text": "If he claims the privilege, a person has a privilege to refuse to disclose the tenor of his vote at a public election where the voting is by secret ballot unless he voted illegally or he previously made an unprivileged disclosure of the tenor of his vote.",
+  "tags": [
+    "privilege",
+    "political_vote",
+    "secret_ballot"
+  ],
+  "structure": {
+    "division": "8",
+    "division_title": "Privileges",
+    "chapter": "4",
+    "chapter_title": "Particular Privileges",
+    "article": "10",
+    "article_title": "Political Vote"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

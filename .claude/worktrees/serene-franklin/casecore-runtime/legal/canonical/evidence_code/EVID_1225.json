@@ -1,0 +1,28 @@
+{
+  "code": "EVID",
+  "section": "1225",
+  "title": "Admission by Declarant With Prior Property Interest",
+  "text": "When a right, title, or interest in any property or claim asserted by a party to a civil action requires a determination that a right, title, or interest exists or existed in the declarant, evidence of a statement made by the declarant during the time the party now claims the declarant was the holder of the right, title, or interest is as admissible against the party as it would be if offered against the declarant in an action involving that right, title, or interest.",
+  "tags": [
+    "hearsay_exception",
+    "property_interest",
+    "civil_action",
+    "title",
+    "declarant",
+    "trial_relevant"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Hearsay Evidence",
+    "chapter": "2",
+    "chapter_title": "Exceptions to the Hearsay Rule",
+    "article": "1",
+    "article_title": "Confessions and Admissions"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

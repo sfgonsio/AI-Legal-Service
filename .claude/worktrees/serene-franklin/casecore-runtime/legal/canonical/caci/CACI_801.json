@@ -1,0 +1,21 @@
+{
+  "code": "CACI",
+  "instruction_id": "801",
+  "title": "Duty to Comply With Safety Regulations",
+  "series": "800",
+  "series_title": "Defamation",
+  "text": "An [ordinance/regulation] of the [ insert name of entity ] provides as\nfollows: [ insert text of ordinance or regulation ]\nRailroad companies must obey safety regulations. Regulations state only\nthe minimum measure of care required of a railroad company.\nParticular conditions and situations may require a company to use more\ncare than the regulations require.\nNew September 2003",
+  "tags": [
+    "defamation",
+    "duty"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "Regulations adopted by the Secretary of Transportation pursuant to the Federal\nRailroad Safety Act preempt state common-law negligence claims based on general\nallegations of \u201cexcessive speed.\u201d ( CSX Transportation, Inc. v. Easterwood (1993)\n507 U.S. 658, 675 [113 S.Ct. 1732, 123 L.Ed.2d 387].) Also, claims alleging\ninadequate warning devices are preempted where federally funded grade crossing\nimprovements have been installed. ( Norfolk Southern Railway Co. v. Shanklin\n(2000) 529 U.S. 344, 359 [120 S.Ct. 1467, 146 L.Ed.2d 374].) This instruction is\nnot intended to apply to situations in which a railroad\u2019s compliance with these\nfederal safety regulations would preempt state law negligence claims.",
+  "sources_and_authority": "\u2022 \u201c \u2018 \u201cIt is well settled that such statutory regulations constitute only the minimum\nmeasure of care required by the railroad, and it is usually a matter for the jury to\ndetermine whether something more than the minimum was required under the\nevidence in the case.\u201d \u2019 A railroad company is not necessarily free from\nnegligence, even though it may have literally complied with safety statutes or\nrules. The circumstances may require it to do more.\u201d ( Hogue v. Southern Paci\ufb01c\nCo. (1969) 1 Cal.3d 253, 258 [81 Cal.Rptr. 765, 460 P .2d 965], internal citations\nomitted; Peri v. Los Angeles Junction Ry. Co. (1943) 22 Cal.2d 111, 126 [137\nP .2d 441].)\n\u2022 \u201cIf the peculiar characteristics of a crossing call for the installation of automatic\nprotection\u2014or the upgrading of existing automatic protection\u2014the railroad may\nbe guilty of negligence in failing to provide such protection.\u201d ( Romo v. Southern\nPaci\ufb01c Transportation Co. (1977) 71 Cal.App.3d 909, 916 [139 Cal.Rptr. 787],\ninternal citations omitted.)\n\u2022 \u201cWe hold that . . . federal regulations adopted by the Secretary of\nTransportation pre-empt respondent\u2019s negligence action only insofar as it asserts\nthat petitioner\u2019s train was traveling at an excessive speed.\u201d ( CSX Transportation,\nInc., supra, 507 U.S. at p. 676.)\n\u2022 \u201cWhen the [Federal Highway Administration] approves a crossing improvement\n598\n\nproject and the State installs the warning devices using federal funds, [federal\nregulations] establish a federal standard for the adequacy of those devices that\ndisplaces state tort law addressing the same subject.\u201d ( Norfolk Southern Railway\nCo., supra, 529 U.S. at p. 357.)"
+}

@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "1983",
+  "title": "See CACI No. 3020, Excessive Use of Force\u2014Unreasonable Arrest or Other",
+  "series": "1900",
+  "series_title": "Wrongful Termination",
+  "text": "Seizure\u2014Essential Factual Elements. It might also be combined with a claim for\nbattery. See CACI No. 1305, Battery by Peace Off\u0131cer\u2014Essential Factual Elements .\nFor additional authorities on excessive force by a law enforcement officer, see the\nSources and Authority to these two CACI instructions.\nBy its terms, Penal Code section 835a\u2019s deadly force provisions apply to \u201cpeace\nofficers.\u201d It would appear that a negligence claim involving nondeadly force does\nnot depend on whether the individual quali\ufb01es as a peace officer under the Penal\nCode. (See Pen. Code, \u00a7 835a; see also Pen. Code, \u00a7 830 et seq. [de\ufb01ning \u201cpeace\nofficer\u201d].) For cases involving the use of deadly force by a peace officer, use CACI\nNo. 441, Negligent Use of Deadly Force by Peace Off\u0131cer\u2014Essential Factual\nElements. (Pen. Code, \u00a7 835a.) This instruction and CACI No. 441 may require\nmodi\ufb01cation if the jury must decide whether the force used by the defendant was\ndeadly or nondeadly.\nInclude the last bracketed sentence in the \ufb01rst paragraph only if there is evidence\nthe person being arrested or detained used force to resist the officer.\nFactors (a), (b), and (c) are often referred to as the \u201c Graham factors.\u201d (See Graham\nv. Connor (1989) 490 U.S. 386, 396 [109 S.Ct. 1865, 104 L.Ed.2d 443].) The\nGraham factors are to be applied under California negligence law. ( Hernandez v.\nCity of Pomona (2009) 46 Cal.4th 501, 514 [94 Cal.Rptr.3d 1, 207 P .3d 506].) They\nare not exclusive (see Glenn v. Wash. County (9th Cir. 2011) 673 F.3d 864, 872);\nadditional factors may be added if appropriate to the facts of the case. If negligence,\ncivil rights, and battery claims are all involved, the instructions can be combined so\nas to give the Graham factors only once. A sentence may be added to advise the\njury that the factors apply to multiple claims.\nFactor (d) is bracketed because no reported California state court decision has held\nthat an officer\u2019s tactical decisions before using nondeadly force can be actionable\nnegligence. It has been held that liability can arise if the officer\u2019s earlier tactical\nconduct and decisions show, as part of the totality of circumstances, that the\nultimate use of deadly force was unreasonable. ( Hayes v. County of San Diego\n(2013) 57 Cal.4th 622, 639 [160 Cal.Rptr.3d 684, 305 P .3d 252].) In this respect,",
+  "tags": [
+    "battery",
+    "negligence",
+    "wrongful_termination"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "2004",
+  "title": "\u201cIntentional Entry\u201d Explained",
+  "series": "2000",
+  "series_title": "Insurance Litigation",
+  "text": "[An entry is intentional if a person knowingly goes onto the property of\nanother or knowingly causes something to go onto that property.]\n[An entry is intentional if a person engages in conduct that is\nsubstantially certain to cause something to go onto that property.]\n[Intent to trespass means only that a person intended to be in the\nparticular location where the trespass is alleged to have occurred. An\nentry is intentional even if the person reasonably but mistakenly thought\nthat the person had a right to come onto that property.]\nAn intent to do harm to the property or to the owner is not required.\nNew September 2003; Revised June 2013, May 2020",
+  "tags": [
+    "insurance"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "This instruction is not intended for general use in every case. Give one of the three\nbracketed options if an issue regarding the intent of the entry is raised and further\nexplanation is required. The third option should be given if the entry could appear\nto the jury to be unintentional, such as if the defendant was not aware that the\ndefendant was trespassing. (See Miller v. National Broadcasting Corp. (1986) 187\nCal.App.3d 1463, 1480\u20131481 [232 Cal.Rptr. 668].)",
+  "sources_and_authority": "\u2022 \u201cThe doing of an act which will to a substantial certainty result in the entry of\nforeign matter upon another\u2019s land suffices for an intentional trespass to land\nupon which liability may be based. It was error to instruct the jury that an\n\u2018intent to harm\u2019 was required.\u201d ( Roberts v. Permanente Corp . (1961) 188\nCal.App.2d 526, 530\u2013531 [10 Cal.Rptr. 519], internal citation omitted.)\n\u2022 An instruction on the de\ufb01nition of intentional trespass is considered a proper\nstatement of law. Failure to give this instruction on request where appropriate is\nerror. (Staples v. Hoefke (1987) 189 Cal.App.3d 1397, 1407 [235 Cal.Rptr. 165].)\n\u2022 \u201cAs Prosser and Keeton on Torts . . . explained, \u2018[t]he intent required as a basis\nfor liability as a trespasser is simply an intent to be at the place on the land\nwhere the trespass allegedly occurred . . . . The defendant is liable for an\nintentional entry although he has acted in good faith, under the mistaken belief,\nhowever reasonable, that he is committing no wrong.\u2019 \u201d ( Miller, supra, 187\nCal.App.3d at pp. 1480\u20131481, internal citation omitted.)\n\u2022 \u201cIntent to cause damage was not, however, an element of [trespass] and . . . the\ntrespasser was liable for such damage as he caused even though that damage\nwas not intended or foreseen by him.\u201d ( Meyer v. Paci\ufb01c Employers Ins. Co.\n(1965) 233 Cal.App.2d 321, 326 [43 Cal.Rptr. 542].)\n1264"
+}

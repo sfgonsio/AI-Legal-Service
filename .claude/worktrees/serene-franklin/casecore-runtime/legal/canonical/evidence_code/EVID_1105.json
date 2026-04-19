@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "1105",
+  "title": "Habit or Custom",
+  "text": "Any otherwise admissible evidence of habit or custom is admissible to prove conduct on a specified occasion in conformity with the habit or custom.",
+  "tags": ["habit", "custom", "conduct"],
+  "structure": {
+    "division": "9",
+    "division_title": "Evidence Affected or Excluded by Extrinsic Policies",
+    "chapter": "1",
+    "chapter_title": "Evidence of Character, Habit, or Custom",
+    "article": "",
+    "article_title": ""
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "code": "CACI",
+  "instruction_id": "304",
+  "title": "Oral or Written Contract Terms",
+  "series": "300",
+  "series_title": "Negligence\u2014Essential Factual Elements",
+  "text": "[Contracts may be written or oral.]\n[Contracts may be partly written and partly oral.]\nOral contracts are just as valid as written contracts.\nNew September 2003; Revised December 2013",
+  "tags": [
+    "contract",
+    "essential_elements",
+    "negligence"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "Give the bracketed alternative that is most applicable to the facts of the case.\nIf the written agreement is fully integrated, the second option may not be\nappropriate. Parol evidence is inadmissible if the judge \ufb01nds that the written\nagreement is fully integrated. (Code Civ. Proc., \u00a7 1856(d).) The parol evidence rule\ngenerally prohibits the introduction of extrinsic evidence\u2014oral or written\u2014to vary\nor contradict the terms of an integrated written instrument. ( EP A Real Estate\nPartnership v. Kang (1992) 12 Cal.App.4th 171, 175 [15 Cal.Rptr.2d 209]; see Civ.\nCode, \u00a7 1625; Code Civ. Proc., \u00a7 1856(a).)\nThere are, however, exceptions to the parol evidence rule. (See, e.g., Riverisland\nCold Storage, Inc. v. Fresno-Madera Production Credit Assn. (2013) 55 Cal.4th\n1169, 1174\u22121175 [151 Cal.Rptr.3d 93, 291 P .3d 316] [fraud exception]; see also\nCode Civ. Proc., \u00a7 1856.) If an exception has been found as a matter of law, the\nsecond option may be given. If there are questions of fact regarding the applicability\nof an exception, additional instructions on the exception will be necessary.",
+  "sources_and_authority": "\u2022 Oral Contracts. Civil Code section 1622.\n\u2022 Statute of Frauds. Civil Code section 1624.\n\u2022 \u201cThis question posed by defendant [may a contract be partly written and partly\noral] must be answered in the affirmative in this sense: that a contract or\nagreement in legal contemplation is neither written nor oral, but oral or written\nevidence may be received to establish the terms of the contract or agreement\nbetween the parties. . . . A so-called partly written and partly oral contract is in\nlegal effect a contract, the terms of which may be proven by both written and\noral evidence.\u201d ( Lande v. Southern California Freight Lines (1948) 85\nCal.App.2d 416, 420\u2013421 [193 P .2d 144].)\n\u2022 \u201cWhen the parties to a written contract have agreed to it as an \u2018integration\u2019\u2014a\ncomplete and \ufb01nal embodiment of the terms of an agreement\u2014parol evidence\ncannot be used to add to or vary its terms . . . [However,] \u2018[w]hen only part of\nthe agreement is integrated, the same rule applies to that part, but parol evidence\nmay be used to prove elements of the agreement not reduced to writing.\u2019 \u201d\n(Masterson v. Sine (1968) 68 Cal.2d 222, 225 [65 Cal.Rptr. 545, 436 P .2d 561].)\n96"
+}

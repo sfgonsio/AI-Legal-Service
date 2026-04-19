@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "2205",
+  "title": "Intentional Interference With Expected Inheritance\u2014Essential Factual Elements",
+  "series": "2200",
+  "series_title": "Civil Rights (Constitutional)",
+  "text": "2206\u20132209. Reserved for Future Use\n2210. Affirmative Defense\u2014Privilege to Protect Own Economic Interest\n2211\u20132299. Reserved for Future Use\nVF-2200. Inducing Breach of Contract\nVF-2201. Intentional Interference With Contractual Relations\nVF-2202. Intentional Interference With Prospective Economic Relations\nVF-2203. Negligent Interference With Prospective Economic Relations\nVF-2204\u2013VF-2299. Reserved for Future Use\nSERIES 2300 INSURANCE LITIGATION",
+  "tags": [
+    "breach",
+    "civil_rights",
+    "contract"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

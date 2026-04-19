@@ -1,0 +1,30 @@
+{
+  "code": "EVID",
+  "section": "624",
+  "title": "Tenant May Not Deny Landlord's Title at Commencement of Relation",
+  "text": "A tenant is not permitted to deny the title of his landlord at the time of the commencement of the relation.",
+  "category": "conclusive_presumptions",
+  "canonical_type": "source",
+  "structure": {
+    "division": "5",
+    "division_title": "Burden of Proof; Burden of Producing Evidence; Presumptions and Inferences",
+    "chapter": "3",
+    "chapter_title": "Presumptions and Inferences",
+    "article": "2",
+    "article_title": "Conclusive Presumptions"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "(Enacted by Stats. 1965, Ch. 299.)"
+  },
+  "tags": [
+    "conclusive presumption",
+    "tenant",
+    "landlord",
+    "title",
+    "real property"
+  ],
+  "notes": "Prevents a tenant from denying the landlord's title at the commencement of the landlord-tenant relationship."
+}

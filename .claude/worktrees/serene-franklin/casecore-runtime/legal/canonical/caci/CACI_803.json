@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "803",
+  "title": "Regulating Speed",
+  "series": "800",
+  "series_title": "Defamation",
+  "text": "[A railroad company] [A train operator] must use reasonable care to\ncontrol the train\u2019s speed as it approaches and passes through a railroad\ncrossing. The [railroad company] [train operator] must control train\nspeed with due regard for the safety of human life and property, taking\ninto consideration the location and conditions of the crossing.\nNew September 2003",
+  "tags": [
+    "defamation"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "This instruction may not be appropriate in certain cases. Regulations adopted by the\nSecretary of Transportation pursuant to the Federal Railroad Safety Act preempt\nstate common-law negligence claims based on general allegations of \u201cexcessive\nspeed.\u201d ( CSX Transportation, Inc. v. Easterwood (1993) 507 U.S. 658, 675 [113\nS.Ct. 1732, 123 L.Ed.2d 387].) However, a negligence action based on a duty to\nslow or stop a train to avoid a speci\ufb01c, individual hazard is not preempted. ( CSX\nTransportation, Inc., supra , 507 U.S. at 676, fn. 15.)",
+  "sources_and_authority": "\u2022 \u201cWe hold that . . . federal regulations adopted by the Secretary of\nTransportation pre-empt respondent\u2019s negligence action only insofar as it asserts\nthat petitioner\u2019s train was traveling at an excessive speed.\u201d ( CSX Transportation,\nInc., supra, 507 U.S. at p. 676.)\n\u2022 \u201cWhile it is true that no rate of speed is negligence per se in the absence of a\nstatute or ordinance, it does not follow that a railroad company will be permitted\nto run its trains under all conditions at any rate of speed it may choose. It must\nregulate its speed with proper regard for the safety of human life and property,\nespecially when running through towns and cities. . . . [T]he question whether\nor not a rate of speed is excessive is one of fact for the jury.\u201d ( Young v. Paci\ufb01c\nElectric Ry. Co . (1929) 208 Cal. 568, 572\u2013573 [283 P . 61].)\n\u2022 \u201cThe \u2018reasonably prudent person\u2019 test applies also to the speed at which a train\napproaches and passes a crossing, and material in the application of that test is\n\u2018that no unnecessary risk shall be cast upon the public\u2019 considering the \u2018location\nand surroundings\u2019 of the crossing involved. Specially mentioned is a \u2018crossing in\na thickly populated community and extensively used.\u2019 \u201d ( Rice v. Southern Paci\ufb01c\nCo. (1967) 247 Cal.App.2d 701, 707 [55 Cal.Rptr. 840], internal citations\nomitted.)\n\u2022 \u201c[I]t is for the jury to say whether the speed of a train was too high for a\nparticular intersection.\u201d ( Romo v. Southern Paci\ufb01c Transportation Co. (1977) 71\nCal.App.3d 909, 916 [139 Cal.Rptr. 787].)\n\u2022 Even when crossing protection is provided and the company speed limit is not\n600\n\nexceeded, speeding is still a question of fact. ( Herrera v. Southern Paci\ufb01c Co .\n(1957) 155 Cal.App.2d 781, 787 [318 P .2d 784].)"
+}

@@ -1,0 +1,32 @@
+{
+  "code": "EVID",
+  "section": "1280",
+  "title": "Official Records Exception",
+  "text": "Evidence of a writing made as a record of an act, condition, or event is not made inadmissible by the hearsay rule when offered in any civil or criminal proceeding to prove the act, condition, or event if all of the following applies:\n(a) The writing was made by and within the scope of duty of a public employee.\n(b) The writing was made at or near the time of the act, condition, or event.\n(c) The sources of information and method and time of preparation were such as to indicate its trustworthiness.",
+  "tags": [
+    "hearsay_exception",
+    "official_records",
+    "public_employee",
+    "trustworthiness",
+    "metrc",
+    "cannabis_reporting",
+    "agent_core",
+    "deposition_relevant",
+    "trial_relevant",
+    "intake_critical"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Hearsay Evidence",
+    "chapter": "2",
+    "chapter_title": "Exceptions to the Hearsay Rule",
+    "article": "8",
+    "article_title": "Official Records and Other Official Writings"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Amended by Stats. 1996, Ch. 642, Sec. 4. Effective January 1, 1997."
+  }
+}

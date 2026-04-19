@@ -1,0 +1,22 @@
+{
+  "code": "BPC",
+  "section": "26320",
+  "title": "Section 26320",
+  "text": "The Legislature finds and declares as follows: (a) Access to medicinal cannabis is an integral aspect of access to health care, and eliminating barriers to medicinal cannabis access is essential to promoting and preserving the health of Californians for whom physicians have recommended the use of cannabis or cannabis products. (b) It is the policy of the state and the intent of the Legislature to ensure that Californians throughout the state have timely and convenient access to safe, effective, and affordable medicinal cannabis. (Added by Stats. 2022, Ch. 395, Sec. 2. (SB 1186) Effective January 1, 2023.)",
+  "tags": [
+    "medical",
+    "cannabis"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Cannabis",
+    "chapter": "26",
+    "chapter_title": "Medicinal Cannabis Patients\u2019 Right of Access Act"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Scraped from authority_store raw data."
+  }
+}

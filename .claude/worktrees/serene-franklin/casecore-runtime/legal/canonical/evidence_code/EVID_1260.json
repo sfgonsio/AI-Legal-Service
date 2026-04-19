@@ -1,0 +1,28 @@
+{
+  "code": "EVID",
+  "section": "1260",
+  "title": "Statement Concerning Will or Trust — Unavailable Declarant",
+  "text": "(a) Except as provided in subdivision (b), evidence of any of the following statements made by a declarant who is unavailable as a witness is not made inadmissible by the hearsay rule:\n(1) That the declarant has or has not made a will or established or amended a revocable trust.\n(2) That the declarant has or has not revoked his or her will, revocable trust, or an amendment to a revocable trust.\n(3) That identifies the declarant's will, revocable trust, or an amendment to a revocable trust.\n(b) Evidence of a statement is inadmissible under this section if the statement was made under circumstances that indicate its lack of trustworthiness.",
+  "tags": [
+    "hearsay_exception",
+    "will",
+    "trust",
+    "unavailable_declarant",
+    "estate",
+    "trustworthiness"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Hearsay Evidence",
+    "chapter": "2",
+    "chapter_title": "Exceptions to the Hearsay Rule",
+    "article": "6",
+    "article_title": "Statements Relating to Wills and to Claims Against Estates"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Amended by Stats. 2010, Ch. 106, Sec. 1. Effective January 1, 2011."
+  }
+}

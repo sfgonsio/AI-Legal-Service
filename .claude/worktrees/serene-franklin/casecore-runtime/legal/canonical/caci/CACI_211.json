@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "211",
+  "title": "Prior Conviction of a Felony",
+  "series": "200",
+  "series_title": "Contracts",
+  "text": "Y ou have heard that a witness in this trial has been convicted of a\nfelony. Y ou were told about the conviction [only] to help you decide\nwhether you should believe the witness. [Y ou also may consider the\nevidence for the purpose of [ specify].] Y ou must not consider it for any\nother purpose.\nNew September 2003; Revised December 2012",
+  "tags": [
+    "contracts"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "Include the word \u201conly\u201d unless the court has admitted the evidence for some other\npurpose, in which case, include the next-to-last sentence. For example, a prior\nalcohol-related conviction might be relevant to show conscious disregard if the\nclaim involves conduct while under the in\ufb02uence.",
+  "sources_and_authority": "\u2022 Admissibility of Evidence of Prior Felony Conviction. Evidence Code section\n788.\n\u2022 The standards governing admissibility of prior convictions in civil cases are\ndifferent from those in criminal proceedings. In Robbins v. Wong (1994) 27\nCal.App.4th 261, 273 [32 Cal.Rptr.2d 337], the court observed: \u201cGiven the\nsigni\ufb01cant distinctions between the rights enjoyed by criminal defendants and\ncivil litigants, and the diminished level of prejudice attendant to felony\nimpeachment in civil proceedings, it is not unreasonable to require different\nstandards of admissibility in civil and criminal cases.\u201d ( Id. at p. 273.)\n\u2022 In Robbins, the court concluded that article I, section 28(f) of the California\nConstitution, as well as any Supreme Court cases on this topic in the criminal\narena, does not apply to civil cases. ( Robbins, supra, 27 Cal.App.4th at p. 274.)\nHowever, the court did hold that the trial court \u201cmay utilize such decisions to\nformulate guidelines for the judicial weighing of probative value against\nprejudicial effect under section 352.\u201d ( Ibid.)"
+}

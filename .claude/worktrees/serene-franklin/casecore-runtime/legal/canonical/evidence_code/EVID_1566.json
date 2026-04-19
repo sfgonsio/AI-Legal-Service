@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "1566",
+  "title": "Return of Records",
+  "text": "(a) When original records that have been produced in a criminal proceeding pursuant to Section 1560 are not introduced in evidence, the court shall order them returned to the person or entity from whom they were obtained upon completion of the criminal proceeding, unless the court determines, after notice and hearing, that the records should be retained for a further period. (b) When original records that have been produced in a civil proceeding pursuant to Section 1560 are not introduced in evidence, they shall be returned to the person or entity from whom they were obtained immediately upon completion of the proceeding for which the records were subpoenaed.",
+  "tags": ["return_records", "criminal", "civil", "original_records", "completion"],
+  "structure": {
+    "division": "11",
+    "division_title": "Writings",
+    "chapter": "2",
+    "chapter_title": "Secondary Evidence of Writings",
+    "article": "4",
+    "article_title": "Production of Business Records"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

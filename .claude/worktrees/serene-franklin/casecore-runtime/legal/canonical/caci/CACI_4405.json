@@ -1,0 +1,18 @@
+{
+  "code": "CACI",
+  "instruction_id": "4405",
+  "title": "Misappropriation by Acquisition",
+  "series": "4400",
+  "series_title": "Partition",
+  "text": "[Name of defendant ] misappropriated [ name of plaintiff ]\u2019s trade secret[s]\nby acquisition if [ name of defendant ] acquired the trade secret[s] and\nknew or had reason to know that [he/she/ nonbinary pronoun/it/[name of\nthird party]] used improper means to acquire [it/them].\nNew December 2007",
+  "tags": [],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "Read this instruction with CACI No. 4401 , Misappropriation of Trade\nSecrets\u2014Essential Factual Elements, if the plaintiff claims that the defendant\u2019s\nacquisition of the information alleged to be a trade secret is a misappropriation.\nGive also CACI No. 4408, Improper Means of Acquiring Trade Secret .\nCivil Code section 3426.1(b)(1) de\ufb01nes \u201cmisappropriation\u201d as improper\n\u201c[a]cquisition\u201d of a trade secret, and subsection (b)(2) de\ufb01nes it as improper\n\u201c[d]isclosure or use\u201d of a trade secret. In some cases, the mere acquisition of a trade\nsecret, as distinguished from a related disclosure or use, will not result in damages\nand will only be relevant to injunctive relief. Because generally the jury should only\nbe instructed on matters relevant to damage claims, this instruction should not be\ngiven unless there is evidence that the acquisition resulted in damages, other than\ndamages from related disclosure or use.",
+  "sources_and_authority": "\u2022 \u201cMisappropriation\u201d De\ufb01ned. Civil Code section 3426.1(b)(1).\n\u2022 \u201cDefendants . . . obtained these secrets improperly. Their tortious acts resulted\nfrom a breach of con\ufb01dence by [defendant] in copying or stealing plans, designs\nand other documents related to [plaintiff]\u2019s products which defendants\nthemselves wanted to produce in competition with [plaintiff]. The protection\nwhich is extended to trade secrets fundamentally rests upon the theory that they\nare improperly acquired by a defendant, usually through theft or a breach of\ncon\ufb01dence.\u201d ( V acco Indus. v. V an Den Berg (1992) 5 Cal.App.4th 34, 50 [6\nCal.Rptr.2d 602].)\n\u2022 \u201cOne does not ordinarily \u2018acquire\u2019 a thing inadvertently; the term implies\nconduct directed to that objective. The choice of that term over \u2018receive\u2019\nsuggests that inadvertently coming into possession of a trade secret will not\nconstitute acquisition. Thus one who passively receives a trade secret, but neither\ndiscloses nor uses it, would not be guilty of misappropriation. We need not\ndecide the outer limits of acquisition as contemplated by CUTSA, however, for\nthere is no suggestion here of acquisition even in the broadest sense, i.e., that\n[defendant] ever came into possession of the source code constituting the\nclaimed trade secrets. Indeed [plaintiff] does not directly argue that [defendant]\nacquired the trade secrets at issue but only that, under the terms of the statute, it\n1244\n\ncould have done so without itself having \u2018knowledge\u2019 of them. We doubt the\nsoundness of this suggestion, but assuming it is correct, it remains beside the\npoint unless [defendant] came into possession of the secret. Since there is no\nbasis to \ufb01nd that it did, the mental state required for actionable acquisition\nappears to be academic.\u201d ( Silvaco Data Systems v. Intel Corp. (2010) 184\nCal.App.4th 210, 223 [109 Cal.Rptr.3d 27], internal citations omitted.)"
+}

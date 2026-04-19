@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "1523",
+  "title": "Oral Testimony of Content",
+  "text": "(a) Except as otherwise provided by statute, oral testimony is not admissible to prove the content of a writing. (b) Oral testimony of the content of a writing is not made inadmissible by subdivision (a) if the proponent does not have possession or control of a copy of the writing and the original is lost or has been destroyed without fraudulent intent on the part of the proponent of the evidence. (c) Oral testimony of the content of a writing is not made inadmissible by subdivision (a) if the proponent does not have possession or control of a copy of the writing and: (1) Neither the writing nor a copy of the writing was reasonably procurable by the proponent by use of the court's process or by other available means. (2) The writing is not closely related to the controlling issues in the action. (3) The writing consists of numerous accounts or other writings that cannot be examined in court without great loss of time.",
+  "tags": ["oral_testimony", "content", "best_evidence", "lost_writing"],
+  "structure": {
+    "division": "11",
+    "division_title": "Writings",
+    "chapter": "2",
+    "chapter_title": "Secondary Evidence of Writings",
+    "article": "1",
+    "article_title": "Proof of Content of a Writing"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

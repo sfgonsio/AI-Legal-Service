@@ -1,0 +1,9 @@
+{
+  "code": "EVID",
+  "section": "723",
+  "title": "Limit on Number of Expert Witnesses",
+  "text": "The court may, at any time before or during the trial of an action, limit the number of expert witnesses to be called by any party.",
+  "tags": ["expert_witness", "court_discretion", "trial_management"],
+  "structure": {"division": "6", "division_title": "Witnesses", "chapter": "3", "chapter_title": "Expert Witnesses", "article": "1", "article_title": "Expert Witnesses Generally"},
+  "source": {"type": "ca_legislature", "jurisdiction": "California", "url": "https://leginfo.legislature.ca.gov", "editorial_note": "Enacted by Stats. 1965, Ch. 299."}
+}

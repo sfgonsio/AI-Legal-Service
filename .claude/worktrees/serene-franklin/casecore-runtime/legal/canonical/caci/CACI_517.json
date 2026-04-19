@@ -1,0 +1,21 @@
+{
+  "code": "CACI",
+  "instruction_id": "517",
+  "title": "Affirmative Defense\u2014Patient\u2019s Duty to Provide for the Patient\u2019s Own Well-Being",
+  "series": "500",
+  "series_title": "Medical Negligence",
+  "text": "518. Medical Malpractice: Res ipsa loquitur\n519\u2013530. Reserved for Future Use\n530A. Medical Battery\n530B. Medical Battery\u2014Conditional Consent",
+  "tags": [
+    "battery",
+    "duty",
+    "medical",
+    "medical_negligence"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

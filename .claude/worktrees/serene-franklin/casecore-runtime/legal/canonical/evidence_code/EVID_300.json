@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "300",
+  "title": "Applicability of Code",
+  "text": "Except as otherwise provided by statute, this code applies in every action before the Supreme Court or a court of appeal or superior court, including proceedings in such actions conducted by a referee, court commissioner, or similar officer, but does not apply in grand jury proceedings.",
+  "tags": ["general_provisions", "applicability", "courts"],
+  "structure": {
+    "division": "3",
+    "division_title": "General Provisions",
+    "chapter": "1",
+    "chapter_title": "Applicability of Code",
+    "article": "",
+    "article_title": ""
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Amended by Stats. 2002, Ch. 784, Sec. 101. Effective January 1, 2003."
+  }
+}

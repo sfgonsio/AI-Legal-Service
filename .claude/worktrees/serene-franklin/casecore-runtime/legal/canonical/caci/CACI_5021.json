@@ -1,0 +1,17 @@
+{
+  "code": "CACI",
+  "instruction_id": "5021",
+  "title": "Electronic Evidence",
+  "series": "5000",
+  "series_title": "Concluding Instructions",
+  "text": "Some exhibits that have been admitted into evidence will be provided to\nyou electronically. The equipment necessary to view these exhibits will be\navailable to you in the jury room. Do not use the equipment for any\npurpose other than to view the electronic exhibits. Do not use it to access\nthe Internet or any other source of information. Do not use it for any\npersonal reason whatsoever, including but not limited to reviewing email,\nentertainment, or engaging in social media.\nIf you need technical assistance or additional equipment or supplies, you\nmay make a request by sending me a note through the\n[clerk/bailiff/court attendant]. Should it become necessary for a\ntechnician to enter the jury room, stop your deliberations until the\ntechnician has left. Do not discuss with him or her, or with each other,\nany exhibit or any aspect of the case while the technician is present. Do\nnot say anything to the technician other than to (1) describe the\ntechnical problem(s) and/or to (2) request instruction on how to operate\nthe equipment.\n[Y ou may request a paper copy of an exhibit received in evidence. One\nwill be supplied, if possible.]\nNew June 2014",
+  "tags": [],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "Give this instruction if exhibits have been introduced in electronic format only.\nModify or expand the instruction as necessary to set forth the particular process for\nthe viewing of electronic exhibits in the particular courtroom. Give the last\nparagraph if a paper copy will be available."
+}

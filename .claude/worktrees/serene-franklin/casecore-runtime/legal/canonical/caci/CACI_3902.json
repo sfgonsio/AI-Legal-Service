@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "3902",
+  "title": "Economic and Noneconomic Damages",
+  "series": "3700",
+  "series_title": "Damages",
+  "text": "The damages claimed by [ name of plaintiff ] for the harm caused by [ name\nof defendant ] fall into two categories called economic damages and\nnoneconomic damages. Y ou will be asked on the verdict form to state the\ntwo categories of damages separately.\nNew September 2003",
+  "tags": [
+    "damages"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "This instruction may not be necessary in every case.",
+  "sources_and_authority": "\u2022 Proposition 51. Civil Code section 1431.2.\n\u2022 MICRA Limitation on Noneconomic Damages From Health Care Provider. Civil\nCode section 3333.2.\n\u2022 The Supreme Court has noted that section 1431.2 \u201ccarefully\u201d de\ufb01nes the\n\u201cimportant distinction\u201d between economic and noneconomic damages. ( DaFonte\nv. Up-Right, Inc. (1992) 2 Cal.4th 593, 600 [7 Cal.Rptr.2d 238, 828 P .2d 140].)\nThe court stated: \u201cProposition 51 . . . retains the joint liability of all tortfeasors,\nregardless of their respective shares of fault, with respect to all objectively\nprovable expenses and monetary losses. On the other hand, the more intangible\nand subjective categories of damages were limited by Proposition 51 to a rule of\nstrict proportionate liability. With respect to these noneconomic damages, the\nplaintiff alone now assumes the risk that a proportionate contribution cannot be\nobtained from each person responsible for the injury.\u201d ( Ibid., internal citation\nomitted.)\n\u2022 \u201cProposition 51 . . . allows an injured plaintiff to recover the full amount of\neconomic damages suffered, regardless of which tortfeaser [sic] or tortfeasors are\nnamed as defendants. The tortfeasors are left to sort out payment in proportion\nto fault amongst themselves, and they must bear the risk of nonrecovery from\nimpecunious tortfeasors. As to noneconomic damages, however, the plaintiff\nmust sue all the tortfeasors to enable a full recovery. Failure to name a defendant\nwill preclude recovery of that defendant\u2019s proportional share of damages, and the\nplaintiff will bear the risk of nonrecovery from an impecunious tortfeasor.\u201d\n(Aetna Health Plans of California, Inc. v. Yucaipa-Calimesa Joint Uni\ufb01ed School\nDist. (1999) 72 Cal.App.4th 1175, 1190 [85 Cal.Rptr.2d 672].)"
+}

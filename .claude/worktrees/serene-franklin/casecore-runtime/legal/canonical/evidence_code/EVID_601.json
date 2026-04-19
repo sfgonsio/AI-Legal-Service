@@ -1,0 +1,15 @@
+{
+  "code": "EVID",
+  "section": "601",
+  "title": "Types of Presumptions",
+  "text": "A presumption is either conclusive or rebuttable. Every rebuttable presumption is either (a) affecting the burden of producing evidence or (b) affecting the burden of proof.",
+  "category": "presumptions",
+  "canonical_type": "source",
+  "structure": {
+    "division": "5",
+    "chapter": "3",
+    "article": "1"
+  },
+  "tags": ["conclusive", "rebuttable", "burden shift"],
+  "notes": "Defines the two types of presumptions and their legal effect."
+}

@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "403",
+  "title": "Determination of Foundational and Conditional Relevance Facts",
+  "text": "(a) The proponent of the proffered evidence has the burden of producing evidence as to the existence of the preliminary fact, and the proffered evidence is inadmissible unless the court finds that there is evidence sufficient to sustain a finding of the existence of the preliminary fact, when:\n\n(1) The relevance of the proffered evidence depends on the existence of the preliminary fact;\n\n(2) The preliminary fact is the personal knowledge of a witness concerning the subject matter of his testimony;\n\n(3) The preliminary fact is the authenticity of a writing; or\n\n(4) The proffered evidence is of a statement or other conduct of a particular person and the preliminary fact is whether that person made the statement or so conducted himself.\n\n(b) Subject to Section 702, the court may admit conditionally the proffered evidence under this section, subject to evidence of the preliminary fact being supplied later in the course of the trial.\n\n(c) If the court admits the proffered evidence under this section, the court:\n\n(1) May, and on request shall, instruct the jury to determine whether the preliminary fact exists and to disregard the proffered evidence unless the jury finds that the preliminary fact does exist.\n\n(2) Shall instruct the jury to disregard the proffered evidence if the court subsequently determines that a jury could not reasonably find that the preliminary fact exists.",
+  "tags": ["preliminary_fact", "burden_of_production", "conditional_relevance", "authenticity"],
+  "structure": {
+    "division": "3",
+    "division_title": "General Provisions",
+    "chapter": "4",
+    "chapter_title": "Admitting and Excluding Evidence",
+    "article": "2",
+    "article_title": "Preliminary Determinations on Admissibility of Evidence"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

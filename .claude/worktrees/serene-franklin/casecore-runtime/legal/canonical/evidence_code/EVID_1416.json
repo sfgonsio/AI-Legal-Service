@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "1416",
+  "title": "Proof of Handwriting by Comparison of Expert",
+  "text": "A witness who is not otherwise qualified to testify as an expert may state his opinion whether a writing is in the handwriting of a supposed writer if the court finds that he has personal knowledge of the handwriting of the supposed writer. Such personal knowledge may be acquired from: (a) Having seen the supposed writer write; (b) Having seen a writing purporting to be in the handwriting of the supposed writer and upon which the supposed writer has acted or been charged; (c) Having received letters in the due course of mail purporting to be from the supposed writer in response to letters duly addressed and mailed by him to the supposed writer; (d) Any other means of obtaining personal knowledge of the handwriting of the supposed writer.",
+  "tags": ["authentication", "handwriting", "expert", "comparison", "opinion"],
+  "structure": {
+    "division": "11",
+    "division_title": "Writings",
+    "chapter": "1",
+    "chapter_title": "Authentication and Proof of Writings",
+    "article": "2",
+    "article_title": "Means of Authenticating and Proving Writings"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

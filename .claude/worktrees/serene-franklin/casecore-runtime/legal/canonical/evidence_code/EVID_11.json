@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "11",
+  "title": "Shall and May",
+  "text": "\"Shall\" is mandatory and \"may\" is permissive.",
+  "tags": ["preliminary", "construction", "mandatory", "permissive"],
+  "structure": {
+    "division": "1",
+    "division_title": "Preliminary Provisions and Construction",
+    "chapter": "",
+    "chapter_title": "",
+    "article": "",
+    "article_title": ""
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "12",
+  "title": "Operative Date and Transitional Provisions",
+  "text": "(a) This code shall become operative on January 1, 1967, and shall govern proceedings in actions brought on or after that date and, except as provided in subdivision (b), further proceedings in actions pending on that date.\n\n(b) Subject to subdivision (c), a trial commenced before January 1, 1967, shall not be governed by this code. For the purpose of this subdivision:\n\n(1) A trial is commenced when the first witness is sworn or the first exhibit is admitted into evidence and is terminated when the issue upon which such evidence is received is submitted to the trier of fact. A new trial, or a separate trial of a different issue, commenced on or after January 1, 1967, shall be governed by this code.\n\n(2) If an appeal is taken from a ruling made at a trial commenced before January 1, 1967, the appellate court shall apply the law applicable at the time of the commencement of the trial.\n\n(c) The provisions of Division 8 (commencing with Section 900) relating to privileges shall govern any claim of privilege made after December 31, 1966.",
+  "tags": ["preliminary", "operative_date", "transitional"],
+  "structure": {
+    "division": "1",
+    "division_title": "Preliminary Provisions and Construction",
+    "chapter": "",
+    "chapter_title": "",
+    "article": "",
+    "article_title": ""
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

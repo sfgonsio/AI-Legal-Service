@@ -1,0 +1,12 @@
+{
+  "code": "EVID",
+  "section": "639",
+  "title": "Judgment Presumed Correct",
+  "text": "A judgment, when not conclusive, is presumed to correctly determine or set forth the rights of the parties, but there is no presumption that the facts essential to the judgment have been correctly determined.",
+  "category": "presumption_burden_of_production",
+  "canonical_type": "source",
+  "structure": { "division": "5","chapter": "3","article": "3" },
+  "source": { "type": "ca_legislature","jurisdiction": "California" },
+  "tags": ["judgment","court","rights"],
+  "notes": "Judgment presumed correct as to rights, not underlying facts."
+}

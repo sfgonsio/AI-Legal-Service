@@ -1,0 +1,24 @@
+{
+  "code": "EVID",
+  "section": "1205",
+  "title": "Hearsay Division — No Implied Repeal",
+  "text": "Nothing in this division shall be construed to repeal by implication any other statute relating to hearsay evidence.",
+  "tags": [
+    "hearsay",
+    "statutory_construction"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Hearsay Evidence",
+    "chapter": "1",
+    "chapter_title": "General Provisions",
+    "article": null,
+    "article_title": null
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

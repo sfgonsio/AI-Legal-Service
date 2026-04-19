@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "602",
+  "title": "Success Not Required",
+  "series": "600",
+  "series_title": "Motor Vehicles",
+  "text": "[A/An] [ insert type of professional ] is not necessarily negligent just\nbecause [his/her/ nonbinary pronoun] efforts are unsuccessful or [he/she/\nnonbinary pronoun] makes an error that was reasonable under the\ncircumstances. [A/An] [ insert type of professional ] is negligent only if [he/\nshe/nonbinary pronoun] was not as skillful, knowledgeable, or careful as\nanother reasonable [ insert type of professional ] would have been in similar\ncircumstances.\nNew September 2003; Revised December 2007",
+  "tags": [
+    "motor_vehicle"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "Use this instruction for all professional negligence cases other than professional\nmedical negligence, for which CACI No. 505, Success Not Required , should be\nused.",
+  "sources_and_authority": "\u2022 \u201cThe services of experts are sought because of their special skill. They have a\nduty to exercise the ordinary skill and competence of members of their\nprofession, and a failure to discharge that duty will subject them to liability for\nnegligence. Those who hire such persons are not justi\ufb01ed in expecting\ninfallibility, but can expect only reasonable care and competence. They purchase\nservice, not insurance.\u201d ( Gagne v. Bertran (1954) 43 Cal.2d 481, 489 [275 P .2d\n15].)\n\u2022 \u201cThis rule [of Gagne v. Bertran, supra ] has been consistently followed in this\nstate with respect to professional services ( Roberts v. Karr , 178 Cal.App.2d 535\n[3 Cal.Rptr. 98] (surveyor); Gautier v. General Telephone Co. , 234 Cal.App.2d\n302 [44 Cal.Rptr. 404] (communications services); Bonadiman-McCain, Inc. v.\nSnow, 183 Cal.App.2d 58 [6 Cal.Rptr. 52] (engineer); Lindner v. Barlow, Davis\n& Wood, 210 Cal.App.2d 660 [27 Cal.Rptr. 101] (accountant); Pancoast v.\nRussell, 148 Cal.App.2d 909 [307 P .2d 719] (architect)).\u201d ( Allied Properties v.\nJohn A. Blume & Associates (1972) 25 Cal.App.3d 848, 856 [102 Cal.Rptr.\n259].)\n\u2022 \u201cThe attorney is not liable for every mistake he may make in his practice; he is\nnot, in the absence of an express agreement, an insurer of the soundness of his\nopinions or of the validity of an instrument that he is engaged to draft; and he is\nnot liable for being in error as to a question of law on which reasonable doubt\nmay be entertained by well-informed lawyers.\u201d ( Lucas v. Hamm (1961) 56\nCal.2d 583, 591 [15 Cal.Rptr. 821, 364 P .2d 685], cert. denied (1962) 368 U.S.\n987 [82 S.Ct. 603, 7 L.Ed.2d 525], internal citations omitted.)\n\u2022 Jury instructions stating this principle are proper: \u201c[A]n attorney does not\nordinarily guarantee the soundness of his opinions and, accordingly, is not liable\n526\n\nfor every mistake he may make in his practice. He is expected, however, to\npossess knowledge of those plain and elementary principles of law which are\ncommonly known by well informed attorneys, and to discover those additional\nrules of law which, although not commonly known, may readily be found by\nstandard research techniques.\u201d ( Smith v. Lewis (1975) 13 Cal.3d 349, 358 [118\nCal.Rptr. 621, 530 P .2d 589], overruled in part on other grounds in In re\nMarriage of Brown (1976) 15 Cal.3d 838, 851 [126 Cal.Rptr. 633, 544 P .2d\n561].)\n\u2022 \u201cIn order to prevail on this theory and escape a negligence \ufb01nding, an attorney\nmust show that there were unsettled or debatable areas of the law that were the\nsubject of the legal advice rendered and this advice was based upon \u2018reasonable\nresearch in an effort to ascertain relevant legal principles and to make an\ninformed decision as to a course of conduct based upon an intelligent assessment\nof the problem.\u2019 \u201d ( Blanks v. Seyfarth Shaw LLP (2009) 171 Cal.App.4th 336,\n378\u2013379 [89 Cal.Rptr.3d 710].)"
+}

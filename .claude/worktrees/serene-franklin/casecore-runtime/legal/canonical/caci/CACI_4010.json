@@ -1,0 +1,18 @@
+{
+  "code": "CACI",
+  "instruction_id": "4010",
+  "title": "Limiting Instruction\u2014Expert Testimony",
+  "series": "4000",
+  "series_title": "Fiduciary Duty",
+  "text": "Revoked May 2018. See People v. Sanchez (2016) 63 Cal.4th 665, 684\n[204 Cal.Rptr.3d 102, 374 P.3d 320] and Conservatorship of K.W. (2017)\n13 Cal.App.5th 1274, 1281 [221 Cal.Rptr.3d 622].\n1048",
+  "tags": [
+    "fiduciary_duty"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

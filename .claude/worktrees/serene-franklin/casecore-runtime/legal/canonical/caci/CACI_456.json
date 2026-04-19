@@ -1,0 +1,19 @@
+{
+  "code": "CACI",
+  "instruction_id": "456",
+  "title": "Defendant Estopped From Asserting Statute of Limitations Defense",
+  "series": "400",
+  "series_title": "Negligence",
+  "text": "457. Statute of Limitations\u2014Equitable Tolling\u2014Other Prior Proceeding\n458\u2013459. Reserved for Future Use\n460. Strict Liability for Ultrahazardous Activities\u2014Essential Factual Elements\n461. Strict Liability for Injury Caused by Wild Animal\u2014Essential Factual Elements",
+  "tags": [
+    "negligence",
+    "statute_of_limitations"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

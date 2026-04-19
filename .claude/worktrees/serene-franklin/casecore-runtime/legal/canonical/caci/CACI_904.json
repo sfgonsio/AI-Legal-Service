@@ -1,0 +1,21 @@
+{
+  "code": "CACI",
+  "instruction_id": "904",
+  "title": "Duty of Common Carrier Toward Passengers With Illness or Disability",
+  "series": "900",
+  "series_title": "Common Carriers",
+  "text": "905. Duty of Common Carrier Toward Minor Passengers\n906. Duty of Passenger for Own Safety\n907. Status of Passenger Disputed\n908. Duty to Protect Passengers From Assault\n909\u2013999. Reserved for Future Use\nSERIES 1000 PREMISES LIABILITY",
+  "tags": [
+    "assault",
+    "common_carrier",
+    "disability",
+    "duty"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

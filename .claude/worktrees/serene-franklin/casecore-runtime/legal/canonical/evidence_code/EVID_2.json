@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "2",
+  "title": "Liberal Construction",
+  "text": "The rule of the common law, that statutes in derogation thereof are to be strictly construed, has no application to this code. This code establishes the law of this state respecting the subject to which it relates, and its provisions are to be liberally construed with a view to effecting its objects and promoting justice.",
+  "tags": ["preliminary", "construction", "liberal_construction"],
+  "structure": {
+    "division": "1",
+    "division_title": "Preliminary Provisions and Construction",
+    "chapter": "",
+    "chapter_title": "",
+    "article": "",
+    "article_title": ""
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

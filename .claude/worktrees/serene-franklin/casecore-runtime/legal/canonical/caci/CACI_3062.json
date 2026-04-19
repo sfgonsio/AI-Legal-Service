@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "3062",
+  "title": "Gender Price Discrimination\u2014Essential Factual Elements",
+  "series": "3000",
+  "series_title": "Civil Rights (Statutory)",
+  "text": "(Civ. Code, \u00a7 51.6)\n[Name of plaintiff ] claims that [ name of defendant ] charged\n[him/her/nonbinary pronoun] a higher price for services because of [his/\nher/nonbinary pronoun] gender. To establish this claim, [ name of plaintiff ]\nmust prove all of the following:\n1. That [ name of defendant ] charged [ name of plaintiff ] more for\nservices of similar or like kind because of [his/her/ nonbinary\npronoun] gender;\n2. That [ name of plaintiff ] was harmed; and\n3. That [ name of defendant ]\u2019s conduct was a substantial factor in\ncausing [ name of plaintiff ]\u2019s harm.\nIt is not improper to charge a higher price for services if the price\ndifference is based on the amount of time, difficulty, or cost of providing\nthe services.\nNew September 2003; Renumbered from CACI No. 3022 December 2012; Revised\nJune 2013, July 2018",
+  "tags": [
+    "civil_rights"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "For an instruction on damages under Civil Code section 51.6, see CACI No. 3067,\nUnruh Civil Rights Act\u2014Damages . Note that the jury may award a successful\nplaintiff up to three times actual damages but not less than $4,000. (Civ. Code,\n\u00a7 52(a)); see also Civ. Code, \u00a7 52(h) [\u201cactual damages\u201d means special and general\ndamages].)\nIt is possible that elements 2 and 3 are not needed if only the statutory minimum\n$4,000 award is sought. With regard to the Unruh Act (Civ. Code, \u00a7 51), which is\nalso governed by Civil Code section 52(a), the California Supreme Court has held\nthat a violation is per se injurious, and that section 52 provides for minimum\nstatutory damages for every violation regardless of the plaintiff\u2019s actual damages.\n(See Koire v. Metro Car Wash (1985) 40 Cal.3d 24, 33 [219 Cal.Rptr. 133, 707 P .2d\n195].)\nThe judge may decide the issue of whether the defendant is a business establishment\nas a matter of law. ( Rotary Club of Duarte v. Bd. of Directors (1986) 178\nCal.App.3d 1035, 1050 [224 Cal.Rptr. 213].) Special interrogatories may be needed\nif there are factual issues. This element has been omitted from the instruction\nbecause it is unlikely to go to a jury.\nPrice discrimination based on age has been held to violate the Unruh Act, at least if\nthere is no statute-based policy supporting the differential. (See Candelore v. Tinder ,\n330\n\nInc. (2018) 19 Cal.App.5th 1138, 1146\u20131155 [228 Cal.Rptr.3d 336]; but see\nJavorsky v. Western Athletic Clubs, Inc. (2015) 242 Cal.App.4th 1386, 1402\u20131403\n[195 Cal. Rptr. 3d 706].)",
+  "sources_and_authority": "\u2022 Gender Price Discrimination. Civil Code section 51.6.\n\u2022 \u201cSection 51 by its express language applies only within California. It cannot\n(with its companion penalty provisions in \u00a7 52) be extended into the Hawaiian\njurisdiction. A state cannot regulate or proscribe activities conducted in another\nstate or supervise the internal affairs of another state in any way, even though\nthe welfare or health of its citizens may be affected when they travel to that\nstate.\u201d ( Archibald v. Cinerama Hawaiian Hotels, Inc. (1977) 73 Cal.App.3d 152,\n159 [140 Cal.Rptr. 599], internal citations omitted, disapproved on other grounds\nin Koire v. Metro Car Wash (1985) 40 Cal.3d 24 [219 Cal.Rptr. 133, 707 P .2d\n195].)\n\u2022 \u201c \u2018[D]iscounts must be \u201capplicable alike to persons of every sex, color, race,\n[and age, etc.]\u201d, instead of being contingent on some arbitrary, class-based\ngeneralization.\u2019 \u201d ( Candelore, supra, 19 Cal.App.5th at p. 1154.)"
+}

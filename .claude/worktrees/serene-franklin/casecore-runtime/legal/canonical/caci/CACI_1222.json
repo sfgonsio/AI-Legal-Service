@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "1222",
+  "title": "Negligence\u2014Manufacturer or Supplier\u2014Duty to Warn\u2014Essential Factual Elements",
+  "series": "1200",
+  "series_title": "Dangerous Condition of Public Property",
+  "text": "1223. Negligence\u2014Recall/Retro\ufb01t\n1224. Negligence\u2014Negligence for Product Rental/Standard of Care\n1225\u20131229. Reserved for Future Use\n1230. Express Warranty\u2014Essential Factual Elements",
+  "tags": [
+    "dangerous_condition",
+    "duty",
+    "negligence"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

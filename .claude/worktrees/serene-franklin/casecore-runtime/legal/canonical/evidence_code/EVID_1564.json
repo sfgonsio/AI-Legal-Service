@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "1564",
+  "title": "Personal Attendance of Custodian",
+  "text": "The personal attendance of the custodian or other qualified witness and the production of the original records is required if the subpoena duces tecum contains a clause which reads: 'The personal attendance of the custodian or other qualified witness and the production of the original records are required by this subpoena. The procedure authorized pursuant to subdivision (b) of Section 1560, and Sections 1561 and 1562, of the Evidence Code will not be deemed sufficient compliance with this subpoena.'",
+  "tags": ["personal_attendance", "custodian", "original_records", "subpoena"],
+  "structure": {
+    "division": "11",
+    "division_title": "Writings",
+    "chapter": "2",
+    "chapter_title": "Secondary Evidence of Writings",
+    "article": "4",
+    "article_title": "Production of Business Records"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

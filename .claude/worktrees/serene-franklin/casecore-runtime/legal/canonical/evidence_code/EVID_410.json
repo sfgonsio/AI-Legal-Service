@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "410",
+  "title": "Direct Evidence Defined",
+  "text": "As used in this chapter, \"direct evidence\" means evidence that directly proves a fact, without an inference or presumption, and which in itself, if true, conclusively establishes that fact.",
+  "tags": ["weight_of_evidence", "direct_evidence"],
+  "structure": {
+    "division": "3",
+    "division_title": "General Provisions",
+    "chapter": "5",
+    "chapter_title": "Weight of Evidence Generally",
+    "article": "",
+    "article_title": ""
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

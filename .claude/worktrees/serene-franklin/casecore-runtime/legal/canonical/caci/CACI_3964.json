@@ -1,0 +1,19 @@
+{
+  "code": "CACI",
+  "instruction_id": "3964",
+  "title": "Jurors Not to Consider Attorney Fees and Court Costs",
+  "series": "3950",
+  "series_title": "Punitive Damages",
+  "text": "Y ou must not consider, or include as part of any award, attorney fees or\nexpenses that the parties incurred in bringing or defending this lawsuit.\nNew June 2006",
+  "tags": [
+    "punitive_damages"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "This instruction is intended to prevent jurors from improperly factoring attorney fees\ninto their damage awards. Do not use this instruction in cases in which attorney fees\nare a jury issue."
+}

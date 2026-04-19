@@ -1,0 +1,21 @@
+{
+  "code": "BPC",
+  "section": "26060.1",
+  "title": "Section 26060.1",
+  "text": "(Amended by Stats. 2021, Ch. 70, Sec. 20. (AB 141) Effective July 12, 2021. Note: This section was added on Nov. 8, 2016, by initiative Prop. 64.)",
+  "tags": [
+    "cannabis"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Cannabis",
+    "chapter": "3",
+    "chapter_title": "Enforcement"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Scraped from authority_store raw data."
+  }
+}

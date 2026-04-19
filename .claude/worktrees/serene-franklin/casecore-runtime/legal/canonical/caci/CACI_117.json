@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "117",
+  "title": "Wealth of Parties",
+  "series": "100",
+  "series_title": "Pretrial",
+  "text": "In reaching a verdict, you may not consider the wealth or poverty of any\nparty. The parties\u2019 wealth or poverty is not relevant to any of the issues\nthat you must decide.\nNew November 2017",
+  "tags": [
+    "pretrial"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "This instruction may be given unless liability and punitive damages are to be\ndecided in a nonbifurcated trial. The defendant\u2019s wealth is relevant to punitive\ndamages. ( Adams v. Murakami (1991) 54 Cal.3d 105, 108 [284 Cal.Rptr. 318, 813\nP .2d 1348].) Otherwise, the wealth or lack of it is not relevant. ( Hoffman v. Brandt\n(1966) 65 Cal.2d 549, 552\u2013553 [55 Cal.Rptr. 417, 421 P .2d 425].) If this instruction\nis given in a nonbifurcated trial, it should be modi\ufb01ed to clarify that the prohibition\non considering wealth applies only to liability and compensatory damages, and not\nto punitive damages. For discussion of the role of a defendant\u2019s \ufb01nancial condition\nwith regard to punitive damages, see the punitive damages instructions in the\nDamages series, CACI Nos. 3940\u20133949.",
+  "sources_and_authority": "\u2022 \u201cJustice is to be accorded to rich and poor alike, and a deliberate attempt by\ncounsel to appeal to social or economic prejudices of the jury, including the\nwealth or poverty of the litigants, is misconduct where the asserted wealth or\npoverty is not relevant to the issues of the case. The possibility, even if true, that\na judgment for plaintiffs would mean that defendant would have to go to the\nLaguna Honda Home, had no relevance to the issues of the case, and the\nargument of defense counsel was clearly a transparent attempt to appeal to the\nsympathies of the jury on the basis of the claimed lack of wealth of the\ndefendant. As such, it was clearly misconduct.\u201d ( Hoffman, supra, 65 Cal.2d at\npp. 552\u2013553, internal citations omitted.)\n\u2022 \u201c[W]here liability and punitive damages are tried in a single proceeding,\nevidence of wealth is admissible. \u2018[W]hile in the ordinary action for damages\ninformation regarding the adversary\u2019s \ufb01nancial status is inadmissible, this is not\nso in an action for punitive damages. In such a case evidence of defendant\u2019s\n\ufb01nancial condition is admissible at the trial for the purpose of determining the\namount that it is proper to award [citations]. The relevancy of such evidence lies\nin the fact that punitive damages are not awarded for the purpose of rewarding\nthe plaintiff but to punish the defendant. Obviously, the trier of fact cannot\nmeasure the \u2018punishment\u2019 without knowledge of defendant\u2019s ability to respond to\na given award.\u2019 \u201d ( Las Palmas Associates v. Las Palmas Center Associates\n(1991) 235 Cal.App.3d 1220, 1243 [1 Cal.Rptr.2d 301], original italics.)\n\u2022 \u201cIn an action for damages, a showing of poverty of the plaintiff is highly\n38\n\nprejudicial; if such evidence is deliberately introduced, it may constitute\nreversible error.\u201d ( Hart v. Wielt (1970) 4 Cal.App.3d 224, 234 [84 Cal.Rptr.\n220].)"
+}

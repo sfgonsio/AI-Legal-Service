@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "3906",
+  "title": "Lost Earnings and Lost Earning Capacity\u2014Jurors Not to",
+  "series": "3700",
+  "series_title": "Damages",
+  "text": "Reduce Damages on Basis of Race, Ethnicity, or Gender\n(Economic Damage)\nIn determining a reasonable amount of [ name of plaintiff ]\u2019s [lost earnings/\n[and] lost ability to earn money], you must not use race, ethnicity, or\ngender as a basis for reducing [ name of plaintiff ]\u2019s [lost earnings/ [and]\nlost ability to earn money].\nNew November 2020",
+  "tags": [
+    "damages"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "Give this instruction in cases in which the plaintiff seeks damages for lost earnings\nand/or lost earning capacity from personal injury or wrongful death. Depending on\nthe circumstances, select the type(s) of damages at issue: lost earnings, lost ability\nto earn money, or both. If this instruction is used, it should follow the applicable\ninstruction(s) in the Items of Economic Damage series. See CACI No. 3903C, Past\nand Future Lost Earnings (Economic Damage) , and CACI No. 3903D, Lost Earning\nCapacity (Economic Damage) .",
+  "sources_and_authority": "\u2022 Estimations, Measures, or Calculations of Past, Present, or Future Damages.\nCivil Code section 3361."
+}

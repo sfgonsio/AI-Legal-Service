@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "1531",
+  "title": "Certificate of Officer of Record",
+  "text": "For the purposes of Section 1530, a certificate of a custodian of records in the office of the recorder of any county of this state is sufficient if it substantially states: 'I, the undersigned, the (title of office) of __________ County, State of California, do hereby certify that the foregoing is a full, true, and correct copy of the original record of __________, No. __________, on file in this office, and that I have compared the foregoing with the said original record and found the same to be a full, true, and correct copy thereof and of the whole of said original.'",
+  "tags": ["certificate", "custodian", "recorder", "county", "official"],
+  "structure": {
+    "division": "11",
+    "division_title": "Writings",
+    "chapter": "2",
+    "chapter_title": "Secondary Evidence of Writings",
+    "article": "2",
+    "article_title": "Official Writings and Recorded Writings"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

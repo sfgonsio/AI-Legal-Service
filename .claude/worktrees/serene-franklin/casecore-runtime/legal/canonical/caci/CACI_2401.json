@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "2401",
+  "title": "Breach of Employment Contract\u2014Unspeci\ufb01ed Term\u2014Actual or Constructive",
+  "series": "2400",
+  "series_title": "Elder Abuse",
+  "text": "Discharge\u2014Essential Factual Elements\n2402. Revoked November 2018\n2403. Breach of Employment Contract\u2014Unspeci\ufb01ed Term\u2014Implied-in-Fact Promise Not to\nDischarge Without Good Cause",
+  "tags": [
+    "breach",
+    "contract",
+    "elder_abuse"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

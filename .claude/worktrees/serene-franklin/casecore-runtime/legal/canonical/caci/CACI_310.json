@@ -1,0 +1,22 @@
+{
+  "code": "CACI",
+  "instruction_id": "310",
+  "title": "Contract Formation\u2014Acceptance by Silence",
+  "series": "300",
+  "series_title": "Negligence\u2014Essential Factual Elements",
+  "text": "Ordinarily, if a person does not say or do anything in response to\nanother party\u2019s offer, then the person has not accepted the offer.\nHowever, if [ name of plaintiff ] proves that both [he/she/ nonbinary pronoun/\nit] and [ name of defendant ] understood silence or inaction to mean that\n[name of defendant ] had accepted [ name of plaintiff ]\u2019s offer, then there was\nan acceptance.\nNew September 2003; Revised May 2020",
+  "tags": [
+    "contract",
+    "essential_elements",
+    "negligence"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "This instruction assumes that the defendant is claiming to have not accepted\nplaintiff\u2019s offer. Change the identities of the parties in the last two sets of brackets\nif, under the facts of the case, the roles of the parties are switched (e.g., if defendant\nwas the alleged offeror).\nThis instruction should be read in conjunction with and immediately after CACI\nNo. 309, Contract Formation\u2014Acceptance , if acceptance by silence is an issue.",
+  "sources_and_authority": "\u2022 Consent by Acceptance of Bene\ufb01ts. Civil Code section 1589.\n\u2022 Because acceptance must be communicated, \u201c[s]ilence in the face of an offer is\nnot an acceptance, unless there is a relationship between the parties or a previous\ncourse of dealing pursuant to which silence would be understood as acceptance.\u201d\n(Southern California Acoustics Co., Inc. v. C. V . Holder , Inc. (1969) 71 Cal.2d\n719, 722 [79 Cal.Rptr. 319, 456 P .2d 975].)\n\u2022 Acceptance may also be inferred from inaction where one has a duty to act, and\nfrom retention of the offered bene\ufb01t. ( Golden Eagle Insurance Co. v. Foremost\nInsurance Co. (1993) 20 Cal.App.4th 1372, 1386 [25 Cal.Rptr.2d 242].)"
+}

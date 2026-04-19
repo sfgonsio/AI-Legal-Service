@@ -1,0 +1,19 @@
+{
+  "code": "CACI",
+  "instruction_id": "707",
+  "title": "Speed Limit (Veh. Code, \u00a7 22352)",
+  "series": "700",
+  "series_title": "Intentional Torts",
+  "text": "The speed limit where the accident occurred was [ insert number ] miles\nper hour.\nThe speed limit is a factor to consider when you decide whether or not\n[name of plaintiff/name of defendant ] was negligent. A driver is not\nnecessarily negligent just because the driver was driving faster than the\nspeed limit. However, a driver may be negligent even if the driver was\ndriving at or below the speed limit.\nNew September 2003; Revised May 2020",
+  "tags": [
+    "intentional_tort"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "sources_and_authority": "\u2022 Speed Limits. V ehicle Code section 22352.\n\u2022 Speeding as Negligence. V ehicle Code section 40831.\n\u2022 A party is entitled to an instruction that the prima facie speed limit is a factor\nfor the jury to consider in making its negligence determination. ( Hardin v. San\nJose City Lines, Inc. (1953) 41 Cal.2d 432, 439 [260 P .2d 63].)\n\u2022 \u201cThe mere driving of an automobile in excess of the speed limit does not show\nnegligence as a matter of law. The jury was free to \ufb01nd [defendant] not guilty of\nnegligence even if they found that he was exceeding the speed limit.\u201d ( Williams\nv. Cole (1960) 181 Cal.App.2d 70, 74 [5 Cal.Rptr. 24], internal citations\nomitted.)\n\u2022 The burden of proving negligence in a civil action is on the party charging\nnegligence, and even if such party has established speed in excess of the\napplicable prima facie limit the party must establish negligence under the\ncircumstances. ( Faselli v. Southern Paci\ufb01c Co. (1957) 150 Cal.App.2d 644, 648\n[310 P .2d 698].)\n\u2022 \u201cEven though the Texaco truck was traveling at a speed less than the maximum\nspeci\ufb01ed in the V ehicle Code, the reasonableness of its speed was a question of\nfact under all the circumstances, and circumstances may make travel at a speed\nless than the maximum rate a negligent operation of a motor vehicle.\u201d ( Scott v.\nTexaco, Inc. (1966) 239 Cal.App.2d 431, 436\u2013437 [48 Cal.Rptr. 785], internal\ncitations omitted.)"
+}

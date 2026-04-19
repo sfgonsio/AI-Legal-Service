@@ -1,0 +1,41 @@
+{
+  "section_id": "EC-600",
+  "code": "EVID",
+  "section": "600",
+  "title": "Presumptions and Inferences Defined",
+  "text": "(a) A presumption is an assumption of fact that the law requires to be made from another fact or group of facts found or otherwise established in the action. A presumption is not evidence.\n(b) An inference is a deduction of fact that may logically and reasonably be drawn from another fact or group of facts found or otherwise established in the action.",
+  "notes": "Critical distinction: presumptions are legal rules, not evidence.",
+  "rule_type": "presumption",
+  "rule_type_confidence": "heuristic",
+  "applies_to": [],
+  "evidentiary_standard": null,
+  "foundation_requirements": [],
+  "cross_refs": [],
+  "coa_relevance": [],
+  "exclusion_grounds": [],
+  "tags": [
+    "presumption",
+    "inference",
+    "not_evidence"
+  ],
+  "structure": {
+    "division": "5",
+    "division_title": "Burden of Proof; Burden of Producing Evidence; Presumptions and Inferences",
+    "chapter": "3",
+    "chapter_title": null,
+    "article": "1",
+    "article_title": null
+  },
+  "canonical_type": "source",
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": null
+  },
+  "effective_date": null,
+  "schema_version": "1.0",
+  "pass1_complete": true,
+  "pass2_complete": false,
+  "source_file": "EVID_600.json"
+}

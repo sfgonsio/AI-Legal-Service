@@ -1,0 +1,13 @@
+﻿endpoint: /api/casecore/workflows/status
+method: GET
+
+response:
+  required:
+    - run_id
+    - matter_id
+    - workflow_state
+    - step_statuses
+
+rules:
+  - status must reflect governed workflow state
+  - response may not imply completion where failure exists

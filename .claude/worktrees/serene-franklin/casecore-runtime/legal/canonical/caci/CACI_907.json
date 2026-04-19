@@ -1,0 +1,19 @@
+{
+  "code": "CACI",
+  "instruction_id": "907",
+  "title": "Status of Passenger Disputed",
+  "series": "900",
+  "series_title": "Common Carriers",
+  "text": "SERIES 1000 PREMISES LIABILITY\n1009B. Liability to Employees of Independent Contractors for Unsafe Conditions\u2014Retained Control\nSERIES 2500 FAIR EMPLOYMENT AND HOUSING ACT\n2500. Disparate Treatment\u2014Essential Factual Elements (Gov. Code, \u00a7 12940(a))",
+  "tags": [
+    "common_carrier",
+    "contract"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

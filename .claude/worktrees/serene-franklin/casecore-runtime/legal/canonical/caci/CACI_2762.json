@@ -1,0 +1,19 @@
+{
+  "code": "CACI",
+  "instruction_id": "2762",
+  "title": "Rest Break Violations\u2014Pay Owed",
+  "series": "2700",
+  "series_title": "Labor Code Actions",
+  "text": "2763\u20132764. Reserved for Future Use\n2765. Meal Break Violations\u2014Introduction (Lab. Code, \u00a7\u00a7 226.7, 512)\n2766A. Meal Break Violations\u2014Essential Factual Elements (Lab. Code, \u00a7\u00a7 226.7, 512)\n2766B. Meal Break Violations\u2014Rebuttable Presumption\u2014Employer Records",
+  "tags": [
+    "labor_code",
+    "presumption"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

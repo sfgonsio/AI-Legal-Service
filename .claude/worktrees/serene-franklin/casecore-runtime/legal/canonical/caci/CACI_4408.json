@@ -1,0 +1,21 @@
+{
+  "code": "CACI",
+  "instruction_id": "4408",
+  "title": "Improper Means of Acquiring Trade Secret",
+  "series": "4400",
+  "series_title": "Partition",
+  "text": "Improper means of acquiring a trade secret or knowledge of a trade\nsecret include, but are not limited to, [theft/bribery/misrepresentation/\nbreach or inducing a breach of a duty to maintain secrecy/ [or]\nwiretapping, electronic eavesdropping, [or] [ insert other means of\nespionage]].\n[However, it is not improper to acquire a trade secret or knowledge of\nthe trade secret by [any of the following]:\n[1. Independent efforts to invent or discover the information;]\n[2. Reverse engineering; that is, examining or testing a product to\ndetermine how it works, by a person who has a right to possess\nthe product;]\n[3. Obtaining the information as a result of a license agreement with\nthe owner of the information;]\n[4. Observing the information in public use or on public display;]\n[or]\n[5. Obtaining the information from published literature, such as\ntrade journals, reference books, the Internet, or other publicly\navailable sources.]]\nNew December 2007",
+  "tags": [
+    "breach",
+    "duty"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "In the \ufb01rst paragraph, include only those statutory examples of \u201cimproper means\u201d\nsupported by the evidence. (See Civ. Code, \u00a7 3426.1(a).) The option for\n\u201cwiretapping, eavesdropping, [or] [ insert other means of espionage ]\u201d expresses the\nstatutory term \u201cespionage.\u201d\nInclude the optional last paragraph if any of those methods of obtaining the\ninformation are supported by the evidence. Omit any methods that are not at issue.\nIf only one is at issue, omit \u201cany of the following.\u201d",
+  "sources_and_authority": "\u2022 \u201cImproper Means\u201d De\ufb01ned. Civil Code section 3426.1(a).\n\u2022 Electronic Eavesdropping. Penal Code section 630.\n\u2022 \u201cThe Restatement of Torts, Section 757, Comment (f), notes: \u2018A complete\ncatalogue of improper means is not possible,\u2019 but Section 1(1) includes a partial\nlisting. Proper means include: 1. Discovery by independent invention; 2.\nDiscovery by \u201creverse engineering,\u201d that is, by starting with the known product\nand working backward to \ufb01nd the method by which it was developed. The\n1253\n\nacquisition of the known product must of course, also be by a fair and honest\nmeans, such as purchase of the item on the open market for reverse engineering\nto be lawful; 3. Discovery under a license from the owner of the trade secret; 4.\nObservation of the item in public use or on public display; 5. Obtaining the trade\nsecret from published literature. . . . [T]he assertion that a matter is readily\nascertainable by proper means remains available as a defense to a claim of\nmisappropriation. Information is readily ascertainable if it is available in trade\njournals, reference books, or published materials.\u201d (Civ. Code, \u00a7 3426.1, Legis.\nComm. Comment (Senate), 1984 Addition.)"
+}

@@ -1,9 +1,75 @@
 slice_id: ""
 slice_name: ""
-allowed_files: []
-forbidden_files: []
-required_fields: []
-forbidden_fields: []
-allowed_endpoints: []
-forbidden_endpoints: []
-validation_rules: []
+slice_type: "backend|frontend|fullstack|governance"
+status: "draft"
+
+purpose: ""
+business_outcome: ""
+non_goals: []
+
+authoritative_inputs:
+  required_files: []
+  required_patterns: []
+  required_runtime_artifacts: []
+
+scope:
+  allowed_files: []
+  forbidden_files: []
+  allowed_operations:
+    - create
+    - modify
+  forbidden_operations:
+    - rename
+    - delete
+    - broad_refactor
+    - migration_without_approval
+
+source_of_truth:
+  state_owner: []
+  history_owner: []
+  read_models: []
+  proposal_only_artifacts: []
+
+semantic_rules:
+  required_fields: []
+  forbidden_fields: []
+  deprecated_fields: []
+  allowed_enums: {}
+  forbidden_semantics: []
+
+api_contract:
+  allowed_endpoints: []
+  forbidden_endpoints: []
+  response_requirements: []
+  forbidden_response_fields: []
+
+data_protection:
+  protected_tables: []
+  protected_buckets: []
+  protected_paths: []
+  backup_required: false
+  preservation_requirements: []
+
+validation:
+  required_checks: []
+  forbidden_patterns: []
+  compile_required: true
+  tests_required: true
+
+execution:
+  response_format:
+    - validation
+    - drift_check
+    - patch_plan
+    - code
+  stop_on_ambiguity: true
+  patch_only: true
+  explanation_mode: "minimal"
+  generation_controls:
+    temperature: 0
+    bounded_scope: true
+    uncontrolled_retries_forbidden: true
+
+approvals:
+  required_agents: []
+  promotion_gate: []

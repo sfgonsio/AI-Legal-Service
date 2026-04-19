@@ -1,0 +1,26 @@
+{
+  "code": "EVID",
+  "section": "1320",
+  "title": "Reputation Concerning Community History",
+  "text": "Evidence of reputation in a community is not made inadmissible by the hearsay rule if the reputation concerns an event of general history of the community or of the state or nation of which the community is a part and the event was of importance to the community.",
+  "tags": [
+    "hearsay",
+    "exception",
+    "reputation",
+    "community_history"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Hearsay Evidence",
+    "chapter": "2",
+    "chapter_title": "Hearsay Exceptions",
+    "article": "12",
+    "article_title": "Reputation and Statements Concerning Community History, Property Interests, and Character"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

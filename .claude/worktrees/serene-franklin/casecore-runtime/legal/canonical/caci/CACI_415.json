@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "415",
+  "title": "Employee Required to Work in Dangerous Situations",
+  "series": "400",
+  "series_title": "Negligence",
+  "text": "An employee required to work under dangerous conditions must use the\namount of care for [his/her/ nonbinary pronoun] own safety that a\nreasonably careful employee would use under the same conditions.\nIn deciding whether [ name of plaintiff ] was negligent, you should consider\nhow much attention [his/her/ nonbinary pronoun] work demanded. Y ou\nshould also consider whether [ name of plaintiff ]\u2019s job required [him/her/\nnonbinary pronoun] to take risks that a reasonably careful person would\nnot normally take under ordinary circumstances.\nNew September 2003",
+  "tags": [
+    "negligence"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "This type of instruction should not be given in cases involving freeway collisions\nbetween private and commercial vehicles. ( Shuff v. Irwindale Trucking Co. (1976)\n62 Cal.App.3d 180, 187 [132 Cal.Rptr. 897].)\nAn instruction on this principle is \u201caimed at situations where the employment\nconditions lessen the plaintiff\u2019s ability to take precautions.\u201d ( V on Beltz v. Stuntman,\nInc. (1989) 207 Cal.App.3d 1467, 1485 [255 Cal.Rptr. 755].) It does not apply\nwhere the plaintiff has ample opportunity to consider various precautions ( ibid.) or\nwhen employees act pursuant to choice rather than necessity. ( Roberts v. Guillory\n(1972) 25 Cal.App.3d 859, 861\u2013862].)",
+  "sources_and_authority": "\u2022 This type of instruction \u201csoften[ed] the impact of instructing on the issue of\ncontributory negligence\u201d ( Young v. Aro Corp. (1974) 36 Cal.App.3d 240, 244\n[111 Cal.Rptr. 535]) at a time when contributory negligence was a complete bar\nto a plaintiff\u2019s recovery. The instruction may be given in cases involving\ncomparative fault. (See, e.g., Johnson v. Tosco Corp. (1991) 1 Cal.App.4th 123,\n136\u2013137 [1 Cal.Rptr.2d 747].)\n\u2022 \u201cIt has long been recognized that \u2018where a person must work in a position of\npossible danger the amount of care which he is bound to exercise for his own\nsafety may well be less by reason of the necessity of his giving attention to his\nwork than would otherwise be the case.\u2019 [Citations].\u201d ( Austin v. Riverside\nPortland Cement Co. (1955) 44 Cal.2d 225, 239 [282 P .2d 69].)\n\u2022 \u201cConsidered in the light of the realities of his working life, the laborer\u2019s duty\nmay become considerably restricted in scope. In some instances he may \ufb01nd\nhimself powerless to abandon the task at hand with impunity whenever he senses\na possible danger; in others, he may be uncertain as to which person has\nsupervision of the job or control of the place of employment, and therefore\nunsure as to whom he should direct his complaint; in still others, having been\n257\n\nencouraged to continue working under conditions where danger lurks but has not\nmaterialized, he may be baffled in making an on-the-spot decision as to the\nimminence of harm. All of these factors enter into a determination whether his\nconduct falls below a standard of due care.\u201d ( Gyerman v. United States Lines\nCo. (1972) 7 Cal.3d 488, 501 [102 Cal.Rptr. 795, 498 P .2d 1043], citation\nomitted.)"
+}

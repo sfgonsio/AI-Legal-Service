@@ -1,0 +1,25 @@
+{
+  "code": "BPC",
+  "section": "26154",
+  "title": "Section 26154",
+  "text": "A licensee shall not include on the label of any cannabis or cannabis product or publish or disseminate advertising or marketing containing any health-related statement that is untrue in any particular manner or tends to create a misleading impression as to the effects on health of cannabis consumption. (Amended by Stats. 2017, Ch. 27, Sec. 88. (SB 94) Effective June 27, 2017. Note: This section was added on Nov. 8, 2016, by initiative Prop. 64.)",
+  "tags": [
+    "packaging",
+    "licensing",
+    "cannabis",
+    "testing",
+    "advertising"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Cannabis",
+    "chapter": "15",
+    "chapter_title": "Advertising and Marketing Restrictions"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Scraped from authority_store raw data."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "code": "CACI",
+  "instruction_id": "306",
+  "title": "Unformalized Agreement",
+  "series": "300",
+  "series_title": "Negligence\u2014Essential Factual Elements",
+  "text": "[Name of defendant ] contends that the parties did not enter into a\ncontract because they had not signed a \ufb01nal written agreement. To prove\nthat a contract was created, [ name of plaintiff ] must prove both of the\nfollowing:\n1. That the parties understood and agreed to the terms of the\nagreement; and\n2. That the parties agreed to be bound before a written agreement\nwas completed and signed.\nNew September 2003; Revised December 2012, May 2020",
+  "tags": [
+    "contract",
+    "essential_elements",
+    "negligence"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "Give this instruction if the parties agreed to contract terms with the intention of\nreducing their agreement to a written and signed contract, but an alleged breach\noccurred before the written contract was completed and signed. For other situations\ninvolving the lack of a \ufb01nal written contract, see CACI No. 304, Oral or Written\nContract Terms, and CACI No. 305, Implied-in-Fact Contract .\nDo not give this instruction unless the defendant has testi\ufb01ed or offered other\nevidence in support of the contention.",
+  "sources_and_authority": "\u2022 \u201cWhere the writing at issue shows \u2018no more than an intent to further reduce the\ninformal writing to a more formal one\u2019 the failure to follow it with a more\nformal writing does not negate the existence of the prior contract. However,\nwhere the writing shows it was not intended to be binding until a formal written\ncontract is executed, there is no contract.\u201d ( Harris v. Rudin, Richman & Appel\n(1999) 74 Cal.App.4th 299, 307 [87 Cal.Rptr.2d 822], internal citations omitted.)\n\u2022 \u201c[I]f the respective parties orally agreed upon all of the terms and conditions of\na proposed written agreement with the mutual intention that the oral agreement\nshould thereupon become binding, the mere fact that a formal written agreement\nto the same effect has not yet been signed does not alter the binding validity of\nthe oral agreement. [Citation.]\u201d ( Banner Entertainment, Inc. v. Superior Court\n(1998) 62 Cal.App.4th 348, 358 [72 Cal.Rptr.2d 598].)\n\u2022 \u201cThus, where it is part of the understanding between the parties that the terms of\ntheir contract are to be reduced to writing and signed by the parties, the assent to\nits terms must be evidenced in the manner agreed upon or it does not become a\nbinding or completed contract.\u201d ( Beck v. American Health Group Internat., Inc.\n(1989) 211 Cal.App.3d 1555, 1562 [260 Cal.Rptr. 237].)\n\u2022 \u201cWhether it was the parties\u2019 mutual intention that their oral agreement to the\n100\n\nterms contained in a proposed written agreement should be binding immediately\nis to be determined from the surrounding facts and circumstances of a particular\ncase and is a question of fact for the trial court.\u201d ( Banner Entertainment, Inc.,\nsupra, 62 Cal.App.4th at p. 358.)\n\u2022 \u201c[W]hen parties agree on the material terms of a contract with the intention to\nlater reduce it to a formal writing, failure to complete the formal writing does\nnot negate the existence of the initial contract. If the parties do not agree on the\ncontent of the formal writing (for example because one party wants to include\nsomething not agreed on in the \ufb01rst place, as [defendant] says happened here),\nthe proposed writing is not a counteroffer; rather, the initial agreement remains\nbinding and a rejected writing is a nullity.\u201d ( CSAA Ins. Exchange v. Hodroj\n(2021) 72 Cal.App.5th 272, 276 [287 Cal.Rptr.3d 264].)"
+}

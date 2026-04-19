@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "8",
+  "title": "Tense",
+  "text": "The present tense includes the past and future tenses; and the future, the present.",
+  "tags": ["preliminary", "construction", "tense"],
+  "structure": {
+    "division": "1",
+    "division_title": "Preliminary Provisions and Construction",
+    "chapter": "",
+    "chapter_title": "",
+    "article": "",
+    "article_title": ""
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

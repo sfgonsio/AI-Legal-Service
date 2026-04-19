@@ -1,0 +1,41 @@
+{
+  "section_id": "EC-630",
+  "code": "EVID",
+  "section": "630",
+  "title": "Presumptions Affecting the Burden of Producing Evidence Defined",
+  "text": "The presumptions established by this article, and all other rebuttable presumptions established by law that fall within the criteria of Section 603, are presumptions affecting the burden of producing evidence.",
+  "notes": "Defines presumptions that shift the burden of producing evidence.",
+  "rule_type": "presumption",
+  "rule_type_confidence": "heuristic",
+  "applies_to": [],
+  "evidentiary_standard": null,
+  "foundation_requirements": [],
+  "cross_refs": [],
+  "coa_relevance": [],
+  "exclusion_grounds": [],
+  "tags": [
+    "presumption",
+    "burden_of_production",
+    "rebuttable"
+  ],
+  "structure": {
+    "division": "5",
+    "division_title": "Burden of Proof; Burden of Producing Evidence; Presumptions and Inferences",
+    "chapter": "3",
+    "chapter_title": null,
+    "article": "3",
+    "article_title": null
+  },
+  "canonical_type": "source",
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": null
+  },
+  "effective_date": null,
+  "schema_version": "1.0",
+  "pass1_complete": true,
+  "pass2_complete": false,
+  "source_file": "EVID_630.json"
+}

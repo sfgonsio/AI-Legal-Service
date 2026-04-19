@@ -1,0 +1,18 @@
+{
+  "code": "CACI",
+  "instruction_id": "1792",
+  "title": ". . . . . . . . . . . . . . . . . . . . . . . . .3210",
+  "series": "1700",
+  "series_title": "Wrongful Death",
+  "text": "1792.1. . . . . . . . . . . . . . . . . . . . . . . . .3211\n1792.2(a) . . . . . . . . . . . . . . . . . . . . . . . 3211\n1792.3 . . . . . . . . . . . . . . . . . . . . . 3211, 3221\n1792.4. . . . . . . . . . . . . . . . . . . . . . . . .3221\n1792.4(b) . . . . . . . . . . . . . . . . . . . . . . . 3221\n1792.5. . . . . . . . . . . . . . . . . . . . . . . . .3221",
+  "tags": [
+    "wrongful_death"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

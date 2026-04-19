@@ -1,0 +1,26 @@
+{
+  "code": "EVID",
+  "section": "986",
+  "title": "Exception — Juvenile Court",
+  "text": "There is no privilege under this article in a proceeding under the Juvenile Court Law, Chapter 2 (commencing with Section 200) of Part 1 of Division 2 of the Welfare and Institutions Code.",
+  "tags": [
+    "privilege",
+    "marital",
+    "exception",
+    "juvenile_court"
+  ],
+  "structure": {
+    "division": "8",
+    "division_title": "Privileges",
+    "chapter": "4",
+    "chapter_title": "Particular Privileges",
+    "article": "5",
+    "article_title": "Privilege for Confidential Marital Communications"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Amended by Stats. 1982, Ch. 256, Sec. 2."
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "code": "EVID",
+  "section": "1060",
+  "title": "Trade Secret Privilege",
+  "text": "If he or his agent or employee claims the privilege, the owner of a trade secret has a privilege to refuse to disclose the secret, and to prevent another from disclosing it, if the allowance of the privilege will not tend to conceal fraud or otherwise work injustice.",
+  "tags": [
+    "privilege",
+    "trade_secret",
+    "fraud_exception",
+    "agent_core",
+    "deposition_relevant",
+    "trial_relevant",
+    "intake_critical"
+  ],
+  "structure": {
+    "division": "8",
+    "division_title": "Privileges",
+    "chapter": "4",
+    "chapter_title": "Particular Privileges",
+    "article": "11",
+    "article_title": "Trade Secret"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

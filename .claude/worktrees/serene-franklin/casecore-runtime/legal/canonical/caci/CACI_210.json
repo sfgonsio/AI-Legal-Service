@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "210",
+  "title": "Requests for Admissions",
+  "series": "200",
+  "series_title": "Contracts",
+  "text": "Before trial, each party has the right to ask another party to admit in\nwriting that certain matters are true. If the other party admits those\nmatters, you must accept them as true. No further evidence is required\nto prove them.\n[However, these matters must be considered true only as they apply to\nthe party who admitted they were true.]\nNew September 2003",
+  "tags": [
+    "contracts"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "The bracketed phrase should be given if there are multiple parties.",
+  "sources_and_authority": "\u2022 Requests for Admission. Code of Civil Procedure section 2033.010.\n\u2022 \u201cAs Professor Hogan points out, \u2018[t]he request for admission differs\nfundamentally from the other \ufb01ve discovery tools (depositions, interrogatories,\ninspection demands, medical examinations, and expert witness exchanges). These\nother devices have as their main thrust the uncovering of factual data that may\nbe used in proving things at trial. The request for admission looks in the\nopposite direction. It is a device that seeks to eliminate the need for proof in\ncertain areas of the case.\u2019 \u201d ( Brigante v. Huang (1993) 20 Cal.App.4th 1569,\n1577 [25 Cal.Rptr.2d 354] (quoting 1 Hogan, Modern California Discovery (4th\ned. 1988) \u00a7 9.1, p. 533).)\n\u2022 All parties to the action may rely on admissions. (See Swedberg v. Christiana\nCommunity Builders (1985) 175 Cal.App.3d 138, 143 [220 Cal.Rptr. 544].)"
+}

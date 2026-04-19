@@ -1,0 +1,27 @@
+{
+  "code": "EVID",
+  "section": "940",
+  "title": "Privilege Against Self-Incrimination",
+  "text": "To the extent that such privilege exists under the Constitution of the United States or the State of California, a person has a privilege to refuse to disclose any matter that may tend to incriminate him.",
+  "tags": [
+    "privilege",
+    "self_incrimination",
+    "fifth_amendment",
+    "deposition_relevant",
+    "agent_core"
+  ],
+  "structure": {
+    "division": "8",
+    "division_title": "Privileges",
+    "chapter": "4",
+    "chapter_title": "Particular Privileges",
+    "article": "2",
+    "article_title": "Privilege Against Self-Incrimination"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

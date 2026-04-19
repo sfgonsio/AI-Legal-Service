@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "5004",
+  "title": "Service Provider for Juror With Disability",
+  "series": "5000",
+  "series_title": "Concluding Instructions",
+  "text": "[Name or number of juror ] has been assisted by [a/an] [ insert type of\nservice provider] to communicate and receive information. The [ service\nprovider] will be with you during your deliberations. Y ou may not discuss\nthe case with the [ service provider]. The [ service provider] is not a\nmember of the jury and is not to participate in the deliberations in any\nway other than as necessary to provide the service to [ name or number of\njuror].\nAll jurors must be able to fully participate in deliberations. In order to\nallow the [ service provider] to properly assist [ name or number of juror ],\njurors should not talk at the same time and should not have side\nconversations. Jurors should speak directly to [ name or number of juror ],\nnot to the [ service provider].\n[Two [service providers] will be present during deliberations and will take\nturns in assisting [ name or number of juror ].]\nNew September 2003; Revised April 2004, December 2012",
+  "tags": [
+    "disability"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "If this instruction is used, the advisory committee recommends that it be read to the\njury before reading instructions on the substantive law.",
+  "sources_and_authority": "\u2022 Eligibility to Serve as Juror. Code of Civil Procedure section 203(a)(6).\n\u2022 Service Provider for Juror With Disability. Code of Civil Procedure section 224."
+}

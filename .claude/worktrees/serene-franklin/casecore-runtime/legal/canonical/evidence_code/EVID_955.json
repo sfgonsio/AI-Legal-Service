@@ -1,0 +1,26 @@
+{
+  "code": "EVID",
+  "section": "955",
+  "title": "Lawyer Must Claim Privilege When Present",
+  "text": "The lawyer who received or made a communication subject to the privilege under this article shall claim the privilege whenever he is present when the communication is sought to be disclosed and is authorized to claim the privilege under subdivision (c) of Section 954.",
+  "tags": [
+    "attorney_client",
+    "privilege",
+    "mandatory_claim",
+    "deposition_relevant"
+  ],
+  "structure": {
+    "division": "8",
+    "division_title": "Privileges",
+    "chapter": "4",
+    "chapter_title": "Particular Privileges",
+    "article": "3",
+    "article_title": "Lawyer-Client Privilege"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

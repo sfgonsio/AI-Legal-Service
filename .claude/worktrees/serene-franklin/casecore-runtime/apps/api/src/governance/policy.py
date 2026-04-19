@@ -1,0 +1,27 @@
+﻿from src.schemas.retrieval import RetrievalMode
+
+
+MODE_ALLOWED_SOURCE_CLASSES: dict[RetrievalMode, list[str]] = {
+    "AUTHORITATIVE_ONLY": ["AUTHORITATIVE_PRIMARY"],
+    "AUTHORITATIVE_PLUS_SECONDARY": [
+        "AUTHORITATIVE_PRIMARY",
+        "AUTHORITATIVE_SECONDARY",
+    ],
+    "EXPLORATORY_ALLOWED": [
+        "AUTHORITATIVE_PRIMARY",
+        "AUTHORITATIVE_SECONDARY",
+        "EXPLORATORY",
+    ],
+    "COMPARATIVE_RESEARCH": [
+        "AUTHORITATIVE_PRIMARY",
+        "AUTHORITATIVE_SECONDARY",
+        "EXPLORATORY",
+    ],
+    "BROAD_RESEARCH": [
+        "AUTHORITATIVE_PRIMARY",
+        "AUTHORITATIVE_SECONDARY",
+        "EXPLORATORY",
+        "UNTRUSTED",
+    ],
+}
+

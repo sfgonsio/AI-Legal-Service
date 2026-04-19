@@ -1,0 +1,21 @@
+{
+  "code": "CACI",
+  "instruction_id": "1301",
+  "title": "Assault\u2014Essential Factual Elements",
+  "series": "1300",
+  "series_title": "Employment",
+  "text": "[Name of plaintiff ] claims that [ name of defendant ] assaulted\n[him/her/nonbinary pronoun]. To establish this claim, [ name of plaintiff ]\nmust prove all of the following:\n[1. That [ name of defendant ] acted, intending to cause harmful [or\noffensive] contact;\n2. That [ name of plaintiff ] reasonably believed that [he/she/ nonbinary\npronoun] was about to be touched in a harmful [or an offensive]\nmanner;]\n2. [or]\n[1. That [ name of defendant ] threatened to touch [ name of plaintiff ] in\na harmful [or an offensive] manner;\n2. That it reasonably appeared to [ name of plaintiff ] that [ name of\ndefendant] was about to carry out the threat;]\n3. That [ name of plaintiff ] did not consent to [ name of defendant ]\u2019s\nconduct;\n4. That [ name of plaintiff ] was harmed; and\n5. That [ name of defendant ]\u2019s conduct was a substantial factor in\ncausing [ name of plaintiff ]\u2019s harm.\n[A touching is offensive if it offends a reasonable sense of personal\ndignity.]\n[Words alone do not amount to an assault.]\nNew September 2003; Revised October 2004, June 2005",
+  "tags": [
+    "assault",
+    "employment"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "For a de\ufb01nition of \u201cintent,\u201d see CACI No. 1320, Intent. The last bracketed sentence\nshould be read in cases in which there is a dispute as to whether the defendant\u2019s\nconduct involved more than words.",
+  "sources_and_authority": "\u2022 \u201cThe essential elements of a cause of action for assault are: (1) defendant acted\nwith intent to cause harmful or offensive contact, or threatened to touch plaintiff\nin a harmful or offensive manner; (2) plaintiff reasonably believed she was about\nto be touched in a harmful or offensive manner or it reasonably appeared to\nplaintiff that defendant was about to carry out the threat; (3) plaintiff did not\nconsent to defendant\u2019s conduct; (4) plaintiff was harmed; and (5) defendant\u2019s\nconduct was a substantial factor in causing plaintiff\u2019s harm.\u201d ( So v. Shin (2013)\n855\n\n212 Cal.App.4th 652, 668\u2212669 [151 Cal.Rptr.3d 257] [citing this instruction].)\n\u2022 \u201c \u2018Generally speaking, an assault is a demonstration of an unlawful intent by one\nperson to in\ufb02ict immediate injury on the person of another then present.\u2019 \u201d\n(Plotnik v. Meihaus (2012) 208 Cal. App. 4th 1590, 1603\u20131604 [146 Cal.Rptr.3d\n585].)\n\u2022 \u201cA civil action for assault is based upon an invasion of the right of a person to\nlive without being put in fear of personal harm.\u201d ( Lowry v. Standard Oil Co. of\nCalifornia (1944) 63 Cal.App.2d 1, 6\u20137 [146 P .2d 57], internal citation omitted.)\n\u2022 \u201cThe tort of assault is complete when the anticipation of harm occurs.\u201d ( Kiseskey\nv. Carpenters\u2019 Trust for Southern California (1983) 144 Cal.App.3d 222, 232\n[192 Cal.Rptr 492].)\n\u2022 \u201cFurthermore, . . . \u2018while apprehension of that contact is the basis of assault\n[citation,] [m]ere words, however threatening, will not amount to an assault.\n[Citations.]\u2019 \u201d ( Plotnik, supra, 208 Cal.App.4th at p. 1604.)\n\u2022 Restatement Second of Torts, section 21 provides:\n(1) An actor is subject to liability to another for assault if\n(a) he acts intending to cause a harmful or offensive contact\nwith the person of the other or a third person, or an imminent\napprehension of such a contact, and\n(b) the other is thereby put in such imminent apprehension.\n(2) An action which is not done with the intention stated in\nSubsection (1, a) does not make the actor liable to the other for an\napprehension caused thereby although the act involves an\nunreasonable risk of causing it and, therefore, would be negligent or\nreckless if the risk threatened bodily harm."
+}

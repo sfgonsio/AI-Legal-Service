@@ -1,0 +1,43 @@
+{
+  "section_id": "EC-550",
+  "code": "EVID",
+  "section": "550",
+  "title": "Burden of Producing Evidence",
+  "text": "(a) The burden of producing evidence as to a particular fact is on the party against whom a finding on that fact would be required in the absence of further evidence.\n(b) The burden of producing evidence as to a particular fact is initially on the party with the burden of proof as to that fact.",
+  "notes": "Defines which party must produce evidence to avoid an adverse finding and how that burden initially aligns with burden of proof.",
+  "rule_type": "burden",
+  "rule_type_confidence": "heuristic",
+  "applies_to": [],
+  "evidentiary_standard": null,
+  "foundation_requirements": [],
+  "cross_refs": [],
+  "coa_relevance": [],
+  "exclusion_grounds": [],
+  "tags": [
+    "burden_of_production",
+    "evidence_threshold",
+    "prima_facie",
+    "shifting_burden",
+    "fact_determination"
+  ],
+  "structure": {
+    "division": "5",
+    "division_title": "Burden of Proof; Burden of Producing Evidence; Presumptions and Inferences",
+    "chapter": "2",
+    "chapter_title": "Burden of Producing Evidence",
+    "article": null,
+    "article_title": null
+  },
+  "canonical_type": "source",
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "(Enacted by Stats. 1965, Ch. 299.)"
+  },
+  "effective_date": null,
+  "schema_version": "1.0",
+  "pass1_complete": true,
+  "pass2_complete": false,
+  "source_file": "EVID_550.json"
+}

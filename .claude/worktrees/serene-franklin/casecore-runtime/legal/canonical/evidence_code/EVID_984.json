@@ -1,0 +1,26 @@
+{
+  "code": "EVID",
+  "section": "984",
+  "title": "Exception — Proceeding Between Spouses",
+  "text": "There is no privilege under this article in:\n(a) A proceeding brought by or on behalf of one spouse against the other spouse.\n(b) A proceeding between a surviving spouse and a person who claims through the deceased spouse, regardless of whether such claim is by testate or intestate succession or by inter vivos transaction.",
+  "tags": [
+    "privilege",
+    "marital",
+    "exception",
+    "spousal_litigation"
+  ],
+  "structure": {
+    "division": "8",
+    "division_title": "Privileges",
+    "chapter": "4",
+    "chapter_title": "Particular Privileges",
+    "article": "5",
+    "article_title": "Privilege for Confidential Marital Communications"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

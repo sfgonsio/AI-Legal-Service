@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "506",
+  "title": "Alternative Methods of Care",
+  "series": "500",
+  "series_title": "Medical Negligence",
+  "text": "[A/An] [ insert type of medical practitioner ] is not necessarily negligent just\nbecause [he/she/ nonbinary pronoun] chooses one medically accepted\nmethod of treatment or diagnosis and it turns out that another medically\naccepted method would have been a better choice.\nNew September 2003",
+  "tags": [
+    "medical",
+    "medical_negligence"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "sources_and_authority": "\u2022 \u201cA difference of medical opinion concerning the desirability of one particular\nmedical procedure over another does not . . . establish that the determination to\nuse one of the procedures was negligent.\u201d ( Clemens v. Regents of Univ. of\nCalifornia (1970) 8 Cal.App.3d 1, 13 [87 Cal.Rptr. 108].)\n\u2022 \u201cMedicine is not a \ufb01eld of absolutes. There is not ordinarily only one correct\nroute to be followed at any given time. There is always the need for professional\njudgment as to what course of conduct would be most appropriate with regard to\nthe patient\u2019s condition.\u201d ( Barton v. Owen (1977) 71 Cal.App.3d 484, 501\u2013502\n[139 Cal.Rptr. 494].)\n\u2022 This type of instruction may be important in arriving at a fair decision: \u201c[I]n\ndetermining whether defendants breached a standard of care owed decedent, the\njury may not engage in \u2018but for\u2019 reasoning.\u201d ( Meier v. Ross General Hospital\n(1968) 69 Cal.2d 420, 435 [71 Cal.Rptr. 903, 445 P .2d 519].)\n\u2022 \u201c[I]n order for CACI No. 506 to be given, there must have been expert\ntestimony presented to the jury to the effect that a medical practitioner chose a\nmedically accepted method of diagnosis (or treatment) from among alternative\nmedically accepted methods of diagnosis (or treatment).\u201d ( Ayala v. Arroyo Vista\nFamily Health Center (2008) 160 Cal.App.4th 1350, 1353 [73 Cal.Rptr.3d 486].)"
+}

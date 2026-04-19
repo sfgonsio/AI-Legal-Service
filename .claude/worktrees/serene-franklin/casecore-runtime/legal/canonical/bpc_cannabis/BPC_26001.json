@@ -1,0 +1,25 @@
+{
+  "code": "BPC",
+  "section": "26001",
+  "title": "Section 26001",
+  "text": "For purposes of this division, the following definitions apply: (a) \u201cA-license\u201d means a state license issued under this division for cannabis or cannabis products that are intended for adults who are 21 years of age and older and who do not possess a physician\u2019s recommendation, or are intended for use on, or consumption by, animals. (b) \u201cA-licensee\u201d means any person holding a license under this division for cannabis or cannabis products that are intended for adults who are 21 years of age and older and who do not possess a physician\u2019s recommendation, or are intended for use on, or consumption by, animals. (c) \u201cAnimal\u201d does not include a food animal as defined in Section 4825.1 or livestock as defined in Section 14205 of the Food and Agricultural Code. (d) \u201cApplicant\u201d means an owner applying for a state license pursuant to this division. (e) \u201cBatch\u201d means a specific quantity of homogeneous cannabis, industrial hemp, or cannabis product that is one of the following types: (1) \u201cHarvest batch\u201d means a specifically identified quantity of dried flower or trim, leaves, and other plant matter from either cannabis or industrial hemp that is harvested at the same time, and, if applicable, cultivated using the same pesticides and other agricultural chemicals. (2) \u201cManufactured cannabis batch\u201d means either of the following: (A) An amount of cannabis concentrate or extract that is produced in one production cycle using the same extraction methods and standard operating procedures. (B) An amount of a type of manufactured cannabis produced in one production cycle using the same formulation and standard operating procedures. (f) \u201cCannabinoid\u201d means a chemical compound found in cannabis and industrial hemp that binds to or otherwise activates cannabinoid receptors in humans and animals. \u201cCannabinoid\u201d includes, but is not limited to, tetrahydrocannabinol (THC) and cannabidiol (CBD). (g) \u201cCannabis\u201d has the same meaning as in Section 11018 of the Health and Safety Code. (h) \u201cCannabis accessories\u201d has the same meaning as in Section 11018.2 of the Health and Safety Code. (i) \u201cCannabis beverage\u201d means a form of edible cannabis product that is intended to be consumed in its final state as a beverage. (j) \u201cCannabis concentrate\u201d has the same meaning as in Section 11006.5 of the Health and Safety Code. (k) \u201cCannabis event organizer\u201d means a person authorized to plan and organize temporary cannabis events as authorized in Section",
+  "tags": [
+    "manufacturing",
+    "licensing",
+    "cannabis",
+    "cultivation",
+    "medical"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Cannabis",
+    "chapter": "1",
+    "chapter_title": "General Provisions and Definitions"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Scraped from authority_store raw data."
+  }
+}

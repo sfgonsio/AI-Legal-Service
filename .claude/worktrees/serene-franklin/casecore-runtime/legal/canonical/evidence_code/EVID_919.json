@@ -1,0 +1,27 @@
+{
+  "code": "EVID",
+  "section": "919",
+  "title": "Inadmissibility of Erroneously Compelled Disclosure",
+  "text": "(a) Evidence of a statement or other disclosure of privileged information is inadmissible against a holder of the privilege if:\n(1) A person authorized to claim the privilege claimed it but nevertheless disclosure erroneously was required to be made; or\n(2) The presiding officer did not exclude the privileged information as required by Section 916.\n(b) If a person authorized to claim the privilege claimed it, whether in the same or a prior proceeding, but nevertheless disclosure erroneously was required by the presiding officer to be made, neither the failure to refuse to disclose nor the failure to seek review of the order of the presiding officer requiring disclosure indicates consent to the disclosure or constitutes a waiver and, under these circumstances, the disclosure is one made under coercion.",
+  "tags": [
+    "privilege",
+    "inadmissibility",
+    "coercion",
+    "waiver",
+    "erroneously_compelled"
+  ],
+  "structure": {
+    "division": "8",
+    "division_title": "Privileges",
+    "chapter": "3",
+    "chapter_title": "General Provisions Relating to Privileges",
+    "article": null,
+    "article_title": null
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Amended by Stats. 1974, Ch. 227."
+  }
+}

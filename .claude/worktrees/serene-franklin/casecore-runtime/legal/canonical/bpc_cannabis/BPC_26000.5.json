@@ -1,0 +1,25 @@
+{
+  "code": "BPC",
+  "section": "26000.5",
+  "title": "Section 26000.5",
+  "text": "Until January 1, 2028, both of the following shall apply: (a) A licensed manufacturer shall only use cannabinoid concentrates and extracts that are manufactured or processed exclusively from cannabis obtained from a licensed cannabis cultivator. (b) A licensee shall not possess, transport, distribute, manufacture, or sell industrial hemp on or from a licensed premises, except that a licensed testing laboratory may test industrial hemp. (Added by Stats. 2025, Ch. 248, Sec. 2. (AB 8) Effective January 1, 2026.)",
+  "tags": [
+    "manufacturing",
+    "licensing",
+    "cannabis",
+    "testing",
+    "cultivation"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Cannabis",
+    "chapter": "1",
+    "chapter_title": "General Provisions and Definitions"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Scraped from authority_store raw data."
+  }
+}

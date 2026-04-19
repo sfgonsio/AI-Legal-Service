@@ -1,0 +1,27 @@
+{
+  "code": "EVID",
+  "section": "972",
+  "title": "Exceptions to Marital Testimony Privilege",
+  "text": "(a) A proceeding brought by or on behalf of one spouse against the other spouse.\n(b) A proceeding to commit or otherwise place his or her spouse or his or her spouse's property, or both, under the control of another because of the spouse's alleged mental or physical condition.\n(c) A proceeding brought by or on behalf of a spouse to establish his or her competence.\n(d) A proceeding under the Juvenile Court Law.\n(e) A criminal proceeding in which one spouse is charged with:\n(1) A crime against the person or property of the other spouse or of a child, parent, relative, or cohabitant of either, whether committed before or during marriage.\n(2) A crime against the person or property of a third person committed in the course of committing a crime against the person or property of the other spouse.\n(3) Bigamy.\n(4) A crime defined by Section 270 or 270a of the Penal Code.\n(f) A proceeding resulting from a criminal act which occurred prior to legal marriage of the spouses.\n(g) A proceeding brought against the spouse by a former spouse related to support obligations.",
+  "tags": [
+    "privilege",
+    "marital",
+    "exceptions",
+    "civil_proceeding",
+    "criminal_proceeding"
+  ],
+  "structure": {
+    "division": "8",
+    "division_title": "Privileges",
+    "chapter": "4",
+    "chapter_title": "Particular Privileges",
+    "article": "4",
+    "article_title": "Privilege Not to Testify Against Spouse"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Amended by Stats. 1989, Ch. 1359, Sec. 9.7."
+  }
+}

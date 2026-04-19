@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "1153",
+  "title": "Withdrawn Guilty Plea",
+  "text": "Evidence of a plea of guilty, later withdrawn, or of an offer to plead guilty to the crime charged or to any other crime, made by the defendant in a criminal action is inadmissible in any action or in any proceeding of any nature, including proceedings before agencies, commissions, boards, and tribunals.",
+  "tags": ["extrinsic_policy", "guilty_plea", "withdrawn", "criminal_action"],
+  "structure": {
+    "division": "9",
+    "division_title": "Evidence Affected or Excluded by Extrinsic Policies",
+    "chapter": "3",
+    "chapter_title": "Other Evidence Affected or Excluded by Extrinsic Policies",
+    "article": "",
+    "article_title": ""
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

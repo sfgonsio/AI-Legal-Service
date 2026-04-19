@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "412",
+  "title": "Weaker Evidence When Stronger Available",
+  "text": "If weaker and less satisfactory evidence is offered when it was within the power of the party to produce stronger and more satisfactory evidence, the evidence offered should be viewed with distrust.",
+  "tags": ["weight_of_evidence", "weaker_evidence", "distrust"],
+  "structure": {
+    "division": "3",
+    "division_title": "General Provisions",
+    "chapter": "5",
+    "chapter_title": "Weight of Evidence Generally",
+    "article": "",
+    "article_title": ""
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

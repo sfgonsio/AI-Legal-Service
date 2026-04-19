@@ -1,0 +1,43 @@
+{
+  "section_id": "EC-521",
+  "code": "EVID",
+  "section": "521",
+  "title": "Burden of Proof for Lack of Due Care",
+  "text": "The party claiming that a person did not exercise a requisite degree of care has the burden of proof on that issue.",
+  "notes": "Allocates the burden of proof to the party asserting lack of the requisite degree of care.",
+  "rule_type": "burden",
+  "rule_type_confidence": "heuristic",
+  "applies_to": [],
+  "evidentiary_standard": null,
+  "foundation_requirements": [],
+  "cross_refs": [],
+  "coa_relevance": [],
+  "exclusion_grounds": [],
+  "tags": [
+    "burden_of_proof",
+    "due_care",
+    "negligence",
+    "standard_of_care",
+    "specific_issues"
+  ],
+  "structure": {
+    "division": "5",
+    "division_title": "Burden of Proof; Burden of Producing Evidence; Presumptions and Inferences",
+    "chapter": "1",
+    "chapter_title": "Burden of Proof",
+    "article": "2",
+    "article_title": "Burden of Proof on Specific Issues"
+  },
+  "canonical_type": "source",
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "(Enacted by Stats. 1965, Ch. 299.)"
+  },
+  "effective_date": null,
+  "schema_version": "1.0",
+  "pass1_complete": true,
+  "pass2_complete": false,
+  "source_file": "EVID_521.json"
+}

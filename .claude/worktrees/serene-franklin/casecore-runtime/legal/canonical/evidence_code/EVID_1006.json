@@ -1,0 +1,27 @@
+{
+  "code": "EVID",
+  "section": "1006",
+  "title": "Exception — Public Reporting Requirement",
+  "text": "There is no privilege under this article as to information that the physician or the patient is required to report to a public employee, or as to information required to be recorded in a public office, if such report or record is open to public inspection.",
+  "tags": [
+    "privilege",
+    "physician_patient",
+    "exception",
+    "public_record",
+    "reporting"
+  ],
+  "structure": {
+    "division": "8",
+    "division_title": "Privileges",
+    "chapter": "4",
+    "chapter_title": "Particular Privileges",
+    "article": "6",
+    "article_title": "Physician-Patient Privilege"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

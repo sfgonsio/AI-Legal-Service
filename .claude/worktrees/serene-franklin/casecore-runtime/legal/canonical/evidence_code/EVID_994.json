@@ -1,0 +1,25 @@
+{
+  "code": "EVID",
+  "section": "994",
+  "title": "Physician-Patient Privilege",
+  "text": "Subject to Section 912 and except as otherwise provided in this article, the patient, whether or not a party, has a privilege to refuse to disclose, and to prevent another from disclosing, a confidential communication between patient and physician if the privilege is claimed by:\n(a) The holder of the privilege;\n(b) A person who is authorized to claim the privilege by the holder of the privilege; or\n(c) The person who was the physician at the time of the confidential communication, but such person may not claim the privilege if there is no holder of the privilege in existence or if he or she is otherwise instructed by a person authorized to permit disclosure.",
+  "tags": [
+    "privilege",
+    "physician_patient",
+    "confidential_communication"
+  ],
+  "structure": {
+    "division": "8",
+    "division_title": "Privileges",
+    "chapter": "4",
+    "chapter_title": "Particular Privileges",
+    "article": "6",
+    "article_title": "Physician-Patient Privilege"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Amended by Stats. 1994, Ch. 1010, Sec. 105. Effective January 1, 1995."
+  }
+}

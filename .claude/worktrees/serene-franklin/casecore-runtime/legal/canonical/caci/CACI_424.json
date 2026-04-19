@@ -1,0 +1,19 @@
+{
+  "code": "CACI",
+  "instruction_id": "424",
+  "title": "Negligence Not Contested\u2014Essential Factual Elements",
+  "series": "400",
+  "series_title": "Negligence",
+  "text": "[Name of plaintiff ] claims that [he/she/ nonbinary pronoun] was harmed by\n[name of defendant ]\u2019s negligence. [ Name of defendant ] agrees that [he/she/\nnonbinary pronoun/it] was negligent, but denies that the negligence caused\n[[name of plaintiff ] any harm/the full extent of the harm claimed by\n[name of plaintiff ]].\nTo establish [his/her/ nonbinary pronoun/its] claim against [ name of\ndefendant], [ name of plaintiff ] must prove both of the following:\n1. That [ name of plaintiff ] was harmed; and\n2. That [ name of defendant ]\u2019s negligence was a substantial factor in\ncausing [ name of plaintiff ]\u2019s harm.\nNew June 2005",
+  "tags": [
+    "negligence"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "This instruction is intended for cases in which the defendant \u201cadmits\u201d liability, but\ncontests causation and damages. This instruction can be modi\ufb01ed for use in cases\ninvolving claims that are not based on negligence."
+}

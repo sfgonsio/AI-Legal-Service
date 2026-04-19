@@ -1,0 +1,22 @@
+{
+  "code": "CACI",
+  "instruction_id": "4540",
+  "title": "Contractor\u2019s Damages for Breach of Construction",
+  "series": "4500",
+  "series_title": "Workers Compensation",
+  "text": "Contract\u2014Change Orders/Extra Work\n[Name of plaintiff ] contends that [ name of defendant ] increased or changed\nthe scope of the [project/ describe construction project, e.g., apartment\nbuilding] beyond what was required by the parties\u2019 contract. If you \ufb01nd\nthat [ name of plaintiff ] is entitled to compensation for this extra work,\nyou may award damages to [ name of plaintiff ] based on [the agreed price\nprovided in the parties\u2019 contract for/the reasonable value of] the extra\nwork.\nNew December 2010",
+  "tags": [
+    "breach",
+    "contract",
+    "damages"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "This instruction should be used in an action by the contractor against the owner for\nextra work that the owner required and that was not provided for in the contract. In\nthe last sentence, give the \ufb01rst alternative if there was evidence that the parties\nagreed, in writing or otherwise, on compensation for the extra work. Otherwise give\nthe second option for the reasonable value of the work.\nUnder very limited circumstances, the contractor may obtain a \u201ctotal-cost\u201d recovery\nfor extra work, meaning that instead of proving the costs associated with all of the\nchanges, the contractor computes the total cost of the project and subtracts the\ncontract price. For an instruction on total-cost recovery, see CACI No. 4541,\nContractor\u2019 s Damages for Breach of Construction Contract\u2014Change Orders/Extra\nWork\u2014Total Cost Recovery.\nUnder other circumstances, the contractor may attempt to establish that the contract\nwas mutually abandoned and that the recovery should be in quantum meruit. For an\ninstruction on damages on abandonment, see CACI No. 4542, Contractor\u2019 s\nDamages for Abandoned Construction Contract\u2014Quantum Meruit Recovery .\nFor additional instructions on contract damages generally, see CACI No. 350 et seq.\nin the Contracts series.",
+  "sources_and_authority": "\u2022 \u201cExtra work as used in connection with a building contract means work arising\noutside of and entirely independent of the contract\u2014something not required in\nits performance, not contemplated by the parties, and not controlled by the\ncontract. Extra work may be performed by the contractor for the owner or by the\nsubcontractor for the general contractor, Where the extras are of a different\ncharacter from the work called for in the contract and no price is agreed on for\nextra work, their reasonable value may be recovered.\u201d ( C. F . Bolster Co. v. J. C.\nBoesp\ufb02ug Constr . Co. (1959) 167 Cal.App.2d 143, 151 [334 P .2d 247], internal\ncitations omitted.)\n1320\n\n\u2022 \u201cWhether a contractor is entitled to additional compensation for extra work\ndepends generally on the construction of the particular contract and whether it is\nincluded in the contract price. The construction placed on the contract by the\nparties is of great weight, and where they agree on additional compensation for\ncertain work it precludes a claim that the original contract requires the\nperformance of such work.\u201d ( Frank T. Hickey, Inc. v. Los Angeles Jewish\nCommunity Council (1954) 128 Cal.App.2d 676, 683 [276 P .2d 52].)"
+}

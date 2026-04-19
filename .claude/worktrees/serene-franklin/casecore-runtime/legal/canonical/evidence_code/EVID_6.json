@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "6",
+  "title": "References to Statutes",
+  "text": "Whenever any reference is made to any portion of this code or of any other statute, such reference shall apply to all amendments and additions heretofore or hereafter made.",
+  "tags": ["preliminary", "references"],
+  "structure": {
+    "division": "1",
+    "division_title": "Preliminary Provisions and Construction",
+    "chapter": "",
+    "chapter_title": "",
+    "article": "",
+    "article_title": ""
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

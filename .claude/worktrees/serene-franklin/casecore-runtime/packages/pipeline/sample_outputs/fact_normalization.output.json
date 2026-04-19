@@ -1,0 +1,14 @@
+{
+  "id": "FCT-PIPE-RUN-001",
+  "matter_id": "MTR-001",
+  "artifact_type": "FACT",
+  "schema_version": "1.0.0",
+  "statement": "Payment was due on February 1 and remains unpaid.",
+  "source_refs": [
+    "DOC-001:chunk-001"
+  ],
+  "status": "proposed",
+  "run_id": "RUN-PIPELINE-001",
+  "created_at": "2026-03-19T15:00:00Z",
+  "confidence": 0.95
+}

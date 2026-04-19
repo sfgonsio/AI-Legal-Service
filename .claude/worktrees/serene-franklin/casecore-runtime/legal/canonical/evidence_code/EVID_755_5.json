@@ -1,0 +1,9 @@
+{
+  "code": "EVID",
+  "section": "755.5",
+  "title": "Interpreter at Medical Examination — Non-English Speaking Party",
+  "text": "(a) During any medical examination, requested by an insurer or by the defendant, of a person who is a party to a civil action and who does not proficiently speak or understand the English language, conducted for the purpose of determining damages in a civil action, an interpreter shall be present to interpret the examination in a language that the person understands.\n(b) The fees of interpreters used under subdivision (a) shall be paid by the insurer or defendant requesting the medical examination.\n(c) The record of, or testimony concerning, any medical examination conducted in violation of subdivision (a) shall be inadmissible in the civil action for which it was conducted or any other civil action.\n(d) This section does not prohibit the presence of any other person to assist a party.\n(e) In the event that interpreters certified pursuant to Article 8 (commencing with Section 11435.05) of Chapter 4.5 of Part 1 of Division 3 of Title 2 of the Government Code cannot be present at the medical examination, upon stipulation of the parties the requester specified in subdivision (a) shall have the discretionary authority to provisionally qualify and use other interpreters.",
+  "tags": ["interpreter", "medical_examination", "non_english", "civil_action", "admissibility", "damages"],
+  "structure": {"division": "6", "division_title": "Witnesses", "chapter": "4", "chapter_title": "Interpreters and Translators"},
+  "source": {"type": "ca_legislature", "jurisdiction": "California", "url": "https://leginfo.legislature.ca.gov", "editorial_note": "Amended by Stats. 1995, Ch. 938, Sec. 8. Operative July 1, 1997."}
+}

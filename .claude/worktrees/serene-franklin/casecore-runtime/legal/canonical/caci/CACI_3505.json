@@ -1,0 +1,17 @@
+{
+  "code": "CACI",
+  "instruction_id": "3505",
+  "title": "Information Discovered after Date of Valuation",
+  "series": "3500",
+  "series_title": "Construction Law",
+  "text": "In determining fair market value you must consider any condition that\naffects the value of the property if the condition existed on [ insert date of\nvaluation] but was discovered after that date.\nNew September 2003",
+  "tags": [],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "sources_and_authority": "\u2022 \u201c[W]hile evidence of a change in the condition of the property after the date of\nvaluation may not be admissible . . . , information about the condition of the\nproperty on the date of valuation which happens to be discovered after that date\nmust be considered. In effect, the parties are presumed to know all relevant\ninformation available at the time of trial, even if it could not reasonably have\nbeen discovered until after the date of valuation.\u201d ( San Diego Water Authority v.\nMireiter (1993) 18 Cal.App.4th 1808, 1814 [23 Cal.Rptr.2d 455].)\n\u2022 \u201cThe California statutory scheme and the overwhelming weight of authority\nsupports the conclusion that relevant factual discoveries up to and including the\ndate of trial must be taken into account, regardless of whether they in\ufb02ate or\nde\ufb02ate the value of the property. Accordingly, the trial court erred in failing to\ninstruct the jury it was required to consider the newly discovered information in\ndetermining the compensation due defendants, and reversal is therefore\nrequired.\u201d ( San Diego County Water Authority, supra, 18 Cal.App.4th at pp.\n1817\u20131818.)"
+}

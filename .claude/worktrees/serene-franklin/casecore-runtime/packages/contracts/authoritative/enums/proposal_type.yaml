@@ -1,0 +1,6 @@
+﻿proposal_type:
+  - fact_candidates
+  - event_candidates
+  - tag_proposals
+  - narrative_support
+  - discovery_gaps

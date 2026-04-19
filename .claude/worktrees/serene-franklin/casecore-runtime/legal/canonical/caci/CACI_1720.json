@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "1720",
+  "title": "Affirmative Defense\u2014Truth",
+  "series": "1700",
+  "series_title": "Wrongful Death",
+  "text": "[Name of defendant ] is not responsible for [ name of plaintiff ]\u2019s harm, if\nany, if [ name of defendant ] proves that [his/her/ nonbinary pronoun/its]\nstatement(s) about [ name of plaintiff ] [was/were] true. [ Name of defendant ]\ndoes not have to prove that the statement(s) [was/were] true in every\ndetail, so long as the statement(s) [was/were] substantially true.\nNew September 2003; Revised October 2008, May 2017",
+  "tags": [
+    "wrongful_death"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "This instruction is to be used only in cases involving private plaintiffs on matters of\nprivate concern. In cases involving public \ufb01gures or matters of public concern, the\nburden of proving falsity is on the plaintiff. ( Sonoma Media Investments, LLC v.\nSuperior Court (2019) 34 Cal.App.5th 24, 37 [247 Cal.Rptr.3d 5].)",
+  "sources_and_authority": "\u2022 \u201cTruth, of course, is an absolute defense to any libel action.\u201d ( Campanelli v.\nRegents of Univ. of Cal. (1996) 44 Cal.App.4th 572, 581\u2013582 [51 Cal.Rptr.2d\n891].)\n\u2022 \u201cCalifornia law permits the defense of substantial truth and would absolve a\ndefendant even if she cannot \u2018justify every word of the alleged defamatory\nmatter; it is sufficient if the substance of the charge be proved true, irrespective\nof slight inaccuracy in the details.\u2019 \u2018Minor inaccuracies do not amount to falsity\nso long as \u2018the substance, the gist, the sting, of the libelous charge be\njusti\ufb01ed.\u2019 \u201d ( GetFugu, Inc. v. Patton Boggs LLP (2013) 220 Cal.App.4th 141,\n154 [162 Cal.Rptr.3d 831], internal citation omitted.)\n\u2022 \u201cPut another way, the statement is not considered false unless it \u2018would have a\ndifferent effect on the mind of the reader from that which the pleaded truth\nwould have produced.\u2019 \u201d ( Jackson v. Mayweather (2017) 10 Cal.App.5th 1240,\n1262\u20131263 [217 Cal.Rptr.3d 234].)\n\u2022 \u201cIn defamation actions generally, factual truth is a defense which it is the\ndefendant\u2019s burden to prove. [\u00b6] In a defamation action against a newspaper by a\nprivate person suing over statements of public concern, however, the First\nAmendment places the burden of proving falsity on the plaintiff. As a matter of\nconstitutional law, therefore, media statements on matters of public interest,\nincluding statements of opinion which reasonably imply a knowledge of facts,\n\u2018must be provable as false before there can be liability under state defamation\nlaw.\u2019 \u201d ( Eisenberg v. Alameda Newspapers , (1999) 74 Cal.App.4th 1359, 1382\n[88 Cal.Rptr.2d 802], original italics, internal citations omitted.)"
+}

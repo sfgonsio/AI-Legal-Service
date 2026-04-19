@@ -1,0 +1,22 @@
+{
+  "code": "BPC",
+  "section": "26034",
+  "title": "Section 26034",
+  "text": "All accusations against licensees shall be filed by the department within five years after the performance of the act or omission alleged as the ground for disciplinary action; provided, however, that the foregoing provision shall not constitute a defense to an accusation alleging fraud or misrepresentation as a ground for disciplinary action. The cause for disciplinary action in that case shall not be deemed to have accrued until discovery, by the department, of the facts constituting the fraud or misrepresentation, and, in that case, the accusation shall be filed within five years after that discovery. (Amended by Stats. 2021, Ch. 70, Sec. 26. (AB 141) Effective July 12, 2021.)",
+  "tags": [
+    "licensing",
+    "cannabis"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Cannabis",
+    "chapter": "3",
+    "chapter_title": "Enforcement"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Scraped from authority_store raw data."
+  }
+}

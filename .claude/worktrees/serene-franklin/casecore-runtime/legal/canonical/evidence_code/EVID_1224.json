@@ -1,0 +1,29 @@
+{
+  "code": "EVID",
+  "section": "1224",
+  "title": "Admission by Declarant Through Whose Liability Party Claims",
+  "text": "When the liability obligation, or duty of a party to a civil action is based in whole or in part upon the liability, obligation, or duty of the declarant, or when the claim or right asserted by a party to a civil action is barred or diminished by a breach of duty by the declarant, evidence of a statement made by the declarant is as admissible against the party as it would be if offered against the declarant in an action involving that liability, obligation, duty, or breach of duty.",
+  "tags": [
+    "hearsay_exception",
+    "civil_action",
+    "liability",
+    "breach_of_duty",
+    "declarant",
+    "agent_core",
+    "trial_relevant"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Hearsay Evidence",
+    "chapter": "2",
+    "chapter_title": "Exceptions to the Hearsay Rule",
+    "article": "1",
+    "article_title": "Confessions and Admissions"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

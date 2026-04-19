@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "400",
+  "title": "Preliminary Fact Defined",
+  "text": "As used in this article, \"preliminary fact\" means a fact upon the existence or nonexistence of which depends the admissibility or inadmissibility of evidence. The phrase \"the admissibility or inadmissibility of evidence\" includes the qualification or disqualification of a person to be a witness and the existence or nonexistence of a privilege.",
+  "tags": ["preliminary_fact", "admissibility"],
+  "structure": {
+    "division": "3",
+    "division_title": "General Provisions",
+    "chapter": "4",
+    "chapter_title": "Admitting and Excluding Evidence",
+    "article": "2",
+    "article_title": "Preliminary Determinations on Admissibility of Evidence"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

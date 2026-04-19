@@ -1,0 +1,19 @@
+{
+  "code": "CACI",
+  "instruction_id": "3905",
+  "title": "Items of Noneconomic Damage",
+  "series": "3700",
+  "series_title": "Damages",
+  "text": "The following are the speci\ufb01c items of noneconomic damages claimed by\n[name of plaintiff ]:\n[Insert applicable instructions on items of noneconomic damage. ]\nNew September 2003",
+  "tags": [
+    "damages"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "This instruction may not be needed in every case. For example, if the plaintiff is not\nclaiming any economic damages, there is no need to de\ufb01ne the claimed damages as\n\u201cnoneconomic.\u201d If this instruction is used, it should be followed by applicable\ninstructions concerning the items of noneconomic damage claimed by the plaintiff.\nThese instructions should be inserted into this instruction as sequentially numbered\nitems."
+}

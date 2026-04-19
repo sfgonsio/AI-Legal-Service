@@ -1,0 +1,18 @@
+{
+  "code": "CACI",
+  "instruction_id": "4325",
+  "title": "Affirmative Defense\u2014Failure to Comply With Rent Control",
+  "series": "4300",
+  "series_title": "Unlawful Detainer",
+  "text": "Ordinance/Tenant Protection Act\n4326. Affirmative Defense\u2014Repair and Deduct\n4327. Affirmative Defense\u2014Landlord\u2019s Refusal of Rent\n4328. Affirmative Defense\u2014Victim of Abuse or Violence (Code Civ. Proc.,\n\u00a7 1161.3)",
+  "tags": [
+    "unlawful_detainer"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

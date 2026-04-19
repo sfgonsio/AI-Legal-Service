@@ -1,0 +1,21 @@
+{
+  "code": "CACI",
+  "instruction_id": "4011",
+  "title": "History of Disorder Relevant to the Determination of Grave",
+  "series": "4000",
+  "series_title": "Fiduciary Duty",
+  "text": "Disability\nY ou must consider information about the history of [ name of\nrespondent]\u2019s alleged mental disorder if you believe this information has\na direct bearing on whether [he/she/ nonbinary pronoun] is presently\ngravely disabled as a result of a mental disorder. Such information may\ninclude testimony from persons who have provided, or are providing,\nmental health or related support services to [ name of respondent ], [his/\nher/nonbinary pronoun] medical records, including psychiatric records, or\ntestimony from family members, [ name of respondent ], or any other\nperson designated by [ name of respondent ].\nY ou must not consider any evidence that you believe is irrelevant\nbecause it occurred either too long ago or under circumstances that are\nnot similar to those involved in this case.\nNew June 2005",
+  "tags": [
+    "disability",
+    "fiduciary_duty",
+    "medical"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "sources_and_authority": "\u2022 Historical Course of Mental Disorder. Welfare and Institutions Code section\n5008.2(a)."
+}

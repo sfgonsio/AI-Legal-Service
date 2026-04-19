@@ -1,0 +1,21 @@
+{
+  "code": "CACI",
+  "instruction_id": "534",
+  "title": "Informed Refusal\u2014De\ufb01nition",
+  "series": "500",
+  "series_title": "Medical Negligence",
+  "text": "[A/An] [ insert type of medical practitioner ] must explain the risks of\nrefusing a procedure in language that the patient can understand and\ngive the patient as much information as [he/she/ nonbinary pronoun] needs\nto make an informed decision, including any risk that a reasonable\nperson would consider important in deciding not to have [a/an] [ insert\nmedical procedure]. The patient must be told about any risk of death or\nserious injury or signi\ufb01cant potential complications that may occur if the\nprocedure is refused. [A/An] [ insert type of medical practitioner ] is not\nrequired to explain minor risks that are not likely to occur.\nNew September 2003",
+  "tags": [
+    "medical",
+    "medical_negligence"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "This instruction should be read in conjunction with CACI No. 535, Risks of\nNontreatment\u2014Essential Factual Elements .\nIf the patient is a minor or is incapacitated, tailor the instruction accordingly.\nAlso, see CACI No. 531, Consent on Behalf of Another .",
+  "sources_and_authority": "\u2022 The de\ufb01nition of \u201cinformed consent\u201d in Cobbs v. Grant (1972) 8 Cal.3d 229\n[104 Cal.Rptr. 505, 502 P .2d 1] applies \u201cwhether the procedure involves\ntreatment or a diagnostic test.\u201d ( Truman v. Thomas (1980) 27 Cal.3d 285, 292\n[165 Cal.Rptr. 308, 611 P .2d 902].)\n\u2022 In Truman, \u201cthe high court extended the duty to make disclosure to include\nrecommended diagnostic as well as therapeutic procedures and to include\nsituations in which the patient declines the recommended procedure.\u201d ( V andi v.\nPermanente Medical Group, Inc. (1992) 7 Cal.App.4th 1064, 1069 [9\nCal.Rptr.2d 463].) This has been termed the \u201cinformed refusal\u201d doctrine.\n(Townsend v. Turk (1990) 218 Cal.App.3d 278, 284 [266 Cal.Rptr. 821].)\n\u2022 \u201cIn a nutshell, a doctor has a duty to disclose all material information to his\npatient which will enable that patient to make an informed decision regarding\nthe taking or refusal to take such a test.\u201d ( Moore v. Preventive Medicine Medical\nGroup, Inc. (1986) 178 Cal.App.3d 728, 736 [223 Cal.Rptr. 859].)"
+}

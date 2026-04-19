@@ -1,0 +1,26 @@
+{
+  "code": "EVID",
+  "section": "981",
+  "title": "Exception — Crime or Fraud",
+  "text": "There is no privilege under this article if the communication was made, in whole or in part, to enable or aid anyone to commit or plan to commit a crime or a fraud.",
+  "tags": [
+    "privilege",
+    "marital",
+    "exception",
+    "crime_fraud"
+  ],
+  "structure": {
+    "division": "8",
+    "division_title": "Privileges",
+    "chapter": "4",
+    "chapter_title": "Particular Privileges",
+    "article": "5",
+    "article_title": "Privilege for Confidential Marital Communications"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

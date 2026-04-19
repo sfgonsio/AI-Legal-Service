@@ -1,0 +1,23 @@
+{
+  "code": "CACI",
+  "instruction_id": "326",
+  "title": "Assignment Contested",
+  "series": "300",
+  "series_title": "Negligence\u2014Essential Factual Elements",
+  "text": "[Name of plaintiff ] was not a party to the original contract. However,\n[name of plaintiff ] may bring a claim for breach of the contract if [he/she/\nnonbinary pronoun/it] proves that [ name of assignor ] transferred [his/her/\nnonbinary pronoun/its] rights under the contract to [ name of plaintiff ].\nThis transfer is referred to as an \u201cassignment.\u201d\n[Name of plaintiff ] must prove that [ name of assignor ] intended to transfer\n[his/her/nonbinary pronoun/its] contract rights to [ name of plaintiff ]. In\ndeciding [ name of assignor ]\u2019s intent, you should consider the entire\ntransaction and the conduct of the parties to the assignment.\n[A transfer of contract rights does not necessarily have to be made in\nwriting. It may be oral or implied by the conduct of the parties to the\nassignment.]\nNew February 2005",
+  "tags": [
+    "breach",
+    "contract",
+    "essential_elements",
+    "negligence"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "The bracketed third paragraph should be used only in cases involving a transfer that\nmay be made without a writing.",
+  "sources_and_authority": "\u2022 Oral Assignments. Civil Code section 1052.\n\u2022 \u201cWhile no particular form of assignment is required, it is essential to the\nassignment of a right that the assignor manifest an intention to transfer the\nright.\u201d ( Sunburst Bank v. Executive Life Insurance Co. (1994) 24 Cal.App.4th\n1156, 1164 [29 Cal.Rptr.2d 734], internal citations omitted.)\n\u2022 \u201cThe burden of proving an assignment falls upon the party asserting rights\nthereunder. In an action by an assignee to enforce an assigned right, the evidence\nmust not only be sufficient to establish the fact of assignment when that fact is\nin issue, but the measure of sufficiency requires that the evidence of assignment\nbe clear and positive to protect an obligor from any further claim by the primary\nobligee.\u201d ( Cockerell v. Title Insurance & Trust Co. (1954) 42 Cal.2d 284, 292\n[267 P .2d 16], internal citations omitted.)\n\u2022 \u201cThe accrued right to collect the proceeds of the \ufb01re insurance policy is a chose\nin action, and an effective assignment thereof may be expressed orally as well as\nin writing; may be the product of inference; and where the parties to a\ntransaction involving such a policy by their conduct indicate an intention to\ntransfer such proceeds, the courts will imply an assignment thereof. In making\nsuch a determination, substance and not form controls.\u201d ( Greco v. Oregon\nMutual Fire Insurance Co. (1961) 191 Cal.App.2d 674, 683 [12 Cal.Rptr. 802],\ninternal citations omitted.)\n139\n\n\u2022 \u201cAn assignor may not maintain an action upon a claim after making an absolute\nassignment of it to another; his right to demand performance is extinguished, the\nassignee acquiring such right. To \u2018assign\u2019 ordinarily means to transfer title or\nownership of property, but an assignment, to be effective, must include\nmanifestation to another person by the owner of his intention to transfer the\nright, without further action, to such other person or to a third person. It is the\nsubstance and not the form of a transaction which determines whether an\nassignment was intended. If from the entire transaction and the conduct of the\nparties it clearly appears that the intent of the parties was to pass title to the\nchose in action, then an assignment will be held to have taken place.\u201d ( McCown\nv. Spencer (1970) 8 Cal.App.3d 216, 225 [87 Cal.Rptr. 213], internal citations\nomitted.)"
+}

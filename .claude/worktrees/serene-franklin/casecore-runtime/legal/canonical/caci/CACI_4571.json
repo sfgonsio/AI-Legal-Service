@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "4571",
+  "title": "Right to Repair Act\u2014Damages (Civ. Code, \u00a7 944)",
+  "series": "4500",
+  "series_title": "Workers Compensation",
+  "text": "If [ name of plaintiff ] proves any construction defects, [he/she/ nonbinary\npronoun] is entitled to recover only for the following:\na. The reasonable value of repairing the defect(s);\nb. The reasonable cost of repairing any damage caused by the\nrepair efforts;\nc. The reasonable cost of repairing and correcting any damage\nresulting from the failure of the home to meet the standards;\nd. The reasonable cost of removing and replacing any improper\nrepair made by [ name of defendant ];\ne. Reasonable relocation and storage expenses;\nf. Lost business income if the home was used as a principal place of\na business licensed to be operated from the home;\ng. Reasonable investigative costs for each defect proved;\nh. ( Specify any other costs or fees recoverable by contract or statute. )\n[[Name of plaintiff ]\u2019s right to the reasonable value of repairing any defect\nis limited to the lesser of the cost of repair or the diminution in current\nvalue of the home caused by the defect.]\nNew May 2019",
+  "tags": [
+    "damages"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "This instruction sets forth the damages recoverable in an action for construction\ndefects under the Right to Repair Act. (Civ. Code, \u00a7 944.) Delete those that the\nplaintiff is not claiming.\nGive the optional last paragraph for any claims involving a detached single-family\nhome. The common-law personal use exception is preserved. (Civ. Code, \u00a7 943(b).)",
+  "sources_and_authority": "\u2022 Damages Recoverable Under the Right to Repair Act. Civil Code section 944.\n\u2022 \u201cThe provisions of chapter 5 make explicit the intended avenues for recouping\neconomic losses, property damages, and personal injury damages. Section 944\nde\ufb01nes the universe of damages that are recoverable in an action under the Act.\n(\u00a7 944 [\u2018If a claim for damages is made under this title, the homeowner is only\nentitled to damages for\u2019 a series of speci\ufb01ed types of losses].) In turn, section\n943 makes an action under the Act the exclusive means of recovery for damages\nidenti\ufb01ed in section 944 absent an express exception: \u2018Except as provided in this\ntitle, no other cause of action for a claim covered by this title or for damages\n1353\n\nrecoverable under Section 944 is allowed.\u2019 (\u00a7 943, subd. (a).) In other words,\nsection 944 identi\ufb01es what damages may be recovered in an action under the\nAct, and section 943 establishes that such damages may only be recovered in an\naction under the Act, absent an express exception.\u201d ( McMillin Albany LLC v.\nSuperior Court (2018) 4 Cal.5th 241, 251 [227 Cal.Rptr.3d 191, 408 P .3d 797].)\n\u2022 \u201cInsofar as section 944 allows recovery only for damages resulting from failure\n\u2018of the home,\u2019 it is clear that \u2018home\u2019 is not limited to the structure where people\nreside, because section 942 states that, \u2018[i]n order to make a claim for violation\nof the standards set forth in Chapter 2 (commencing with Section 896), a\nhomeowner need only demonstrate . . . that the home does not meet the\napplicable standard . . . .\u2019 As we have seen section 896 covers a multitude of\ndefects not only in the residence but also in improvements such as driveways,\nlandscaping, and damage to the lot, etc.\u201d ( Gillotti v. Stewart (2017) 11\nCal.App.5th 875, 897 [217 Cal.Rptr.3d 860], original italics.)"
+}

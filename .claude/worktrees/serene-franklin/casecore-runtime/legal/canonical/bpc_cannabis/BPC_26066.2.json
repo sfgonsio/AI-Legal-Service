@@ -1,0 +1,24 @@
+{
+  "code": "BPC",
+  "section": "26066.2",
+  "title": "Section 26066.2",
+  "text": "(a) A county agricultural commissioner may report to the director on the condition, acreage, production, and value of cannabis produced in the commissioner\u2019s county under a cultivation license issued pursuant to this division. The cannabis data may be submitted in a separate report that is similar to those reports required for agricultural products pursuant to Section 2279 of the Food and Agricultural Code. This section does not require the department to publish this report. (b) Data on cannabis production that is included in a report pursuant to this section may be organized by categories including, but not limited to, the following: (1) State cultivator license type, as set forth in Chapter 5 (commencing with Section 26050), and regulations adopted pursuant to that chapter. (2) Local license, permit, or other authorization type, as described in Section",
+  "tags": [
+    "local_control",
+    "licensing",
+    "cannabis",
+    "cultivation"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Cannabis",
+    "chapter": "6",
+    "chapter_title": "Licensed Cultivation Sites"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Scraped from authority_store raw data."
+  }
+}

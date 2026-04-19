@@ -1,0 +1,22 @@
+{
+  "code": "BPC",
+  "section": "26225.1",
+  "title": "Section 26225.1",
+  "text": "The bylaws may prescribe the time, place, and manner of calling and conducting its meetings. Meetings of members or stockholders shall be held at the place as provided in the bylaws, or, if no provision is made, in the city, county, or city and county where the principal place of business is located at a place designated by the board of directors. Meetings of the board of directors may be held at any place within or without the state that is fixed by a quorum of the board of directors unless otherwise provided in the articles of incorporation or bylaws. (Added by Stats. 2017, Ch. 27, Sec. 107. (SB 94) Effective June 27, 2017.)",
+  "tags": [
+    "local_control",
+    "cannabis"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Cannabis",
+    "chapter": "3",
+    "chapter_title": "Enforcement"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Scraped from authority_store raw data."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "2502",
+  "title": "Disparate Impact\u2014Essential Factual Elements (Gov. Code, \u00a7 12940(a))",
+  "series": "2500",
+  "series_title": "Fair Employment and Housing Act (FEHA)",
+  "text": "2503. Affirmative Defense\u2014Business Necessity/Job Relatedness\n2504. Disparate Impact\u2014Rebuttal to Business Necessity/Job Relatedness Defense\n2505. Retaliation\u2014Essential Factual Elements (Gov. Code, \u00a7 12940(h))\n2506. Limitation on Remedies\u2014After-Acquired Evidence",
+  "tags": [
+    "discrimination",
+    "feha",
+    "retaliation"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

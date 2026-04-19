@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "1002",
+  "title": "Extent of Control Over Premises Area",
+  "series": "1000",
+  "series_title": "Premises Liability",
+  "text": "[Name of plaintiff ] claims that [ name of defendant ] controlled the property\ninvolved in [ name of plaintiff ]\u2019s harm, even though [ name of defendant ]\ndid not own or lease it. A person controls property that the person does\nnot own or lease when the person uses the property as if it were the\nperson\u2019s own. A person is responsible for maintaining, in reasonably safe\ncondition, all areas that person controls.\nNew September 2003; Revised May 2020",
+  "tags": [
+    "premises_liability"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "Use this instruction only for property that is not actually owned or leased by the\ndefendant.",
+  "sources_and_authority": "\u2022 \u201c[A] defendant\u2019s duty to maintain land in a reasonably safe condition extends to\nland over which the defendant exercises control, regardless of who owns the\nland. \u2018As long as the defendant exercised control over the land, the location of\nthe property line would not affect the defendant\u2019s potential liability.\u2019 \u201d\n(University of Southern California v. Superior Court (2018) 30 Cal.App.5th 429,\n445 [241 Cal.Rptr.3d 616], internal citation omitted.)\n\u2022 \u201cEven if a hazard located on publicly owned property is created by a third party,\nan abutting owner or occupier of private property will be held liable for injuries\ncaused by that hazard if the owner or occupier has \u2018 \u201cdramati[cally] assert[ed]\u201d \u2019\nany of the \u2018 \u201cright[s] normally associated with ownership or . . . possession\u201d \u2019\nby undertaking affirmative acts that are consistent with being the owner or\noccupier of the property and that go beyond the \u2018minimal, neighborly\nmaintenance of property owned by another.\u2019 \u201d ( Lopez v. City of Los Angeles\n(2020) 55 Cal.App.5th 244, 258 [269 Cal.Rptr.3d 377].)\n\u2022 \u201cIn Alcaraz . . . , our Supreme Court held that a landowner who exercises\ncontrol over an adjoining strip of land has a duty to protect or warn others\nentering the adjacent land of a known hazard there. This duty arises even if the\nperson does not own or exercise control over the hazard and even if the person\ndoes not own the abutting property on which the hazard is located. . . . [\u00b6] The\nAlcaraz court concluded that such evidence was \u2018sufficient to raise a triable issue\nof fact as to whether defendants exercised control over the strip of land\ncontaining the meter box and thus owed a duty of care to protect or warn\nplaintiff of the allegedly dangerous condition of the property.\u2019 \u201d ( Contreras v.\nAnderson (1997) 59 Cal.App.4th 188, 197\u2013198 [69 Cal.Rptr.2d 69], footnote and\ninternal citations omitted.)\n\u2022 \u201c \u2018[A] defendant cannot be held liable for the defective or dangerous condition\nof property which it [does] not own, possess, or control.\u2019 Thus, \u2018 \u201c[a] tenant\n632\n\nordinarily is not liable for injuries to his invitees occurring outside the leased\npremises on common passageways over which he has no control. [Citations.]\nResponsibility in such cases rests on the owner, who has the right of control and\nthe duty to maintain that part of the premises in a safe condition. It is clear,\nhowever, that if the tenant exercises control over a common passageway outside\nthe leased premises, he may become liable to his business invitees if he fails to\nwarn them of a dangerous condition existing thereon.\u201d \u2019 The \u2018 \u201ccrucial element is\ncontrol.\u201d \u2019 \u201d ( Moses v. Roger-McKeever (2023) 91 Cal.App.5th 172, 179 [308\nCal.Rptr.3d 149], internal citation omited.)"
+}

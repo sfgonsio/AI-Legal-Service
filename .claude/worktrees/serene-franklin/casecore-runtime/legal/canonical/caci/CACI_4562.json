@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "4562",
+  "title": "Payment for Construction Services Rendered\u2014Essential",
+  "series": "4500",
+  "series_title": "Workers Compensation",
+  "text": "Factual Elements (Bus. & Prof. Code, \u00a7 7031(a), (e))\n[Name of plaintiff ] claims that [ name of defendant ] owes [ name of plaintiff ]\nmoney for construction services rendered. To establish this claim, [ name\nof plaintiff ] must prove all of the following:\n1. That [ name of defendant ] [[engaged/hired]/ [or] contracted with]\n[name of plaintiff ] to [ specify contractor services ];\n2. That [ name of plaintiff ] had at all times during the performance of\nconstruction services a valid contractor\u2019s license;\n3. That [ name of plaintiff ] performed these services;\n4. That [ name of defendant ] has not paid [ name of plaintiff ] for the\nconstruction services that [ name of plaintiff ] provided; and\n5. The amount of money [ name of defendant ] owes [ name of plaintiff ]\nfor the construction services provided.\nNew May 2021",
+  "tags": [
+    "contract"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "Give this instruction in a case in which the plaintiff-contractor seeks to recover\ncompensation owed for services performed for which a license is required. (Bus. &\nProf. Code, \u00a7 7031(a).)\nFor element 2, licensure requirements may be satis\ufb01ed by substantial compliance\nwith the licensure requirements. (Bus. & Prof. Code, \u00a7 7031(e).) If the court has\ndetermined the defendant\u2019s substantial compliance, modify element 2 accordingly,\nand instruct the jury that the court has made the determination.\nWhen licensure or proper licensure is controverted, the burden of proof to establish\nlicensure or proper licensure is on the contractor. (Bus. & Prof. Code, \u00a7 7031(d).)\nProof must be made by producing a veri\ufb01ed certi\ufb01cate of licensure from the\nContractors State License Board.\nFor a case involving recovery of payment for services provided by an allegedly\nunlicensed contractor, give CACI No. 4560, Recovery of Payments to Unlicensed\nContractor\u2014Essential Factual Elements .",
+  "sources_and_authority": "\u2022 Proof of Licensure. Business and Professions Code section 7031(d).\n\u2022 \u201cContractor\u201d De\ufb01ned. Business and Professions Code section 7026.\n\u2022 \u201c[Contractor] has not alleged one contract, but rather a series of agreements for\neach separate task that it was asked to perform. It may therefore seek\ncompensation under those alleged agreements that apply to tasks for which no\n1349\n\nlicense was required.\u201d ( Phoenix Mechanical Pipeline, Inc. v. Space Exploration\nTechnologies Corp. (2017) 12 Cal.App.5th 842, 853 [219 Cal.Rptr.3d 775].)\n\u2022 \u201cSection 7031, subdivision (e) states an exception to the license requirement of\nsubdivision (a). Subdivision (e) provides in part: \u2018[T]he court may determine that\nthere has been substantial compliance with licensure requirements under this\nsection if it is shown at an evidentiary hearing that the person who engaged in\nthe business or acted in the capacity of a contractor (1) had been duly licensed\nas a contractor in this state prior to the performance of the act or contract, (2)\nacted reasonably and in good faith to maintain proper licensure, and (3) acted\npromptly and in good faith to remedy the failure to comply with the licensure\nrequirements upon learning of the failure.\u2019 \u201d ( C. W. Johnson & Sons, Inc. v.\nCarpenter (2020) 53 Cal.App.5th 165, 169 [265 Cal.Rptr.3d 895].)\n\u2022 \u201c[S]ection 7031 bars even a licensed general contractor in California from\nbringing an action for compensation for an act or contract performed by an\nunlicensed subcontractor where a license is required.\u201d ( Kim v. TWA Construction,\nInc. (2022) 78 Cal.App.5th 808, 831 [294 Cal.Rptr.3d 140].)"
+}

@@ -1,0 +1,21 @@
+{
+  "code": "CACI",
+  "instruction_id": "1813",
+  "title": "De\ufb01nition of \u201cAccess\u201d (Pen. Code, \u00a7 502(b)(1))",
+  "series": "1800",
+  "series_title": "Fraud and Deceit",
+  "text": "The term \u201caccess\u201d means to gain entry to, instruct, cause input to, cause\noutput from, cause data processing with, or communicate with the\nlogical, arithmetical, or memory function resources of a computer,\ncomputer system, or computer network.\nA person can access a computer, computer system, or computer network\nin different ways. For example, access can be accomplished by sitting\ndown at a computer and using the mouse and keyboard, or by using a\nwireless network or some other method or tool to gain remote entry.\nNew May 2020",
+  "tags": [
+    "deceit",
+    "fraud"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "This instruction should be read with CACI No. 1812, Comprehensive Computer\nData and Access Fraud Act\u2014Essential Factual Elements , for claims that require that\nthe defendant \u201caccess\u201d a computer, computer system, or computer network. (See\nPen. Code, \u00a7 502 (c)(1), (2), (4), (7), and (11).)",
+  "sources_and_authority": "\u2022 \u201cAccess\u201d De\ufb01ned. Penal Code section 502(b)(1).\n\u2022 \u201cUnderscoring that \u2018accessing\u2019 a computer\u2019s \u2018logical, arithmetical, or memory\nfunction\u2019 is different from the ordinary, everyday use of a computer to which\npeople are accustomed when they speak of \u2018using\u2019 a computer, another\nsubdivision criminalizes \u2018us[ing] or caus[ing] to be used computer services\u2019\nwithout permission. Principles of statutory interpretation obligate us to give\ndifferent meanings to the words \u2018use\u2019 and \u2018access\u2019 in order to avoid rendering\neither word redundant.\u201d ( Chrisman v. City of Los Angeles (2007) 155\nCal.App.4th 29, 34 [65 Cal.Rptr.3d 701], internal citation and footnote omitted.)\n\u2022 \u201cPublic access computer terminals are increasingly common in the offices of\nmany governmental bodies and agencies, from courthouses to tax assessors. We\nbelieve subdivision (c)(7) was designed to criminalize unauthorized access to the\nsoftware and data in such systems, even where none of the other illegal activities\nlisted in subdivision (c) have occurred.\u201d ( People v. Lawton (1996) 48\nCal.App.4th Supp. 11, 15 [56 Cal.Rptr.2d 521].)"
+}

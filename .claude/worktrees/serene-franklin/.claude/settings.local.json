@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pandoc \"docs/design/casecore/CaseCore_Intake_Engine_Guide.docx\" -t markdown)",
+      "Bash(pandoc \"docs/design/casecore/Object_Trigger_UI.docx\" -t markdown)",
+      "Bash(pandoc \"docs/design/casecore/UI_Daschboard Tile.docx\" -t markdown)",
+      "Bash(pandoc \"docs/design/casecore/Project Overview.md\" -t plain)",
+      "Bash(pandoc \"docs/design/casecore/CaseCore_Intake_Engine_Guide.docx\" -t plain)",
+      "Bash(pandoc \"docs/design/casecore/UI_Daschboard Tile.docx\" -t plain)",
+      "Bash(pandoc \"docs/design/casecore/Object_Trigger_UI.docx\" -t plain)",
+      "Bash(python3)",
+      "Bash(xargs grep:*)",
+      "Bash(ls -la *.md)"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "1560",
+  "title": "Compliance with Subpoena Duces Tecum for Business Records",
+  "text": "(a) As used in this article: (1) 'Business' includes every kind of business described in Section 1270. (2) 'Record' includes every kind of record maintained by such a business. (b) Except as provided in Section 1564, when a subpoena duces tecum is served upon the custodian of records or other qualified witness of a business in an action in which the business is neither a party nor the place where any cause of action is alleged to have arisen, and the subpoena requires the production of all or any part of the records of the business, it is sufficient compliance therewith if the custodian or other qualified witness, within five days after the receipt of the subpoena in any criminal action, or within the time agreed upon by the party who served the subpoena and the custodian or other qualified witness, or within 15 days after receipt, delivers by hand, mail, or electronic means a true, legible, and durable copy of all the records described in the subpoena to the clerk of the court or to another person described in subdivision (d) of Section 2026.010 of the Code of Civil Procedure, together with the affidavit described in Section 1561.",
+  "tags": ["subpoena_duces_tecum", "business_records", "custodian", "compliance"],
+  "structure": {
+    "division": "11",
+    "division_title": "Writings",
+    "chapter": "2",
+    "chapter_title": "Secondary Evidence of Writings",
+    "article": "4",
+    "article_title": "Production of Business Records"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

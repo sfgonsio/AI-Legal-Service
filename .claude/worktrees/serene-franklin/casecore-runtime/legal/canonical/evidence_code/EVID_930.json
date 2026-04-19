@@ -1,0 +1,27 @@
+{
+  "code": "EVID",
+  "section": "930",
+  "title": "Privilege of Defendant in Criminal Case",
+  "text": "To the extent that such privilege exists under the Constitution of the United States or the State of California, a defendant in a criminal case has a privilege not to be called as a witness and not to testify.",
+  "tags": [
+    "privilege",
+    "defendant",
+    "criminal",
+    "fifth_amendment",
+    "self_incrimination"
+  ],
+  "structure": {
+    "division": "8",
+    "division_title": "Privileges",
+    "chapter": "4",
+    "chapter_title": "Particular Privileges",
+    "article": "1",
+    "article_title": "Privilege of Defendant in Criminal Case"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

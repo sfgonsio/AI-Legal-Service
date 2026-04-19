@@ -1,0 +1,29 @@
+{
+  "code": "EVID",
+  "section": "915",
+  "title": "Disclosure Not Required to Rule on Privilege Claim",
+  "text": "(a) Subject to subdivision (b), the presiding officer may not require disclosure of information claimed to be privileged under this division or attorney work product under subdivision (a) of Section 2018.030 of the Code of Civil Procedure in order to rule on the claim of privilege.\n(b) When a court is ruling on a claim of privilege under Article 9 (commencing with Section 1040) of Chapter 4 (official information and identity of informer) or under Section 1060 (trade secret) or under subdivision (b) of Section 2018.030 of the Code of Civil Procedure (attorney work product) and is unable to do so without requiring disclosure of the information claimed to be privileged, the court may require the person from whom disclosure is sought or the person authorized to claim the privilege, or both, to disclose the information in chambers out of the presence and hearing of all persons except the person authorized to claim the privilege and any other persons as the person authorized to claim the privilege is willing to have present.",
+  "tags": [
+    "privilege",
+    "in_camera",
+    "trade_secret",
+    "work_product",
+    "official_information",
+    "agent_core",
+    "deposition_relevant"
+  ],
+  "structure": {
+    "division": "8",
+    "division_title": "Privileges",
+    "chapter": "3",
+    "chapter_title": "General Provisions Relating to Privileges",
+    "article": null,
+    "article_title": null
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Amended by Stats. 2004, Ch. 182, Sec. 29. Operative July 1, 2005."
+  }
+}

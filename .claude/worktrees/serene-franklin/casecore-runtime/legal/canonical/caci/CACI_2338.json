@@ -1,0 +1,18 @@
+{
+  "code": "CACI",
+  "instruction_id": "2338",
+  "title": ". . . . . . . . . . . . . . . . . . . . . . . . .3700",
+  "series": "2300",
+  "series_title": "Antitrust",
+  "text": "2339. . . . . . . . . . . . . . . . . . . . . . . . . .3710\n2920.5. . . . . . . . . . . . . . . . . . . . . . . . .4910\n2923.4 to 2923.7 . . . . . . . . . . . . . . . . . . . 4910\n2923.6. . . . . . . . . . . . . . . . . . . . . . . . .4910\n2923.7. . . . . . . . . . . . . . . . . . . . . . . . .4910\n2923.55 . . . . . . . . . . . . . . . . . . . . . . . . 4910",
+  "tags": [
+    "antitrust"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

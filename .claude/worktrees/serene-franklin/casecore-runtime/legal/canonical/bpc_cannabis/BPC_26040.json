@@ -1,0 +1,22 @@
+{
+  "code": "BPC",
+  "section": "26040",
+  "title": "Section 26040",
+  "text": "(a) (1) There is established in state government, in the Business, Consumer Services, and Housing Agency, a Cannabis Control Appeals Panel which shall consist of the following members: (A) One member appointed by the Senate Committee on Rules. (B) One member appointed by the Speaker of the Assembly. (C) Three members appointed by the Governor and subject to confirmation by a majority vote of all of the members elected to the Senate. (2) Each member appointed by the Governor, at the time of their initial appointment, shall be a resident of a different county from the one in which either of the other members appointed by the Governor resides. Members of the panel shall receive an annual salary as provided for by Chapter 6 (commencing with Section 11550) of Part 1 of Division 3 of Title 2 of the Government Code. (b) The members of the panel may be removed from office by their appointing authority. (Amended by Stats. 2020, Ch. 93, Sec. 1. (AB 1872) Effective September 18, 2020. Note: This section was added on Nov. 8, 2016, by initiative Prop. 64.)",
+  "tags": [
+    "local_control",
+    "cannabis"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Cannabis",
+    "chapter": "4",
+    "chapter_title": "Appeals"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Scraped from authority_store raw data."
+  }
+}

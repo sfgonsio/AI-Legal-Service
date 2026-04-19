@@ -1,0 +1,15 @@
+{
+  "code": "EVID",
+  "section": "606",
+  "title": "Effect of Proof Presumption",
+  "text": "Shifts burden of proof to opposing party.",
+  "category": "presumptions",
+  "canonical_type": "source",
+  "structure": {
+    "division": "5",
+    "chapter": "3",
+    "article": "1"
+  },
+  "tags": ["burden shift"],
+  "notes": "Creates full burden shift."
+}

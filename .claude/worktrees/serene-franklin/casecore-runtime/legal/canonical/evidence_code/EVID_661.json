@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "661",
+  "title": "Owner of Legal Title Presumed Owner of Full Beneficial Title",
+  "text": "The owner of the legal title to property is presumed to be the owner of the full beneficial title. This presumption may be rebutted only by clear and convincing proof.",
+  "tags": ["presumption", "property", "legal_title", "beneficial_title", "burden_of_proof", "clear_and_convincing"],
+  "structure": {
+    "division": "5",
+    "division_title": "Burden of Proof and Presumptions",
+    "chapter": "3",
+    "chapter_title": "Presumptions and Inferences",
+    "article": "3",
+    "article_title": "Presumptions Affecting the Burden of Proof"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

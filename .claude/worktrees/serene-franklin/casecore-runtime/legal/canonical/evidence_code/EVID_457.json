@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "457",
+  "title": "Instructing Jury on Judicially Noticed Matters",
+  "text": "If a matter judicially noticed is a matter which would otherwise have been for determination by the jury, the trial court may, and upon request shall, instruct the jury to accept as a fact the matter so noticed.",
+  "tags": ["judicial_notice", "jury_instruction"],
+  "structure": {
+    "division": "4",
+    "division_title": "Judicial Notice",
+    "chapter": "",
+    "chapter_title": "",
+    "article": "",
+    "article_title": ""
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

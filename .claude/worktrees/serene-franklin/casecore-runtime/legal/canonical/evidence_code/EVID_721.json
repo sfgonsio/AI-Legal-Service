@@ -1,0 +1,9 @@
+{
+  "code": "EVID",
+  "section": "721",
+  "title": "Cross-Examination of Expert Witness",
+  "text": "(a) Subject to subdivision (b), a witness testifying as an expert may be cross-examined to the same extent as any other witness and, in addition, may be fully cross-examined as to (1) his or her qualifications, (2) the subject to which his or her expert testimony relates, and (3) the matter upon which his or her opinion is based and the reasons for his or her opinion.\n(b) If a witness testifying as an expert testifies in the form of an opinion, he or she may not be cross-examined in regard to the content or tenor of any scientific, technical, or professional text, treatise, journal, or similar publication unless any of the following occurs:\n(1) The witness referred to, considered, or relied upon such publication in arriving at or forming his or her opinion.\n(2) The publication has been admitted in evidence.\n(3) The publication has been established as a reliable authority by the testimony or admission of the witness or by other expert testimony or by judicial notice.\nIf admitted, relevant portions of the publication may be read into evidence but may not be received as exhibits.",
+  "tags": ["expert_witness", "cross_examination", "opinion", "learned_treatise", "trial_relevant", "agent_core"],
+  "structure": {"division": "6", "division_title": "Witnesses", "chapter": "3", "chapter_title": "Expert Witnesses", "article": "1", "article_title": "Expert Witnesses Generally"},
+  "source": {"type": "ca_legislature", "jurisdiction": "California", "url": "https://leginfo.legislature.ca.gov", "editorial_note": "Amended by Stats. 1997, Ch. 892, Sec. 11. Effective January 1, 1998."}
+}

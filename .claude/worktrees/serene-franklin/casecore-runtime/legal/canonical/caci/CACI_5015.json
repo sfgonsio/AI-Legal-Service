@@ -1,0 +1,18 @@
+{
+  "code": "CACI",
+  "instruction_id": "5015",
+  "title": "Instruction to Alternate Jurors on Submission of Case to",
+  "series": "5000",
+  "series_title": "Concluding Instructions",
+  "text": "Jury\nThe jury [will soon begin/is now] deliberating, but you are still alternate\njurors and are bound by my earlier instructions about your conduct.\nUntil the jury is discharged, do not talk about the case or about any of\nthe people or any subject involved in it with anyone, not even your\nfamily or friends[, and not even with each other]. Do not have any\ncontact with the deliberating jurors. Do not decide how you would vote\nif you were deliberating. Do not form or express an opinion about the\nissues in this case, unless you are substituted for one of the deliberating\njurors.\nNew February 2005; Revised December 2012",
+  "tags": [],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "If an alternate juror is substituted, see CACI No. 5014, Substitution of Alternate\nJuror.",
+  "sources_and_authority": "\u2022 Alternate Jurors. Code of Civil Procedure section 234.\n\u2022 \u201cAlternate jurors are members of the jury panel which tries the case. They are\nselected at the same time as the regular jurors. They take the same oath and are\nsubject to the same quali\ufb01cations as the regular jurors. Alternate jurors hear the\nsame evidence and are subject to the same admonitions as the regular jurors and,\nunless excused by the court, are available to participate as regular jurors.\u201d\n(Rivera v. Sassoon (1995) 39 Cal.App.4th 1045, 1048 [46 Cal.Rptr.2d 144],\ninternal citations omitted.)"
+}

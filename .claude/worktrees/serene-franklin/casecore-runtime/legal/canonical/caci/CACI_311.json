@@ -1,0 +1,22 @@
+{
+  "code": "CACI",
+  "instruction_id": "311",
+  "title": "Contract Formation\u2014Rejection of Offer",
+  "series": "300",
+  "series_title": "Negligence\u2014Essential Factual Elements",
+  "text": "[Name of defendant ] contends that the offer to enter into a contract\nterminated because [ name of plaintiff ] rejected it. To overcome this\ncontention, [ name of plaintiff ] must prove both of the following:\n1. That [ name of plaintiff ] did not reject [ name of defendant ]\u2019s offer;\nand\n2. That [ name of plaintiff ] did not make any additions or changes to\nthe terms of [ name of defendant ]\u2019s offer.\nIf [ name of plaintiff ] did not prove both of the above, then a contract was\nnot created.\nNew September 2003; Revised May 2020",
+  "tags": [
+    "contract",
+    "essential_elements",
+    "negligence"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "Do not give this instruction unless the defendant has testi\ufb01ed or offered other\nevidence in support of the contention that the plaintiff rejected the offer.\nNote that rejections of a contract offer, or proposed alterations to an offer, are\neffective only if they are communicated to the other party. (See Beverly Way\nAssociates v. Barham (1990) 226 Cal.App.3d 49, 55 [276 Cal.Rptr. 240].) If it is\nnecessary for the jury to make a \ufb01nding regarding the issue of communication then\nthis instruction may need to be modi\ufb01ed.\nThis instruction assumes that the defendant is claiming plaintiff rejected defendant\u2019s\noffer. Change the identities of the parties in the indented paragraphs if, under the\nfacts of the case, the roles of the parties are switched (e.g., if defendant was the\nalleged offeree).\nConceptually, this instruction dovetails with CACI No. 309, Contract\nFormation\u2014Acceptance. This instruction is designed for the situation where a party\nhas rejected an offer by not accepting it on its terms.",
+  "sources_and_authority": "\u2022 Acceptance. Civil Code section 1585.\n\u2022 Cases provide that \u201ca quali\ufb01ed acceptance amounts to a new proposal or\ncounter-offer putting an end to the original offer. . . . A counter-offer containing\na condition different from that in the original offer is a new proposal and, if not\naccepted by the original offeror, amounts to nothing.\u201d ( Apablasa v. Merritt and\nCo. (1959) 176 Cal.App.2d 719, 726 [1 Cal.Rptr. 500], internal citations\nomitted.) More succinctly: \u201cThe rejection of an offer kills the offer.\u201d ( Stanley v.\nRobert S. Odell and Co. (1950) 97 Cal.App.2d 521, 534 [218 P .2d 162].)\n\u2022 \u201c[T]erms proposed in an offer must be met exactly, precisely and unequivocally\nfor its acceptance to result in the formation of a binding contract; and a quali\ufb01ed\n109\n\nacceptance amounts to a new proposal or counteroffer putting an end to the\noriginal offer.\u201d ( Panagotacos v. Bank of America (1998) 60 Cal.App.4th 851,\n855\u2013856 [70 Cal.Rptr.2d 595].)\n\u2022 The original offer terminates as soon as the rejection is communicated to the\nofferor: \u201cIt is hornbook law that an unequivocal rejection by an offeree,\ncommunicated to the offeror, terminates the offer; even if the offeror does no\nfurther act, the offeree cannot later purport to accept the offer and thereby create\nenforceable contractual rights against the offeror.\u201d ( Beverly Way Associates,\nsupra, 226 Cal.App.3d at p. 55.)"
+}

@@ -1,0 +1,26 @@
+{
+  "code": "EVID",
+  "section": "1242",
+  "title": "Dying Declaration",
+  "text": "Evidence of a statement made by a dying person respecting the cause and circumstances of his death is not made inadmissible by the hearsay rule if the statement was made upon his personal knowledge and under a sense of immediately impending death.",
+  "tags": [
+    "hearsay_exception",
+    "dying_declaration",
+    "death",
+    "personal_knowledge"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Hearsay Evidence",
+    "chapter": "2",
+    "chapter_title": "Exceptions to the Hearsay Rule",
+    "article": "4",
+    "article_title": "Spontaneous, Contemporaneous, and Dying Declarations"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

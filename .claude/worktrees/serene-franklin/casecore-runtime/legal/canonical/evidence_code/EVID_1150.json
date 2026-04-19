@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "1150",
+  "title": "Jury Deliberation Evidence",
+  "text": "(a) Upon an inquiry as to the validity of a verdict, any otherwise admissible evidence may be received as to statements made, or conduct, conditions, or events occurring, either within or without the jury room, of such a character as is likely to have influenced the verdict improperly. No evidence is admissible to show the effect of such statement, conduct, condition, or event upon a juror either in influencing him to assent to or dissent from the verdict or concerning the mental processes by which it was determined.\n\n(b) Nothing in this code affects the law relating to the competence of a juror to give evidence to impeach or support a verdict.",
+  "tags": ["extrinsic_policy", "jury_deliberation", "verdict"],
+  "structure": {
+    "division": "9",
+    "division_title": "Evidence Affected or Excluded by Extrinsic Policies",
+    "chapter": "3",
+    "chapter_title": "Other Evidence Affected or Excluded by Extrinsic Policies",
+    "article": "",
+    "article_title": ""
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

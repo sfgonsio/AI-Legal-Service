@@ -1,0 +1,29 @@
+{
+  "code": "EVID",
+  "section": "913",
+  "title": "No Inference from Exercise of Privilege",
+  "text": "(a) If in the instant proceeding or on a prior occasion a privilege is or was exercised not to testify with respect to any matter, or to refuse to disclose or to prevent another from disclosing any matter, neither the presiding officer nor counsel may comment thereon, no presumption shall arise because of the exercise of the privilege, and the trier of fact may not draw any inference therefrom as to the credibility of the witness or as to any matter at issue in the proceeding.\n(b) The court, at the request of a party who may be adversely affected because an unfavorable inference may be drawn by the jury because a privilege has been exercised, shall instruct the jury that no presumption arises because of the exercise of the privilege and that the jury may not draw any inference therefrom as to the credibility of the witness or as to any matter at issue in the proceeding.",
+  "tags": [
+    "privilege",
+    "inference",
+    "credibility",
+    "jury_instruction",
+    "agent_core",
+    "deposition_relevant",
+    "trial_relevant"
+  ],
+  "structure": {
+    "division": "8",
+    "division_title": "Privileges",
+    "chapter": "3",
+    "chapter_title": "General Provisions Relating to Privileges",
+    "article": null,
+    "article_title": null
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

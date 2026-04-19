@@ -1,0 +1,30 @@
+{
+  "code": "EVID",
+  "section": "1202",
+  "title": "Credibility of Hearsay Declarant",
+  "text": "Evidence of a statement or other conduct by a declarant that is inconsistent with a statement by such declarant received in evidence as hearsay evidence is not inadmissible for the purpose of attacking the credibility of the declarant though he is not given and has not had an opportunity to explain or to deny such inconsistent statement or other conduct. Any other evidence offered to attack or support the credibility of the declarant is admissible if it would have been admissible had the declarant been a witness at the hearing. For the purposes of this section, the deponent of a deposition taken in the action in which it is offered shall be deemed to be a hearsay declarant.",
+  "tags": [
+    "hearsay",
+    "credibility",
+    "inconsistent_statement",
+    "impeachment",
+    "deposition",
+    "deposition_relevant",
+    "agent_core",
+    "trial_relevant"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Hearsay Evidence",
+    "chapter": "1",
+    "chapter_title": "General Provisions",
+    "article": null,
+    "article_title": null
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

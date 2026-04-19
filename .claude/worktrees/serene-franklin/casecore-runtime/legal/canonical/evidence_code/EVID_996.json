@@ -1,0 +1,27 @@
+{
+  "code": "EVID",
+  "section": "996",
+  "title": "Exception — Patient Tenders Condition as Issue",
+  "text": "There is no privilege under this article as to a communication relevant to an issue concerning the condition of the patient if such issue has been tendered by:\n(a) The patient;\n(b) Any party claiming through or under the patient;\n(c) Any party claiming as a beneficiary of the patient through a contract to which the patient is or was a party; or\n(d) The plaintiff in an action brought under Section 376 or 377 of the Code of Civil Procedure for damages for the injury or death of the patient.",
+  "tags": [
+    "privilege",
+    "physician_patient",
+    "exception",
+    "patient_condition",
+    "waiver"
+  ],
+  "structure": {
+    "division": "8",
+    "division_title": "Privileges",
+    "chapter": "4",
+    "chapter_title": "Particular Privileges",
+    "article": "6",
+    "article_title": "Physician-Patient Privilege"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

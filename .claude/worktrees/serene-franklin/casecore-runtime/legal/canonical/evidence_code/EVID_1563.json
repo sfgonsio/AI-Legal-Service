@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "1563",
+  "title": "Compensation of Custodian",
+  "text": "(a) This article shall not be interpreted to require tender or payment of more than one witness fee and one mileage fee or other charge, to a witness or witness' business, unless there is an agreement to the contrary. (b) All reasonable costs incurred in a civil proceeding by any business in complying with a subpoena duces tecum for the production of business records shall be recoverable as costs of suit under Section 1033.5 of the Code of Civil Procedure.",
+  "tags": ["compensation", "witness_fee", "business_records", "costs"],
+  "structure": {
+    "division": "11",
+    "division_title": "Writings",
+    "chapter": "2",
+    "chapter_title": "Secondary Evidence of Writings",
+    "article": "4",
+    "article_title": "Production of Business Records"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

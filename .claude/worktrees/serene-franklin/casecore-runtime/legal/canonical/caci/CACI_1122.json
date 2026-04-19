@@ -1,0 +1,18 @@
+{
+  "code": "CACI",
+  "instruction_id": "1122",
+  "title": "Affirmative Defense\u2014Weather Conditions Affecting Streets and Highways (Gov.",
+  "series": "1100",
+  "series_title": "Products Liability",
+  "text": "Code, \u00a7\n831)\n1123. Affirmative Defense\u2014Design Immunity (Gov. Code, \u00a7 830.6)\n1124. Loss of Design Immunity (Cornette)",
+  "tags": [
+    "products_liability"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

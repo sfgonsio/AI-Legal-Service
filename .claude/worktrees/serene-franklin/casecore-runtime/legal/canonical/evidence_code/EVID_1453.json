@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "1453",
+  "title": "Genuineness of Writing — Official",
+  "text": "A signature is presumed to be genuine and authorized if it purports to be the signature, affixed in his official capacity, of: (a) A public employee of the United States. (b) A public employee of any public entity in the United States. (c) A notary public within any state of the United States.",
+  "tags": ["signature", "presumption", "official", "public_employee"],
+  "structure": {
+    "division": "11",
+    "division_title": "Writings",
+    "chapter": "1",
+    "chapter_title": "Authentication and Proof of Writings",
+    "article": "3",
+    "article_title": "Presumptions Affecting Acknowledged Writings and Official Writings"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

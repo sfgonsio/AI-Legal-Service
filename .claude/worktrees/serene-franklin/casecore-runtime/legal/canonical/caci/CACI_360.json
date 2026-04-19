@@ -1,0 +1,23 @@
+{
+  "code": "CACI",
+  "instruction_id": "360",
+  "title": "Nominal Damages",
+  "series": "300",
+  "series_title": "Negligence\u2014Essential Factual Elements",
+  "text": "If you decide that [ name of defendant ] breached the contract but also that\n[name of plaintiff ] was not harmed by the breach, you may still award\n[him/her/nonbinary pronoun/it] nominal damages such as one dollar.\nNew September 2003",
+  "tags": [
+    "breach",
+    "contract",
+    "damages",
+    "essential_elements",
+    "negligence"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "sources_and_authority": "\u2022 Nominal Damages. Civil Code section 3360.\n\u2022 \u201cA plaintiff is entitled to recover nominal damages for the breach of a contract,\ndespite inability to show that actual damage was in\ufb02icted upon him, since the\ndefendant\u2019s failure to perform a contractual duty is, in itself, a legal wrong that\nis fully distinct from the actual damages. The maxim that the law will not be\nconcerned with tri\ufb02es does not, ordinarily, apply to violation of a contractual\nright. Accordingly, nominal damages, which are presumed as a matter of law to\nstem merely from the breach of a contract may properly be awarded for the\nviolation of such a right. And, by statute, such is also the rule in California.\u201d\n(Sweet v. Johnson (1959) 169 Cal.App.2d 630, 632\u2013633 [337 P .2d 499], internal\ncitations omitted.)\n\u2022 \u201cWith one exception . . . an unbroken line of cases holds that nominal damages\nare limited to an amount of a few cents or a dollar.\u201d ( Avina v. Spurlock (1972)\n28 Cal.App.3d 1086, 1089 [105 Cal.Rptr. 198], internal citations omitted.)"
+}

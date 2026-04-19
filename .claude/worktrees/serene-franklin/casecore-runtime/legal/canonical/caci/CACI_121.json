@@ -1,0 +1,18 @@
+{
+  "code": "CACI",
+  "instruction_id": "121",
+  "title": ". . . . . . . . . . . . . . . . . . . . . . . .1245",
+  "series": "100",
+  "series_title": "Pretrial",
+  "text": "Campodonico v. State Auto Parks, Inc., 10 Cal.App.3d\n803, 89 Cal.Rptr. 270 (1970) . . . . . . . . . . . 432\nCanal-Randolph Anaheim, Inc. v. Wilkoski, 78\nCal.App.3d 477, 144 Cal.Rptr. 474 (1978) . . . 4303\nCanavin v. Paci\ufb01c Southwest Airlines, 148 Cal.App.3d\n512, 196 Cal.Rptr. 82 (1983) . . 3904A; 3921, 3922;\n3935\nCandelore v. Tinder, Inc., 19 Cal.App.5th 1138, 228 Cal.\nRptr. 3d 336 (2018) . . . . . . . . . . . . 3060; 3062\nCandies, Inc., 203 Cal.App.3d 743, 250 Cal.Rptr. 195\n(1988) . . . . . . . . . . . . . . . . . . . . . . . 3934\nCandies, Inc. (Pugh I), 116 Cal.App.3d 311, 171 Cal.Rptr.\n917, 115 L.R.R.M. (BNA) 4002 (1981) . 2401; 2404\nCandy Shops, 210 Cal.App.4th 889, 148 Cal.Rptr.3d",
+  "tags": [
+    "pretrial"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

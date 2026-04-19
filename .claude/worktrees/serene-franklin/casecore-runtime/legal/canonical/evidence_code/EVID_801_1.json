@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "801.1",
+  "title": "Medical Causation Expert Testimony in Civil Actions",
+  "text": "(a) In a general civil case, as defined in Rule 1.6 of the California Rules of Court, where the party bearing the burden of proof proffers expert testimony regarding medical causation and where that party's expert is required as a condition of testifying to opine that causation exists to a reasonable medical probability, the party not bearing the burden of proof may offer a contrary expert only if its expert is able to opine that the proffered alternative cause or causes each exists to a reasonable medical probability, except as provided in subdivision (b).\n\n(b) Subdivision (a) does not preclude a witness testifying as an expert from testifying that a matter cannot meet a reasonable degree of probability in the applicable field, and providing the basis for that opinion.",
+  "tags": ["opinion", "expert_witness", "medical_causation", "civil_action"],
+  "structure": {
+    "division": "7",
+    "division_title": "Opinion Testimony and Scientific Evidence",
+    "chapter": "1",
+    "chapter_title": "Expert and Other Opinion Testimony",
+    "article": "1",
+    "article_title": "Expert and Other Opinion Testimony Generally"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Amended (as added by Stats. 2023, Ch. 75) by Stats. 2023, Ch. 190, Sec. 1. (SB 135) Effective September 13, 2023. Operative January 1 2024."
+  }
+}

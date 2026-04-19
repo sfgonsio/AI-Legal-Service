@@ -1,0 +1,9 @@
+{
+  "code": "EVID",
+  "section": "733",
+  "title": "Party's Right to Call Own Expert",
+  "text": "Nothing contained in this article shall be deemed or construed to prevent any party to any action from producing other expert evidence on the same fact or matter mentioned in Section 730; but, where other expert witnesses are called by a party to the action, their fees shall be paid by the party calling them and only ordinary witness fees shall be taxed as costs in the action.",
+  "tags": ["expert_witness", "party_expert", "costs", "fees"],
+  "structure": {"division": "6", "division_title": "Witnesses", "chapter": "3", "chapter_title": "Expert Witnesses", "article": "2", "article_title": "Appointment of Expert Witness by Court"},
+  "source": {"type": "ca_legislature", "jurisdiction": "California", "url": "https://leginfo.legislature.ca.gov", "editorial_note": "Enacted by Stats. 1965, Ch. 299."}
+}

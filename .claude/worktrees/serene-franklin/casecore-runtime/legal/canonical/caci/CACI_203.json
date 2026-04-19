@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "203",
+  "title": "Party Having Power to Produce Better Evidence",
+  "series": "200",
+  "series_title": "Contracts",
+  "text": "Y ou may consider the ability of each party to provide evidence. If a\nparty provided weaker evidence when it could have provided stronger\nevidence, you may distrust the weaker evidence.\nNew September 2003",
+  "tags": [
+    "contracts"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "An instruction on failure to produce evidence should not be given if there is no\nevidence that the party producing inferior evidence had the power to produce\nsuperior evidence. ( Thomas v. Gates (1899) 126 Cal. 1, 6 [58 P . 315]; Hansen v.\nWarco Steel Corp. (1965) 237 Cal.App.2d 870, 876 [47 Cal.Rptr. 428]; Holland v.\nKerr (1953) 116 Cal.App.2d 31, 37 [253 P .2d 88].)\nThe reference to \u201cstronger evidence\u201d applies to evidence that is admissible. This\ninstruction should not be construed to apply to evidence that the court has ruled\ninadmissible. ( Hansen, supra, 237 Cal.App.2d at p. 877.)\nFor willful suppression of evidence, see CACI No. 204, Willful Suppression of\nEvidence.",
+  "sources_and_authority": "\u2022 Power to Produce Better Evidence. Evidence Code section 412.\n\u2022 Section 412 does not incorporate the \u201cbest evidence rule,\u201d but instead deals with\n\u201cstronger and more satisfactory\u201d evidence. ( Largey v. Intrastate Radiotelephone,\nInc. (1982) 136 Cal.App.3d 660, 672 [186 Cal.Rptr. 520] (giving of instruction\nwas proper because corporate records concerning date of meeting could have\nbeen stronger evidence than recollection of participants several years later).)\n\u2022 This inference was a mandatory presumption under former Code of Civil\nProcedure section 1963(6). It is now considered a permissible inference. (See 3\nWitkin, California Evidence (4th ed. 2000) \u00a7 114, p. 152.)"
+}

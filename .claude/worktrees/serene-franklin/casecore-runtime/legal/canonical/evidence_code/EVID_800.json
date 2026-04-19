@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "800",
+  "title": "Lay Opinion Testimony",
+  "text": "If a witness is not testifying as an expert, his testimony in the form of an opinion is limited to such an opinion as is permitted by law, including but not limited to an opinion that is:\n\n(a) Rationally based on the perception of the witness; and\n\n(b) Helpful to a clear understanding of his testimony.",
+  "tags": ["opinion", "lay_witness", "perception"],
+  "structure": {
+    "division": "7",
+    "division_title": "Opinion Testimony and Scientific Evidence",
+    "chapter": "1",
+    "chapter_title": "Expert and Other Opinion Testimony",
+    "article": "1",
+    "article_title": "Expert and Other Opinion Testimony Generally"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

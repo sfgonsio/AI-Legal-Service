@@ -1,0 +1,18 @@
+{
+  "code": "CACI",
+  "instruction_id": "2924",
+  "title": ". . . . . . . . . . . . . . . . . . . . . . . . .4910",
+  "series": "2900",
+  "series_title": "Real Property",
+  "text": "2924.9. . . . . . . . . . . . . . . . . . . . . . . . .4910\n2924.9 to 2924.12 . . . . . . . . . . . . . . . . . . 4910\n2924.10 . . . . . . . . . . . . . . . . . . . . . . . . 4910\n2924.11 . . . . . . . . . . . . . . . . . . . . . . . . 4910\n2924.12(b) . . . . . . . . . . . . . . . . . . . . . . 4910\n2924.15 . . . . . . . . . . . . . . . . . . . . . . . . 4910\n2924.17 . . . . . . . . . . . . . . . . . . . . . . . . 4910\n2924.17 to 2924.20. . . . . . . . . . . . . . . . . .4910\n2924c . . . . . . . . . . . . . . . . . . . . . . . . . 4920",
+  "tags": [
+    "real_property"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

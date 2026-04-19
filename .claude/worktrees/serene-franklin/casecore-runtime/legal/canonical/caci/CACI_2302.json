@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "2302",
+  "title": "Breach of Contract for Temporary Life Insurance\u2014Essential Factual Elements",
+  "series": "2300",
+  "series_title": "Antitrust",
+  "text": "2303. Affirmative Defense\u2014Insurance Policy Exclusion\n2304. Exception to Insurance Policy Exclusion\u2014Burden of Proof\n2305. Lost or Destroyed Insurance Policy\n2306. Covered and Excluded Risks\u2014Predominant Cause of Loss",
+  "tags": [
+    "antitrust",
+    "breach",
+    "contract"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

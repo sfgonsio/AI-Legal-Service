@@ -1,0 +1,18 @@
+{
+  "code": "CACI",
+  "instruction_id": "618",
+  "title": ". . . . . . . . . . . . . . . . . . . . . .5009, 5017",
+  "series": "600",
+  "series_title": "Motor Vehicles",
+  "text": "624 . . . . . . . . . . . . . . . . . . . . . . . . . . 5012\n625 . . . . . . . . . . . . . . . . . . . . . . . . . . 5012\n657 . . . . . . . . . . . . . . . . . . . . . . . . . . 5009\n667.7 . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n731a. . . . . . . . . . . . . . . . . . . . . . . . . .2000\nAS TABLE OF STATUTES\n[References are to the Judicial Council of California Criminal Jury Instructions (CALCRIM), e.g., 1900]\nTS-7\nThis version provided by LexisNexis\u00ae Matthew Bender\u00ae, Official Publisher, 800-533-1637,\nstore.lexisnexis.com, for public and internal court use\n\nCode of Civil Procedure\u2014Cont.\nSec. Inst.",
+  "tags": [
+    "motor_vehicle"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

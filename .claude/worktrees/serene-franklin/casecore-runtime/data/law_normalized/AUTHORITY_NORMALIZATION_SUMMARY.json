@@ -1,0 +1,12 @@
+{
+  "packs": [
+    {
+      "authority_id": "CA_BPC_DIV10_CANNABIS",
+      "pack_manifest": "C:\\Users\\sfgon\\Documents\\GitHub\\AI Legal Service\\authority_packs\\ca_bpc_div10_cannabis\\authority_pack_manifest.yaml",
+      "sections_path": "C:\\Users\\sfgon\\Documents\\GitHub\\AI Legal Service\\authority_store\\ca\\bpc\\division_10_cannabis\\current\\sections",
+      "output_path": "C:\\Users\\sfgon\\Documents\\GitHub\\AI Legal Service\\casecore-runtime\\data\\law_normalized\\CA_BPC_DIV10_CANNABIS_LAW_NORMALIZED.json",
+      "section_count": 213,
+      "skipped_count": 0
+    }
+  ]
+}

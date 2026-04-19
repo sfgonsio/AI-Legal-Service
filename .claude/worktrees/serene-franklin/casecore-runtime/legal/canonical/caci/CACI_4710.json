@@ -1,0 +1,21 @@
+{
+  "code": "CACI",
+  "instruction_id": "4710",
+  "title": "Consumers Legal Remedies Act\u2014Affirmative",
+  "series": "4700",
+  "series_title": "Privacy",
+  "text": "Defense\u2014Bona Fide Error and Correction (Civ. Code, \u00a7 1784)\n[Name of defendant ] is not responsible for damages to [ name of plaintiff ] if\n[name of defendant ] proves both of the following:\n1. The violation[s] alleged by [ name of plaintiff ] [was/were] not\nintentional and resulted from a bona \ufb01de error even though\n[name of defendant ] used reasonable procedures adopted to avoid\nany such error; and\n2. Within 30 days of receiving [ name of plaintiff ]\u2019s notice of violation,\n[name of defendant ] made, or agreed to make within a reasonable\ntime, an appropriate correction, repair, replacement, or other\nremedy of the [ specify product or service ].\nNew November 2017",
+  "tags": [
+    "damages",
+    "privacy"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "Different correction requirements apply to class actions. (See Civ. Code, \u00a7 1782(c).)",
+  "sources_and_authority": "\u2022 Consumers Legal Remedies Act: Defenses. Civil Code section 1784.\n\u2022 \u201cDamages are not awardable under the CLRA if the defendant proves its\nviolation was not intentional and resulted from a bona \ufb01de error despite\nreasonable procedures to avoid such an error, and remedies the violating goods\nor services.\u201d ( Lunada Biomedical v. Nunez (2014) 230 Cal.App.4th 459, 471\n[178 Cal.Rptr.3d 784].)\n\u2022 \u201c[Defendants] also contend [plaintiff] cannot avoid the safe harbor provided for a\nreasonable correction offer under the CLRA by recasting her claim as a violation\nof the UCL. This is incorrect. [Plaintiff]\u2019s UCL claim was based directly on\nevidence of fraudulent advertising practices and was not dependent on \ufb01nding an\nunderlying violation of the CLRA. The CLRA expressly states that the effect of\na reasonable correction offer is to prevent the consumer from maintaining an\naction for damages under Civil Code section 1780, but the remedies of the\nCLRA are cumulative and the consumer may assert other common law or\nstatutory causes of action under the procedures and with the remedies provided\nfor in those laws.\u201d ( Flores v. Southcoast Automotive Liquidators, Inc. (2017) 17\nCal.App.5th 841, 852 [226 Cal.Rptr.3d 12].)"
+}

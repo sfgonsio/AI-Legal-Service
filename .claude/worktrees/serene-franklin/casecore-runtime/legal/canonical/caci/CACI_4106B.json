@@ -1,0 +1,23 @@
+{
+  "code": "CACI",
+  "instruction_id": "4106B",
+  "title": "Negligent Breach of Fiduciary Duty by Attorney\u2014Essential",
+  "series": "4100",
+  "series_title": "Legal Malpractice",
+  "text": "Factual Elements\n[Name of plaintiff ] claims that [he/she/ nonbinary pronoun/it] was harmed\nbecause [ name of defendant ] negligently breached an attorney\u2019s duty\n[describe duty, e.g., \u201cnot to represent clients with con\ufb02icting interests\u201d ]. To\nestablish this claim, [ name of plaintiff ] must prove all of the following:\n1. That [ name of defendant ] negligently breached the duty of an\nattorney [ describe duty ];\n2. That [ name of plaintiff ] was harmed; and\n3. That [ name of plaintiff ] would not have suffered the harm if [ name\nof defendant ] had acted as a reasonably careful attorney.\nNew December 2025, Derived from former CACI No. 4106",
+  "tags": [
+    "breach",
+    "duty",
+    "fiduciary",
+    "legal_malpractice"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "Give CACI No. 601, Legal Malpractice\u2014Causation , with this instruction. (See\nViner v. Sweet (2003) 30 Cal.4th 1232, 1242 [135 Cal.Rptr.2d 629, 70 P .3d 1046]\n[\u201cIn both litigation and transactional malpractice cases, the crucial causation inquiry\nis what would have happened if the defendant attorney had not been negligent.\u201d].)\nIf the plaintiff alleges both intentional or fraudulent breach and negligent breach of\n\ufb01duciary duty by an attorney, give both this instruction and CACI No. 4106A,\nIntentional Breach of Fiduciary Duty by Attorney\u2014Essential Factual Elements .\nDifferent causation standards apply to these claims. (See Viner , supra,30 Cal.4th at\np. 1242 [\u201cIn both litigation and transactional malpractice cases, the crucial causation\ninquiry is what would have happened if the defendant attorney had not been\nnegligent.\u201d].) The jury must be instructed on both causation standards and it should\nbe made clear which causation standard applies to which claim.",
+  "sources_and_authority": "\u2022 \u201c \u2018The relation between attorney and client is a \ufb01duciary relation of the very\nhighest character.\u2019 \u201d ( Neel v. Magana, Olney, Levy, Cathcart & Gelfand (1971) 6\nCal.3d 176, 189 [98 Cal.Rptr. 837, 491 P .2d 421].)\n\u2022 \u201c \u2018The breach of \ufb01duciary duty can be based upon either negligence or fraud\ndepending on the circumstances. It has been referred to as a species of tort\ndistinct from causes of action for professional negligence [citation] and from\nfraud [citation].\u2019 \u2018The elements of a cause of action for breach of \ufb01duciary duty\nare the existence of a \ufb01duciary relationship, breach of \ufb01duciary duty, and\ndamages.\u2019 \u201d ( Knutson v. Foster (2018), 25 Cal.App.5th 1075, 1093\u20131094 [23\nCal.Rptr.3d 473], internal citation omitted.)\n\u2022 \u201cExpert testimony is not required, but is admissible to establish the duty and\n1074\n\nbreach elements of a cause of action for breach of \ufb01duciary duty where the\nattorney conduct is a matter beyond common knowledge.\u201d ( Stanley v. Richmond\n(1995) 35 Cal.App.4th 1070, 1087 [41 Cal.Rptr.2d 768], internal citations\nomitted.)\n\u2022 \u201cThe scope of an attorney\u2019s \ufb01duciary duty may be determined as a matter of law\nbased on the Rules of Professional Conduct which, \u2018together with statutes and\ngeneral principles relating to other \ufb01duciary relationships, all help de\ufb01ne the\nduty component of the \ufb01duciary duty which an attorney owes to his [or her]\nclient.\u2019 \u201d ( Stanley, supra, 35 Cal.App.4th at p. 1087.)"
+}

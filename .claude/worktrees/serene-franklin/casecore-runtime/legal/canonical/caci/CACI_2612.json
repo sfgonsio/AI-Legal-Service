@@ -1,0 +1,18 @@
+{
+  "code": "CACI",
+  "instruction_id": "2612",
+  "title": "Affirmative Defense\u2014Employment Would Have Ceased",
+  "series": "2600",
+  "series_title": "Whistleblower Protection",
+  "text": "2613\u20132619. Reserved for Future Use\n2620. CFRA Rights Retaliation\u2014Essential Factual Elements (Gov. Code, \u00a7 12945.2(k))\n2621\u20132699. Reserved for Future Use\nVF-2600. Violation of CFRA Rights\nVF-2601. Violation of CFRA Rights\u2014Affirmative Defense\u2014Employment Would Have\nCeased\nVF-2602. CFRA Rights Retaliation\nVF-2603\u2013VF-2699. Reserved for Future Use\nSERIES 2700 LABOR CODE ACTIONS",
+  "tags": [
+    "retaliation"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

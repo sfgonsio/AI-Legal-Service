@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "1821",
+  "title": "Damages for Use of Name or Likeness (Civ. Code \u00a7 3344(a))",
+  "series": "1800",
+  "series_title": "Fraud and Deceit",
+  "text": "1822\u20131899. Reserved for Future Use\nVF-1800. Privacy\u2014Intrusion Into Private Affairs\nVF-1801. Privacy\u2014Public Disclosure of Private Facts\nVF-1802. Privacy\u2014False Light\nVF-1803. Privacy\u2014Misappropriation of Name, Likeness, or Identity\nVF-1804. Privacy\u2014Misappropriation of Name, Voice, Signature, Photograph, or Likeness\n(Civ. Code, \u00a7 3344)\nVF-1805\u2013VF-1806. Reserved for Future Use\nVF-1807. Privacy\u2014Recording of Con\ufb01dential Information (Pen. Code, \u00a7\u00a7 632, 637.2)\nVF-1808\u2013VF-1899. Reserved for Future Use\nSERIES 1900 FRAUD OR DECEIT",
+  "tags": [
+    "damages",
+    "deceit",
+    "fraud"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

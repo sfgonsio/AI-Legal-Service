@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "215",
+  "title": "Spouse",
+  "text": "\"Spouse\" includes \"registered domestic partner,\" as required by Section 297.5 of the Family Code.",
+  "tags": ["definitions", "spouse", "domestic_partner"],
+  "structure": {
+    "division": "2",
+    "division_title": "Words and Phrases Defined",
+    "chapter": "",
+    "chapter_title": "",
+    "article": "",
+    "article_title": ""
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Added by Stats. 2016, Ch. 50, Sec. 32. (SB 1005) Effective January 1, 2017."
+  }
+}

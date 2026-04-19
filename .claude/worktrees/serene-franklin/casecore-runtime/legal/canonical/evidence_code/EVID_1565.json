@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "1565",
+  "title": "Service of Subpoena",
+  "text": "If the original records are required under Section 1564, the subpoena shall be served at least 10 days before the time required for production, unless the court, upon motion and for good cause shown, shortens the time for service.",
+  "tags": ["service", "subpoena", "time_requirement", "original_records"],
+  "structure": {
+    "division": "11",
+    "division_title": "Writings",
+    "chapter": "2",
+    "chapter_title": "Secondary Evidence of Writings",
+    "article": "4",
+    "article_title": "Production of Business Records"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

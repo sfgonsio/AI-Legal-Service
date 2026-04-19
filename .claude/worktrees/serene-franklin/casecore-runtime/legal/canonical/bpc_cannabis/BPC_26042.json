@@ -1,0 +1,21 @@
+{
+  "code": "BPC",
+  "section": "26042",
+  "title": "Section 26042",
+  "text": "The panel shall adopt procedures for appeals similar to the procedures used in Article 3 (commencing with Section 23075) and Article 4 (commencing with Section 23080) of Chapter 1.5 of Division 9 of the Business and Professions Code. Such procedures shall be adopted in accordance with the Administrative Procedure Act (Chapter 3.5 (commencing with Section 11340) of Part 1 of Division 3 of Title 2 of the Government Code). (Added November 8, 2016, by initiative Proposition 64, Sec. 6.1.)",
+  "tags": [
+    "cannabis"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Cannabis",
+    "chapter": "4",
+    "chapter_title": "Appeals"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Scraped from authority_store raw data."
+  }
+}

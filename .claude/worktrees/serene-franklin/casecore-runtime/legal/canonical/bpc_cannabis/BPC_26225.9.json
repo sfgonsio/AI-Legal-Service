@@ -1,0 +1,21 @@
+{
+  "code": "BPC",
+  "section": "26225.9",
+  "title": "Section 26225.9",
+  "text": "The bylaws may prescribe any of the following: (a) The number and qualification of members or stockholders of the association and the conditions precedent to membership or ownership of common stock. (b) The method, time, and manner of permitting members to withdraw or the holders of common stock to transfer their stock. (c) The manner of assignment and transfer of the interest of members, and of the shares of common stock. (d) The conditions under which, and time when, membership of a member shall cease. (e) The automatic suspension of the rights of a member when he or she ceases to be eligible to membership in the association. (f) The mode, manner, and effect of the expulsion of a member. (Added by Stats. 2017, Ch. 27, Sec. 107. (SB 94) Effective June 27, 2017.)",
+  "tags": [
+    "cannabis"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Cannabis",
+    "chapter": "3",
+    "chapter_title": "Enforcement"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Scraped from authority_store raw data."
+  }
+}

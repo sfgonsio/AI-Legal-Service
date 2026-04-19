@@ -1,0 +1,9 @@
+{
+  "code": "EVID",
+  "section": "700",
+  "title": "General Rule of Competency",
+  "text": "Except as otherwise provided by statute, every person, irrespective of age, is qualified to be a witness and no person is disqualified to testify to any matter.",
+  "tags": ["competency", "witness", "qualification", "general_rule"],
+  "structure": {"division": "6", "division_title": "Witnesses", "chapter": "1", "chapter_title": "Competency"},
+  "source": {"type": "ca_legislature", "jurisdiction": "California", "url": "https://leginfo.legislature.ca.gov", "editorial_note": "Amended by Stats. 1985, Ch. 884, Sec. 1."}
+}

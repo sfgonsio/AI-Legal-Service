@@ -1,0 +1,21 @@
+{
+  "code": "EVID",
+  "section": "180",
+  "title": "Personal Property",
+  "text": "\"Personal property\" includes money, goods, chattels, things in action, and evidences of debt.",
+  "tags": ["definitions", "personal_property"],
+  "structure": {
+    "division": "2",
+    "division_title": "Words and Phrases Defined",
+    "chapter": "",
+    "chapter_title": "",
+    "article": "",
+    "article_title": ""
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

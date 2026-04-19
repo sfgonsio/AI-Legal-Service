@@ -1,0 +1,19 @@
+{
+  "code": "CACI",
+  "instruction_id": "1224",
+  "title": "Negligence\u2014Negligence for Product Rental/Standard of Care",
+  "series": "1200",
+  "series_title": "Dangerous Condition of Public Property",
+  "text": "1225\u20131229. Reserved for Future Use\n1230. Express Warranty\u2014Essential Factual Elements\n1231. Implied Warranty of Merchantability\u2014Essential Factual Elements\n1232. Implied Warranty of Fitness for a Particular Purpose\u2014Essential Factual Elements",
+  "tags": [
+    "dangerous_condition",
+    "negligence"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

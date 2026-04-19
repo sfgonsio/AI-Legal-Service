@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "504",
+  "title": "Standard of Care for Nurses",
+  "series": "500",
+  "series_title": "Medical Negligence",
+  "text": "[A/An] [ insert type of nurse ] is negligent if [he/she/ nonbinary pronoun] fails\nto use the level of skill, knowledge, and care in diagnosis and treatment\nthat other reasonably careful [ insert type of nurses ] would use in similar\ncircumstances. This level of skill, knowledge, and care is sometimes\nreferred to as \u201cthe standard of care.\u201d\n[Y ou must determine the level of skill, knowledge, and care that other\nreasonably careful [ insert type of nurses ] would use in similar\ncircumstances based only on the testimony of the expert witnesses\n[including [ name of defendant ]] who have testi\ufb01ed in this case.]\nNew September 2003; Revised October 2004, June 2010",
+  "tags": [
+    "medical_negligence"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "The appropriate level of nurse should be inserted where indicated\u2014i.e., registered\nnurse, licensed vocational nurse, nurse practitioner.\nThe second paragraph should be included unless the court determines that expert\ntestimony is not necessary to establish the standard of care.",
+  "sources_and_authority": "\u2022 \u201c[A] nurse is negligent if he or she fails to meet the standard of care\u2014that is,\nfails to use the level of skill, knowledge, and care that a reasonably careful nurse\nwould use in similar circumstances.\u201d ( Massey v. Mercy Med. Ctr . Redding (2009)\n180 Cal.App.4th 690, 694 [103 Cal.Rptr.3d 209] [citing this instruction].)\n\u2022 \u201c \u2018[T]oday\u2019s nurses are held to strict professional standards of knowledge and\nperformance.\u2019 But \u2018[s]ome difficulties are presented [in the nursing malpractice\ncontext] by the fact that a nurse\u2019s traditional role has involved \u201cboth routine,\nnontechnical tasks as well as specialized nursing tasks. If, in considering the\ncase law in this area, the dispute is analyzed in terms of what action by the\nnurse is being complained about, it is possible to make some sense out of the\nrelevant decisions.\u201d \u2019 \u201d ( Massey, supra, 180 Cal.App.4th at p. 697, internal\ncitation omitted.)\n\u2022 \u201c[A] nurse\u2019s conduct must not be measured by the standard of care required of a\nphysician or surgeon, but by that of other nurses in the same or similar locality\nand under similar circumstances.\u201d ( Lattimore v. Dickey (2015) 239 Cal.App.4th\n959, 969 [191 Cal.Rptr.3d 766].)\n\u2022 The jury should not be instructed that the standard of care for a nurse\npractitioner must be measured by the standard of care for a physician or surgeon\nwhen the nurse is examining a patient or making a diagnosis. ( Fein v.\nPermanente Medical Group (1985) 38 Cal.3d 137, 150 [211 Cal.Rptr. 368, 695\nP .2d 665].) Courts have observed that nurses are trained, \u201cbut to a lesser degree\n445\n\nthan a physician, in the recognition of the symptoms of diseases and injuries.\u201d\n(Cooper v. National Motor Bearing Co. (1955) 136 Cal.App.2d 229, 238 [288\nP .2d 581].)\n\u2022 \u201c[E]xpert opinion testimony is required to prove that a defendant nurse did not\nmeet the standard of care and therefore was negligent, \u2018except in cases where the\nnegligence is obvious to laymen.\u2019 \u201d ( Massey, supra, 180 Cal.App.4th at pp.\n694\u2013695.)"
+}

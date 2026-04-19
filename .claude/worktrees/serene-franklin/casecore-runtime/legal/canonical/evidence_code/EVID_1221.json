@@ -1,0 +1,29 @@
+{
+  "code": "EVID",
+  "section": "1221",
+  "title": "Adoptive Admission",
+  "text": "Evidence of a statement offered against a party is not made inadmissible by the hearsay rule if the statement is one of which the party, with knowledge of the content thereof, has by words or other conduct manifested his adoption or his belief in its truth.",
+  "tags": [
+    "hearsay_exception",
+    "adoptive_admission",
+    "party_admission",
+    "conduct",
+    "agent_core",
+    "deposition_relevant",
+    "trial_relevant"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Hearsay Evidence",
+    "chapter": "2",
+    "chapter_title": "Exceptions to the Hearsay Rule",
+    "article": "1",
+    "article_title": "Confessions and Admissions"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

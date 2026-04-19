@@ -1,0 +1,29 @@
+{
+  "code": "EVID",
+  "section": "1200",
+  "title": "Hearsay Rule",
+  "text": "(a) \"Hearsay evidence\" is evidence of a statement that was made other than by a witness while testifying at the hearing and that is offered to prove the truth of the matter stated.\n(b) Except as provided by law, hearsay evidence is inadmissible.\n(c) This section shall be known and may be cited as the hearsay rule.",
+  "tags": [
+    "hearsay",
+    "hearsay_rule",
+    "inadmissible",
+    "admissibility",
+    "agent_core",
+    "trial_relevant",
+    "intake_critical"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Hearsay Evidence",
+    "chapter": "1",
+    "chapter_title": "General Provisions",
+    "article": null,
+    "article_title": null
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "205",
+  "title": "Failure to Explain or Deny Evidence",
+  "series": "200",
+  "series_title": "Contracts",
+  "text": "If a party failed to explain or deny evidence against [him/her/ nonbinary\npronoun/it] when [he/she/ nonbinary pronoun/it] could reasonably be\nexpected to have done so based on what [he/she/ nonbinary pronoun/it]\nknew, you may consider [his/her/ nonbinary pronoun/its] failure to explain\nor deny in evaluating that evidence.\nIt is up to you to decide the meaning and importance of the failure to\nexplain or deny evidence against the party.\nNew September 2003; Revised December 2012",
+  "tags": [
+    "contracts"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "This instruction should be given only if there is a failure to deny or explain a fact\nthat is material to the case.",
+  "sources_and_authority": "\u2022 Failure to Explain or Deny. Evidence Code section 413."
+}

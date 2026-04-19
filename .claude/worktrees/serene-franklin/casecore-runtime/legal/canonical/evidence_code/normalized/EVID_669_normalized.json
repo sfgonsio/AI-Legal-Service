@@ -1,0 +1,43 @@
+{
+  "section_id": "EC-669",
+  "code": "EVID",
+  "section": "669",
+  "title": "Failure to Exercise Due Care Presumption",
+  "text": "(a) The failure of a person to exercise due care is presumed if:\n(1) He violated a statute, ordinance, or regulation of a public entity;\n\n(2) The violation proximately caused death or injury to person or property;\n\n(3) The death or injury resulted from an occurrence of the nature which the statute, ordinance, or regulation was designed to prevent; and\n\n(4) The person suffering the death or the injury to his person or property was one of the class of persons for whose protection the statute, ordinance, or regulation was adopted.\n\n(b) This presumption may be rebutted by proof that:\n(1) The person violating the statute, ordinance, or regulation did what might reasonably be expected of a person of ordinary prudence, acting under similar circumstances, who desired to comply with the law; or\n\n(2) The person violating the statute, ordinance, or regulation was a child and exercised the degree of care ordinarily exercised by persons of his maturity, intelligence, and capacity under similar circumstances, but the presumption may not be rebutted by such proof if the violation occurred in the course of an activity normally engaged in only by adults and requiring adult qualifications.",
+  "notes": null,
+  "rule_type": "presumption",
+  "rule_type_confidence": "heuristic",
+  "applies_to": [],
+  "evidentiary_standard": null,
+  "foundation_requirements": [],
+  "cross_refs": [],
+  "coa_relevance": [],
+  "exclusion_grounds": [],
+  "tags": [
+    "presumption",
+    "due_care",
+    "negligence_per_se",
+    "statute_violation",
+    "public_entity"
+  ],
+  "structure": {
+    "division": "5",
+    "division_title": "Burden of Proof; Burden of Producing Evidence; Presumptions and Inferences",
+    "chapter": null,
+    "chapter_title": null,
+    "article": null,
+    "article_title": null
+  },
+  "canonical_type": "source",
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": null
+  },
+  "effective_date": null,
+  "schema_version": "1.0",
+  "pass1_complete": true,
+  "pass2_complete": false,
+  "source_file": "EVID_669.json"
+}

@@ -1,0 +1,20 @@
+{
+  "code": "CACI",
+  "instruction_id": "3903L",
+  "title": "Damage to Personal Property Having Special Value (Civ.",
+  "series": "3700",
+  "series_title": "Damages",
+  "text": "Code, \u00a7 3355) (Economic Damage)\n[Insert number , e.g., \u201c12.\u201d] The unique value of [ name of plaintiff ]\u2019s [ item\nof personal property ].\nTo recover damages for the unique value, [ name of plaintiff ] must prove\nall of the following:\n1. That the [ item of personal property ] had some market value;\n2. That the [ item of personal property ] had unique value to [ name of\nplaintiff]; and\n3. [That [ name of defendant ] had notice of this unique value before\nthe harm;]\n3. [or]\n3. [That [ name of defendant ]\u2019s conduct was intentional and\nwrongful.]\nNo \ufb01xed standard exists for deciding the amount of this value. Y ou must\nuse your judgment to decide a reasonable amount based on the evidence\nand your common sense.\nNew September 2003",
+  "tags": [
+    "damages"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  },
+  "directions_for_use": "The judge should determine whether the peculiar value claimed by the plaintiff is\nlegally sufficient. While the subcommittee been unable to locate cases that state this\nrule explicitly, cases have upheld the giving of this type of instruction where there is\nsubstantial evidence of peculiar value.",
+  "sources_and_authority": "\u2022 Damages for Loss of Property With Special V alue. Civil Code section 3355.\n\u2022 \u201c[T]his section deals with property which has a market value and also a peculiar\nvalue to the owner, and not with property having no market value.\u201d ( Zvolanek v.\nBodger Seeds, Ltd. (1935) 5 Cal.App.2d 106, 110 [42 P .2d 92].)\n\u2022 \u201cPeculiar value under Civil Code section 3355 refers to a property\u2019s unique\neconomic value, not its sentimental or emotional value.\u201d ( McMahon v. Craig\n(2009) 176 Cal.App.4th 1502, 1518 [97 Cal.Rptr.3d 555] [\u201cpeculiar value\u201d refers\nto special characteristics that increase an animal\u2019s monetary value, not its\nabstract value as a companion to its owner].)\n\u2022 \u201c[T]he question of whether plaintiff proved \u2018peculiar value\u2019 was a factual\nquestion for the determination of the jury and that question was properly\n849\n\nsubmitted to it for decision.\u201d ( King v. Karpe (1959) 170 Cal.App.2d 344, 349\n[338 P .2d 979].)"
+}

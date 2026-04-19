@@ -1,0 +1,18 @@
+{
+  "code": "CACI",
+  "instruction_id": "3935",
+  "title": "Prejudgment Interest (Civ. Code, \u00a7 3288)",
+  "series": "3700",
+  "series_title": "Damages",
+  "text": "3936\u20133939. Reserved for Future Use\n3940. Punitive Damages\u2014Individual Defendant\u2014Trial Not Bifurcated\n3941. Punitive Damages\u2014Individual Defendant\u2014Bifurcated Trial (First Phase)\n3942. Punitive Damages\u2014Individual Defendant\u2014Bifurcated Trial (Second Phase)",
+  "tags": [
+    "damages"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "code": "EVID",
+  "section": "1302",
+  "title": "Judgment Against Third Person as Evidence of Liability",
+  "text": "When the liability, obligation, or duty of a third person is in issue in a civil action, evidence of a final judgment against that person is not made inadmissible by the hearsay rule when offered to prove such liability, obligation, or duty.",
+  "tags": [
+    "hearsay_exception",
+    "judgment",
+    "third_party",
+    "liability",
+    "civil_action",
+    "agent_core",
+    "trial_relevant"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Hearsay Evidence",
+    "chapter": "2",
+    "chapter_title": "Exceptions to the Hearsay Rule",
+    "article": "10",
+    "article_title": "Judgments"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}

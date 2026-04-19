@@ -1,0 +1,19 @@
+{
+  "code": "CACI",
+  "instruction_id": "1404",
+  "title": "False Arrest Without Warrant\u2014Affirmative Defense\u2014Private Citizen\u2014Probable",
+  "series": "1400",
+  "series_title": "Assault and Battery",
+  "text": "Cause to Arrest\n1405. False Arrest With Warrant\u2014Essential Factual Elements\n1406. False Arrest With Warrant\u2014Peace Officer\u2014Affirmative Defense\u2014\u201cGood-Faith\u201d\nException",
+  "tags": [
+    "assault",
+    "battery"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

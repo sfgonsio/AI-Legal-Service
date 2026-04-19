@@ -1,0 +1,18 @@
+{
+  "code": "CACI",
+  "instruction_id": "2079",
+  "title": ". . . . . . . . . . . . . . . . . .4107, 4108, 4109",
+  "series": "2000",
+  "series_title": "Insurance Litigation",
+  "text": "2079(a) . . . . . . . . . . . . . . . . . . . . . . . . 4108\n2079.3. . . . . . . . . . . . . . . . . . . . . . . . .4108\n2079.16 . . . . . . . . . . . . . . . . . . . . . . . . 4109\n2085 . . . . . . . . . . . . . . . . . . . . . . . 900, 901\n2100 . . . . . . . . . . . . . . . . . . . . . . . 901, 902\n2101 . . . . . . . . . . . . . . . . . . . . . . . . . . 903\n2168 . . . . . . . . . . . . . . . . . . . . . . . 900, 901\n2295 . . . . . . . . . . . . . . . 3700, 3701, 3704, 3705\nTABLE OF STATUTES AS\n[References are to the Judicial Council of California Criminal Jury Instructions (CALCRIM), e.g., 1900]\nTS-4\nThis version provided by LexisNexis\u00ae Matthew Bender\u00ae, Official Publisher, 800-533-1637,\nstore.lexisnexis.com, for public and internal court use\n\nCivil Code\u2014Cont.\nSec. Inst.\n2298 . . . . . . . . . . . . . . . . . . . . . . 3709, 3714\n2300 . . . . . . . . . . . . . . . . . . . . . . 3709, 3714",
+  "tags": [
+    "insurance"
+  ],
+  "source": {
+    "type": "caci_judicial_council",
+    "jurisdiction": "California",
+    "edition": "2026",
+    "url": "https://www.courts.ca.gov/partners/317.htm",
+    "editorial_note": "Parsed from CACI 2026 edition PDF"
+  }
+}

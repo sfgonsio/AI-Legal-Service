@@ -1,0 +1,21 @@
+{
+  "code": "BPC",
+  "section": "26228",
+  "title": "Section 26228",
+  "text": "An association is not subject in any manner to the terms of the Corporate Securities Law (Division 1 (commencing with Section 25000) of Title 4 of the Corporations Code), and any association may issue its membership certificates or stock or other securities as provided in this chapter without the necessity of any qualification under that law. (Added by Stats. 2017, Ch. 27, Sec. 107. (SB 94) Effective June 27, 2017.)",
+  "tags": [
+    "cannabis"
+  ],
+  "structure": {
+    "division": "10",
+    "division_title": "Cannabis",
+    "chapter": "3",
+    "chapter_title": "Enforcement"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Scraped from authority_store raw data."
+  }
+}

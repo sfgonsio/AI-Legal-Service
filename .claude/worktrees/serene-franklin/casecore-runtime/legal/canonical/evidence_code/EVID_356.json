@@ -1,0 +1,21 @@
+﻿{
+  "code": "EVID",
+  "section": "356",
+  "title": "Completeness of Writings and Conversations",
+  "text": "Where part of an act, declaration, conversation, or writing is given in evidence by one party, the whole on the same subject may be inquired into by an adverse party; when a letter is read, the answer may be given; and when a detached act, declaration, conversation, or writing is given in evidence, any other act, declaration, conversation, or writing which is necessary to make it understood may also be given in evidence.",
+  "tags": ["admissibility", "completeness", "rule_of_completeness"],
+  "structure": {
+    "division": "3",
+    "division_title": "General Provisions",
+    "chapter": "4",
+    "chapter_title": "Admitting and Excluding Evidence",
+    "article": "1",
+    "article_title": "General Provisions"
+  },
+  "source": {
+    "type": "ca_legislature",
+    "jurisdiction": "California",
+    "url": "https://leginfo.legislature.ca.gov",
+    "editorial_note": "Enacted by Stats. 1965, Ch. 299."
+  }
+}
