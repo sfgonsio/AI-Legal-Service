@@ -1,30 +1,146 @@
-slice_id: burden_status_foundation_v1
+slice_id: "burden_status_foundation_v1"
+slice_name: "Burden Status Foundation"
+slice_type: "backend"
+status: "approved_for_governed_build"
 
-allowed_files:
-  - backend/models.py
-  - backend/schemas.py
-  - backend/main.py
-  - backend/routes/burden.py
-  - backend/services/burden_service.py
+purpose: "Introduce explicit burden status and append-only burden audit foundation without using deprecated scoring semantics."
+business_outcome: "Enable burden state query and audit history retrieval for a case."
+non_goals:
+  - "No phase gate enforcement in this slice"
+  - "No inferred burden completion"
+  - "No attorney approval workflow in this slice"
+  - "No frontend implementation in this slice"
 
-forbidden_files:
-  - backend/seed_data.py
-  - backend/routes/deposition.py
+authoritative_inputs:
+  required_files:
+    - "casecore-runtime/production/backend/models.py"
+    - "casecore-runtime/production/backend/schemas.py"
+    - "casecore-runtime/production/backend/main.py"
+    - "casecore-runtime/production/backend/routes/coas.py"
+  required_patterns:
+    - "APIRouter(prefix=..., tags=[...])"
+    - "AsyncSession via Depends(get_db)"
+  required_runtime_artifacts: []
 
-required_fields:
-  - BurdenElement.status
+scope:
+  allowed_files:
+    - "casecore-runtime/production/backend/models.py"
+    - "casecore-runtime/production/backend/schemas.py"
+    - "casecore-runtime/production/backend/main.py"
+    - "casecore-runtime/production/backend/routes/burden.py"
+    - "casecore-runtime/production/backend/services/burden_service.py"
+  forbidden_files:
+    - "casecore-runtime/production/backend/seed_data.py"
+    - "casecore-runtime/production/backend/routes/deposition.py"
+    - "casecore-runtime/production/frontend/**"
+  allowed_operations:
+    - create
+    - modify
+  forbidden_operations:
+    - rename
+    - delete
+    - broad_refactor
+    - migration_without_approval
 
-forbidden_fields:
-  - strength
-  - coverage_pct
+source_of_truth:
+  state_owner:
+    - "BurdenElement.status"
+  history_owner:
+    - "BurdenAuditLog"
+  read_models:
+    - "COA"
+    - "BurdenElement"
+  proposal_only_artifacts: []
 
-allowed_endpoints:
-  - GET /burdens
-  - GET /burdens/{id}/audit-log
+semantic_rules:
+  required_fields:
+    - "BurdenElement.status"
+    - "BurdenAuditLog.case_id"
+    - "BurdenAuditLog.burden_element_id"
+    - "BurdenAuditLog.event_type"
+    - "BurdenAuditLog.actor_type"
+    - "BurdenAuditLog.created_at"
+  forbidden_fields:
+    - "strength in new API response for burden slice"
+    - "coverage_pct in new burden slice logic"
+  deprecated_fields:
+    - "COA.strength"
+    - "COA.coverage_pct"
+    - "BurdenElement.strength"
+  allowed_enums:
+    burden_status:
+      - "INCOMPLETE"
+      - "PARTIAL"
+      - "SATISFIED"
+  forbidden_semantics:
+    - "inferred burden completion"
+    - "aggregated strength percent in burden API"
+    - "audit log as current state owner"
+    - "state snapshots treated as canonical truth"
 
-forbidden_endpoints:
-  - include_audit_log
+api_contract:
+  allowed_endpoints:
+    - "GET /burdens?case_id={case_id}"
+    - "GET /burdens/{burden_id}/audit-log"
+  forbidden_endpoints:
+    - "GET /burdens with include_audit_log"
+    - "POST/PUT/PATCH burden state changes in this slice"
+  response_requirements:
+    - "Burden response must include status"
+    - "Audit response must be append-only history records"
+  forbidden_response_fields:
+    - "strength"
+    - "coverage_pct"
 
-validation_rules:
-  - no_strength_usage
-  - no_out_of_scope_files
+data_protection:
+  protected_tables:
+    - "cases"
+    - "deposition_sessions"
+  protected_buckets: []
+  protected_paths: []
+  backup_required: true
+  preservation_requirements:
+    - "Confirm live case/deposition data preservation before applying schema changes"
+    - "Do not modify seed behavior in this slice"
+
+validation:
+  required_checks:
+    - "No new strength usage in burden route/schema/service"
+    - "Burden route follows existing APIRouter pattern"
+    - "main.py includes burden router"
+    - "Only allowed files changed"
+  forbidden_patterns:
+    - "include_audit_log"
+    - "strength in BurdenElementResponse for this slice"
+    - "coverage_pct in burden service logic"
+  compile_required: true
+  tests_required: true
+
+execution:
+  response_format:
+    - validation
+    - drift_check
+    - patch_plan
+    - code
+  stop_on_ambiguity: true
+  patch_only: true
+  explanation_mode: "minimal"
+  generation_controls:
+    temperature: 0
+    patch_only: true
+    stop_on_ambiguity: true
+    bounded_scope: true
+    uncontrolled_retries_forbidden: true
+
+approvals:
+  required_agents:
+    - "AGENT_SOLUTION_ARCHITECT"
+    - "AGENT_CODE_ASSISTANT_AGENT"
+    - "AGENT_NO_DRIFT_GOVERNOR"
+    - "AGENT_SENTINEL"
+    - "AGENT_QA_AUTOMATION_AGENT"
+  promotion_gate:
+    - "Governor pass"
+    - "Sentinel pass"
+    - "QA pass"
+    - "Architecture review pass"
