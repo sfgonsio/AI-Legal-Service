@@ -125,11 +125,12 @@ execution:
   stop_on_ambiguity: true
   patch_only: true
   explanation_mode: "minimal"
-  generation_controls:
-    temperature: 0
-    bounded_scope: true
-    uncontrolled_retries_forbidden: true
-
+ generation_controls:
+  temperature: 0
+  patch_only: true
+  stop_on_ambiguity: true
+  bounded_scope: true
+  uncontrolled_retries_forbidden: true
 approvals:
   required_agents:
     - "AGENT_SOLUTION_ARCHITECT"
