@@ -1,0 +1,30 @@
+slice_id: burden_status_foundation_v1
+
+allowed_files:
+  - backend/models.py
+  - backend/schemas.py
+  - backend/main.py
+  - backend/routes/burden.py
+  - backend/services/burden_service.py
+
+forbidden_files:
+  - backend/seed_data.py
+  - backend/routes/deposition.py
+
+required_fields:
+  - BurdenElement.status
+
+forbidden_fields:
+  - strength
+  - coverage_pct
+
+allowed_endpoints:
+  - GET /burdens
+  - GET /burdens/{id}/audit-log
+
+forbidden_endpoints:
+  - include_audit_log
+
+validation_rules:
+  - no_strength_usage
+  - no_out_of_scope_files
