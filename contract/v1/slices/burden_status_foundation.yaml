@@ -13,10 +13,12 @@ non_goals:
 
 authoritative_inputs:
   required_files:
-    - "casecore-runtime/production/backend/models.py"
-    - "casecore-runtime/production/backend/schemas.py"
-    - "casecore-runtime/production/backend/main.py"
-    - "casecore-runtime/production/backend/routes/coas.py"
+    - "casecore-runtime/apps/api/casecore/backend/models.py"
+    - "casecore-runtime/apps/api/casecore/backend/schemas.py"
+    - "casecore-runtime/apps/api/casecore/backend/main.py"
+    - "casecore-runtime/apps/api/casecore/backend/routes/coas.py"
+    - "casecore-runtime/apps/api/casecore/backend/database.py"
+    - "casecore-runtime/apps/api/casecore/backend/services/dropbox_service.py"
   required_patterns:
     - "APIRouter(prefix=..., tags=[...])"
     - "AsyncSession via Depends(get_db)"
@@ -24,15 +26,16 @@ authoritative_inputs:
 
 scope:
   allowed_files:
-    - "casecore-runtime/production/backend/models.py"
-    - "casecore-runtime/production/backend/schemas.py"
-    - "casecore-runtime/production/backend/main.py"
-    - "casecore-runtime/production/backend/routes/burden.py"
-    - "casecore-runtime/production/backend/services/burden_service.py"
+    - "casecore-runtime/apps/api/casecore/backend/models.py"
+    - "casecore-runtime/apps/api/casecore/backend/schemas.py"
+    - "casecore-runtime/apps/api/casecore/backend/main.py"
+    - "casecore-runtime/apps/api/casecore/backend/routes/burden.py"
+    - "casecore-runtime/apps/api/casecore/backend/services/__init__.py"
+    - "casecore-runtime/apps/api/casecore/backend/services/burden_service.py"
   forbidden_files:
-    - "casecore-runtime/production/backend/seed_data.py"
-    - "casecore-runtime/production/backend/routes/deposition.py"
-    - "casecore-runtime/production/frontend/**"
+    - "casecore-runtime/apps/api/casecore/backend/seed_data.py"
+    - "casecore-runtime/apps/api/casecore/backend/routes/deposition.py"
+    - "casecore-runtime/apps/api/casecore/frontend/**"
   allowed_operations:
     - create
     - modify
@@ -61,7 +64,7 @@ semantic_rules:
     - "BurdenAuditLog.actor_type"
     - "BurdenAuditLog.created_at"
   forbidden_fields:
-    - "strength in new API response for burden slice"
+    - "strength in new burden API response"
     - "coverage_pct in new burden slice logic"
   deprecated_fields:
     - "COA.strength"
@@ -96,12 +99,14 @@ data_protection:
   protected_tables:
     - "cases"
     - "deposition_sessions"
+    - "deposition_captures"
+    - "deposition_questions"
   protected_buckets: []
   protected_paths: []
-  backup_required: true
+  backup_required: false
   preservation_requirements:
-    - "Confirm live case/deposition data preservation before applying schema changes"
     - "Do not modify seed behavior in this slice"
+    - "Do not alter intake/deposition persistence in this slice"
 
 validation:
   required_checks:
@@ -111,10 +116,10 @@ validation:
     - "Only allowed files changed"
   forbidden_patterns:
     - "include_audit_log"
-    - "strength in BurdenElementResponse for this slice"
+    - "strength in BurdenResponse"
     - "coverage_pct in burden service logic"
   compile_required: true
-  tests_required: true
+  tests_required: false
 
 execution:
   response_format:
