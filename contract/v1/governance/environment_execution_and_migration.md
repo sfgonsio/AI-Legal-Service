@@ -176,3 +176,82 @@ Such implementations must be rejected and reworked.
 This file must be explicitly referenced in all environment-related implementation prompts.
 
 Compliance is mandatory.
+
+---
+
+## VERIFICATION & PROOF REQUIREMENT (MANDATORY)
+
+For every environment-related implementation, Claude MUST provide verifiable proof that the system behaves as specified.
+
+This is NOT optional.
+
+### REQUIRED PROOF
+
+Claude must include:
+
+1. **Runtime Behavior Proof**
+   - Show that sandbox, demo, and live behave differently as required
+   - Demonstrate allowed vs blocked operations per runtime
+
+2. **Endpoint Validation**
+   - Identify which endpoints are:
+     - production-safe (allowed in live)
+     - non-production (blocked in live)
+   - Provide example calls and expected responses
+
+3. **Migration Verification**
+   - Prove that:
+     - Alembic is at HEAD
+     - application fails if migrations are not applied
+   - Show exact command and expected failure behavior
+
+4. **Storage Isolation Proof**
+   - Show actual runtime paths used
+   - Demonstrate separation between sandbox/demo/live
+   - Confirm deletion protection in live
+
+5. **Deployment / Runtime Alignment**
+   - Prove frontend runtime matches backend runtime
+   - Show validation output from system endpoint
+
+6. **Startup Validation Output**
+   - Show startup logs including:
+     - runtime
+     - database target
+     - storage path
+     - migration status
+
+---
+
+### REQUIRED FORMAT
+
+Claude MUST include a section titled:
+
+## PROOF OF CORRECT IMPLEMENTATION
+
+This must include:
+
+- example commands
+- expected outputs
+- validation endpoints
+- runtime-specific behavior examples
+
+---
+
+### FAILURE CONDITION
+
+Any implementation is INVALID if it:
+
+- claims correctness without proof
+- omits runtime validation examples
+- omits migration verification
+- omits live protection demonstration
+
+---
+
+### ENFORCEMENT MODEL
+
+- Claude must PROVE implementation
+- ChatGPT (controller) will VALIDATE the proof
+- No environment change is accepted without passing both gates
+
