@@ -67,3 +67,7 @@ casecore-runtime/.env
 .env
 .env.**.bak.*
 authority_store/
+.claude/
+**/.claude/
+*.env
+node_modules/
