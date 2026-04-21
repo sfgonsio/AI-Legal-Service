@@ -1,73 +1,22 @@
-# =========================
-# Python
-# =========================
-__pycache__/
-*.pyc
-.pytest_cache/
-.venv/
-venv/
-.env
-
-# =========================
-# Node / frontend
-# =========================
-node_modules/
-
-# =========================
-# Word / Office temp files
-# =========================
-~$*.docx
-
-# =========================
-# Generated reports / outputs
-# =========================
-reports/*.json
-reports/*.txt
-contract/v1/harness/outputs/*.json
-contract/v1/golden/out/
-contract/v1/runner/outputs/
-
-# =========================
-# Documentation build artifacts
-# =========================
-docs/.vitepress/cache/
-docs/.vitepress/dist/
-
-# =========================
-# OS junk
-# =========================
-.DS_Store
-
-# =========================
-# Local notes / scratch files
-# =========================
-commit command.txt
-contract/v1/schemas/commit command.txt
-contract/v1/tools/inventory_tree.txt
-
-# =========================
-# Archived / local-only contract artifacts
-# =========================
-contract/v1/golden/_legacy_archive/
-contract/v1/agents/_template_agent_contract.md
-contract/v1/agents/AI Legal Service.docx
-
-# =========================
-# Human-readable presentation / figma working files
-# =========================
-contract/v1/presentation/_figma_presentation_script_introduction.md
-contract/v1/acceptance/hash_file.ps1
-docs/figma/
-.vercel
-
-# =========================
-# Local BE Envrionment
-# =========================
-casecore-runtime/.env
-.env
-.env.**.bak.*
-authority_store/
 .claude/
 **/.claude/
 *.env
 node_modules/
+casecore-runtime/apps/api/casecore/
+
+.vercel/
+authority_store/
+**/__pycache__/
+casecore-runtime/apps/api/config/
+casecore-runtime/production/
+contract/v1/golden/_legacy_archive/
+contract/v1/golden/out/
+contract/v1/harness/outputs/
+contract/v1/runner/outputs/
+docs/.vitepress/cache/
+docs/figma/
+~$*.docx
+*.tmp
+contract/v1/acceptance/hash_file.ps1
+contract/v1/schemas/commit command.txt
+contract/v1/tools/commit command.txt
