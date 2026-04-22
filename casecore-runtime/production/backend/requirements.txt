@@ -5,3 +5,7 @@ pydantic>=2.5.2,<3.0.0
 python-multipart>=0.0.6,<1.0.0
 websockets>=12.0,<13.0
 aiosqlite>=0.19.0,<1.0.0
+# Migrations + test runner for the hardened core-data path (Wave 1 + Wave 2).
+alembic>=1.13.0,<2.0.0
+pytest>=8.0.0,<10.0.0
+pytest-asyncio>=0.23.0,<2.0.0
