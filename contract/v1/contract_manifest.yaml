@@ -102,7 +102,7 @@ integrity:
     hashes:
       "./architecture/section7-layered-architecture.md": ""
       "./data/data_model_mappings.md": "89698a88d1358e7a5a9015dc147d6d0b1c3f25fc70960337cc82c503c9b1ab01"
-      "./data/postgres_ddl.sql": "816ec94992c5e56b92a3997149d56e09d1414813b5a40398f53099a27dffc333"
+      "./data/postgres_ddl.sql": "c2d4bd07322159294382a3ca5fd1d978a4a4481511cab4a1a9d1cd054ad0d6f1"
       "./data/postgres_seed.sql": "da88cb89538b2cf8a501fad0f57b18479ace8f04d229cddd3d3011f557c1edda"
       "./execution/run_lifecycle.md": "4321997d64ee504b7c999bba3db195d6202f9a3dbb0efb92d9c1f793e70bafa0"
       "./execution/run_status_model.md": "93aeecba8c6f74b46dd877743f47067246440d52cdf202dbbd953e14543795b3"
