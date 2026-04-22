@@ -118,14 +118,35 @@ def extract_section(html: str) -> dict:
     }
 
 
+AUTHORITATIVE_LIST_PATH = pathlib.Path(
+    r"C:\Users\sfgon\Documents\GitHub\AI Legal Service\.claude\worktrees\youthful-johnson-1ee1a2"
+    r"\tmp_extraction\leginfo_probe\caec_authoritative_sections.json"
+)
+
+
+def _load_authoritative_set() -> set[str] | None:
+    """Return the authoritative section set, or None if not yet enumerated."""
+    if not AUTHORITATIVE_LIST_PATH.exists():
+        return None
+    data = json.loads(AUTHORITATIVE_LIST_PATH.read_text(encoding="utf-8"))
+    return set(data.get("sections", []))
+
+
 def main() -> int:
     if not SRC_SECTIONS.exists():
         print(f"[error] source sections dir missing: {SRC_SECTIONS}")
         return 1
 
+    authoritative = _load_authoritative_set()
+    if authoritative is None:
+        print("[warn] no authoritative section list found; quarantine cannot be")
+        print("       distinguished from not_in_code. Run enumerate_caec_authoritative.py first.")
+    else:
+        print(f"[info] authoritative section list: {len(authoritative)} sections")
+
     manifest_entries = []
     source_entries = []
-    counts = {"valid": 0, "quarantine": 0}
+    counts = {"valid": 0, "quarantine": 0, "not_in_code": 0}
     skipped_chrome = []
 
     html_files = sorted(SRC_SECTIONS.glob("EVID_*.html"))
@@ -138,8 +159,17 @@ def main() -> int:
         out_path = OUT_SECTIONS / out_name
 
         if not parsed["ok"]:
-            # Quarantine marker: write minimal JSON noting the failure.
+            # Failed-extraction marker: distinguish "not in code" from real
+            # quarantine when the authoritative list is available.
             sec_num = parsed.get("section_number") or h.stem.replace("EVID_", "")
+            if authoritative is not None and sec_num not in authoritative:
+                status = "not_in_code"
+                notes = [
+                    "section number not present in authoritative CA Evidence Code listing"
+                ]
+            else:
+                status = "quarantine"
+                notes = [parsed["reason"]]
             record = {
                 "authority_id": "CA_EVIDENCE_CODE",
                 "family_id": "CAEC",
@@ -153,10 +183,10 @@ def main() -> int:
                 "captured_at": datetime.now(timezone.utc).isoformat(),
                 "text_sha256": "",
                 "raw_html_path": str(h),
-                "validation_status": "quarantine",
-                "validation_notes": [parsed["reason"]],
+                "validation_status": status,
+                "validation_notes": notes,
             }
-            counts["quarantine"] += 1
+            counts[status] += 1
             out_path.write_text(
                 json.dumps(record, ensure_ascii=False, indent=2), encoding="utf-8"
             )
@@ -164,7 +194,7 @@ def main() -> int:
                 "section_id": record["section_id"],
                 "section_number": record["section_number"],
                 "citation": record["citation"],
-                "validation_status": "quarantine",
+                "validation_status": status,
                 "json_path": f"sections/{out_name}",
                 "raw_html_path": str(h),
             })
@@ -244,9 +274,16 @@ def main() -> int:
         "source_label": SOURCE_LABEL,
         "source_base_url": SOURCE_BASE_URL,
         "built_at": datetime.now(timezone.utc).isoformat(),
+        "authoritative_section_count": (
+            len(authoritative) if authoritative is not None else None
+        ),
+        "authoritative_list_path": (
+            str(AUTHORITATIVE_LIST_PATH) if authoritative is not None else None
+        ),
         "section_count": len(manifest_entries),
         "valid_count": counts["valid"],
         "quarantine_count": counts["quarantine"],
+        "not_in_code_count": counts["not_in_code"],
         "sections": manifest_entries,
     }
     (OUT_ROOT / "manifest.json").write_text(
@@ -266,7 +303,8 @@ def main() -> int:
 
     print(
         f"[done] sections processed: {len(manifest_entries)} "
-        f"(valid={counts['valid']}, quarantine={counts['quarantine']})"
+        f"(valid={counts['valid']}, quarantine={counts['quarantine']}, "
+        f"not_in_code={counts['not_in_code']})"
     )
     if skipped_chrome:
         print(f"[warn] {len(skipped_chrome)} chrome-leak samples: {skipped_chrome[:5]}...")
