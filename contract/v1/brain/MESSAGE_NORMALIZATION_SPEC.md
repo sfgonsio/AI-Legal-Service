@@ -1,34 +1,128 @@
-git add contract/v1/brain/MESSAGE_NORMALIZATION_SPEC.md
-git add contract/v1/brain/BRAIN_CONTRACT_SPEC.md
+# Message Normalization Specification v1.0
 
-git commit -m "Develop message normalization and brain contract specs"
+**Critical System Contract**  
+All raw messages MUST pass normalization before Brain consumption.
 
-git push origin brain-v1
+---
 
-I cannot execute those git commands without clarifying first.
+## 1. PURPOSE
 
-Issues:
+Define a deterministic, auditable pipeline that transforms raw communication inputs (email, SMS, chat, uploads) into structured, context-aware, and legally reliable objects for downstream Brain processing.
 
-Files don't exist yet — You haven't provided the content for:
-contract/v1/brain/MESSAGE_NORMALIZATION_SPEC.md
-contract/v1/brain/BRAIN_CONTRACT_SPEC.md
-Context gap — We've been building War Room UI/Strategy Builder. These specs appear to be for a different subsystem ("brain"). I need to understand:
-What is the Brain contract for?
-What should Message Normalization cover?
-Is this related to the War Room work, or a separate feature?
-Commit safety — Per git best practices, I need to verify file contents before committing. Blindly adding and pushing unreviewed files violates change control.
-What I need from you:
+The normalization layer ensures:
+- Accurate speaker attribution
+- Preservation of third-party references
+- Separation of metadata vs content
+- Multi-message and multi-file context integrity
+- Explicit uncertainty handling
+- Full traceability
 
-Either:
+---
 
-A) Provide the spec content — Show me what should be in each file, and I'll write them, commit, and push.
+## 2. CONTEXT LEVELS (CRITICAL)
 
-B) Clarify scope — Explain:
+The system MUST operate across three levels:
 
-What is the "Brain" subsystem?
-How does it fit into CaseCore?
-What should Message Normalization handle?
-Who consumes these contracts?
-C) Skip git — If these are exploratory specs not yet finalized, I can help you draft the content first before committing.
+### Message-Level Context
+- Sender
+- Recipients
+- Body content
+- Quoted / forwarded content
+- Third-party references
 
-Which approach?
+### Thread-Level Context
+- Message ordering
+- Reply chains
+- Conversation continuity
+- Participant relationships
+
+### Corpus-Level Context
+- Multiple files
+- Multiple threads
+- Cross-thread actor relationships
+- Contradictions and corroboration
+- Timeline construction across sources
+
+---
+
+## 3. RAW INPUT TYPES
+
+- raw_email
+- raw_sms
+- raw_chat
+- raw_forwarded_chain
+- raw_quoted_message
+
+(All raw inputs MUST be preserved and never mutated.)
+
+---
+
+## 4. NORMALIZATION PIPELINE
+
+### Stage 1 — Raw Ingestion
+- Identify source type
+- Preserve raw content
+- Assign ingestion metadata
+
+### Stage 2 — Header Parsing
+- Extract sender (From)
+- Extract recipients (To, CC, BCC)
+- Extract timestamps
+- Extract thread identifiers
+
+### Stage 3 — Body Extraction
+- Convert to clean text
+- Preserve structure
+- Normalize encoding
+
+### Stage 4 — Signature Removal
+- Strip signatures
+- Preserve separately
+- NEVER treat as content
+
+### Stage 5 — Footer Removal
+- Strip system-generated content
+
+### Stage 6 — Quote Detection
+- Extract quoted_blocks
+- Preserve original speaker
+
+### Stage 7 — Forward Detection
+- Extract forwarded_blocks
+- Preserve original sender chain
+
+### Stage 8 — Thread Reconstruction
+- Build parent-child relationships
+- Order chronologically
+- Assign thread_id
+
+### Stage 9 — Speaker Attribution
+- Assign speaker_candidate
+- Distinguish sender vs quoted vs forwarded speaker
+
+### Stage 10 — Third-Person Extraction
+- Identify referenced actors
+- Maintain separation from sender/recipient
+
+### Stage 11 — Pronoun Resolution
+- Resolve ONLY if confidence >= 0.7
+- Otherwise mark unresolved
+
+### Stage 12 — Statement Segmentation
+- Break into normalized_statement objects
+
+### Stage 13 — Fact Extraction (CRITICAL)
+Transform statements into fact candidates
+
+```json
+{
+  "fact_candidate": {
+    "fact_id": "string",
+    "derived_from_statement_ids": [],
+    "fact_text": "string",
+    "actor_ids": [],
+    "event_time_candidate": "ISO8601",
+    "fact_type": "observed|reported|inferred",
+    "confidence": "float"
+  }
+}
