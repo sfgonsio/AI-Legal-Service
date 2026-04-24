@@ -6,10 +6,10 @@ import os
 from contextlib import asynccontextmanager
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.middleware.gzip import GZIPMiddleware
+from fastapi.middleware.gzip import GZipMiddleware
 
 from database import init_db
-from routes import cases, weapons, strategies, coas, documents, deposition
+from routes import cases, weapons, strategies, coas, documents, deposition, case_authority, actors, interviews, legal_library
 from seed_data import seed_initial_data
 
 # Frontend URL — set via Render env var, defaults to localhost for dev
@@ -55,7 +55,7 @@ app.add_middleware(
 )
 
 # Gzip compression
-app.add_middleware(GZIPMiddleware, minimum_size=1000)
+app.add_middleware(GZipMiddleware, minimum_size=1000)
 
 # Include routers
 app.include_router(cases.router)
@@ -64,6 +64,10 @@ app.include_router(strategies.router)
 app.include_router(coas.router)
 app.include_router(documents.router)
 app.include_router(deposition.router)
+app.include_router(case_authority.router)
+app.include_router(actors.router)
+app.include_router(interviews.router)
+app.include_router(legal_library.router)
 
 
 @app.get("/health")

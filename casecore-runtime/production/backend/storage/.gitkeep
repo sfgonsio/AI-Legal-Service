@@ -1,0 +1,4 @@
+# Case raw-file storage root.
+# Layout: storage/cases/{case_id}/uploads/<sha256><ext>
+#         storage/cases/{case_id}/archives/<sha256>.zip
+# Override via env CASECORE_STORAGE_PATH.

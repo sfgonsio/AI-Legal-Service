@@ -1,0 +1,56 @@
+caci_id: CACI_303
+status: PROVISIONAL
+record_id: "00000000-0000-4000-8000-000000000303"
+supersedes: null
+superseded_by: null
+
+source:
+  type: structured_import
+  pdf_sha256: UNKNOWN
+  pdf_path: authority_packs/ca_caci_provisional/raw_pdf/UNKNOWN.pdf
+  ocr_path: null
+  ocr_engine: null
+  extracted_at: null
+
+confidence:
+  overall: 0.94
+  ocr_char_conf: null
+  structure_parse_conf: 0.94
+  element_field_conf:
+    contract_existence: 0.95
+    plaintiff_performance: 0.94
+    defendant_breach: 0.93
+    damages: 0.94
+  threshold: 0.90
+  decision: ACCEPT
+
+provenance:
+  publisher: "Judicial Council of California"
+  edition: unknown
+  retrieved_from: legacy_inline_catalog
+  certified: false
+
+trust:
+  canonical: false
+  replaceable: true
+
+payload:
+  title: "Breach of Contract - Essential Elements"
+  elements:
+    - element_id: contract_existence
+      proof_types: [written_contract, oral_agreement, conduct]
+      text: null
+    - element_id: plaintiff_performance
+      proof_types: [performance_records, testimony]
+      text: null
+    - element_id: defendant_breach
+      proof_types: [breach_event, failure_to_perform]
+      text: null
+    - element_id: damages
+      proof_types: [financial_records, expert_testimony]
+      text: null
+
+audit:
+  created_at: "2026-04-22T00:00:00Z"
+  created_by: "provisional_seed:authority_catalog_migration"
+  hash: "seed-303"

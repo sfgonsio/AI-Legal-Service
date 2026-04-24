@@ -5,14 +5,16 @@ Seed database with Mills v. Polley case data
 from database import AsyncSessionLocal
 from models import Case, Document, COA, BurdenElement, Weapon, Strategy, PerjuryPath
 from datetime import datetime
+from sqlalchemy import text
 
 
 async def seed_initial_data():
     """Seed database with Mills v. Polley case"""
     async with AsyncSessionLocal() as db:
         # Check if data already seeded
-        existing_case = await db.execute("SELECT COUNT(*) FROM cases")
-        if existing_case is not None and existing_case > 0:
+        result = await db.execute(text("SELECT COUNT(*) FROM cases"))
+        existing_count = result.scalar() or 0
+        if existing_count > 0:
             return
 
         # Create main case

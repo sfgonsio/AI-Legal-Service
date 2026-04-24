@@ -31,6 +31,13 @@ class CaseResponse(BaseModel):
     defendant: str
     status: str
     created_at: datetime
+    save_state: str = "DRAFT"
+    last_saved_at: Optional[datetime] = None
+    last_submitted_at: Optional[datetime] = None
+    processing_started_at: Optional[datetime] = None
+    processing_finished_at: Optional[datetime] = None
+    review_required_count: int = 0
+    current_analysis_run_id: Optional[str] = None
 
     class Config:
         from_attributes = True
@@ -62,7 +69,17 @@ class DocumentResponse(BaseModel):
     folder: Optional[str]
     file_type: Optional[str]
     char_count: int
+    byte_size: int = 0
     sha256_hash: Optional[str]
+    storage_path: Optional[str] = None
+    archive_id: Optional[int] = None
+    archive_relative_path: Optional[str] = None
+    ingest_phase: str = "uploaded"
+    ingest_error_detail: Optional[str] = None
+    extraction_status: str = "NOT_ATTEMPTED"
+    extraction_method: Optional[str] = None
+    extraction_confidence: float = 0.0
+    is_scanned_pdf: bool = False
     created_at: datetime
 
     class Config:
@@ -71,6 +88,250 @@ class DocumentResponse(BaseModel):
 
 class DocumentDetailResponse(DocumentResponse):
     text_content: Optional[str]
+
+
+# ============ Upload / Ingest Schemas ============
+
+class UploadedDocumentResult(BaseModel):
+    document_id: int
+    filename: str
+    folder: Optional[str]
+    file_type: Optional[str]
+    byte_size: int
+    sha256_hash: Optional[str]
+    archive_id: Optional[int] = None
+    archive_relative_path: Optional[str] = None
+    ingest_phase: str
+    error_detail: Optional[str] = None
+
+
+class UploadBatchResponse(BaseModel):
+    case_id: int
+    accepted_count: int
+    rejected_count: int
+    archive_id: Optional[int] = None
+    documents: List[UploadedDocumentResult]
+    errors: List[str] = Field(default_factory=list)
+
+
+class IngestStatusDocument(BaseModel):
+    id: int
+    filename: str
+    folder: Optional[str]
+    file_type: Optional[str]
+    ingest_phase: str
+    ingest_started_at: Optional[datetime]
+    ingest_finished_at: Optional[datetime]
+    error_detail: Optional[str] = None
+    actor_mention_count: int = 0
+    # Extraction reliability (mirrors Document fields for UI convenience)
+    extraction_status: str = "NOT_ATTEMPTED"
+    extraction_method: Optional[str] = None
+    extraction_confidence: float = 0.0
+    is_scanned_pdf: bool = False
+
+
+class IngestStatusResponse(BaseModel):
+    case_id: int
+    phase_counts: Dict[str, int]
+    success_count: int
+    failure_count: int
+    in_flight_count: int
+    documents: List[IngestStatusDocument]
+
+
+class UploadArchiveResponse(BaseModel):
+    id: int
+    case_id: int
+    original_filename: str
+    sha256_hash: Optional[str]
+    byte_size: int
+    entry_count: int
+    uploaded_at: datetime
+    uploaded_by_actor_id: Optional[str]
+
+    class Config:
+        from_attributes = True
+
+
+# ============ Actor Schemas ============
+
+class ActorMentionResponse(BaseModel):
+    id: int
+    actor_id: int
+    document_id: Optional[int] = None
+    interview_id: Optional[int] = None
+    source_kind: str = "DOCUMENT"
+    snippet: Optional[str]
+    offset_start: Optional[int]
+    offset_end: Optional[int]
+    confidence: float
+    created_at: datetime
+
+    class Config:
+        from_attributes = True
+
+
+class ActorResponse(BaseModel):
+    id: int
+    case_id: int
+    display_name: str
+    canonical_name: str
+    entity_type: str
+    resolution_state: str
+    role_hint: Optional[str]
+    mention_count: int
+    first_seen_document_id: Optional[int]
+    last_seen_document_id: Optional[int]
+    source: str = "MANUAL"
+    source_interview_id: Optional[int] = None
+    merged_into_actor_id: Optional[int] = None
+    notes: Optional[str]
+    created_at: datetime
+    updated_at: datetime
+
+    class Config:
+        from_attributes = True
+
+
+class ActorCreateRequest(BaseModel):
+    case_id: int
+    display_name: str
+    canonical_name: Optional[str] = None
+    entity_type: str = "PERSON"
+    resolution_state: str = "RESOLVED"  # user-created -> RESOLVED by default
+    role_hint: Optional[str] = None
+    notes: Optional[str] = None
+    actor_id: Optional[str] = None  # attorney id for audit
+
+
+class ActorMergeRequest(BaseModel):
+    source_actor_ids: List[int]
+    target_actor_id: int
+    actor_id: Optional[str] = None
+
+
+class ActorMergeResponse(BaseModel):
+    target_actor_id: int
+    merged_actor_ids: List[int]
+    moved_mentions: int
+
+
+class ActorsGroupedResponse(BaseModel):
+    case_id: int
+    counts: Dict[str, int]
+    resolved: List[ActorResponse]
+    candidate: List[ActorResponse]
+    ambiguous: List[ActorResponse]
+    organizations: List[ActorResponse]
+
+
+class ActorUpdateRequest(BaseModel):
+    display_name: Optional[str] = None
+    canonical_name: Optional[str] = None
+    entity_type: Optional[str] = None
+    resolution_state: Optional[str] = None
+    role_hint: Optional[str] = None
+    notes: Optional[str] = None
+    actor_id: Optional[str] = None  # attorney id for audit
+
+
+# ============ Upload UX Schemas ============
+
+class UploadConfigResponse(BaseModel):
+    """Advertised limits + supported types for client-side pre-validation."""
+    max_file_bytes: int
+    max_archive_bytes: int
+    max_archive_uncompressed_bytes: int
+    max_archive_entries: int
+    supported_extensions: List[str]
+    # extension -> bucket label used by the UI (text|email|html|pdf|docx|image|archive|binary)
+    extension_buckets: Dict[str, str]
+    skipped_path_substrings: List[str]
+
+
+class CheckHashesRequest(BaseModel):
+    sha256_list: List[str]
+
+
+class HashCheckHit(BaseModel):
+    sha256_hash: str
+    document_id: int
+    filename: str
+    folder: Optional[str]
+    ingest_phase: str
+
+
+class CheckHashesResponse(BaseModel):
+    case_id: int
+    duplicates: List[HashCheckHit]
+
+
+# ============ Interview Schemas ============
+
+class InterviewQuestionResponse(BaseModel):
+    id: int
+    question_key: str
+    prompt: str
+    order_index: int
+    completion_kind: str
+    answer_text: Optional[str]
+    answered: bool
+    answered_at: Optional[datetime]
+
+    class Config:
+        from_attributes = True
+
+
+class InterviewQuestionUpdate(BaseModel):
+    answer_text: Optional[str] = None
+
+
+class InterviewResponse(BaseModel):
+    id: int
+    case_id: int
+    mode: str
+    narrative_text: Optional[str]
+    processing_state: str
+    last_error_detail: Optional[str]
+    started_at: datetime
+    completed_at: Optional[datetime]
+    processed_at: Optional[datetime]
+    questions: List[InterviewQuestionResponse] = []
+
+    class Config:
+        from_attributes = True
+
+
+class InterviewCreateRequest(BaseModel):
+    case_id: int
+    mode: str = "GUIDED_QUESTIONS"
+
+
+class InterviewModeSwitchRequest(BaseModel):
+    mode: str  # GUIDED_QUESTIONS | FREEFORM_NARRATIVE
+
+
+class InterviewNarrativeUpdate(BaseModel):
+    narrative_text: str
+
+
+class InterviewCompleteRequest(BaseModel):
+    actor_id: Optional[str] = None
+
+
+class InterviewProgressResponse(BaseModel):
+    interview_id: int
+    mode: str
+    processing_state: str
+    # For GUIDED_QUESTIONS: reflects real completion logic (not just field existence)
+    answered_count: int
+    total_count: int
+    completion_pct: float
+    # For FREEFORM_NARRATIVE: whether narrative has been marked complete
+    narrative_started: bool
+    narrative_complete: bool
+    display: str  # short human-readable status string for the UI
 
 
 # ============ COA Schemas ============
@@ -96,6 +357,37 @@ class BurdenElementResponse(BaseModel):
         from_attributes = True
 
 
+class ResolvedAuthorityBlock(BaseModel):
+    """Tri-signal authority block returned by the Brain resolver.
+
+    Downstream surfaces (COA, burden, remedy, complaint, case-to-authority, Library)
+    MUST render all three signals and never read provisional records directly.
+    """
+    certified: Dict[str, Any] = Field(
+        default_factory=lambda: {"present": False, "authority_id": None, "record_ref": None}
+    )
+    provisional_candidate: Dict[str, Any] = Field(
+        default_factory=lambda: {
+            "caci_id": None,
+            "record_id": None,
+            "confidence": None,
+            "status": None,
+        }
+    )
+    case_decision: Dict[str, Any] = Field(
+        default_factory=lambda: {
+            "state": "PENDING_REVIEW",
+            "decision_id": None,
+            "replacement_authority_id": None,
+        }
+    )
+    effective_grounding: str = "PROPOSED"  # GROUNDED | GROUNDED_VIA_REPLACEMENT | PROPOSED | NONE
+    display_badge: str = "provisional-candidate"
+    decision_id: Optional[str] = None
+    pinned_record_id: Optional[str] = None
+    requires_attorney_review: bool = True
+
+
 class COAResponse(BaseModel):
     id: int
     case_id: int
@@ -106,6 +398,7 @@ class COAResponse(BaseModel):
     coverage_pct: float
     status: str
     created_at: datetime
+    authority: Optional[ResolvedAuthorityBlock] = None
 
     class Config:
         from_attributes = True
@@ -301,6 +594,155 @@ class SimulateResponse(BaseModel):
 class SimulationRequest(BaseModel):
     weapon_id: int
     scenario: Optional[str] = None
+
+
+# ============ Case Authority Decision Schemas ============
+
+class ReplacementAuthority(BaseModel):
+    authority_type: str  # CACI | STATUTE | CASE_LAW | CERTIFIED_CACI | REGULATION | OTHER
+    authority_id: str
+    record_ref: Optional[str] = None
+    reason: str
+
+
+class CaseAuthorityDecisionCreate(BaseModel):
+    case_id: int
+    caci_id: str
+    state: str  # PENDING_REVIEW | ACCEPTED | REJECTED | REPLACED
+    pinned_record_id: Optional[str] = None
+    replacement: Optional[ReplacementAuthority] = None
+    decided_by_actor_type: str = "ATTORNEY"
+    decided_by_actor_id: str
+    decided_by_role: Optional[str] = None
+    rationale: Optional[str] = None
+    source_event: Optional[str] = None
+
+
+class CaseAuthorityDecisionResponse(BaseModel):
+    id: int
+    decision_id: str
+    case_id: int
+    caci_id: str
+    state: str
+    pinned_record_id: Optional[str]
+    replacement: Optional[Dict[str, Any]] = None
+    decided_by_actor_type: str
+    decided_by_actor_id: str
+    decided_by_role: Optional[str]
+    decided_at: datetime
+    rationale: Optional[str]
+    supersedes_decision_id: Optional[str]
+    superseded_by_decision_id: Optional[str]
+    audit_hash: str
+    source_event: Optional[str]
+
+    class Config:
+        from_attributes = True
+
+
+class ProvisionalCaciSummary(BaseModel):
+    """Library display state for provisional CACI candidates."""
+    caci_id: str
+    record_id: str
+    title: str
+    status: str  # PROVISIONAL | BLOCKED_UNTRUSTED | SUPERSEDED
+    confidence_overall: float
+    canonical: bool = False
+    replaceable: bool = True
+
+
+class CaseToAuthorityRow(BaseModel):
+    """One row in the case-to-authority mapping view."""
+    caci_id: str
+    authority: ResolvedAuthorityBlock
+
+
+class ResolveRequest(BaseModel):
+    case_id: int
+    caci_id: str
+
+
+# ============ Case Lifecycle Schemas ============
+
+class SaveDraftRequest(BaseModel):
+    name: Optional[str] = None
+    court: Optional[str] = None
+    plaintiff: Optional[str] = None
+    defendant: Optional[str] = None
+    actor_id: str = "attorney:unknown"
+    actor_type: str = "ATTORNEY"
+    return_to_dashboard: bool = False
+    reason: Optional[str] = None
+
+
+class MarkReadyRequest(BaseModel):
+    actor_id: str
+    actor_type: str = "ATTORNEY"
+    reason: Optional[str] = None
+
+
+class SubmitForAnalysisRequest(BaseModel):
+    actor_id: str
+    actor_type: str = "ATTORNEY"
+    role: Optional[str] = None
+
+
+class ReturnToIntakeRequest(BaseModel):
+    actor_id: str
+    actor_type: str = "ATTORNEY"
+    reason: str
+
+
+class AnalysisRunResponse(BaseModel):
+    id: int
+    run_id: str
+    case_id: int
+    state: str
+    triggered_by_actor_id: str
+    triggered_by_actor_type: str
+    triggered_at: datetime
+    completed_at: Optional[datetime]
+    coa_count: int
+    review_required_count: int
+    recompute_event_ids: Optional[List[int]] = None
+    error_detail: Optional[str] = None
+
+    class Config:
+        from_attributes = True
+
+
+class CaseProgressResponse(BaseModel):
+    case_id: int
+    save_state: str
+    last_saved_at: Optional[datetime]
+    last_submitted_at: Optional[datetime]
+    processing_started_at: Optional[datetime]
+    processing_finished_at: Optional[datetime]
+    review_required_count: int
+    current_analysis_run: Optional[AnalysisRunResponse] = None
+    gated_surfaces: List[str] = Field(default_factory=list)
+    last_error_detail: Optional[str] = None
+
+
+class CaseStateEventResponse(BaseModel):
+    id: int
+    case_id: int
+    from_state: Optional[str]
+    to_state: str
+    actor_id: str
+    actor_type: str
+    reason: Optional[str]
+    at: datetime
+
+    class Config:
+        from_attributes = True
+
+
+class StateGatedErrorResponse(BaseModel):
+    detail: str
+    save_state: str
+    required_states: List[str]
+    message: str
 
 
 # Update forward references

@@ -3,6 +3,14 @@ import { useParams, useNavigate } from 'react-router-dom'
 import { caseApi, weaponApi, strategyApi, coaApi } from '../api/client'
 import BreadcrumbNav from '../components/BreadcrumbNav'
 import CaseStrengthMeter from '../components/CaseStrengthMeter'
+import CaseProgressBar from '../components/CaseProgressBar'
+import UploadPanel from '../components/UploadPanel'
+import IngestStatusList from '../components/IngestStatusList'
+import ActorsList from '../components/ActorsList'
+import UploadedDocsList from '../components/UploadedDocsList'
+import IntakeButton from '../components/IntakeButton'
+
+const POST_ANALYSIS_STATES = new Set(['PROCESSING', 'REVIEW_REQUIRED', 'APPROVED'])
 
 export default function Dashboard() {
   const { id: caseId } = useParams()
@@ -23,19 +31,32 @@ export default function Dashboard() {
       setLoading(true)
 
       if (caseId) {
-        // Load specific case
+        // Load specific case and its progress first; only fetch analytical
+        // data if the case is in a post-analysis state. Pre-analysis reads
+        // would 409 at the API per SR-11.
         const caseData = await caseApi.get(caseId)
         setCaseData(caseData)
-        const [weapons, strategies, coas] = await Promise.all([
-          weaponApi.list(caseId),
-          strategyApi.list(caseId),
-          coaApi.list(caseId)
-        ])
-        setWeapons(weapons || [])
-        setStrategies(strategies || [])
-        setCoas(coas || [])
+        if (POST_ANALYSIS_STATES.has(caseData.save_state)) {
+          const [weapons, strategies, coas] = await Promise.all([
+            weaponApi.list(caseId),
+            strategyApi.list(caseId),
+            coaApi.list(caseId).catch(() => []),
+          ])
+          setWeapons(weapons || [])
+          setStrategies(strategies || [])
+          setCoas(coas || [])
+        } else {
+          // pre-analysis: weapons/strategies are seeded data and remain
+          // readable, but COA authority is gated.
+          const [weapons, strategies] = await Promise.all([
+            weaponApi.list(caseId),
+            strategyApi.list(caseId),
+          ])
+          setWeapons(weapons || [])
+          setStrategies(strategies || [])
+          setCoas([])
+        }
       } else {
-        // Load first case
         const cases = await caseApi.list()
         if (cases.length > 0) {
           const firstCase = cases[0]
@@ -85,12 +106,40 @@ export default function Dashboard() {
   return (
     <div className="min-h-screen bg-slate-900 p-8">
       <div className="max-w-6xl mx-auto">
-        <BreadcrumbNav navStack={navStack} />
+        <div className="flex items-start justify-between gap-4 mb-2">
+          <BreadcrumbNav navStack={navStack} />
+          <div className="flex gap-2 items-start">
+            <IntakeButton caseId={caseData.id} />
+            <button
+              onClick={() => navigate('/legal-library')}
+              className="text-left border border-slate-700 rounded px-3 py-1 bg-slate-800 hover:border-sky-500"
+              title="Open Legal Library"
+            >
+              <div className="text-xs font-semibold text-slate-100">Legal Library</div>
+              <div className="text-[10px] text-slate-400 font-mono">CACI · EVID · BPC</div>
+            </button>
+          </div>
+        </div>
 
         <h1 className="text-4xl font-bold text-slate-100 mb-2">{caseData.name}</h1>
-        <p className="text-slate-400 mb-8">
+        <p className="text-slate-400 mb-4">
           {caseData.plaintiff} v. {caseData.defendant} • {caseData.court}
         </p>
+
+        <div className="mb-8">
+          <CaseProgressBar caseId={caseData.id} onChange={loadData} />
+        </div>
+
+        {!POST_ANALYSIS_STATES.has(caseData.save_state) && (
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mb-8">
+            <UploadPanel caseId={caseData.id} onComplete={loadData} />
+            <div className="space-y-4">
+              <IngestStatusList caseId={caseData.id} />
+              <UploadedDocsList caseId={caseData.id} onChange={loadData} />
+              <ActorsList caseId={caseData.id} />
+            </div>
+          </div>
+        )}
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
           <div className="card">

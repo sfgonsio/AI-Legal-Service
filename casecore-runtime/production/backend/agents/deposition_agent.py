@@ -169,4 +169,42 @@ class DepositionAgent(BaseAgent):
         return min(1.0, risk), min(0.95, confidence)
 
 
-__all__ = ["DepositionAgent", "EVIDENCE_INDEX"]
+async def suggest_follow_up_questions(
+    transcript_segment: str, case_id: str = "unknown"
+) -> List[str]:
+    """Module-level shim for deposition routes."""
+    agent = DepositionAgent(case_id=case_id)
+    result = await agent.analyze({"transcript": transcript_segment})
+    data = result.get("data") or {}
+    return data.get("follow_ups", []) or []
+
+
+async def analyze_testimony(
+    transcript_segment: str, case_id: str = "unknown"
+) -> Dict[str, Any]:
+    """Module-level shim for deposition routes."""
+    agent = DepositionAgent(case_id=case_id)
+    return await agent.analyze({"transcript": transcript_segment})
+
+
+async def flag_perjury_opportunity(
+    transcript_segment: str, case_id: str = "unknown"
+) -> Dict[str, Any]:
+    """Module-level shim for deposition routes."""
+    agent = DepositionAgent(case_id=case_id)
+    result = await agent.analyze({"transcript": transcript_segment})
+    data = result.get("data") or {}
+    return {
+        "perjury_risk": data.get("perjury_risk", 0.0),
+        "confidence": data.get("confidence", 0.0),
+        "contradictions": data.get("contradictions", []),
+    }
+
+
+__all__ = [
+    "DepositionAgent",
+    "EVIDENCE_INDEX",
+    "suggest_follow_up_questions",
+    "analyze_testimony",
+    "flag_perjury_opportunity",
+]
