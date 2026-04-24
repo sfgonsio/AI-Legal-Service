@@ -111,6 +111,22 @@ export default function Dashboard() {
           <div className="flex gap-2 items-start">
             <IntakeButton caseId={caseData.id} />
             <button
+              onClick={() => navigate(`/case/${caseData.id}/timeline`)}
+              className="text-left border border-slate-700 rounded px-3 py-1 bg-slate-800 hover:border-sky-500"
+              title="Open Timeline"
+            >
+              <div className="text-xs font-semibold text-slate-100">Timeline</div>
+              <div className="text-[10px] text-slate-400 font-mono">events · actors · dates</div>
+            </button>
+            <button
+              onClick={() => navigate(`/case/${caseData.id}/analysis`)}
+              className="text-left border border-slate-700 rounded px-3 py-1 bg-slate-800 hover:border-sky-500"
+              title="Open Analysis"
+            >
+              <div className="text-xs font-semibold text-slate-100">Analysis</div>
+              <div className="text-[10px] text-slate-400 font-mono">COAs · burdens · remedies</div>
+            </button>
+            <button
               onClick={() => navigate('/legal-library')}
               className="text-left border border-slate-700 rounded px-3 py-1 bg-slate-800 hover:border-sky-500"
               title="Open Legal Library"

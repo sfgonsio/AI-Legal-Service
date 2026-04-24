@@ -7,6 +7,8 @@ import DepositionRoom from './pages/DepositionRoom'
 import CaseAuthority from './pages/CaseAuthority'
 import CaseIntake from './pages/CaseIntake'
 import LegalLibrary from './pages/LegalLibrary'
+import CaseTimeline from './pages/CaseTimeline'
+import CaseAnalysis from './pages/CaseAnalysis'
 
 // Global drag/drop guard.
 // Without this, if the user drops a file ANYWHERE on the page that isn't an
@@ -43,6 +45,8 @@ export default function App() {
           <Route path="/case/:id/authority" element={<CaseAuthority />} />
           <Route path="/case/:id/intake" element={<CaseIntake />} />
           <Route path="/legal-library" element={<LegalLibrary />} />
+          <Route path="/case/:id/timeline" element={<CaseTimeline />} />
+          <Route path="/case/:id/analysis" element={<CaseAnalysis />} />
           <Route path="/weapon/:id" element={<WeaponDetail />} />
           <Route path="/strategy/:key" element={<StrategyView />} />
           <Route path="/deposition/:id" element={<DepositionRoom />} />

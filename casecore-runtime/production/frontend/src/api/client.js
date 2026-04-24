@@ -136,6 +136,24 @@ export const actorApi = {
   mentions: (id) => apiClient.get(`/actors/${id}/mentions`),
 }
 
+// Analysis (intake → brain pipeline output)
+export const analysisApi = {
+  get: (caseId) => apiClient.get(`/cases/${caseId}/analysis`),
+}
+
+// Timeline endpoints
+export const timelineApi = {
+  get: (caseId, { source, event_type } = {}) => {
+    const params = new URLSearchParams()
+    if (source) params.set('source', source)
+    if (event_type) params.set('event_type', event_type)
+    const qs = params.toString()
+    return apiClient.get(`/timeline/${caseId}${qs ? `?${qs}` : ''}`)
+  },
+  build: (caseId, replace = true) =>
+    apiClient.post(`/timeline/${caseId}/build`, { replace }),
+}
+
 // Legal Library endpoints
 export const legalLibraryApi = {
   stats: () => apiClient.get('/legal-library/stats'),

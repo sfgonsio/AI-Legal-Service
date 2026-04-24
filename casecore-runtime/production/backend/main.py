@@ -9,7 +9,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.middleware.gzip import GZipMiddleware
 
 from database import init_db
-from routes import cases, weapons, strategies, coas, documents, deposition, case_authority, actors, interviews, legal_library
+from routes import cases, weapons, strategies, coas, documents, deposition, case_authority, actors, interviews, legal_library, timeline, analysis
 from seed_data import seed_initial_data
 
 # Frontend URL — set via Render env var, defaults to localhost for dev
@@ -68,6 +68,8 @@ app.include_router(case_authority.router)
 app.include_router(actors.router)
 app.include_router(interviews.router)
 app.include_router(legal_library.router)
+app.include_router(timeline.router)
+app.include_router(analysis.router)
 
 
 @app.get("/health")

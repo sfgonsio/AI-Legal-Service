@@ -284,6 +284,10 @@ class AnalysisRun(Base):
     review_required_count = Column(Integer, nullable=False, default=0)
     recompute_event_ids = Column(JSON, nullable=True)
     error_detail = Column(Text, nullable=True)
+    # Full analysis blob: {coas, burdens, remedies, complaint, evidence_map,
+    # stats, provenance}. Authority references are grounded in the Legal
+    # Library corpus (body_status=IMPORTED) — no hallucinated citations.
+    result_json = Column(JSON, nullable=True)
 
     case = relationship("Case", back_populates="analysis_runs")
 
@@ -427,6 +431,94 @@ class InterviewQuestion(Base):
     answered_at = Column(DateTime, nullable=True)
 
     interview = relationship("Interview", back_populates="questions")
+
+
+class TimelineEvent(Base):
+    """
+    A single event extracted from case evidence (interview narrative, interview
+    Q&A, or a document's normalized text). Built OUTSIDE the ingest pipeline
+    via brain.timeline_builder — triggered on demand by
+    POST /timeline/{case_id}/build.
+
+    Never drives legal analysis. Actor links are by id (no cross-case leaks).
+
+    Legal-layer extension (rule-based, pre-analysis):
+      - claim_relation: SUPPORTS | WEAKENS | CONTRADICTS | NEUTRAL (heuristic)
+      - strategy flags: deposition / interrogatory / document-request targets
+      - legal_mappings relationship -> TimelineEventLegalMapping rows
+    These are hints for attorneys, NOT grounded legal conclusions. Grounding
+    remains behind Submit for Legal Analysis (SR-11 / SR-12).
+    """
+    __tablename__ = "timeline_events"
+
+    id = Column(Integer, primary_key=True, index=True)
+    event_id = Column(String(64), nullable=False, unique=True, index=True)  # uuid
+    case_id = Column(Integer, ForeignKey("cases.id"), nullable=False, index=True)
+
+    # Normalized timestamp: first day-of occurrence, UTC midnight. NULL when unknown.
+    timestamp = Column(DateTime, nullable=True, index=True)
+    raw_date_text = Column(String(255), nullable=True)
+    date_precision = Column(String(16), nullable=False, default="UNKNOWN")
+    # DAY | MONTH | YEAR | UNKNOWN
+
+    summary = Column(Text, nullable=False)
+    event_type = Column(String(32), nullable=False, default="OTHER")
+    # COMMUNICATION | MEETING | PAYMENT | FILING | NOTICE | AGREEMENT | BREACH | TRANSACTION | OTHER
+
+    source = Column(String(16), nullable=False)  # INTERVIEW | INGEST
+    source_document_id = Column(Integer, ForeignKey("documents.id"), nullable=True, index=True)
+    source_interview_id = Column(Integer, ForeignKey("interviews.id"), nullable=True, index=True)
+    text_offset_start = Column(Integer, nullable=True)
+    text_offset_end = Column(Integer, nullable=True)
+    snippet = Column(Text, nullable=True)
+
+    # JSON list of actor_ids referenced by this event.
+    actor_ids = Column(JSON, nullable=True)
+    confidence = Column(Float, nullable=False, default=0.0)
+
+    # --- Legal layer (heuristic, pre-analysis, not grounded) ---
+    claim_relation = Column(String(16), nullable=False, default="NEUTRAL")
+    # SUPPORTS | WEAKENS | CONTRADICTS | NEUTRAL
+    deposition_target = Column(Boolean, nullable=False, default=False)
+    interrogatory_target = Column(Boolean, nullable=False, default=False)
+    document_request_target = Column(Boolean, nullable=False, default=False)
+    strategy_rationale = Column(Text, nullable=True)
+
+    created_at = Column(DateTime, default=datetime.utcnow, index=True)
+
+    legal_mappings = relationship(
+        "TimelineEventLegalMapping",
+        back_populates="event",
+        cascade="all, delete-orphan",
+    )
+
+
+class TimelineEventLegalMapping(Base):
+    """
+    Heuristic mapping of a TimelineEvent onto potential legal elements. These
+    are CANDIDATE mappings (pre-analysis), analogous to CANDIDATE actors. The
+    authoritative grounded-authority view still comes from the Brain resolver
+    during Submit for Legal Analysis.
+
+    element_reference uses Legal Library record ids where possible
+    (e.g. "CACI_303", "CACI_1900", "EVID_1220"), or a plain-text label when
+    no structured reference exists.
+    """
+    __tablename__ = "timeline_event_legal_mappings"
+
+    id = Column(Integer, primary_key=True, index=True)
+    event_id = Column(Integer, ForeignKey("timeline_events.id"), nullable=False, index=True)
+    legal_element_type = Column(String(40), nullable=False)
+    # COA_ELEMENT | BURDEN_OF_PRODUCTION | BURDEN_OF_PERSUASION
+    # | REMEDY | EVIDENCE_ADMISSIBILITY | PROCEDURAL
+    element_reference = Column(String(80), nullable=True)
+    element_label = Column(String(255), nullable=False)
+    confidence = Column(Float, nullable=False, default=0.0)
+    rationale = Column(Text, nullable=True)
+    supporting_evidence_refs = Column(JSON, nullable=True)
+    created_at = Column(DateTime, default=datetime.utcnow)
+
+    event = relationship("TimelineEvent", back_populates="legal_mappings")
 
 
 class CaseStateEvent(Base):

@@ -215,8 +215,12 @@ async def submit_for_analysis(
     )).scalar() or 0
     if doc_count == 0:
         raise HTTPException(409, {"detail": "no_documents", "message": "Case has no documents"})
-    if coa_count == 0:
-        raise HTTPException(409, {"detail": "no_coas", "message": "Case has no COAs"})
+    # Legacy COA-count precondition relaxed: the analysis engine now generates
+    # CoaCandidate objects from the timeline, so pre-existing COA rows are
+    # optional. If both are empty the analysis will produce 0 candidates and
+    # the case will land in REVIEW_REQUIRED with 0 COAs — still a valid
+    # completed run, not a submit error.
+    _ = coa_count  # retained for potential future checks
 
     in_flight = (await db.execute(
         select(func.count(AnalysisRun.id))

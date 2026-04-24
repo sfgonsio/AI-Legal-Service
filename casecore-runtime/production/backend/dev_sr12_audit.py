@@ -19,9 +19,13 @@ INGEST_SURFACE = [
     "brain/actor_extractor.py",
     "brain/content_extractors.py",
     "brain/interview_processor.py",
+    "brain/timeline_extractor.py",
+    "brain/timeline_builder.py",
+    "brain/timeline_legal_mapper.py",
     "routes/documents.py",
     "routes/actors.py",
     "routes/interviews.py",
+    "routes/timeline.py",
 ]
 
 FORBIDDEN_SUBSTRINGS = [

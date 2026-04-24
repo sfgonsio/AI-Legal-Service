@@ -320,6 +320,90 @@ class InterviewCompleteRequest(BaseModel):
     actor_id: Optional[str] = None
 
 
+class TimelineActorRef(BaseModel):
+    id: int
+    display_name: str
+    role_hint: Optional[str] = None
+
+
+class TimelineEventLegalMappingResponse(BaseModel):
+    legal_element_type: str          # COA_ELEMENT | BURDEN_OF_PRODUCTION | BURDEN_OF_PERSUASION | REMEDY | EVIDENCE_ADMISSIBILITY | PROCEDURAL
+    element_reference: Optional[str] = None  # e.g. CACI_303, EVID_1220
+    element_label: str
+    confidence: float
+    rationale: Optional[str] = None
+    supporting_evidence_refs: List[Dict[str, Any]] = Field(default_factory=list)
+
+    class Config:
+        from_attributes = True
+
+
+class TimelineStrategyFlags(BaseModel):
+    deposition_target: bool = False
+    interrogatory_target: bool = False
+    document_request_target: bool = False
+
+
+class TimelineEventResponse(BaseModel):
+    event_id: str
+    case_id: int
+    timestamp: Optional[datetime] = None
+    raw_date_text: Optional[str] = None
+    date_precision: str
+    summary: str
+    event_type: str
+    source: str
+    source_document_id: Optional[int] = None
+    source_interview_id: Optional[int] = None
+    text_offset_start: Optional[int] = None
+    text_offset_end: Optional[int] = None
+    snippet: Optional[str] = None
+    actor_ids: List[int] = Field(default_factory=list)
+    actors: List[TimelineActorRef] = Field(default_factory=list)
+    confidence: float
+    # Legal layer (heuristic hints; NOT grounded analysis)
+    claim_relation: str = "NEUTRAL"
+    strategy: TimelineStrategyFlags = Field(default_factory=TimelineStrategyFlags)
+    strategy_rationale: Optional[str] = None
+    legal_mappings: List[TimelineEventLegalMappingResponse] = Field(default_factory=list)
+
+    class Config:
+        from_attributes = True
+
+
+class TimelineDateGroup(BaseModel):
+    """A group key for the UI: date string or 'UNKNOWN'."""
+    key: str                                # YYYY-MM-DD, YYYY-MM, YYYY, or "UNKNOWN"
+    label: str                              # human-readable label
+    precision: str                          # DAY | MONTH | YEAR | UNKNOWN
+    events: List[TimelineEventResponse]
+
+
+class TimelineResponse(BaseModel):
+    case_id: int
+    total: int
+    counts_by_source: Dict[str, int]
+    counts_by_type: Dict[str, int]
+    known_count: int
+    unknown_count: int
+    groups: List[TimelineDateGroup]
+    last_built_at: Optional[datetime] = None
+
+
+class TimelineBuildRequest(BaseModel):
+    actor_id: Optional[str] = None          # attorney id for audit
+    replace: bool = True                    # rebuild from scratch (default)
+
+
+class TimelineBuildResponse(BaseModel):
+    case_id: int
+    events_created: int
+    events_removed: int
+    documents_scanned: int
+    interviews_scanned: int
+    duration_ms: int
+
+
 class InterviewProgressResponse(BaseModel):
     interview_id: int
     mode: str
