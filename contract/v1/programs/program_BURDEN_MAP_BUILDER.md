@@ -6,6 +6,24 @@
 
 ---
 
+## Authority Gate (v1 amendment)
+
+BURDEN_MAP_BUILDER must obtain CACI authority via the Brain resolver
+(`contract/v1/brain/case_authority_resolution.md`). Direct reads of the
+provisional store or `knowledge/authority_catalog.yaml` CACI entries are
+forbidden.
+
+Burden rows carry the tri-signal authority block and `(decision_id,
+pinned_record_id)`. Preview-only burden rows computed on PROPOSED authority
+must be watermarked `preview: true` and excluded from deposition /
+trial-readiness gating. REJECTED authorities remove their dependent burden
+rows on the next recompute. REPLACED authorities re-derive burden from the
+replacement.
+
+Trigger events now include `CASE_AUTHORITY_DECISION_UPDATED`.
+
+---
+
 # 1. Objective
 
 Given:

@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "contract/v1/schemas/case/actor.schema.json",
+  "title": "Actor",
+  "description": "A person or organization surfaced from case evidence. Seeded at case creation from Case.plaintiff/defendant/court, extended by rule-based ingest extraction.",
+  "type": "object",
+  "required": [
+    "case_id",
+    "display_name",
+    "canonical_name",
+    "entity_type",
+    "resolution_state"
+  ],
+  "properties": {
+    "case_id": {"type": ["integer", "string"]},
+    "display_name": {"type": "string"},
+    "canonical_name": {"type": "string"},
+    "entity_type": {"type": "string", "enum": ["PERSON", "ORGANIZATION", "UNKNOWN"]},
+    "resolution_state": {"type": "string", "enum": ["RESOLVED", "CANDIDATE", "AMBIGUOUS"]},
+    "role_hint": {"type": ["string", "null"]},
+    "mention_count": {"type": "integer", "minimum": 0},
+    "first_seen_document_id": {"type": ["integer", "null"]},
+    "last_seen_document_id": {"type": ["integer", "null"]},
+    "notes": {"type": ["string", "null"]}
+  }
+}

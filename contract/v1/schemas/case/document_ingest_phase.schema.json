@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "contract/v1/schemas/case/document_ingest_phase.schema.json",
+  "title": "Document Ingest Phase",
+  "description": "Enumerates the ingest pipeline phases written to Document.ingest_phase. Strict ordering; supersession via IngestEvent audit rows.",
+  "type": "object",
+  "required": ["ingest_phase"],
+  "properties": {
+    "ingest_phase": {
+      "type": "string",
+      "enum": [
+        "uploaded",
+        "hashed",
+        "extracting",
+        "extracted",
+        "normalized",
+        "indexed",
+        "actor_extraction_running",
+        "actors_extracted",
+        "ingest_complete",
+        "extract_skipped",
+        "ingest_failed"
+      ]
+    }
+  },
+  "x-ordering": [
+    "uploaded", "hashed", "extracting", "extracted", "normalized",
+    "indexed", "actor_extraction_running", "actors_extracted",
+    "ingest_complete"
+  ],
+  "x-terminal-success": ["ingest_complete"],
+  "x-terminal-neutral": ["extract_skipped"],
+  "x-terminal-failure": ["ingest_failed"]
+}

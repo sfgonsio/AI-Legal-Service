@@ -1,10 +1,20 @@
 version: v1
 jurisdiction: CA
 
+# NOTE: CACI entries in this catalog are DEMOTED to provisional.
+# They are NOT canonical certified authority.
+# Element data is the cached payload of the active provisional record.
+# Source-of-truth is the record file at `source_ref`.
+# Brain must not read this catalog directly for CACI — it must go through the
+# authority resolver (see contract/v1/brain/case_authority_resolution.md).
+
 authority_catalog:
 
   CACI_303:
     title: "Breach of Contract – Essential Elements"
+    status: PROVISIONAL
+    canonical: false
+    source_ref: authority_packs/ca_caci_provisional/records/CACI_303.yaml
     elements:
       - element_id: contract_existence
         proof_types: [written_contract, oral_agreement, conduct]
@@ -17,6 +27,9 @@ authority_catalog:
 
   CACI_2100:
     title: "Conversion"
+    status: PROVISIONAL
+    canonical: false
+    source_ref: authority_packs/ca_caci_provisional/records/CACI_2100.yaml
     elements:
       - element_id: ownership_or_right_to_possession
         proof_types: [ownership_docs, testimony]
@@ -27,6 +40,9 @@ authority_catalog:
 
   CACI_1900:
     title: "Intentional Misrepresentation"
+    status: PROVISIONAL
+    canonical: false
+    source_ref: authority_packs/ca_caci_provisional/records/CACI_1900.yaml
     elements:
       - element_id: misrepresentation
         proof_types: [communications, documents]
@@ -41,6 +57,9 @@ authority_catalog:
 
   CACI_4100:
     title: "Breach of Fiduciary Duty"
+    status: PROVISIONAL
+    canonical: false
+    source_ref: authority_packs/ca_caci_provisional/records/CACI_4100.yaml
     elements:
       - element_id: fiduciary_relationship
         proof_types: [partnership_agreement, conduct]

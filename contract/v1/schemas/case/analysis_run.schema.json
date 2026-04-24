@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "contract/v1/schemas/case/analysis_run.schema.json",
+  "title": "Analysis Run",
+  "description": "Audit trail for each Submit for Legal Analysis invocation. Append-only.",
+  "type": "object",
+  "required": ["run_id", "case_id", "state", "triggered_by_actor_id", "triggered_at"],
+  "properties": {
+    "run_id": {"type": "string"},
+    "case_id": {"type": ["integer", "string"]},
+    "state": {
+      "type": "string",
+      "enum": ["PENDING", "RUNNING", "COMPLETED", "FAILED"]
+    },
+    "triggered_by_actor_id": {"type": "string"},
+    "triggered_at": {"type": "string", "format": "date-time"},
+    "completed_at": {"type": ["string", "null"], "format": "date-time"},
+    "coa_count": {"type": "integer"},
+    "review_required_count": {"type": "integer"},
+    "recompute_event_ids": {
+      "type": "array",
+      "items": {"type": "integer"}
+    },
+    "error_detail": {"type": ["string", "null"]}
+  }
+}
