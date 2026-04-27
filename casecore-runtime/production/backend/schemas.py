@@ -829,6 +829,64 @@ class StateGatedErrorResponse(BaseModel):
     message: str
 
 
+# ============ Evidence Reference Schemas (Phase 1) ============
+
+class EvidenceReferenceCreate(BaseModel):
+    fact_type: str  # actor_mention | event | claim | finding
+    fact_id: Optional[str] = None
+    source_type: str  # document | interview_session | deposition | email
+    source_document_id: Optional[int] = None
+    source_interview_session_id: Optional[int] = None
+    page_number: Optional[int] = None
+    text_span: Optional[str] = None
+    offset_start: Optional[int] = None
+    offset_end: Optional[int] = None
+    extraction_confidence: float = 0.5
+    source_reliability: float = 0.5
+    binding_type: str  # direct_evidence | supporting | circumstantial | contradiction
+    supporting_actor_ids: Optional[str] = None  # JSON array as TEXT
+    notes: Optional[str] = None
+    created_by: Optional[str] = None
+
+
+class EvidenceReferenceResponse(BaseModel):
+    id: int
+    case_id: int
+    fact_type: str
+    fact_id: Optional[str]
+    source_type: str
+    source_document_id: Optional[int]
+    source_interview_session_id: Optional[int]
+    page_number: Optional[int]
+    text_span: Optional[str]
+    offset_start: Optional[int]
+    offset_end: Optional[int]
+    extraction_confidence: float
+    source_reliability: float
+    binding_type: str
+    supporting_actor_ids: Optional[str]
+    notes: Optional[str]
+    created_at: datetime
+    created_by: Optional[str]
+
+    class Config:
+        from_attributes = True
+
+
+class BackfillActorMentionsRequest(BaseModel):
+    dry_run: bool = False
+
+
+class BackfillActorMentionsResponse(BaseModel):
+    case_id: int
+    dry_run: bool
+    evidence_references_created: int
+    evidence_references_skipped: int
+    total_actor_mentions_processed: int
+    errors: List[Dict[str, Any]] = Field(default_factory=list)
+    message: str
+
+
 # Update forward references
 CaseDetailResponse.model_rebuild()
 StrategyDetailResponse.model_rebuild()

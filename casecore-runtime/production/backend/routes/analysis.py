@@ -8,16 +8,29 @@ GET /cases/{case_id}/analysis   — full analysis blob from the latest COMPLETED
 The analysis blob is produced by brain.analysis_runner._execute during
 Submit for Legal Analysis. It contains:
   stats, coas, burdens, remedies, complaint, evidence_map, provenance.
+
+Phase 1 Evidence Reference Endpoints:
+GET /cases/{case_id}/evidence-references — Retrieve evidence references (with filtering)
+POST /cases/{case_id}/evidence-references/backfill-actor-mentions — Backfill from ActorMention
 """
 from typing import Optional
 
-from fastapi import APIRouter, Depends, HTTPException
+from fastapi import APIRouter, Depends, HTTPException, Query
 from sqlalchemy import desc, select
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from database import get_db
-from models import AnalysisRun, Case
+from models import AnalysisRun, Case, EvidenceReference
+from schemas import (
+    EvidenceReferenceResponse,
+    BackfillActorMentionsRequest,
+    BackfillActorMentionsResponse,
+)
 from brain import state_machine as sm
+from brain.evidence_service import (
+    backfill_evidence_references_from_actor_mentions,
+    get_evidence_references as get_evidence_references_service,
+)
 
 
 router = APIRouter(prefix="/cases", tags=["analysis"])
@@ -79,3 +92,78 @@ async def get_analysis(case_id: int, db: AsyncSession = Depends(get_db)):
         },
         "result": run.result_json or {},
     }
+
+
+# ============ Phase 1 Evidence Reference Endpoints ============
+
+
+@router.get("/{case_id}/evidence-references", response_model=dict)
+async def get_evidence_references(
+    case_id: int,
+    fact_type: Optional[str] = Query(None),
+    source_type: Optional[str] = Query(None),
+    binding_type: Optional[str] = Query(None),
+    limit: int = Query(100, ge=1, le=1000),
+    offset: int = Query(0, ge=0),
+    db: AsyncSession = Depends(get_db),
+):
+    """
+    Retrieve EvidenceReference records for a case with optional filtering.
+
+    Query params:
+    - fact_type: actor_mention | event | claim | finding
+    - source_type: document | interview_session | deposition | email
+    - binding_type: direct_evidence | supporting | circumstantial | contradiction
+    - limit: default 100, max 1000
+    - offset: default 0
+
+    Returns: {case_id, total, limit, offset, evidence_references: [...]}
+    """
+    # Verify case exists
+    stmt = select(Case).where(Case.id == case_id)
+    res = await db.execute(stmt)
+    if res.scalar_one_or_none() is None:
+        raise HTTPException(404, "case not found")
+
+    result = await get_evidence_references_service(
+        db,
+        case_id=case_id,
+        fact_type=fact_type,
+        source_type=source_type,
+        binding_type=binding_type,
+        limit=limit,
+        offset=offset,
+    )
+    return result
+
+
+@router.post("/{case_id}/evidence-references/backfill-actor-mentions", response_model=BackfillActorMentionsResponse)
+async def backfill_actor_mentions(
+    case_id: int,
+    request: BackfillActorMentionsRequest,
+    db: AsyncSession = Depends(get_db),
+):
+    """
+    Backfill EvidenceReference table from existing ActorMention records.
+
+    Idempotent: For each actor_mention, checks if evidence_reference already exists
+    (same actor_mention + document + offset). If yes, skips. If no, creates.
+
+    Request body: {"dry_run": bool}
+    - dry_run=false: commits changes to database
+    - dry_run=true: returns counts without committing
+
+    Returns: BackfillActorMentionsResponse
+    """
+    # Verify case exists
+    stmt = select(Case).where(Case.id == case_id)
+    res = await db.execute(stmt)
+    if res.scalar_one_or_none() is None:
+        raise HTTPException(404, "case not found")
+
+    result = await backfill_evidence_references_from_actor_mentions(
+        db,
+        case_id=case_id,
+        dry_run=request.dry_run,
+    )
+    return result

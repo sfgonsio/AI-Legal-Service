@@ -40,6 +40,7 @@ class Case(Base):
     recompute_events = relationship("RecomputeEvent", back_populates="case", cascade="all, delete-orphan")
     analysis_runs = relationship("AnalysisRun", back_populates="case", cascade="all, delete-orphan")
     state_events = relationship("CaseStateEvent", back_populates="case", cascade="all, delete-orphan")
+    evidence_references = relationship("EvidenceReference", cascade="all, delete-orphan")
 
 
 class Document(Base):
@@ -537,3 +538,55 @@ class CaseStateEvent(Base):
     at = Column(DateTime, nullable=False, default=datetime.utcnow)
 
     case = relationship("Case", back_populates="state_events")
+
+
+class EvidenceReference(Base):
+    """
+    Phase 1: Evidence Reference Model
+
+    Links facts (actor mentions, events, claims) to their source evidence
+    with exact text span and offset recovery. Confidence stored as components
+    (extraction_confidence, source_reliability) not aggregates.
+
+    Non-destructive, additive-only table. Backfill is idempotent.
+    """
+    __tablename__ = "evidence_references"
+
+    id = Column(Integer, primary_key=True, index=True)
+    case_id = Column(Integer, ForeignKey("cases.id"), nullable=False, index=True)
+
+    # What is being evidenced
+    fact_type = Column(String(50), nullable=False, index=True)
+    # actor_mention | event | claim | finding
+    fact_id = Column(String(128), nullable=True, index=True)
+
+    # Where evidence comes from
+    source_type = Column(String(50), nullable=False, index=True)
+    # document | interview_session | deposition | email
+    source_document_id = Column(Integer, ForeignKey("documents.id"), nullable=True, index=True)
+    source_interview_session_id = Column(Integer, ForeignKey("interview_sessions.id"), nullable=True, index=True)
+
+    # Exact location in source
+    page_number = Column(Integer, nullable=True)
+    text_span = Column(Text, nullable=True)  # 500-1000 char excerpt
+    offset_start = Column(Integer, nullable=True)  # char position in source.text_content
+    offset_end = Column(Integer, nullable=True)
+
+    # Confidence components (Phase 1: no aggregation)
+    extraction_confidence = Column(Float, nullable=False, default=0.5)  # 0.0-1.0
+    source_reliability = Column(Float, nullable=False, default=0.5)  # 0.0-1.0
+
+    # Context & binding
+    binding_type = Column(String(50), nullable=False)
+    # direct_evidence | supporting | circumstantial | contradiction
+    supporting_actor_ids = Column(Text, nullable=True)  # JSON array TEXT for SQLite
+    notes = Column(Text, nullable=True)
+
+    # Audit
+    created_at = Column(DateTime, default=datetime.utcnow, index=True)
+    created_by = Column(String(128), nullable=True)  # "system" or attorney email
+
+    # Relationships
+    case = relationship("Case")
+    source_document = relationship("Document")
+    source_interview_session = relationship("InterviewSession")
