@@ -8,6 +8,7 @@ contract/v1/programs/program_INGEST_PIPELINE.md.
 from __future__ import annotations
 
 import hashlib
+import logging
 import os
 import uuid
 import zipfile
@@ -51,15 +52,35 @@ router = APIRouter(prefix="/documents", tags=["documents"])
 
 # ---------------- storage layout ----------------
 
+_LOCAL_STORAGE_DEFAULT = Path(__file__).resolve().parent.parent / "storage"
+
+
 def _storage_root() -> Path:
+    """Resolve the storage root, degrading gracefully if a configured path is
+    unavailable (e.g. an external drive that isn't mounted).
+
+    Previously a missing CASECORE_STORAGE_PATH drive (e.g. ``F:\\``) caused a
+    cryptic ``FileNotFoundError [WinError 3]`` *mid-upload*. We now validate the
+    configured root up front and fall back to the local default with a loud
+    warning, so the service never crashes a user upload over a config/mount
+    issue.
+    """
     override = os.getenv("CASECORE_STORAGE_PATH")
-    if override:
-        root = Path(override)
-    else:
-        # <backend>/storage by default
-        root = Path(__file__).resolve().parent.parent / "storage"
-    root.mkdir(parents=True, exist_ok=True)
-    return root
+    root = Path(override) if override else _LOCAL_STORAGE_DEFAULT
+    try:
+        root.mkdir(parents=True, exist_ok=True)
+        return root
+    except OSError as e:
+        if override:
+            logging.getLogger("casecore.storage").error(
+                "CASECORE_STORAGE_PATH=%r is not usable (%s); falling back to "
+                "local storage at %s. Uploaded evidence will NOT go to the "
+                "configured location until that path is available.",
+                override, e, _LOCAL_STORAGE_DEFAULT,
+            )
+            _LOCAL_STORAGE_DEFAULT.mkdir(parents=True, exist_ok=True)
+            return _LOCAL_STORAGE_DEFAULT
+        raise
 
 
 def _case_upload_dir(case_id: int) -> Path:
