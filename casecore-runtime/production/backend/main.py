@@ -3,6 +3,20 @@ FastAPI main application with CORS, routes, startup events
 Render.com + Vercel deployment ready
 """
 import os
+from pathlib import Path
+
+# Load backend/.env (LLM keys + config) BEFORE any module reads the environment.
+# Resilient: a missing python-dotenv or .env never blocks startup.
+try:
+    from dotenv import load_dotenv
+    # override=True so a real key in .env wins over an empty/stale shell env
+    # var of the same name (e.g. an empty ANTHROPIC_API_KEY exported by a
+    # profile would otherwise silently shadow the .env value). In production
+    # there is no .env file, so deployed env vars are used unchanged.
+    load_dotenv(Path(__file__).resolve().parent / ".env", override=True)
+except Exception:  # pragma: no cover - .env loading is best-effort
+    pass
+
 from contextlib import asynccontextmanager
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
