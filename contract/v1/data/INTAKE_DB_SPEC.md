@@ -59,11 +59,15 @@ Same shape as #11, separate table so client summary and attorney legal framing a
 ## Gate completion criteria (INTAKE)
 
 INTAKE is complete on the canonical line (`main`) when:
-- migration `0001_wave1_core_intake` applies cleanly (13 tables),
-- `tests/test_wave1_intake.py` passes (8 tests, one per W1 ticket),
-- `scripts/wave_proof.py` reports SUCCESS,
-- golden-path (X-T4) and messy-path (X-T5) seed cases exist.
+- ✅ migration `0001_wave1_core_intake` applies cleanly (13 tables),
+- ✅ `tests/test_wave1_intake.py` passes (8 tests, one per W1 ticket),
+- ✅ `scripts/wave_proof.py` reports SUCCESS (real-data proof; runs from the local, gitignored `test_data/` asset — not CI-reproducible),
+- ✅ golden-path (X-T4) and messy-path (X-T5) seed cases exist as **self-contained, no-PII, CI-reproducible tests**:
+  - `tests/test_intake_seed_golden.py` — one coherent matter across all 13 tables, end-to-end read/write asserts (X-T4).
+  - `tests/test_intake_seed_messy.py` — one ambiguous/conflicting matter; asserts the layer preserves ambiguity (no auto-dedup, no forced resolution, conflicts + uncertainty retained) and fails safely (X-T5).
+
+**INTAKE gate status: COMPLETE** on `main`. Full intake suite = 13 tests (8 Wave 1 + 2 golden + 3 messy), all green.
 
 ## Status
 
-**Version:** 1.0 — generated from `0001_wave1_core_intake`. Implementation landed via PR (Wave 1 + Wave 2 consolidation).
+**Version:** 1.1 — generated from `0001_wave1_core_intake`; gate completed with X-T4/X-T5 seed cases. Implementation landed via PRs #2 (Wave 1+2), #3 (doctrine), and the seed-case PR.
