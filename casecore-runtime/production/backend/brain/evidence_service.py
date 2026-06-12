@@ -199,10 +199,32 @@ async def get_evidence_references(
     res = await db.execute(stmt)
     references = res.scalars().all()
 
+    def _serialize(r: EvidenceReference) -> Dict[str, Any]:
+        return {
+            "id": r.id,
+            "case_id": r.case_id,
+            "fact_type": r.fact_type,
+            "fact_id": r.fact_id,
+            "source_type": r.source_type,
+            "source_document_id": r.source_document_id,
+            "source_interview_session_id": r.source_interview_session_id,
+            "page_number": r.page_number,
+            "text_span": r.text_span,
+            "offset_start": r.offset_start,
+            "offset_end": r.offset_end,
+            "extraction_confidence": r.extraction_confidence,
+            "source_reliability": r.source_reliability,
+            "binding_type": r.binding_type,
+            "supporting_actor_ids": r.supporting_actor_ids,
+            "notes": r.notes,
+            "created_at": r.created_at.isoformat() if r.created_at else None,
+            "created_by": r.created_by,
+        }
+
     return {
         "case_id": case_id,
         "total": total,
         "limit": limit,
         "offset": offset,
-        "evidence_references": references,
+        "evidence_references": [_serialize(r) for r in references],
     }

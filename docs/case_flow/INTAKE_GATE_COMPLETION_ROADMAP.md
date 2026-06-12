@@ -92,3 +92,9 @@ Legend — **DoD** = definition of done (operational + UI + traceability) · sta
 
 ## Progress log
 - 2026-06-12: roadmap created from 3-agent codebase assessment. Nothing built against this definition yet; Wave-1 data layer + seed tests done but unwired to app.
+- 2026-06-12 (Phase 0 + X1 start): stood the backend up against REAL T1100 data and fixed 3 blocking bugs the code-read missed:
+  1. App wouldn't boot — legacy EvidenceReference FK→core_models interview_sessions never registered + wrong key type. Fixed (PR #6); converges on core_models.
+  2. PDF/docx extraction silently skipped — `pypdf`/`python-docx` not installed (and not in requirements). Installed + pinned.
+  3. `GET /evidence-references` 500'd once rows existed — service returned raw ORM objects into a `dict` response. Fixed with explicit serialization.
+  - **Proven end-to-end on real T1100 PDFs:** upload (O1) → pypdf extraction → actor extraction (O2: real actors — Yolo Farms, Lauren Leiva, James Bobak, Helios Distribution…) → traceability backfill (X1: 9 fact→source-doc links with offsets).
+  - **Observed gaps:** (a) actor extraction is noisy (rule-based — Claude is the upgrade); (b) images need OCR (Claude vision), video/audio need Whisper — most of T1100 is image/video; (c) `text_span` empty in evidence refs; (d) storage path `F:\` not mounted → uploads fail w/ cryptic mid-stream error (needs startup validation = resilience); (e) frontend not yet run.
