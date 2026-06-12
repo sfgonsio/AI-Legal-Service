@@ -75,6 +75,47 @@ def text_complete(
     return "".join(block.text for block in msg.content if getattr(block, "type", None) == "text")
 
 
+_OCR_PROMPT = (
+    "You are an OCR engine. Transcribe ALL text visible in this image exactly, "
+    "preserving structure (emails, receipts, documents: keep senders, dates, "
+    "amounts, line items). Output only the transcribed text. If the image "
+    "contains no legible text, output nothing."
+)
+
+
+def vision_extract(
+    image_bytes: bytes,
+    media_type: str,
+    *,
+    prompt: Optional[str] = None,
+    cfg: Optional[LLMConfig] = None,
+    max_tokens: int = 4096,
+) -> str:
+    """OCR an image (or rendered document page) with Claude vision.
+
+    media_type e.g. 'image/png', 'image/jpeg'. Returns extracted text.
+    """
+    import base64
+
+    cfg = cfg or load_llm_config()
+    client = _require_anthropic(cfg)
+    b64 = base64.standard_b64encode(image_bytes).decode("ascii")
+    msg = client.messages.create(
+        model=cfg.vision_model,
+        max_tokens=max_tokens,
+        messages=[{
+            "role": "user",
+            "content": [
+                {"type": "image", "source": {
+                    "type": "base64", "media_type": media_type, "data": b64,
+                }},
+                {"type": "text", "text": prompt or _OCR_PROMPT},
+            ],
+        }],
+    )
+    return "".join(b.text for b in msg.content if getattr(b, "type", None) == "text")
+
+
 def transcribe(audio_path: str, *, cfg: Optional[LLMConfig] = None) -> str:
     """Audio/video -> text via OpenAI Whisper."""
     cfg = cfg or load_llm_config()
