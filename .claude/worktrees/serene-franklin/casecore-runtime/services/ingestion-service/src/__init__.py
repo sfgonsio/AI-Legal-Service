@@ -1,1 +1,0 @@
-﻿"""CASECORE ingestion service."""
