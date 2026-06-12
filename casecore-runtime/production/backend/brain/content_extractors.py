@@ -47,6 +47,8 @@ _EXT_MAP = {
     ".pdf": "pdf",
     ".docx": "docx",
     ".png": "image", ".jpg": "image", ".jpeg": "image", ".gif": "image", ".tif": "image", ".tiff": "image",
+    ".mp4": "av", ".mov": "av", ".m4v": "av", ".avi": "av", ".mkv": "av", ".webm": "av",
+    ".mp3": "av", ".wav": "av", ".m4a": "av", ".aac": "av", ".ogg": "av", ".oga": "av",
     ".zip": "archive",
 }
 
@@ -86,7 +88,45 @@ def extract_text(storage_path: str, file_type: str) -> ExtractionResult:
         return _extract_docx(storage_path)
     if file_type == "image":
         return _extract_image(storage_path)
+    if file_type == "av":
+        return _extract_av(storage_path)
     raise ExtractorUnsupported(f"no extractor for file_type={file_type}")
+
+
+def _extract_av(path: str) -> ExtractionResult:
+    """Transcribe audio/video via Whisper. Degrades to OCR_REQUIRED (treated as
+    'transcription pending') when no OpenAI key/ffmpeg is available, rather than
+    failing the document."""
+    try:
+        from llm.providers import transcribe, LLMNotConfigured
+    except Exception as e:
+        return ExtractionResult(
+            text="", char_count=0, engine=None, status="OCR_REQUIRED",
+            confidence=0.0, notes=f"transcription unavailable: {e}",
+        )
+    try:
+        text = transcribe(path)
+    except LLMNotConfigured as e:
+        return ExtractionResult(
+            text="", char_count=0, engine=None, status="OCR_REQUIRED",
+            confidence=0.0, notes=str(e),
+        )
+    except Exception as e:
+        return ExtractionResult(
+            text="", char_count=0, engine="whisper",
+            status="EXTRACTION_FAILED", confidence=0.0, notes=str(e)[:200],
+        )
+    text = (text or "").strip()
+    if not text:
+        return ExtractionResult(
+            text="", char_count=0, engine="whisper",
+            status="EXTRACTION_FAILED", confidence=0.0,
+            notes="no speech detected in media",
+        )
+    return ExtractionResult(
+        text=text, char_count=len(text), engine="whisper",
+        status="TEXT_EXTRACTION_COMPLETE", confidence=0.8,
+    )
 
 
 def _extract_image(path: str) -> ExtractionResult:
