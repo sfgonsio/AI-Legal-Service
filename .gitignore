@@ -28,3 +28,13 @@ docs/figma/
 contract/v1/acceptance/hash_file.ps1
 contract/v1/schemas/commit command.txt
 contract/v1/tools/commit command.txt
+
+# Worktrees are never committed as tracked content (NO_DRIFT_WORKING_AGREEMENT R3).
+.claude/worktrees/
+
+# Local runtime junk / scratch data — not source of truth.
+casecore.db
+*.db
+tmp_extraction/
+casecore-runtime/test_data/
+_CACI_CAJI_EVID_FileIndex.csv
