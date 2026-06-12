@@ -89,6 +89,17 @@ async def health_check():
     }
 
 
+@app.get("/llm/status")
+async def llm_status():
+    """Which LLM providers are configured (key-free; safe to expose).
+
+    Used to confirm ANTHROPIC_API_KEY / OPENAI_API_KEY are picked up from
+    backend/.env without revealing the keys themselves.
+    """
+    import llm
+    return llm.status()
+
+
 @app.get("/")
 async def root():
     """Root endpoint"""
