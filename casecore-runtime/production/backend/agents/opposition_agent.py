@@ -317,4 +317,26 @@ class OppositionAgent(BaseAgent):
         return warnings
 
 
-__all__ = ["OppositionAgent", "DefenseTactic", "WeaponCategory"]
+async def predict_defense_response(weapon: Dict[str, Any]) -> Dict[str, Any]:
+    """
+    Thin module-level wrapper so routes can call this without instantiating
+    OppositionAgent. Returns a SimulateResponse-shaped dict.
+    """
+    weapon_id = weapon.get("id") or 0
+    case_id = str(weapon.get("case_id") or "unknown")
+    agent = OppositionAgent(case_id=case_id)
+    result = await agent.analyze({
+        "weapon_id": weapon_id,
+        "weapon_category": (weapon.get("category") or "establish").lower(),
+    })
+    predicted = (result.get("data") or {}).get("predicted_responses") or []
+    first = predicted[0] if predicted else {}
+    return {
+        "david_says": first.get("response", ""),
+        "counter": first.get("our_counter", ""),
+        "delta": str(first.get("case_strength_delta", "")),
+        "perjury_evidence": None,
+    }
+
+
+__all__ = ["OppositionAgent", "DefenseTactic", "WeaponCategory", "predict_defense_response"]

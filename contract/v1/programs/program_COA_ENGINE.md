@@ -69,6 +69,7 @@ The program SHALL NOT invent evidence or fabricate support.
 - COA_RULESET_UPDATED
 - NEW_EVIDENCE_ADDED
 - MAPPING_UPDATED (optional)
+- CASE_AUTHORITY_DECISION_UPDATED (attorney accepted/rejected/replaced a CACI)
 
 ### Entry Conditions
 Required:
@@ -113,7 +114,14 @@ The program SHALL:
    - supporting_event_candidate_ids (optional)
    - confidence score
    - conflict flags + reason codes
+   - **authority block** (certified / provisional_candidate / case_decision / effective_grounding / display_badge / decision_id / pinned_record_id)
 5. Produce gap reports and coverage summaries at COA and case level
+
+**Authority source-of-truth:** COA_ENGINE MUST obtain the authority block via
+the Brain authority resolver. It MUST NOT read provisional CACI records or
+case decision tables directly. A COA element is considered "supported" for
+coverage purposes only when `effective_grounding ∈ {GROUNDED, GROUNDED_VIA_REPLACEMENT}`;
+PROPOSED rows are surfaced as `partial` pending attorney review.
 
 ---
 

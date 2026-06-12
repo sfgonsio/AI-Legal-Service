@@ -158,10 +158,22 @@ Each matter must declare, directly or indirectly:
 Example:
 - CA_BPC_DIV10_CANNABIS → active, substantive
 - CA_EVIDENCE_CODE → active, evidentiary only
-- CA_CACI → inactive until admitted
+- CA_CACI_PROVISIONAL → available as candidate authority only; each CACI is
+  per-case-gated via the case authority decision model
 - unrelated corporate or criminal packs → inactive
 
 If a pack is not bound to the matter, it may not drive downstream outputs.
+
+### CACI provisional binding
+
+The CACI provisional pack is a special case: it is "available" to Brain as
+candidate authority, but no CACI instruction binds to a matter as GROUNDED
+authority without a case-scoped ACCEPTED or REPLACED decision. See
+`program_CASE_AUTHORITY_DECISION` and the Brain resolver contract.
+
+AUTHORITY_BINDING MUST refuse to emit ALLOWED for any CACI whose resolved
+authority has `effective_grounding ∈ {PROPOSED, NONE}`. It MUST honor REPLACED
+by routing to the replacement authority's binding decision.
 
 ---
 

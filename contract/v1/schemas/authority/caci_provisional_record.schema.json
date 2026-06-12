@@ -1,0 +1,111 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "contract/v1/schemas/authority/caci_provisional_record.schema.json",
+  "title": "CACI Provisional Record",
+  "description": "Provisional, replaceable CACI authority record. NOT canonical certified authority. Backed by an immutable raw PDF and derivative OCR. Supersession, not overwrite.",
+  "type": "object",
+  "required": [
+    "caci_id",
+    "status",
+    "record_id",
+    "source",
+    "confidence",
+    "provenance",
+    "trust",
+    "payload",
+    "audit"
+  ],
+  "properties": {
+    "caci_id": {
+      "type": "string",
+      "pattern": "^CACI_[0-9A-Z_]+$"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["PROVISIONAL", "BLOCKED_UNTRUSTED", "SUPERSEDED"]
+    },
+    "record_id": {
+      "type": "string",
+      "description": "UUID v4; immutable per version of this record."
+    },
+    "supersedes": {
+      "type": ["string", "null"]
+    },
+    "superseded_by": {
+      "type": ["string", "null"]
+    },
+    "source": {
+      "type": "object",
+      "required": ["type", "pdf_sha256", "pdf_path"],
+      "properties": {
+        "type": {"type": "string", "enum": ["pdf_ocr", "structured_import", "manual_entry"]},
+        "pdf_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$|^UNKNOWN$"},
+        "pdf_path": {"type": "string"},
+        "ocr_path": {"type": ["string", "null"]},
+        "ocr_engine": {"type": ["string", "null"]},
+        "extracted_at": {"type": ["string", "null"], "format": "date-time"}
+      }
+    },
+    "confidence": {
+      "type": "object",
+      "required": ["overall", "threshold", "decision"],
+      "properties": {
+        "overall": {"type": "number", "minimum": 0, "maximum": 1},
+        "ocr_char_conf": {"type": ["number", "null"], "minimum": 0, "maximum": 1},
+        "structure_parse_conf": {"type": ["number", "null"], "minimum": 0, "maximum": 1},
+        "element_field_conf": {
+          "type": "object",
+          "additionalProperties": {"type": "number", "minimum": 0, "maximum": 1}
+        },
+        "threshold": {"type": "number", "minimum": 0, "maximum": 1},
+        "decision": {"type": "string", "enum": ["ACCEPT", "BLOCK"]}
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "required": ["publisher", "certified"],
+      "properties": {
+        "publisher": {"type": "string"},
+        "edition": {"type": ["string", "null"]},
+        "retrieved_from": {"type": ["string", "null"]},
+        "certified": {"type": "boolean", "const": false}
+      }
+    },
+    "trust": {
+      "type": "object",
+      "required": ["canonical", "replaceable"],
+      "properties": {
+        "canonical": {"type": "boolean", "const": false},
+        "replaceable": {"type": "boolean", "const": true}
+      }
+    },
+    "payload": {
+      "type": "object",
+      "required": ["title", "elements"],
+      "properties": {
+        "title": {"type": "string"},
+        "elements": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["element_id", "proof_types"],
+            "properties": {
+              "element_id": {"type": "string"},
+              "proof_types": {"type": "array", "items": {"type": "string"}},
+              "text": {"type": ["string", "null"]}
+            }
+          }
+        }
+      }
+    },
+    "audit": {
+      "type": "object",
+      "required": ["created_at", "created_by", "hash"],
+      "properties": {
+        "created_at": {"type": "string", "format": "date-time"},
+        "created_by": {"type": "string"},
+        "hash": {"type": "string"}
+      }
+    }
+  }
+}

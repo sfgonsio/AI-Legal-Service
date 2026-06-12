@@ -1,0 +1,32 @@
+version: v1
+pack_id: ca_caci_provisional
+publisher: "Judicial Council of California"
+canonical: false
+replaceable: true
+schema: contract/v1/schemas/authority/caci_provisional_record.schema.json
+
+# Active records: exactly one entry per caci_id.
+# record_ref is relative to the pack root.
+records:
+  CACI_303:
+    record_id: "00000000-0000-4000-8000-000000000303"
+    record_ref: records/CACI_303.yaml
+    status: PROVISIONAL
+    confidence_overall: 0.94
+  CACI_2100:
+    record_id: "00000000-0000-4000-8000-000000002100"
+    record_ref: records/CACI_2100.yaml
+    status: PROVISIONAL
+    confidence_overall: 0.93
+  CACI_1900:
+    record_id: "00000000-0000-4000-8000-000000001900"
+    record_ref: records/CACI_1900.yaml
+    status: PROVISIONAL
+    confidence_overall: 0.92
+  CACI_4100:
+    record_id: "00000000-0000-4000-8000-000000004100"
+    record_ref: records/CACI_4100.yaml
+    status: PROVISIONAL
+    confidence_overall: 0.91
+
+superseded: []

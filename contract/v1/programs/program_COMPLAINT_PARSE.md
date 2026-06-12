@@ -6,6 +6,23 @@
 
 ---
 
+## Authority Citation Gate (v1 amendment)
+
+Complaint parse and downstream complaint mapping MUST NOT cite a CACI
+unless its resolved authority meets one of:
+
+- `certified.present == true` (a certified authority is available, e.g. statute or case law), OR
+- `case_decision.state == ACCEPTED` with a non-null `pinned_record_id` (cited with a "based on provisional authority, attorney-accepted" footnote), OR
+- `case_decision.state == REPLACED` (cite the replacement authority, not the original CACI)
+
+CACIs with `effective_grounding ∈ {PROPOSED, NONE}` may be surfaced in the
+attorney review queue but are blocked from pleading citation. Complaint
+finalization is gated on all COA elements satisfying this rule.
+
+All complaint citations MUST record `(decision_id, pinned_record_id)` for audit.
+
+---
+
 # 1. Objective
 
 Given:

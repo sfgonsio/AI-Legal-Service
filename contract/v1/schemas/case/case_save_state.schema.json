@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "contract/v1/schemas/case/case_save_state.schema.json",
+  "title": "Case Save State",
+  "description": "Enumerates the seven explicit case save states plus the allowed transition matrix.",
+  "type": "object",
+  "required": ["save_state"],
+  "properties": {
+    "save_state": {
+      "type": "string",
+      "enum": [
+        "DRAFT",
+        "SAVED",
+        "READY_FOR_ANALYSIS",
+        "PROCESSING",
+        "REVIEW_REQUIRED",
+        "APPROVED",
+        "RETURNED_TO_INTAKE"
+      ]
+    }
+  },
+  "x-allowed-transitions": {
+    "DRAFT":              ["DRAFT", "SAVED", "RETURNED_TO_INTAKE"],
+    "SAVED":              ["DRAFT", "SAVED", "READY_FOR_ANALYSIS", "PROCESSING", "RETURNED_TO_INTAKE"],
+    "READY_FOR_ANALYSIS": ["DRAFT", "SAVED", "READY_FOR_ANALYSIS", "PROCESSING", "RETURNED_TO_INTAKE"],
+    "PROCESSING":         ["REVIEW_REQUIRED", "RETURNED_TO_INTAKE"],
+    "REVIEW_REQUIRED":    ["REVIEW_REQUIRED", "APPROVED", "RETURNED_TO_INTAKE"],
+    "APPROVED":           ["APPROVED", "RETURNED_TO_INTAKE"],
+    "RETURNED_TO_INTAKE": ["DRAFT"]
+  }
+}

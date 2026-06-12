@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "contract/v1/schemas/case/case_authority_decision.schema.json",
+  "title": "Case Authority Decision",
+  "description": "Per-case, per-CACI attorney decision. Append-only; reversals are superseding decisions. Case decision governs Brain resolver ahead of record status.",
+  "type": "object",
+  "required": [
+    "case_id",
+    "caci_id",
+    "decision_id",
+    "state",
+    "pinned_record_id",
+    "decided_by",
+    "decided_at",
+    "audit"
+  ],
+  "properties": {
+    "case_id": {"type": ["integer", "string"]},
+    "caci_id": {"type": "string", "pattern": "^CACI_[0-9A-Z_]+$"},
+    "decision_id": {"type": "string"},
+    "state": {
+      "type": "string",
+      "enum": ["PENDING_REVIEW", "ACCEPTED", "REJECTED", "REPLACED"]
+    },
+    "pinned_record_id": {
+      "type": ["string", "null"],
+      "description": "record_id of the provisional CACI record this decision is made against."
+    },
+    "replacement": {
+      "type": ["object", "null"],
+      "required": ["authority_type", "authority_id", "reason"],
+      "properties": {
+        "authority_type": {
+          "type": "string",
+          "enum": ["CACI", "STATUTE", "CASE_LAW", "CERTIFIED_CACI", "REGULATION", "OTHER"]
+        },
+        "authority_id": {"type": "string"},
+        "record_ref": {"type": ["string", "null"]},
+        "reason": {"type": "string"}
+      }
+    },
+    "decided_by": {
+      "type": "object",
+      "required": ["actor_type", "actor_id"],
+      "properties": {
+        "actor_type": {"type": "string", "enum": ["ATTORNEY", "PARALEGAL", "SYSTEM"]},
+        "actor_id": {"type": "string"},
+        "role": {"type": ["string", "null"]}
+      }
+    },
+    "decided_at": {"type": "string", "format": "date-time"},
+    "rationale": {"type": ["string", "null"]},
+    "supersedes_decision_id": {"type": ["string", "null"]},
+    "audit": {
+      "type": "object",
+      "required": ["hash"],
+      "properties": {
+        "hash": {"type": "string"},
+        "source_event": {"type": ["string", "null"]}
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"state": {"const": "REPLACED"}}},
+      "then": {"required": ["replacement"], "properties": {"replacement": {"type": "object"}}}
+    },
+    {
+      "if": {"properties": {"state": {"const": "REJECTED"}}},
+      "then": {"required": ["rationale"]}
+    }
+  ]
+}
