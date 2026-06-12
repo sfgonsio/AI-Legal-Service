@@ -90,7 +90,17 @@ Legend — **DoD** = definition of done (operational + UI + traceability) · sta
 4. Availability of real canonical authority data (affects O3 provenance).
 5. The **T1100** file (needed for the proof).
 
-## Progress log
+## Progress log (newest first)
+- 2026-06-12 (AI pipeline live): keys validated end-to-end (Claude + OpenAI real calls). Then shipped, each proven on REAL T1100 media:
+  - PR #14 Claude-vision OCR for images (573 chars from a T1100 photo).
+  - PR #15 Whisper transcription for audio/video w/ ffmpeg extraction + <25MB chunking (transcribed a real T1100 .MOV).
+  - PR #16 traceability text_span fix (backfill read non-existent fields; now uses ActorMention.snippet).
+  - Earlier same day: PR #6 boot fix, #7 extraction+traceability reads, #8 storage resilience, #9 LLM provider abstraction, #11 dedup-no-reprocess, #12 .env loading, #13 security (removed committed keys + Stage 16 secret guard).
+  - **Extraction now covers all T1100 types** (text/pdf/docx/image/av), all deduped + source-traceable, all resilient (degrade without keys/ffmpeg).
+  - **Cost note:** platform API calls bill to the Anthropic *API/Console* account (separate from the Claude.ai $250 subscription that funds dev sessions). OCR≈cents/image, Whisper≈$0.006/min, both deduped. Default tiers: Haiku/Sonnet (not Opus).
+  - **NEXT:** (a) full T1100 ingest run + dedup validation (load T1100 then T3800, report unique-vs-skipped) — bulk, costs API $; (b) Claude-quality actor extraction (replace noisy rule-based); (c) RAG/authoritative research (O6); (d) triangulation logic+UI; (e) interview recorded-session wiring; (f) frontend UI verification.
+
+
 - 2026-06-12: roadmap created from 3-agent codebase assessment. Nothing built against this definition yet; Wave-1 data layer + seed tests done but unwired to app.
 - 2026-06-12 (Phase 0 + X1 start): stood the backend up against REAL T1100 data and fixed 3 blocking bugs the code-read missed:
   1. App wouldn't boot — legacy EvidenceReference FK→core_models interview_sessions never registered + wrong key type. Fixed (PR #6); converges on core_models.
