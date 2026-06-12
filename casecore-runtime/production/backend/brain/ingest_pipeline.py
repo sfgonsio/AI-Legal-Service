@@ -142,6 +142,68 @@ def hash_file(storage_path: str) -> str:
     return h.hexdigest()
 
 
+async def _find_processed_twin(db: AsyncSession, doc: Document) -> Optional[Document]:
+    """Find an already-processed Document with identical content (same sha256).
+
+    Prefers a twin in the SAME case (so its case-scoped actor work can be reused
+    too); otherwise any prior processed copy (to reuse the expensive text
+    extraction). Returns None if this is the first time we've seen this content.
+    """
+    if not doc.sha256_hash:
+        return None
+    res = await db.execute(
+        select(Document).where(
+            Document.sha256_hash == doc.sha256_hash,
+            Document.id != doc.id,
+            Document.text_content.isnot(None),
+        )
+    )
+    twins = list(res.scalars().all())
+    if not twins:
+        return None
+    same_case = [t for t in twins if t.case_id == doc.case_id]
+    return (same_case or twins)[0]
+
+
+async def _reuse_twin_result(db: AsyncSession, doc: Document, twin: Document) -> None:
+    """Reuse a processed twin's extraction instead of reprocessing the duplicate.
+
+    Skips the expensive extraction/OCR/transcription entirely. For a same-case
+    twin we also skip actor extraction (the case already has this content's
+    actors via the twin — reprocessing would double-count). For a cross-case
+    twin we reuse the text but still extract actors for THIS matter.
+    """
+    doc.text_content = twin.text_content
+    doc.char_count = twin.char_count
+    doc.extraction_method = twin.extraction_method
+    doc.extraction_confidence = twin.extraction_confidence
+    doc.extraction_status = twin.extraction_status
+    doc.is_scanned_pdf = twin.is_scanned_pdf
+    db.add(IngestEvent(
+        document_id=doc.id,
+        case_id=doc.case_id,
+        from_phase=PH_HASHED,
+        to_phase="deduplicated_reuse",
+        error_detail=(
+            f"identical sha256 already processed as doc#{twin.id} "
+            f"(case {twin.case_id}); skipped reprocessing"
+        ),
+        at=datetime.utcnow(),
+    ))
+
+    # Cross-case twin: text is content-identical but actors are case-specific.
+    if twin.case_id != doc.case_id and doc.text_content:
+        extracted = extract_actors(doc.text_content)
+        if extracted:
+            existing = await _load_existing_actor_map(db, doc.case_id)
+            resolved = resolve_against_existing(extracted, existing)
+            for ex, existing_id, state in resolved:
+                await _persist_extracted_actor(db, doc, ex, existing_id, state)
+
+    await _set_phase(db, doc, PH_COMPLETE)
+    doc.ingest_finished_at = datetime.utcnow()
+
+
 async def _process_one(db: AsyncSession, doc: Document) -> None:
     """Run all ingest stages for a single Document."""
     doc.ingest_started_at = datetime.utcnow()
@@ -150,6 +212,16 @@ async def _process_one(db: AsyncSession, doc: Document) -> None:
     if not doc.sha256_hash and doc.storage_path and Path(doc.storage_path).is_file():
         doc.sha256_hash = hash_file(doc.storage_path)
     await _set_phase(db, doc, PH_HASHED)
+
+    # Stage 1b: content-addressed dedup. If an identical file (same sha256) has
+    # already been processed, reuse its result instead of re-running the
+    # expensive extraction/OCR/transcription. Guarantees a duplicate file that
+    # recurs across evidence bundles (e.g. a file present in both T1100 and
+    # T3800) is NEVER reprocessed, regardless of upload path (UI, API, zip, bulk).
+    twin = await _find_processed_twin(db, doc)
+    if twin is not None:
+        await _reuse_twin_result(db, doc, twin)
+        return
 
     # Stage 2: file_type detection (if missing) + extracting
     if not doc.file_type:
