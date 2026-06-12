@@ -430,5 +430,34 @@ if ($stagedWorktree) {
 
 Ok "Stage 15 no worktree pollution staged"
 
+# -------------------------
+# Stage 16 Secret guard — block committing real API keys / secrets
+# -------------------------
+Write-Host "Stage 16 secret guard..." -ForegroundColor Cyan
+
+# Real-key signatures (long bodies — placeholders like sk-ant-xxx do NOT match).
+$secretPatterns = @(
+    'sk-ant-api[0-9]{2}-[A-Za-z0-9_\-]{24,}',   # Anthropic
+    'sk-proj-[A-Za-z0-9_\-]{24,}',              # OpenAI project
+    'sk-[A-Za-z0-9]{40,}',                       # OpenAI classic
+    'AKIA[0-9A-Z]{16}',                          # AWS access key
+    'ghp_[A-Za-z0-9]{36}'                        # GitHub PAT
+)
+$stagedForSecrets = & git diff --cached --name-only --diff-filter=ACMRT 2>$null
+$secretHits = @()
+foreach ($sf in $stagedForSecrets) {
+    if (-not $sf) { continue }
+    $blob = & git show ":$sf" 2>$null
+    if (-not $blob) { continue }
+    $text = ($blob -join "`n")
+    foreach ($pat in $secretPatterns) {
+        if ($text -match $pat) { $secretHits += $sf; break }
+    }
+}
+if ($secretHits.Count -gt 0) {
+    Fail "Refusing commit: API key / secret detected in staged file(s):`n  $($secretHits -join "`n  ")`nSecrets belong only in gitignored .env files. Remove the secret and rotate it."
+}
+Ok "Stage 16 no secrets staged"
+
 Write-Host "`nALL CHECKS PASSED ✅" -ForegroundColor Cyan
 exit 0
