@@ -84,7 +84,49 @@ def extract_text(storage_path: str, file_type: str) -> ExtractionResult:
         return _extract_pdf(storage_path)
     if file_type == "docx":
         return _extract_docx(storage_path)
+    if file_type == "image":
+        return _extract_image(storage_path)
     raise ExtractorUnsupported(f"no extractor for file_type={file_type}")
+
+
+def _extract_image(path: str) -> ExtractionResult:
+    """OCR an image via Claude vision. Degrades to OCR_REQUIRED (not failure)
+    when no Anthropic key is configured, so the pipeline stays resilient."""
+    import mimetypes
+
+    try:
+        from llm.providers import vision_extract, LLMNotConfigured
+    except Exception as e:  # llm layer somehow unavailable
+        return ExtractionResult(
+            text="", char_count=0, engine=None, status="OCR_REQUIRED",
+            confidence=0.0, notes=f"vision OCR unavailable: {e}",
+        )
+
+    media_type = mimetypes.guess_type(path)[0] or "image/png"
+    try:
+        text = vision_extract(_read_bytes(path), media_type)
+    except LLMNotConfigured as e:
+        return ExtractionResult(
+            text="", char_count=0, engine=None, status="OCR_REQUIRED",
+            confidence=0.0, notes=str(e),
+        )
+    except Exception as e:
+        return ExtractionResult(
+            text="", char_count=0, engine="claude-vision",
+            status="EXTRACTION_FAILED", confidence=0.0, notes=str(e)[:200],
+        )
+
+    text = (text or "").strip()
+    if not text:
+        return ExtractionResult(
+            text="", char_count=0, engine="claude-vision",
+            status="EXTRACTION_FAILED", confidence=0.0,
+            notes="no legible text found in image",
+        )
+    return ExtractionResult(
+        text=text, char_count=len(text), engine="claude-vision",
+        status="TEXT_EXTRACTION_COMPLETE", confidence=0.8,
+    )
 
 
 def _extract_plain(path: str) -> ExtractionResult:
