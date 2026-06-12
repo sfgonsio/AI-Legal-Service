@@ -84,11 +84,11 @@ async def backfill_evidence_references_from_actor_mentions(
                     source_type="document",
                     source_document_id=mention.document_id,
                     source_interview_session_id=None,
-                    page_number=mention.page_number if hasattr(mention, "page_number") else None,
-                    text_span=mention.extracted_text if hasattr(mention, "extracted_text") else None,
-                    offset_start=mention.offset_start if hasattr(mention, "offset_start") else None,
-                    offset_end=mention.offset_end if hasattr(mention, "offset_end") else None,
-                    extraction_confidence=mention.confidence if hasattr(mention, "confidence") else 0.5,
+                    page_number=None,  # ActorMention has no page granularity
+                    text_span=mention.snippet,  # the exact source excerpt
+                    offset_start=mention.offset_start,
+                    offset_end=mention.offset_end,
+                    extraction_confidence=mention.confidence if mention.confidence is not None else 0.5,
                     source_reliability=0.5,  # Phase 1: simple default
                     binding_type="direct_evidence",
                     supporting_actor_ids=None,
