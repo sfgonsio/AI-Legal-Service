@@ -414,5 +414,21 @@ else {
   Warn "Stage 14 SKIPPED. Set RUN_STAGE14_REPLAY=1 to enforce."
 }
 
+# -------------------------
+# Stage 15 Worktree pollution guard (NO_DRIFT_WORKING_AGREEMENT R3)
+# -------------------------
+Write-Host "Stage 15 worktree pollution guard..." -ForegroundColor Cyan
+
+# Block any commit that ADDS/MODIFIES tracked files under .claude/worktrees/.
+# Deletions are allowed so the existing pollution can be cleaned up.
+$stagedWorktree = & git diff --cached --name-only --diff-filter=ACMRT 2>$null |
+  Where-Object { $_ -match '(^|/)\.claude/worktrees/' }
+
+if ($stagedWorktree) {
+  Fail "Refusing commit: worktree files staged (pollution forbidden by NO_DRIFT_WORKING_AGREEMENT R3):`n  $($stagedWorktree -join "`n  ")"
+}
+
+Ok "Stage 15 no worktree pollution staged"
+
 Write-Host "`nALL CHECKS PASSED ✅" -ForegroundColor Cyan
 exit 0
