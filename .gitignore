@@ -85,6 +85,16 @@ docs/case/Mills_v_Polley/
 CASECORE_API_KEY.txt
 docs/design/casecore/CASECORE_API_KEY.txt
 
+# Secrets — never tracked. API keys belong only in gitignored .env files.
+**/*API_KEY*
+**/*api_key*
+**/*_secret*
+**/*SECRET*
+**/.env
+**/.env.*
+!**/.env.template
+!**/.env.example
+
 # =========================
 # Worktrees — never tracked (NO_DRIFT_WORKING_AGREEMENT R3)
 # =========================
