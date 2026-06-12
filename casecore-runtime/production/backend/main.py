@@ -12,6 +12,13 @@ from database import init_db
 from routes import cases, weapons, strategies, coas, documents, deposition, case_authority, actors, interviews, legal_library, timeline, analysis
 from seed_data import seed_initial_data
 
+# Register the contract-aligned core_models tables (CoreCase + Wave 1/2) in the
+# shared Base.metadata. The legacy EvidenceReference FK-references
+# interview_sessions (a core_models table); without this import that table is
+# never registered and startup fails with NoReferencedTableError. This is the
+# first step of converging the two model layers onto core_models as canonical.
+import core_models  # noqa: F401,E402
+
 # Frontend URL — set via Render env var, defaults to localhost for dev
 FRONTEND_URL = os.getenv("FRONTEND_URL", "http://localhost:5173")
 

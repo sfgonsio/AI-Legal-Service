@@ -564,7 +564,9 @@ class EvidenceReference(Base):
     source_type = Column(String(50), nullable=False, index=True)
     # document | interview_session | deposition | email
     source_document_id = Column(Integer, ForeignKey("documents.id"), nullable=True, index=True)
-    source_interview_session_id = Column(Integer, ForeignKey("interview_sessions.id"), nullable=True, index=True)
+    # interview_sessions.id is a String(36) UUID (core_models); the FK type must
+    # match the target PK or the schema is inconsistent (was Integer — a bug).
+    source_interview_session_id = Column(String(36), ForeignKey("interview_sessions.id"), nullable=True, index=True)
 
     # Exact location in source
     page_number = Column(Integer, nullable=True)
