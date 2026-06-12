@@ -15,6 +15,7 @@ import email
 import html
 import io
 import re
+import subprocess
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Optional
@@ -110,6 +111,19 @@ def _extract_av(path: str) -> ExtractionResult:
         return ExtractionResult(
             text="", char_count=0, engine=None, status="OCR_REQUIRED",
             confidence=0.0, notes=str(e),
+        )
+    except subprocess.CalledProcessError as e:
+        stderr = (e.stderr or b"").decode("utf-8", errors="replace")
+        if "does not contain any stream" in stderr or "Invalid argument" in stderr:
+            return ExtractionResult(
+                text="", char_count=0, engine="whisper",
+                status="OCR_REQUIRED", confidence=0.0,
+                notes="video-only file: no audio stream to transcribe",
+            )
+        return ExtractionResult(
+            text="", char_count=0, engine="whisper",
+            status="EXTRACTION_FAILED", confidence=0.0,
+            notes=f"ffmpeg error (rc={e.returncode}): {stderr[:150]}",
         )
     except Exception as e:
         return ExtractionResult(
